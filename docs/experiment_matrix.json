@@ -1,0 +1,671 @@
+{
+  "matrix_version": 1,
+  "status": "locked_plan",
+  "locked_on_local_date": "2026-11-04",
+  "timezone": "Asia/Saigon",
+  "purpose": "Zero-shot pretrained system comparison before aggregate failure analysis and probing",
+  "is_executable_cli_config": false,
+  "models": [
+    {
+      "id": "M1",
+      "name": "OpenAI CLIP ViT-B/32",
+      "adapter_status": "implemented",
+      "library": "open_clip_torch",
+      "architecture": "ViT-B-32",
+      "pretrained": "openai",
+      "activation": "QuickGELU",
+      "embedding_dim_expected": 512,
+      "image_size": 224,
+      "text_context_length": 77,
+      "image_batch_size_initial": 32,
+      "checkpoint": {
+        "url": "https://openaipublic.azureedge.net/clip/models/40d365715913c9da98579312b702a82c18be219cc2a73407c4526f58eba950af/ViT-B-32.pt",
+        "filename": "ViT-B-32.pt",
+        "sha256": "40d365715913c9da98579312b702a82c18be219cc2a73407c4526f58eba950af",
+        "verification": "local checkpoint verified by completed baseline runs"
+      }
+    },
+    {
+      "id": "M2",
+      "name": "LAION CLIP ViT-B/32",
+      "adapter_status": "planned",
+      "library": "open_clip_torch",
+      "architecture": "ViT-B-32",
+      "pretrained": "laion2b_s34b_b79k",
+      "activation": "GELU",
+      "embedding_dim_expected": 512,
+      "image_size": 224,
+      "text_context_length": 77,
+      "image_batch_size_initial": 32,
+      "checkpoint": {
+        "repo_id": "laion/CLIP-ViT-B-32-laion2B-s34B-b79K",
+        "revision": "1a25a446712ba5ee05982a381eed697ef9b435cf",
+        "weights": {
+          "filename": "open_clip_model.safetensors",
+          "sha256": "ac4f8c4b88af6d963118cbf40ad93176d092abbedfcb752601ae1866352656e6",
+          "size_bytes": 605143316,
+          "verification": "publisher_lfs_metadata_only; verify actual bytes on download"
+        },
+        "supporting_files": {
+          "open_clip_config.json": {
+            "sha256": "4302a891b495ad0966d1e7eeff102b5f34a3f1e647e57a9198933f862d5f8ba7",
+            "size_bytes": 604,
+            "json": {
+              "model_cfg": {
+                "embed_dim": 512,
+                "vision_cfg": {
+                  "image_size": 224,
+                  "layers": 12,
+                  "width": 768,
+                  "patch_size": 32
+                },
+                "text_cfg": {
+                  "context_length": 77,
+                  "vocab_size": 49408,
+                  "width": 512,
+                  "heads": 8,
+                  "layers": 12
+                }
+              },
+              "preprocess_cfg": {
+                "mean": [
+                  0.48145466,
+                  0.4578275,
+                  0.40821073
+                ],
+                "std": [
+                  0.26862954,
+                  0.26130258,
+                  0.27577711
+                ]
+              }
+            }
+          }
+        }
+      }
+    },
+    {
+      "id": "M3",
+      "name": "SigLIP Base patch16 224",
+      "adapter_status": "planned",
+      "library": "transformers",
+      "architecture": "SiglipModel",
+      "embedding_dim_expected": 768,
+      "image_size": 224,
+      "text_context_length": 64,
+      "text_padding": "max_length",
+      "attention_implementation": "eager",
+      "image_batch_size_initial": 16,
+      "checkpoint": {
+        "repo_id": "google/siglip-base-patch16-224",
+        "revision": "7fd15f0689c79d79e38b1c2e2e2370a7bf2761ed",
+        "weights": {
+          "filename": "model.safetensors",
+          "sha256": "2c63cb7d1f2e95ba501893cbb8faeb4ea9a3af295498d35097126228659c2af8",
+          "size_bytes": 812672320,
+          "verification": "publisher_lfs_metadata_only; verify actual bytes on download"
+        },
+        "supporting_files": {
+          "config.json": {
+            "sha256": "cd85b3d28829722820bcb89a2cfbb4160e55fd359249a3044da724166a8d9688",
+            "size_bytes": 432,
+            "json": {
+              "architectures": [
+                "SiglipModel"
+              ],
+              "initializer_factor": 1.0,
+              "model_type": "siglip",
+              "text_config": {
+                "hidden_size": 768,
+                "intermediate_size": 3072,
+                "model_type": "siglip_text_model",
+                "num_attention_heads": 12,
+                "vocab_size": 32000
+              },
+              "torch_dtype": "float32",
+              "transformers_version": "4.37.0.dev0",
+              "vision_config": {
+                "model_type": "siglip_vision_model",
+                "patch_size": 16
+              }
+            }
+          },
+          "preprocessor_config.json": {
+            "sha256": "d11ccb80f15d358a11bdb070e92e2d889005874b7db15823d5f10d9b2533b14a",
+            "size_bytes": 368,
+            "json": {
+              "do_normalize": true,
+              "do_rescale": true,
+              "do_resize": true,
+              "image_mean": [
+                0.5,
+                0.5,
+                0.5
+              ],
+              "image_processor_type": "SiglipImageProcessor",
+              "image_std": [
+                0.5,
+                0.5,
+                0.5
+              ],
+              "processor_class": "SiglipProcessor",
+              "resample": 3,
+              "rescale_factor": 0.00392156862745098,
+              "size": {
+                "height": 224,
+                "width": 224
+              }
+            }
+          },
+          "tokenizer_config.json": {
+            "sha256": "d6423dae508cc3a129d22ea443841c111832a1a73125b8f25ea8736951698bcb",
+            "size_bytes": 711,
+            "json": {
+              "added_tokens_decoder": {
+                "1": {
+                  "content": "</s>",
+                  "lstrip": true,
+                  "normalized": false,
+                  "rstrip": true,
+                  "single_word": false,
+                  "special": true
+                },
+                "2": {
+                  "content": "<unk>",
+                  "lstrip": true,
+                  "normalized": false,
+                  "rstrip": true,
+                  "single_word": false,
+                  "special": true
+                }
+              },
+              "additional_special_tokens": [],
+              "clean_up_tokenization_spaces": true,
+              "do_lower_case": true,
+              "eos_token": "</s>",
+              "model_input_names": [
+                "input_ids"
+              ],
+              "model_max_length": 64,
+              "pad_token": "</s>",
+              "processor_class": "SiglipProcessor",
+              "sp_model_kwargs": {},
+              "tokenizer_class": "SiglipTokenizer",
+              "unk_token": "<unk>"
+            }
+          },
+          "special_tokens_map.json": {
+            "sha256": "2b6a1ff67a27e0df9ac0c7d93250fc0d87431c7b366b3d5669217104f9088a26",
+            "size_bytes": 409,
+            "json": {
+              "eos_token": {
+                "content": "</s>",
+                "lstrip": true,
+                "normalized": false,
+                "rstrip": true,
+                "single_word": false
+              },
+              "pad_token": {
+                "content": "</s>",
+                "lstrip": true,
+                "normalized": false,
+                "rstrip": true,
+                "single_word": false
+              },
+              "unk_token": {
+                "content": "<unk>",
+                "lstrip": true,
+                "normalized": false,
+                "rstrip": true,
+                "single_word": false
+              }
+            }
+          },
+          "tokenizer.json": {
+            "sha256": "c6e405cb7c670d56636a9402c81023a55bc6c3c53d89cf02b92f5c5005bfe920",
+            "size_bytes": 2399357
+          }
+        }
+      }
+    }
+  ],
+  "datasets": [
+    {
+      "id": "D1",
+      "name": "CIFAR100",
+      "adapter_status": "implemented",
+      "num_classes": 100,
+      "num_test_samples": 10000,
+      "split": "test",
+      "target": "fine",
+      "samples_per_class": 100,
+      "order": "torchvision official test array order",
+      "prompt_template": "a photo of a {class}.",
+      "sources": [
+        {
+          "url": "https://dataset.bj.bcebos.com/cifar/cifar-100-python.tar.gz",
+          "filename": "cifar-100-python.tar.gz",
+          "md5": "eb9058c3a382ffc7106e4002c42a8d85"
+        }
+      ]
+    },
+    {
+      "id": "D2",
+      "name": "Flowers102",
+      "adapter_status": "implemented",
+      "num_classes": 102,
+      "num_test_samples": 6149,
+      "split": "test",
+      "split_key": "tstid",
+      "samples_per_class": null,
+      "order": "setid.mat:tstid order",
+      "prompt_template": "a photo of a {class}.",
+      "sources": [
+        {
+          "url": "https://paddlemodels.bj.bcebos.com/flowers/102flowers.tgz",
+          "filename": "102flowers.tgz",
+          "md5": "52808999861908f626f3c1f4e79d11fa"
+        },
+        {
+          "url": "https://paddlemodels.bj.bcebos.com/flowers/imagelabels.mat",
+          "filename": "imagelabels.mat",
+          "md5": "e0620be6f572b9609742df49c70aed4d"
+        },
+        {
+          "url": "https://paddlemodels.bj.bcebos.com/flowers/setid.mat",
+          "filename": "setid.mat",
+          "md5": "a5357ecc9cb78c4bef273ce3793fc85c"
+        }
+      ]
+    },
+    {
+      "id": "D3",
+      "name": "OxfordIIITPet",
+      "adapter_status": "planned",
+      "num_classes": 37,
+      "num_test_samples": 3669,
+      "split": "test",
+      "target_types": "category",
+      "samples_per_class": null,
+      "order": "annotations/test.txt order; original label minus one",
+      "prompt_template": "a photo of a {class}.",
+      "sources": [
+        {
+          "url": "https://www.robots.ox.ac.uk/~vgg/data/pets/data/images.tar.gz",
+          "filename": "images.tar.gz",
+          "md5": "5c4f3ee8e5d25df40f4fd59a7f44e54c"
+        },
+        {
+          "url": "https://www.robots.ox.ac.uk/~vgg/data/pets/data/annotations.tar.gz",
+          "filename": "annotations.tar.gz",
+          "md5": "95a8c909bbe2e81eed6a22bccdf3f68f"
+        }
+      ],
+      "source_availability": "Oxford HEAD timed out; retry origin or byte-identical checksum-verified archive mirror"
+    },
+    {
+      "id": "D4",
+      "name": "DTD",
+      "adapter_status": "planned",
+      "num_classes": 47,
+      "num_test_samples": 1880,
+      "split": "test",
+      "partition": 1,
+      "target": "primary_texture_category",
+      "samples_per_class": 40,
+      "order": "labels/test1.txt order; classes sorted as torchvision",
+      "prompt_template": "a photo of a {class} texture.",
+      "sources": [
+        {
+          "url": "https://www.robots.ox.ac.uk/~vgg/data/dtd/download/dtd-r1.0.1.tar.gz",
+          "filename": "dtd-r1.0.1.tar.gz",
+          "md5": "fff73e5086ae6bdbea199a49dfb8a4c1"
+        }
+      ],
+      "source_availability": "Oxford HEAD timed out; retry origin or byte-identical checksum-verified archive mirror"
+    },
+    {
+      "id": "D5",
+      "name": "Food101",
+      "adapter_status": "planned",
+      "num_classes": 101,
+      "num_test_samples": 25250,
+      "split": "test",
+      "samples_per_class": 250,
+      "order": "torchvision meta/test.json iteration order; classes sorted as torchvision",
+      "prompt_template": "a photo of a {class}.",
+      "sources": [
+        {
+          "url": "https://data.vision.ee.ethz.ch/cvl/food-101.tar.gz",
+          "filename": "food-101.tar.gz",
+          "md5": "85eeb15f3717b99a5da872d97d918f87",
+          "content_length_bytes_from_head": 4996278331
+        }
+      ],
+      "source_availability": "HEAD 200; archive not downloaded"
+    }
+  ],
+  "protocol": {
+    "runtime_versions_to_preserve": [
+      1,
+      2
+    ],
+    "runtime_version_to_implement_for_new_cells": 3,
+    "environment": "gen",
+    "device": "cuda",
+    "precision": "fp32",
+    "seed": 0,
+    "cpu_threads": 4,
+    "num_workers": 0,
+    "deterministic_algorithms": true,
+    "tf32": false,
+    "training": false,
+    "test_time_augmentation": false,
+    "prompt_ensemble": false,
+    "class_name_policy": "preserve torchvision classes and IDs; replace underscores with spaces only",
+    "scoring": "L2-normalized final dual-encoder features; argmax cosine; lowest class ID on exact ties",
+    "preprocessing": "native evaluation processor and tokenizer of each pinned checkpoint",
+    "selection": "all official test indices; no shuffle; drop_last=False",
+    "smoke_selection": "first 200 official test indices with all class candidates",
+    "metrics": {
+      "primary": "top1_accuracy",
+      "secondary_required": "mean_per_class_accuracy",
+      "supporting": [
+        "per_class_support_correct_accuracy",
+        "confusion_matrix",
+        "evaluation_seconds",
+        "images_per_second",
+        "peak_cuda_memory_allocated_bytes",
+        "wall_seconds"
+      ]
+    },
+    "test_based_selection_allowed": false,
+    "missing_class_accuracy_in_smoke": null,
+    "historical_metrics_policy": "derive macro accuracy from per_class.csv into aggregate report; never mutate historical artifacts",
+    "cross_dataset_summary": "optional unweighted mean of the five dataset top1 accuracies, explicitly labeled; no pooled-image headline"
+  },
+  "resource_budget": {
+    "gpu": "NVIDIA GeForce RTX 4050 Laptop GPU",
+    "gpu_total_mib": 6141,
+    "disk_free_gib_observed_approx": 64.6,
+    "additional_disk_budget_gib": 25,
+    "new_weights_bytes": 1417815636,
+    "gpu_concurrent_runs": 1,
+    "oom_image_batch_ladder": [
+      32,
+      16,
+      8,
+      4,
+      1
+    ],
+    "m3_ladder_start": 16,
+    "silent_precision_change_allowed": false,
+    "silent_cpu_fallback_allowed": false,
+    "estimated_operational_hours_after_adapters_ready": [
+      2,
+      4
+    ],
+    "time_estimate_is_measured": false,
+    "time_estimate_excludes": "adapter implementation/debugging; prolonged source outages",
+    "update_eta_from": "measured preparation time and smoke throughput for each new model/dataset"
+  },
+  "cells": [
+    {
+      "id": "M1_D1",
+      "model_id": "M1",
+      "dataset_id": "D1",
+      "num_full_samples": 10000,
+      "num_candidate_classes": 100,
+      "prompt_template": "a photo of a {class}.",
+      "full_repetitions": 1,
+      "status": "completed",
+      "existing_config": "configs/clip_b32_cifar100.json",
+      "existing_run": "results/full_cifar100_clip_b32_refactor",
+      "existing_manifest_sha256": "1e12306c12f76a7dbbbd483bc385dcd247e7d62ebb1f81f0bbdf3d8ab123e6fd",
+      "runtime_protocol_version": 1,
+      "top1_accuracy_percent": 64.48,
+      "execution_order": null
+    },
+    {
+      "id": "M1_D2",
+      "model_id": "M1",
+      "dataset_id": "D2",
+      "num_full_samples": 6149,
+      "num_candidate_classes": 102,
+      "prompt_template": "a photo of a {class}.",
+      "full_repetitions": 1,
+      "status": "completed",
+      "existing_config": "configs/clip_b32_flowers102.json",
+      "existing_run": "results/full_flowers102_clip_b32_v2",
+      "existing_manifest_sha256": "180e74dad695190c52c5ca72e6710947844a3d34757fe9543eaf268e1979e1c7",
+      "runtime_protocol_version": 2,
+      "top1_accuracy_percent": 63.76646609204749,
+      "execution_order": null
+    },
+    {
+      "id": "M1_D3",
+      "model_id": "M1",
+      "dataset_id": "D3",
+      "num_full_samples": 3669,
+      "num_candidate_classes": 37,
+      "prompt_template": "a photo of a {class}.",
+      "full_repetitions": 1,
+      "status": "planned",
+      "existing_config": null,
+      "existing_run": null,
+      "runtime_protocol_version": 3,
+      "execution_order": 5,
+      "smoke_samples": 200,
+      "top1_accuracy_percent": null
+    },
+    {
+      "id": "M1_D4",
+      "model_id": "M1",
+      "dataset_id": "D4",
+      "num_full_samples": 1880,
+      "num_candidate_classes": 47,
+      "prompt_template": "a photo of a {class} texture.",
+      "full_repetitions": 1,
+      "status": "planned",
+      "existing_config": null,
+      "existing_run": null,
+      "runtime_protocol_version": 3,
+      "execution_order": 8,
+      "smoke_samples": 200,
+      "top1_accuracy_percent": null
+    },
+    {
+      "id": "M1_D5",
+      "model_id": "M1",
+      "dataset_id": "D5",
+      "num_full_samples": 25250,
+      "num_candidate_classes": 101,
+      "prompt_template": "a photo of a {class}.",
+      "full_repetitions": 1,
+      "status": "planned",
+      "existing_config": null,
+      "existing_run": null,
+      "runtime_protocol_version": 3,
+      "execution_order": 11,
+      "smoke_samples": 200,
+      "top1_accuracy_percent": null
+    },
+    {
+      "id": "M2_D1",
+      "model_id": "M2",
+      "dataset_id": "D1",
+      "num_full_samples": 10000,
+      "num_candidate_classes": 100,
+      "prompt_template": "a photo of a {class}.",
+      "full_repetitions": 1,
+      "status": "planned",
+      "existing_config": null,
+      "existing_run": null,
+      "runtime_protocol_version": 3,
+      "execution_order": 1,
+      "smoke_samples": 200,
+      "top1_accuracy_percent": null
+    },
+    {
+      "id": "M2_D2",
+      "model_id": "M2",
+      "dataset_id": "D2",
+      "num_full_samples": 6149,
+      "num_candidate_classes": 102,
+      "prompt_template": "a photo of a {class}.",
+      "full_repetitions": 1,
+      "status": "planned",
+      "existing_config": null,
+      "existing_run": null,
+      "runtime_protocol_version": 3,
+      "execution_order": 2,
+      "smoke_samples": 200,
+      "top1_accuracy_percent": null
+    },
+    {
+      "id": "M2_D3",
+      "model_id": "M2",
+      "dataset_id": "D3",
+      "num_full_samples": 3669,
+      "num_candidate_classes": 37,
+      "prompt_template": "a photo of a {class}.",
+      "full_repetitions": 1,
+      "status": "planned",
+      "existing_config": null,
+      "existing_run": null,
+      "runtime_protocol_version": 3,
+      "execution_order": 6,
+      "smoke_samples": 200,
+      "top1_accuracy_percent": null
+    },
+    {
+      "id": "M2_D4",
+      "model_id": "M2",
+      "dataset_id": "D4",
+      "num_full_samples": 1880,
+      "num_candidate_classes": 47,
+      "prompt_template": "a photo of a {class} texture.",
+      "full_repetitions": 1,
+      "status": "planned",
+      "existing_config": null,
+      "existing_run": null,
+      "runtime_protocol_version": 3,
+      "execution_order": 9,
+      "smoke_samples": 200,
+      "top1_accuracy_percent": null
+    },
+    {
+      "id": "M2_D5",
+      "model_id": "M2",
+      "dataset_id": "D5",
+      "num_full_samples": 25250,
+      "num_candidate_classes": 101,
+      "prompt_template": "a photo of a {class}.",
+      "full_repetitions": 1,
+      "status": "planned",
+      "existing_config": null,
+      "existing_run": null,
+      "runtime_protocol_version": 3,
+      "execution_order": 12,
+      "smoke_samples": 200,
+      "top1_accuracy_percent": null
+    },
+    {
+      "id": "M3_D1",
+      "model_id": "M3",
+      "dataset_id": "D1",
+      "num_full_samples": 10000,
+      "num_candidate_classes": 100,
+      "prompt_template": "a photo of a {class}.",
+      "full_repetitions": 1,
+      "status": "planned",
+      "existing_config": null,
+      "existing_run": null,
+      "runtime_protocol_version": 3,
+      "execution_order": 3,
+      "smoke_samples": 200,
+      "top1_accuracy_percent": null
+    },
+    {
+      "id": "M3_D2",
+      "model_id": "M3",
+      "dataset_id": "D2",
+      "num_full_samples": 6149,
+      "num_candidate_classes": 102,
+      "prompt_template": "a photo of a {class}.",
+      "full_repetitions": 1,
+      "status": "planned",
+      "existing_config": null,
+      "existing_run": null,
+      "runtime_protocol_version": 3,
+      "execution_order": 4,
+      "smoke_samples": 200,
+      "top1_accuracy_percent": null
+    },
+    {
+      "id": "M3_D3",
+      "model_id": "M3",
+      "dataset_id": "D3",
+      "num_full_samples": 3669,
+      "num_candidate_classes": 37,
+      "prompt_template": "a photo of a {class}.",
+      "full_repetitions": 1,
+      "status": "planned",
+      "existing_config": null,
+      "existing_run": null,
+      "runtime_protocol_version": 3,
+      "execution_order": 7,
+      "smoke_samples": 200,
+      "top1_accuracy_percent": null
+    },
+    {
+      "id": "M3_D4",
+      "model_id": "M3",
+      "dataset_id": "D4",
+      "num_full_samples": 1880,
+      "num_candidate_classes": 47,
+      "prompt_template": "a photo of a {class} texture.",
+      "full_repetitions": 1,
+      "status": "planned",
+      "existing_config": null,
+      "existing_run": null,
+      "runtime_protocol_version": 3,
+      "execution_order": 10,
+      "smoke_samples": 200,
+      "top1_accuracy_percent": null
+    },
+    {
+      "id": "M3_D5",
+      "model_id": "M3",
+      "dataset_id": "D5",
+      "num_full_samples": 25250,
+      "num_candidate_classes": 101,
+      "prompt_template": "a photo of a {class}.",
+      "full_repetitions": 1,
+      "status": "planned",
+      "existing_config": null,
+      "existing_run": null,
+      "runtime_protocol_version": 3,
+      "execution_order": 13,
+      "smoke_samples": 200,
+      "top1_accuracy_percent": null
+    }
+  ],
+  "totals": {
+    "models": 3,
+    "datasets": 5,
+    "full_cells": 15,
+    "completed_full_cells": 2,
+    "planned_full_cells": 13,
+    "images_per_model": 46948,
+    "full_image_evaluations": 140844,
+    "remaining_full_image_evaluations": 124695,
+    "minimum_new_smoke_image_evaluations": 2600
+  },
+  "references": [
+    "docs/experiment_matrix.md",
+    "docs/references/model_metadata_lock.json",
+    "docs/references/local_implementation_lock.json",
+    "docs/references/dataset_source_checks.json"
+  ]
+}

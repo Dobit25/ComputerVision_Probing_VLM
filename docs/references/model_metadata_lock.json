@@ -1,0 +1,184 @@
+{
+  "verified_on_local_date": "2026-11-04",
+  "timezone": "Asia/Saigon",
+  "purpose": "Planning lock; no new model weights downloaded or evaluated",
+  "models": [
+    {
+      "repo_id": "laion/CLIP-ViT-B-32-laion2B-s34B-b79K",
+      "revision": "1a25a446712ba5ee05982a381eed697ef9b435cf",
+      "weights": {
+        "filename": "open_clip_model.safetensors",
+        "sha256": "ac4f8c4b88af6d963118cbf40ad93176d092abbedfcb752601ae1866352656e6",
+        "size_bytes": 605143316,
+        "verification": "publisher_lfs_metadata_only; verify actual bytes on download"
+      },
+      "supporting_files": {
+        "open_clip_config.json": {
+          "sha256": "4302a891b495ad0966d1e7eeff102b5f34a3f1e647e57a9198933f862d5f8ba7",
+          "size_bytes": 604,
+          "json": {
+            "model_cfg": {
+              "embed_dim": 512,
+              "vision_cfg": {
+                "image_size": 224,
+                "layers": 12,
+                "width": 768,
+                "patch_size": 32
+              },
+              "text_cfg": {
+                "context_length": 77,
+                "vocab_size": 49408,
+                "width": 512,
+                "heads": 8,
+                "layers": 12
+              }
+            },
+            "preprocess_cfg": {
+              "mean": [
+                0.48145466,
+                0.4578275,
+                0.40821073
+              ],
+              "std": [
+                0.26862954,
+                0.26130258,
+                0.27577711
+              ]
+            }
+          }
+        }
+      }
+    },
+    {
+      "repo_id": "google/siglip-base-patch16-224",
+      "revision": "7fd15f0689c79d79e38b1c2e2e2370a7bf2761ed",
+      "weights": {
+        "filename": "model.safetensors",
+        "sha256": "2c63cb7d1f2e95ba501893cbb8faeb4ea9a3af295498d35097126228659c2af8",
+        "size_bytes": 812672320,
+        "verification": "publisher_lfs_metadata_only; verify actual bytes on download"
+      },
+      "supporting_files": {
+        "config.json": {
+          "sha256": "cd85b3d28829722820bcb89a2cfbb4160e55fd359249a3044da724166a8d9688",
+          "size_bytes": 432,
+          "json": {
+            "architectures": [
+              "SiglipModel"
+            ],
+            "initializer_factor": 1.0,
+            "model_type": "siglip",
+            "text_config": {
+              "hidden_size": 768,
+              "intermediate_size": 3072,
+              "model_type": "siglip_text_model",
+              "num_attention_heads": 12,
+              "vocab_size": 32000
+            },
+            "torch_dtype": "float32",
+            "transformers_version": "4.37.0.dev0",
+            "vision_config": {
+              "model_type": "siglip_vision_model",
+              "patch_size": 16
+            }
+          }
+        },
+        "preprocessor_config.json": {
+          "sha256": "d11ccb80f15d358a11bdb070e92e2d889005874b7db15823d5f10d9b2533b14a",
+          "size_bytes": 368,
+          "json": {
+            "do_normalize": true,
+            "do_rescale": true,
+            "do_resize": true,
+            "image_mean": [
+              0.5,
+              0.5,
+              0.5
+            ],
+            "image_processor_type": "SiglipImageProcessor",
+            "image_std": [
+              0.5,
+              0.5,
+              0.5
+            ],
+            "processor_class": "SiglipProcessor",
+            "resample": 3,
+            "rescale_factor": 0.00392156862745098,
+            "size": {
+              "height": 224,
+              "width": 224
+            }
+          }
+        },
+        "tokenizer_config.json": {
+          "sha256": "d6423dae508cc3a129d22ea443841c111832a1a73125b8f25ea8736951698bcb",
+          "size_bytes": 711,
+          "json": {
+            "added_tokens_decoder": {
+              "1": {
+                "content": "</s>",
+                "lstrip": true,
+                "normalized": false,
+                "rstrip": true,
+                "single_word": false,
+                "special": true
+              },
+              "2": {
+                "content": "<unk>",
+                "lstrip": true,
+                "normalized": false,
+                "rstrip": true,
+                "single_word": false,
+                "special": true
+              }
+            },
+            "additional_special_tokens": [],
+            "clean_up_tokenization_spaces": true,
+            "do_lower_case": true,
+            "eos_token": "</s>",
+            "model_input_names": [
+              "input_ids"
+            ],
+            "model_max_length": 64,
+            "pad_token": "</s>",
+            "processor_class": "SiglipProcessor",
+            "sp_model_kwargs": {},
+            "tokenizer_class": "SiglipTokenizer",
+            "unk_token": "<unk>"
+          }
+        },
+        "special_tokens_map.json": {
+          "sha256": "2b6a1ff67a27e0df9ac0c7d93250fc0d87431c7b366b3d5669217104f9088a26",
+          "size_bytes": 409,
+          "json": {
+            "eos_token": {
+              "content": "</s>",
+              "lstrip": true,
+              "normalized": false,
+              "rstrip": true,
+              "single_word": false
+            },
+            "pad_token": {
+              "content": "</s>",
+              "lstrip": true,
+              "normalized": false,
+              "rstrip": true,
+              "single_word": false
+            },
+            "unk_token": {
+              "content": "<unk>",
+              "lstrip": true,
+              "normalized": false,
+              "rstrip": true,
+              "single_word": false
+            }
+          }
+        },
+        "tokenizer.json": {
+          "sha256": "c6e405cb7c670d56636a9402c81023a55bc6c3c53d89cf02b92f5c5005bfe920",
+          "size_bytes": 2399357
+        }
+      }
+    }
+  ]
+}

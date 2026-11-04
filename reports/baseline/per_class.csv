@@ -1,0 +1,388 @@
+dataset,class_id,class_name,support,correct,accuracy_percent
+CIFAR-100,0,apple,100,88,88.0
+CIFAR-100,1,aquarium_fish,100,57,56.99999999999999
+CIFAR-100,2,baby,100,74,74.0
+CIFAR-100,3,bear,100,57,56.99999999999999
+CIFAR-100,4,beaver,100,31,31.0
+CIFAR-100,5,bed,100,70,70.0
+CIFAR-100,6,bee,100,72,72.0
+CIFAR-100,7,beetle,100,57,56.99999999999999
+CIFAR-100,8,bicycle,100,88,88.0
+CIFAR-100,9,bottle,100,92,92.0
+CIFAR-100,10,bowl,100,34,34.0
+CIFAR-100,11,boy,100,78,78.0
+CIFAR-100,12,bridge,100,77,77.0
+CIFAR-100,13,bus,100,70,70.0
+CIFAR-100,14,butterfly,100,62,62.0
+CIFAR-100,15,camel,100,80,80.0
+CIFAR-100,16,can,100,80,80.0
+CIFAR-100,17,castle,100,72,72.0
+CIFAR-100,18,caterpillar,100,31,31.0
+CIFAR-100,19,cattle,100,89,89.0
+CIFAR-100,20,chair,100,95,95.0
+CIFAR-100,21,chimpanzee,100,84,84.0
+CIFAR-100,22,clock,100,80,80.0
+CIFAR-100,23,cloud,100,57,56.99999999999999
+CIFAR-100,24,cockroach,100,63,63.0
+CIFAR-100,25,couch,100,59,59.0
+CIFAR-100,26,crab,100,64,64.0
+CIFAR-100,27,crocodile,100,25,25.0
+CIFAR-100,28,cup,100,59,59.0
+CIFAR-100,29,dinosaur,100,67,67.0
+CIFAR-100,30,dolphin,100,63,63.0
+CIFAR-100,31,elephant,100,81,81.0
+CIFAR-100,32,flatfish,100,56,56.00000000000001
+CIFAR-100,33,forest,100,51,51.0
+CIFAR-100,34,fox,100,70,70.0
+CIFAR-100,35,girl,100,73,73.0
+CIFAR-100,36,hamster,100,77,77.0
+CIFAR-100,37,house,100,86,86.0
+CIFAR-100,38,kangaroo,100,76,76.0
+CIFAR-100,39,keyboard,100,85,85.0
+CIFAR-100,40,lamp,100,76,76.0
+CIFAR-100,41,lawn_mower,100,97,97.0
+CIFAR-100,42,leopard,100,25,25.0
+CIFAR-100,43,lion,100,75,75.0
+CIFAR-100,44,lizard,100,38,38.0
+CIFAR-100,45,lobster,100,17,17.0
+CIFAR-100,46,man,100,59,59.0
+CIFAR-100,47,maple_tree,100,52,52.0
+CIFAR-100,48,motorcycle,100,85,85.0
+CIFAR-100,49,mountain,100,94,94.0
+CIFAR-100,50,mouse,100,23,23.0
+CIFAR-100,51,mushroom,100,67,67.0
+CIFAR-100,52,oak_tree,100,43,43.0
+CIFAR-100,53,orange,100,91,91.0
+CIFAR-100,54,orchid,100,78,78.0
+CIFAR-100,55,otter,100,12,12.0
+CIFAR-100,56,palm_tree,100,94,94.0
+CIFAR-100,57,pear,100,72,72.0
+CIFAR-100,58,pickup_truck,100,92,92.0
+CIFAR-100,59,pine_tree,100,83,83.0
+CIFAR-100,60,plain,100,73,73.0
+CIFAR-100,61,plate,100,76,76.0
+CIFAR-100,62,poppy,100,63,63.0
+CIFAR-100,63,porcupine,100,19,19.0
+CIFAR-100,64,possum,100,28,28.000000000000004
+CIFAR-100,65,rabbit,100,70,70.0
+CIFAR-100,66,raccoon,100,47,47.0
+CIFAR-100,67,ray,100,5,5.0
+CIFAR-100,68,road,100,97,97.0
+CIFAR-100,69,rocket,100,92,92.0
+CIFAR-100,70,rose,100,62,62.0
+CIFAR-100,71,sea,100,78,78.0
+CIFAR-100,72,seal,100,39,39.0
+CIFAR-100,73,shark,100,47,47.0
+CIFAR-100,74,shrew,100,43,43.0
+CIFAR-100,75,skunk,100,73,73.0
+CIFAR-100,76,skyscraper,100,81,81.0
+CIFAR-100,77,snail,100,56,56.00000000000001
+CIFAR-100,78,snake,100,65,65.0
+CIFAR-100,79,spider,100,55,55.00000000000001
+CIFAR-100,80,squirrel,100,46,46.0
+CIFAR-100,81,streetcar,100,60,60.0
+CIFAR-100,82,sunflower,100,93,93.0
+CIFAR-100,83,sweet_pepper,100,63,63.0
+CIFAR-100,84,table,100,69,69.0
+CIFAR-100,85,tank,100,77,77.0
+CIFAR-100,86,telephone,100,76,76.0
+CIFAR-100,87,television,100,81,81.0
+CIFAR-100,88,tiger,100,46,46.0
+CIFAR-100,89,tractor,100,69,69.0
+CIFAR-100,90,train,100,92,92.0
+CIFAR-100,91,trout,100,25,25.0
+CIFAR-100,92,tulip,100,83,83.0
+CIFAR-100,93,turtle,100,37,37.0
+CIFAR-100,94,wardrobe,100,85,85.0
+CIFAR-100,95,whale,100,60,60.0
+CIFAR-100,96,willow_tree,100,36,36.0
+CIFAR-100,97,wolf,100,57,56.99999999999999
+CIFAR-100,98,woman,100,62,62.0
+CIFAR-100,99,worm,100,59,59.0
+Flowers102,0,pink primrose,20,9,45.0
+Flowers102,1,hard-leaved pocket orchid,40,19,47.5
+Flowers102,2,canterbury bells,20,7,35.0
+Flowers102,3,sweet pea,36,18,50.0
+Flowers102,4,english marigold,45,23,51.11111111111111
+Flowers102,5,tiger lily,25,25,100.0
+Flowers102,6,moon orchid,20,10,50.0
+Flowers102,7,bird of paradise,65,63,96.92307692307692
+Flowers102,8,monkshood,26,25,96.15384615384616
+Flowers102,9,globe thistle,25,25,100.0
+Flowers102,10,snapdragon,67,53,79.1044776119403
+Flowers102,11,colt's foot,67,59,88.05970149253731
+Flowers102,12,king protea,29,29,100.0
+Flowers102,13,spear thistle,28,28,100.0
+Flowers102,14,yellow iris,29,29,100.0
+Flowers102,15,globe-flower,21,1,4.761904761904762
+Flowers102,16,purple coneflower,65,62,95.38461538461539
+Flowers102,17,peruvian lily,62,58,93.54838709677419
+Flowers102,18,balloon flower,29,23,79.3103448275862
+Flowers102,19,giant white arum lily,36,34,94.44444444444444
+Flowers102,20,fire lily,20,11,55.00000000000001
+Flowers102,21,pincushion flower,39,28,71.7948717948718
+Flowers102,22,fritillary,71,56,78.87323943661971
+Flowers102,23,red ginger,22,4,18.181818181818183
+Flowers102,24,grape hyacinth,21,21,100.0
+Flowers102,25,corn poppy,21,19,90.47619047619048
+Flowers102,26,prince of wales feathers,20,0,0.0
+Flowers102,27,stemless gentian,46,45,97.82608695652173
+Flowers102,28,artichoke,58,35,60.3448275862069
+Flowers102,29,sweet william,65,42,64.61538461538461
+Flowers102,30,carnation,32,31,96.875
+Flowers102,31,garden phlox,25,19,76.0
+Flowers102,32,love in the mist,26,0,0.0
+Flowers102,33,mexican aster,20,11,55.00000000000001
+Flowers102,34,alpine sea holly,23,15,65.21739130434783
+Flowers102,35,ruby-lipped cattleya,55,51,92.72727272727272
+Flowers102,36,cape flower,88,0,0.0
+Flowers102,37,great masterwort,36,0,0.0
+Flowers102,38,siam tulip,21,10,47.61904761904761
+Flowers102,39,lenten rose,47,46,97.87234042553192
+Flowers102,40,barbeton daisy,107,47,43.925233644859816
+Flowers102,41,daffodil,39,38,97.43589743589743
+Flowers102,42,sword lily,110,2,1.8181818181818181
+Flowers102,43,poinsettia,73,72,98.63013698630137
+Flowers102,44,bolero deep blue,20,0,0.0
+Flowers102,45,wallflower,176,70,39.77272727272727
+Flowers102,46,marigold,47,0,0.0
+Flowers102,47,buttercup,51,51,100.0
+Flowers102,48,oxeye daisy,29,10,34.48275862068966
+Flowers102,49,common dandelion,72,41,56.94444444444444
+Flowers102,50,petunia,238,9,3.7815126050420167
+Flowers102,51,wild pansy,65,16,24.615384615384617
+Flowers102,52,primula,73,55,75.34246575342466
+Flowers102,53,sunflower,41,41,100.0
+Flowers102,54,pelargonium,51,0,0.0
+Flowers102,55,bishop of llandaff,89,0,0.0
+Flowers102,56,gaura,47,45,95.74468085106383
+Flowers102,57,geranium,94,5,5.319148936170213
+Flowers102,58,orange dahlia,47,37,78.72340425531915
+Flowers102,59,pink-yellow dahlia?,89,85,95.50561797752809
+Flowers102,60,cautleya spicata,30,30,100.0
+Flowers102,61,japanese anemone,35,29,82.85714285714286
+Flowers102,62,black-eyed susan,34,34,100.0
+Flowers102,63,silverbush,32,0,0.0
+Flowers102,64,californian poppy,82,64,78.04878048780488
+Flowers102,65,osteospermum,41,34,82.92682926829268
+Flowers102,66,spring crocus,22,22,100.0
+Flowers102,67,bearded iris,34,24,70.58823529411765
+Flowers102,68,windflower,34,4,11.76470588235294
+Flowers102,69,tree poppy,42,4,9.523809523809524
+Flowers102,70,gazania,58,53,91.37931034482759
+Flowers102,71,azalea,76,53,69.73684210526315
+Flowers102,72,water lily,174,148,85.0574712643678
+Flowers102,73,rose,151,144,95.36423841059603
+Flowers102,74,thorn apple,100,0,0.0
+Flowers102,75,morning glory,87,43,49.42528735632184
+Flowers102,76,passion flower,231,216,93.5064935064935
+Flowers102,77,lotus,117,94,80.34188034188034
+Flowers102,78,toad lily,21,21,100.0
+Flowers102,79,anthurium,85,84,98.82352941176471
+Flowers102,80,frangipani,146,146,100.0
+Flowers102,81,clematis,92,89,96.73913043478261
+Flowers102,82,hibiscus,111,102,91.8918918918919
+Flowers102,83,columbine,66,57,86.36363636363636
+Flowers102,84,desert-rose,43,28,65.11627906976744
+Flowers102,85,tree mallow,38,7,18.421052631578945
+Flowers102,86,magnolia,43,38,88.37209302325581
+Flowers102,87,cyclamen,134,122,91.04477611940298
+Flowers102,88,watercress,164,0,0.0
+Flowers102,89,canna lily,62,46,74.19354838709677
+Flowers102,90,hippeastrum,56,56,100.0
+Flowers102,91,bee balm,46,44,95.65217391304348
+Flowers102,92,ball moss,26,0,0.0
+Flowers102,93,foxglove,142,131,92.25352112676056
+Flowers102,94,bougainvillea,108,81,75.0
+Flowers102,95,camellia,71,60,84.50704225352112
+Flowers102,96,mallow,46,1,2.1739130434782608
+Flowers102,97,mexican petunia,62,46,74.19354838709677
+Flowers102,98,bromelia,43,38,88.37209302325581
+Flowers102,99,blanket flower,29,28,96.55172413793103
+Flowers102,100,trumpet creeper,38,10,26.31578947368421
+Flowers102,101,blackberry lily,28,22,78.57142857142857
+Oxford-IIIT Pet,0,Abyssinian,98,86,87.75510204081633
+Oxford-IIIT Pet,1,American Bulldog,100,98,98.0
+Oxford-IIIT Pet,2,American Pit Bull Terrier,100,70,70.0
+Oxford-IIIT Pet,3,Basset Hound,100,95,95.0
+Oxford-IIIT Pet,4,Beagle,100,81,81.0
+Oxford-IIIT Pet,5,Bengal,100,86,86.0
+Oxford-IIIT Pet,6,Birman,100,94,94.0
+Oxford-IIIT Pet,7,Bombay,88,0,0.0
+Oxford-IIIT Pet,8,Boxer,99,58,58.58585858585859
+Oxford-IIIT Pet,9,British Shorthair,100,81,81.0
+Oxford-IIIT Pet,10,Chihuahua,100,91,91.0
+Oxford-IIIT Pet,11,Egyptian Mau,97,81,83.50515463917526
+Oxford-IIIT Pet,12,English Cocker Spaniel,100,82,82.0
+Oxford-IIIT Pet,13,English Setter,100,96,96.0
+Oxford-IIIT Pet,14,German Shorthaired,100,99,99.0
+Oxford-IIIT Pet,15,Great Pyrenees,100,87,87.0
+Oxford-IIIT Pet,16,Havanese,100,93,93.0
+Oxford-IIIT Pet,17,Japanese Chin,100,94,94.0
+Oxford-IIIT Pet,18,Keeshond,99,97,97.97979797979798
+Oxford-IIIT Pet,19,Leonberger,100,94,94.0
+Oxford-IIIT Pet,20,Maine Coon,100,86,86.0
+Oxford-IIIT Pet,21,Miniature Pinscher,100,99,99.0
+Oxford-IIIT Pet,22,Newfoundland,100,88,88.0
+Oxford-IIIT Pet,23,Persian,100,49,49.0
+Oxford-IIIT Pet,24,Pomeranian,100,97,97.0
+Oxford-IIIT Pet,25,Pug,100,98,98.0
+Oxford-IIIT Pet,26,Ragdoll,100,30,30.0
+Oxford-IIIT Pet,27,Russian Blue,100,93,93.0
+Oxford-IIIT Pet,28,Saint Bernard,100,92,92.0
+Oxford-IIIT Pet,29,Samoyed,100,99,99.0
+Oxford-IIIT Pet,30,Scottish Terrier,99,98,98.98989898989899
+Oxford-IIIT Pet,31,Shiba Inu,100,99,99.0
+Oxford-IIIT Pet,32,Siamese,100,88,88.0
+Oxford-IIIT Pet,33,Sphynx,100,98,98.0
+Oxford-IIIT Pet,34,Staffordshire Bull Terrier,89,55,61.79775280898876
+Oxford-IIIT Pet,35,Wheaten Terrier,100,93,93.0
+Oxford-IIIT Pet,36,Yorkshire Terrier,100,96,96.0
+DTD partition 1,0,banded,40,2,5.0
+DTD partition 1,1,blotchy,40,8,20.0
+DTD partition 1,2,braided,40,18,45.0
+DTD partition 1,3,bubbly,40,37,92.5
+DTD partition 1,4,bumpy,40,2,5.0
+DTD partition 1,5,chequered,40,38,95.0
+DTD partition 1,6,cobwebbed,40,37,92.5
+DTD partition 1,7,cracked,40,18,45.0
+DTD partition 1,8,crosshatched,40,15,37.5
+DTD partition 1,9,crystalline,40,37,92.5
+DTD partition 1,10,dotted,40,2,5.0
+DTD partition 1,11,fibrous,40,17,42.5
+DTD partition 1,12,flecked,40,1,2.5
+DTD partition 1,13,freckled,40,29,72.5
+DTD partition 1,14,frilly,40,24,60.0
+DTD partition 1,15,gauzy,40,6,15.0
+DTD partition 1,16,grid,40,10,25.0
+DTD partition 1,17,grooved,40,4,10.0
+DTD partition 1,18,honeycombed,40,15,37.5
+DTD partition 1,19,interlaced,40,2,5.0
+DTD partition 1,20,knitted,40,38,95.0
+DTD partition 1,21,lacelike,40,0,0.0
+DTD partition 1,22,lined,40,2,5.0
+DTD partition 1,23,marbled,40,23,57.49999999999999
+DTD partition 1,24,matted,40,6,15.0
+DTD partition 1,25,meshed,40,2,5.0
+DTD partition 1,26,paisley,40,40,100.0
+DTD partition 1,27,perforated,40,25,62.5
+DTD partition 1,28,pitted,40,1,2.5
+DTD partition 1,29,pleated,40,26,65.0
+DTD partition 1,30,polka-dotted,40,38,95.0
+DTD partition 1,31,porous,40,22,55.00000000000001
+DTD partition 1,32,potholed,40,18,45.0
+DTD partition 1,33,scaly,40,23,57.49999999999999
+DTD partition 1,34,smeared,40,11,27.500000000000004
+DTD partition 1,35,spiralled,40,14,35.0
+DTD partition 1,36,sprinkled,40,18,45.0
+DTD partition 1,37,stained,40,8,20.0
+DTD partition 1,38,stratified,40,18,45.0
+DTD partition 1,39,striped,40,28,70.0
+DTD partition 1,40,studded,40,35,87.5
+DTD partition 1,41,swirly,40,12,30.0
+DTD partition 1,42,veined,40,7,17.5
+DTD partition 1,43,waffled,40,34,85.0
+DTD partition 1,44,woven,40,14,35.0
+DTD partition 1,45,wrinkled,40,12,30.0
+DTD partition 1,46,zigzagged,40,1,2.5
+Food-101,0,apple_pie,250,142,56.8
+Food-101,1,baby_back_ribs,250,183,73.2
+Food-101,2,baklava,250,212,84.8
+Food-101,3,beef_carpaccio,250,225,90.0
+Food-101,4,beef_tartare,250,202,80.80000000000001
+Food-101,5,beet_salad,250,183,73.2
+Food-101,6,beignets,250,235,94.0
+Food-101,7,bibimbap,250,237,94.8
+Food-101,8,bread_pudding,250,209,83.6
+Food-101,9,breakfast_burrito,250,160,64.0
+Food-101,10,bruschetta,250,199,79.60000000000001
+Food-101,11,caesar_salad,250,237,94.8
+Food-101,12,cannoli,250,217,86.8
+Food-101,13,caprese_salad,250,225,90.0
+Food-101,14,carrot_cake,250,208,83.2
+Food-101,15,ceviche,250,176,70.39999999999999
+Food-101,16,cheese_plate,250,232,92.80000000000001
+Food-101,17,cheesecake,250,171,68.4
+Food-101,18,chicken_curry,250,195,78.0
+Food-101,19,chicken_quesadilla,250,213,85.2
+Food-101,20,chicken_wings,250,226,90.4
+Food-101,21,chocolate_cake,250,187,74.8
+Food-101,22,chocolate_mousse,250,170,68.0
+Food-101,23,churros,250,218,87.2
+Food-101,24,clam_chowder,250,208,83.2
+Food-101,25,club_sandwich,250,242,96.8
+Food-101,26,crab_cakes,250,217,86.8
+Food-101,27,creme_brulee,250,233,93.2
+Food-101,28,croque_madame,250,211,84.39999999999999
+Food-101,29,cup_cakes,250,199,79.60000000000001
+Food-101,30,deviled_eggs,250,227,90.8
+Food-101,31,donuts,250,217,86.8
+Food-101,32,dumplings,250,231,92.4
+Food-101,33,edamame,250,248,99.2
+Food-101,34,eggs_benedict,250,233,93.2
+Food-101,35,escargots,250,185,74.0
+Food-101,36,falafel,250,203,81.2
+Food-101,37,filet_mignon,250,183,73.2
+Food-101,38,fish_and_chips,250,231,92.4
+Food-101,39,foie_gras,250,124,49.6
+Food-101,40,french_fries,250,221,88.4
+Food-101,41,french_onion_soup,250,213,85.2
+Food-101,42,french_toast,250,207,82.8
+Food-101,43,fried_calamari,250,233,93.2
+Food-101,44,fried_rice,250,221,88.4
+Food-101,45,frozen_yogurt,250,240,96.0
+Food-101,46,garlic_bread,250,177,70.8
+Food-101,47,gnocchi,250,181,72.39999999999999
+Food-101,48,greek_salad,250,218,87.2
+Food-101,49,grilled_cheese_sandwich,250,166,66.4
+Food-101,50,grilled_salmon,250,192,76.8
+Food-101,51,guacamole,250,208,83.2
+Food-101,52,gyoza,250,210,84.0
+Food-101,53,hamburger,250,174,69.6
+Food-101,54,hot_and_sour_soup,250,231,92.4
+Food-101,55,hot_dog,250,202,80.80000000000001
+Food-101,56,huevos_rancheros,250,233,93.2
+Food-101,57,hummus,250,199,79.60000000000001
+Food-101,58,ice_cream,250,164,65.60000000000001
+Food-101,59,lasagna,250,144,57.599999999999994
+Food-101,60,lobster_bisque,250,229,91.60000000000001
+Food-101,61,lobster_roll_sandwich,250,236,94.39999999999999
+Food-101,62,macaroni_and_cheese,250,188,75.2
+Food-101,63,macarons,250,241,96.39999999999999
+Food-101,64,miso_soup,250,225,90.0
+Food-101,65,mussels,250,225,90.0
+Food-101,66,nachos,250,221,88.4
+Food-101,67,omelette,250,193,77.2
+Food-101,68,onion_rings,250,174,69.6
+Food-101,69,oysters,250,247,98.8
+Food-101,70,pad_thai,250,245,98.0
+Food-101,71,paella,250,224,89.60000000000001
+Food-101,72,pancakes,250,219,87.6
+Food-101,73,panna_cotta,250,219,87.6
+Food-101,74,peking_duck,250,185,74.0
+Food-101,75,pho,250,237,94.8
+Food-101,76,pizza,250,224,89.60000000000001
+Food-101,77,pork_chop,250,161,64.4
+Food-101,78,poutine,250,232,92.80000000000001
+Food-101,79,prime_rib,250,207,82.8
+Food-101,80,pulled_pork_sandwich,250,228,91.2
+Food-101,81,ramen,250,187,74.8
+Food-101,82,ravioli,250,124,49.6
+Food-101,83,red_velvet_cake,250,215,86.0
+Food-101,84,risotto,250,197,78.8
+Food-101,85,samosa,250,179,71.6
+Food-101,86,sashimi,250,236,94.39999999999999
+Food-101,87,scallops,250,160,64.0
+Food-101,88,seaweed_salad,250,229,91.60000000000001
+Food-101,89,shrimp_and_grits,250,223,89.2
+Food-101,90,spaghetti_bolognese,250,236,94.39999999999999
+Food-101,91,spaghetti_carbonara,250,234,93.60000000000001
+Food-101,92,spring_rolls,250,234,93.60000000000001
+Food-101,93,steak,250,106,42.4
+Food-101,94,strawberry_shortcake,250,178,71.2
+Food-101,95,sushi,250,216,86.4
+Food-101,96,tacos,250,189,75.6
+Food-101,97,takoyaki,250,227,90.8
+Food-101,98,tiramisu,250,198,79.2
+Food-101,99,tuna_tartare,250,166,66.4
+Food-101,100,waffles,250,202,80.80000000000001

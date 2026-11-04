@@ -1,0 +1,6 @@
+dataset,num_classes,num_samples,correct,top1_percent,mean_per_class_percent,run
+CIFAR-100,100,10000,6448,64.48,64.48,full_cifar100_clip_b32_v1
+Flowers102,102,6149,3921,63.76646609204749,64.23377621622875,full_flowers102_clip_b32_v2
+Oxford-IIIT Pet,37,3669,3121,85.0640501499046,84.71928554174421,full_oxford_pet_clip_b32_v3
+DTD partition 1,47,1880,798,42.4468085106383,42.4468085106383,full_dtd_clip_b32_v3
+Food-101,101,25250,20784,82.31287128712871,82.31287128712871,full_food101_clip_b32_v3

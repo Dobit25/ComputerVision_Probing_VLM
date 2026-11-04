@@ -1,0 +1,176 @@
+{
+  "artifact_schema_version": 2,
+  "status": "completed",
+  "started_at_utc": "2026-11-03T17:32:53.029927+00:00",
+  "command_argv": [
+    "D:\\Coding\\Project\\ComputerVision_Probing_VLM\\vlm_probe\\__main__.py",
+    "--config",
+    "configs/clip_b32_oxford_pet.json",
+    "--limit",
+    "200",
+    "--run-name",
+    "smoke_oxford_pet_clip_b32_v3"
+  ],
+  "run_name": "smoke_oxford_pet_clip_b32_v3",
+  "git_head": "0a9c40c337acdae175f56bf5b64d0afcf20217f8",
+  "git_status": "M README.md\n?? .gitignore\n?? configs/\n?? docs/\n?? requirements.txt\n?? results/\n?? tests/\n?? vlm_probe/",
+  "source_sha256": {
+    "configs/clip_b32_oxford_pet.json": "4d4106d11b933113ed4c8307a62be6718cb25b73ba59871b1fec8b07b0055691",
+    "requirements.txt": "a795d1a87904728d7821441b69a4266ddea330f929bdb2fdf4c95751d56ee599",
+    "vlm_probe/__init__.py": "a67e12125e012495d84256bfcf67041abcda07dfaf49722bdfafd58566aa637d",
+    "vlm_probe/__main__.py": "db422f547f341e29abd6589f232935674ebeb83ad8793a293ad5bf6f609ef54c",
+    "vlm_probe/assets.py": "18c3f5b444f4e0325d72348689b37e0b74e6530f4e2aaa698c7dd7afef608bad",
+    "vlm_probe/compare.py": "b88003cdbf06947317b7738b38887e4def427981e183a99d95aec2bd3a41a90d",
+    "vlm_probe/configuration.py": "295f0ea83f45d6b79d23d60bbff8083aaabaca427026905a1ccd0ae143368cc6",
+    "vlm_probe/dataset_adapters/__init__.py": "c279148c8304811dacdac1c1fee2fba5248cb81459a784fb0e8f46d9450ae17c",
+    "vlm_probe/dataset_adapters/archive_utils.py": "65f74c803c2ad93e331a1828ba54862f719493281720caf69cf4d0cff3d44ab2",
+    "vlm_probe/dataset_adapters/cifar100.py": "84dafd1265ae1f1a0d4bdaf96dcac2697aeba29fac16ca5e33951d6cbb09d096",
+    "vlm_probe/dataset_adapters/dtd.py": "cb77db378814fa9a429f76c65534b9c3366417f984c75ce20a515b411c46bc5d",
+    "vlm_probe/dataset_adapters/flowers102.py": "2298e0e0f810f6b8094dab6d1ab7799277781a42bff0000799cdd721fbee0709",
+    "vlm_probe/dataset_adapters/food101.py": "04188b6d48b58c0cee30ae47d2035c0ba2c410b6aac0f10c2b56f2bd9011f7fc",
+    "vlm_probe/dataset_adapters/oxford_pet.py": "c903d1bfe1778129796145076586f9731665eed67ae696b44a4c332501fc39fd",
+    "vlm_probe/evaluate.py": "1fb8cc1792cf30ada2a06146440c18e7db5c018a7845e855f9c52c0fcfd975a7",
+    "vlm_probe/io_utils.py": "17d915b400b7f58f257c9dd8a2c140616f8562b25e6025341f5547b2f376aae7",
+    "vlm_probe/metrics.py": "98abd6be72af818db8da015a5659142e75e1d2983436a782a114e3b06d1a50b3",
+    "vlm_probe/model_adapters/__init__.py": "c879117fa9f8e4f304e0ac14c215d4944edb7133d395cb70f2121e1a8c7772e3",
+    "vlm_probe/model_adapters/openai_clip.py": "613d66e151f0b831d398c7fe21144439942b3a0142e6e78c547afcf5cd84f06a",
+    "vlm_probe/verify.py": "6431327b1ec124c309c896e1dcc3ba73f3cfdef0b513e41fbd49458bf3eba081"
+  },
+  "source_snapshot": {
+    "path": "results/source_snapshots/source_43075d01dba7c4f29469.zip",
+    "sha256": "d59dcc35746e8ebcd21b98c7c5bed16625fef36caaa3c53c6da6f5a2da4801a6"
+  },
+  "model_adapter": "openai_clip",
+  "model_embedding_dim": 512,
+  "checkpoint": {
+    "url": "https://openaipublic.azureedge.net/clip/models/40d365715913c9da98579312b702a82c18be219cc2a73407c4526f58eba950af/ViT-B-32.pt",
+    "sha256": "40d365715913c9da98579312b702a82c18be219cc2a73407c4526f58eba950af",
+    "path": "models/ViT-B-32.pt",
+    "quick_gelu": true
+  },
+  "preprocessing": "Compose(\n    Resize(size=224, interpolation=bicubic, max_size=None, antialias=True)\n    CenterCrop(size=(224, 224))\n    MaybeConvertMode()\n    MaybeToTensor()\n    Normalize(mean=(0.48145466, 0.4578275, 0.40821073), std=(0.26862954, 0.26130258, 0.27577711))\n)",
+  "pretrained_config": {
+    "url": "https://openaipublic.azureedge.net/clip/models/40d365715913c9da98579312b702a82c18be219cc2a73407c4526f58eba950af/ViT-B-32.pt",
+    "hf_hub": "timm/vit_base_patch32_clip_224.openai/",
+    "mean": [
+      0.48145466,
+      0.4578275,
+      0.40821073
+    ],
+    "std": [
+      0.26862954,
+      0.26130258,
+      0.27577711
+    ],
+    "interpolation": "bicubic",
+    "resize_mode": "shortest",
+    "quick_gelu": true
+  },
+  "tokenizer": "SimpleTokenizer",
+  "context_length": 77,
+  "dataset": {
+    "name": "OxfordIIITPet",
+    "split": "test",
+    "target_types": "category",
+    "origin_url": "https://www.robots.ox.ac.uk/~vgg/data/pets/data/",
+    "download_url": "https://huggingface.co/datasets/xingslong/oxford-iiit-pet/resolve/e6b0d43e87d842f13fc4073b321e840c4b10f943/",
+    "source_md5": {
+      "images.tar.gz": "5c4f3ee8e5d25df40f4fd59a7f44e54c",
+      "annotations.tar.gz": "95a8c909bbe2e81eed6a22bccdf3f68f"
+    },
+    "archives": {
+      "images.tar.gz": {
+        "sha256": "67195c5e1c01f1ab5f9b6a5d22b8c27a580d896ece458917e61d459337fa318d",
+        "size_bytes": 791918971,
+        "download": {
+          "url": "https://huggingface.co/datasets/xingslong/oxford-iiit-pet/resolve/e6b0d43e87d842f13fc4073b321e840c4b10f943/images.tar.gz",
+          "checksum_algorithm": "md5",
+          "checksum": "5c4f3ee8e5d25df40f4fd59a7f44e54c",
+          "sha256": "67195c5e1c01f1ab5f9b6a5d22b8c27a580d896ece458917e61d459337fa318d",
+          "size_bytes": 791918971
+        }
+      },
+      "annotations.tar.gz": {
+        "sha256": "52425fb6de5c424942b7626b428656fcbd798db970a937df61750c0f1d358e91",
+        "size_bytes": 19173078,
+        "download": {
+          "url": "https://huggingface.co/datasets/xingslong/oxford-iiit-pet/resolve/e6b0d43e87d842f13fc4073b321e840c4b10f943/annotations.tar.gz",
+          "checksum_algorithm": "md5",
+          "checksum": "95a8c909bbe2e81eed6a22bccdf3f68f",
+          "sha256": "52425fb6de5c424942b7626b428656fcbd798db970a937df61750c0f1d358e91",
+          "size_bytes": 19173078
+        }
+      }
+    },
+    "metadata_sha256": {
+      "test.txt": "a5454003774ffe01f4f322756d3ba5495bae21cb30bb217ab285dbfa2bef245c",
+      "trainval.txt": "408f3f609481b939c94634169e6413414b733a3faeba440cbdcc5c02142eebdc",
+      "list.txt": "6a54ab256e22f7a33c6f17a7669e58ea5f6f9c7a080ec2622c205aefd4b354da"
+    },
+    "verified_metadata_digest": "a5b6902bd9a7400eab2a565f1d2869a6618f412d11199c98beb2a95dba22b4cc",
+    "test_images_sha256": "586c9912946d33b46e14e2cc3b6c6a5aa8a2ce9c00683f4e957ff7d2e672126b",
+    "test_images_archive_verified": true,
+    "torchvision_integrity_checked": true,
+    "sample_order": "annotations/test.txt",
+    "num_classes": 37,
+    "total_test_samples": 3669,
+    "full_split_support": [
+      98,
+      100,
+      100,
+      100,
+      100,
+      100,
+      100,
+      88,
+      99,
+      100,
+      100,
+      97,
+      100,
+      100,
+      100,
+      100,
+      100,
+      100,
+      99,
+      100,
+      100,
+      100,
+      100,
+      100,
+      100,
+      100,
+      100,
+      100,
+      100,
+      100,
+      99,
+      100,
+      100,
+      100,
+      89,
+      100,
+      100
+    ],
+    "evaluated_samples": 200
+  },
+  "mode": "smoke_test",
+  "embedding_dimensions": {
+    "image": 512,
+    "text": 512,
+    "text_classes": 37
+  },
+  "artifact_sha256": {
+    "classes.json": "73eec380f03f9abec400a57e6ee0ad6fca334aafbdae92d383b184db74bd39cd",
+    "config.json": "4d24e07250a58ff28aa1e35267337dfb3c636d68b91cf9ddedcb5c75bab7e726",
+    "confusion_matrix.csv": "ea5fa5e58c2c49d8aed3c25ac0839b6bbf84b37f0e858e28813a6fdc34e364ff",
+    "environment.json": "6eb94de964575362641e4bc86cccba1a85723e3e60328c81c0b630809682b42a",
+    "metrics.json": "43d4a7d3c6d0d176b4ac38fd1d48d7b994c6b1c3b1c24c207e5494a0aedb597f",
+    "per_class.csv": "07dd5c7fd4f39a07db0bd6db626ccf2026095e8402ec28f7fafdb9d8806635a1",
+    "predictions.csv": "8d2277d470f66a83757f27f632838fff90ad12bb195cab9cbad298f791aad027",
+    "samples.json": "2b515307bed4e916ac8dc3f6a894852f5208c317fe982ddd6bc41268708d189c"
+  },
+  "finished_at_utc": "2026-11-03T17:34:33.360760+00:00",
+  "wall_seconds": 100.2434448999993
+}

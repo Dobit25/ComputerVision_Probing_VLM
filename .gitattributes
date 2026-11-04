@@ -1,0 +1,6 @@
+# Preserve exact bytes: experiment manifests and source snapshots use SHA-256.
+# In particular, CSVs may contain CRLF while Python/JSON files contain LF.
+# Override local core.autocrlf so a clone keeps the original artifact hashes.
+* -text whitespace=blank-at-eol,space-before-tab,cr-at-eol,-blank-at-eof
+*.png binary
+*.zip binary

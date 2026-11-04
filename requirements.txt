@@ -1,0 +1,12 @@
+# Install the CUDA torch/torchvision pair first; see README.md.
+# Core versions verified in conda gen. No unrelated application packages included.
+torch==2.14.1
+torchvision==0.29.1
+open_clip_torch==3.3.0
+numpy==2.5.3
+Pillow==12.3.0
+timm==1.0.30
+huggingface-hub==1.33.0
+transformers==5.22.1
+scipy==1.18.0
+matplotlib==3.11.2

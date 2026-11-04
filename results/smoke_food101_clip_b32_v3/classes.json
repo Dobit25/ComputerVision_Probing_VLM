@@ -1,0 +1,608 @@
+[
+  {
+    "class_id": 0,
+    "dataset_name": "apple_pie",
+    "prompt_name": "apple pie",
+    "prompt": "a photo of a apple pie."
+  },
+  {
+    "class_id": 1,
+    "dataset_name": "baby_back_ribs",
+    "prompt_name": "baby back ribs",
+    "prompt": "a photo of a baby back ribs."
+  },
+  {
+    "class_id": 2,
+    "dataset_name": "baklava",
+    "prompt_name": "baklava",
+    "prompt": "a photo of a baklava."
+  },
+  {
+    "class_id": 3,
+    "dataset_name": "beef_carpaccio",
+    "prompt_name": "beef carpaccio",
+    "prompt": "a photo of a beef carpaccio."
+  },
+  {
+    "class_id": 4,
+    "dataset_name": "beef_tartare",
+    "prompt_name": "beef tartare",
+    "prompt": "a photo of a beef tartare."
+  },
+  {
+    "class_id": 5,
+    "dataset_name": "beet_salad",
+    "prompt_name": "beet salad",
+    "prompt": "a photo of a beet salad."
+  },
+  {
+    "class_id": 6,
+    "dataset_name": "beignets",
+    "prompt_name": "beignets",
+    "prompt": "a photo of a beignets."
+  },
+  {
+    "class_id": 7,
+    "dataset_name": "bibimbap",
+    "prompt_name": "bibimbap",
+    "prompt": "a photo of a bibimbap."
+  },
+  {
+    "class_id": 8,
+    "dataset_name": "bread_pudding",
+    "prompt_name": "bread pudding",
+    "prompt": "a photo of a bread pudding."
+  },
+  {
+    "class_id": 9,
+    "dataset_name": "breakfast_burrito",
+    "prompt_name": "breakfast burrito",
+    "prompt": "a photo of a breakfast burrito."
+  },
+  {
+    "class_id": 10,
+    "dataset_name": "bruschetta",
+    "prompt_name": "bruschetta",
+    "prompt": "a photo of a bruschetta."
+  },
+  {
+    "class_id": 11,
+    "dataset_name": "caesar_salad",
+    "prompt_name": "caesar salad",
+    "prompt": "a photo of a caesar salad."
+  },
+  {
+    "class_id": 12,
+    "dataset_name": "cannoli",
+    "prompt_name": "cannoli",
+    "prompt": "a photo of a cannoli."
+  },
+  {
+    "class_id": 13,
+    "dataset_name": "caprese_salad",
+    "prompt_name": "caprese salad",
+    "prompt": "a photo of a caprese salad."
+  },
+  {
+    "class_id": 14,
+    "dataset_name": "carrot_cake",
+    "prompt_name": "carrot cake",
+    "prompt": "a photo of a carrot cake."
+  },
+  {
+    "class_id": 15,
+    "dataset_name": "ceviche",
+    "prompt_name": "ceviche",
+    "prompt": "a photo of a ceviche."
+  },
+  {
+    "class_id": 16,
+    "dataset_name": "cheese_plate",
+    "prompt_name": "cheese plate",
+    "prompt": "a photo of a cheese plate."
+  },
+  {
+    "class_id": 17,
+    "dataset_name": "cheesecake",
+    "prompt_name": "cheesecake",
+    "prompt": "a photo of a cheesecake."
+  },
+  {
+    "class_id": 18,
+    "dataset_name": "chicken_curry",
+    "prompt_name": "chicken curry",
+    "prompt": "a photo of a chicken curry."
+  },
+  {
+    "class_id": 19,
+    "dataset_name": "chicken_quesadilla",
+    "prompt_name": "chicken quesadilla",
+    "prompt": "a photo of a chicken quesadilla."
+  },
+  {
+    "class_id": 20,
+    "dataset_name": "chicken_wings",
+    "prompt_name": "chicken wings",
+    "prompt": "a photo of a chicken wings."
+  },
+  {
+    "class_id": 21,
+    "dataset_name": "chocolate_cake",
+    "prompt_name": "chocolate cake",
+    "prompt": "a photo of a chocolate cake."
+  },
+  {
+    "class_id": 22,
+    "dataset_name": "chocolate_mousse",
+    "prompt_name": "chocolate mousse",
+    "prompt": "a photo of a chocolate mousse."
+  },
+  {
+    "class_id": 23,
+    "dataset_name": "churros",
+    "prompt_name": "churros",
+    "prompt": "a photo of a churros."
+  },
+  {
+    "class_id": 24,
+    "dataset_name": "clam_chowder",
+    "prompt_name": "clam chowder",
+    "prompt": "a photo of a clam chowder."
+  },
+  {
+    "class_id": 25,
+    "dataset_name": "club_sandwich",
+    "prompt_name": "club sandwich",
+    "prompt": "a photo of a club sandwich."
+  },
+  {
+    "class_id": 26,
+    "dataset_name": "crab_cakes",
+    "prompt_name": "crab cakes",
+    "prompt": "a photo of a crab cakes."
+  },
+  {
+    "class_id": 27,
+    "dataset_name": "creme_brulee",
+    "prompt_name": "creme brulee",
+    "prompt": "a photo of a creme brulee."
+  },
+  {
+    "class_id": 28,
+    "dataset_name": "croque_madame",
+    "prompt_name": "croque madame",
+    "prompt": "a photo of a croque madame."
+  },
+  {
+    "class_id": 29,
+    "dataset_name": "cup_cakes",
+    "prompt_name": "cup cakes",
+    "prompt": "a photo of a cup cakes."
+  },
+  {
+    "class_id": 30,
+    "dataset_name": "deviled_eggs",
+    "prompt_name": "deviled eggs",
+    "prompt": "a photo of a deviled eggs."
+  },
+  {
+    "class_id": 31,
+    "dataset_name": "donuts",
+    "prompt_name": "donuts",
+    "prompt": "a photo of a donuts."
+  },
+  {
+    "class_id": 32,
+    "dataset_name": "dumplings",
+    "prompt_name": "dumplings",
+    "prompt": "a photo of a dumplings."
+  },
+  {
+    "class_id": 33,
+    "dataset_name": "edamame",
+    "prompt_name": "edamame",
+    "prompt": "a photo of a edamame."
+  },
+  {
+    "class_id": 34,
+    "dataset_name": "eggs_benedict",
+    "prompt_name": "eggs benedict",
+    "prompt": "a photo of a eggs benedict."
+  },
+  {
+    "class_id": 35,
+    "dataset_name": "escargots",
+    "prompt_name": "escargots",
+    "prompt": "a photo of a escargots."
+  },
+  {
+    "class_id": 36,
+    "dataset_name": "falafel",
+    "prompt_name": "falafel",
+    "prompt": "a photo of a falafel."
+  },
+  {
+    "class_id": 37,
+    "dataset_name": "filet_mignon",
+    "prompt_name": "filet mignon",
+    "prompt": "a photo of a filet mignon."
+  },
+  {
+    "class_id": 38,
+    "dataset_name": "fish_and_chips",
+    "prompt_name": "fish and chips",
+    "prompt": "a photo of a fish and chips."
+  },
+  {
+    "class_id": 39,
+    "dataset_name": "foie_gras",
+    "prompt_name": "foie gras",
+    "prompt": "a photo of a foie gras."
+  },
+  {
+    "class_id": 40,
+    "dataset_name": "french_fries",
+    "prompt_name": "french fries",
+    "prompt": "a photo of a french fries."
+  },
+  {
+    "class_id": 41,
+    "dataset_name": "french_onion_soup",
+    "prompt_name": "french onion soup",
+    "prompt": "a photo of a french onion soup."
+  },
+  {
+    "class_id": 42,
+    "dataset_name": "french_toast",
+    "prompt_name": "french toast",
+    "prompt": "a photo of a french toast."
+  },
+  {
+    "class_id": 43,
+    "dataset_name": "fried_calamari",
+    "prompt_name": "fried calamari",
+    "prompt": "a photo of a fried calamari."
+  },
+  {
+    "class_id": 44,
+    "dataset_name": "fried_rice",
+    "prompt_name": "fried rice",
+    "prompt": "a photo of a fried rice."
+  },
+  {
+    "class_id": 45,
+    "dataset_name": "frozen_yogurt",
+    "prompt_name": "frozen yogurt",
+    "prompt": "a photo of a frozen yogurt."
+  },
+  {
+    "class_id": 46,
+    "dataset_name": "garlic_bread",
+    "prompt_name": "garlic bread",
+    "prompt": "a photo of a garlic bread."
+  },
+  {
+    "class_id": 47,
+    "dataset_name": "gnocchi",
+    "prompt_name": "gnocchi",
+    "prompt": "a photo of a gnocchi."
+  },
+  {
+    "class_id": 48,
+    "dataset_name": "greek_salad",
+    "prompt_name": "greek salad",
+    "prompt": "a photo of a greek salad."
+  },
+  {
+    "class_id": 49,
+    "dataset_name": "grilled_cheese_sandwich",
+    "prompt_name": "grilled cheese sandwich",
+    "prompt": "a photo of a grilled cheese sandwich."
+  },
+  {
+    "class_id": 50,
+    "dataset_name": "grilled_salmon",
+    "prompt_name": "grilled salmon",
+    "prompt": "a photo of a grilled salmon."
+  },
+  {
+    "class_id": 51,
+    "dataset_name": "guacamole",
+    "prompt_name": "guacamole",
+    "prompt": "a photo of a guacamole."
+  },
+  {
+    "class_id": 52,
+    "dataset_name": "gyoza",
+    "prompt_name": "gyoza",
+    "prompt": "a photo of a gyoza."
+  },
+  {
+    "class_id": 53,
+    "dataset_name": "hamburger",
+    "prompt_name": "hamburger",
+    "prompt": "a photo of a hamburger."
+  },
+  {
+    "class_id": 54,
+    "dataset_name": "hot_and_sour_soup",
+    "prompt_name": "hot and sour soup",
+    "prompt": "a photo of a hot and sour soup."
+  },
+  {
+    "class_id": 55,
+    "dataset_name": "hot_dog",
+    "prompt_name": "hot dog",
+    "prompt": "a photo of a hot dog."
+  },
+  {
+    "class_id": 56,
+    "dataset_name": "huevos_rancheros",
+    "prompt_name": "huevos rancheros",
+    "prompt": "a photo of a huevos rancheros."
+  },
+  {
+    "class_id": 57,
+    "dataset_name": "hummus",
+    "prompt_name": "hummus",
+    "prompt": "a photo of a hummus."
+  },
+  {
+    "class_id": 58,
+    "dataset_name": "ice_cream",
+    "prompt_name": "ice cream",
+    "prompt": "a photo of a ice cream."
+  },
+  {
+    "class_id": 59,
+    "dataset_name": "lasagna",
+    "prompt_name": "lasagna",
+    "prompt": "a photo of a lasagna."
+  },
+  {
+    "class_id": 60,
+    "dataset_name": "lobster_bisque",
+    "prompt_name": "lobster bisque",
+    "prompt": "a photo of a lobster bisque."
+  },
+  {
+    "class_id": 61,
+    "dataset_name": "lobster_roll_sandwich",
+    "prompt_name": "lobster roll sandwich",
+    "prompt": "a photo of a lobster roll sandwich."
+  },
+  {
+    "class_id": 62,
+    "dataset_name": "macaroni_and_cheese",
+    "prompt_name": "macaroni and cheese",
+    "prompt": "a photo of a macaroni and cheese."
+  },
+  {
+    "class_id": 63,
+    "dataset_name": "macarons",
+    "prompt_name": "macarons",
+    "prompt": "a photo of a macarons."
+  },
+  {
+    "class_id": 64,
+    "dataset_name": "miso_soup",
+    "prompt_name": "miso soup",
+    "prompt": "a photo of a miso soup."
+  },
+  {
+    "class_id": 65,
+    "dataset_name": "mussels",
+    "prompt_name": "mussels",
+    "prompt": "a photo of a mussels."
+  },
+  {
+    "class_id": 66,
+    "dataset_name": "nachos",
+    "prompt_name": "nachos",
+    "prompt": "a photo of a nachos."
+  },
+  {
+    "class_id": 67,
+    "dataset_name": "omelette",
+    "prompt_name": "omelette",
+    "prompt": "a photo of a omelette."
+  },
+  {
+    "class_id": 68,
+    "dataset_name": "onion_rings",
+    "prompt_name": "onion rings",
+    "prompt": "a photo of a onion rings."
+  },
+  {
+    "class_id": 69,
+    "dataset_name": "oysters",
+    "prompt_name": "oysters",
+    "prompt": "a photo of a oysters."
+  },
+  {
+    "class_id": 70,
+    "dataset_name": "pad_thai",
+    "prompt_name": "pad thai",
+    "prompt": "a photo of a pad thai."
+  },
+  {
+    "class_id": 71,
+    "dataset_name": "paella",
+    "prompt_name": "paella",
+    "prompt": "a photo of a paella."
+  },
+  {
+    "class_id": 72,
+    "dataset_name": "pancakes",
+    "prompt_name": "pancakes",
+    "prompt": "a photo of a pancakes."
+  },
+  {
+    "class_id": 73,
+    "dataset_name": "panna_cotta",
+    "prompt_name": "panna cotta",
+    "prompt": "a photo of a panna cotta."
+  },
+  {
+    "class_id": 74,
+    "dataset_name": "peking_duck",
+    "prompt_name": "peking duck",
+    "prompt": "a photo of a peking duck."
+  },
+  {
+    "class_id": 75,
+    "dataset_name": "pho",
+    "prompt_name": "pho",
+    "prompt": "a photo of a pho."
+  },
+  {
+    "class_id": 76,
+    "dataset_name": "pizza",
+    "prompt_name": "pizza",
+    "prompt": "a photo of a pizza."
+  },
+  {
+    "class_id": 77,
+    "dataset_name": "pork_chop",
+    "prompt_name": "pork chop",
+    "prompt": "a photo of a pork chop."
+  },
+  {
+    "class_id": 78,
+    "dataset_name": "poutine",
+    "prompt_name": "poutine",
+    "prompt": "a photo of a poutine."
+  },
+  {
+    "class_id": 79,
+    "dataset_name": "prime_rib",
+    "prompt_name": "prime rib",
+    "prompt": "a photo of a prime rib."
+  },
+  {
+    "class_id": 80,
+    "dataset_name": "pulled_pork_sandwich",
+    "prompt_name": "pulled pork sandwich",
+    "prompt": "a photo of a pulled pork sandwich."
+  },
+  {
+    "class_id": 81,
+    "dataset_name": "ramen",
+    "prompt_name": "ramen",
+    "prompt": "a photo of a ramen."
+  },
+  {
+    "class_id": 82,
+    "dataset_name": "ravioli",
+    "prompt_name": "ravioli",
+    "prompt": "a photo of a ravioli."
+  },
+  {
+    "class_id": 83,
+    "dataset_name": "red_velvet_cake",
+    "prompt_name": "red velvet cake",
+    "prompt": "a photo of a red velvet cake."
+  },
+  {
+    "class_id": 84,
+    "dataset_name": "risotto",
+    "prompt_name": "risotto",
+    "prompt": "a photo of a risotto."
+  },
+  {
+    "class_id": 85,
+    "dataset_name": "samosa",
+    "prompt_name": "samosa",
+    "prompt": "a photo of a samosa."
+  },
+  {
+    "class_id": 86,
+    "dataset_name": "sashimi",
+    "prompt_name": "sashimi",
+    "prompt": "a photo of a sashimi."
+  },
+  {
+    "class_id": 87,
+    "dataset_name": "scallops",
+    "prompt_name": "scallops",
+    "prompt": "a photo of a scallops."
+  },
+  {
+    "class_id": 88,
+    "dataset_name": "seaweed_salad",
+    "prompt_name": "seaweed salad",
+    "prompt": "a photo of a seaweed salad."
+  },
+  {
+    "class_id": 89,
+    "dataset_name": "shrimp_and_grits",
+    "prompt_name": "shrimp and grits",
+    "prompt": "a photo of a shrimp and grits."
+  },
+  {
+    "class_id": 90,
+    "dataset_name": "spaghetti_bolognese",
+    "prompt_name": "spaghetti bolognese",
+    "prompt": "a photo of a spaghetti bolognese."
+  },
+  {
+    "class_id": 91,
+    "dataset_name": "spaghetti_carbonara",
+    "prompt_name": "spaghetti carbonara",
+    "prompt": "a photo of a spaghetti carbonara."
+  },
+  {
+    "class_id": 92,
+    "dataset_name": "spring_rolls",
+    "prompt_name": "spring rolls",
+    "prompt": "a photo of a spring rolls."
+  },
+  {
+    "class_id": 93,
+    "dataset_name": "steak",
+    "prompt_name": "steak",
+    "prompt": "a photo of a steak."
+  },
+  {
+    "class_id": 94,
+    "dataset_name": "strawberry_shortcake",
+    "prompt_name": "strawberry shortcake",
+    "prompt": "a photo of a strawberry shortcake."
+  },
+  {
+    "class_id": 95,
+    "dataset_name": "sushi",
+    "prompt_name": "sushi",
+    "prompt": "a photo of a sushi."
+  },
+  {
+    "class_id": 96,
+    "dataset_name": "tacos",
+    "prompt_name": "tacos",
+    "prompt": "a photo of a tacos."
+  },
+  {
+    "class_id": 97,
+    "dataset_name": "takoyaki",
+    "prompt_name": "takoyaki",
+    "prompt": "a photo of a takoyaki."
+  },
+  {
+    "class_id": 98,
+    "dataset_name": "tiramisu",
+    "prompt_name": "tiramisu",
+    "prompt": "a photo of a tiramisu."
+  },
+  {
+    "class_id": 99,
+    "dataset_name": "tuna_tartare",
+    "prompt_name": "tuna tartare",
+    "prompt": "a photo of a tuna tartare."
+  },
+  {
+    "class_id": 100,
+    "dataset_name": "waffles",
+    "prompt_name": "waffles",
+    "prompt": "a photo of a waffles."
+  }
+]

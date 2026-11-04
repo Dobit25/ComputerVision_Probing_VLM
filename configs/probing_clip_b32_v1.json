@@ -1,0 +1,13 @@
+{
+  "suite_version": 1,
+  "model_config": "configs/clip_b32_cifar100.json",
+  "renderer_seed": 14,
+  "inference_seed": 0,
+  "batch_size": 32,
+  "text_batch_size": 32,
+  "bootstrap_draws": 1000,
+  "bootstrap_seed": 0,
+  "tasks": ["counting", "spatial", "negation", "fine_grained"],
+  "expected_samples": {"counting": 1080, "spatial": 720, "negation": 1440, "fine_grained": 10000},
+  "baseline_run": "results/full_cifar100_clip_b32_v1"
+}

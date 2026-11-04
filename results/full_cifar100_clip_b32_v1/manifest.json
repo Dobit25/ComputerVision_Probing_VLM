@@ -1,0 +1,76 @@
+{
+  "status": "completed",
+  "started_at_utc": "2026-11-03T07:36:29.266801+00:00",
+  "command_argv": [
+    "D:\\Coding\\Project\\ComputerVision_Probing_VLM\\vlm_probe\\__main__.py",
+    "--run-name",
+    "full_cifar100_clip_b32_v1"
+  ],
+  "run_name": "full_cifar100_clip_b32_v1",
+  "git_head": "0a9c40c337acdae175f56bf5b64d0afcf20217f8",
+  "git_status": "M README.md\n?? .gitignore\n?? configs/\n?? docs/\n?? requirements.txt\n?? results/\n?? tests/\n?? vlm_probe/",
+  "source_sha256": {
+    "configs/clip_b32_cifar100.json": "c67340dde83213b7138991c90d2f41f793ee06eb15a82482cfb06017e93010c4",
+    "requirements.txt": "7ceb5f58c7c50d6f9e88719b74c7be222d249e129fa3c10978ed38ffaa121539",
+    "vlm_probe/__init__.py": "a67e12125e012495d84256bfcf67041abcda07dfaf49722bdfafd58566aa637d",
+    "vlm_probe/__main__.py": "54862aef36ee6034fed73600ec2ddb642d265c09ab430816cbb1006c6cf8999a",
+    "vlm_probe/evaluate.py": "5426373fce4a1a11d8d02c818279e1df57ee39dc08717046be1fe2b9e9c2c35b",
+    "vlm_probe/metrics.py": "1bc2a325ebb94aa84ee7187c5c0044b8f49ca06cb548f9f0fc66f3e8399f9331",
+    "vlm_probe/verify.py": "2ce8e549137fe947ba6facc06a9d31d6b19dd4418ef73aec28bacadf62e70aac"
+  },
+  "checkpoint": {
+    "url": "https://openaipublic.azureedge.net/clip/models/40d365715913c9da98579312b702a82c18be219cc2a73407c4526f58eba950af/ViT-B-32.pt",
+    "sha256": "40d365715913c9da98579312b702a82c18be219cc2a73407c4526f58eba950af",
+    "path": "models/ViT-B-32.pt",
+    "quick_gelu": true
+  },
+  "dataset": {
+    "name": "CIFAR100",
+    "split": "test",
+    "total_test_samples": 10000,
+    "evaluated_samples": 10000,
+    "origin_url": "https://www.cs.toronto.edu/~kriz/cifar-100-python.tar.gz",
+    "download_url": "https://dataset.bj.bcebos.com/cifar/cifar-100-python.tar.gz",
+    "archive_md5": "eb9058c3a382ffc7106e4002c42a8d85",
+    "test_sha256": "4b67687d9933c4db8f0831104447f15b93774f4f464bd0516f0f0f2ac83b7864",
+    "meta_sha256": "a5d4786345c961390f865e93b434dbd5c6904ce880667e0cb888c97d449f28b9",
+    "torchvision_integrity_checked": true
+  },
+  "preprocessing": "Compose(\n    Resize(size=224, interpolation=bicubic, max_size=None, antialias=True)\n    CenterCrop(size=(224, 224))\n    MaybeConvertMode()\n    MaybeToTensor()\n    Normalize(mean=(0.48145466, 0.4578275, 0.40821073), std=(0.26862954, 0.26130258, 0.27577711))\n)",
+  "pretrained_config": {
+    "url": "https://openaipublic.azureedge.net/clip/models/40d365715913c9da98579312b702a82c18be219cc2a73407c4526f58eba950af/ViT-B-32.pt",
+    "hf_hub": "timm/vit_base_patch32_clip_224.openai/",
+    "mean": [
+      0.48145466,
+      0.4578275,
+      0.40821073
+    ],
+    "std": [
+      0.26862954,
+      0.26130258,
+      0.27577711
+    ],
+    "interpolation": "bicubic",
+    "resize_mode": "shortest",
+    "quick_gelu": true
+  },
+  "tokenizer": "SimpleTokenizer",
+  "context_length": 77,
+  "mode": "full_test",
+  "embedding_dimensions": {
+    "image": 512,
+    "text": 512,
+    "text_classes": 100
+  },
+  "artifact_sha256": {
+    "classes.json": "49fdc18f5f3eee0577facea9dfb9d724c495a70a24538601996e492eb43e8662",
+    "config.json": "2c55fbdae7a41769264435943650440bfb952e807008cf553b182bbd84acc415",
+    "confusion_matrix.csv": "b7b319d56faa30291bc4c2841afb25a0102bdc8a9751cb04ec2eb92f77d5bebd",
+    "environment.json": "6eb94de964575362641e4bc86cccba1a85723e3e60328c81c0b630809682b42a",
+    "metrics.json": "74d27874680e767b2b2f71fc21af7420d90b42f1d79950873e6313ad292f0ec5",
+    "per_class.csv": "43a76a770edfd674b26b7fc2a8294dc4100405c06b307e4474f198624ec81043",
+    "predictions.csv": "fd7917f8195a0b93ac3d8fb10515f7638109903bd9c3a4a4931b2778a2ca0d7c"
+  },
+  "finished_at_utc": "2026-11-03T07:37:39.671840+00:00",
+  "wall_seconds": 70.27530760000082
+}

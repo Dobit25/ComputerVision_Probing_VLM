@@ -1,0 +1,201 @@
+sample_id,test_index,target_id,target_name,prediction_id,prediction_name,correct,predicted_cosine,target_cosine,top1_top2_margin
+oxford_pet/test/Abyssinian_201.jpg,0,0,Abyssinian,0,Abyssinian,1,0.2946069836616516,0.2946069836616516,0.010383188724517822
+oxford_pet/test/Abyssinian_202.jpg,1,0,Abyssinian,0,Abyssinian,1,0.330964058637619,0.330964058637619,0.04321259260177612
+oxford_pet/test/Abyssinian_204.jpg,2,0,Abyssinian,0,Abyssinian,1,0.3288676142692566,0.3288676142692566,0.06596547365188599
+oxford_pet/test/Abyssinian_205.jpg,3,0,Abyssinian,0,Abyssinian,1,0.3047848641872406,0.3047848641872406,0.031241953372955322
+oxford_pet/test/Abyssinian_206.jpg,4,0,Abyssinian,0,Abyssinian,1,0.2996562123298645,0.2996562123298645,0.00029286742210388184
+oxford_pet/test/Abyssinian_207.jpg,5,0,Abyssinian,33,Sphynx,0,0.2941451370716095,0.29240748286247253,0.0017376542091369629
+oxford_pet/test/Abyssinian_20.jpg,6,0,Abyssinian,0,Abyssinian,1,0.3065124452114105,0.3065124452114105,0.01103094220161438
+oxford_pet/test/Abyssinian_210.jpg,7,0,Abyssinian,0,Abyssinian,1,0.3290382921695709,0.3290382921695709,0.06315189599990845
+oxford_pet/test/Abyssinian_212.jpg,8,0,Abyssinian,0,Abyssinian,1,0.31911981105804443,0.31911981105804443,0.007738053798675537
+oxford_pet/test/Abyssinian_213.jpg,9,0,Abyssinian,0,Abyssinian,1,0.3546309769153595,0.3546309769153595,0.06766107678413391
+oxford_pet/test/Abyssinian_215.jpg,10,0,Abyssinian,9,British Shorthair,0,0.25243642926216125,0.24295319616794586,0.005867481231689453
+oxford_pet/test/Abyssinian_216.jpg,11,0,Abyssinian,0,Abyssinian,1,0.3217475116252899,0.3217475116252899,0.048966944217681885
+oxford_pet/test/Abyssinian_217.jpg,12,0,Abyssinian,0,Abyssinian,1,0.3454233705997467,0.3454233705997467,0.053324729204177856
+oxford_pet/test/Abyssinian_219.jpg,13,0,Abyssinian,0,Abyssinian,1,0.35379695892333984,0.35379695892333984,0.041823625564575195
+oxford_pet/test/Abyssinian_21.jpg,14,0,Abyssinian,32,Siamese,0,0.2991069257259369,0.24113211035728455,0.02135699987411499
+oxford_pet/test/Abyssinian_220.jpg,15,0,Abyssinian,0,Abyssinian,1,0.3185940384864807,0.3185940384864807,0.06476980447769165
+oxford_pet/test/Abyssinian_221.jpg,16,0,Abyssinian,11,Egyptian Mau,0,0.2890312373638153,0.2713016867637634,0.011051833629608154
+oxford_pet/test/Abyssinian_223.jpg,17,0,Abyssinian,0,Abyssinian,1,0.2986888289451599,0.2986888289451599,0.04585045576095581
+oxford_pet/test/Abyssinian_224.jpg,18,0,Abyssinian,0,Abyssinian,1,0.3622506856918335,0.3622506856918335,0.07608959078788757
+oxford_pet/test/Abyssinian_225.jpg,19,0,Abyssinian,0,Abyssinian,1,0.32570675015449524,0.32570675015449524,0.0395142138004303
+oxford_pet/test/Abyssinian_226.jpg,20,0,Abyssinian,9,British Shorthair,0,0.26409777998924255,0.24305838346481323,0.0010911822319030762
+oxford_pet/test/Abyssinian_228.jpg,21,0,Abyssinian,0,Abyssinian,1,0.3301231861114502,0.3301231861114502,0.05816921591758728
+oxford_pet/test/Abyssinian_22.jpg,22,0,Abyssinian,0,Abyssinian,1,0.3706655204296112,0.3706655204296112,0.0886932909488678
+oxford_pet/test/Abyssinian_230.jpg,23,0,Abyssinian,0,Abyssinian,1,0.3222202956676483,0.3222202956676483,0.03673967719078064
+oxford_pet/test/Abyssinian_232.jpg,24,0,Abyssinian,0,Abyssinian,1,0.3487328588962555,0.3487328588962555,0.06550884246826172
+oxford_pet/test/Abyssinian_24.jpg,25,0,Abyssinian,0,Abyssinian,1,0.3385843336582184,0.3385843336582184,0.05834701657295227
+oxford_pet/test/Abyssinian_25.jpg,26,0,Abyssinian,0,Abyssinian,1,0.3413575291633606,0.3413575291633606,0.04131588339805603
+oxford_pet/test/Abyssinian_26.jpg,27,0,Abyssinian,0,Abyssinian,1,0.3211803436279297,0.3211803436279297,0.015234500169754028
+oxford_pet/test/Abyssinian_27.jpg,28,0,Abyssinian,0,Abyssinian,1,0.3431212604045868,0.3431212604045868,0.04853779077529907
+oxford_pet/test/Abyssinian_29.jpg,29,0,Abyssinian,0,Abyssinian,1,0.36512404680252075,0.36512404680252075,0.05324026942253113
+oxford_pet/test/Abyssinian_2.jpg,30,0,Abyssinian,0,Abyssinian,1,0.336375892162323,0.336375892162323,0.05152985453605652
+oxford_pet/test/Abyssinian_30.jpg,31,0,Abyssinian,0,Abyssinian,1,0.33119264245033264,0.33119264245033264,0.03241977095603943
+oxford_pet/test/Abyssinian_31.jpg,32,0,Abyssinian,0,Abyssinian,1,0.34084418416023254,0.34084418416023254,0.01670423150062561
+oxford_pet/test/Abyssinian_32.jpg,33,0,Abyssinian,0,Abyssinian,1,0.3051368296146393,0.3051368296146393,0.03166380524635315
+oxford_pet/test/Abyssinian_33.jpg,34,0,Abyssinian,11,Egyptian Mau,0,0.321065753698349,0.27864938974380493,0.0013203024864196777
+oxford_pet/test/Abyssinian_36.jpg,35,0,Abyssinian,0,Abyssinian,1,0.2835739850997925,0.2835739850997925,0.0343712717294693
+oxford_pet/test/Abyssinian_37.jpg,36,0,Abyssinian,0,Abyssinian,1,0.31995028257369995,0.31995028257369995,0.024378329515457153
+oxford_pet/test/Abyssinian_3.jpg,37,0,Abyssinian,0,Abyssinian,1,0.3655790090560913,0.3655790090560913,0.06658777594566345
+oxford_pet/test/Abyssinian_40.jpg,38,0,Abyssinian,0,Abyssinian,1,0.3457009494304657,0.3457009494304657,0.04456019401550293
+oxford_pet/test/Abyssinian_43.jpg,39,0,Abyssinian,0,Abyssinian,1,0.3503997027873993,0.3503997027873993,0.032250940799713135
+oxford_pet/test/Abyssinian_44.jpg,40,0,Abyssinian,0,Abyssinian,1,0.35469430685043335,0.35469430685043335,0.07312309741973877
+oxford_pet/test/Abyssinian_45.jpg,41,0,Abyssinian,0,Abyssinian,1,0.36652982234954834,0.36652982234954834,0.06630504131317139
+oxford_pet/test/Abyssinian_46.jpg,42,0,Abyssinian,33,Sphynx,0,0.30239567160606384,0.3018851578235626,0.0005105137825012207
+oxford_pet/test/Abyssinian_47.jpg,43,0,Abyssinian,0,Abyssinian,1,0.31980904936790466,0.31980904936790466,0.015960693359375
+oxford_pet/test/Abyssinian_48.jpg,44,0,Abyssinian,0,Abyssinian,1,0.3364681601524353,0.3364681601524353,0.047316014766693115
+oxford_pet/test/Abyssinian_49.jpg,45,0,Abyssinian,11,Egyptian Mau,0,0.2957862615585327,0.29210662841796875,0.003679633140563965
+oxford_pet/test/Abyssinian_4.jpg,46,0,Abyssinian,0,Abyssinian,1,0.3223595917224884,0.3223595917224884,0.02915358543395996
+oxford_pet/test/Abyssinian_50.jpg,47,0,Abyssinian,11,Egyptian Mau,0,0.2864427864551544,0.2695258855819702,0.01148921251296997
+oxford_pet/test/Abyssinian_51.jpg,48,0,Abyssinian,0,Abyssinian,1,0.35858863592147827,0.35858863592147827,0.055899471044540405
+oxford_pet/test/Abyssinian_52.jpg,49,0,Abyssinian,0,Abyssinian,1,0.32016560435295105,0.32016560435295105,0.02122122049331665
+oxford_pet/test/Abyssinian_54.jpg,50,0,Abyssinian,5,Bengal,0,0.3015287220478058,0.29266613721847534,0.003936350345611572
+oxford_pet/test/Abyssinian_55.jpg,51,0,Abyssinian,0,Abyssinian,1,0.37330928444862366,0.37330928444862366,0.06076478958129883
+oxford_pet/test/Abyssinian_56.jpg,52,0,Abyssinian,0,Abyssinian,1,0.34683316946029663,0.34683316946029663,0.06165575981140137
+oxford_pet/test/Abyssinian_57.jpg,53,0,Abyssinian,0,Abyssinian,1,0.2946835458278656,0.2946835458278656,0.02521410584449768
+oxford_pet/test/Abyssinian_58.jpg,54,0,Abyssinian,0,Abyssinian,1,0.315638929605484,0.315638929605484,0.05919995903968811
+oxford_pet/test/Abyssinian_5.jpg,55,0,Abyssinian,0,Abyssinian,1,0.351450115442276,0.351450115442276,0.04573255777359009
+oxford_pet/test/Abyssinian_60.jpg,56,0,Abyssinian,0,Abyssinian,1,0.330822229385376,0.330822229385376,0.024397075176239014
+oxford_pet/test/Abyssinian_61.jpg,57,0,Abyssinian,0,Abyssinian,1,0.28361254930496216,0.28361254930496216,0.04873044788837433
+oxford_pet/test/Abyssinian_62.jpg,58,0,Abyssinian,0,Abyssinian,1,0.325091153383255,0.325091153383255,0.017089635133743286
+oxford_pet/test/Abyssinian_63.jpg,59,0,Abyssinian,0,Abyssinian,1,0.31882524490356445,0.31882524490356445,0.030738353729248047
+oxford_pet/test/Abyssinian_65.jpg,60,0,Abyssinian,0,Abyssinian,1,0.3669467866420746,0.3669467866420746,0.075950026512146
+oxford_pet/test/Abyssinian_66.jpg,61,0,Abyssinian,0,Abyssinian,1,0.34473586082458496,0.34473586082458496,0.043224453926086426
+oxford_pet/test/Abyssinian_67.jpg,62,0,Abyssinian,0,Abyssinian,1,0.32679829001426697,0.32679829001426697,0.010014533996582031
+oxford_pet/test/Abyssinian_68.jpg,63,0,Abyssinian,0,Abyssinian,1,0.34105348587036133,0.34105348587036133,0.022508591413497925
+oxford_pet/test/Abyssinian_69.jpg,64,0,Abyssinian,0,Abyssinian,1,0.3396833837032318,0.3396833837032318,0.05189308524131775
+oxford_pet/test/Abyssinian_6.jpg,65,0,Abyssinian,0,Abyssinian,1,0.33883312344551086,0.33883312344551086,0.04967224597930908
+oxford_pet/test/Abyssinian_70.jpg,66,0,Abyssinian,32,Siamese,0,0.3117658197879791,0.30967211723327637,0.002093702554702759
+oxford_pet/test/Abyssinian_71.jpg,67,0,Abyssinian,0,Abyssinian,1,0.32425177097320557,0.32425177097320557,0.04959520697593689
+oxford_pet/test/Abyssinian_72.jpg,68,0,Abyssinian,0,Abyssinian,1,0.3428290784358978,0.3428290784358978,0.04394039511680603
+oxford_pet/test/Abyssinian_73.jpg,69,0,Abyssinian,0,Abyssinian,1,0.3292982280254364,0.3292982280254364,0.029418975114822388
+oxford_pet/test/Abyssinian_74.jpg,70,0,Abyssinian,0,Abyssinian,1,0.33417823910713196,0.33417823910713196,0.04122534394264221
+oxford_pet/test/Abyssinian_75.jpg,71,0,Abyssinian,0,Abyssinian,1,0.2872134745121002,0.2872134745121002,0.013866335153579712
+oxford_pet/test/Abyssinian_76.jpg,72,0,Abyssinian,0,Abyssinian,1,0.31616637110710144,0.31616637110710144,0.047602444887161255
+oxford_pet/test/Abyssinian_77.jpg,73,0,Abyssinian,0,Abyssinian,1,0.35667523741722107,0.35667523741722107,0.039983898401260376
+oxford_pet/test/Abyssinian_78.jpg,74,0,Abyssinian,0,Abyssinian,1,0.3630550801753998,0.3630550801753998,0.07869762182235718
+oxford_pet/test/Abyssinian_79.jpg,75,0,Abyssinian,0,Abyssinian,1,0.32957038283348083,0.32957038283348083,0.045967280864715576
+oxford_pet/test/Abyssinian_7.jpg,76,0,Abyssinian,0,Abyssinian,1,0.340218186378479,0.340218186378479,0.03870004415512085
+oxford_pet/test/Abyssinian_80.jpg,77,0,Abyssinian,0,Abyssinian,1,0.3458493649959564,0.3458493649959564,0.06255340576171875
+oxford_pet/test/Abyssinian_81.jpg,78,0,Abyssinian,0,Abyssinian,1,0.35006681084632874,0.35006681084632874,0.048508524894714355
+oxford_pet/test/Abyssinian_83.jpg,79,0,Abyssinian,0,Abyssinian,1,0.35171231627464294,0.35171231627464294,0.047709524631500244
+oxford_pet/test/Abyssinian_84.jpg,80,0,Abyssinian,0,Abyssinian,1,0.3985455632209778,0.3985455632209778,0.06714779138565063
+oxford_pet/test/Abyssinian_85.jpg,81,0,Abyssinian,0,Abyssinian,1,0.32677122950553894,0.32677122950553894,0.04954811930656433
+oxford_pet/test/Abyssinian_86.jpg,82,0,Abyssinian,0,Abyssinian,1,0.2974519431591034,0.2974519431591034,0.021932393312454224
+oxford_pet/test/Abyssinian_87.jpg,83,0,Abyssinian,0,Abyssinian,1,0.3466920256614685,0.3466920256614685,0.04266732931137085
+oxford_pet/test/Abyssinian_88.jpg,84,0,Abyssinian,0,Abyssinian,1,0.36195382475852966,0.36195382475852966,0.07124513387680054
+oxford_pet/test/Abyssinian_89.jpg,85,0,Abyssinian,0,Abyssinian,1,0.3615948259830475,0.3615948259830475,0.07050895690917969
+oxford_pet/test/Abyssinian_8.jpg,86,0,Abyssinian,11,Egyptian Mau,0,0.31568410992622375,0.28782549500465393,0.010149896144866943
+oxford_pet/test/Abyssinian_90.jpg,87,0,Abyssinian,0,Abyssinian,1,0.36366021633148193,0.36366021633148193,0.03459683060646057
+oxford_pet/test/Abyssinian_91.jpg,88,0,Abyssinian,0,Abyssinian,1,0.3696208894252777,0.3696208894252777,0.07341894507408142
+oxford_pet/test/Abyssinian_92.jpg,89,0,Abyssinian,0,Abyssinian,1,0.38944676518440247,0.38944676518440247,0.07064616680145264
+oxford_pet/test/Abyssinian_93.jpg,90,0,Abyssinian,0,Abyssinian,1,0.31330686807632446,0.31330686807632446,0.03412225842475891
+oxford_pet/test/Abyssinian_94.jpg,91,0,Abyssinian,0,Abyssinian,1,0.27012884616851807,0.27012884616851807,0.025409862399101257
+oxford_pet/test/Abyssinian_95.jpg,92,0,Abyssinian,0,Abyssinian,1,0.293488472700119,0.293488472700119,0.024944275617599487
+oxford_pet/test/Abyssinian_96.jpg,93,0,Abyssinian,0,Abyssinian,1,0.2965414524078369,0.2965414524078369,0.04467427730560303
+oxford_pet/test/Abyssinian_97.jpg,94,0,Abyssinian,0,Abyssinian,1,0.2858259677886963,0.2858259677886963,0.04133719205856323
+oxford_pet/test/Abyssinian_98.jpg,95,0,Abyssinian,0,Abyssinian,1,0.35101884603500366,0.35101884603500366,0.04055187106132507
+oxford_pet/test/Abyssinian_99.jpg,96,0,Abyssinian,0,Abyssinian,1,0.34021368622779846,0.34021368622779846,0.05699944496154785
+oxford_pet/test/Abyssinian_9.jpg,97,0,Abyssinian,0,Abyssinian,1,0.3555569052696228,0.3555569052696228,0.05092555284500122
+oxford_pet/test/american_bulldog_203.jpg,98,1,American Bulldog,1,American Bulldog,1,0.35240328311920166,0.35240328311920166,0.03503900766372681
+oxford_pet/test/american_bulldog_205.jpg,99,1,American Bulldog,1,American Bulldog,1,0.28767430782318115,0.28767430782318115,0.005990266799926758
+oxford_pet/test/american_bulldog_207.jpg,100,1,American Bulldog,1,American Bulldog,1,0.2960611581802368,0.2960611581802368,0.030802756547927856
+oxford_pet/test/american_bulldog_208.jpg,101,1,American Bulldog,1,American Bulldog,1,0.33213669061660767,0.33213669061660767,0.021259337663650513
+oxford_pet/test/american_bulldog_209.jpg,102,1,American Bulldog,1,American Bulldog,1,0.31044673919677734,0.31044673919677734,0.014050602912902832
+oxford_pet/test/american_bulldog_20.jpg,103,1,American Bulldog,1,American Bulldog,1,0.3085244297981262,0.3085244297981262,0.030640065670013428
+oxford_pet/test/american_bulldog_211.jpg,104,1,American Bulldog,1,American Bulldog,1,0.3098335266113281,0.3098335266113281,0.026604056358337402
+oxford_pet/test/american_bulldog_212.jpg,105,1,American Bulldog,1,American Bulldog,1,0.32880640029907227,0.32880640029907227,0.03512150049209595
+oxford_pet/test/american_bulldog_214.jpg,106,1,American Bulldog,1,American Bulldog,1,0.2744812071323395,0.2744812071323395,0.0192510187625885
+oxford_pet/test/american_bulldog_216.jpg,107,1,American Bulldog,1,American Bulldog,1,0.30698996782302856,0.30698996782302856,0.02140939235687256
+oxford_pet/test/american_bulldog_217.jpg,108,1,American Bulldog,1,American Bulldog,1,0.30455073714256287,0.30455073714256287,0.045251280069351196
+oxford_pet/test/american_bulldog_218.jpg,109,1,American Bulldog,1,American Bulldog,1,0.3081592321395874,0.3081592321395874,0.03439262509346008
+oxford_pet/test/american_bulldog_21.jpg,110,1,American Bulldog,1,American Bulldog,1,0.33664873242378235,0.33664873242378235,0.03817668557167053
+oxford_pet/test/american_bulldog_220.jpg,111,1,American Bulldog,1,American Bulldog,1,0.2927427291870117,0.2927427291870117,0.032377272844314575
+oxford_pet/test/american_bulldog_221.jpg,112,1,American Bulldog,1,American Bulldog,1,0.31077462434768677,0.31077462434768677,0.017232537269592285
+oxford_pet/test/american_bulldog_224.jpg,113,1,American Bulldog,1,American Bulldog,1,0.3456713855266571,0.3456713855266571,0.01818561553955078
+oxford_pet/test/american_bulldog_22.jpg,114,1,American Bulldog,1,American Bulldog,1,0.3571833670139313,0.3571833670139313,0.02351003885269165
+oxford_pet/test/american_bulldog_23.jpg,115,1,American Bulldog,1,American Bulldog,1,0.33498430252075195,0.33498430252075195,0.02780318260192871
+oxford_pet/test/american_bulldog_24.jpg,116,1,American Bulldog,1,American Bulldog,1,0.35335394740104675,0.35335394740104675,0.022321969270706177
+oxford_pet/test/american_bulldog_25.jpg,117,1,American Bulldog,1,American Bulldog,1,0.34114745259284973,0.34114745259284973,0.02975824475288391
+oxford_pet/test/american_bulldog_26.jpg,118,1,American Bulldog,1,American Bulldog,1,0.33757689595222473,0.33757689595222473,0.052247077226638794
+oxford_pet/test/american_bulldog_27.jpg,119,1,American Bulldog,1,American Bulldog,1,0.3020079433917999,0.3020079433917999,0.012083649635314941
+oxford_pet/test/american_bulldog_28.jpg,120,1,American Bulldog,1,American Bulldog,1,0.35703766345977783,0.35703766345977783,0.02262556552886963
+oxford_pet/test/american_bulldog_29.jpg,121,1,American Bulldog,1,American Bulldog,1,0.29599881172180176,0.29599881172180176,0.039231181144714355
+oxford_pet/test/american_bulldog_2.jpg,122,1,American Bulldog,1,American Bulldog,1,0.2972215414047241,0.2972215414047241,0.01832371950149536
+oxford_pet/test/american_bulldog_30.jpg,123,1,American Bulldog,1,American Bulldog,1,0.33258312940597534,0.33258312940597534,0.03961333632469177
+oxford_pet/test/american_bulldog_31.jpg,124,1,American Bulldog,1,American Bulldog,1,0.32262346148490906,0.32262346148490906,0.04686856269836426
+oxford_pet/test/american_bulldog_32.jpg,125,1,American Bulldog,1,American Bulldog,1,0.2867419719696045,0.2867419719696045,0.00672188401222229
+oxford_pet/test/american_bulldog_33.jpg,126,1,American Bulldog,1,American Bulldog,1,0.3487197458744049,0.3487197458744049,0.016506463289260864
+oxford_pet/test/american_bulldog_34.jpg,127,1,American Bulldog,1,American Bulldog,1,0.3446681797504425,0.3446681797504425,0.021595656871795654
+oxford_pet/test/american_bulldog_35.jpg,128,1,American Bulldog,1,American Bulldog,1,0.30509841442108154,0.30509841442108154,0.012015670537948608
+oxford_pet/test/american_bulldog_36.jpg,129,1,American Bulldog,1,American Bulldog,1,0.3452354073524475,0.3452354073524475,0.025889277458190918
+oxford_pet/test/american_bulldog_37.jpg,130,1,American Bulldog,1,American Bulldog,1,0.355194091796875,0.355194091796875,0.027663856744766235
+oxford_pet/test/american_bulldog_38.jpg,131,1,American Bulldog,1,American Bulldog,1,0.3764035105705261,0.3764035105705261,0.03947564959526062
+oxford_pet/test/american_bulldog_39.jpg,132,1,American Bulldog,1,American Bulldog,1,0.3371264636516571,0.3371264636516571,0.031603872776031494
+oxford_pet/test/american_bulldog_3.jpg,133,1,American Bulldog,1,American Bulldog,1,0.3158899247646332,0.3158899247646332,0.017960041761398315
+oxford_pet/test/american_bulldog_40.jpg,134,1,American Bulldog,1,American Bulldog,1,0.3390023410320282,0.3390023410320282,0.016087055206298828
+oxford_pet/test/american_bulldog_41.jpg,135,1,American Bulldog,1,American Bulldog,1,0.3188090920448303,0.3188090920448303,0.020408302545547485
+oxford_pet/test/american_bulldog_42.jpg,136,1,American Bulldog,1,American Bulldog,1,0.3176073431968689,0.3176073431968689,0.02299487590789795
+oxford_pet/test/american_bulldog_43.jpg,137,1,American Bulldog,1,American Bulldog,1,0.3400028645992279,0.3400028645992279,0.01960626244544983
+oxford_pet/test/american_bulldog_44.jpg,138,1,American Bulldog,1,American Bulldog,1,0.3289233148097992,0.3289233148097992,0.03970029950141907
+oxford_pet/test/american_bulldog_45.jpg,139,1,American Bulldog,1,American Bulldog,1,0.31740522384643555,0.31740522384643555,0.020829319953918457
+oxford_pet/test/american_bulldog_46.jpg,140,1,American Bulldog,1,American Bulldog,1,0.3251662850379944,0.3251662850379944,0.03161263465881348
+oxford_pet/test/american_bulldog_47.jpg,141,1,American Bulldog,1,American Bulldog,1,0.30882424116134644,0.30882424116134644,0.02522262930870056
+oxford_pet/test/american_bulldog_48.jpg,142,1,American Bulldog,1,American Bulldog,1,0.30453628301620483,0.30453628301620483,0.02987608313560486
+oxford_pet/test/american_bulldog_49.jpg,143,1,American Bulldog,1,American Bulldog,1,0.31660979986190796,0.31660979986190796,0.040798187255859375
+oxford_pet/test/american_bulldog_50.jpg,144,1,American Bulldog,1,American Bulldog,1,0.3540023863315582,0.3540023863315582,0.026211321353912354
+oxford_pet/test/american_bulldog_51.jpg,145,1,American Bulldog,1,American Bulldog,1,0.328798770904541,0.328798770904541,0.024201512336730957
+oxford_pet/test/american_bulldog_52.jpg,146,1,American Bulldog,1,American Bulldog,1,0.32032763957977295,0.32032763957977295,0.013898849487304688
+oxford_pet/test/american_bulldog_53.jpg,147,1,American Bulldog,1,American Bulldog,1,0.3423708379268646,0.3423708379268646,0.02995002269744873
+oxford_pet/test/american_bulldog_54.jpg,148,1,American Bulldog,1,American Bulldog,1,0.31986334919929504,0.31986334919929504,0.0035434365272521973
+oxford_pet/test/american_bulldog_55.jpg,149,1,American Bulldog,1,American Bulldog,1,0.33950790762901306,0.33950790762901306,0.05715718865394592
+oxford_pet/test/american_bulldog_56.jpg,150,1,American Bulldog,1,American Bulldog,1,0.34245991706848145,0.34245991706848145,0.027964860200881958
+oxford_pet/test/american_bulldog_57.jpg,151,1,American Bulldog,1,American Bulldog,1,0.3252362310886383,0.3252362310886383,0.02374744415283203
+oxford_pet/test/american_bulldog_58.jpg,152,1,American Bulldog,1,American Bulldog,1,0.3263755440711975,0.3263755440711975,0.031916648149490356
+oxford_pet/test/american_bulldog_59.jpg,153,1,American Bulldog,1,American Bulldog,1,0.3080607056617737,0.3080607056617737,0.032066673040390015
+oxford_pet/test/american_bulldog_5.jpg,154,1,American Bulldog,1,American Bulldog,1,0.32244056463241577,0.32244056463241577,0.013922661542892456
+oxford_pet/test/american_bulldog_60.jpg,155,1,American Bulldog,1,American Bulldog,1,0.319350004196167,0.319350004196167,0.013019382953643799
+oxford_pet/test/american_bulldog_61.jpg,156,1,American Bulldog,1,American Bulldog,1,0.30530911684036255,0.30530911684036255,0.023874938488006592
+oxford_pet/test/american_bulldog_62.jpg,157,1,American Bulldog,2,American Pit Bull Terrier,0,0.29280340671539307,0.28444015979766846,0.00836324691772461
+oxford_pet/test/american_bulldog_63.jpg,158,1,American Bulldog,1,American Bulldog,1,0.30427268147468567,0.30427268147468567,0.035083264112472534
+oxford_pet/test/american_bulldog_64.jpg,159,1,American Bulldog,1,American Bulldog,1,0.3136254847049713,0.3136254847049713,0.025484472513198853
+oxford_pet/test/american_bulldog_65.jpg,160,1,American Bulldog,1,American Bulldog,1,0.33672890067100525,0.33672890067100525,0.03869035840034485
+oxford_pet/test/american_bulldog_66.jpg,161,1,American Bulldog,1,American Bulldog,1,0.3408486843109131,0.3408486843109131,0.018330693244934082
+oxford_pet/test/american_bulldog_67.jpg,162,1,American Bulldog,1,American Bulldog,1,0.3021600544452667,0.3021600544452667,0.036666035652160645
+oxford_pet/test/american_bulldog_68.jpg,163,1,American Bulldog,1,American Bulldog,1,0.30686694383621216,0.30686694383621216,0.01803964376449585
+oxford_pet/test/american_bulldog_69.jpg,164,1,American Bulldog,1,American Bulldog,1,0.3393876254558563,0.3393876254558563,0.012013047933578491
+oxford_pet/test/american_bulldog_6.jpg,165,1,American Bulldog,1,American Bulldog,1,0.28933781385421753,0.28933781385421753,0.02028191089630127
+oxford_pet/test/american_bulldog_70.jpg,166,1,American Bulldog,1,American Bulldog,1,0.30821993947029114,0.30821993947029114,0.024875015020370483
+oxford_pet/test/american_bulldog_71.jpg,167,1,American Bulldog,1,American Bulldog,1,0.34112387895584106,0.34112387895584106,0.026874035596847534
+oxford_pet/test/american_bulldog_72.jpg,168,1,American Bulldog,1,American Bulldog,1,0.3315209448337555,0.3315209448337555,0.02240818738937378
+oxford_pet/test/american_bulldog_73.jpg,169,1,American Bulldog,1,American Bulldog,1,0.30545109510421753,0.30545109510421753,0.025041788816452026
+oxford_pet/test/american_bulldog_74.jpg,170,1,American Bulldog,1,American Bulldog,1,0.335278183221817,0.335278183221817,0.033150672912597656
+oxford_pet/test/american_bulldog_75.jpg,171,1,American Bulldog,1,American Bulldog,1,0.3097265362739563,0.3097265362739563,0.020410776138305664
+oxford_pet/test/american_bulldog_76.jpg,172,1,American Bulldog,1,American Bulldog,1,0.31437718868255615,0.31437718868255615,0.012863993644714355
+oxford_pet/test/american_bulldog_77.jpg,173,1,American Bulldog,1,American Bulldog,1,0.3334296643733978,0.3334296643733978,0.033885449171066284
+oxford_pet/test/american_bulldog_78.jpg,174,1,American Bulldog,1,American Bulldog,1,0.33645081520080566,0.33645081520080566,0.05557844042778015
+oxford_pet/test/american_bulldog_79.jpg,175,1,American Bulldog,1,American Bulldog,1,0.34593650698661804,0.34593650698661804,0.018410682678222656
+oxford_pet/test/american_bulldog_7.jpg,176,1,American Bulldog,1,American Bulldog,1,0.3226301968097687,0.3226301968097687,0.02820780873298645
+oxford_pet/test/american_bulldog_80.jpg,177,1,American Bulldog,1,American Bulldog,1,0.3185145854949951,0.3185145854949951,0.02240675687789917
+oxford_pet/test/american_bulldog_81.jpg,178,1,American Bulldog,1,American Bulldog,1,0.3045681416988373,0.3045681416988373,0.01917824149131775
+oxford_pet/test/american_bulldog_82.jpg,179,1,American Bulldog,1,American Bulldog,1,0.3564072549343109,0.3564072549343109,0.028981536626815796
+oxford_pet/test/american_bulldog_83.jpg,180,1,American Bulldog,1,American Bulldog,1,0.33432209491729736,0.33432209491729736,0.011802613735198975
+oxford_pet/test/american_bulldog_84.jpg,181,1,American Bulldog,1,American Bulldog,1,0.31615936756134033,0.31615936756134033,0.036859720945358276
+oxford_pet/test/american_bulldog_85.jpg,182,1,American Bulldog,1,American Bulldog,1,0.310366153717041,0.310366153717041,0.020788908004760742
+oxford_pet/test/american_bulldog_86.jpg,183,1,American Bulldog,1,American Bulldog,1,0.301923930644989,0.301923930644989,0.016457170248031616
+oxford_pet/test/american_bulldog_87.jpg,184,1,American Bulldog,1,American Bulldog,1,0.31444624066352844,0.31444624066352844,0.03170457482337952
+oxford_pet/test/american_bulldog_89.jpg,185,1,American Bulldog,1,American Bulldog,1,0.3402349650859833,0.3402349650859833,0.016713231801986694
+oxford_pet/test/american_bulldog_8.jpg,186,1,American Bulldog,1,American Bulldog,1,0.30666646361351013,0.30666646361351013,0.016242951154708862
+oxford_pet/test/american_bulldog_90.jpg,187,1,American Bulldog,1,American Bulldog,1,0.3313964009284973,0.3313964009284973,0.020209848880767822
+oxford_pet/test/american_bulldog_91.jpg,188,1,American Bulldog,2,American Pit Bull Terrier,0,0.31092438101768494,0.3026577830314636,0.008266597986221313
+oxford_pet/test/american_bulldog_92.jpg,189,1,American Bulldog,1,American Bulldog,1,0.33895143866539,0.33895143866539,0.032379597425460815
+oxford_pet/test/american_bulldog_93.jpg,190,1,American Bulldog,1,American Bulldog,1,0.3372938632965088,0.3372938632965088,0.040069758892059326
+oxford_pet/test/american_bulldog_94.jpg,191,1,American Bulldog,1,American Bulldog,1,0.33816996216773987,0.33816996216773987,0.03960484266281128
+oxford_pet/test/american_bulldog_95.jpg,192,1,American Bulldog,1,American Bulldog,1,0.33199363946914673,0.33199363946914673,0.027350932359695435
+oxford_pet/test/american_bulldog_96.jpg,193,1,American Bulldog,1,American Bulldog,1,0.31307360529899597,0.31307360529899597,0.009066253900527954
+oxford_pet/test/american_bulldog_97.jpg,194,1,American Bulldog,1,American Bulldog,1,0.34326601028442383,0.34326601028442383,0.0403667688369751
+oxford_pet/test/american_bulldog_98.jpg,195,1,American Bulldog,1,American Bulldog,1,0.3483400344848633,0.3483400344848633,0.019718021154403687
+oxford_pet/test/american_bulldog_99.jpg,196,1,American Bulldog,1,American Bulldog,1,0.3311246931552887,0.3311246931552887,0.03625115752220154
+oxford_pet/test/american_bulldog_9.jpg,197,1,American Bulldog,1,American Bulldog,1,0.3361179530620575,0.3361179530620575,0.01057344675064087
+oxford_pet/test/american_pit_bull_terrier_191.jpg,198,2,American Pit Bull Terrier,34,Staffordshire Bull Terrier,0,0.30633553862571716,0.29506030678749084,0.011275231838226318
+oxford_pet/test/american_pit_bull_terrier_192.jpg,199,2,American Pit Bull Terrier,1,American Bulldog,0,0.3278033137321472,0.30408793687820435,0.02371537685394287

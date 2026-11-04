@@ -1,0 +1,13 @@
+sample_id,task,true_caption,predicted_caption,control_correct
+counting/red/circle/fixed_radius/0/2,counting,a drawing of two red circles.,a drawing of three red circles.,True
+counting/red/circle/fixed_radius/1/2,counting,a drawing of two red circles.,a drawing of three red circles.,True
+counting/red/circle/fixed_radius/1/3,counting,a drawing of three red circles.,a drawing of five red circles.,True
+counting/red/circle/fixed_radius/2/2,counting,a drawing of two red circles.,a drawing of three red circles.,True
+spatial/0/0/0,spatial,a drawing of a red circle to the left of a blue square.,a drawing of a red circle above a blue square.,True
+spatial/0/0/1,spatial,a drawing of a red circle to the right of a blue square.,a drawing of a red circle above a blue square.,True
+spatial/0/1/0,spatial,a drawing of a red circle to the left of a blue square.,a drawing of a red circle above a blue square.,True
+spatial/0/1/1,spatial,a drawing of a red circle to the right of a blue square.,a drawing of a red circle above a blue square.,True
+negation/0/0/0/contains_does_not,negation,a drawing that does not contain a red circle.,a drawing that contains a red circle.,True
+negation/0/1/0/contains_does_not,negation,a drawing that does not contain a red circle.,a drawing that contains a red circle.,True
+negation/0/2/0/with_without,negation,a drawing without a red circle.,a drawing with a red circle.,True
+negation/0/2/0/contains_does_not,negation,a drawing that does not contain a red circle.,a drawing that contains a red circle.,True

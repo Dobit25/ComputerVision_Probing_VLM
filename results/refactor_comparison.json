@@ -1,0 +1,46 @@
+{
+  "equivalent_predictions": true,
+  "samples_compared": 10000,
+  "changed_prediction_count": 0,
+  "changed_sample_ids": [],
+  "max_absolute_score_difference": {
+    "predicted_cosine": 0.0,
+    "target_cosine": 0.0,
+    "top1_top2_margin": 0.0
+  },
+  "prediction_csv_byte_identical": true,
+  "same_effective_config": true,
+  "same_environment": true,
+  "audits": [
+    {
+      "verified": true,
+      "dataset": "CIFAR100",
+      "num_classes": 100,
+      "mode": "full_test",
+      "num_samples": 10000,
+      "correct": 6448,
+      "top1_accuracy_percent": 64.48
+    },
+    {
+      "verified": true,
+      "dataset": "CIFAR100",
+      "num_classes": 100,
+      "mode": "full_test",
+      "num_samples": 10000,
+      "correct": 6448,
+      "top1_accuracy_percent": 64.48
+    }
+  ],
+  "runs": [
+    {
+      "name": "full_cifar100_clip_b32_v1",
+      "manifest_sha256": "afd4b6c8fe9c5e304db553af92727fdfa114141f12353c913d8fc434cc50ea68",
+      "predictions_sha256": "fd7917f8195a0b93ac3d8fb10515f7638109903bd9c3a4a4931b2778a2ca0d7c"
+    },
+    {
+      "name": "full_cifar100_clip_b32_refactor",
+      "manifest_sha256": "1e12306c12f76a7dbbbd483bc385dcd247e7d62ebb1f81f0bbdf3d8ab123e6fd",
+      "predictions_sha256": "fd7917f8195a0b93ac3d8fb10515f7638109903bd9c3a4a4931b2778a2ca0d7c"
+    }
+  ]
+}

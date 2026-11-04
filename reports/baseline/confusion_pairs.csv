@@ -1,0 +1,3843 @@
+dataset,true_class,predicted_class,error_count,true_class_support,percent_of_true_class
+CIFAR-100,ray,flatfish,34,100,34.0
+CIFAR-100,oak_tree,pine_tree,30,100,30.0
+CIFAR-100,trout,flatfish,30,100,30.0
+CIFAR-100,woman,girl,29,100,29.0
+CIFAR-100,cloud,plain,27,100,27.0
+CIFAR-100,mouse,shrew,27,100,27.0
+CIFAR-100,leopard,lion,26,100,26.0
+CIFAR-100,bowl,plate,24,100,24.0
+CIFAR-100,poppy,tulip,24,100,24.0
+CIFAR-100,shark,whale,24,100,24.0
+CIFAR-100,man,boy,21,100,21.0
+CIFAR-100,tractor,lawn_mower,21,100,21.0
+CIFAR-100,maple_tree,oak_tree,20,100,20.0
+CIFAR-100,cockroach,beetle,19,100,19.0
+CIFAR-100,streetcar,train,19,100,19.0
+CIFAR-100,couch,chair,18,100,18.0
+CIFAR-100,mouse,hamster,18,100,18.0
+CIFAR-100,porcupine,shrew,18,100,18.0
+CIFAR-100,table,chair,18,100,18.0
+CIFAR-100,whale,dolphin,18,100,18.0
+CIFAR-100,cup,lamp,17,100,17.0
+CIFAR-100,willow_tree,pine_tree,17,100,17.0
+CIFAR-100,dolphin,whale,16,100,16.0
+CIFAR-100,otter,seal,16,100,16.0
+CIFAR-100,snake,worm,16,100,16.0
+CIFAR-100,streetcar,bus,16,100,16.0
+CIFAR-100,turtle,flatfish,16,100,16.0
+CIFAR-100,willow_tree,maple_tree,16,100,16.0
+CIFAR-100,bowl,cup,15,100,15.0
+CIFAR-100,caterpillar,lizard,15,100,15.0
+CIFAR-100,crocodile,flatfish,15,100,15.0
+CIFAR-100,orchid,tulip,15,100,15.0
+CIFAR-100,rose,poppy,15,100,15.0
+CIFAR-100,baby,boy,14,100,14.0
+CIFAR-100,rose,tulip,14,100,14.0
+CIFAR-100,aquarium_fish,flatfish,13,100,13.0
+CIFAR-100,castle,house,13,100,13.0
+CIFAR-100,caterpillar,worm,13,100,13.0
+CIFAR-100,lobster,crab,13,100,13.0
+CIFAR-100,motorcycle,lawn_mower,13,100,13.0
+CIFAR-100,oak_tree,maple_tree,13,100,13.0
+CIFAR-100,shark,dolphin,13,100,13.0
+CIFAR-100,beaver,flatfish,12,100,12.0
+CIFAR-100,bed,chair,12,100,12.0
+CIFAR-100,bus,pickup_truck,12,100,12.0
+CIFAR-100,maple_tree,pine_tree,12,100,12.0
+CIFAR-100,ray,shark,12,100,12.0
+CIFAR-100,sea,plain,12,100,12.0
+CIFAR-100,tiger,lion,12,100,12.0
+CIFAR-100,trout,aquarium_fish,12,100,12.0
+CIFAR-100,willow_tree,oak_tree,12,100,12.0
+CIFAR-100,bear,cattle,11,100,11.0
+CIFAR-100,beaver,shrew,11,100,11.0
+CIFAR-100,crocodile,dinosaur,11,100,11.0
+CIFAR-100,fox,kangaroo,11,100,11.0
+CIFAR-100,girl,boy,11,100,11.0
+CIFAR-100,snail,mushroom,11,100,11.0
+CIFAR-100,wolf,kangaroo,11,100,11.0
+CIFAR-100,lizard,snake,10,100,10.0
+CIFAR-100,porcupine,raccoon,10,100,10.0
+CIFAR-100,possum,mouse,10,100,10.0
+CIFAR-100,bear,chimpanzee,9,100,9.0
+CIFAR-100,beaver,chimpanzee,9,100,9.0
+CIFAR-100,beetle,cockroach,9,100,9.0
+CIFAR-100,boy,baby,9,100,9.0
+CIFAR-100,couch,bed,9,100,9.0
+CIFAR-100,crab,spider,9,100,9.0
+CIFAR-100,crocodile,lizard,9,100,9.0
+CIFAR-100,lizard,dinosaur,9,100,9.0
+CIFAR-100,seal,flatfish,9,100,9.0
+CIFAR-100,whale,flatfish,9,100,9.0
+CIFAR-100,worm,snake,9,100,9.0
+CIFAR-100,bus,streetcar,8,100,8.0
+CIFAR-100,caterpillar,palm_tree,8,100,8.0
+CIFAR-100,cup,bowl,8,100,8.0
+CIFAR-100,oak_tree,willow_tree,8,100,8.0
+CIFAR-100,otter,bear,8,100,8.0
+CIFAR-100,otter,beaver,8,100,8.0
+CIFAR-100,plain,cattle,8,100,8.0
+CIFAR-100,possum,skunk,8,100,8.0
+CIFAR-100,ray,whale,8,100,8.0
+CIFAR-100,seal,dolphin,8,100,8.0
+CIFAR-100,shrew,skunk,8,100,8.0
+CIFAR-100,squirrel,skunk,8,100,8.0
+CIFAR-100,sweet_pepper,orange,8,100,8.0
+CIFAR-100,turtle,dolphin,8,100,8.0
+CIFAR-100,beaver,bear,7,100,7.0
+CIFAR-100,beetle,bee,7,100,7.0
+CIFAR-100,butterfly,tulip,7,100,7.0
+CIFAR-100,clock,plate,7,100,7.0
+CIFAR-100,dolphin,shark,7,100,7.0
+CIFAR-100,fox,cattle,7,100,7.0
+CIFAR-100,leopard,kangaroo,7,100,7.0
+CIFAR-100,lion,cattle,7,100,7.0
+CIFAR-100,lobster,cockroach,7,100,7.0
+CIFAR-100,lobster,plate,7,100,7.0
+CIFAR-100,maple_tree,willow_tree,7,100,7.0
+CIFAR-100,poppy,sunflower,7,100,7.0
+CIFAR-100,porcupine,bear,7,100,7.0
+CIFAR-100,possum,hamster,7,100,7.0
+CIFAR-100,raccoon,kangaroo,7,100,7.0
+CIFAR-100,raccoon,skunk,7,100,7.0
+CIFAR-100,ray,dolphin,7,100,7.0
+CIFAR-100,skyscraper,rocket,7,100,7.0
+CIFAR-100,sweet_pepper,apple,7,100,7.0
+CIFAR-100,tiger,cattle,7,100,7.0
+CIFAR-100,tulip,poppy,7,100,7.0
+CIFAR-100,worm,plain,7,100,7.0
+CIFAR-100,bee,beetle,6,100,6.0
+CIFAR-100,bee,sunflower,6,100,6.0
+CIFAR-100,bicycle,motorcycle,6,100,6.0
+CIFAR-100,boy,man,6,100,6.0
+CIFAR-100,castle,plain,6,100,6.0
+CIFAR-100,crocodile,shrew,6,100,6.0
+CIFAR-100,forest,maple_tree,6,100,6.0
+CIFAR-100,forest,pine_tree,6,100,6.0
+CIFAR-100,girl,baby,6,100,6.0
+CIFAR-100,lamp,chair,6,100,6.0
+CIFAR-100,leopard,dinosaur,6,100,6.0
+CIFAR-100,leopard,tiger,6,100,6.0
+CIFAR-100,lizard,worm,6,100,6.0
+CIFAR-100,lobster,cattle,6,100,6.0
+CIFAR-100,man,woman,6,100,6.0
+CIFAR-100,mouse,flatfish,6,100,6.0
+CIFAR-100,otter,flatfish,6,100,6.0
+CIFAR-100,otter,skunk,6,100,6.0
+CIFAR-100,porcupine,hamster,6,100,6.0
+CIFAR-100,possum,shrew,6,100,6.0
+CIFAR-100,seal,bear,6,100,6.0
+CIFAR-100,squirrel,kangaroo,6,100,6.0
+CIFAR-100,squirrel,shrew,6,100,6.0
+CIFAR-100,tank,tractor,6,100,6.0
+CIFAR-100,telephone,keyboard,6,100,6.0
+CIFAR-100,willow_tree,forest,6,100,6.0
+CIFAR-100,wolf,cattle,6,100,6.0
+CIFAR-100,woman,boy,6,100,6.0
+CIFAR-100,beaver,cattle,5,100,5.0
+CIFAR-100,bridge,sea,5,100,5.0
+CIFAR-100,bus,train,5,100,5.0
+CIFAR-100,crocodile,skunk,5,100,5.0
+CIFAR-100,cup,bottle,5,100,5.0
+CIFAR-100,elephant,cattle,5,100,5.0
+CIFAR-100,flatfish,crab,5,100,5.0
+CIFAR-100,flatfish,man,5,100,5.0
+CIFAR-100,fox,camel,5,100,5.0
+CIFAR-100,girl,woman,5,100,5.0
+CIFAR-100,leopard,bear,5,100,5.0
+CIFAR-100,leopard,flatfish,5,100,5.0
+CIFAR-100,lion,bear,5,100,5.0
+CIFAR-100,lizard,crocodile,5,100,5.0
+CIFAR-100,lizard,flatfish,5,100,5.0
+CIFAR-100,lizard,shrew,5,100,5.0
+CIFAR-100,mushroom,cattle,5,100,5.0
+CIFAR-100,otter,dinosaur,5,100,5.0
+CIFAR-100,pine_tree,oak_tree,5,100,5.0
+CIFAR-100,plate,bowl,5,100,5.0
+CIFAR-100,porcupine,beaver,5,100,5.0
+CIFAR-100,porcupine,flatfish,5,100,5.0
+CIFAR-100,porcupine,mushroom,5,100,5.0
+CIFAR-100,possum,kangaroo,5,100,5.0
+CIFAR-100,possum,raccoon,5,100,5.0
+CIFAR-100,rabbit,cattle,5,100,5.0
+CIFAR-100,raccoon,flatfish,5,100,5.0
+CIFAR-100,seal,beaver,5,100,5.0
+CIFAR-100,shrew,dinosaur,5,100,5.0
+CIFAR-100,spider,bee,5,100,5.0
+CIFAR-100,spider,beetle,5,100,5.0
+CIFAR-100,squirrel,rabbit,5,100,5.0
+CIFAR-100,tank,lawn_mower,5,100,5.0
+CIFAR-100,tiger,fox,5,100,5.0
+CIFAR-100,trout,shark,5,100,5.0
+CIFAR-100,worm,plate,5,100,5.0
+CIFAR-100,apple,pear,4,100,4.0
+CIFAR-100,baby,girl,4,100,4.0
+CIFAR-100,bear,elephant,4,100,4.0
+CIFAR-100,bear,skunk,4,100,4.0
+CIFAR-100,bed,couch,4,100,4.0
+CIFAR-100,beetle,bottle,4,100,4.0
+CIFAR-100,beetle,lizard,4,100,4.0
+CIFAR-100,beetle,spider,4,100,4.0
+CIFAR-100,bowl,lamp,4,100,4.0
+CIFAR-100,bowl,orange,4,100,4.0
+CIFAR-100,camel,dinosaur,4,100,4.0
+CIFAR-100,can,bottle,4,100,4.0
+CIFAR-100,caterpillar,lawn_mower,4,100,4.0
+CIFAR-100,caterpillar,snake,4,100,4.0
+CIFAR-100,chimpanzee,bear,4,100,4.0
+CIFAR-100,cloud,mountain,4,100,4.0
+CIFAR-100,cloud,sea,4,100,4.0
+CIFAR-100,couch,keyboard,4,100,4.0
+CIFAR-100,crab,cockroach,4,100,4.0
+CIFAR-100,crocodile,kangaroo,4,100,4.0
+CIFAR-100,cup,table,4,100,4.0
+CIFAR-100,dinosaur,cattle,4,100,4.0
+CIFAR-100,dolphin,flatfish,4,100,4.0
+CIFAR-100,flatfish,whale,4,100,4.0
+CIFAR-100,forest,bridge,4,100,4.0
+CIFAR-100,forest,palm_tree,4,100,4.0
+CIFAR-100,forest,plain,4,100,4.0
+CIFAR-100,hamster,mouse,4,100,4.0
+CIFAR-100,hamster,rabbit,4,100,4.0
+CIFAR-100,leopard,cattle,4,100,4.0
+CIFAR-100,lobster,lawn_mower,4,100,4.0
+CIFAR-100,lobster,spider,4,100,4.0
+CIFAR-100,lobster,tulip,4,100,4.0
+CIFAR-100,man,plain,4,100,4.0
+CIFAR-100,maple_tree,house,4,100,4.0
+CIFAR-100,mouse,squirrel,4,100,4.0
+CIFAR-100,mushroom,tulip,4,100,4.0
+CIFAR-100,otter,chimpanzee,4,100,4.0
+CIFAR-100,pear,apple,4,100,4.0
+CIFAR-100,pear,orange,4,100,4.0
+CIFAR-100,pickup_truck,tractor,4,100,4.0
+CIFAR-100,porcupine,bowl,4,100,4.0
+CIFAR-100,possum,cattle,4,100,4.0
+CIFAR-100,possum,flatfish,4,100,4.0
+CIFAR-100,raccoon,bear,4,100,4.0
+CIFAR-100,ray,sea,4,100,4.0
+CIFAR-100,seal,sea,4,100,4.0
+CIFAR-100,shrew,chimpanzee,4,100,4.0
+CIFAR-100,shrew,mouse,4,100,4.0
+CIFAR-100,skunk,cattle,4,100,4.0
+CIFAR-100,skyscraper,mountain,4,100,4.0
+CIFAR-100,snail,lizard,4,100,4.0
+CIFAR-100,snake,snail,4,100,4.0
+CIFAR-100,spider,butterfly,4,100,4.0
+CIFAR-100,squirrel,flatfish,4,100,4.0
+CIFAR-100,squirrel,fox,4,100,4.0
+CIFAR-100,sweet_pepper,lawn_mower,4,100,4.0
+CIFAR-100,sweet_pepper,tulip,4,100,4.0
+CIFAR-100,telephone,bottle,4,100,4.0
+CIFAR-100,telephone,lawn_mower,4,100,4.0
+CIFAR-100,television,keyboard,4,100,4.0
+CIFAR-100,tiger,kangaroo,4,100,4.0
+CIFAR-100,tractor,tank,4,100,4.0
+CIFAR-100,tulip,orchid,4,100,4.0
+CIFAR-100,tulip,rose,4,100,4.0
+CIFAR-100,wardrobe,television,4,100,4.0
+CIFAR-100,whale,shark,4,100,4.0
+CIFAR-100,wolf,possum,4,100,4.0
+CIFAR-100,wolf,raccoon,4,100,4.0
+CIFAR-100,apple,sweet_pepper,3,100,3.0
+CIFAR-100,aquarium_fish,dinosaur,3,100,3.0
+CIFAR-100,aquarium_fish,trout,3,100,3.0
+CIFAR-100,bear,seal,3,100,3.0
+CIFAR-100,beaver,hamster,3,100,3.0
+CIFAR-100,beaver,porcupine,3,100,3.0
+CIFAR-100,bed,table,3,100,3.0
+CIFAR-100,bed,wardrobe,3,100,3.0
+CIFAR-100,beetle,crab,3,100,3.0
+CIFAR-100,bottle,rocket,3,100,3.0
+CIFAR-100,bowl,bottle,3,100,3.0
+CIFAR-100,boy,girl,3,100,3.0
+CIFAR-100,boy,woman,3,100,3.0
+CIFAR-100,bridge,rocket,3,100,3.0
+CIFAR-100,bridge,skyscraper,3,100,3.0
+CIFAR-100,butterfly,flatfish,3,100,3.0
+CIFAR-100,butterfly,orchid,3,100,3.0
+CIFAR-100,can,cup,3,100,3.0
+CIFAR-100,can,lamp,3,100,3.0
+CIFAR-100,castle,mountain,3,100,3.0
+CIFAR-100,caterpillar,bee,3,100,3.0
+CIFAR-100,chair,couch,3,100,3.0
+CIFAR-100,clock,lawn_mower,3,100,3.0
+CIFAR-100,cloud,rocket,3,100,3.0
+CIFAR-100,crab,dinosaur,3,100,3.0
+CIFAR-100,crocodile,seal,3,100,3.0
+CIFAR-100,cup,can,3,100,3.0
+CIFAR-100,dinosaur,camel,3,100,3.0
+CIFAR-100,dinosaur,chimpanzee,3,100,3.0
+CIFAR-100,dinosaur,kangaroo,3,100,3.0
+CIFAR-100,dolphin,dinosaur,3,100,3.0
+CIFAR-100,elephant,camel,3,100,3.0
+CIFAR-100,elephant,chimpanzee,3,100,3.0
+CIFAR-100,flatfish,lawn_mower,3,100,3.0
+CIFAR-100,flatfish,plate,3,100,3.0
+CIFAR-100,forest,mountain,3,100,3.0
+CIFAR-100,forest,road,3,100,3.0
+CIFAR-100,hamster,flatfish,3,100,3.0
+CIFAR-100,hamster,fox,3,100,3.0
+CIFAR-100,kangaroo,camel,3,100,3.0
+CIFAR-100,kangaroo,dinosaur,3,100,3.0
+CIFAR-100,keyboard,plain,3,100,3.0
+CIFAR-100,keyboard,television,3,100,3.0
+CIFAR-100,leopard,camel,3,100,3.0
+CIFAR-100,leopard,wolf,3,100,3.0
+CIFAR-100,lion,girl,3,100,3.0
+CIFAR-100,lion,kangaroo,3,100,3.0
+CIFAR-100,lobster,chair,3,100,3.0
+CIFAR-100,lobster,rocket,3,100,3.0
+CIFAR-100,lobster,sea,3,100,3.0
+CIFAR-100,lobster,sweet_pepper,3,100,3.0
+CIFAR-100,oak_tree,house,3,100,3.0
+CIFAR-100,orange,sweet_pepper,3,100,3.0
+CIFAR-100,orchid,rose,3,100,3.0
+CIFAR-100,otter,dolphin,3,100,3.0
+CIFAR-100,otter,kangaroo,3,100,3.0
+CIFAR-100,otter,shrew,3,100,3.0
+CIFAR-100,pear,keyboard,3,100,3.0
+CIFAR-100,pear,plate,3,100,3.0
+CIFAR-100,pickup_truck,lawn_mower,3,100,3.0
+CIFAR-100,plain,forest,3,100,3.0
+CIFAR-100,plain,road,3,100,3.0
+CIFAR-100,plate,clock,3,100,3.0
+CIFAR-100,plate,flatfish,3,100,3.0
+CIFAR-100,porcupine,lion,3,100,3.0
+CIFAR-100,possum,bear,3,100,3.0
+CIFAR-100,possum,porcupine,3,100,3.0
+CIFAR-100,rabbit,fox,3,100,3.0
+CIFAR-100,rabbit,kangaroo,3,100,3.0
+CIFAR-100,rabbit,skunk,3,100,3.0
+CIFAR-100,raccoon,dinosaur,3,100,3.0
+CIFAR-100,raccoon,lion,3,100,3.0
+CIFAR-100,raccoon,wolf,3,100,3.0
+CIFAR-100,ray,rocket,3,100,3.0
+CIFAR-100,ray,shrew,3,100,3.0
+CIFAR-100,sea,mountain,3,100,3.0
+CIFAR-100,seal,skunk,3,100,3.0
+CIFAR-100,seal,whale,3,100,3.0
+CIFAR-100,shark,ray,3,100,3.0
+CIFAR-100,shrew,bear,3,100,3.0
+CIFAR-100,shrew,beaver,3,100,3.0
+CIFAR-100,shrew,crocodile,3,100,3.0
+CIFAR-100,shrew,flatfish,3,100,3.0
+CIFAR-100,shrew,kangaroo,3,100,3.0
+CIFAR-100,skunk,chair,3,100,3.0
+CIFAR-100,skunk,lawn_mower,3,100,3.0
+CIFAR-100,skyscraper,plain,3,100,3.0
+CIFAR-100,snake,plate,3,100,3.0
+CIFAR-100,spider,crab,3,100,3.0
+CIFAR-100,spider,rabbit,3,100,3.0
+CIFAR-100,sweet_pepper,pear,3,100,3.0
+CIFAR-100,tank,pickup_truck,3,100,3.0
+CIFAR-100,telephone,television,3,100,3.0
+CIFAR-100,tiger,dinosaur,3,100,3.0
+CIFAR-100,train,streetcar,3,100,3.0
+CIFAR-100,trout,plate,3,100,3.0
+CIFAR-100,trout,sea,3,100,3.0
+CIFAR-100,trout,worm,3,100,3.0
+CIFAR-100,turtle,aquarium_fish,3,100,3.0
+CIFAR-100,turtle,crab,3,100,3.0
+CIFAR-100,turtle,dinosaur,3,100,3.0
+CIFAR-100,turtle,seal,3,100,3.0
+CIFAR-100,turtle,shrew,3,100,3.0
+CIFAR-100,turtle,whale,3,100,3.0
+CIFAR-100,willow_tree,lawn_mower,3,100,3.0
+CIFAR-100,willow_tree,plain,3,100,3.0
+CIFAR-100,worm,chair,3,100,3.0
+CIFAR-100,worm,snail,3,100,3.0
+CIFAR-100,apple,orange,2,100,2.0
+CIFAR-100,aquarium_fish,crab,2,100,2.0
+CIFAR-100,aquarium_fish,hamster,2,100,2.0
+CIFAR-100,aquarium_fish,lizard,2,100,2.0
+CIFAR-100,aquarium_fish,skunk,2,100,2.0
+CIFAR-100,aquarium_fish,whale,2,100,2.0
+CIFAR-100,aquarium_fish,worm,2,100,2.0
+CIFAR-100,bear,girl,2,100,2.0
+CIFAR-100,bear,lion,2,100,2.0
+CIFAR-100,beaver,lion,2,100,2.0
+CIFAR-100,beaver,raccoon,2,100,2.0
+CIFAR-100,beaver,seal,2,100,2.0
+CIFAR-100,bed,television,2,100,2.0
+CIFAR-100,bee,butterfly,2,100,2.0
+CIFAR-100,bee,flatfish,2,100,2.0
+CIFAR-100,beetle,apple,2,100,2.0
+CIFAR-100,beetle,poppy,2,100,2.0
+CIFAR-100,beetle,snail,2,100,2.0
+CIFAR-100,bicycle,lawn_mower,2,100,2.0
+CIFAR-100,bowl,apple,2,100,2.0
+CIFAR-100,bowl,flatfish,2,100,2.0
+CIFAR-100,bowl,pear,2,100,2.0
+CIFAR-100,bowl,tulip,2,100,2.0
+CIFAR-100,bridge,plain,2,100,2.0
+CIFAR-100,bridge,train,2,100,2.0
+CIFAR-100,butterfly,bee,2,100,2.0
+CIFAR-100,butterfly,caterpillar,2,100,2.0
+CIFAR-100,butterfly,dinosaur,2,100,2.0
+CIFAR-100,butterfly,rose,2,100,2.0
+CIFAR-100,butterfly,shrew,2,100,2.0
+CIFAR-100,butterfly,skunk,2,100,2.0
+CIFAR-100,butterfly,sweet_pepper,2,100,2.0
+CIFAR-100,camel,bear,2,100,2.0
+CIFAR-100,camel,cattle,2,100,2.0
+CIFAR-100,camel,elephant,2,100,2.0
+CIFAR-100,camel,lion,2,100,2.0
+CIFAR-100,can,plate,2,100,2.0
+CIFAR-100,can,telephone,2,100,2.0
+CIFAR-100,castle,skyscraper,2,100,2.0
+CIFAR-100,caterpillar,cockroach,2,100,2.0
+CIFAR-100,caterpillar,crocodile,2,100,2.0
+CIFAR-100,caterpillar,keyboard,2,100,2.0
+CIFAR-100,caterpillar,snail,2,100,2.0
+CIFAR-100,cattle,camel,2,100,2.0
+CIFAR-100,chimpanzee,girl,2,100,2.0
+CIFAR-100,clock,television,2,100,2.0
+CIFAR-100,cloud,boy,2,100,2.0
+CIFAR-100,cloud,forest,2,100,2.0
+CIFAR-100,cockroach,bee,2,100,2.0
+CIFAR-100,cockroach,bowl,2,100,2.0
+CIFAR-100,cockroach,flatfish,2,100,2.0
+CIFAR-100,cockroach,snail,2,100,2.0
+CIFAR-100,cockroach,spider,2,100,2.0
+CIFAR-100,cockroach,worm,2,100,2.0
+CIFAR-100,couch,flatfish,2,100,2.0
+CIFAR-100,couch,table,2,100,2.0
+CIFAR-100,couch,wardrobe,2,100,2.0
+CIFAR-100,crab,beetle,2,100,2.0
+CIFAR-100,crab,lobster,2,100,2.0
+CIFAR-100,crab,porcupine,2,100,2.0
+CIFAR-100,crocodile,forest,2,100,2.0
+CIFAR-100,crocodile,lawn_mower,2,100,2.0
+CIFAR-100,crocodile,pine_tree,2,100,2.0
+CIFAR-100,crocodile,snake,2,100,2.0
+CIFAR-100,crocodile,worm,2,100,2.0
+CIFAR-100,dinosaur,bear,2,100,2.0
+CIFAR-100,dinosaur,chair,2,100,2.0
+CIFAR-100,dinosaur,flatfish,2,100,2.0
+CIFAR-100,dolphin,sea,2,100,2.0
+CIFAR-100,elephant,girl,2,100,2.0
+CIFAR-100,flatfish,beaver,2,100,2.0
+CIFAR-100,flatfish,table,2,100,2.0
+CIFAR-100,forest,crocodile,2,100,2.0
+CIFAR-100,forest,lawn_mower,2,100,2.0
+CIFAR-100,forest,oak_tree,2,100,2.0
+CIFAR-100,forest,trout,2,100,2.0
+CIFAR-100,forest,willow_tree,2,100,2.0
+CIFAR-100,fox,raccoon,2,100,2.0
+CIFAR-100,girl,chair,2,100,2.0
+CIFAR-100,house,palm_tree,2,100,2.0
+CIFAR-100,house,train,2,100,2.0
+CIFAR-100,kangaroo,cattle,2,100,2.0
+CIFAR-100,kangaroo,lizard,2,100,2.0
+CIFAR-100,kangaroo,rabbit,2,100,2.0
+CIFAR-100,keyboard,lamp,2,100,2.0
+CIFAR-100,keyboard,plate,2,100,2.0
+CIFAR-100,lamp,bottle,2,100,2.0
+CIFAR-100,lamp,keyboard,2,100,2.0
+CIFAR-100,lamp,table,2,100,2.0
+CIFAR-100,lamp,telephone,2,100,2.0
+CIFAR-100,leopard,forest,2,100,2.0
+CIFAR-100,leopard,fox,2,100,2.0
+CIFAR-100,lion,camel,2,100,2.0
+CIFAR-100,lion,fox,2,100,2.0
+CIFAR-100,lizard,baby,2,100,2.0
+CIFAR-100,lizard,chair,2,100,2.0
+CIFAR-100,lizard,crab,2,100,2.0
+CIFAR-100,lizard,trout,2,100,2.0
+CIFAR-100,lobster,bed,2,100,2.0
+CIFAR-100,lobster,kangaroo,2,100,2.0
+CIFAR-100,lobster,poppy,2,100,2.0
+CIFAR-100,maple_tree,lawn_mower,2,100,2.0
+CIFAR-100,mountain,rocket,2,100,2.0
+CIFAR-100,mountain,train,2,100,2.0
+CIFAR-100,mouse,lizard,2,100,2.0
+CIFAR-100,mouse,possum,2,100,2.0
+CIFAR-100,mouse,rabbit,2,100,2.0
+CIFAR-100,mushroom,beaver,2,100,2.0
+CIFAR-100,mushroom,flatfish,2,100,2.0
+CIFAR-100,mushroom,lawn_mower,2,100,2.0
+CIFAR-100,mushroom,plate,2,100,2.0
+CIFAR-100,mushroom,shrew,2,100,2.0
+CIFAR-100,oak_tree,plain,2,100,2.0
+CIFAR-100,orange,keyboard,2,100,2.0
+CIFAR-100,orange,pear,2,100,2.0
+CIFAR-100,otter,chair,2,100,2.0
+CIFAR-100,otter,girl,2,100,2.0
+CIFAR-100,otter,mouse,2,100,2.0
+CIFAR-100,otter,sea,2,100,2.0
+CIFAR-100,otter,shark,2,100,2.0
+CIFAR-100,otter,snake,2,100,2.0
+CIFAR-100,palm_tree,pine_tree,2,100,2.0
+CIFAR-100,pear,cup,2,100,2.0
+CIFAR-100,pear,flatfish,2,100,2.0
+CIFAR-100,pear,tulip,2,100,2.0
+CIFAR-100,pine_tree,mountain,2,100,2.0
+CIFAR-100,plain,oak_tree,2,100,2.0
+CIFAR-100,plain,rocket,2,100,2.0
+CIFAR-100,plain,sea,2,100,2.0
+CIFAR-100,plain,tractor,2,100,2.0
+CIFAR-100,plate,cattle,2,100,2.0
+CIFAR-100,plate,lion,2,100,2.0
+CIFAR-100,poppy,rose,2,100,2.0
+CIFAR-100,porcupine,chimpanzee,2,100,2.0
+CIFAR-100,porcupine,plate,2,100,2.0
+CIFAR-100,porcupine,skunk,2,100,2.0
+CIFAR-100,possum,beaver,2,100,2.0
+CIFAR-100,possum,chimpanzee,2,100,2.0
+CIFAR-100,possum,lawn_mower,2,100,2.0
+CIFAR-100,possum,lion,2,100,2.0
+CIFAR-100,rabbit,flatfish,2,100,2.0
+CIFAR-100,rabbit,hamster,2,100,2.0
+CIFAR-100,rabbit,shrew,2,100,2.0
+CIFAR-100,raccoon,beaver,2,100,2.0
+CIFAR-100,raccoon,chimpanzee,2,100,2.0
+CIFAR-100,raccoon,lawn_mower,2,100,2.0
+CIFAR-100,raccoon,possum,2,100,2.0
+CIFAR-100,raccoon,rabbit,2,100,2.0
+CIFAR-100,ray,crab,2,100,2.0
+CIFAR-100,ray,lamp,2,100,2.0
+CIFAR-100,ray,mouse,2,100,2.0
+CIFAR-100,ray,mushroom,2,100,2.0
+CIFAR-100,ray,pear,2,100,2.0
+CIFAR-100,rocket,plain,2,100,2.0
+CIFAR-100,sea,rocket,2,100,2.0
+CIFAR-100,seal,baby,2,100,2.0
+CIFAR-100,seal,crocodile,2,100,2.0
+CIFAR-100,seal,otter,2,100,2.0
+CIFAR-100,seal,shrew,2,100,2.0
+CIFAR-100,shark,aquarium_fish,2,100,2.0
+CIFAR-100,shark,flatfish,2,100,2.0
+CIFAR-100,shark,skunk,2,100,2.0
+CIFAR-100,shrew,cattle,2,100,2.0
+CIFAR-100,shrew,fox,2,100,2.0
+CIFAR-100,shrew,hamster,2,100,2.0
+CIFAR-100,shrew,snake,2,100,2.0
+CIFAR-100,skunk,flatfish,2,100,2.0
+CIFAR-100,snail,cockroach,2,100,2.0
+CIFAR-100,snail,lawn_mower,2,100,2.0
+CIFAR-100,snail,orchid,2,100,2.0
+CIFAR-100,snail,tulip,2,100,2.0
+CIFAR-100,snail,turtle,2,100,2.0
+CIFAR-100,snake,flatfish,2,100,2.0
+CIFAR-100,spider,cockroach,2,100,2.0
+CIFAR-100,spider,crocodile,2,100,2.0
+CIFAR-100,spider,dinosaur,2,100,2.0
+CIFAR-100,spider,lizard,2,100,2.0
+CIFAR-100,spider,whale,2,100,2.0
+CIFAR-100,squirrel,boy,2,100,2.0
+CIFAR-100,squirrel,dinosaur,2,100,2.0
+CIFAR-100,squirrel,lawn_mower,2,100,2.0
+CIFAR-100,squirrel,lion,2,100,2.0
+CIFAR-100,squirrel,lizard,2,100,2.0
+CIFAR-100,sunflower,bee,2,100,2.0
+CIFAR-100,sunflower,poppy,2,100,2.0
+CIFAR-100,sweet_pepper,keyboard,2,100,2.0
+CIFAR-100,sweet_pepper,palm_tree,2,100,2.0
+CIFAR-100,sweet_pepper,plate,2,100,2.0
+CIFAR-100,sweet_pepper,poppy,2,100,2.0
+CIFAR-100,sweet_pepper,sunflower,2,100,2.0
+CIFAR-100,table,bed,2,100,2.0
+CIFAR-100,table,bottle,2,100,2.0
+CIFAR-100,table,plate,2,100,2.0
+CIFAR-100,tank,couch,2,100,2.0
+CIFAR-100,television,chair,2,100,2.0
+CIFAR-100,television,telephone,2,100,2.0
+CIFAR-100,television,wardrobe,2,100,2.0
+CIFAR-100,tiger,bear,2,100,2.0
+CIFAR-100,tiger,beaver,2,100,2.0
+CIFAR-100,tiger,camel,2,100,2.0
+CIFAR-100,tiger,flatfish,2,100,2.0
+CIFAR-100,tiger,forest,2,100,2.0
+CIFAR-100,train,castle,2,100,2.0
+CIFAR-100,trout,lizard,2,100,2.0
+CIFAR-100,trout,plain,2,100,2.0
+CIFAR-100,trout,rocket,2,100,2.0
+CIFAR-100,turtle,bear,2,100,2.0
+CIFAR-100,turtle,cattle,2,100,2.0
+CIFAR-100,turtle,crocodile,2,100,2.0
+CIFAR-100,turtle,mountain,2,100,2.0
+CIFAR-100,turtle,snail,2,100,2.0
+CIFAR-100,wardrobe,bottle,2,100,2.0
+CIFAR-100,wardrobe,chair,2,100,2.0
+CIFAR-100,wardrobe,plain,2,100,2.0
+CIFAR-100,wardrobe,skyscraper,2,100,2.0
+CIFAR-100,whale,sea,2,100,2.0
+CIFAR-100,willow_tree,mountain,2,100,2.0
+CIFAR-100,willow_tree,worm,2,100,2.0
+CIFAR-100,wolf,camel,2,100,2.0
+CIFAR-100,wolf,fox,2,100,2.0
+CIFAR-100,wolf,rabbit,2,100,2.0
+CIFAR-100,worm,keyboard,2,100,2.0
+CIFAR-100,worm,lamp,2,100,2.0
+CIFAR-100,worm,whale,2,100,2.0
+CIFAR-100,apple,crab,1,100,1.0
+CIFAR-100,apple,maple_tree,1,100,1.0
+CIFAR-100,apple,orchid,1,100,1.0
+CIFAR-100,aquarium_fish,bee,1,100,1.0
+CIFAR-100,aquarium_fish,cattle,1,100,1.0
+CIFAR-100,aquarium_fish,cockroach,1,100,1.0
+CIFAR-100,aquarium_fish,cup,1,100,1.0
+CIFAR-100,aquarium_fish,lamp,1,100,1.0
+CIFAR-100,aquarium_fish,lawn_mower,1,100,1.0
+CIFAR-100,aquarium_fish,mushroom,1,100,1.0
+CIFAR-100,aquarium_fish,orange,1,100,1.0
+CIFAR-100,aquarium_fish,orchid,1,100,1.0
+CIFAR-100,aquarium_fish,rocket,1,100,1.0
+CIFAR-100,aquarium_fish,shark,1,100,1.0
+CIFAR-100,aquarium_fish,tulip,1,100,1.0
+CIFAR-100,baby,bed,1,100,1.0
+CIFAR-100,baby,hamster,1,100,1.0
+CIFAR-100,baby,kangaroo,1,100,1.0
+CIFAR-100,baby,lawn_mower,1,100,1.0
+CIFAR-100,baby,man,1,100,1.0
+CIFAR-100,baby,orange,1,100,1.0
+CIFAR-100,baby,sea,1,100,1.0
+CIFAR-100,baby,woman,1,100,1.0
+CIFAR-100,bear,beaver,1,100,1.0
+CIFAR-100,bear,camel,1,100,1.0
+CIFAR-100,bear,forest,1,100,1.0
+CIFAR-100,bear,lawn_mower,1,100,1.0
+CIFAR-100,bear,mountain,1,100,1.0
+CIFAR-100,bear,sea,1,100,1.0
+CIFAR-100,bear,whale,1,100,1.0
+CIFAR-100,bear,woman,1,100,1.0
+CIFAR-100,beaver,bowl,1,100,1.0
+CIFAR-100,beaver,crocodile,1,100,1.0
+CIFAR-100,beaver,dinosaur,1,100,1.0
+CIFAR-100,beaver,elephant,1,100,1.0
+CIFAR-100,beaver,fox,1,100,1.0
+CIFAR-100,beaver,lawn_mower,1,100,1.0
+CIFAR-100,beaver,plain,1,100,1.0
+CIFAR-100,beaver,rocket,1,100,1.0
+CIFAR-100,beaver,skunk,1,100,1.0
+CIFAR-100,beaver,squirrel,1,100,1.0
+CIFAR-100,beaver,trout,1,100,1.0
+CIFAR-100,beaver,turtle,1,100,1.0
+CIFAR-100,beaver,wolf,1,100,1.0
+CIFAR-100,bed,bridge,1,100,1.0
+CIFAR-100,bed,clock,1,100,1.0
+CIFAR-100,bed,girl,1,100,1.0
+CIFAR-100,bed,lawn_mower,1,100,1.0
+CIFAR-100,bed,plain,1,100,1.0
+CIFAR-100,bed,rocket,1,100,1.0
+CIFAR-100,bee,cattle,1,100,1.0
+CIFAR-100,bee,chimpanzee,1,100,1.0
+CIFAR-100,bee,dinosaur,1,100,1.0
+CIFAR-100,bee,keyboard,1,100,1.0
+CIFAR-100,bee,lion,1,100,1.0
+CIFAR-100,bee,maple_tree,1,100,1.0
+CIFAR-100,bee,orchid,1,100,1.0
+CIFAR-100,bee,shrew,1,100,1.0
+CIFAR-100,bee,skunk,1,100,1.0
+CIFAR-100,bee,snail,1,100,1.0
+CIFAR-100,bee,squirrel,1,100,1.0
+CIFAR-100,bee,tulip,1,100,1.0
+CIFAR-100,beetle,butterfly,1,100,1.0
+CIFAR-100,beetle,caterpillar,1,100,1.0
+CIFAR-100,beetle,elephant,1,100,1.0
+CIFAR-100,beetle,mouse,1,100,1.0
+CIFAR-100,beetle,tulip,1,100,1.0
+CIFAR-100,beetle,worm,1,100,1.0
+CIFAR-100,bicycle,boy,1,100,1.0
+CIFAR-100,bicycle,bridge,1,100,1.0
+CIFAR-100,bicycle,man,1,100,1.0
+CIFAR-100,bicycle,rocket,1,100,1.0
+CIFAR-100,bottle,chair,1,100,1.0
+CIFAR-100,bottle,clock,1,100,1.0
+CIFAR-100,bottle,orange,1,100,1.0
+CIFAR-100,bottle,skyscraper,1,100,1.0
+CIFAR-100,bottle,wardrobe,1,100,1.0
+CIFAR-100,bowl,can,1,100,1.0
+CIFAR-100,bowl,chair,1,100,1.0
+CIFAR-100,bowl,dinosaur,1,100,1.0
+CIFAR-100,bowl,hamster,1,100,1.0
+CIFAR-100,bowl,mushroom,1,100,1.0
+CIFAR-100,bowl,poppy,1,100,1.0
+CIFAR-100,bowl,table,1,100,1.0
+CIFAR-100,bowl,worm,1,100,1.0
+CIFAR-100,boy,lawn_mower,1,100,1.0
+CIFAR-100,bridge,castle,1,100,1.0
+CIFAR-100,bridge,clock,1,100,1.0
+CIFAR-100,bridge,crocodile,1,100,1.0
+CIFAR-100,bridge,keyboard,1,100,1.0
+CIFAR-100,bridge,road,1,100,1.0
+CIFAR-100,bridge,tank,1,100,1.0
+CIFAR-100,bridge,television,1,100,1.0
+CIFAR-100,bridge,tractor,1,100,1.0
+CIFAR-100,bus,keyboard,1,100,1.0
+CIFAR-100,bus,lawn_mower,1,100,1.0
+CIFAR-100,bus,plain,1,100,1.0
+CIFAR-100,bus,tractor,1,100,1.0
+CIFAR-100,bus,wardrobe,1,100,1.0
+CIFAR-100,butterfly,beaver,1,100,1.0
+CIFAR-100,butterfly,beetle,1,100,1.0
+CIFAR-100,butterfly,cattle,1,100,1.0
+CIFAR-100,butterfly,hamster,1,100,1.0
+CIFAR-100,butterfly,lamp,1,100,1.0
+CIFAR-100,butterfly,mouse,1,100,1.0
+CIFAR-100,butterfly,plain,1,100,1.0
+CIFAR-100,butterfly,poppy,1,100,1.0
+CIFAR-100,butterfly,rocket,1,100,1.0
+CIFAR-100,butterfly,snake,1,100,1.0
+CIFAR-100,butterfly,sunflower,1,100,1.0
+CIFAR-100,camel,baby,1,100,1.0
+CIFAR-100,camel,beaver,1,100,1.0
+CIFAR-100,camel,boy,1,100,1.0
+CIFAR-100,camel,chimpanzee,1,100,1.0
+CIFAR-100,camel,flatfish,1,100,1.0
+CIFAR-100,camel,girl,1,100,1.0
+CIFAR-100,camel,lawn_mower,1,100,1.0
+CIFAR-100,camel,mountain,1,100,1.0
+CIFAR-100,can,bowl,1,100,1.0
+CIFAR-100,can,clock,1,100,1.0
+CIFAR-100,can,keyboard,1,100,1.0
+CIFAR-100,can,pear,1,100,1.0
+CIFAR-100,can,rocket,1,100,1.0
+CIFAR-100,can,wardrobe,1,100,1.0
+CIFAR-100,castle,bridge,1,100,1.0
+CIFAR-100,castle,pine_tree,1,100,1.0
+CIFAR-100,castle,road,1,100,1.0
+CIFAR-100,castle,streetcar,1,100,1.0
+CIFAR-100,caterpillar,apple,1,100,1.0
+CIFAR-100,caterpillar,bottle,1,100,1.0
+CIFAR-100,caterpillar,cattle,1,100,1.0
+CIFAR-100,caterpillar,flatfish,1,100,1.0
+CIFAR-100,caterpillar,girl,1,100,1.0
+CIFAR-100,caterpillar,maple_tree,1,100,1.0
+CIFAR-100,caterpillar,oak_tree,1,100,1.0
+CIFAR-100,caterpillar,orchid,1,100,1.0
+CIFAR-100,caterpillar,pine_tree,1,100,1.0
+CIFAR-100,caterpillar,rocket,1,100,1.0
+CIFAR-100,caterpillar,sweet_pepper,1,100,1.0
+CIFAR-100,caterpillar,trout,1,100,1.0
+CIFAR-100,caterpillar,tulip,1,100,1.0
+CIFAR-100,caterpillar,willow_tree,1,100,1.0
+CIFAR-100,cattle,baby,1,100,1.0
+CIFAR-100,cattle,bear,1,100,1.0
+CIFAR-100,cattle,chair,1,100,1.0
+CIFAR-100,cattle,girl,1,100,1.0
+CIFAR-100,cattle,hamster,1,100,1.0
+CIFAR-100,cattle,kangaroo,1,100,1.0
+CIFAR-100,cattle,tulip,1,100,1.0
+CIFAR-100,cattle,wolf,1,100,1.0
+CIFAR-100,cattle,woman,1,100,1.0
+CIFAR-100,chair,skunk,1,100,1.0
+CIFAR-100,chair,wardrobe,1,100,1.0
+CIFAR-100,chimpanzee,apple,1,100,1.0
+CIFAR-100,chimpanzee,boy,1,100,1.0
+CIFAR-100,chimpanzee,chair,1,100,1.0
+CIFAR-100,chimpanzee,dinosaur,1,100,1.0
+CIFAR-100,chimpanzee,elephant,1,100,1.0
+CIFAR-100,chimpanzee,flatfish,1,100,1.0
+CIFAR-100,chimpanzee,lawn_mower,1,100,1.0
+CIFAR-100,chimpanzee,rabbit,1,100,1.0
+CIFAR-100,chimpanzee,turtle,1,100,1.0
+CIFAR-100,chimpanzee,woman,1,100,1.0
+CIFAR-100,clock,baby,1,100,1.0
+CIFAR-100,clock,bottle,1,100,1.0
+CIFAR-100,clock,dinosaur,1,100,1.0
+CIFAR-100,clock,flatfish,1,100,1.0
+CIFAR-100,clock,orange,1,100,1.0
+CIFAR-100,clock,seal,1,100,1.0
+CIFAR-100,clock,sunflower,1,100,1.0
+CIFAR-100,clock,whale,1,100,1.0
+CIFAR-100,cloud,plate,1,100,1.0
+CIFAR-100,cockroach,baby,1,100,1.0
+CIFAR-100,cockroach,crab,1,100,1.0
+CIFAR-100,cockroach,girl,1,100,1.0
+CIFAR-100,cockroach,lamp,1,100,1.0
+CIFAR-100,cockroach,motorcycle,1,100,1.0
+CIFAR-100,cockroach,mouse,1,100,1.0
+CIFAR-100,couch,lamp,1,100,1.0
+CIFAR-100,couch,lawn_mower,1,100,1.0
+CIFAR-100,couch,plate,1,100,1.0
+CIFAR-100,couch,telephone,1,100,1.0
+CIFAR-100,crab,aquarium_fish,1,100,1.0
+CIFAR-100,crab,boy,1,100,1.0
+CIFAR-100,crab,cattle,1,100,1.0
+CIFAR-100,crab,flatfish,1,100,1.0
+CIFAR-100,crab,fox,1,100,1.0
+CIFAR-100,crab,hamster,1,100,1.0
+CIFAR-100,crab,maple_tree,1,100,1.0
+CIFAR-100,crab,mouse,1,100,1.0
+CIFAR-100,crab,mushroom,1,100,1.0
+CIFAR-100,crab,orange,1,100,1.0
+CIFAR-100,crab,plate,1,100,1.0
+CIFAR-100,crab,snake,1,100,1.0
+CIFAR-100,crab,sweet_pepper,1,100,1.0
+CIFAR-100,crab,tulip,1,100,1.0
+CIFAR-100,crocodile,aquarium_fish,1,100,1.0
+CIFAR-100,crocodile,beaver,1,100,1.0
+CIFAR-100,crocodile,caterpillar,1,100,1.0
+CIFAR-100,crocodile,cattle,1,100,1.0
+CIFAR-100,crocodile,crab,1,100,1.0
+CIFAR-100,crocodile,dolphin,1,100,1.0
+CIFAR-100,crocodile,otter,1,100,1.0
+CIFAR-100,crocodile,pickup_truck,1,100,1.0
+CIFAR-100,crocodile,possum,1,100,1.0
+CIFAR-100,crocodile,shark,1,100,1.0
+CIFAR-100,crocodile,table,1,100,1.0
+CIFAR-100,crocodile,turtle,1,100,1.0
+CIFAR-100,cup,apple,1,100,1.0
+CIFAR-100,cup,mushroom,1,100,1.0
+CIFAR-100,cup,plate,1,100,1.0
+CIFAR-100,cup,television,1,100,1.0
+CIFAR-100,dinosaur,beetle,1,100,1.0
+CIFAR-100,dinosaur,boy,1,100,1.0
+CIFAR-100,dinosaur,butterfly,1,100,1.0
+CIFAR-100,dinosaur,cockroach,1,100,1.0
+CIFAR-100,dinosaur,crocodile,1,100,1.0
+CIFAR-100,dinosaur,elephant,1,100,1.0
+CIFAR-100,dinosaur,lion,1,100,1.0
+CIFAR-100,dinosaur,mushroom,1,100,1.0
+CIFAR-100,dinosaur,palm_tree,1,100,1.0
+CIFAR-100,dinosaur,pine_tree,1,100,1.0
+CIFAR-100,dinosaur,shrew,1,100,1.0
+CIFAR-100,dinosaur,spider,1,100,1.0
+CIFAR-100,dinosaur,tank,1,100,1.0
+CIFAR-100,dinosaur,turtle,1,100,1.0
+CIFAR-100,dolphin,aquarium_fish,1,100,1.0
+CIFAR-100,dolphin,bottle,1,100,1.0
+CIFAR-100,dolphin,rabbit,1,100,1.0
+CIFAR-100,dolphin,rocket,1,100,1.0
+CIFAR-100,dolphin,skunk,1,100,1.0
+CIFAR-100,elephant,bear,1,100,1.0
+CIFAR-100,elephant,hamster,1,100,1.0
+CIFAR-100,elephant,lamp,1,100,1.0
+CIFAR-100,elephant,lawn_mower,1,100,1.0
+CIFAR-100,elephant,lizard,1,100,1.0
+CIFAR-100,elephant,man,1,100,1.0
+CIFAR-100,flatfish,apple,1,100,1.0
+CIFAR-100,flatfish,bear,1,100,1.0
+CIFAR-100,flatfish,bed,1,100,1.0
+CIFAR-100,flatfish,boy,1,100,1.0
+CIFAR-100,flatfish,bridge,1,100,1.0
+CIFAR-100,flatfish,cattle,1,100,1.0
+CIFAR-100,flatfish,cloud,1,100,1.0
+CIFAR-100,flatfish,dinosaur,1,100,1.0
+CIFAR-100,flatfish,hamster,1,100,1.0
+CIFAR-100,flatfish,lion,1,100,1.0
+CIFAR-100,flatfish,mouse,1,100,1.0
+CIFAR-100,flatfish,pear,1,100,1.0
+CIFAR-100,flatfish,plain,1,100,1.0
+CIFAR-100,flatfish,ray,1,100,1.0
+CIFAR-100,flatfish,sea,1,100,1.0
+CIFAR-100,flatfish,seal,1,100,1.0
+CIFAR-100,flatfish,snail,1,100,1.0
+CIFAR-100,flatfish,trout,1,100,1.0
+CIFAR-100,flatfish,tulip,1,100,1.0
+CIFAR-100,flatfish,woman,1,100,1.0
+CIFAR-100,forest,boy,1,100,1.0
+CIFAR-100,forest,castle,1,100,1.0
+CIFAR-100,forest,cattle,1,100,1.0
+CIFAR-100,forest,dinosaur,1,100,1.0
+CIFAR-100,forest,house,1,100,1.0
+CIFAR-100,forest,orchid,1,100,1.0
+CIFAR-100,forest,plate,1,100,1.0
+CIFAR-100,forest,rocket,1,100,1.0
+CIFAR-100,forest,tractor,1,100,1.0
+CIFAR-100,fox,bear,1,100,1.0
+CIFAR-100,fox,maple_tree,1,100,1.0
+CIFAR-100,fox,orchid,1,100,1.0
+CIFAR-100,fox,plate,1,100,1.0
+CIFAR-100,fox,rabbit,1,100,1.0
+CIFAR-100,girl,cockroach,1,100,1.0
+CIFAR-100,girl,lawn_mower,1,100,1.0
+CIFAR-100,girl,telephone,1,100,1.0
+CIFAR-100,hamster,apple,1,100,1.0
+CIFAR-100,hamster,bear,1,100,1.0
+CIFAR-100,hamster,cattle,1,100,1.0
+CIFAR-100,hamster,girl,1,100,1.0
+CIFAR-100,hamster,kangaroo,1,100,1.0
+CIFAR-100,hamster,lion,1,100,1.0
+CIFAR-100,hamster,lizard,1,100,1.0
+CIFAR-100,hamster,mushroom,1,100,1.0
+CIFAR-100,hamster,orange,1,100,1.0
+CIFAR-100,house,bridge,1,100,1.0
+CIFAR-100,house,bus,1,100,1.0
+CIFAR-100,house,castle,1,100,1.0
+CIFAR-100,house,mountain,1,100,1.0
+CIFAR-100,house,pickup_truck,1,100,1.0
+CIFAR-100,house,plain,1,100,1.0
+CIFAR-100,house,road,1,100,1.0
+CIFAR-100,house,skyscraper,1,100,1.0
+CIFAR-100,house,streetcar,1,100,1.0
+CIFAR-100,house,television,1,100,1.0
+CIFAR-100,kangaroo,bowl,1,100,1.0
+CIFAR-100,kangaroo,butterfly,1,100,1.0
+CIFAR-100,kangaroo,crocodile,1,100,1.0
+CIFAR-100,kangaroo,elephant,1,100,1.0
+CIFAR-100,kangaroo,flatfish,1,100,1.0
+CIFAR-100,kangaroo,fox,1,100,1.0
+CIFAR-100,kangaroo,lawn_mower,1,100,1.0
+CIFAR-100,kangaroo,porcupine,1,100,1.0
+CIFAR-100,kangaroo,raccoon,1,100,1.0
+CIFAR-100,kangaroo,shrew,1,100,1.0
+CIFAR-100,kangaroo,skunk,1,100,1.0
+CIFAR-100,kangaroo,whale,1,100,1.0
+CIFAR-100,keyboard,bed,1,100,1.0
+CIFAR-100,keyboard,girl,1,100,1.0
+CIFAR-100,keyboard,sea,1,100,1.0
+CIFAR-100,keyboard,shark,1,100,1.0
+CIFAR-100,keyboard,snake,1,100,1.0
+CIFAR-100,lamp,cup,1,100,1.0
+CIFAR-100,lamp,girl,1,100,1.0
+CIFAR-100,lamp,lawn_mower,1,100,1.0
+CIFAR-100,lamp,mouse,1,100,1.0
+CIFAR-100,lamp,mushroom,1,100,1.0
+CIFAR-100,lamp,plain,1,100,1.0
+CIFAR-100,lamp,poppy,1,100,1.0
+CIFAR-100,lamp,rocket,1,100,1.0
+CIFAR-100,lamp,television,1,100,1.0
+CIFAR-100,lamp,worm,1,100,1.0
+CIFAR-100,lawn_mower,baby,1,100,1.0
+CIFAR-100,lawn_mower,tank,1,100,1.0
+CIFAR-100,lawn_mower,tractor,1,100,1.0
+CIFAR-100,leopard,beaver,1,100,1.0
+CIFAR-100,leopard,crocodile,1,100,1.0
+CIFAR-100,leopard,girl,1,100,1.0
+CIFAR-100,leopard,palm_tree,1,100,1.0
+CIFAR-100,leopard,pine_tree,1,100,1.0
+CIFAR-100,leopard,raccoon,1,100,1.0
+CIFAR-100,lion,snail,1,100,1.0
+CIFAR-100,lion,tractor,1,100,1.0
+CIFAR-100,lion,wolf,1,100,1.0
+CIFAR-100,lizard,aquarium_fish,1,100,1.0
+CIFAR-100,lizard,camel,1,100,1.0
+CIFAR-100,lizard,cockroach,1,100,1.0
+CIFAR-100,lizard,couch,1,100,1.0
+CIFAR-100,lizard,girl,1,100,1.0
+CIFAR-100,lizard,hamster,1,100,1.0
+CIFAR-100,lizard,kangaroo,1,100,1.0
+CIFAR-100,lizard,lawn_mower,1,100,1.0
+CIFAR-100,lizard,mushroom,1,100,1.0
+CIFAR-100,lizard,shark,1,100,1.0
+CIFAR-100,lizard,skunk,1,100,1.0
+CIFAR-100,lizard,table,1,100,1.0
+CIFAR-100,lizard,turtle,1,100,1.0
+CIFAR-100,lizard,wolf,1,100,1.0
+CIFAR-100,lobster,aquarium_fish,1,100,1.0
+CIFAR-100,lobster,bear,1,100,1.0
+CIFAR-100,lobster,bowl,1,100,1.0
+CIFAR-100,lobster,butterfly,1,100,1.0
+CIFAR-100,lobster,can,1,100,1.0
+CIFAR-100,lobster,couch,1,100,1.0
+CIFAR-100,lobster,cup,1,100,1.0
+CIFAR-100,lobster,dinosaur,1,100,1.0
+CIFAR-100,lobster,girl,1,100,1.0
+CIFAR-100,lobster,lizard,1,100,1.0
+CIFAR-100,lobster,maple_tree,1,100,1.0
+CIFAR-100,lobster,motorcycle,1,100,1.0
+CIFAR-100,lobster,shrew,1,100,1.0
+CIFAR-100,lobster,snail,1,100,1.0
+CIFAR-100,lobster,snake,1,100,1.0
+CIFAR-100,lobster,sunflower,1,100,1.0
+CIFAR-100,lobster,telephone,1,100,1.0
+CIFAR-100,lobster,wolf,1,100,1.0
+CIFAR-100,lobster,woman,1,100,1.0
+CIFAR-100,lobster,worm,1,100,1.0
+CIFAR-100,man,baby,1,100,1.0
+CIFAR-100,man,bicycle,1,100,1.0
+CIFAR-100,man,dinosaur,1,100,1.0
+CIFAR-100,man,forest,1,100,1.0
+CIFAR-100,man,keyboard,1,100,1.0
+CIFAR-100,man,ray,1,100,1.0
+CIFAR-100,man,sea,1,100,1.0
+CIFAR-100,man,table,1,100,1.0
+CIFAR-100,man,television,1,100,1.0
+CIFAR-100,man,trout,1,100,1.0
+CIFAR-100,maple_tree,forest,1,100,1.0
+CIFAR-100,maple_tree,plain,1,100,1.0
+CIFAR-100,maple_tree,road,1,100,1.0
+CIFAR-100,motorcycle,bicycle,1,100,1.0
+CIFAR-100,motorcycle,orchid,1,100,1.0
+CIFAR-100,mountain,plain,1,100,1.0
+CIFAR-100,mountain,sea,1,100,1.0
+CIFAR-100,mouse,baby,1,100,1.0
+CIFAR-100,mouse,beaver,1,100,1.0
+CIFAR-100,mouse,camel,1,100,1.0
+CIFAR-100,mouse,chair,1,100,1.0
+CIFAR-100,mouse,chimpanzee,1,100,1.0
+CIFAR-100,mouse,crab,1,100,1.0
+CIFAR-100,mouse,dinosaur,1,100,1.0
+CIFAR-100,mouse,fox,1,100,1.0
+CIFAR-100,mouse,kangaroo,1,100,1.0
+CIFAR-100,mouse,lawn_mower,1,100,1.0
+CIFAR-100,mouse,lion,1,100,1.0
+CIFAR-100,mouse,raccoon,1,100,1.0
+CIFAR-100,mouse,skunk,1,100,1.0
+CIFAR-100,mouse,snail,1,100,1.0
+CIFAR-100,mouse,spider,1,100,1.0
+CIFAR-100,mouse,worm,1,100,1.0
+CIFAR-100,mushroom,apple,1,100,1.0
+CIFAR-100,mushroom,bear,1,100,1.0
+CIFAR-100,mushroom,boy,1,100,1.0
+CIFAR-100,mushroom,dinosaur,1,100,1.0
+CIFAR-100,mushroom,lamp,1,100,1.0
+CIFAR-100,mushroom,lizard,1,100,1.0
+CIFAR-100,mushroom,man,1,100,1.0
+CIFAR-100,mushroom,maple_tree,1,100,1.0
+CIFAR-100,mushroom,orange,1,100,1.0
+CIFAR-100,mushroom,orchid,1,100,1.0
+CIFAR-100,mushroom,poppy,1,100,1.0
+CIFAR-100,mushroom,table,1,100,1.0
+CIFAR-100,mushroom,willow_tree,1,100,1.0
+CIFAR-100,mushroom,worm,1,100,1.0
+CIFAR-100,oak_tree,forest,1,100,1.0
+CIFAR-100,orange,apple,1,100,1.0
+CIFAR-100,orange,rocket,1,100,1.0
+CIFAR-100,orchid,maple_tree,1,100,1.0
+CIFAR-100,orchid,plate,1,100,1.0
+CIFAR-100,orchid,sunflower,1,100,1.0
+CIFAR-100,orchid,worm,1,100,1.0
+CIFAR-100,otter,baby,1,100,1.0
+CIFAR-100,otter,bed,1,100,1.0
+CIFAR-100,otter,cattle,1,100,1.0
+CIFAR-100,otter,elephant,1,100,1.0
+CIFAR-100,otter,lawn_mower,1,100,1.0
+CIFAR-100,otter,man,1,100,1.0
+CIFAR-100,otter,plain,1,100,1.0
+CIFAR-100,otter,porcupine,1,100,1.0
+CIFAR-100,otter,rabbit,1,100,1.0
+CIFAR-100,otter,trout,1,100,1.0
+CIFAR-100,otter,whale,1,100,1.0
+CIFAR-100,otter,willow_tree,1,100,1.0
+CIFAR-100,otter,woman,1,100,1.0
+CIFAR-100,otter,worm,1,100,1.0
+CIFAR-100,palm_tree,crocodile,1,100,1.0
+CIFAR-100,palm_tree,girl,1,100,1.0
+CIFAR-100,palm_tree,maple_tree,1,100,1.0
+CIFAR-100,palm_tree,rocket,1,100,1.0
+CIFAR-100,pear,bottle,1,100,1.0
+CIFAR-100,pear,bowl,1,100,1.0
+CIFAR-100,pear,cloud,1,100,1.0
+CIFAR-100,pear,hamster,1,100,1.0
+CIFAR-100,pear,lamp,1,100,1.0
+CIFAR-100,pear,oak_tree,1,100,1.0
+CIFAR-100,pear,orchid,1,100,1.0
+CIFAR-100,pear,sweet_pepper,1,100,1.0
+CIFAR-100,pickup_truck,bus,1,100,1.0
+CIFAR-100,pine_tree,baby,1,100,1.0
+CIFAR-100,pine_tree,cloud,1,100,1.0
+CIFAR-100,pine_tree,forest,1,100,1.0
+CIFAR-100,pine_tree,house,1,100,1.0
+CIFAR-100,pine_tree,kangaroo,1,100,1.0
+CIFAR-100,pine_tree,maple_tree,1,100,1.0
+CIFAR-100,pine_tree,palm_tree,1,100,1.0
+CIFAR-100,pine_tree,plain,1,100,1.0
+CIFAR-100,pine_tree,skunk,1,100,1.0
+CIFAR-100,pine_tree,willow_tree,1,100,1.0
+CIFAR-100,plain,camel,1,100,1.0
+CIFAR-100,plain,lawn_mower,1,100,1.0
+CIFAR-100,plain,mountain,1,100,1.0
+CIFAR-100,plain,pine_tree,1,100,1.0
+CIFAR-100,plain,sunflower,1,100,1.0
+CIFAR-100,plate,apple,1,100,1.0
+CIFAR-100,plate,bottle,1,100,1.0
+CIFAR-100,plate,can,1,100,1.0
+CIFAR-100,plate,chair,1,100,1.0
+CIFAR-100,plate,lamp,1,100,1.0
+CIFAR-100,plate,orchid,1,100,1.0
+CIFAR-100,plate,palm_tree,1,100,1.0
+CIFAR-100,plate,snail,1,100,1.0
+CIFAR-100,plate,table,1,100,1.0
+CIFAR-100,poppy,orange,1,100,1.0
+CIFAR-100,poppy,orchid,1,100,1.0
+CIFAR-100,poppy,rocket,1,100,1.0
+CIFAR-100,poppy,sweet_pepper,1,100,1.0
+CIFAR-100,porcupine,cattle,1,100,1.0
+CIFAR-100,porcupine,cloud,1,100,1.0
+CIFAR-100,porcupine,dinosaur,1,100,1.0
+CIFAR-100,porcupine,kangaroo,1,100,1.0
+CIFAR-100,porcupine,motorcycle,1,100,1.0
+CIFAR-100,porcupine,mouse,1,100,1.0
+CIFAR-100,porcupine,palm_tree,1,100,1.0
+CIFAR-100,porcupine,possum,1,100,1.0
+CIFAR-100,porcupine,squirrel,1,100,1.0
+CIFAR-100,porcupine,turtle,1,100,1.0
+CIFAR-100,porcupine,woman,1,100,1.0
+CIFAR-100,porcupine,worm,1,100,1.0
+CIFAR-100,possum,baby,1,100,1.0
+CIFAR-100,possum,bowl,1,100,1.0
+CIFAR-100,possum,camel,1,100,1.0
+CIFAR-100,possum,lizard,1,100,1.0
+CIFAR-100,possum,pine_tree,1,100,1.0
+CIFAR-100,possum,rabbit,1,100,1.0
+CIFAR-100,possum,seal,1,100,1.0
+CIFAR-100,possum,squirrel,1,100,1.0
+CIFAR-100,possum,tiger,1,100,1.0
+CIFAR-100,rabbit,bear,1,100,1.0
+CIFAR-100,rabbit,dinosaur,1,100,1.0
+CIFAR-100,rabbit,lamp,1,100,1.0
+CIFAR-100,rabbit,lawn_mower,1,100,1.0
+CIFAR-100,rabbit,mouse,1,100,1.0
+CIFAR-100,rabbit,possum,1,100,1.0
+CIFAR-100,rabbit,rocket,1,100,1.0
+CIFAR-100,rabbit,squirrel,1,100,1.0
+CIFAR-100,rabbit,tank,1,100,1.0
+CIFAR-100,rabbit,tulip,1,100,1.0
+CIFAR-100,raccoon,bottle,1,100,1.0
+CIFAR-100,raccoon,cattle,1,100,1.0
+CIFAR-100,raccoon,chair,1,100,1.0
+CIFAR-100,raccoon,crocodile,1,100,1.0
+CIFAR-100,raccoon,forest,1,100,1.0
+CIFAR-100,raccoon,hamster,1,100,1.0
+CIFAR-100,raccoon,lizard,1,100,1.0
+CIFAR-100,raccoon,rocket,1,100,1.0
+CIFAR-100,raccoon,shrew,1,100,1.0
+CIFAR-100,raccoon,squirrel,1,100,1.0
+CIFAR-100,raccoon,worm,1,100,1.0
+CIFAR-100,ray,apple,1,100,1.0
+CIFAR-100,ray,aquarium_fish,1,100,1.0
+CIFAR-100,ray,boy,1,100,1.0
+CIFAR-100,ray,butterfly,1,100,1.0
+CIFAR-100,ray,caterpillar,1,100,1.0
+CIFAR-100,ray,cloud,1,100,1.0
+CIFAR-100,ray,dinosaur,1,100,1.0
+CIFAR-100,ray,lizard,1,100,1.0
+CIFAR-100,ray,mountain,1,100,1.0
+CIFAR-100,ray,orange,1,100,1.0
+CIFAR-100,ray,plain,1,100,1.0
+CIFAR-100,ray,snail,1,100,1.0
+CIFAR-100,ray,table,1,100,1.0
+CIFAR-100,ray,worm,1,100,1.0
+CIFAR-100,road,bridge,1,100,1.0
+CIFAR-100,road,house,1,100,1.0
+CIFAR-100,road,sea,1,100,1.0
+CIFAR-100,rocket,bottle,1,100,1.0
+CIFAR-100,rocket,cloud,1,100,1.0
+CIFAR-100,rocket,dinosaur,1,100,1.0
+CIFAR-100,rocket,lamp,1,100,1.0
+CIFAR-100,rocket,lawn_mower,1,100,1.0
+CIFAR-100,rocket,sea,1,100,1.0
+CIFAR-100,rose,bear,1,100,1.0
+CIFAR-100,rose,lawn_mower,1,100,1.0
+CIFAR-100,rose,orchid,1,100,1.0
+CIFAR-100,rose,plain,1,100,1.0
+CIFAR-100,rose,plate,1,100,1.0
+CIFAR-100,rose,road,1,100,1.0
+CIFAR-100,rose,sunflower,1,100,1.0
+CIFAR-100,rose,sweet_pepper,1,100,1.0
+CIFAR-100,rose,worm,1,100,1.0
+CIFAR-100,sea,bridge,1,100,1.0
+CIFAR-100,sea,lamp,1,100,1.0
+CIFAR-100,sea,palm_tree,1,100,1.0
+CIFAR-100,sea,pine_tree,1,100,1.0
+CIFAR-100,sea,whale,1,100,1.0
+CIFAR-100,seal,bee,1,100,1.0
+CIFAR-100,seal,camel,1,100,1.0
+CIFAR-100,seal,chair,1,100,1.0
+CIFAR-100,seal,chimpanzee,1,100,1.0
+CIFAR-100,seal,elephant,1,100,1.0
+CIFAR-100,seal,girl,1,100,1.0
+CIFAR-100,seal,hamster,1,100,1.0
+CIFAR-100,seal,motorcycle,1,100,1.0
+CIFAR-100,seal,mountain,1,100,1.0
+CIFAR-100,seal,mouse,1,100,1.0
+CIFAR-100,seal,possum,1,100,1.0
+CIFAR-100,seal,rocket,1,100,1.0
+CIFAR-100,seal,shark,1,100,1.0
+CIFAR-100,seal,squirrel,1,100,1.0
+CIFAR-100,seal,woman,1,100,1.0
+CIFAR-100,shark,kangaroo,1,100,1.0
+CIFAR-100,shark,pear,1,100,1.0
+CIFAR-100,shark,rocket,1,100,1.0
+CIFAR-100,shark,table,1,100,1.0
+CIFAR-100,shark,television,1,100,1.0
+CIFAR-100,shark,trout,1,100,1.0
+CIFAR-100,shark,tulip,1,100,1.0
+CIFAR-100,shrew,baby,1,100,1.0
+CIFAR-100,shrew,bowl,1,100,1.0
+CIFAR-100,shrew,boy,1,100,1.0
+CIFAR-100,shrew,butterfly,1,100,1.0
+CIFAR-100,shrew,camel,1,100,1.0
+CIFAR-100,shrew,cockroach,1,100,1.0
+CIFAR-100,shrew,forest,1,100,1.0
+CIFAR-100,shrew,lion,1,100,1.0
+CIFAR-100,shrew,lizard,1,100,1.0
+CIFAR-100,shrew,raccoon,1,100,1.0
+CIFAR-100,shrew,ray,1,100,1.0
+CIFAR-100,shrew,seal,1,100,1.0
+CIFAR-100,shrew,woman,1,100,1.0
+CIFAR-100,skunk,boy,1,100,1.0
+CIFAR-100,skunk,dinosaur,1,100,1.0
+CIFAR-100,skunk,kangaroo,1,100,1.0
+CIFAR-100,skunk,lamp,1,100,1.0
+CIFAR-100,skunk,lizard,1,100,1.0
+CIFAR-100,skunk,motorcycle,1,100,1.0
+CIFAR-100,skunk,mouse,1,100,1.0
+CIFAR-100,skunk,palm_tree,1,100,1.0
+CIFAR-100,skunk,porcupine,1,100,1.0
+CIFAR-100,skunk,snake,1,100,1.0
+CIFAR-100,skunk,spider,1,100,1.0
+CIFAR-100,skunk,television,1,100,1.0
+CIFAR-100,skunk,tractor,1,100,1.0
+CIFAR-100,skunk,tulip,1,100,1.0
+CIFAR-100,skunk,whale,1,100,1.0
+CIFAR-100,skyscraper,bridge,1,100,1.0
+CIFAR-100,skyscraper,keyboard,1,100,1.0
+CIFAR-100,skyscraper,road,1,100,1.0
+CIFAR-100,skyscraper,woman,1,100,1.0
+CIFAR-100,skyscraper,worm,1,100,1.0
+CIFAR-100,snail,apple,1,100,1.0
+CIFAR-100,snail,aquarium_fish,1,100,1.0
+CIFAR-100,snail,baby,1,100,1.0
+CIFAR-100,snail,bee,1,100,1.0
+CIFAR-100,snail,bottle,1,100,1.0
+CIFAR-100,snail,bowl,1,100,1.0
+CIFAR-100,snail,butterfly,1,100,1.0
+CIFAR-100,snail,dinosaur,1,100,1.0
+CIFAR-100,snail,forest,1,100,1.0
+CIFAR-100,snail,maple_tree,1,100,1.0
+CIFAR-100,snail,mouse,1,100,1.0
+CIFAR-100,snail,palm_tree,1,100,1.0
+CIFAR-100,snail,poppy,1,100,1.0
+CIFAR-100,snail,rabbit,1,100,1.0
+CIFAR-100,snail,rose,1,100,1.0
+CIFAR-100,snail,shrew,1,100,1.0
+CIFAR-100,snail,snake,1,100,1.0
+CIFAR-100,snail,trout,1,100,1.0
+CIFAR-100,snail,worm,1,100,1.0
+CIFAR-100,snake,bee,1,100,1.0
+CIFAR-100,snake,bicycle,1,100,1.0
+CIFAR-100,snake,butterfly,1,100,1.0
+CIFAR-100,snake,elephant,1,100,1.0
+CIFAR-100,snake,lawn_mower,1,100,1.0
+CIFAR-100,snake,lion,1,100,1.0
+CIFAR-100,snake,lizard,1,100,1.0
+CIFAR-100,snake,palm_tree,1,100,1.0
+CIFAR-100,snake,telephone,1,100,1.0
+CIFAR-100,snake,trout,1,100,1.0
+CIFAR-100,spider,baby,1,100,1.0
+CIFAR-100,spider,flatfish,1,100,1.0
+CIFAR-100,spider,forest,1,100,1.0
+CIFAR-100,spider,girl,1,100,1.0
+CIFAR-100,spider,lamp,1,100,1.0
+CIFAR-100,spider,lawn_mower,1,100,1.0
+CIFAR-100,spider,mushroom,1,100,1.0
+CIFAR-100,spider,oak_tree,1,100,1.0
+CIFAR-100,spider,orchid,1,100,1.0
+CIFAR-100,spider,palm_tree,1,100,1.0
+CIFAR-100,spider,pine_tree,1,100,1.0
+CIFAR-100,spider,porcupine,1,100,1.0
+CIFAR-100,spider,ray,1,100,1.0
+CIFAR-100,spider,rocket,1,100,1.0
+CIFAR-100,spider,sunflower,1,100,1.0
+CIFAR-100,squirrel,camel,1,100,1.0
+CIFAR-100,squirrel,cattle,1,100,1.0
+CIFAR-100,squirrel,crocodile,1,100,1.0
+CIFAR-100,squirrel,maple_tree,1,100,1.0
+CIFAR-100,squirrel,plain,1,100,1.0
+CIFAR-100,squirrel,plate,1,100,1.0
+CIFAR-100,squirrel,porcupine,1,100,1.0
+CIFAR-100,squirrel,raccoon,1,100,1.0
+CIFAR-100,squirrel,television,1,100,1.0
+CIFAR-100,squirrel,tiger,1,100,1.0
+CIFAR-100,squirrel,worm,1,100,1.0
+CIFAR-100,streetcar,cattle,1,100,1.0
+CIFAR-100,streetcar,house,1,100,1.0
+CIFAR-100,streetcar,motorcycle,1,100,1.0
+CIFAR-100,streetcar,road,1,100,1.0
+CIFAR-100,streetcar,telephone,1,100,1.0
+CIFAR-100,sunflower,palm_tree,1,100,1.0
+CIFAR-100,sunflower,rocket,1,100,1.0
+CIFAR-100,sunflower,tulip,1,100,1.0
+CIFAR-100,sweet_pepper,pine_tree,1,100,1.0
+CIFAR-100,table,keyboard,1,100,1.0
+CIFAR-100,table,lawn_mower,1,100,1.0
+CIFAR-100,table,orchid,1,100,1.0
+CIFAR-100,table,sea,1,100,1.0
+CIFAR-100,table,sunflower,1,100,1.0
+CIFAR-100,table,train,1,100,1.0
+CIFAR-100,table,woman,1,100,1.0
+CIFAR-100,tank,cattle,1,100,1.0
+CIFAR-100,tank,keyboard,1,100,1.0
+CIFAR-100,tank,motorcycle,1,100,1.0
+CIFAR-100,tank,rocket,1,100,1.0
+CIFAR-100,tank,sweet_pepper,1,100,1.0
+CIFAR-100,tank,table,1,100,1.0
+CIFAR-100,tank,train,1,100,1.0
+CIFAR-100,telephone,bed,1,100,1.0
+CIFAR-100,telephone,clock,1,100,1.0
+CIFAR-100,telephone,cup,1,100,1.0
+CIFAR-100,telephone,rocket,1,100,1.0
+CIFAR-100,telephone,skyscraper,1,100,1.0
+CIFAR-100,telephone,table,1,100,1.0
+CIFAR-100,telephone,wardrobe,1,100,1.0
+CIFAR-100,television,bed,1,100,1.0
+CIFAR-100,television,bridge,1,100,1.0
+CIFAR-100,television,can,1,100,1.0
+CIFAR-100,television,lamp,1,100,1.0
+CIFAR-100,television,man,1,100,1.0
+CIFAR-100,television,maple_tree,1,100,1.0
+CIFAR-100,television,plate,1,100,1.0
+CIFAR-100,television,skyscraper,1,100,1.0
+CIFAR-100,television,woman,1,100,1.0
+CIFAR-100,tiger,bottle,1,100,1.0
+CIFAR-100,tiger,couch,1,100,1.0
+CIFAR-100,tiger,crab,1,100,1.0
+CIFAR-100,tiger,crocodile,1,100,1.0
+CIFAR-100,tiger,girl,1,100,1.0
+CIFAR-100,tiger,lawn_mower,1,100,1.0
+CIFAR-100,tiger,maple_tree,1,100,1.0
+CIFAR-100,tiger,mouse,1,100,1.0
+CIFAR-100,tiger,raccoon,1,100,1.0
+CIFAR-100,tiger,snail,1,100,1.0
+CIFAR-100,tiger,squirrel,1,100,1.0
+CIFAR-100,tiger,table,1,100,1.0
+CIFAR-100,tiger,wolf,1,100,1.0
+CIFAR-100,tractor,castle,1,100,1.0
+CIFAR-100,tractor,chair,1,100,1.0
+CIFAR-100,tractor,mountain,1,100,1.0
+CIFAR-100,tractor,skyscraper,1,100,1.0
+CIFAR-100,tractor,television,1,100,1.0
+CIFAR-100,tractor,train,1,100,1.0
+CIFAR-100,train,bus,1,100,1.0
+CIFAR-100,train,road,1,100,1.0
+CIFAR-100,train,skunk,1,100,1.0
+CIFAR-100,trout,bridge,1,100,1.0
+CIFAR-100,trout,crocodile,1,100,1.0
+CIFAR-100,trout,dinosaur,1,100,1.0
+CIFAR-100,trout,dolphin,1,100,1.0
+CIFAR-100,trout,fox,1,100,1.0
+CIFAR-100,trout,girl,1,100,1.0
+CIFAR-100,trout,hamster,1,100,1.0
+CIFAR-100,trout,lawn_mower,1,100,1.0
+CIFAR-100,trout,mushroom,1,100,1.0
+CIFAR-100,trout,shrew,1,100,1.0
+CIFAR-100,trout,skunk,1,100,1.0
+CIFAR-100,trout,tulip,1,100,1.0
+CIFAR-100,trout,whale,1,100,1.0
+CIFAR-100,tulip,butterfly,1,100,1.0
+CIFAR-100,tulip,sunflower,1,100,1.0
+CIFAR-100,turtle,apple,1,100,1.0
+CIFAR-100,turtle,beaver,1,100,1.0
+CIFAR-100,turtle,bee,1,100,1.0
+CIFAR-100,turtle,beetle,1,100,1.0
+CIFAR-100,turtle,lizard,1,100,1.0
+CIFAR-100,turtle,mushroom,1,100,1.0
+CIFAR-100,turtle,ray,1,100,1.0
+CIFAR-100,turtle,sea,1,100,1.0
+CIFAR-100,turtle,skunk,1,100,1.0
+CIFAR-100,turtle,tulip,1,100,1.0
+CIFAR-100,turtle,worm,1,100,1.0
+CIFAR-100,wardrobe,girl,1,100,1.0
+CIFAR-100,wardrobe,house,1,100,1.0
+CIFAR-100,wardrobe,train,1,100,1.0
+CIFAR-100,whale,aquarium_fish,1,100,1.0
+CIFAR-100,whale,girl,1,100,1.0
+CIFAR-100,whale,mouse,1,100,1.0
+CIFAR-100,whale,shrew,1,100,1.0
+CIFAR-100,whale,skunk,1,100,1.0
+CIFAR-100,whale,tulip,1,100,1.0
+CIFAR-100,whale,worm,1,100,1.0
+CIFAR-100,willow_tree,house,1,100,1.0
+CIFAR-100,willow_tree,palm_tree,1,100,1.0
+CIFAR-100,willow_tree,porcupine,1,100,1.0
+CIFAR-100,wolf,baby,1,100,1.0
+CIFAR-100,wolf,bear,1,100,1.0
+CIFAR-100,wolf,beaver,1,100,1.0
+CIFAR-100,wolf,cloud,1,100,1.0
+CIFAR-100,wolf,crocodile,1,100,1.0
+CIFAR-100,wolf,dinosaur,1,100,1.0
+CIFAR-100,wolf,flatfish,1,100,1.0
+CIFAR-100,wolf,girl,1,100,1.0
+CIFAR-100,wolf,hamster,1,100,1.0
+CIFAR-100,wolf,plate,1,100,1.0
+CIFAR-100,wolf,shark,1,100,1.0
+CIFAR-100,wolf,shrew,1,100,1.0
+CIFAR-100,woman,chair,1,100,1.0
+CIFAR-100,woman,chimpanzee,1,100,1.0
+CIFAR-100,woman,table,1,100,1.0
+CIFAR-100,worm,apple,1,100,1.0
+CIFAR-100,worm,bicycle,1,100,1.0
+CIFAR-100,worm,cattle,1,100,1.0
+CIFAR-100,worm,dolphin,1,100,1.0
+CIFAR-100,worm,flatfish,1,100,1.0
+CIFAR-100,worm,girl,1,100,1.0
+CIFAR-100,worm,mountain,1,100,1.0
+CIFAR-100,worm,rocket,1,100,1.0
+Flowers102,petunia,mexican petunia,146,238,61.34453781512605
+Flowers102,geranium,pelargonium,82,94,87.23404255319149
+Flowers102,cape flower,gaura,66,88,75.0
+Flowers102,watercress,californian poppy,53,164,32.31707317073171
+Flowers102,marigold,english marigold,47,47,100.0
+Flowers102,watercress,english marigold,39,164,23.78048780487805
+Flowers102,petunia,cape flower,31,238,13.025210084033613
+Flowers102,thorn apple,giant white arum lily,31,100,31.0
+Flowers102,silverbush,windflower,30,32,93.75
+Flowers102,common dandelion,colt's foot,29,72,40.27777777777778
+Flowers102,wallflower,english marigold,29,176,16.477272727272727
+Flowers102,wild pansy,windflower,29,65,44.61538461538461
+Flowers102,pelargonium,canterbury bells,25,51,49.01960784313726
+Flowers102,sword lily,canna lily,24,110,21.818181818181817
+Flowers102,thorn apple,cape flower,24,100,24.0
+Flowers102,windflower,japanese anemone,24,34,70.58823529411765
+Flowers102,water lily,lotus,23,174,13.218390804597702
+Flowers102,sword lily,hippeastrum,20,110,18.181818181818183
+Flowers102,wallflower,californian poppy,20,176,11.363636363636363
+Flowers102,artichoke,spear thistle,19,58,32.758620689655174
+Flowers102,morning glory,mexican petunia,19,87,21.839080459770116
+Flowers102,oxeye daisy,barbeton daisy,19,29,65.51724137931035
+Flowers102,tree mallow,mexican petunia,18,38,47.36842105263158
+Flowers102,ball moss,bromelia,17,26,65.38461538461539
+Flowers102,barbeton daisy,gazania,17,107,15.88785046728972
+Flowers102,barbeton daisy,osteospermum,17,107,15.88785046728972
+Flowers102,barbeton daisy,pink-yellow dahlia?,17,107,15.88785046728972
+Flowers102,red ginger,bromelia,17,22,77.27272727272727
+Flowers102,globe-flower,buttercup,16,21,76.19047619047619
+Flowers102,great masterwort,bee balm,16,36,44.44444444444444
+Flowers102,hard-leaved pocket orchid,moon orchid,15,40,37.5
+Flowers102,sword lily,siam tulip,15,110,13.636363636363637
+Flowers102,bishop of llandaff,japanese anemone,14,89,15.730337078651685
+Flowers102,petunia,geranium,14,238,5.882352941176471
+Flowers102,wallflower,pelargonium,14,176,7.954545454545454
+Flowers102,bishop of llandaff,orange dahlia,13,89,14.606741573033707
+Flowers102,bishop of llandaff,pelargonium,13,89,14.606741573033707
+Flowers102,prince of wales feathers,red ginger,13,20,65.0
+Flowers102,thorn apple,desert-rose,13,100,13.0
+Flowers102,thorn apple,mallow,13,100,13.0
+Flowers102,watercress,cape flower,13,164,7.926829268292683
+Flowers102,bishop of llandaff,camellia,12,89,13.48314606741573
+Flowers102,petunia,canterbury bells,12,238,5.042016806722689
+Flowers102,canna lily,yellow iris,11,62,17.741935483870968
+Flowers102,pelargonium,mexican petunia,11,51,21.568627450980394
+Flowers102,thorn apple,balloon flower,11,100,11.0
+Flowers102,tree poppy,english marigold,11,42,26.19047619047619
+Flowers102,wallflower,peruvian lily,11,176,6.25
+Flowers102,primula,pink primrose,10,73,13.698630136986301
+Flowers102,tree mallow,petunia,10,38,26.31578947368421
+Flowers102,tree poppy,corn poppy,10,42,23.80952380952381
+Flowers102,watercress,mexican petunia,10,164,6.097560975609756
+Flowers102,trumpet creeper,canna lily,9,38,23.68421052631579
+Flowers102,watercress,hibiscus,9,164,5.487804878048781
+Flowers102,californian poppy,buttercup,8,82,9.75609756097561
+Flowers102,love in the mist,pincushion flower,8,26,30.76923076923077
+Flowers102,morning glory,balloon flower,8,87,9.195402298850574
+Flowers102,wallflower,canna lily,8,176,4.545454545454546
+Flowers102,watercress,windflower,8,164,4.878048780487805
+Flowers102,alpine sea holly,globe thistle,7,23,30.434782608695652
+Flowers102,barbeton daisy,orange dahlia,7,107,6.542056074766355
+Flowers102,bearded iris,yellow iris,7,34,20.58823529411765
+Flowers102,bishop of llandaff,desert-rose,7,89,7.865168539325842
+Flowers102,cape flower,sword lily,7,88,7.954545454545454
+Flowers102,hibiscus,mexican petunia,7,111,6.306306306306307
+Flowers102,mallow,cape flower,7,46,15.217391304347826
+Flowers102,mallow,hibiscus,7,46,15.217391304347826
+Flowers102,pincushion flower,mexican aster,7,39,17.94871794871795
+Flowers102,sweet pea,canterbury bells,7,36,19.444444444444443
+Flowers102,sword lily,bearded iris,7,110,6.363636363636363
+Flowers102,sword lily,snapdragon,7,110,6.363636363636363
+Flowers102,sword lily,yellow iris,7,110,6.363636363636363
+Flowers102,tree poppy,windflower,7,42,16.666666666666668
+Flowers102,watercress,buttercup,7,164,4.2682926829268295
+Flowers102,wild pansy,peruvian lily,7,65,10.76923076923077
+Flowers102,azalea,desert-rose,6,76,7.894736842105263
+Flowers102,bishop of llandaff,fire lily,6,89,6.741573033707865
+Flowers102,bishop of llandaff,pink-yellow dahlia?,6,89,6.741573033707865
+Flowers102,bougainvillea,desert-rose,6,108,5.555555555555555
+Flowers102,english marigold,barbeton daisy,6,45,13.333333333333334
+Flowers102,foxglove,canterbury bells,6,142,4.225352112676056
+Flowers102,lotus,water lily,6,117,5.128205128205129
+Flowers102,love in the mist,alpine sea holly,6,26,23.076923076923077
+Flowers102,love in the mist,cape flower,6,26,23.076923076923077
+Flowers102,passion flower,cape flower,6,231,2.5974025974025974
+Flowers102,petunia,garden phlox,6,238,2.5210084033613445
+Flowers102,sweet william,garden phlox,6,65,9.23076923076923
+Flowers102,sword lily,peruvian lily,6,110,5.454545454545454
+Flowers102,wallflower,primula,6,176,3.409090909090909
+Flowers102,watercress,geranium,6,164,3.658536585365854
+Flowers102,azalea,bougainvillea,5,76,6.578947368421052
+Flowers102,californian poppy,windflower,5,82,6.097560975609756
+Flowers102,canterbury bells,monkshood,5,20,25.0
+Flowers102,cape flower,pelargonium,5,88,5.681818181818182
+Flowers102,cyclamen,spring crocus,5,134,3.7313432835820897
+Flowers102,english marigold,gazania,5,45,11.11111111111111
+Flowers102,fritillary,siam tulip,5,71,7.042253521126761
+Flowers102,garden phlox,mexican petunia,5,25,20.0
+Flowers102,lotus,frangipani,5,117,4.273504273504273
+Flowers102,mallow,tree mallow,5,46,10.869565217391305
+Flowers102,moon orchid,frangipani,5,20,25.0
+Flowers102,morning glory,mallow,5,87,5.747126436781609
+Flowers102,morning glory,tree mallow,5,87,5.747126436781609
+Flowers102,orange dahlia,barbeton daisy,5,47,10.638297872340425
+Flowers102,osteospermum,mexican aster,5,41,12.195121951219512
+Flowers102,passion flower,clematis,5,231,2.1645021645021645
+Flowers102,petunia,primula,5,238,2.100840336134454
+Flowers102,sweet william,pink primrose,5,65,7.6923076923076925
+Flowers102,trumpet creeper,hibiscus,5,38,13.157894736842104
+Flowers102,trumpet creeper,snapdragon,5,38,13.157894736842104
+Flowers102,azalea,peruvian lily,4,76,5.2631578947368425
+Flowers102,azalea,pink primrose,4,76,5.2631578947368425
+Flowers102,bishop of llandaff,windflower,4,89,4.49438202247191
+Flowers102,bolero deep blue,mexican petunia,4,20,20.0
+Flowers102,bolero deep blue,wild pansy,4,20,20.0
+Flowers102,bougainvillea,hard-leaved pocket orchid,4,108,3.7037037037037037
+Flowers102,bougainvillea,mexican petunia,4,108,3.7037037037037037
+Flowers102,colt's foot,common dandelion,4,67,5.970149253731344
+Flowers102,fritillary,sword lily,4,71,5.633802816901408
+Flowers102,geranium,carnation,4,94,4.25531914893617
+Flowers102,great masterwort,pincushion flower,4,36,11.11111111111111
+Flowers102,hard-leaved pocket orchid,globe-flower,4,40,10.0
+Flowers102,lotus,magnolia,4,117,3.4188034188034186
+Flowers102,mallow,globe-flower,4,46,8.695652173913043
+Flowers102,mallow,lenten rose,4,46,8.695652173913043
+Flowers102,mexican aster,japanese anemone,4,20,20.0
+Flowers102,moon orchid,hard-leaved pocket orchid,4,20,20.0
+Flowers102,orange dahlia,gazania,4,47,8.51063829787234
+Flowers102,pelargonium,balloon flower,4,51,7.8431372549019605
+Flowers102,pelargonium,windflower,4,51,7.8431372549019605
+Flowers102,petunia,pink primrose,4,238,1.680672268907563
+Flowers102,pink primrose,windflower,4,20,20.0
+Flowers102,pink-yellow dahlia?,orange dahlia,4,89,4.49438202247191
+Flowers102,prince of wales feathers,english marigold,4,20,20.0
+Flowers102,siam tulip,bromelia,4,21,19.047619047619047
+Flowers102,sweet pea,snapdragon,4,36,11.11111111111111
+Flowers102,sweet william,mexican petunia,4,65,6.153846153846154
+Flowers102,sword lily,sweet pea,4,110,3.6363636363636362
+Flowers102,wallflower,snapdragon,4,176,2.272727272727273
+Flowers102,watercress,wallflower,4,164,2.4390243902439024
+Flowers102,bishop of llandaff,columbine,3,89,3.3707865168539324
+Flowers102,bolero deep blue,lenten rose,3,20,15.0
+Flowers102,camellia,cape flower,3,71,4.225352112676056
+Flowers102,cape flower,columbine,3,88,3.409090909090909
+Flowers102,cape flower,cyclamen,3,88,3.409090909090909
+Flowers102,desert-rose,bougainvillea,3,43,6.976744186046512
+Flowers102,desert-rose,peruvian lily,3,43,6.976744186046512
+Flowers102,english marigold,mexican aster,3,45,6.666666666666667
+Flowers102,english marigold,orange dahlia,3,45,6.666666666666667
+Flowers102,fire lily,trumpet creeper,3,20,15.0
+Flowers102,gazania,blanket flower,3,58,5.172413793103448
+Flowers102,geranium,mexican petunia,3,94,3.1914893617021276
+Flowers102,great masterwort,mexican aster,3,36,8.333333333333334
+Flowers102,great masterwort,sweet william,3,36,8.333333333333334
+Flowers102,lotus,pink-yellow dahlia?,3,117,2.5641025641025643
+Flowers102,lotus,siam tulip,3,117,2.5641025641025643
+Flowers102,mallow,japanese anemone,3,46,6.521739130434782
+Flowers102,mallow,tree poppy,3,46,6.521739130434782
+Flowers102,mexican aster,osteospermum,3,20,15.0
+Flowers102,mexican petunia,pink primrose,3,62,4.838709677419355
+Flowers102,mexican petunia,windflower,3,62,4.838709677419355
+Flowers102,morning glory,petunia,3,87,3.4482758620689653
+Flowers102,passion flower,bee balm,3,231,1.2987012987012987
+Flowers102,pelargonium,mallow,3,51,5.882352941176471
+Flowers102,peruvian lily,hippeastrum,3,62,4.838709677419355
+Flowers102,primula,mexican petunia,3,73,4.109589041095891
+Flowers102,primula,windflower,3,73,4.109589041095891
+Flowers102,rose,camellia,3,151,1.9867549668874172
+Flowers102,ruby-lipped cattleya,moon orchid,3,55,5.454545454545454
+Flowers102,siam tulip,sword lily,3,21,14.285714285714286
+Flowers102,snapdragon,hard-leaved pocket orchid,3,67,4.477611940298507
+Flowers102,sweet pea,desert-rose,3,36,8.333333333333334
+Flowers102,sweet william,peruvian lily,3,65,4.615384615384615
+Flowers102,sword lily,trumpet creeper,3,110,2.727272727272727
+Flowers102,thorn apple,magnolia,3,100,3.0
+Flowers102,thorn apple,mexican petunia,3,100,3.0
+Flowers102,tree poppy,cape flower,3,42,7.142857142857143
+Flowers102,tree poppy,colt's foot,3,42,7.142857142857143
+Flowers102,trumpet creeper,ruby-lipped cattleya,3,38,7.894736842105263
+Flowers102,wallflower,cautleya spicata,3,176,1.7045454545454546
+Flowers102,wallflower,sweet william,3,176,1.7045454545454546
+Flowers102,watercress,peruvian lily,3,164,1.829268292682927
+Flowers102,watercress,primula,3,164,1.829268292682927
+Flowers102,wild pansy,cape flower,3,65,4.615384615384615
+Flowers102,wild pansy,mexican petunia,3,65,4.615384615384615
+Flowers102,artichoke,king protea,2,58,3.4482758620689653
+Flowers102,ball moss,sword lily,2,26,7.6923076923076925
+Flowers102,ball moss,windflower,2,26,7.6923076923076925
+Flowers102,balloon flower,canterbury bells,2,29,6.896551724137931
+Flowers102,balloon flower,windflower,2,29,6.896551724137931
+Flowers102,bishop of llandaff,carnation,2,89,2.247191011235955
+Flowers102,bishop of llandaff,mexican aster,2,89,2.247191011235955
+Flowers102,bishop of llandaff,peruvian lily,2,89,2.247191011235955
+Flowers102,bishop of llandaff,poinsettia,2,89,2.247191011235955
+Flowers102,blackberry lily,cautleya spicata,2,28,7.142857142857143
+Flowers102,bolero deep blue,balloon flower,2,20,10.0
+Flowers102,bolero deep blue,petunia,2,20,10.0
+Flowers102,bolero deep blue,siam tulip,2,20,10.0
+Flowers102,bolero deep blue,windflower,2,20,10.0
+Flowers102,bougainvillea,canna lily,2,108,1.8518518518518519
+Flowers102,bougainvillea,pink primrose,2,108,1.8518518518518519
+Flowers102,bougainvillea,poinsettia,2,108,1.8518518518518519
+Flowers102,bougainvillea,trumpet creeper,2,108,1.8518518518518519
+Flowers102,bromelia,fire lily,2,43,4.651162790697675
+Flowers102,bromelia,sword lily,2,43,4.651162790697675
+Flowers102,californian poppy,cape flower,2,82,2.4390243902439024
+Flowers102,canterbury bells,balloon flower,2,20,10.0
+Flowers102,canterbury bells,mexican petunia,2,20,10.0
+Flowers102,canterbury bells,stemless gentian,2,20,10.0
+Flowers102,cape flower,azalea,2,88,2.272727272727273
+Flowers102,clematis,windflower,2,92,2.1739130434782608
+Flowers102,colt's foot,barbeton daisy,2,67,2.985074626865672
+Flowers102,columbine,gaura,2,66,3.0303030303030303
+Flowers102,columbine,pink-yellow dahlia?,2,66,3.0303030303030303
+Flowers102,columbine,sword lily,2,66,3.0303030303030303
+Flowers102,corn poppy,tree poppy,2,21,9.523809523809524
+Flowers102,cyclamen,magnolia,2,134,1.492537313432836
+Flowers102,cyclamen,siam tulip,2,134,1.492537313432836
+Flowers102,desert-rose,frangipani,2,43,4.651162790697675
+Flowers102,desert-rose,mexican petunia,2,43,4.651162790697675
+Flowers102,desert-rose,pink primrose,2,43,4.651162790697675
+Flowers102,desert-rose,ruby-lipped cattleya,2,43,4.651162790697675
+Flowers102,english marigold,marigold,2,45,4.444444444444445
+Flowers102,fire lily,canna lily,2,20,10.0
+Flowers102,fire lily,peruvian lily,2,20,10.0
+Flowers102,foxglove,lenten rose,2,142,1.408450704225352
+Flowers102,foxglove,snapdragon,2,142,1.408450704225352
+Flowers102,great masterwort,alpine sea holly,2,36,5.555555555555555
+Flowers102,hard-leaved pocket orchid,ruby-lipped cattleya,2,40,5.0
+Flowers102,japanese anemone,windflower,2,35,5.714285714285714
+Flowers102,lotus,japanese anemone,2,117,1.7094017094017093
+Flowers102,love in the mist,globe thistle,2,26,7.6923076923076925
+Flowers102,magnolia,cape flower,2,43,4.651162790697675
+Flowers102,magnolia,sword lily,2,43,4.651162790697675
+Flowers102,mallow,corn poppy,2,46,4.3478260869565215
+Flowers102,mallow,orange dahlia,2,46,4.3478260869565215
+Flowers102,mexican petunia,hibiscus,2,62,3.225806451612903
+Flowers102,mexican petunia,stemless gentian,2,62,3.225806451612903
+Flowers102,morning glory,stemless gentian,2,87,2.2988505747126435
+Flowers102,osteospermum,purple coneflower,2,41,4.878048780487805
+Flowers102,pelargonium,tree mallow,2,51,3.9215686274509802
+Flowers102,petunia,colt's foot,2,238,0.8403361344537815
+Flowers102,petunia,tree mallow,2,238,0.8403361344537815
+Flowers102,pink primrose,geranium,2,20,10.0
+Flowers102,pink primrose,mexican petunia,2,20,10.0
+Flowers102,pink primrose,tree mallow,2,20,10.0
+Flowers102,primula,english marigold,2,73,2.73972602739726
+Flowers102,rose,siam tulip,2,151,1.3245033112582782
+Flowers102,siam tulip,cyclamen,2,21,9.523809523809524
+Flowers102,siam tulip,stemless gentian,2,21,9.523809523809524
+Flowers102,silverbush,mallow,2,32,6.25
+Flowers102,snapdragon,pink primrose,2,67,2.985074626865672
+Flowers102,sweet william,bougainvillea,2,65,3.076923076923077
+Flowers102,sword lily,canterbury bells,2,110,1.8181818181818181
+Flowers102,sword lily,daffodil,2,110,1.8181818181818181
+Flowers102,sword lily,desert-rose,2,110,1.8181818181818181
+Flowers102,sword lily,mexican petunia,2,110,1.8181818181818181
+Flowers102,sword lily,ruby-lipped cattleya,2,110,1.8181818181818181
+Flowers102,tree poppy,japanese anemone,2,42,4.761904761904762
+Flowers102,trumpet creeper,mexican petunia,2,38,5.2631578947368425
+Flowers102,wallflower,fire lily,2,176,1.1363636363636365
+Flowers102,wallflower,yellow iris,2,176,1.1363636363636365
+Flowers102,water lily,pink-yellow dahlia?,2,174,1.1494252873563218
+Flowers102,watercress,marigold,2,164,1.2195121951219512
+Flowers102,watercress,pelargonium,2,164,1.2195121951219512
+Flowers102,watercress,tree mallow,2,164,1.2195121951219512
+Flowers102,wild pansy,spring crocus,2,65,3.076923076923077
+Flowers102,windflower,cape flower,2,34,5.882352941176471
+Flowers102,windflower,columbine,2,34,5.882352941176471
+Flowers102,alpine sea holly,spear thistle,1,23,4.3478260869565215
+Flowers102,anthurium,siam tulip,1,85,1.1764705882352942
+Flowers102,artichoke,globe thistle,1,58,1.7241379310344827
+Flowers102,artichoke,pincushion flower,1,58,1.7241379310344827
+Flowers102,azalea,bearded iris,1,76,1.3157894736842106
+Flowers102,azalea,camellia,1,76,1.3157894736842106
+Flowers102,azalea,mexican petunia,1,76,1.3157894736842106
+Flowers102,azalea,pelargonium,1,76,1.3157894736842106
+Flowers102,ball moss,bird of paradise,1,26,3.8461538461538463
+Flowers102,ball moss,foxglove,1,26,3.8461538461538463
+Flowers102,ball moss,grape hyacinth,1,26,3.8461538461538463
+Flowers102,ball moss,ruby-lipped cattleya,1,26,3.8461538461538463
+Flowers102,ball moss,spring crocus,1,26,3.8461538461538463
+Flowers102,balloon flower,cape flower,1,29,3.4482758620689653
+Flowers102,balloon flower,lenten rose,1,29,3.4482758620689653
+Flowers102,barbeton daisy,carnation,1,107,0.9345794392523364
+Flowers102,barbeton daisy,english marigold,1,107,0.9345794392523364
+Flowers102,bearded iris,canna lily,1,34,2.9411764705882355
+Flowers102,bearded iris,hibiscus,1,34,2.9411764705882355
+Flowers102,bearded iris,peruvian lily,1,34,2.9411764705882355
+Flowers102,bee balm,fire lily,1,46,2.1739130434782608
+Flowers102,bee balm,silverbush,1,46,2.1739130434782608
+Flowers102,bird of paradise,bromelia,1,65,1.5384615384615385
+Flowers102,bird of paradise,canna lily,1,65,1.5384615384615385
+Flowers102,bishop of llandaff,english marigold,1,89,1.1235955056179776
+Flowers102,bishop of llandaff,globe-flower,1,89,1.1235955056179776
+Flowers102,bishop of llandaff,mexican petunia,1,89,1.1235955056179776
+Flowers102,blackberry lily,canna lily,1,28,3.5714285714285716
+Flowers102,blackberry lily,fire lily,1,28,3.5714285714285716
+Flowers102,blackberry lily,hard-leaved pocket orchid,1,28,3.5714285714285716
+Flowers102,blackberry lily,tiger lily,1,28,3.5714285714285716
+Flowers102,blanket flower,gazania,1,29,3.4482758620689653
+Flowers102,bolero deep blue,japanese anemone,1,20,5.0
+Flowers102,bougainvillea,bolero deep blue,1,108,0.9259259259259259
+Flowers102,bougainvillea,camellia,1,108,0.9259259259259259
+Flowers102,bougainvillea,clematis,1,108,0.9259259259259259
+Flowers102,bougainvillea,ruby-lipped cattleya,1,108,0.9259259259259259
+Flowers102,bougainvillea,sweet pea,1,108,0.9259259259259259
+Flowers102,bromelia,siam tulip,1,43,2.3255813953488373
+Flowers102,californian poppy,canterbury bells,1,82,1.2195121951219512
+Flowers102,californian poppy,english marigold,1,82,1.2195121951219512
+Flowers102,californian poppy,japanese anemone,1,82,1.2195121951219512
+Flowers102,camellia,desert-rose,1,71,1.408450704225352
+Flowers102,camellia,hibiscus,1,71,1.408450704225352
+Flowers102,camellia,hippeastrum,1,71,1.408450704225352
+Flowers102,camellia,japanese anemone,1,71,1.408450704225352
+Flowers102,camellia,lenten rose,1,71,1.408450704225352
+Flowers102,camellia,tree mallow,1,71,1.408450704225352
+Flowers102,camellia,water lily,1,71,1.408450704225352
+Flowers102,camellia,windflower,1,71,1.408450704225352
+Flowers102,canna lily,buttercup,1,62,1.6129032258064515
+Flowers102,canna lily,californian poppy,1,62,1.6129032258064515
+Flowers102,canna lily,hippeastrum,1,62,1.6129032258064515
+Flowers102,canna lily,peruvian lily,1,62,1.6129032258064515
+Flowers102,canna lily,trumpet creeper,1,62,1.6129032258064515
+Flowers102,canterbury bells,garden phlox,1,20,5.0
+Flowers102,canterbury bells,peruvian lily,1,20,5.0
+Flowers102,cape flower,clematis,1,88,1.1363636363636365
+Flowers102,cape flower,trumpet creeper,1,88,1.1363636363636365
+Flowers102,carnation,siam tulip,1,32,3.125
+Flowers102,clematis,japanese anemone,1,92,1.0869565217391304
+Flowers102,colt's foot,fire lily,1,67,1.492537313432836
+Flowers102,colt's foot,thorn apple,1,67,1.492537313432836
+Flowers102,columbine,clematis,1,66,1.5151515151515151
+Flowers102,columbine,fire lily,1,66,1.5151515151515151
+Flowers102,columbine,frangipani,1,66,1.5151515151515151
+Flowers102,common dandelion,barbeton daisy,1,72,1.3888888888888888
+Flowers102,common dandelion,buttercup,1,72,1.3888888888888888
+Flowers102,cyclamen,bromelia,1,134,0.746268656716418
+Flowers102,cyclamen,moon orchid,1,134,0.746268656716418
+Flowers102,cyclamen,ruby-lipped cattleya,1,134,0.746268656716418
+Flowers102,daffodil,yellow iris,1,39,2.5641025641025643
+Flowers102,desert-rose,sweet william,1,43,2.3255813953488373
+Flowers102,english marigold,black-eyed susan,1,45,2.2222222222222223
+Flowers102,english marigold,blanket flower,1,45,2.2222222222222223
+Flowers102,english marigold,californian poppy,1,45,2.2222222222222223
+Flowers102,fire lily,hippeastrum,1,20,5.0
+Flowers102,fire lily,tiger lily,1,20,5.0
+Flowers102,foxglove,cautleya spicata,1,142,0.704225352112676
+Flowers102,fritillary,canterbury bells,1,71,1.408450704225352
+Flowers102,fritillary,cape flower,1,71,1.408450704225352
+Flowers102,fritillary,daffodil,1,71,1.408450704225352
+Flowers102,fritillary,globe-flower,1,71,1.408450704225352
+Flowers102,fritillary,grape hyacinth,1,71,1.408450704225352
+Flowers102,fritillary,hard-leaved pocket orchid,1,71,1.408450704225352
+Flowers102,garden phlox,sweet pea,1,25,4.0
+Flowers102,gaura,pelargonium,1,47,2.127659574468085
+Flowers102,gaura,tree mallow,1,47,2.127659574468085
+Flowers102,gazania,black-eyed susan,1,58,1.7241379310344827
+Flowers102,gazania,sunflower,1,58,1.7241379310344827
+Flowers102,giant white arum lily,cape flower,1,36,2.7777777777777777
+Flowers102,giant white arum lily,yellow iris,1,36,2.7777777777777777
+Flowers102,globe-flower,corn poppy,1,21,4.761904761904762
+Flowers102,globe-flower,english marigold,1,21,4.761904761904762
+Flowers102,globe-flower,tree poppy,1,21,4.761904761904762
+Flowers102,globe-flower,yellow iris,1,21,4.761904761904762
+Flowers102,great masterwort,colt's foot,1,36,2.7777777777777777
+Flowers102,great masterwort,gaura,1,36,2.7777777777777777
+Flowers102,great masterwort,osteospermum,1,36,2.7777777777777777
+Flowers102,great masterwort,pelargonium,1,36,2.7777777777777777
+Flowers102,great masterwort,purple coneflower,1,36,2.7777777777777777
+Flowers102,great masterwort,silverbush,1,36,2.7777777777777777
+Flowers102,great masterwort,sword lily,1,36,2.7777777777777777
+Flowers102,great masterwort,toad lily,1,36,2.7777777777777777
+Flowers102,hibiscus,californian poppy,1,111,0.9009009009009009
+Flowers102,hibiscus,desert-rose,1,111,0.9009009009009009
+Flowers102,japanese anemone,clematis,1,35,2.857142857142857
+Flowers102,japanese anemone,lenten rose,1,35,2.857142857142857
+Flowers102,japanese anemone,mallow,1,35,2.857142857142857
+Flowers102,japanese anemone,pink primrose,1,35,2.857142857142857
+Flowers102,lenten rose,cape flower,1,47,2.127659574468085
+Flowers102,love in the mist,balloon flower,1,26,3.8461538461538463
+Flowers102,love in the mist,mexican aster,1,26,3.8461538461538463
+Flowers102,love in the mist,stemless gentian,1,26,3.8461538461538463
+Flowers102,love in the mist,windflower,1,26,3.8461538461538463
+Flowers102,magnolia,siam tulip,1,43,2.3255813953488373
+Flowers102,mallow,camellia,1,46,2.1739130434782608
+Flowers102,mallow,clematis,1,46,2.1739130434782608
+Flowers102,mallow,english marigold,1,46,2.1739130434782608
+Flowers102,mallow,geranium,1,46,2.1739130434782608
+Flowers102,mallow,pink primrose,1,46,2.1739130434782608
+Flowers102,mallow,poinsettia,1,46,2.1739130434782608
+Flowers102,mallow,trumpet creeper,1,46,2.1739130434782608
+Flowers102,mallow,windflower,1,46,2.1739130434782608
+Flowers102,mexican aster,pink-yellow dahlia?,1,20,5.0
+Flowers102,mexican aster,windflower,1,20,5.0
+Flowers102,mexican petunia,balloon flower,1,62,1.6129032258064515
+Flowers102,mexican petunia,canterbury bells,1,62,1.6129032258064515
+Flowers102,mexican petunia,monkshood,1,62,1.6129032258064515
+Flowers102,mexican petunia,peruvian lily,1,62,1.6129032258064515
+Flowers102,mexican petunia,petunia,1,62,1.6129032258064515
+Flowers102,mexican petunia,sweet william,1,62,1.6129032258064515
+Flowers102,monkshood,canterbury bells,1,26,3.8461538461538463
+Flowers102,moon orchid,giant white arum lily,1,20,5.0
+Flowers102,morning glory,giant white arum lily,1,87,1.1494252873563218
+Flowers102,morning glory,windflower,1,87,1.1494252873563218
+Flowers102,orange dahlia,mexican aster,1,47,2.127659574468085
+Flowers102,passion flower,mexican aster,1,231,0.4329004329004329
+Flowers102,pelargonium,geranium,1,51,1.9607843137254901
+Flowers102,pelargonium,pink primrose,1,51,1.9607843137254901
+Flowers102,peruvian lily,lenten rose,1,62,1.6129032258064515
+Flowers102,petunia,balloon flower,1,238,0.42016806722689076
+Flowers102,petunia,desert-rose,1,238,0.42016806722689076
+Flowers102,petunia,pelargonium,1,238,0.42016806722689076
+Flowers102,petunia,peruvian lily,1,238,0.42016806722689076
+Flowers102,petunia,snapdragon,1,238,0.42016806722689076
+Flowers102,petunia,sweet pea,1,238,0.42016806722689076
+Flowers102,petunia,windflower,1,238,0.42016806722689076
+Flowers102,pincushion flower,garden phlox,1,39,2.5641025641025643
+Flowers102,pincushion flower,grape hyacinth,1,39,2.5641025641025643
+Flowers102,pincushion flower,sweet william,1,39,2.5641025641025643
+Flowers102,pincushion flower,windflower,1,39,2.5641025641025643
+Flowers102,pink primrose,peruvian lily,1,20,5.0
+Flowers102,poinsettia,cape flower,1,73,1.36986301369863
+Flowers102,prince of wales feathers,cautleya spicata,1,20,5.0
+Flowers102,prince of wales feathers,king protea,1,20,5.0
+Flowers102,prince of wales feathers,sweet william,1,20,5.0
+Flowers102,purple coneflower,barbeton daisy,1,65,1.5384615384615385
+Flowers102,purple coneflower,fritillary,1,65,1.5384615384615385
+Flowers102,purple coneflower,osteospermum,1,65,1.5384615384615385
+Flowers102,red ginger,canna lily,1,22,4.545454545454546
+Flowers102,rose,carnation,1,151,0.6622516556291391
+Flowers102,rose,snapdragon,1,151,0.6622516556291391
+Flowers102,ruby-lipped cattleya,hard-leaved pocket orchid,1,55,1.8181818181818181
+Flowers102,snapdragon,bougainvillea,1,67,1.492537313432836
+Flowers102,snapdragon,canterbury bells,1,67,1.492537313432836
+Flowers102,snapdragon,cape flower,1,67,1.492537313432836
+Flowers102,snapdragon,desert-rose,1,67,1.492537313432836
+Flowers102,snapdragon,foxglove,1,67,1.492537313432836
+Flowers102,snapdragon,moon orchid,1,67,1.492537313432836
+Flowers102,snapdragon,ruby-lipped cattleya,1,67,1.492537313432836
+Flowers102,snapdragon,sweet pea,1,67,1.492537313432836
+Flowers102,snapdragon,wallflower,1,67,1.492537313432836
+Flowers102,stemless gentian,spring crocus,1,46,2.1739130434782608
+Flowers102,sweet pea,geranium,1,36,2.7777777777777777
+Flowers102,sweet pea,monkshood,1,36,2.7777777777777777
+Flowers102,sweet pea,stemless gentian,1,36,2.7777777777777777
+Flowers102,sweet pea,tree mallow,1,36,2.7777777777777777
+Flowers102,sweet william,hibiscus,1,65,1.5384615384615385
+Flowers102,sweet william,hippeastrum,1,65,1.5384615384615385
+Flowers102,sweet william,lenten rose,1,65,1.5384615384615385
+Flowers102,sword lily,californian poppy,1,110,0.9090909090909091
+Flowers102,sword lily,giant white arum lily,1,110,0.9090909090909091
+Flowers102,sword lily,hibiscus,1,110,0.9090909090909091
+Flowers102,sword lily,monkshood,1,110,0.9090909090909091
+Flowers102,sword lily,pink primrose,1,110,0.9090909090909091
+Flowers102,thorn apple,hibiscus,1,100,1.0
+Flowers102,thorn apple,windflower,1,100,1.0
+Flowers102,tree mallow,mallow,1,38,2.6315789473684212
+Flowers102,tree mallow,pelargonium,1,38,2.6315789473684212
+Flowers102,tree mallow,pink primrose,1,38,2.6315789473684212
+Flowers102,tree poppy,globe-flower,1,42,2.380952380952381
+Flowers102,tree poppy,siam tulip,1,42,2.380952380952381
+Flowers102,trumpet creeper,desert-rose,1,38,2.6315789473684212
+Flowers102,trumpet creeper,hippeastrum,1,38,2.6315789473684212
+Flowers102,trumpet creeper,peruvian lily,1,38,2.6315789473684212
+Flowers102,trumpet creeper,tiger lily,1,38,2.6315789473684212
+Flowers102,wallflower,blackberry lily,1,176,0.5681818181818182
+Flowers102,wallflower,mexican petunia,1,176,0.5681818181818182
+Flowers102,wallflower,ruby-lipped cattleya,1,176,0.5681818181818182
+Flowers102,wallflower,sweet pea,1,176,0.5681818181818182
+Flowers102,water lily,bird of paradise,1,174,0.5747126436781609
+Flowers102,watercress,corn poppy,1,164,0.6097560975609756
+Flowers102,watercress,orange dahlia,1,164,0.6097560975609756
+Flowers102,watercress,red ginger,1,164,0.6097560975609756
+Flowers102,wild pansy,canterbury bells,1,65,1.5384615384615385
+Flowers102,wild pansy,hard-leaved pocket orchid,1,65,1.5384615384615385
+Flowers102,wild pansy,petunia,1,65,1.5384615384615385
+Flowers102,wild pansy,stemless gentian,1,65,1.5384615384615385
+Flowers102,wild pansy,wallflower,1,65,1.5384615384615385
+Flowers102,windflower,pincushion flower,1,34,2.9411764705882355
+Flowers102,windflower,sword lily,1,34,2.9411764705882355
+Oxford-IIIT Pet,Ragdoll,Birman,67,100,67.0
+Oxford-IIIT Pet,Bombay,Russian Blue,52,88,59.09090909090909
+Oxford-IIIT Pet,Boxer,American Bulldog,32,99,32.323232323232325
+Oxford-IIIT Pet,Persian,Birman,30,100,30.0
+Oxford-IIIT Pet,Staffordshire Bull Terrier,American Pit Bull Terrier,20,89,22.471910112359552
+Oxford-IIIT Pet,British Shorthair,Russian Blue,19,100,19.0
+Oxford-IIIT Pet,American Pit Bull Terrier,American Bulldog,18,100,18.0
+Oxford-IIIT Pet,English Cocker Spaniel,English Setter,17,100,17.0
+Oxford-IIIT Pet,Beagle,Basset Hound,16,100,16.0
+Oxford-IIIT Pet,Bombay,Siamese,13,88,14.772727272727273
+Oxford-IIIT Pet,Egyptian Mau,Bengal,13,97,13.402061855670103
+Oxford-IIIT Pet,Staffordshire Bull Terrier,American Bulldog,12,89,13.48314606741573
+Oxford-IIIT Pet,Siamese,Birman,11,100,11.0
+Oxford-IIIT Pet,Bengal,Abyssinian,10,100,10.0
+Oxford-IIIT Pet,American Pit Bull Terrier,Staffordshire Bull Terrier,9,100,9.0
+Oxford-IIIT Pet,Bombay,British Shorthair,8,88,9.090909090909092
+Oxford-IIIT Pet,Bombay,Persian,8,88,9.090909090909092
+Oxford-IIIT Pet,Chihuahua,Miniature Pinscher,8,100,8.0
+Oxford-IIIT Pet,Persian,Maine Coon,8,100,8.0
+Oxford-IIIT Pet,Newfoundland,English Cocker Spaniel,7,100,7.0
+Oxford-IIIT Pet,Boxer,Staffordshire Bull Terrier,6,99,6.0606060606060606
+Oxford-IIIT Pet,Great Pyrenees,Samoyed,6,100,6.0
+Oxford-IIIT Pet,Persian,British Shorthair,6,100,6.0
+Oxford-IIIT Pet,Persian,Ragdoll,6,100,6.0
+Oxford-IIIT Pet,Russian Blue,British Shorthair,6,100,6.0
+Oxford-IIIT Pet,Abyssinian,Egyptian Mau,5,98,5.1020408163265305
+Oxford-IIIT Pet,Leonberger,Keeshond,5,100,5.0
+Oxford-IIIT Pet,Basset Hound,Beagle,4,100,4.0
+Oxford-IIIT Pet,Bengal,Egyptian Mau,4,100,4.0
+Oxford-IIIT Pet,English Setter,English Cocker Spaniel,4,100,4.0
+Oxford-IIIT Pet,Newfoundland,Leonberger,4,100,4.0
+Oxford-IIIT Pet,Wheaten Terrier,Havanese,4,100,4.0
+Oxford-IIIT Pet,Birman,Ragdoll,3,100,3.0
+Oxford-IIIT Pet,Birman,Siamese,3,100,3.0
+Oxford-IIIT Pet,Bombay,Egyptian Mau,3,88,3.409090909090909
+Oxford-IIIT Pet,Great Pyrenees,English Setter,3,100,3.0
+Oxford-IIIT Pet,Havanese,Wheaten Terrier,3,100,3.0
+Oxford-IIIT Pet,Japanese Chin,English Cocker Spaniel,3,100,3.0
+Oxford-IIIT Pet,Maine Coon,Birman,3,100,3.0
+Oxford-IIIT Pet,Maine Coon,Persian,3,100,3.0
+Oxford-IIIT Pet,Wheaten Terrier,Great Pyrenees,3,100,3.0
+Oxford-IIIT Pet,Yorkshire Terrier,Havanese,3,100,3.0
+Oxford-IIIT Pet,Abyssinian,British Shorthair,2,98,2.0408163265306123
+Oxford-IIIT Pet,Abyssinian,Siamese,2,98,2.0408163265306123
+Oxford-IIIT Pet,Abyssinian,Sphynx,2,98,2.0408163265306123
+Oxford-IIIT Pet,American Bulldog,American Pit Bull Terrier,2,100,2.0
+Oxford-IIIT Pet,American Pit Bull Terrier,German Shorthaired,2,100,2.0
+Oxford-IIIT Pet,Bombay,Scottish Terrier,2,88,2.272727272727273
+Oxford-IIIT Pet,Boxer,German Shorthaired,2,99,2.0202020202020203
+Oxford-IIIT Pet,Egyptian Mau,British Shorthair,2,97,2.0618556701030926
+Oxford-IIIT Pet,Havanese,Yorkshire Terrier,2,100,2.0
+Oxford-IIIT Pet,Japanese Chin,Pomeranian,2,100,2.0
+Oxford-IIIT Pet,Maine Coon,Abyssinian,2,100,2.0
+Oxford-IIIT Pet,Maine Coon,British Shorthair,2,100,2.0
+Oxford-IIIT Pet,Maine Coon,Ragdoll,2,100,2.0
+Oxford-IIIT Pet,Pomeranian,Samoyed,2,100,2.0
+Oxford-IIIT Pet,Pug,American Bulldog,2,100,2.0
+Oxford-IIIT Pet,Ragdoll,Persian,2,100,2.0
+Oxford-IIIT Pet,Saint Bernard,American Bulldog,2,100,2.0
+Oxford-IIIT Pet,Saint Bernard,Basset Hound,2,100,2.0
+Oxford-IIIT Pet,Saint Bernard,English Setter,2,100,2.0
+Oxford-IIIT Pet,Abyssinian,Bengal,1,98,1.0204081632653061
+Oxford-IIIT Pet,American Pit Bull Terrier,Miniature Pinscher,1,100,1.0
+Oxford-IIIT Pet,Basset Hound,Saint Bernard,1,100,1.0
+Oxford-IIIT Pet,Beagle,American Bulldog,1,100,1.0
+Oxford-IIIT Pet,Beagle,German Shorthaired,1,100,1.0
+Oxford-IIIT Pet,Beagle,Miniature Pinscher,1,100,1.0
+Oxford-IIIT Pet,Bombay,Maine Coon,1,88,1.1363636363636365
+Oxford-IIIT Pet,Bombay,Pug,1,88,1.1363636363636365
+Oxford-IIIT Pet,Boxer,American Pit Bull Terrier,1,99,1.0101010101010102
+Oxford-IIIT Pet,Chihuahua,Shiba Inu,1,100,1.0
+Oxford-IIIT Pet,Egyptian Mau,Russian Blue,1,97,1.0309278350515463
+Oxford-IIIT Pet,English Cocker Spaniel,Wheaten Terrier,1,100,1.0
+Oxford-IIIT Pet,German Shorthaired,Miniature Pinscher,1,100,1.0
+Oxford-IIIT Pet,Great Pyrenees,English Cocker Spaniel,1,100,1.0
+Oxford-IIIT Pet,Great Pyrenees,Saint Bernard,1,100,1.0
+Oxford-IIIT Pet,Great Pyrenees,Siamese,1,100,1.0
+Oxford-IIIT Pet,Great Pyrenees,Wheaten Terrier,1,100,1.0
+Oxford-IIIT Pet,Havanese,Japanese Chin,1,100,1.0
+Oxford-IIIT Pet,Havanese,Scottish Terrier,1,100,1.0
+Oxford-IIIT Pet,Japanese Chin,Shiba Inu,1,100,1.0
+Oxford-IIIT Pet,Keeshond,Chihuahua,1,99,1.0101010101010102
+Oxford-IIIT Pet,Keeshond,Pomeranian,1,99,1.0101010101010102
+Oxford-IIIT Pet,Leonberger,Scottish Terrier,1,100,1.0
+Oxford-IIIT Pet,Maine Coon,Egyptian Mau,1,100,1.0
+Oxford-IIIT Pet,Maine Coon,Russian Blue,1,100,1.0
+Oxford-IIIT Pet,Miniature Pinscher,German Shorthaired,1,100,1.0
+Oxford-IIIT Pet,Newfoundland,Scottish Terrier,1,100,1.0
+Oxford-IIIT Pet,Persian,Siamese,1,100,1.0
+Oxford-IIIT Pet,Pomeranian,Japanese Chin,1,100,1.0
+Oxford-IIIT Pet,Ragdoll,Siamese,1,100,1.0
+Oxford-IIIT Pet,Russian Blue,Egyptian Mau,1,100,1.0
+Oxford-IIIT Pet,Saint Bernard,Chihuahua,1,100,1.0
+Oxford-IIIT Pet,Saint Bernard,Japanese Chin,1,100,1.0
+Oxford-IIIT Pet,Samoyed,Great Pyrenees,1,100,1.0
+Oxford-IIIT Pet,Scottish Terrier,Wheaten Terrier,1,99,1.0101010101010102
+Oxford-IIIT Pet,Shiba Inu,Samoyed,1,100,1.0
+Oxford-IIIT Pet,Siamese,Ragdoll,1,100,1.0
+Oxford-IIIT Pet,Sphynx,Abyssinian,1,100,1.0
+Oxford-IIIT Pet,Sphynx,Siamese,1,100,1.0
+Oxford-IIIT Pet,Staffordshire Bull Terrier,Boxer,1,89,1.1235955056179776
+Oxford-IIIT Pet,Staffordshire Bull Terrier,Miniature Pinscher,1,89,1.1235955056179776
+Oxford-IIIT Pet,Yorkshire Terrier,Scottish Terrier,1,100,1.0
+DTD partition 1,dotted,polka-dotted,36,40,90.0
+DTD partition 1,banded,striped,35,40,87.5
+DTD partition 1,lacelike,paisley,25,40,62.5
+DTD partition 1,lined,striped,25,40,62.5
+DTD partition 1,swirly,paisley,22,40,55.0
+DTD partition 1,meshed,perforated,21,40,52.5
+DTD partition 1,interlaced,paisley,20,40,50.0
+DTD partition 1,flecked,knitted,13,40,32.5
+DTD partition 1,gauzy,frilly,13,40,32.5
+DTD partition 1,grid,perforated,13,40,32.5
+DTD partition 1,spiralled,swirly,11,40,27.5
+DTD partition 1,zigzagged,banded,11,40,27.5
+DTD partition 1,perforated,studded,10,40,25.0
+DTD partition 1,stained,smeared,10,40,25.0
+DTD partition 1,braided,knitted,9,40,22.5
+DTD partition 1,cracked,freckled,9,40,22.5
+DTD partition 1,grooved,banded,9,40,22.5
+DTD partition 1,lacelike,frilly,9,40,22.5
+DTD partition 1,smeared,marbled,9,40,22.5
+DTD partition 1,grid,waffled,8,40,20.0
+DTD partition 1,honeycombed,perforated,8,40,20.0
+DTD partition 1,woven,knitted,8,40,20.0
+DTD partition 1,zigzagged,chequered,8,40,20.0
+DTD partition 1,zigzagged,striped,8,40,20.0
+DTD partition 1,bumpy,scaly,7,40,17.5
+DTD partition 1,crosshatched,chequered,7,40,17.5
+DTD partition 1,fibrous,cobwebbed,7,40,17.5
+DTD partition 1,grooved,pleated,7,40,17.5
+DTD partition 1,matted,braided,7,40,17.5
+DTD partition 1,potholed,cracked,7,40,17.5
+DTD partition 1,bumpy,waffled,6,40,15.0
+DTD partition 1,flecked,sprinkled,6,40,15.0
+DTD partition 1,matted,fibrous,6,40,15.0
+DTD partition 1,matted,knitted,6,40,15.0
+DTD partition 1,pitted,freckled,6,40,15.0
+DTD partition 1,pitted,porous,6,40,15.0
+DTD partition 1,veined,pleated,6,40,15.0
+DTD partition 1,woven,perforated,6,40,15.0
+DTD partition 1,woven,waffled,6,40,15.0
+DTD partition 1,wrinkled,crystalline,6,40,15.0
+DTD partition 1,blotchy,gauzy,5,40,12.5
+DTD partition 1,braided,woven,5,40,12.5
+DTD partition 1,cracked,fibrous,5,40,12.5
+DTD partition 1,freckled,polka-dotted,5,40,12.5
+DTD partition 1,gauzy,pleated,5,40,12.5
+DTD partition 1,honeycombed,grid,5,40,12.5
+DTD partition 1,honeycombed,waffled,5,40,12.5
+DTD partition 1,meshed,waffled,5,40,12.5
+DTD partition 1,pleated,frilly,5,40,12.5
+DTD partition 1,potholed,bumpy,5,40,12.5
+DTD partition 1,stratified,marbled,5,40,12.5
+DTD partition 1,striped,marbled,5,40,12.5
+DTD partition 1,wrinkled,pleated,5,40,12.5
+DTD partition 1,flecked,dotted,4,40,10.0
+DTD partition 1,flecked,polka-dotted,4,40,10.0
+DTD partition 1,frilly,pleated,4,40,10.0
+DTD partition 1,grid,chequered,4,40,10.0
+DTD partition 1,grooved,striped,4,40,10.0
+DTD partition 1,matted,frilly,4,40,10.0
+DTD partition 1,meshed,cobwebbed,4,40,10.0
+DTD partition 1,pitted,potholed,4,40,10.0
+DTD partition 1,pitted,studded,4,40,10.0
+DTD partition 1,pleated,banded,4,40,10.0
+DTD partition 1,porous,sprinkled,4,40,10.0
+DTD partition 1,scaly,studded,4,40,10.0
+DTD partition 1,smeared,gauzy,4,40,10.0
+DTD partition 1,spiralled,braided,4,40,10.0
+DTD partition 1,spiralled,knitted,4,40,10.0
+DTD partition 1,sprinkled,polka-dotted,4,40,10.0
+DTD partition 1,stained,blotchy,4,40,10.0
+DTD partition 1,stained,potholed,4,40,10.0
+DTD partition 1,stratified,banded,4,40,10.0
+DTD partition 1,studded,perforated,4,40,10.0
+DTD partition 1,veined,scaly,4,40,10.0
+DTD partition 1,veined,stained,4,40,10.0
+DTD partition 1,wrinkled,honeycombed,4,40,10.0
+DTD partition 1,zigzagged,grooved,4,40,10.0
+DTD partition 1,zigzagged,woven,4,40,10.0
+DTD partition 1,blotchy,fibrous,3,40,7.5
+DTD partition 1,blotchy,marbled,3,40,7.5
+DTD partition 1,blotchy,porous,3,40,7.5
+DTD partition 1,blotchy,smeared,3,40,7.5
+DTD partition 1,bumpy,fibrous,3,40,7.5
+DTD partition 1,bumpy,honeycombed,3,40,7.5
+DTD partition 1,bumpy,porous,3,40,7.5
+DTD partition 1,bumpy,studded,3,40,7.5
+DTD partition 1,crosshatched,perforated,3,40,7.5
+DTD partition 1,crosshatched,woven,3,40,7.5
+DTD partition 1,fibrous,woven,3,40,7.5
+DTD partition 1,flecked,porous,3,40,7.5
+DTD partition 1,gauzy,perforated,3,40,7.5
+DTD partition 1,grooved,grid,3,40,7.5
+DTD partition 1,grooved,lined,3,40,7.5
+DTD partition 1,interlaced,chequered,3,40,7.5
+DTD partition 1,interlaced,spiralled,3,40,7.5
+DTD partition 1,interlaced,woven,3,40,7.5
+DTD partition 1,lined,grid,3,40,7.5
+DTD partition 1,lined,lacelike,3,40,7.5
+DTD partition 1,marbled,cracked,3,40,7.5
+DTD partition 1,matted,gauzy,3,40,7.5
+DTD partition 1,pitted,honeycombed,3,40,7.5
+DTD partition 1,porous,lined,3,40,7.5
+DTD partition 1,potholed,pitted,3,40,7.5
+DTD partition 1,scaly,knitted,3,40,7.5
+DTD partition 1,smeared,potholed,3,40,7.5
+DTD partition 1,stained,fibrous,3,40,7.5
+DTD partition 1,stained,marbled,3,40,7.5
+DTD partition 1,stratified,veined,3,40,7.5
+DTD partition 1,swirly,marbled,3,40,7.5
+DTD partition 1,veined,freckled,3,40,7.5
+DTD partition 1,woven,chequered,3,40,7.5
+DTD partition 1,blotchy,honeycombed,2,40,5.0
+DTD partition 1,blotchy,paisley,2,40,5.0
+DTD partition 1,blotchy,potholed,2,40,5.0
+DTD partition 1,braided,pleated,2,40,5.0
+DTD partition 1,braided,spiralled,2,40,5.0
+DTD partition 1,bumpy,polka-dotted,2,40,5.0
+DTD partition 1,bumpy,stratified,2,40,5.0
+DTD partition 1,cracked,potholed,2,40,5.0
+DTD partition 1,cracked,scaly,2,40,5.0
+DTD partition 1,crosshatched,pleated,2,40,5.0
+DTD partition 1,fibrous,frilly,2,40,5.0
+DTD partition 1,fibrous,knitted,2,40,5.0
+DTD partition 1,fibrous,matted,2,40,5.0
+DTD partition 1,fibrous,porous,2,40,5.0
+DTD partition 1,flecked,honeycombed,2,40,5.0
+DTD partition 1,flecked,lacelike,2,40,5.0
+DTD partition 1,freckled,honeycombed,2,40,5.0
+DTD partition 1,freckled,porous,2,40,5.0
+DTD partition 1,frilly,freckled,2,40,5.0
+DTD partition 1,frilly,polka-dotted,2,40,5.0
+DTD partition 1,gauzy,cobwebbed,2,40,5.0
+DTD partition 1,gauzy,knitted,2,40,5.0
+DTD partition 1,gauzy,stained,2,40,5.0
+DTD partition 1,gauzy,swirly,2,40,5.0
+DTD partition 1,grooved,knitted,2,40,5.0
+DTD partition 1,grooved,perforated,2,40,5.0
+DTD partition 1,honeycombed,pleated,2,40,5.0
+DTD partition 1,honeycombed,porous,2,40,5.0
+DTD partition 1,interlaced,swirly,2,40,5.0
+DTD partition 1,lacelike,perforated,2,40,5.0
+DTD partition 1,lined,pleated,2,40,5.0
+DTD partition 1,marbled,bubbly,2,40,5.0
+DTD partition 1,marbled,veined,2,40,5.0
+DTD partition 1,meshed,studded,2,40,5.0
+DTD partition 1,perforated,polka-dotted,2,40,5.0
+DTD partition 1,pitted,fibrous,2,40,5.0
+DTD partition 1,pitted,gauzy,2,40,5.0
+DTD partition 1,pitted,lined,2,40,5.0
+DTD partition 1,pitted,polka-dotted,2,40,5.0
+DTD partition 1,pitted,sprinkled,2,40,5.0
+DTD partition 1,pitted,stained,2,40,5.0
+DTD partition 1,porous,fibrous,2,40,5.0
+DTD partition 1,porous,scaly,2,40,5.0
+DTD partition 1,porous,waffled,2,40,5.0
+DTD partition 1,potholed,veined,2,40,5.0
+DTD partition 1,scaly,honeycombed,2,40,5.0
+DTD partition 1,scaly,veined,2,40,5.0
+DTD partition 1,scaly,waffled,2,40,5.0
+DTD partition 1,scaly,woven,2,40,5.0
+DTD partition 1,smeared,bubbly,2,40,5.0
+DTD partition 1,smeared,honeycombed,2,40,5.0
+DTD partition 1,smeared,lacelike,2,40,5.0
+DTD partition 1,smeared,swirly,2,40,5.0
+DTD partition 1,spiralled,scaly,2,40,5.0
+DTD partition 1,sprinkled,bubbly,2,40,5.0
+DTD partition 1,sprinkled,dotted,2,40,5.0
+DTD partition 1,sprinkled,frilly,2,40,5.0
+DTD partition 1,sprinkled,honeycombed,2,40,5.0
+DTD partition 1,sprinkled,knitted,2,40,5.0
+DTD partition 1,sprinkled,smeared,2,40,5.0
+DTD partition 1,stratified,fibrous,2,40,5.0
+DTD partition 1,stratified,grooved,2,40,5.0
+DTD partition 1,veined,frilly,2,40,5.0
+DTD partition 1,veined,interlaced,2,40,5.0
+DTD partition 1,veined,marbled,2,40,5.0
+DTD partition 1,waffled,grid,2,40,5.0
+DTD partition 1,waffled,perforated,2,40,5.0
+DTD partition 1,woven,grooved,2,40,5.0
+DTD partition 1,wrinkled,freckled,2,40,5.0
+DTD partition 1,wrinkled,frilly,2,40,5.0
+DTD partition 1,wrinkled,lined,2,40,5.0
+DTD partition 1,wrinkled,marbled,2,40,5.0
+DTD partition 1,zigzagged,waffled,2,40,5.0
+DTD partition 1,banded,honeycombed,1,40,2.5
+DTD partition 1,banded,knitted,1,40,2.5
+DTD partition 1,banded,polka-dotted,1,40,2.5
+DTD partition 1,blotchy,bubbly,1,40,2.5
+DTD partition 1,blotchy,crystalline,1,40,2.5
+DTD partition 1,blotchy,dotted,1,40,2.5
+DTD partition 1,blotchy,frilly,1,40,2.5
+DTD partition 1,blotchy,grooved,1,40,2.5
+DTD partition 1,blotchy,polka-dotted,1,40,2.5
+DTD partition 1,blotchy,sprinkled,1,40,2.5
+DTD partition 1,blotchy,stained,1,40,2.5
+DTD partition 1,blotchy,veined,1,40,2.5
+DTD partition 1,braided,banded,1,40,2.5
+DTD partition 1,braided,grooved,1,40,2.5
+DTD partition 1,braided,perforated,1,40,2.5
+DTD partition 1,braided,porous,1,40,2.5
+DTD partition 1,bubbly,cobwebbed,1,40,2.5
+DTD partition 1,bubbly,pitted,1,40,2.5
+DTD partition 1,bubbly,porous,1,40,2.5
+DTD partition 1,bumpy,braided,1,40,2.5
+DTD partition 1,bumpy,flecked,1,40,2.5
+DTD partition 1,bumpy,freckled,1,40,2.5
+DTD partition 1,bumpy,frilly,1,40,2.5
+DTD partition 1,bumpy,knitted,1,40,2.5
+DTD partition 1,bumpy,meshed,1,40,2.5
+DTD partition 1,bumpy,perforated,1,40,2.5
+DTD partition 1,bumpy,potholed,1,40,2.5
+DTD partition 1,bumpy,sprinkled,1,40,2.5
+DTD partition 1,chequered,pleated,1,40,2.5
+DTD partition 1,chequered,waffled,1,40,2.5
+DTD partition 1,cobwebbed,cracked,1,40,2.5
+DTD partition 1,cobwebbed,gauzy,1,40,2.5
+DTD partition 1,cobwebbed,grid,1,40,2.5
+DTD partition 1,cracked,porous,1,40,2.5
+DTD partition 1,cracked,spiralled,1,40,2.5
+DTD partition 1,cracked,stratified,1,40,2.5
+DTD partition 1,cracked,veined,1,40,2.5
+DTD partition 1,crosshatched,banded,1,40,2.5
+DTD partition 1,crosshatched,cracked,1,40,2.5
+DTD partition 1,crosshatched,crystalline,1,40,2.5
+DTD partition 1,crosshatched,gauzy,1,40,2.5
+DTD partition 1,crosshatched,grooved,1,40,2.5
+DTD partition 1,crosshatched,lacelike,1,40,2.5
+DTD partition 1,crosshatched,matted,1,40,2.5
+DTD partition 1,crosshatched,porous,1,40,2.5
+DTD partition 1,crosshatched,smeared,1,40,2.5
+DTD partition 1,crosshatched,waffled,1,40,2.5
+DTD partition 1,crystalline,bubbly,1,40,2.5
+DTD partition 1,crystalline,stained,1,40,2.5
+DTD partition 1,crystalline,veined,1,40,2.5
+DTD partition 1,dotted,porous,1,40,2.5
+DTD partition 1,dotted,studded,1,40,2.5
+DTD partition 1,fibrous,honeycombed,1,40,2.5
+DTD partition 1,fibrous,lined,1,40,2.5
+DTD partition 1,fibrous,meshed,1,40,2.5
+DTD partition 1,fibrous,scaly,1,40,2.5
+DTD partition 1,fibrous,spiralled,1,40,2.5
+DTD partition 1,flecked,bubbly,1,40,2.5
+DTD partition 1,flecked,freckled,1,40,2.5
+DTD partition 1,flecked,perforated,1,40,2.5
+DTD partition 1,flecked,potholed,1,40,2.5
+DTD partition 1,flecked,studded,1,40,2.5
+DTD partition 1,freckled,fibrous,1,40,2.5
+DTD partition 1,freckled,waffled,1,40,2.5
+DTD partition 1,frilly,fibrous,1,40,2.5
+DTD partition 1,frilly,grooved,1,40,2.5
+DTD partition 1,frilly,honeycombed,1,40,2.5
+DTD partition 1,frilly,knitted,1,40,2.5
+DTD partition 1,frilly,marbled,1,40,2.5
+DTD partition 1,frilly,spiralled,1,40,2.5
+DTD partition 1,frilly,studded,1,40,2.5
+DTD partition 1,frilly,waffled,1,40,2.5
+DTD partition 1,gauzy,grid,1,40,2.5
+DTD partition 1,gauzy,grooved,1,40,2.5
+DTD partition 1,gauzy,marbled,1,40,2.5
+DTD partition 1,gauzy,spiralled,1,40,2.5
+DTD partition 1,gauzy,woven,1,40,2.5
+DTD partition 1,grid,knitted,1,40,2.5
+DTD partition 1,grid,lacelike,1,40,2.5
+DTD partition 1,grid,meshed,1,40,2.5
+DTD partition 1,grid,paisley,1,40,2.5
+DTD partition 1,grid,studded,1,40,2.5
+DTD partition 1,grooved,braided,1,40,2.5
+DTD partition 1,grooved,chequered,1,40,2.5
+DTD partition 1,grooved,gauzy,1,40,2.5
+DTD partition 1,grooved,honeycombed,1,40,2.5
+DTD partition 1,grooved,scaly,1,40,2.5
+DTD partition 1,grooved,studded,1,40,2.5
+DTD partition 1,honeycombed,chequered,1,40,2.5
+DTD partition 1,honeycombed,dotted,1,40,2.5
+DTD partition 1,honeycombed,scaly,1,40,2.5
+DTD partition 1,interlaced,braided,1,40,2.5
+DTD partition 1,interlaced,cobwebbed,1,40,2.5
+DTD partition 1,interlaced,knitted,1,40,2.5
+DTD partition 1,interlaced,perforated,1,40,2.5
+DTD partition 1,interlaced,smeared,1,40,2.5
+DTD partition 1,interlaced,studded,1,40,2.5
+DTD partition 1,interlaced,waffled,1,40,2.5
+DTD partition 1,knitted,lacelike,1,40,2.5
+DTD partition 1,knitted,woven,1,40,2.5
+DTD partition 1,lacelike,cobwebbed,1,40,2.5
+DTD partition 1,lacelike,knitted,1,40,2.5
+DTD partition 1,lacelike,polka-dotted,1,40,2.5
+DTD partition 1,lacelike,porous,1,40,2.5
+DTD partition 1,lined,banded,1,40,2.5
+DTD partition 1,lined,crosshatched,1,40,2.5
+DTD partition 1,lined,knitted,1,40,2.5
+DTD partition 1,lined,marbled,1,40,2.5
+DTD partition 1,lined,swirly,1,40,2.5
+DTD partition 1,marbled,fibrous,1,40,2.5
+DTD partition 1,marbled,flecked,1,40,2.5
+DTD partition 1,marbled,frilly,1,40,2.5
+DTD partition 1,marbled,gauzy,1,40,2.5
+DTD partition 1,marbled,paisley,1,40,2.5
+DTD partition 1,marbled,pleated,1,40,2.5
+DTD partition 1,marbled,porous,1,40,2.5
+DTD partition 1,marbled,sprinkled,1,40,2.5
+DTD partition 1,marbled,stained,1,40,2.5
+DTD partition 1,marbled,swirly,1,40,2.5
+DTD partition 1,matted,crosshatched,1,40,2.5
+DTD partition 1,matted,crystalline,1,40,2.5
+DTD partition 1,matted,freckled,1,40,2.5
+DTD partition 1,matted,grid,1,40,2.5
+DTD partition 1,matted,honeycombed,1,40,2.5
+DTD partition 1,matted,lined,1,40,2.5
+DTD partition 1,matted,porous,1,40,2.5
+DTD partition 1,matted,potholed,1,40,2.5
+DTD partition 1,meshed,braided,1,40,2.5
+DTD partition 1,meshed,crosshatched,1,40,2.5
+DTD partition 1,meshed,grid,1,40,2.5
+DTD partition 1,meshed,knitted,1,40,2.5
+DTD partition 1,meshed,paisley,1,40,2.5
+DTD partition 1,meshed,woven,1,40,2.5
+DTD partition 1,perforated,chequered,1,40,2.5
+DTD partition 1,perforated,crosshatched,1,40,2.5
+DTD partition 1,perforated,grid,1,40,2.5
+DTD partition 1,pitted,blotchy,1,40,2.5
+DTD partition 1,pitted,bumpy,1,40,2.5
+DTD partition 1,pitted,lacelike,1,40,2.5
+DTD partition 1,pitted,spiralled,1,40,2.5
+DTD partition 1,pleated,gauzy,1,40,2.5
+DTD partition 1,pleated,marbled,1,40,2.5
+DTD partition 1,pleated,polka-dotted,1,40,2.5
+DTD partition 1,pleated,striped,1,40,2.5
+DTD partition 1,pleated,swirly,1,40,2.5
+DTD partition 1,polka-dotted,chequered,1,40,2.5
+DTD partition 1,polka-dotted,perforated,1,40,2.5
+DTD partition 1,porous,cobwebbed,1,40,2.5
+DTD partition 1,porous,dotted,1,40,2.5
+DTD partition 1,porous,honeycombed,1,40,2.5
+DTD partition 1,porous,paisley,1,40,2.5
+DTD partition 1,porous,potholed,1,40,2.5
+DTD partition 1,potholed,fibrous,1,40,2.5
+DTD partition 1,potholed,marbled,1,40,2.5
+DTD partition 1,potholed,scaly,1,40,2.5
+DTD partition 1,potholed,stratified,1,40,2.5
+DTD partition 1,potholed,zigzagged,1,40,2.5
+DTD partition 1,scaly,dotted,1,40,2.5
+DTD partition 1,scaly,perforated,1,40,2.5
+DTD partition 1,smeared,blotchy,1,40,2.5
+DTD partition 1,smeared,crosshatched,1,40,2.5
+DTD partition 1,smeared,crystalline,1,40,2.5
+DTD partition 1,smeared,pleated,1,40,2.5
+DTD partition 1,smeared,stained,1,40,2.5
+DTD partition 1,spiralled,banded,1,40,2.5
+DTD partition 1,spiralled,fibrous,1,40,2.5
+DTD partition 1,spiralled,freckled,1,40,2.5
+DTD partition 1,spiralled,interlaced,1,40,2.5
+DTD partition 1,spiralled,lined,1,40,2.5
+DTD partition 1,sprinkled,blotchy,1,40,2.5
+DTD partition 1,sprinkled,fibrous,1,40,2.5
+DTD partition 1,sprinkled,freckled,1,40,2.5
+DTD partition 1,sprinkled,marbled,1,40,2.5
+DTD partition 1,sprinkled,potholed,1,40,2.5
+DTD partition 1,sprinkled,waffled,1,40,2.5
+DTD partition 1,stained,bubbly,1,40,2.5
+DTD partition 1,stained,freckled,1,40,2.5
+DTD partition 1,stained,frilly,1,40,2.5
+DTD partition 1,stained,honeycombed,1,40,2.5
+DTD partition 1,stained,matted,1,40,2.5
+DTD partition 1,stained,sprinkled,1,40,2.5
+DTD partition 1,stained,studded,1,40,2.5
+DTD partition 1,stained,waffled,1,40,2.5
+DTD partition 1,stratified,bumpy,1,40,2.5
+DTD partition 1,stratified,honeycombed,1,40,2.5
+DTD partition 1,stratified,lacelike,1,40,2.5
+DTD partition 1,stratified,lined,1,40,2.5
+DTD partition 1,stratified,scaly,1,40,2.5
+DTD partition 1,stratified,swirly,1,40,2.5
+DTD partition 1,striped,banded,1,40,2.5
+DTD partition 1,striped,braided,1,40,2.5
+DTD partition 1,striped,paisley,1,40,2.5
+DTD partition 1,striped,spiralled,1,40,2.5
+DTD partition 1,striped,swirly,1,40,2.5
+DTD partition 1,striped,woven,1,40,2.5
+DTD partition 1,striped,zigzagged,1,40,2.5
+DTD partition 1,studded,polka-dotted,1,40,2.5
+DTD partition 1,swirly,frilly,1,40,2.5
+DTD partition 1,swirly,lacelike,1,40,2.5
+DTD partition 1,swirly,porous,1,40,2.5
+DTD partition 1,veined,braided,1,40,2.5
+DTD partition 1,veined,cobwebbed,1,40,2.5
+DTD partition 1,veined,cracked,1,40,2.5
+DTD partition 1,veined,fibrous,1,40,2.5
+DTD partition 1,veined,gauzy,1,40,2.5
+DTD partition 1,veined,grooved,1,40,2.5
+DTD partition 1,veined,honeycombed,1,40,2.5
+DTD partition 1,veined,meshed,1,40,2.5
+DTD partition 1,veined,porous,1,40,2.5
+DTD partition 1,veined,wrinkled,1,40,2.5
+DTD partition 1,waffled,knitted,1,40,2.5
+DTD partition 1,waffled,studded,1,40,2.5
+DTD partition 1,woven,studded,1,40,2.5
+DTD partition 1,wrinkled,braided,1,40,2.5
+DTD partition 1,wrinkled,cracked,1,40,2.5
+DTD partition 1,wrinkled,lacelike,1,40,2.5
+DTD partition 1,wrinkled,stained,1,40,2.5
+DTD partition 1,wrinkled,veined,1,40,2.5
+DTD partition 1,zigzagged,frilly,1,40,2.5
+DTD partition 1,zigzagged,perforated,1,40,2.5
+Food-101,onion_rings,fried_calamari,70,250,28.0
+Food-101,steak,filet_mignon,68,250,27.2
+Food-101,apple_pie,bread_pudding,50,250,20.0
+Food-101,breakfast_burrito,huevos_rancheros,44,250,17.6
+Food-101,steak,prime_rib,38,250,15.2
+Food-101,cup_cakes,red_velvet_cake,37,250,14.8
+Food-101,ice_cream,frozen_yogurt,37,250,14.8
+Food-101,grilled_cheese_sandwich,club_sandwich,36,250,14.4
+Food-101,clam_chowder,lobster_bisque,30,250,12.0
+Food-101,hamburger,pulled_pork_sandwich,30,250,12.0
+Food-101,chocolate_cake,chocolate_mousse,29,250,11.6
+Food-101,samosa,spring_rolls,29,250,11.6
+Food-101,tuna_tartare,beef_tartare,29,250,11.6
+Food-101,lasagna,huevos_rancheros,28,250,11.2
+Food-101,cheesecake,panna_cotta,27,250,10.8
+Food-101,strawberry_shortcake,cheesecake,26,250,10.4
+Food-101,beef_tartare,tuna_tartare,25,250,10.0
+Food-101,filet_mignon,steak,24,250,9.6
+Food-101,ramen,miso_soup,24,250,9.6
+Food-101,chocolate_mousse,panna_cotta,23,250,9.2
+Food-101,omelette,huevos_rancheros,23,250,9.2
+Food-101,ravioli,shrimp_and_grits,21,250,8.4
+Food-101,scallops,shrimp_and_grits,21,250,8.4
+Food-101,gyoza,dumplings,20,250,8.0
+Food-101,baby_back_ribs,pork_chop,19,250,7.6
+Food-101,chicken_curry,lobster_bisque,19,250,7.6
+Food-101,guacamole,nachos,19,250,7.6
+Food-101,miso_soup,hot_and_sour_soup,19,250,7.6
+Food-101,pork_chop,filet_mignon,19,250,7.6
+Food-101,waffles,french_toast,19,250,7.6
+Food-101,chicken_quesadilla,huevos_rancheros,18,250,7.2
+Food-101,chocolate_mousse,chocolate_cake,18,250,7.2
+Food-101,prime_rib,steak,18,250,7.2
+Food-101,steak,pork_chop,18,250,7.2
+Food-101,croque_madame,eggs_benedict,17,250,6.8
+Food-101,foie_gras,beet_salad,17,250,6.8
+Food-101,ice_cream,chocolate_mousse,17,250,6.8
+Food-101,nachos,huevos_rancheros,17,250,6.8
+Food-101,peking_duck,spring_rolls,17,250,6.8
+Food-101,ramen,hot_and_sour_soup,17,250,6.8
+Food-101,sushi,sashimi,17,250,6.8
+Food-101,tacos,huevos_rancheros,17,250,6.8
+Food-101,donuts,beignets,16,250,6.4
+Food-101,escargots,french_onion_soup,16,250,6.4
+Food-101,falafel,crab_cakes,16,250,6.4
+Food-101,filet_mignon,prime_rib,16,250,6.4
+Food-101,hot_dog,lobster_roll_sandwich,16,250,6.4
+Food-101,strawberry_shortcake,red_velvet_cake,16,250,6.4
+Food-101,tuna_tartare,beef_carpaccio,16,250,6.4
+Food-101,baklava,bread_pudding,15,250,6.0
+Food-101,breakfast_burrito,chicken_quesadilla,15,250,6.0
+Food-101,carrot_cake,bread_pudding,15,250,6.0
+Food-101,chocolate_mousse,tiramisu,15,250,6.0
+Food-101,ramen,pho,15,250,6.0
+Food-101,apple_pie,baklava,14,250,5.6
+Food-101,garlic_bread,french_toast,14,250,5.6
+Food-101,greek_salad,caesar_salad,14,250,5.6
+Food-101,lasagna,ravioli,14,250,5.6
+Food-101,foie_gras,filet_mignon,13,250,5.2
+Food-101,grilled_cheese_sandwich,chicken_quesadilla,13,250,5.2
+Food-101,prime_rib,filet_mignon,13,250,5.2
+Food-101,tacos,chicken_quesadilla,13,250,5.2
+Food-101,tiramisu,chocolate_mousse,13,250,5.2
+Food-101,baby_back_ribs,steak,12,250,4.8
+Food-101,beet_salad,caesar_salad,12,250,4.8
+Food-101,beet_salad,greek_salad,12,250,4.8
+Food-101,foie_gras,tuna_tartare,12,250,4.8
+Food-101,french_onion_soup,hot_and_sour_soup,12,250,4.8
+Food-101,bruschetta,caprese_salad,11,250,4.4
+Food-101,french_toast,bread_pudding,11,250,4.4
+Food-101,lasagna,french_onion_soup,11,250,4.4
+Food-101,omelette,eggs_benedict,11,250,4.4
+Food-101,pork_chop,steak,11,250,4.4
+Food-101,ravioli,beef_carpaccio,11,250,4.4
+Food-101,risotto,shrimp_and_grits,11,250,4.4
+Food-101,scallops,crab_cakes,11,250,4.4
+Food-101,strawberry_shortcake,panna_cotta,11,250,4.4
+Food-101,beet_salad,beef_carpaccio,10,250,4.0
+Food-101,carrot_cake,tiramisu,10,250,4.0
+Food-101,cheesecake,bread_pudding,10,250,4.0
+Food-101,fried_rice,pad_thai,10,250,4.0
+Food-101,hamburger,club_sandwich,10,250,4.0
+Food-101,macaroni_and_cheese,french_onion_soup,10,250,4.0
+Food-101,baby_back_ribs,prime_rib,9,250,3.6
+Food-101,croque_madame,huevos_rancheros,9,250,3.6
+Food-101,hot_and_sour_soup,miso_soup,9,250,3.6
+Food-101,ice_cream,bread_pudding,9,250,3.6
+Food-101,paella,shrimp_and_grits,9,250,3.6
+Food-101,pork_chop,grilled_salmon,9,250,3.6
+Food-101,ravioli,clam_chowder,9,250,3.6
+Food-101,ravioli,huevos_rancheros,9,250,3.6
+Food-101,strawberry_shortcake,bread_pudding,9,250,3.6
+Food-101,tacos,nachos,9,250,3.6
+Food-101,beef_carpaccio,beet_salad,8,250,3.2
+Food-101,bread_pudding,panna_cotta,8,250,3.2
+Food-101,ceviche,huevos_rancheros,8,250,3.2
+Food-101,ceviche,shrimp_and_grits,8,250,3.2
+Food-101,ceviche,tuna_tartare,8,250,3.2
+Food-101,chicken_curry,hot_and_sour_soup,8,250,3.2
+Food-101,chicken_quesadilla,nachos,8,250,3.2
+Food-101,chicken_wings,fried_calamari,8,250,3.2
+Food-101,chocolate_cake,panna_cotta,8,250,3.2
+Food-101,dumplings,gyoza,8,250,3.2
+Food-101,fish_and_chips,fried_calamari,8,250,3.2
+Food-101,foie_gras,chocolate_mousse,8,250,3.2
+Food-101,foie_gras,pork_chop,8,250,3.2
+Food-101,french_onion_soup,creme_brulee,8,250,3.2
+Food-101,french_toast,beignets,8,250,3.2
+Food-101,hummus,chicken_quesadilla,8,250,3.2
+Food-101,lobster_bisque,clam_chowder,8,250,3.2
+Food-101,pancakes,french_toast,8,250,3.2
+Food-101,ravioli,chicken_curry,8,250,3.2
+Food-101,risotto,huevos_rancheros,8,250,3.2
+Food-101,samosa,baklava,8,250,3.2
+Food-101,seaweed_salad,bibimbap,8,250,3.2
+Food-101,tuna_tartare,bruschetta,8,250,3.2
+Food-101,apple_pie,french_toast,7,250,2.8
+Food-101,beef_tartare,beef_carpaccio,7,250,2.8
+Food-101,bruschetta,huevos_rancheros,7,250,2.8
+Food-101,cannoli,bread_pudding,7,250,2.8
+Food-101,caprese_salad,beef_carpaccio,7,250,2.8
+Food-101,caprese_salad,greek_salad,7,250,2.8
+Food-101,chocolate_cake,tiramisu,7,250,2.8
+Food-101,deviled_eggs,eggs_benedict,7,250,2.8
+Food-101,eggs_benedict,huevos_rancheros,7,250,2.8
+Food-101,garlic_bread,bruschetta,7,250,2.8
+Food-101,greek_salad,caprese_salad,7,250,2.8
+Food-101,hamburger,lobster_roll_sandwich,7,250,2.8
+Food-101,hot_dog,pulled_pork_sandwich,7,250,2.8
+Food-101,lasagna,omelette,7,250,2.8
+Food-101,pork_chop,prime_rib,7,250,2.8
+Food-101,ravioli,lasagna,7,250,2.8
+Food-101,red_velvet_cake,cheesecake,7,250,2.8
+Food-101,red_velvet_cake,chocolate_cake,7,250,2.8
+Food-101,spaghetti_carbonara,spaghetti_bolognese,7,250,2.8
+Food-101,tiramisu,creme_brulee,7,250,2.8
+Food-101,beet_salad,seaweed_salad,6,250,2.4
+Food-101,bread_pudding,french_toast,6,250,2.4
+Food-101,ceviche,nachos,6,250,2.4
+Food-101,cheesecake,strawberry_shortcake,6,250,2.4
+Food-101,churros,fried_calamari,6,250,2.4
+Food-101,creme_brulee,panna_cotta,6,250,2.4
+Food-101,donuts,cup_cakes,6,250,2.4
+Food-101,filet_mignon,pork_chop,6,250,2.4
+Food-101,foie_gras,bread_pudding,6,250,2.4
+Food-101,foie_gras,panna_cotta,6,250,2.4
+Food-101,french_fries,fried_calamari,6,250,2.4
+Food-101,garlic_bread,crab_cakes,6,250,2.4
+Food-101,gnocchi,ravioli,6,250,2.4
+Food-101,grilled_cheese_sandwich,french_toast,6,250,2.4
+Food-101,grilled_salmon,crab_cakes,6,250,2.4
+Food-101,grilled_salmon,pork_chop,6,250,2.4
+Food-101,guacamole,caesar_salad,6,250,2.4
+Food-101,gyoza,spring_rolls,6,250,2.4
+Food-101,hamburger,huevos_rancheros,6,250,2.4
+Food-101,hot_and_sour_soup,french_onion_soup,6,250,2.4
+Food-101,lasagna,bread_pudding,6,250,2.4
+Food-101,panna_cotta,bread_pudding,6,250,2.4
+Food-101,panna_cotta,creme_brulee,6,250,2.4
+Food-101,peking_duck,dumplings,6,250,2.4
+Food-101,pho,hot_and_sour_soup,6,250,2.4
+Food-101,pork_chop,crab_cakes,6,250,2.4
+Food-101,pork_chop,foie_gras,6,250,2.4
+Food-101,pulled_pork_sandwich,lobster_roll_sandwich,6,250,2.4
+Food-101,ravioli,omelette,6,250,2.4
+Food-101,red_velvet_cake,panna_cotta,6,250,2.4
+Food-101,spaghetti_bolognese,spaghetti_carbonara,6,250,2.4
+Food-101,tacos,ceviche,6,250,2.4
+Food-101,tiramisu,bread_pudding,6,250,2.4
+Food-101,tiramisu,chocolate_cake,6,250,2.4
+Food-101,tiramisu,panna_cotta,6,250,2.4
+Food-101,tuna_tartare,beet_salad,6,250,2.4
+Food-101,apple_pie,tiramisu,5,250,2.0
+Food-101,baby_back_ribs,pulled_pork_sandwich,5,250,2.0
+Food-101,bread_pudding,french_onion_soup,5,250,2.0
+Food-101,breakfast_burrito,omelette,5,250,2.0
+Food-101,cannoli,beignets,5,250,2.0
+Food-101,cheesecake,carrot_cake,5,250,2.0
+Food-101,cheesecake,creme_brulee,5,250,2.0
+Food-101,chicken_curry,pad_thai,5,250,2.0
+Food-101,churros,beignets,5,250,2.0
+Food-101,cup_cakes,carrot_cake,5,250,2.0
+Food-101,foie_gras,beef_tartare,5,250,2.0
+Food-101,foie_gras,caesar_salad,5,250,2.0
+Food-101,french_fries,fish_and_chips,5,250,2.0
+Food-101,fried_rice,risotto,5,250,2.0
+Food-101,frozen_yogurt,ice_cream,5,250,2.0
+Food-101,garlic_bread,samosa,5,250,2.0
+Food-101,gnocchi,chicken_curry,5,250,2.0
+Food-101,gnocchi,clam_chowder,5,250,2.0
+Food-101,gnocchi,macaroni_and_cheese,5,250,2.0
+Food-101,gnocchi,risotto,5,250,2.0
+Food-101,gnocchi,shrimp_and_grits,5,250,2.0
+Food-101,grilled_salmon,fish_and_chips,5,250,2.0
+Food-101,hamburger,onion_rings,5,250,2.0
+Food-101,lasagna,spaghetti_bolognese,5,250,2.0
+Food-101,lobster_bisque,miso_soup,5,250,2.0
+Food-101,macaroni_and_cheese,bread_pudding,5,250,2.0
+Food-101,macaroni_and_cheese,gnocchi,5,250,2.0
+Food-101,pancakes,panna_cotta,5,250,2.0
+Food-101,panna_cotta,caprese_salad,5,250,2.0
+Food-101,peking_duck,baby_back_ribs,5,250,2.0
+Food-101,peking_duck,gyoza,5,250,2.0
+Food-101,pizza,beef_carpaccio,5,250,2.0
+Food-101,pork_chop,huevos_rancheros,5,250,2.0
+Food-101,prime_rib,pork_chop,5,250,2.0
+Food-101,ravioli,bread_pudding,5,250,2.0
+Food-101,ravioli,gnocchi,5,250,2.0
+Food-101,red_velvet_cake,carrot_cake,5,250,2.0
+Food-101,samosa,gyoza,5,250,2.0
+Food-101,sashimi,sushi,5,250,2.0
+Food-101,shrimp_and_grits,huevos_rancheros,5,250,2.0
+Food-101,steak,beef_carpaccio,5,250,2.0
+Food-101,sushi,spring_rolls,5,250,2.0
+Food-101,takoyaki,seaweed_salad,5,250,2.0
+Food-101,tiramisu,cheesecake,5,250,2.0
+Food-101,waffles,bread_pudding,5,250,2.0
+Food-101,waffles,pancakes,5,250,2.0
+Food-101,baby_back_ribs,grilled_salmon,4,250,1.6
+Food-101,baklava,apple_pie,4,250,1.6
+Food-101,beef_carpaccio,tuna_tartare,4,250,1.6
+Food-101,beet_salad,caprese_salad,4,250,1.6
+Food-101,bibimbap,fried_rice,4,250,1.6
+Food-101,bread_pudding,tiramisu,4,250,1.6
+Food-101,breakfast_burrito,lobster_roll_sandwich,4,250,1.6
+Food-101,breakfast_burrito,spring_rolls,4,250,1.6
+Food-101,bruschetta,tuna_tartare,4,250,1.6
+Food-101,caesar_salad,greek_salad,4,250,1.6
+Food-101,ceviche,beet_salad,4,250,1.6
+Food-101,ceviche,caesar_salad,4,250,1.6
+Food-101,chicken_curry,huevos_rancheros,4,250,1.6
+Food-101,chocolate_cake,bread_pudding,4,250,1.6
+Food-101,chocolate_mousse,bread_pudding,4,250,1.6
+Food-101,chocolate_mousse,lobster_bisque,4,250,1.6
+Food-101,churros,french_toast,4,250,1.6
+Food-101,crab_cakes,huevos_rancheros,4,250,1.6
+Food-101,creme_brulee,french_onion_soup,4,250,1.6
+Food-101,deviled_eggs,caprese_salad,4,250,1.6
+Food-101,eggs_benedict,croque_madame,4,250,1.6
+Food-101,escargots,clam_chowder,4,250,1.6
+Food-101,escargots,creme_brulee,4,250,1.6
+Food-101,escargots,hummus,4,250,1.6
+Food-101,escargots,mussels,4,250,1.6
+Food-101,escargots,oysters,4,250,1.6
+Food-101,falafel,breakfast_burrito,4,250,1.6
+Food-101,falafel,tacos,4,250,1.6
+Food-101,filet_mignon,beef_carpaccio,4,250,1.6
+Food-101,foie_gras,beef_carpaccio,4,250,1.6
+Food-101,foie_gras,bruschetta,4,250,1.6
+Food-101,french_onion_soup,bread_pudding,4,250,1.6
+Food-101,french_toast,grilled_cheese_sandwich,4,250,1.6
+Food-101,gnocchi,caesar_salad,4,250,1.6
+Food-101,gnocchi,caprese_salad,4,250,1.6
+Food-101,guacamole,ceviche,4,250,1.6
+Food-101,hamburger,falafel,4,250,1.6
+Food-101,huevos_rancheros,nachos,4,250,1.6
+Food-101,hummus,samosa,4,250,1.6
+Food-101,hummus,shrimp_and_grits,4,250,1.6
+Food-101,lasagna,beef_carpaccio,4,250,1.6
+Food-101,lasagna,crab_cakes,4,250,1.6
+Food-101,macaroni_and_cheese,risotto,4,250,1.6
+Food-101,mussels,escargots,4,250,1.6
+Food-101,mussels,oysters,4,250,1.6
+Food-101,nachos,tacos,4,250,1.6
+Food-101,omelette,crab_cakes,4,250,1.6
+Food-101,pancakes,huevos_rancheros,4,250,1.6
+Food-101,peking_duck,foie_gras,4,250,1.6
+Food-101,peking_duck,pork_chop,4,250,1.6
+Food-101,pork_chop,baby_back_ribs,4,250,1.6
+Food-101,ramen,bibimbap,4,250,1.6
+Food-101,ravioli,caprese_salad,4,250,1.6
+Food-101,ravioli,hot_and_sour_soup,4,250,1.6
+Food-101,ravioli,lobster_bisque,4,250,1.6
+Food-101,red_velvet_cake,strawberry_shortcake,4,250,1.6
+Food-101,risotto,pad_thai,4,250,1.6
+Food-101,samosa,chicken_curry,4,250,1.6
+Food-101,samosa,dumplings,4,250,1.6
+Food-101,scallops,beet_salad,4,250,1.6
+Food-101,scallops,dumplings,4,250,1.6
+Food-101,scallops,foie_gras,4,250,1.6
+Food-101,seaweed_salad,sashimi,4,250,1.6
+Food-101,shrimp_and_grits,chicken_curry,4,250,1.6
+Food-101,tuna_tartare,huevos_rancheros,4,250,1.6
+Food-101,apple_pie,beignets,3,250,1.2
+Food-101,apple_pie,cannoli,3,250,1.2
+Food-101,apple_pie,cheesecake,3,250,1.2
+Food-101,baby_back_ribs,chicken_wings,3,250,1.2
+Food-101,baklava,beignets,3,250,1.2
+Food-101,baklava,samosa,3,250,1.2
+Food-101,beef_carpaccio,caprese_salad,3,250,1.2
+Food-101,beet_salad,beef_tartare,3,250,1.2
+Food-101,beet_salad,tuna_tartare,3,250,1.2
+Food-101,beignets,donuts,3,250,1.2
+Food-101,bibimbap,pad_thai,3,250,1.2
+Food-101,bread_pudding,chicken_curry,3,250,1.2
+Food-101,bread_pudding,creme_brulee,3,250,1.2
+Food-101,bruschetta,beef_carpaccio,3,250,1.2
+Food-101,bruschetta,beef_tartare,3,250,1.2
+Food-101,bruschetta,crab_cakes,3,250,1.2
+Food-101,cannoli,panna_cotta,3,250,1.2
+Food-101,caprese_salad,beet_salad,3,250,1.2
+Food-101,carrot_cake,baklava,3,250,1.2
+Food-101,carrot_cake,cheesecake,3,250,1.2
+Food-101,carrot_cake,chocolate_cake,3,250,1.2
+Food-101,ceviche,beef_carpaccio,3,250,1.2
+Food-101,ceviche,bruschetta,3,250,1.2
+Food-101,ceviche,caprese_salad,3,250,1.2
+Food-101,ceviche,greek_salad,3,250,1.2
+Food-101,ceviche,sashimi,3,250,1.2
+Food-101,cheese_plate,beef_carpaccio,3,250,1.2
+Food-101,cheesecake,cup_cakes,3,250,1.2
+Food-101,cheesecake,red_velvet_cake,3,250,1.2
+Food-101,cheesecake,tiramisu,3,250,1.2
+Food-101,chicken_curry,paella,3,250,1.2
+Food-101,chicken_wings,crab_cakes,3,250,1.2
+Food-101,chocolate_cake,carrot_cake,3,250,1.2
+Food-101,chocolate_mousse,foie_gras,3,250,1.2
+Food-101,churros,chocolate_mousse,3,250,1.2
+Food-101,crab_cakes,beet_salad,3,250,1.2
+Food-101,crab_cakes,caprese_salad,3,250,1.2
+Food-101,crab_cakes,takoyaki,3,250,1.2
+Food-101,deviled_eggs,huevos_rancheros,3,250,1.2
+Food-101,dumplings,spring_rolls,3,250,1.2
+Food-101,dumplings,takoyaki,3,250,1.2
+Food-101,escargots,hot_and_sour_soup,3,250,1.2
+Food-101,escargots,huevos_rancheros,3,250,1.2
+Food-101,falafel,takoyaki,3,250,1.2
+Food-101,fish_and_chips,crab_cakes,3,250,1.2
+Food-101,foie_gras,club_sandwich,3,250,1.2
+Food-101,foie_gras,scallops,3,250,1.2
+Food-101,foie_gras,shrimp_and_grits,3,250,1.2
+Food-101,french_fries,churros,3,250,1.2
+Food-101,french_fries,poutine,3,250,1.2
+Food-101,french_fries,pulled_pork_sandwich,3,250,1.2
+Food-101,french_onion_soup,macaroni_and_cheese,3,250,1.2
+Food-101,french_toast,eggs_benedict,3,250,1.2
+Food-101,fried_rice,chicken_curry,3,250,1.2
+Food-101,fried_rice,huevos_rancheros,3,250,1.2
+Food-101,fried_rice,paella,3,250,1.2
+Food-101,garlic_bread,beignets,3,250,1.2
+Food-101,garlic_bread,bread_pudding,3,250,1.2
+Food-101,garlic_bread,chicken_quesadilla,3,250,1.2
+Food-101,garlic_bread,omelette,3,250,1.2
+Food-101,garlic_bread,pizza,3,250,1.2
+Food-101,gnocchi,beet_salad,3,250,1.2
+Food-101,gnocchi,escargots,3,250,1.2
+Food-101,gnocchi,poutine,3,250,1.2
+Food-101,gnocchi,spaghetti_bolognese,3,250,1.2
+Food-101,greek_salad,ceviche,3,250,1.2
+Food-101,grilled_cheese_sandwich,caesar_salad,3,250,1.2
+Food-101,grilled_cheese_sandwich,croque_madame,3,250,1.2
+Food-101,grilled_cheese_sandwich,fish_and_chips,3,250,1.2
+Food-101,grilled_cheese_sandwich,pulled_pork_sandwich,3,250,1.2
+Food-101,grilled_salmon,chicken_curry,3,250,1.2
+Food-101,grilled_salmon,risotto,3,250,1.2
+Food-101,guacamole,risotto,3,250,1.2
+Food-101,gyoza,fried_calamari,3,250,1.2
+Food-101,hot_dog,club_sandwich,3,250,1.2
+Food-101,hot_dog,spring_rolls,3,250,1.2
+Food-101,hot_dog,takoyaki,3,250,1.2
+Food-101,huevos_rancheros,chicken_quesadilla,3,250,1.2
+Food-101,hummus,clam_chowder,3,250,1.2
+Food-101,hummus,creme_brulee,3,250,1.2
+Food-101,hummus,huevos_rancheros,3,250,1.2
+Food-101,hummus,risotto,3,250,1.2
+Food-101,ice_cream,panna_cotta,3,250,1.2
+Food-101,ice_cream,poutine,3,250,1.2
+Food-101,lasagna,creme_brulee,3,250,1.2
+Food-101,lasagna,croque_madame,3,250,1.2
+Food-101,lasagna,pizza,3,250,1.2
+Food-101,macaroni_and_cheese,caesar_salad,3,250,1.2
+Food-101,macaroni_and_cheese,crab_cakes,3,250,1.2
+Food-101,macaroni_and_cheese,shrimp_and_grits,3,250,1.2
+Food-101,macarons,cup_cakes,3,250,1.2
+Food-101,omelette,shrimp_and_grits,3,250,1.2
+Food-101,paella,ceviche,3,250,1.2
+Food-101,panna_cotta,lobster_bisque,3,250,1.2
+Food-101,peking_duck,chicken_wings,3,250,1.2
+Food-101,pizza,caesar_salad,3,250,1.2
+Food-101,pizza,huevos_rancheros,3,250,1.2
+Food-101,pizza,lasagna,3,250,1.2
+Food-101,pizza,paella,3,250,1.2
+Food-101,pork_chop,shrimp_and_grits,3,250,1.2
+Food-101,poutine,fried_calamari,3,250,1.2
+Food-101,poutine,huevos_rancheros,3,250,1.2
+Food-101,pulled_pork_sandwich,club_sandwich,3,250,1.2
+Food-101,ravioli,bruschetta,3,250,1.2
+Food-101,ravioli,dumplings,3,250,1.2
+Food-101,ravioli,risotto,3,250,1.2
+Food-101,red_velvet_cake,tiramisu,3,250,1.2
+Food-101,risotto,beef_carpaccio,3,250,1.2
+Food-101,risotto,beef_tartare,3,250,1.2
+Food-101,risotto,bread_pudding,3,250,1.2
+Food-101,samosa,falafel,3,250,1.2
+Food-101,samosa,takoyaki,3,250,1.2
+Food-101,scallops,ceviche,3,250,1.2
+Food-101,scallops,huevos_rancheros,3,250,1.2
+Food-101,scallops,pad_thai,3,250,1.2
+Food-101,scallops,tuna_tartare,3,250,1.2
+Food-101,seaweed_salad,beet_salad,3,250,1.2
+Food-101,shrimp_and_grits,clam_chowder,3,250,1.2
+Food-101,shrimp_and_grits,lobster_bisque,3,250,1.2
+Food-101,shrimp_and_grits,risotto,3,250,1.2
+Food-101,tacos,breakfast_burrito,3,250,1.2
+Food-101,tacos,falafel,3,250,1.2
+Food-101,takoyaki,crab_cakes,3,250,1.2
+Food-101,tuna_tartare,caprese_salad,3,250,1.2
+Food-101,tuna_tartare,ceviche,3,250,1.2
+Food-101,tuna_tartare,foie_gras,3,250,1.2
+Food-101,tuna_tartare,sushi,3,250,1.2
+Food-101,apple_pie,carrot_cake,2,250,0.8
+Food-101,apple_pie,cup_cakes,2,250,0.8
+Food-101,apple_pie,garlic_bread,2,250,0.8
+Food-101,apple_pie,panna_cotta,2,250,0.8
+Food-101,baby_back_ribs,chicken_curry,2,250,0.8
+Food-101,baklava,omelette,2,250,0.8
+Food-101,beef_carpaccio,bruschetta,2,250,0.8
+Food-101,beef_tartare,beet_salad,2,250,0.8
+Food-101,beef_tartare,bruschetta,2,250,0.8
+Food-101,beef_tartare,crab_cakes,2,250,0.8
+Food-101,beef_tartare,filet_mignon,2,250,0.8
+Food-101,beef_tartare,huevos_rancheros,2,250,0.8
+Food-101,beet_salad,huevos_rancheros,2,250,0.8
+Food-101,beet_salad,panna_cotta,2,250,0.8
+Food-101,beignets,bread_pudding,2,250,0.8
+Food-101,beignets,churros,2,250,0.8
+Food-101,bibimbap,huevos_rancheros,2,250,0.8
+Food-101,bread_pudding,apple_pie,2,250,0.8
+Food-101,bread_pudding,baklava,2,250,0.8
+Food-101,breakfast_burrito,cheese_plate,2,250,0.8
+Food-101,breakfast_burrito,club_sandwich,2,250,0.8
+Food-101,breakfast_burrito,pulled_pork_sandwich,2,250,0.8
+Food-101,breakfast_burrito,samosa,2,250,0.8
+Food-101,bruschetta,caesar_salad,2,250,0.8
+Food-101,bruschetta,chicken_quesadilla,2,250,0.8
+Food-101,bruschetta,shrimp_and_grits,2,250,0.8
+Food-101,cannoli,baklava,2,250,0.8
+Food-101,cannoli,caprese_salad,2,250,0.8
+Food-101,cannoli,carrot_cake,2,250,0.8
+Food-101,cannoli,chocolate_mousse,2,250,0.8
+Food-101,cannoli,falafel,2,250,0.8
+Food-101,cannoli,takoyaki,2,250,0.8
+Food-101,cannoli,tiramisu,2,250,0.8
+Food-101,carrot_cake,chocolate_mousse,2,250,0.8
+Food-101,ceviche,crab_cakes,2,250,0.8
+Food-101,ceviche,fried_calamari,2,250,0.8
+Food-101,ceviche,pad_thai,2,250,0.8
+Food-101,ceviche,scallops,2,250,0.8
+Food-101,ceviche,seaweed_salad,2,250,0.8
+Food-101,ceviche,sushi,2,250,0.8
+Food-101,cheese_plate,foie_gras,2,250,0.8
+Food-101,cheese_plate,panna_cotta,2,250,0.8
+Food-101,cheesecake,cheese_plate,2,250,0.8
+Food-101,cheesecake,chicken_quesadilla,2,250,0.8
+Food-101,cheesecake,chocolate_cake,2,250,0.8
+Food-101,cheesecake,chocolate_mousse,2,250,0.8
+Food-101,chicken_curry,hummus,2,250,0.8
+Food-101,chicken_quesadilla,breakfast_burrito,2,250,0.8
+Food-101,chicken_quesadilla,club_sandwich,2,250,0.8
+Food-101,chicken_quesadilla,tacos,2,250,0.8
+Food-101,chicken_wings,chicken_curry,2,250,0.8
+Food-101,chicken_wings,spring_rolls,2,250,0.8
+Food-101,chocolate_cake,cup_cakes,2,250,0.8
+Food-101,chocolate_cake,french_toast,2,250,0.8
+Food-101,chocolate_cake,red_velvet_cake,2,250,0.8
+Food-101,chocolate_mousse,carrot_cake,2,250,0.8
+Food-101,chocolate_mousse,cup_cakes,2,250,0.8
+Food-101,churros,bread_pudding,2,250,0.8
+Food-101,churros,chicken_curry,2,250,0.8
+Food-101,churros,onion_rings,2,250,0.8
+Food-101,churros,spring_rolls,2,250,0.8
+Food-101,clam_chowder,miso_soup,2,250,0.8
+Food-101,clam_chowder,risotto,2,250,0.8
+Food-101,club_sandwich,fish_and_chips,2,250,0.8
+Food-101,crab_cakes,falafel,2,250,0.8
+Food-101,crab_cakes,fish_and_chips,2,250,0.8
+Food-101,crab_cakes,fried_calamari,2,250,0.8
+Food-101,crab_cakes,pad_thai,2,250,0.8
+Food-101,crab_cakes,tuna_tartare,2,250,0.8
+Food-101,creme_brulee,omelette,2,250,0.8
+Food-101,croque_madame,bread_pudding,2,250,0.8
+Food-101,croque_madame,club_sandwich,2,250,0.8
+Food-101,cup_cakes,chocolate_mousse,2,250,0.8
+Food-101,cup_cakes,panna_cotta,2,250,0.8
+Food-101,deviled_eggs,omelette,2,250,0.8
+Food-101,donuts,macarons,2,250,0.8
+Food-101,edamame,seaweed_salad,2,250,0.8
+Food-101,escargots,crab_cakes,2,250,0.8
+Food-101,escargots,garlic_bread,2,250,0.8
+Food-101,escargots,grilled_salmon,2,250,0.8
+Food-101,escargots,tuna_tartare,2,250,0.8
+Food-101,falafel,club_sandwich,2,250,0.8
+Food-101,falafel,greek_salad,2,250,0.8
+Food-101,filet_mignon,crab_cakes,2,250,0.8
+Food-101,filet_mignon,greek_salad,2,250,0.8
+Food-101,fish_and_chips,lobster_roll_sandwich,2,250,0.8
+Food-101,foie_gras,cheese_plate,2,250,0.8
+Food-101,foie_gras,chicken_wings,2,250,0.8
+Food-101,foie_gras,crab_cakes,2,250,0.8
+Food-101,foie_gras,french_toast,2,250,0.8
+Food-101,foie_gras,seaweed_salad,2,250,0.8
+Food-101,french_fries,nachos,2,250,0.8
+Food-101,french_fries,onion_rings,2,250,0.8
+Food-101,french_fries,spring_rolls,2,250,0.8
+Food-101,french_onion_soup,lobster_bisque,2,250,0.8
+Food-101,french_toast,samosa,2,250,0.8
+Food-101,fried_calamari,caesar_salad,2,250,0.8
+Food-101,fried_calamari,pad_thai,2,250,0.8
+Food-101,fried_calamari,spring_rolls,2,250,0.8
+Food-101,fried_rice,omelette,2,250,0.8
+Food-101,frozen_yogurt,strawberry_shortcake,2,250,0.8
+Food-101,garlic_bread,baklava,2,250,0.8
+Food-101,garlic_bread,french_onion_soup,2,250,0.8
+Food-101,garlic_bread,grilled_cheese_sandwich,2,250,0.8
+Food-101,garlic_bread,grilled_salmon,2,250,0.8
+Food-101,garlic_bread,gyoza,2,250,0.8
+Food-101,garlic_bread,lobster_roll_sandwich,2,250,0.8
+Food-101,garlic_bread,takoyaki,2,250,0.8
+Food-101,gnocchi,bread_pudding,2,250,0.8
+Food-101,gnocchi,ceviche,2,250,0.8
+Food-101,gnocchi,huevos_rancheros,2,250,0.8
+Food-101,greek_salad,tuna_tartare,2,250,0.8
+Food-101,grilled_cheese_sandwich,bruschetta,2,250,0.8
+Food-101,grilled_cheese_sandwich,foie_gras,2,250,0.8
+Food-101,grilled_cheese_sandwich,garlic_bread,2,250,0.8
+Food-101,grilled_cheese_sandwich,lobster_roll_sandwich,2,250,0.8
+Food-101,grilled_salmon,beet_salad,2,250,0.8
+Food-101,grilled_salmon,bruschetta,2,250,0.8
+Food-101,grilled_salmon,foie_gras,2,250,0.8
+Food-101,grilled_salmon,gnocchi,2,250,0.8
+Food-101,grilled_salmon,pad_thai,2,250,0.8
+Food-101,grilled_salmon,shrimp_and_grits,2,250,0.8
+Food-101,grilled_salmon,spring_rolls,2,250,0.8
+Food-101,grilled_salmon,sushi,2,250,0.8
+Food-101,grilled_salmon,tuna_tartare,2,250,0.8
+Food-101,guacamole,huevos_rancheros,2,250,0.8
+Food-101,guacamole,seaweed_salad,2,250,0.8
+Food-101,gyoza,garlic_bread,2,250,0.8
+Food-101,gyoza,takoyaki,2,250,0.8
+Food-101,hamburger,poutine,2,250,0.8
+Food-101,hamburger,steak,2,250,0.8
+Food-101,hot_and_sour_soup,ramen,2,250,0.8
+Food-101,hot_dog,breakfast_burrito,2,250,0.8
+Food-101,hot_dog,churros,2,250,0.8
+Food-101,hot_dog,falafel,2,250,0.8
+Food-101,hot_dog,fish_and_chips,2,250,0.8
+Food-101,hot_dog,garlic_bread,2,250,0.8
+Food-101,huevos_rancheros,breakfast_burrito,2,250,0.8
+Food-101,huevos_rancheros,croque_madame,2,250,0.8
+Food-101,huevos_rancheros,omelette,2,250,0.8
+Food-101,hummus,bread_pudding,2,250,0.8
+Food-101,hummus,miso_soup,2,250,0.8
+Food-101,hummus,omelette,2,250,0.8
+Food-101,hummus,tuna_tartare,2,250,0.8
+Food-101,ice_cream,hummus,2,250,0.8
+Food-101,ice_cream,strawberry_shortcake,2,250,0.8
+Food-101,ice_cream,tiramisu,2,250,0.8
+Food-101,lasagna,apple_pie,2,250,0.8
+Food-101,lasagna,caesar_salad,2,250,0.8
+Food-101,lasagna,french_toast,2,250,0.8
+Food-101,lasagna,lobster_bisque,2,250,0.8
+Food-101,lobster_bisque,creme_brulee,2,250,0.8
+Food-101,lobster_roll_sandwich,ceviche,2,250,0.8
+Food-101,lobster_roll_sandwich,club_sandwich,2,250,0.8
+Food-101,lobster_roll_sandwich,shrimp_and_grits,2,250,0.8
+Food-101,macaroni_and_cheese,creme_brulee,2,250,0.8
+Food-101,macaroni_and_cheese,hummus,2,250,0.8
+Food-101,macaroni_and_cheese,nachos,2,250,0.8
+Food-101,macaroni_and_cheese,pad_thai,2,250,0.8
+Food-101,macaroni_and_cheese,poutine,2,250,0.8
+Food-101,miso_soup,lobster_bisque,2,250,0.8
+Food-101,miso_soup,ramen,2,250,0.8
+Food-101,mussels,ceviche,2,250,0.8
+Food-101,mussels,clam_chowder,2,250,0.8
+Food-101,mussels,hot_and_sour_soup,2,250,0.8
+Food-101,mussels,shrimp_and_grits,2,250,0.8
+Food-101,nachos,cheese_plate,2,250,0.8
+Food-101,omelette,caesar_salad,2,250,0.8
+Food-101,omelette,croque_madame,2,250,0.8
+Food-101,omelette,french_toast,2,250,0.8
+Food-101,omelette,pad_thai,2,250,0.8
+Food-101,onion_rings,churros,2,250,0.8
+Food-101,paella,fried_rice,2,250,0.8
+Food-101,paella,huevos_rancheros,2,250,0.8
+Food-101,paella,risotto,2,250,0.8
+Food-101,panna_cotta,cheesecake,2,250,0.8
+Food-101,panna_cotta,chocolate_mousse,2,250,0.8
+Food-101,panna_cotta,strawberry_shortcake,2,250,0.8
+Food-101,peking_duck,bread_pudding,2,250,0.8
+Food-101,peking_duck,chicken_quesadilla,2,250,0.8
+Food-101,peking_duck,pad_thai,2,250,0.8
+Food-101,pho,pad_thai,2,250,0.8
+Food-101,pho,seaweed_salad,2,250,0.8
+Food-101,pizza,caprese_salad,2,250,0.8
+Food-101,pizza,omelette,2,250,0.8
+Food-101,pork_chop,beef_carpaccio,2,250,0.8
+Food-101,pork_chop,bread_pudding,2,250,0.8
+Food-101,pork_chop,fish_and_chips,2,250,0.8
+Food-101,pork_chop,peking_duck,2,250,0.8
+Food-101,poutine,bread_pudding,2,250,0.8
+Food-101,poutine,croque_madame,2,250,0.8
+Food-101,poutine,gnocchi,2,250,0.8
+Food-101,poutine,nachos,2,250,0.8
+Food-101,pulled_pork_sandwich,fried_calamari,2,250,0.8
+Food-101,ramen,chicken_curry,2,250,0.8
+Food-101,ravioli,beet_salad,2,250,0.8
+Food-101,ravioli,ceviche,2,250,0.8
+Food-101,ravioli,eggs_benedict,2,250,0.8
+Food-101,ravioli,french_onion_soup,2,250,0.8
+Food-101,ravioli,paella,2,250,0.8
+Food-101,risotto,clam_chowder,2,250,0.8
+Food-101,risotto,fried_rice,2,250,0.8
+Food-101,risotto,macaroni_and_cheese,2,250,0.8
+Food-101,risotto,omelette,2,250,0.8
+Food-101,risotto,paella,2,250,0.8
+Food-101,samosa,fish_and_chips,2,250,0.8
+Food-101,samosa,fried_calamari,2,250,0.8
+Food-101,samosa,huevos_rancheros,2,250,0.8
+Food-101,sashimi,grilled_salmon,2,250,0.8
+Food-101,scallops,caprese_salad,2,250,0.8
+Food-101,scallops,deviled_eggs,2,250,0.8
+Food-101,scallops,eggs_benedict,2,250,0.8
+Food-101,scallops,fish_and_chips,2,250,0.8
+Food-101,scallops,gnocchi,2,250,0.8
+Food-101,scallops,lobster_bisque,2,250,0.8
+Food-101,scallops,oysters,2,250,0.8
+Food-101,scallops,pork_chop,2,250,0.8
+Food-101,scallops,takoyaki,2,250,0.8
+Food-101,seaweed_salad,beef_carpaccio,2,250,0.8
+Food-101,shrimp_and_grits,bruschetta,2,250,0.8
+Food-101,spaghetti_bolognese,lasagna,2,250,0.8
+Food-101,spaghetti_carbonara,omelette,2,250,0.8
+Food-101,spaghetti_carbonara,pad_thai,2,250,0.8
+Food-101,spring_rolls,churros,2,250,0.8
+Food-101,spring_rolls,gyoza,2,250,0.8
+Food-101,spring_rolls,samosa,2,250,0.8
+Food-101,steak,chicken_curry,2,250,0.8
+Food-101,strawberry_shortcake,french_toast,2,250,0.8
+Food-101,strawberry_shortcake,tiramisu,2,250,0.8
+Food-101,sushi,ceviche,2,250,0.8
+Food-101,sushi,grilled_salmon,2,250,0.8
+Food-101,sushi,takoyaki,2,250,0.8
+Food-101,tacos,beef_carpaccio,2,250,0.8
+Food-101,tacos,fried_calamari,2,250,0.8
+Food-101,takoyaki,poutine,2,250,0.8
+Food-101,takoyaki,sashimi,2,250,0.8
+Food-101,tiramisu,french_onion_soup,2,250,0.8
+Food-101,tuna_tartare,creme_brulee,2,250,0.8
+Food-101,tuna_tartare,nachos,2,250,0.8
+Food-101,waffles,chocolate_mousse,2,250,0.8
+Food-101,waffles,nachos,2,250,0.8
+Food-101,waffles,strawberry_shortcake,2,250,0.8
+Food-101,waffles,takoyaki,2,250,0.8
+Food-101,apple_pie,breakfast_burrito,1,250,0.4
+Food-101,apple_pie,bruschetta,1,250,0.4
+Food-101,apple_pie,churros,1,250,0.4
+Food-101,apple_pie,crab_cakes,1,250,0.4
+Food-101,apple_pie,donuts,1,250,0.4
+Food-101,apple_pie,eggs_benedict,1,250,0.4
+Food-101,apple_pie,french_onion_soup,1,250,0.4
+Food-101,apple_pie,gyoza,1,250,0.4
+Food-101,apple_pie,ice_cream,1,250,0.4
+Food-101,apple_pie,macaroni_and_cheese,1,250,0.4
+Food-101,apple_pie,poutine,1,250,0.4
+Food-101,apple_pie,samosa,1,250,0.4
+Food-101,apple_pie,strawberry_shortcake,1,250,0.4
+Food-101,apple_pie,takoyaki,1,250,0.4
+Food-101,apple_pie,waffles,1,250,0.4
+Food-101,baby_back_ribs,bread_pudding,1,250,0.4
+Food-101,baby_back_ribs,fish_and_chips,1,250,0.4
+Food-101,baby_back_ribs,foie_gras,1,250,0.4
+Food-101,baby_back_ribs,french_fries,1,250,0.4
+Food-101,baby_back_ribs,french_toast,1,250,0.4
+Food-101,baby_back_ribs,fried_rice,1,250,0.4
+Food-101,baby_back_ribs,greek_salad,1,250,0.4
+Food-101,baby_back_ribs,nachos,1,250,0.4
+Food-101,baby_back_ribs,paella,1,250,0.4
+Food-101,baby_back_ribs,peking_duck,1,250,0.4
+Food-101,baby_back_ribs,poutine,1,250,0.4
+Food-101,baby_back_ribs,spaghetti_bolognese,1,250,0.4
+Food-101,baby_back_ribs,takoyaki,1,250,0.4
+Food-101,baklava,cannoli,1,250,0.4
+Food-101,baklava,chicken_quesadilla,1,250,0.4
+Food-101,baklava,chocolate_mousse,1,250,0.4
+Food-101,baklava,falafel,1,250,0.4
+Food-101,baklava,foie_gras,1,250,0.4
+Food-101,baklava,french_onion_soup,1,250,0.4
+Food-101,baklava,french_toast,1,250,0.4
+Food-101,baklava,grilled_cheese_sandwich,1,250,0.4
+Food-101,baklava,gyoza,1,250,0.4
+Food-101,baklava,onion_rings,1,250,0.4
+Food-101,baklava,takoyaki,1,250,0.4
+Food-101,beef_carpaccio,beef_tartare,1,250,0.4
+Food-101,beef_carpaccio,bibimbap,1,250,0.4
+Food-101,beef_carpaccio,cheese_plate,1,250,0.4
+Food-101,beef_carpaccio,club_sandwich,1,250,0.4
+Food-101,beef_carpaccio,nachos,1,250,0.4
+Food-101,beef_carpaccio,pad_thai,1,250,0.4
+Food-101,beef_carpaccio,sashimi,1,250,0.4
+Food-101,beef_carpaccio,seaweed_salad,1,250,0.4
+Food-101,beef_tartare,cheese_plate,1,250,0.4
+Food-101,beef_tartare,chicken_curry,1,250,0.4
+Food-101,beef_tartare,eggs_benedict,1,250,0.4
+Food-101,beef_tartare,greek_salad,1,250,0.4
+Food-101,beef_tartare,panna_cotta,1,250,0.4
+Food-101,beef_tartare,risotto,1,250,0.4
+Food-101,beet_salad,bibimbap,1,250,0.4
+Food-101,beet_salad,ceviche,1,250,0.4
+Food-101,beet_salad,cheese_plate,1,250,0.4
+Food-101,beet_salad,club_sandwich,1,250,0.4
+Food-101,beet_salad,crab_cakes,1,250,0.4
+Food-101,beet_salad,croque_madame,1,250,0.4
+Food-101,beet_salad,eggs_benedict,1,250,0.4
+Food-101,beet_salad,filet_mignon,1,250,0.4
+Food-101,beet_salad,foie_gras,1,250,0.4
+Food-101,beet_salad,grilled_salmon,1,250,0.4
+Food-101,beet_salad,pad_thai,1,250,0.4
+Food-101,beet_salad,sashimi,1,250,0.4
+Food-101,beet_salad,scallops,1,250,0.4
+Food-101,beignets,apple_pie,1,250,0.4
+Food-101,beignets,chocolate_mousse,1,250,0.4
+Food-101,beignets,eggs_benedict,1,250,0.4
+Food-101,beignets,falafel,1,250,0.4
+Food-101,beignets,french_toast,1,250,0.4
+Food-101,beignets,pancakes,1,250,0.4
+Food-101,beignets,takoyaki,1,250,0.4
+Food-101,beignets,tiramisu,1,250,0.4
+Food-101,bibimbap,hot_and_sour_soup,1,250,0.4
+Food-101,bibimbap,paella,1,250,0.4
+Food-101,bibimbap,pho,1,250,0.4
+Food-101,bibimbap,ramen,1,250,0.4
+Food-101,bread_pudding,beignets,1,250,0.4
+Food-101,bread_pudding,cannoli,1,250,0.4
+Food-101,bread_pudding,cheesecake,1,250,0.4
+Food-101,bread_pudding,chicken_quesadilla,1,250,0.4
+Food-101,bread_pudding,chocolate_cake,1,250,0.4
+Food-101,bread_pudding,cup_cakes,1,250,0.4
+Food-101,bread_pudding,eggs_benedict,1,250,0.4
+Food-101,bread_pudding,pancakes,1,250,0.4
+Food-101,breakfast_burrito,baklava,1,250,0.4
+Food-101,breakfast_burrito,bibimbap,1,250,0.4
+Food-101,breakfast_burrito,bruschetta,1,250,0.4
+Food-101,breakfast_burrito,cannoli,1,250,0.4
+Food-101,breakfast_burrito,caprese_salad,1,250,0.4
+Food-101,breakfast_burrito,chicken_curry,1,250,0.4
+Food-101,breakfast_burrito,dumplings,1,250,0.4
+Food-101,breakfast_burrito,guacamole,1,250,0.4
+Food-101,breakfast_burrito,tacos,1,250,0.4
+Food-101,breakfast_burrito,takoyaki,1,250,0.4
+Food-101,bruschetta,ceviche,1,250,0.4
+Food-101,bruschetta,cheese_plate,1,250,0.4
+Food-101,bruschetta,club_sandwich,1,250,0.4
+Food-101,bruschetta,escargots,1,250,0.4
+Food-101,bruschetta,french_fries,1,250,0.4
+Food-101,bruschetta,french_toast,1,250,0.4
+Food-101,bruschetta,fried_calamari,1,250,0.4
+Food-101,bruschetta,grilled_salmon,1,250,0.4
+Food-101,bruschetta,gyoza,1,250,0.4
+Food-101,bruschetta,lasagna,1,250,0.4
+Food-101,bruschetta,omelette,1,250,0.4
+Food-101,bruschetta,pulled_pork_sandwich,1,250,0.4
+Food-101,bruschetta,spring_rolls,1,250,0.4
+Food-101,bruschetta,sushi,1,250,0.4
+Food-101,caesar_salad,beet_salad,1,250,0.4
+Food-101,caesar_salad,ceviche,1,250,0.4
+Food-101,caesar_salad,club_sandwich,1,250,0.4
+Food-101,caesar_salad,croque_madame,1,250,0.4
+Food-101,caesar_salad,falafel,1,250,0.4
+Food-101,caesar_salad,fried_calamari,1,250,0.4
+Food-101,caesar_salad,lobster_bisque,1,250,0.4
+Food-101,caesar_salad,pad_thai,1,250,0.4
+Food-101,caesar_salad,seaweed_salad,1,250,0.4
+Food-101,cannoli,eggs_benedict,1,250,0.4
+Food-101,cannoli,gyoza,1,250,0.4
+Food-101,cannoli,ice_cream,1,250,0.4
+Food-101,cannoli,ravioli,1,250,0.4
+Food-101,caprese_salad,bruschetta,1,250,0.4
+Food-101,caprese_salad,falafel,1,250,0.4
+Food-101,caprese_salad,foie_gras,1,250,0.4
+Food-101,caprese_salad,huevos_rancheros,1,250,0.4
+Food-101,caprese_salad,lobster_roll_sandwich,1,250,0.4
+Food-101,caprese_salad,panna_cotta,1,250,0.4
+Food-101,caprese_salad,shrimp_and_grits,1,250,0.4
+Food-101,caprese_salad,tuna_tartare,1,250,0.4
+Food-101,carrot_cake,chicken_curry,1,250,0.4
+Food-101,carrot_cake,donuts,1,250,0.4
+Food-101,carrot_cake,foie_gras,1,250,0.4
+Food-101,carrot_cake,omelette,1,250,0.4
+Food-101,carrot_cake,strawberry_shortcake,1,250,0.4
+Food-101,carrot_cake,takoyaki,1,250,0.4
+Food-101,ceviche,chicken_curry,1,250,0.4
+Food-101,ceviche,eggs_benedict,1,250,0.4
+Food-101,ceviche,hot_and_sour_soup,1,250,0.4
+Food-101,ceviche,lobster_bisque,1,250,0.4
+Food-101,ceviche,omelette,1,250,0.4
+Food-101,ceviche,panna_cotta,1,250,0.4
+Food-101,ceviche,risotto,1,250,0.4
+Food-101,ceviche,spring_rolls,1,250,0.4
+Food-101,ceviche,tacos,1,250,0.4
+Food-101,cheese_plate,bread_pudding,1,250,0.4
+Food-101,cheese_plate,cannoli,1,250,0.4
+Food-101,cheese_plate,cheesecake,1,250,0.4
+Food-101,cheese_plate,club_sandwich,1,250,0.4
+Food-101,cheese_plate,garlic_bread,1,250,0.4
+Food-101,cheese_plate,greek_salad,1,250,0.4
+Food-101,cheese_plate,gyoza,1,250,0.4
+Food-101,cheese_plate,huevos_rancheros,1,250,0.4
+Food-101,cheese_plate,hummus,1,250,0.4
+Food-101,cheese_plate,pulled_pork_sandwich,1,250,0.4
+Food-101,cheese_plate,tuna_tartare,1,250,0.4
+Food-101,cheesecake,beef_carpaccio,1,250,0.4
+Food-101,cheesecake,bibimbap,1,250,0.4
+Food-101,cheesecake,cannoli,1,250,0.4
+Food-101,cheesecake,club_sandwich,1,250,0.4
+Food-101,cheesecake,donuts,1,250,0.4
+Food-101,cheesecake,foie_gras,1,250,0.4
+Food-101,cheesecake,french_toast,1,250,0.4
+Food-101,cheesecake,gyoza,1,250,0.4
+Food-101,cheesecake,huevos_rancheros,1,250,0.4
+Food-101,chicken_curry,beef_carpaccio,1,250,0.4
+Food-101,chicken_curry,bread_pudding,1,250,0.4
+Food-101,chicken_curry,caesar_salad,1,250,0.4
+Food-101,chicken_curry,chicken_quesadilla,1,250,0.4
+Food-101,chicken_curry,chicken_wings,1,250,0.4
+Food-101,chicken_curry,fried_rice,1,250,0.4
+Food-101,chicken_curry,lasagna,1,250,0.4
+Food-101,chicken_curry,miso_soup,1,250,0.4
+Food-101,chicken_curry,nachos,1,250,0.4
+Food-101,chicken_curry,pork_chop,1,250,0.4
+Food-101,chicken_curry,ravioli,1,250,0.4
+Food-101,chicken_curry,samosa,1,250,0.4
+Food-101,chicken_curry,shrimp_and_grits,1,250,0.4
+Food-101,chicken_curry,spaghetti_bolognese,1,250,0.4
+Food-101,chicken_quesadilla,ceviche,1,250,0.4
+Food-101,chicken_quesadilla,garlic_bread,1,250,0.4
+Food-101,chicken_quesadilla,greek_salad,1,250,0.4
+Food-101,chicken_quesadilla,pizza,1,250,0.4
+Food-101,chicken_quesadilla,spring_rolls,1,250,0.4
+Food-101,chicken_wings,baby_back_ribs,1,250,0.4
+Food-101,chicken_wings,beignets,1,250,0.4
+Food-101,chicken_wings,bread_pudding,1,250,0.4
+Food-101,chicken_wings,fish_and_chips,1,250,0.4
+Food-101,chicken_wings,gnocchi,1,250,0.4
+Food-101,chicken_wings,gyoza,1,250,0.4
+Food-101,chicken_wings,lobster_roll_sandwich,1,250,0.4
+Food-101,chicken_wings,onion_rings,1,250,0.4
+Food-101,chicken_wings,poutine,1,250,0.4
+Food-101,chocolate_cake,beef_carpaccio,1,250,0.4
+Food-101,chocolate_cake,cheesecake,1,250,0.4
+Food-101,chocolate_cake,filet_mignon,1,250,0.4
+Food-101,chocolate_cake,foie_gras,1,250,0.4
+Food-101,chocolate_cake,pancakes,1,250,0.4
+Food-101,chocolate_cake,peking_duck,1,250,0.4
+Food-101,chocolate_mousse,beef_carpaccio,1,250,0.4
+Food-101,chocolate_mousse,beignets,1,250,0.4
+Food-101,chocolate_mousse,cannoli,1,250,0.4
+Food-101,chocolate_mousse,cheesecake,1,250,0.4
+Food-101,chocolate_mousse,creme_brulee,1,250,0.4
+Food-101,chocolate_mousse,donuts,1,250,0.4
+Food-101,chocolate_mousse,dumplings,1,250,0.4
+Food-101,chocolate_mousse,pad_thai,1,250,0.4
+Food-101,chocolate_mousse,pancakes,1,250,0.4
+Food-101,churros,cannoli,1,250,0.4
+Food-101,churros,fish_and_chips,1,250,0.4
+Food-101,churros,french_fries,1,250,0.4
+Food-101,churros,french_onion_soup,1,250,0.4
+Food-101,churros,hummus,1,250,0.4
+Food-101,churros,waffles,1,250,0.4
+Food-101,clam_chowder,apple_pie,1,250,0.4
+Food-101,clam_chowder,bread_pudding,1,250,0.4
+Food-101,clam_chowder,caesar_salad,1,250,0.4
+Food-101,clam_chowder,french_onion_soup,1,250,0.4
+Food-101,clam_chowder,frozen_yogurt,1,250,0.4
+Food-101,clam_chowder,gnocchi,1,250,0.4
+Food-101,clam_chowder,omelette,1,250,0.4
+Food-101,clam_chowder,shrimp_and_grits,1,250,0.4
+Food-101,club_sandwich,croque_madame,1,250,0.4
+Food-101,club_sandwich,eggs_benedict,1,250,0.4
+Food-101,club_sandwich,greek_salad,1,250,0.4
+Food-101,club_sandwich,huevos_rancheros,1,250,0.4
+Food-101,club_sandwich,lobster_roll_sandwich,1,250,0.4
+Food-101,club_sandwich,spring_rolls,1,250,0.4
+Food-101,crab_cakes,bread_pudding,1,250,0.4
+Food-101,crab_cakes,bruschetta,1,250,0.4
+Food-101,crab_cakes,caesar_salad,1,250,0.4
+Food-101,crab_cakes,carrot_cake,1,250,0.4
+Food-101,crab_cakes,chicken_curry,1,250,0.4
+Food-101,crab_cakes,eggs_benedict,1,250,0.4
+Food-101,crab_cakes,grilled_salmon,1,250,0.4
+Food-101,crab_cakes,pork_chop,1,250,0.4
+Food-101,crab_cakes,scallops,1,250,0.4
+Food-101,crab_cakes,shrimp_and_grits,1,250,0.4
+Food-101,creme_brulee,beef_carpaccio,1,250,0.4
+Food-101,creme_brulee,cheese_plate,1,250,0.4
+Food-101,creme_brulee,macaroni_and_cheese,1,250,0.4
+Food-101,creme_brulee,miso_soup,1,250,0.4
+Food-101,creme_brulee,spaghetti_bolognese,1,250,0.4
+Food-101,croque_madame,chicken_quesadilla,1,250,0.4
+Food-101,croque_madame,clam_chowder,1,250,0.4
+Food-101,croque_madame,filet_mignon,1,250,0.4
+Food-101,croque_madame,fish_and_chips,1,250,0.4
+Food-101,croque_madame,french_toast,1,250,0.4
+Food-101,croque_madame,grilled_cheese_sandwich,1,250,0.4
+Food-101,croque_madame,pulled_pork_sandwich,1,250,0.4
+Food-101,croque_madame,shrimp_and_grits,1,250,0.4
+Food-101,croque_madame,strawberry_shortcake,1,250,0.4
+Food-101,cup_cakes,bread_pudding,1,250,0.4
+Food-101,cup_cakes,chocolate_cake,1,250,0.4
+Food-101,cup_cakes,deviled_eggs,1,250,0.4
+Food-101,cup_cakes,macarons,1,250,0.4
+Food-101,cup_cakes,takoyaki,1,250,0.4
+Food-101,deviled_eggs,beet_salad,1,250,0.4
+Food-101,deviled_eggs,bruschetta,1,250,0.4
+Food-101,deviled_eggs,croque_madame,1,250,0.4
+Food-101,deviled_eggs,foie_gras,1,250,0.4
+Food-101,deviled_eggs,gyoza,1,250,0.4
+Food-101,deviled_eggs,lobster_roll_sandwich,1,250,0.4
+Food-101,deviled_eggs,tuna_tartare,1,250,0.4
+Food-101,donuts,chocolate_cake,1,250,0.4
+Food-101,donuts,chocolate_mousse,1,250,0.4
+Food-101,donuts,escargots,1,250,0.4
+Food-101,donuts,falafel,1,250,0.4
+Food-101,donuts,french_toast,1,250,0.4
+Food-101,donuts,hamburger,1,250,0.4
+Food-101,donuts,hummus,1,250,0.4
+Food-101,donuts,risotto,1,250,0.4
+Food-101,donuts,strawberry_shortcake,1,250,0.4
+Food-101,dumplings,beet_salad,1,250,0.4
+Food-101,dumplings,clam_chowder,1,250,0.4
+Food-101,dumplings,deviled_eggs,1,250,0.4
+Food-101,dumplings,pad_thai,1,250,0.4
+Food-101,dumplings,ravioli,1,250,0.4
+Food-101,eggs_benedict,bruschetta,1,250,0.4
+Food-101,eggs_benedict,caesar_salad,1,250,0.4
+Food-101,eggs_benedict,caprese_salad,1,250,0.4
+Food-101,eggs_benedict,crab_cakes,1,250,0.4
+Food-101,eggs_benedict,creme_brulee,1,250,0.4
+Food-101,eggs_benedict,french_toast,1,250,0.4
+Food-101,escargots,beef_carpaccio,1,250,0.4
+Food-101,escargots,beef_tartare,1,250,0.4
+Food-101,escargots,beet_salad,1,250,0.4
+Food-101,escargots,beignets,1,250,0.4
+Food-101,escargots,bread_pudding,1,250,0.4
+Food-101,escargots,caesar_salad,1,250,0.4
+Food-101,escargots,chicken_curry,1,250,0.4
+Food-101,escargots,deviled_eggs,1,250,0.4
+Food-101,escargots,foie_gras,1,250,0.4
+Food-101,escargots,greek_salad,1,250,0.4
+Food-101,escargots,macaroni_and_cheese,1,250,0.4
+Food-101,escargots,pizza,1,250,0.4
+Food-101,escargots,scallops,1,250,0.4
+Food-101,escargots,shrimp_and_grits,1,250,0.4
+Food-101,escargots,takoyaki,1,250,0.4
+Food-101,falafel,beef_carpaccio,1,250,0.4
+Food-101,falafel,beet_salad,1,250,0.4
+Food-101,falafel,beignets,1,250,0.4
+Food-101,falafel,caprese_salad,1,250,0.4
+Food-101,falafel,carrot_cake,1,250,0.4
+Food-101,falafel,chicken_curry,1,250,0.4
+Food-101,falafel,chicken_quesadilla,1,250,0.4
+Food-101,falafel,chocolate_mousse,1,250,0.4
+Food-101,falafel,fish_and_chips,1,250,0.4
+Food-101,falafel,fried_calamari,1,250,0.4
+Food-101,falafel,huevos_rancheros,1,250,0.4
+Food-101,falafel,hummus,1,250,0.4
+Food-101,falafel,lobster_roll_sandwich,1,250,0.4
+Food-101,falafel,miso_soup,1,250,0.4
+Food-101,falafel,samosa,1,250,0.4
+Food-101,falafel,spring_rolls,1,250,0.4
+Food-101,filet_mignon,baby_back_ribs,1,250,0.4
+Food-101,filet_mignon,beet_salad,1,250,0.4
+Food-101,filet_mignon,bread_pudding,1,250,0.4
+Food-101,filet_mignon,caesar_salad,1,250,0.4
+Food-101,filet_mignon,chicken_curry,1,250,0.4
+Food-101,filet_mignon,chocolate_mousse,1,250,0.4
+Food-101,filet_mignon,eggs_benedict,1,250,0.4
+Food-101,filet_mignon,foie_gras,1,250,0.4
+Food-101,filet_mignon,hamburger,1,250,0.4
+Food-101,filet_mignon,huevos_rancheros,1,250,0.4
+Food-101,filet_mignon,omelette,1,250,0.4
+Food-101,filet_mignon,paella,1,250,0.4
+Food-101,filet_mignon,scallops,1,250,0.4
+Food-101,fish_and_chips,bread_pudding,1,250,0.4
+Food-101,fish_and_chips,churros,1,250,0.4
+Food-101,fish_and_chips,croque_madame,1,250,0.4
+Food-101,fish_and_chips,pulled_pork_sandwich,1,250,0.4
+Food-101,fish_and_chips,risotto,1,250,0.4
+Food-101,fish_and_chips,shrimp_and_grits,1,250,0.4
+Food-101,foie_gras,apple_pie,1,250,0.4
+Food-101,foie_gras,caprese_salad,1,250,0.4
+Food-101,foie_gras,chicken_curry,1,250,0.4
+Food-101,foie_gras,churros,1,250,0.4
+Food-101,foie_gras,escargots,1,250,0.4
+Food-101,foie_gras,greek_salad,1,250,0.4
+Food-101,foie_gras,grilled_cheese_sandwich,1,250,0.4
+Food-101,foie_gras,grilled_salmon,1,250,0.4
+Food-101,foie_gras,gyoza,1,250,0.4
+Food-101,foie_gras,lobster_bisque,1,250,0.4
+Food-101,foie_gras,paella,1,250,0.4
+Food-101,foie_gras,peking_duck,1,250,0.4
+Food-101,foie_gras,pulled_pork_sandwich,1,250,0.4
+Food-101,foie_gras,ravioli,1,250,0.4
+Food-101,foie_gras,risotto,1,250,0.4
+Food-101,foie_gras,samosa,1,250,0.4
+Food-101,foie_gras,sashimi,1,250,0.4
+Food-101,foie_gras,sushi,1,250,0.4
+Food-101,foie_gras,takoyaki,1,250,0.4
+Food-101,french_fries,baby_back_ribs,1,250,0.4
+Food-101,french_fries,hamburger,1,250,0.4
+Food-101,french_fries,lobster_bisque,1,250,0.4
+Food-101,french_onion_soup,chicken_curry,1,250,0.4
+Food-101,french_onion_soup,chicken_quesadilla,1,250,0.4
+Food-101,french_onion_soup,clam_chowder,1,250,0.4
+Food-101,french_onion_soup,dumplings,1,250,0.4
+Food-101,french_onion_soup,foie_gras,1,250,0.4
+Food-101,french_onion_soup,hummus,1,250,0.4
+Food-101,french_onion_soup,samosa,1,250,0.4
+Food-101,french_onion_soup,shrimp_and_grits,1,250,0.4
+Food-101,french_toast,apple_pie,1,250,0.4
+Food-101,french_toast,baby_back_ribs,1,250,0.4
+Food-101,french_toast,bibimbap,1,250,0.4
+Food-101,french_toast,cannoli,1,250,0.4
+Food-101,french_toast,carrot_cake,1,250,0.4
+Food-101,french_toast,cheese_plate,1,250,0.4
+Food-101,french_toast,chocolate_cake,1,250,0.4
+Food-101,french_toast,croque_madame,1,250,0.4
+Food-101,french_toast,fried_calamari,1,250,0.4
+Food-101,french_toast,gyoza,1,250,0.4
+Food-101,french_toast,nachos,1,250,0.4
+Food-101,french_toast,omelette,1,250,0.4
+Food-101,french_toast,pork_chop,1,250,0.4
+Food-101,french_toast,prime_rib,1,250,0.4
+Food-101,french_toast,tiramisu,1,250,0.4
+Food-101,fried_calamari,ceviche,1,250,0.4
+Food-101,fried_calamari,churros,1,250,0.4
+Food-101,fried_calamari,clam_chowder,1,250,0.4
+Food-101,fried_calamari,deviled_eggs,1,250,0.4
+Food-101,fried_calamari,edamame,1,250,0.4
+Food-101,fried_calamari,fish_and_chips,1,250,0.4
+Food-101,fried_calamari,gnocchi,1,250,0.4
+Food-101,fried_calamari,gyoza,1,250,0.4
+Food-101,fried_calamari,hot_and_sour_soup,1,250,0.4
+Food-101,fried_calamari,onion_rings,1,250,0.4
+Food-101,fried_calamari,poutine,1,250,0.4
+Food-101,fried_rice,dumplings,1,250,0.4
+Food-101,fried_rice,hot_and_sour_soup,1,250,0.4
+Food-101,fried_rice,macaroni_and_cheese,1,250,0.4
+Food-101,frozen_yogurt,falafel,1,250,0.4
+Food-101,frozen_yogurt,macaroni_and_cheese,1,250,0.4
+Food-101,frozen_yogurt,panna_cotta,1,250,0.4
+Food-101,garlic_bread,caesar_salad,1,250,0.4
+Food-101,garlic_bread,cannoli,1,250,0.4
+Food-101,garlic_bread,churros,1,250,0.4
+Food-101,garlic_bread,club_sandwich,1,250,0.4
+Food-101,garlic_bread,dumplings,1,250,0.4
+Food-101,garlic_bread,edamame,1,250,0.4
+Food-101,garlic_bread,falafel,1,250,0.4
+Food-101,garlic_bread,fish_and_chips,1,250,0.4
+Food-101,garlic_bread,french_fries,1,250,0.4
+Food-101,garlic_bread,fried_calamari,1,250,0.4
+Food-101,garlic_bread,lasagna,1,250,0.4
+Food-101,garlic_bread,spring_rolls,1,250,0.4
+Food-101,gnocchi,beef_carpaccio,1,250,0.4
+Food-101,gnocchi,beef_tartare,1,250,0.4
+Food-101,gnocchi,bibimbap,1,250,0.4
+Food-101,gnocchi,dumplings,1,250,0.4
+Food-101,gnocchi,edamame,1,250,0.4
+Food-101,gnocchi,french_toast,1,250,0.4
+Food-101,gnocchi,hummus,1,250,0.4
+Food-101,gnocchi,lasagna,1,250,0.4
+Food-101,gnocchi,nachos,1,250,0.4
+Food-101,gnocchi,paella,1,250,0.4
+Food-101,gnocchi,scallops,1,250,0.4
+Food-101,gnocchi,takoyaki,1,250,0.4
+Food-101,greek_salad,beet_salad,1,250,0.4
+Food-101,greek_salad,bibimbap,1,250,0.4
+Food-101,greek_salad,bruschetta,1,250,0.4
+Food-101,greek_salad,chicken_quesadilla,1,250,0.4
+Food-101,greek_salad,grilled_salmon,1,250,0.4
+Food-101,greek_salad,lobster_bisque,1,250,0.4
+Food-101,grilled_cheese_sandwich,beet_salad,1,250,0.4
+Food-101,grilled_cheese_sandwich,cheese_plate,1,250,0.4
+Food-101,grilled_cheese_sandwich,french_onion_soup,1,250,0.4
+Food-101,grilled_cheese_sandwich,greek_salad,1,250,0.4
+Food-101,grilled_cheese_sandwich,gyoza,1,250,0.4
+Food-101,grilled_cheese_sandwich,hamburger,1,250,0.4
+Food-101,grilled_cheese_sandwich,lobster_bisque,1,250,0.4
+Food-101,grilled_cheese_sandwich,omelette,1,250,0.4
+Food-101,grilled_cheese_sandwich,samosa,1,250,0.4
+Food-101,grilled_salmon,caesar_salad,1,250,0.4
+Food-101,grilled_salmon,caprese_salad,1,250,0.4
+Food-101,grilled_salmon,chicken_quesadilla,1,250,0.4
+Food-101,grilled_salmon,chicken_wings,1,250,0.4
+Food-101,grilled_salmon,club_sandwich,1,250,0.4
+Food-101,grilled_salmon,croque_madame,1,250,0.4
+Food-101,grilled_salmon,eggs_benedict,1,250,0.4
+Food-101,grilled_salmon,fried_calamari,1,250,0.4
+Food-101,grilled_salmon,fried_rice,1,250,0.4
+Food-101,grilled_salmon,greek_salad,1,250,0.4
+Food-101,grilled_salmon,lobster_bisque,1,250,0.4
+Food-101,grilled_salmon,lobster_roll_sandwich,1,250,0.4
+Food-101,grilled_salmon,omelette,1,250,0.4
+Food-101,grilled_salmon,pho,1,250,0.4
+Food-101,grilled_salmon,ravioli,1,250,0.4
+Food-101,grilled_salmon,samosa,1,250,0.4
+Food-101,grilled_salmon,steak,1,250,0.4
+Food-101,guacamole,caprese_salad,1,250,0.4
+Food-101,guacamole,greek_salad,1,250,0.4
+Food-101,guacamole,hot_and_sour_soup,1,250,0.4
+Food-101,guacamole,hummus,1,250,0.4
+Food-101,guacamole,paella,1,250,0.4
+Food-101,guacamole,tacos,1,250,0.4
+Food-101,gyoza,baby_back_ribs,1,250,0.4
+Food-101,gyoza,bread_pudding,1,250,0.4
+Food-101,gyoza,crab_cakes,1,250,0.4
+Food-101,gyoza,grilled_salmon,1,250,0.4
+Food-101,gyoza,nachos,1,250,0.4
+Food-101,gyoza,sashimi,1,250,0.4
+Food-101,gyoza,scallops,1,250,0.4
+Food-101,hamburger,beet_salad,1,250,0.4
+Food-101,hamburger,caprese_salad,1,250,0.4
+Food-101,hamburger,crab_cakes,1,250,0.4
+Food-101,hamburger,croque_madame,1,250,0.4
+Food-101,hamburger,filet_mignon,1,250,0.4
+Food-101,hamburger,fish_and_chips,1,250,0.4
+Food-101,hamburger,french_fries,1,250,0.4
+Food-101,hamburger,french_toast,1,250,0.4
+Food-101,hamburger,fried_calamari,1,250,0.4
+Food-101,hamburger,nachos,1,250,0.4
+Food-101,hot_and_sour_soup,samosa,1,250,0.4
+Food-101,hot_and_sour_soup,spring_rolls,1,250,0.4
+Food-101,hot_dog,french_toast,1,250,0.4
+Food-101,hot_dog,hamburger,1,250,0.4
+Food-101,hot_dog,huevos_rancheros,1,250,0.4
+Food-101,hot_dog,omelette,1,250,0.4
+Food-101,hot_dog,poutine,1,250,0.4
+Food-101,hot_dog,tacos,1,250,0.4
+Food-101,huevos_rancheros,apple_pie,1,250,0.4
+Food-101,huevos_rancheros,caesar_salad,1,250,0.4
+Food-101,huevos_rancheros,caprese_salad,1,250,0.4
+Food-101,huevos_rancheros,eggs_benedict,1,250,0.4
+Food-101,hummus,breakfast_burrito,1,250,0.4
+Food-101,hummus,caesar_salad,1,250,0.4
+Food-101,hummus,cheese_plate,1,250,0.4
+Food-101,hummus,club_sandwich,1,250,0.4
+Food-101,hummus,falafel,1,250,0.4
+Food-101,hummus,foie_gras,1,250,0.4
+Food-101,hummus,french_toast,1,250,0.4
+Food-101,hummus,gnocchi,1,250,0.4
+Food-101,hummus,greek_salad,1,250,0.4
+Food-101,hummus,gyoza,1,250,0.4
+Food-101,hummus,hot_and_sour_soup,1,250,0.4
+Food-101,hummus,nachos,1,250,0.4
+Food-101,hummus,onion_rings,1,250,0.4
+Food-101,hummus,pad_thai,1,250,0.4
+Food-101,hummus,ravioli,1,250,0.4
+Food-101,ice_cream,beet_salad,1,250,0.4
+Food-101,ice_cream,cannoli,1,250,0.4
+Food-101,ice_cream,cheesecake,1,250,0.4
+Food-101,ice_cream,chocolate_cake,1,250,0.4
+Food-101,ice_cream,creme_brulee,1,250,0.4
+Food-101,ice_cream,cup_cakes,1,250,0.4
+Food-101,ice_cream,miso_soup,1,250,0.4
+Food-101,ice_cream,pancakes,1,250,0.4
+Food-101,ice_cream,red_velvet_cake,1,250,0.4
+Food-101,ice_cream,takoyaki,1,250,0.4
+Food-101,ice_cream,waffles,1,250,0.4
+Food-101,lasagna,bruschetta,1,250,0.4
+Food-101,lasagna,chicken_curry,1,250,0.4
+Food-101,lasagna,garlic_bread,1,250,0.4
+Food-101,lasagna,macaroni_and_cheese,1,250,0.4
+Food-101,lasagna,paella,1,250,0.4
+Food-101,lasagna,pulled_pork_sandwich,1,250,0.4
+Food-101,lasagna,risotto,1,250,0.4
+Food-101,lasagna,samosa,1,250,0.4
+Food-101,lasagna,shrimp_and_grits,1,250,0.4
+Food-101,lasagna,takoyaki,1,250,0.4
+Food-101,lobster_bisque,chicken_curry,1,250,0.4
+Food-101,lobster_bisque,chocolate_mousse,1,250,0.4
+Food-101,lobster_bisque,dumplings,1,250,0.4
+Food-101,lobster_bisque,french_onion_soup,1,250,0.4
+Food-101,lobster_bisque,hot_and_sour_soup,1,250,0.4
+Food-101,lobster_bisque,shrimp_and_grits,1,250,0.4
+Food-101,lobster_roll_sandwich,bruschetta,1,250,0.4
+Food-101,lobster_roll_sandwich,crab_cakes,1,250,0.4
+Food-101,lobster_roll_sandwich,fish_and_chips,1,250,0.4
+Food-101,lobster_roll_sandwich,french_toast,1,250,0.4
+Food-101,lobster_roll_sandwich,hamburger,1,250,0.4
+Food-101,lobster_roll_sandwich,lobster_bisque,1,250,0.4
+Food-101,lobster_roll_sandwich,pad_thai,1,250,0.4
+Food-101,lobster_roll_sandwich,poutine,1,250,0.4
+Food-101,macaroni_and_cheese,apple_pie,1,250,0.4
+Food-101,macaroni_and_cheese,carrot_cake,1,250,0.4
+Food-101,macaroni_and_cheese,chicken_quesadilla,1,250,0.4
+Food-101,macaroni_and_cheese,clam_chowder,1,250,0.4
+Food-101,macaroni_and_cheese,dumplings,1,250,0.4
+Food-101,macaroni_and_cheese,fish_and_chips,1,250,0.4
+Food-101,macaroni_and_cheese,fried_calamari,1,250,0.4
+Food-101,macaroni_and_cheese,garlic_bread,1,250,0.4
+Food-101,macaroni_and_cheese,greek_salad,1,250,0.4
+Food-101,macaroni_and_cheese,grilled_salmon,1,250,0.4
+Food-101,macaroni_and_cheese,huevos_rancheros,1,250,0.4
+Food-101,macaroni_and_cheese,lobster_bisque,1,250,0.4
+Food-101,macaroni_and_cheese,omelette,1,250,0.4
+Food-101,macaroni_and_cheese,panna_cotta,1,250,0.4
+Food-101,macaroni_and_cheese,ramen,1,250,0.4
+Food-101,macaroni_and_cheese,ravioli,1,250,0.4
+Food-101,macaroni_and_cheese,spaghetti_carbonara,1,250,0.4
+Food-101,macaroni_and_cheese,takoyaki,1,250,0.4
+Food-101,macaroni_and_cheese,tuna_tartare,1,250,0.4
+Food-101,macarons,chocolate_mousse,1,250,0.4
+Food-101,macarons,churros,1,250,0.4
+Food-101,macarons,croque_madame,1,250,0.4
+Food-101,macarons,hamburger,1,250,0.4
+Food-101,macarons,miso_soup,1,250,0.4
+Food-101,macarons,panna_cotta,1,250,0.4
+Food-101,miso_soup,dumplings,1,250,0.4
+Food-101,miso_soup,gyoza,1,250,0.4
+Food-101,mussels,beet_salad,1,250,0.4
+Food-101,mussels,bread_pudding,1,250,0.4
+Food-101,mussels,chicken_curry,1,250,0.4
+Food-101,mussels,crab_cakes,1,250,0.4
+Food-101,mussels,garlic_bread,1,250,0.4
+Food-101,mussels,miso_soup,1,250,0.4
+Food-101,mussels,pad_thai,1,250,0.4
+Food-101,mussels,paella,1,250,0.4
+Food-101,mussels,seaweed_salad,1,250,0.4
+Food-101,nachos,beignets,1,250,0.4
+Food-101,nachos,bruschetta,1,250,0.4
+Food-101,nachos,fried_rice,1,250,0.4
+Food-101,nachos,greek_salad,1,250,0.4
+Food-101,nachos,omelette,1,250,0.4
+Food-101,nachos,poutine,1,250,0.4
+Food-101,omelette,bread_pudding,1,250,0.4
+Food-101,omelette,cheese_plate,1,250,0.4
+Food-101,omelette,chicken_curry,1,250,0.4
+Food-101,omelette,french_onion_soup,1,250,0.4
+Food-101,omelette,garlic_bread,1,250,0.4
+Food-101,omelette,grilled_cheese_sandwich,1,250,0.4
+Food-101,omelette,paella,1,250,0.4
+Food-101,omelette,spaghetti_carbonara,1,250,0.4
+Food-101,onion_rings,beignets,1,250,0.4
+Food-101,onion_rings,lobster_roll_sandwich,1,250,0.4
+Food-101,onion_rings,poutine,1,250,0.4
+Food-101,onion_rings,spring_rolls,1,250,0.4
+Food-101,oysters,fried_calamari,1,250,0.4
+Food-101,oysters,panna_cotta,1,250,0.4
+Food-101,oysters,takoyaki,1,250,0.4
+Food-101,pad_thai,bibimbap,1,250,0.4
+Food-101,pad_thai,chicken_curry,1,250,0.4
+Food-101,pad_thai,fried_rice,1,250,0.4
+Food-101,pad_thai,pulled_pork_sandwich,1,250,0.4
+Food-101,pad_thai,takoyaki,1,250,0.4
+Food-101,paella,beef_carpaccio,1,250,0.4
+Food-101,paella,chicken_curry,1,250,0.4
+Food-101,paella,lobster_bisque,1,250,0.4
+Food-101,paella,mussels,1,250,0.4
+Food-101,paella,nachos,1,250,0.4
+Food-101,paella,omelette,1,250,0.4
+Food-101,paella,pad_thai,1,250,0.4
+Food-101,paella,scallops,1,250,0.4
+Food-101,pancakes,apple_pie,1,250,0.4
+Food-101,pancakes,beignets,1,250,0.4
+Food-101,pancakes,bread_pudding,1,250,0.4
+Food-101,pancakes,chocolate_cake,1,250,0.4
+Food-101,pancakes,creme_brulee,1,250,0.4
+Food-101,pancakes,french_onion_soup,1,250,0.4
+Food-101,pancakes,garlic_bread,1,250,0.4
+Food-101,pancakes,grilled_cheese_sandwich,1,250,0.4
+Food-101,pancakes,gyoza,1,250,0.4
+Food-101,pancakes,hamburger,1,250,0.4
+Food-101,pancakes,omelette,1,250,0.4
+Food-101,pancakes,pulled_pork_sandwich,1,250,0.4
+Food-101,pancakes,spring_rolls,1,250,0.4
+Food-101,pancakes,tiramisu,1,250,0.4
+Food-101,panna_cotta,carrot_cake,1,250,0.4
+Food-101,panna_cotta,cheese_plate,1,250,0.4
+Food-101,panna_cotta,chocolate_cake,1,250,0.4
+Food-101,panna_cotta,dumplings,1,250,0.4
+Food-101,panna_cotta,tiramisu,1,250,0.4
+Food-101,peking_duck,beef_carpaccio,1,250,0.4
+Food-101,peking_duck,beef_tartare,1,250,0.4
+Food-101,peking_duck,bibimbap,1,250,0.4
+Food-101,peking_duck,chicken_curry,1,250,0.4
+Food-101,peking_duck,chocolate_cake,1,250,0.4
+Food-101,peking_duck,creme_brulee,1,250,0.4
+Food-101,peking_duck,filet_mignon,1,250,0.4
+Food-101,peking_duck,fried_rice,1,250,0.4
+Food-101,peking_duck,hot_and_sour_soup,1,250,0.4
+Food-101,peking_duck,huevos_rancheros,1,250,0.4
+Food-101,peking_duck,poutine,1,250,0.4
+Food-101,peking_duck,prime_rib,1,250,0.4
+Food-101,peking_duck,pulled_pork_sandwich,1,250,0.4
+Food-101,peking_duck,ravioli,1,250,0.4
+Food-101,peking_duck,sashimi,1,250,0.4
+Food-101,pho,miso_soup,1,250,0.4
+Food-101,pho,ramen,1,250,0.4
+Food-101,pho,tiramisu,1,250,0.4
+Food-101,pizza,chicken_quesadilla,1,250,0.4
+Food-101,pizza,escargots,1,250,0.4
+Food-101,pizza,garlic_bread,1,250,0.4
+Food-101,pizza,hamburger,1,250,0.4
+Food-101,pizza,nachos,1,250,0.4
+Food-101,pork_chop,apple_pie,1,250,0.4
+Food-101,pork_chop,beet_salad,1,250,0.4
+Food-101,pork_chop,bibimbap,1,250,0.4
+Food-101,pork_chop,caesar_salad,1,250,0.4
+Food-101,pork_chop,chicken_curry,1,250,0.4
+Food-101,pork_chop,chicken_wings,1,250,0.4
+Food-101,pork_chop,french_toast,1,250,0.4
+Food-101,pork_chop,fried_calamari,1,250,0.4
+Food-101,pork_chop,lasagna,1,250,0.4
+Food-101,pork_chop,pad_thai,1,250,0.4
+Food-101,pork_chop,scallops,1,250,0.4
+Food-101,poutine,bibimbap,1,250,0.4
+Food-101,poutine,eggs_benedict,1,250,0.4
+Food-101,poutine,hamburger,1,250,0.4
+Food-101,poutine,macaroni_and_cheese,1,250,0.4
+Food-101,prime_rib,baby_back_ribs,1,250,0.4
+Food-101,prime_rib,beef_carpaccio,1,250,0.4
+Food-101,prime_rib,bread_pudding,1,250,0.4
+Food-101,prime_rib,chicken_quesadilla,1,250,0.4
+Food-101,prime_rib,fried_calamari,1,250,0.4
+Food-101,prime_rib,huevos_rancheros,1,250,0.4
+Food-101,prime_rib,onion_rings,1,250,0.4
+Food-101,pulled_pork_sandwich,chicken_quesadilla,1,250,0.4
+Food-101,pulled_pork_sandwich,crab_cakes,1,250,0.4
+Food-101,pulled_pork_sandwich,falafel,1,250,0.4
+Food-101,pulled_pork_sandwich,fish_and_chips,1,250,0.4
+Food-101,pulled_pork_sandwich,french_fries,1,250,0.4
+Food-101,pulled_pork_sandwich,grilled_cheese_sandwich,1,250,0.4
+Food-101,pulled_pork_sandwich,nachos,1,250,0.4
+Food-101,pulled_pork_sandwich,onion_rings,1,250,0.4
+Food-101,pulled_pork_sandwich,pork_chop,1,250,0.4
+Food-101,pulled_pork_sandwich,spring_rolls,1,250,0.4
+Food-101,pulled_pork_sandwich,tacos,1,250,0.4
+Food-101,ramen,shrimp_and_grits,1,250,0.4
+Food-101,ravioli,beef_tartare,1,250,0.4
+Food-101,ravioli,caesar_salad,1,250,0.4
+Food-101,ravioli,cheese_plate,1,250,0.4
+Food-101,ravioli,chicken_quesadilla,1,250,0.4
+Food-101,ravioli,foie_gras,1,250,0.4
+Food-101,ravioli,fried_calamari,1,250,0.4
+Food-101,ravioli,gyoza,1,250,0.4
+Food-101,ravioli,macaroni_and_cheese,1,250,0.4
+Food-101,ravioli,nachos,1,250,0.4
+Food-101,ravioli,pad_thai,1,250,0.4
+Food-101,ravioli,panna_cotta,1,250,0.4
+Food-101,ravioli,poutine,1,250,0.4
+Food-101,ravioli,spaghetti_carbonara,1,250,0.4
+Food-101,ravioli,tacos,1,250,0.4
+Food-101,red_velvet_cake,bread_pudding,1,250,0.4
+Food-101,red_velvet_cake,chocolate_mousse,1,250,0.4
+Food-101,red_velvet_cake,macarons,1,250,0.4
+Food-101,risotto,ceviche,1,250,0.4
+Food-101,risotto,chicken_curry,1,250,0.4
+Food-101,risotto,crab_cakes,1,250,0.4
+Food-101,risotto,dumplings,1,250,0.4
+Food-101,risotto,falafel,1,250,0.4
+Food-101,risotto,foie_gras,1,250,0.4
+Food-101,risotto,french_onion_soup,1,250,0.4
+Food-101,risotto,hot_and_sour_soup,1,250,0.4
+Food-101,risotto,panna_cotta,1,250,0.4
+Food-101,risotto,spaghetti_bolognese,1,250,0.4
+Food-101,risotto,spaghetti_carbonara,1,250,0.4
+Food-101,samosa,apple_pie,1,250,0.4
+Food-101,samosa,beignets,1,250,0.4
+Food-101,samosa,bread_pudding,1,250,0.4
+Food-101,samosa,breakfast_burrito,1,250,0.4
+Food-101,samosa,caesar_salad,1,250,0.4
+Food-101,samosa,chicken_wings,1,250,0.4
+Food-101,samosa,crab_cakes,1,250,0.4
+Food-101,samosa,eggs_benedict,1,250,0.4
+Food-101,samosa,shrimp_and_grits,1,250,0.4
+Food-101,sashimi,beef_carpaccio,1,250,0.4
+Food-101,sashimi,bibimbap,1,250,0.4
+Food-101,sashimi,ceviche,1,250,0.4
+Food-101,sashimi,lobster_roll_sandwich,1,250,0.4
+Food-101,sashimi,spaghetti_carbonara,1,250,0.4
+Food-101,sashimi,takoyaki,1,250,0.4
+Food-101,sashimi,tuna_tartare,1,250,0.4
+Food-101,scallops,beef_carpaccio,1,250,0.4
+Food-101,scallops,beef_tartare,1,250,0.4
+Food-101,scallops,caesar_salad,1,250,0.4
+Food-101,scallops,chicken_curry,1,250,0.4
+Food-101,scallops,chocolate_mousse,1,250,0.4
+Food-101,scallops,clam_chowder,1,250,0.4
+Food-101,scallops,escargots,1,250,0.4
+Food-101,scallops,falafel,1,250,0.4
+Food-101,scallops,fried_calamari,1,250,0.4
+Food-101,scallops,fried_rice,1,250,0.4
+Food-101,scallops,omelette,1,250,0.4
+Food-101,scallops,paella,1,250,0.4
+Food-101,scallops,panna_cotta,1,250,0.4
+Food-101,scallops,risotto,1,250,0.4
+Food-101,scallops,sashimi,1,250,0.4
+Food-101,scallops,seaweed_salad,1,250,0.4
+Food-101,seaweed_salad,escargots,1,250,0.4
+Food-101,seaweed_salad,huevos_rancheros,1,250,0.4
+Food-101,seaweed_salad,pho,1,250,0.4
+Food-101,seaweed_salad,takoyaki,1,250,0.4
+Food-101,shrimp_and_grits,apple_pie,1,250,0.4
+Food-101,shrimp_and_grits,bread_pudding,1,250,0.4
+Food-101,shrimp_and_grits,caesar_salad,1,250,0.4
+Food-101,shrimp_and_grits,gnocchi,1,250,0.4
+Food-101,shrimp_and_grits,hot_and_sour_soup,1,250,0.4
+Food-101,shrimp_and_grits,pork_chop,1,250,0.4
+Food-101,shrimp_and_grits,pulled_pork_sandwich,1,250,0.4
+Food-101,spaghetti_bolognese,huevos_rancheros,1,250,0.4
+Food-101,spaghetti_bolognese,pad_thai,1,250,0.4
+Food-101,spaghetti_bolognese,paella,1,250,0.4
+Food-101,spaghetti_bolognese,pizza,1,250,0.4
+Food-101,spaghetti_bolognese,pulled_pork_sandwich,1,250,0.4
+Food-101,spaghetti_bolognese,samosa,1,250,0.4
+Food-101,spaghetti_carbonara,clam_chowder,1,250,0.4
+Food-101,spaghetti_carbonara,eggs_benedict,1,250,0.4
+Food-101,spaghetti_carbonara,hot_and_sour_soup,1,250,0.4
+Food-101,spaghetti_carbonara,paella,1,250,0.4
+Food-101,spaghetti_carbonara,risotto,1,250,0.4
+Food-101,spring_rolls,baklava,1,250,0.4
+Food-101,spring_rolls,beef_carpaccio,1,250,0.4
+Food-101,spring_rolls,caesar_salad,1,250,0.4
+Food-101,spring_rolls,ceviche,1,250,0.4
+Food-101,spring_rolls,crab_cakes,1,250,0.4
+Food-101,spring_rolls,dumplings,1,250,0.4
+Food-101,spring_rolls,fried_calamari,1,250,0.4
+Food-101,spring_rolls,garlic_bread,1,250,0.4
+Food-101,spring_rolls,nachos,1,250,0.4
+Food-101,spring_rolls,pad_thai,1,250,0.4
+Food-101,steak,baby_back_ribs,1,250,0.4
+Food-101,steak,beet_salad,1,250,0.4
+Food-101,steak,bread_pudding,1,250,0.4
+Food-101,steak,chocolate_cake,1,250,0.4
+Food-101,steak,crab_cakes,1,250,0.4
+Food-101,steak,fish_and_chips,1,250,0.4
+Food-101,steak,foie_gras,1,250,0.4
+Food-101,steak,french_onion_soup,1,250,0.4
+Food-101,steak,french_toast,1,250,0.4
+Food-101,steak,fried_calamari,1,250,0.4
+Food-101,steak,greek_salad,1,250,0.4
+Food-101,steak,grilled_salmon,1,250,0.4
+Food-101,steak,tuna_tartare,1,250,0.4
+Food-101,strawberry_shortcake,caprese_salad,1,250,0.4
+Food-101,strawberry_shortcake,chocolate_mousse,1,250,0.4
+Food-101,strawberry_shortcake,crab_cakes,1,250,0.4
+Food-101,strawberry_shortcake,creme_brulee,1,250,0.4
+Food-101,strawberry_shortcake,ice_cream,1,250,0.4
+Food-101,strawberry_shortcake,tuna_tartare,1,250,0.4
+Food-101,sushi,beef_carpaccio,1,250,0.4
+Food-101,sushi,beet_salad,1,250,0.4
+Food-101,sushi,deviled_eggs,1,250,0.4
+Food-101,sushi,filet_mignon,1,250,0.4
+Food-101,sushi,gyoza,1,250,0.4
+Food-101,sushi,scallops,1,250,0.4
+Food-101,tacos,bruschetta,1,250,0.4
+Food-101,tacos,caesar_salad,1,250,0.4
+Food-101,tacos,crab_cakes,1,250,0.4
+Food-101,tacos,fish_and_chips,1,250,0.4
+Food-101,tacos,shrimp_and_grits,1,250,0.4
+Food-101,tacos,spring_rolls,1,250,0.4
+Food-101,takoyaki,beignets,1,250,0.4
+Food-101,takoyaki,bibimbap,1,250,0.4
+Food-101,takoyaki,dumplings,1,250,0.4
+Food-101,takoyaki,escargots,1,250,0.4
+Food-101,takoyaki,gyoza,1,250,0.4
+Food-101,takoyaki,lasagna,1,250,0.4
+Food-101,takoyaki,pad_thai,1,250,0.4
+Food-101,takoyaki,pork_chop,1,250,0.4
+Food-101,takoyaki,scallops,1,250,0.4
+Food-101,takoyaki,spring_rolls,1,250,0.4
+Food-101,takoyaki,tuna_tartare,1,250,0.4
+Food-101,tiramisu,cannoli,1,250,0.4
+Food-101,tiramisu,carrot_cake,1,250,0.4
+Food-101,tiramisu,french_toast,1,250,0.4
+Food-101,tiramisu,frozen_yogurt,1,250,0.4
+Food-101,tiramisu,omelette,1,250,0.4
+Food-101,tiramisu,pancakes,1,250,0.4
+Food-101,tiramisu,waffles,1,250,0.4
+Food-101,tuna_tartare,carrot_cake,1,250,0.4
+Food-101,tuna_tartare,falafel,1,250,0.4
+Food-101,tuna_tartare,samosa,1,250,0.4
+Food-101,tuna_tartare,spring_rolls,1,250,0.4
+Food-101,tuna_tartare,steak,1,250,0.4
+Food-101,waffles,beignets,1,250,0.4
+Food-101,waffles,bruschetta,1,250,0.4
+Food-101,waffles,cannoli,1,250,0.4
+Food-101,waffles,caprese_salad,1,250,0.4
+Food-101,waffles,carrot_cake,1,250,0.4
+Food-101,waffles,chicken_quesadilla,1,250,0.4
+Food-101,waffles,churros,1,250,0.4
+Food-101,waffles,huevos_rancheros,1,250,0.4
+Food-101,waffles,ice_cream,1,250,0.4
+Food-101,waffles,red_velvet_cake,1,250,0.4
+Food-101,waffles,tiramisu,1,250,0.4

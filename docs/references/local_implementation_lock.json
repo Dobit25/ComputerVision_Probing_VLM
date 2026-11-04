@@ -1,0 +1,23 @@
+{
+  "checked_on_local_date": "2026-11-04",
+  "packages": {
+    "torch": "2.14.1+cu126",
+    "torchvision": "0.29.1+cu126",
+    "open_clip_torch": "3.3.0",
+    "transformers": "5.22.1",
+    "huggingface-hub": "1.33.0",
+    "tokenizers": "0.23.3",
+    "safetensors": "0.8.0"
+  },
+  "files": {
+    "torchvision/datasets/cifar.py": "d53ef546096da0d5638d6c63094491042421e817ff3b9d128a6f30ddc380e344",
+    "torchvision/datasets/flowers102.py": "96eb9fa5059397dadd1533d085e4016ce97357c79d14e680c676670cc7a7a669",
+    "torchvision/datasets/oxford_iiit_pet.py": "725e0ea22130e65d90ce351c97566c48e79370284cd604d1fde511bcfd8712bb",
+    "torchvision/datasets/dtd.py": "4243d5cab7f3241c157d25a3c24da6ec6c7c7cec431bc294b2f649d7c9532781",
+    "torchvision/datasets/food101.py": "286035242c1b5c111b1108dbbb286c88212576c7c594b6a11627acdf920c9314",
+    "open_clip/pretrained.py": "5ffc377bb61392ca07581b7fa3705ed358d99188082f9a260854b2044ec3bc45",
+    "open_clip/model_configs/ViT-B-32.json": "743f4fcee3aea1705c1865f89a3767d816513769f57eb483a9eea3e610ebe633",
+    "open_clip/bpe_simple_vocab_16e6.txt.gz": "924691ac288e54409236115652ad4aa250f48203de50a9e4722a6ecd48d6804a",
+    "transformers/models/siglip/modeling_siglip.py": "be6a88e579c8b4a69d705a7903174f975ff5cc278910539d0a5505116da9d710"
+  }
+}

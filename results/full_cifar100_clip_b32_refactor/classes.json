@@ -1,0 +1,602 @@
+[
+  {
+    "class_id": 0,
+    "dataset_name": "apple",
+    "prompt_name": "apple",
+    "prompt": "a photo of a apple."
+  },
+  {
+    "class_id": 1,
+    "dataset_name": "aquarium_fish",
+    "prompt_name": "aquarium fish",
+    "prompt": "a photo of a aquarium fish."
+  },
+  {
+    "class_id": 2,
+    "dataset_name": "baby",
+    "prompt_name": "baby",
+    "prompt": "a photo of a baby."
+  },
+  {
+    "class_id": 3,
+    "dataset_name": "bear",
+    "prompt_name": "bear",
+    "prompt": "a photo of a bear."
+  },
+  {
+    "class_id": 4,
+    "dataset_name": "beaver",
+    "prompt_name": "beaver",
+    "prompt": "a photo of a beaver."
+  },
+  {
+    "class_id": 5,
+    "dataset_name": "bed",
+    "prompt_name": "bed",
+    "prompt": "a photo of a bed."
+  },
+  {
+    "class_id": 6,
+    "dataset_name": "bee",
+    "prompt_name": "bee",
+    "prompt": "a photo of a bee."
+  },
+  {
+    "class_id": 7,
+    "dataset_name": "beetle",
+    "prompt_name": "beetle",
+    "prompt": "a photo of a beetle."
+  },
+  {
+    "class_id": 8,
+    "dataset_name": "bicycle",
+    "prompt_name": "bicycle",
+    "prompt": "a photo of a bicycle."
+  },
+  {
+    "class_id": 9,
+    "dataset_name": "bottle",
+    "prompt_name": "bottle",
+    "prompt": "a photo of a bottle."
+  },
+  {
+    "class_id": 10,
+    "dataset_name": "bowl",
+    "prompt_name": "bowl",
+    "prompt": "a photo of a bowl."
+  },
+  {
+    "class_id": 11,
+    "dataset_name": "boy",
+    "prompt_name": "boy",
+    "prompt": "a photo of a boy."
+  },
+  {
+    "class_id": 12,
+    "dataset_name": "bridge",
+    "prompt_name": "bridge",
+    "prompt": "a photo of a bridge."
+  },
+  {
+    "class_id": 13,
+    "dataset_name": "bus",
+    "prompt_name": "bus",
+    "prompt": "a photo of a bus."
+  },
+  {
+    "class_id": 14,
+    "dataset_name": "butterfly",
+    "prompt_name": "butterfly",
+    "prompt": "a photo of a butterfly."
+  },
+  {
+    "class_id": 15,
+    "dataset_name": "camel",
+    "prompt_name": "camel",
+    "prompt": "a photo of a camel."
+  },
+  {
+    "class_id": 16,
+    "dataset_name": "can",
+    "prompt_name": "can",
+    "prompt": "a photo of a can."
+  },
+  {
+    "class_id": 17,
+    "dataset_name": "castle",
+    "prompt_name": "castle",
+    "prompt": "a photo of a castle."
+  },
+  {
+    "class_id": 18,
+    "dataset_name": "caterpillar",
+    "prompt_name": "caterpillar",
+    "prompt": "a photo of a caterpillar."
+  },
+  {
+    "class_id": 19,
+    "dataset_name": "cattle",
+    "prompt_name": "cattle",
+    "prompt": "a photo of a cattle."
+  },
+  {
+    "class_id": 20,
+    "dataset_name": "chair",
+    "prompt_name": "chair",
+    "prompt": "a photo of a chair."
+  },
+  {
+    "class_id": 21,
+    "dataset_name": "chimpanzee",
+    "prompt_name": "chimpanzee",
+    "prompt": "a photo of a chimpanzee."
+  },
+  {
+    "class_id": 22,
+    "dataset_name": "clock",
+    "prompt_name": "clock",
+    "prompt": "a photo of a clock."
+  },
+  {
+    "class_id": 23,
+    "dataset_name": "cloud",
+    "prompt_name": "cloud",
+    "prompt": "a photo of a cloud."
+  },
+  {
+    "class_id": 24,
+    "dataset_name": "cockroach",
+    "prompt_name": "cockroach",
+    "prompt": "a photo of a cockroach."
+  },
+  {
+    "class_id": 25,
+    "dataset_name": "couch",
+    "prompt_name": "couch",
+    "prompt": "a photo of a couch."
+  },
+  {
+    "class_id": 26,
+    "dataset_name": "crab",
+    "prompt_name": "crab",
+    "prompt": "a photo of a crab."
+  },
+  {
+    "class_id": 27,
+    "dataset_name": "crocodile",
+    "prompt_name": "crocodile",
+    "prompt": "a photo of a crocodile."
+  },
+  {
+    "class_id": 28,
+    "dataset_name": "cup",
+    "prompt_name": "cup",
+    "prompt": "a photo of a cup."
+  },
+  {
+    "class_id": 29,
+    "dataset_name": "dinosaur",
+    "prompt_name": "dinosaur",
+    "prompt": "a photo of a dinosaur."
+  },
+  {
+    "class_id": 30,
+    "dataset_name": "dolphin",
+    "prompt_name": "dolphin",
+    "prompt": "a photo of a dolphin."
+  },
+  {
+    "class_id": 31,
+    "dataset_name": "elephant",
+    "prompt_name": "elephant",
+    "prompt": "a photo of a elephant."
+  },
+  {
+    "class_id": 32,
+    "dataset_name": "flatfish",
+    "prompt_name": "flatfish",
+    "prompt": "a photo of a flatfish."
+  },
+  {
+    "class_id": 33,
+    "dataset_name": "forest",
+    "prompt_name": "forest",
+    "prompt": "a photo of a forest."
+  },
+  {
+    "class_id": 34,
+    "dataset_name": "fox",
+    "prompt_name": "fox",
+    "prompt": "a photo of a fox."
+  },
+  {
+    "class_id": 35,
+    "dataset_name": "girl",
+    "prompt_name": "girl",
+    "prompt": "a photo of a girl."
+  },
+  {
+    "class_id": 36,
+    "dataset_name": "hamster",
+    "prompt_name": "hamster",
+    "prompt": "a photo of a hamster."
+  },
+  {
+    "class_id": 37,
+    "dataset_name": "house",
+    "prompt_name": "house",
+    "prompt": "a photo of a house."
+  },
+  {
+    "class_id": 38,
+    "dataset_name": "kangaroo",
+    "prompt_name": "kangaroo",
+    "prompt": "a photo of a kangaroo."
+  },
+  {
+    "class_id": 39,
+    "dataset_name": "keyboard",
+    "prompt_name": "keyboard",
+    "prompt": "a photo of a keyboard."
+  },
+  {
+    "class_id": 40,
+    "dataset_name": "lamp",
+    "prompt_name": "lamp",
+    "prompt": "a photo of a lamp."
+  },
+  {
+    "class_id": 41,
+    "dataset_name": "lawn_mower",
+    "prompt_name": "lawn mower",
+    "prompt": "a photo of a lawn mower."
+  },
+  {
+    "class_id": 42,
+    "dataset_name": "leopard",
+    "prompt_name": "leopard",
+    "prompt": "a photo of a leopard."
+  },
+  {
+    "class_id": 43,
+    "dataset_name": "lion",
+    "prompt_name": "lion",
+    "prompt": "a photo of a lion."
+  },
+  {
+    "class_id": 44,
+    "dataset_name": "lizard",
+    "prompt_name": "lizard",
+    "prompt": "a photo of a lizard."
+  },
+  {
+    "class_id": 45,
+    "dataset_name": "lobster",
+    "prompt_name": "lobster",
+    "prompt": "a photo of a lobster."
+  },
+  {
+    "class_id": 46,
+    "dataset_name": "man",
+    "prompt_name": "man",
+    "prompt": "a photo of a man."
+  },
+  {
+    "class_id": 47,
+    "dataset_name": "maple_tree",
+    "prompt_name": "maple tree",
+    "prompt": "a photo of a maple tree."
+  },
+  {
+    "class_id": 48,
+    "dataset_name": "motorcycle",
+    "prompt_name": "motorcycle",
+    "prompt": "a photo of a motorcycle."
+  },
+  {
+    "class_id": 49,
+    "dataset_name": "mountain",
+    "prompt_name": "mountain",
+    "prompt": "a photo of a mountain."
+  },
+  {
+    "class_id": 50,
+    "dataset_name": "mouse",
+    "prompt_name": "mouse",
+    "prompt": "a photo of a mouse."
+  },
+  {
+    "class_id": 51,
+    "dataset_name": "mushroom",
+    "prompt_name": "mushroom",
+    "prompt": "a photo of a mushroom."
+  },
+  {
+    "class_id": 52,
+    "dataset_name": "oak_tree",
+    "prompt_name": "oak tree",
+    "prompt": "a photo of a oak tree."
+  },
+  {
+    "class_id": 53,
+    "dataset_name": "orange",
+    "prompt_name": "orange",
+    "prompt": "a photo of a orange."
+  },
+  {
+    "class_id": 54,
+    "dataset_name": "orchid",
+    "prompt_name": "orchid",
+    "prompt": "a photo of a orchid."
+  },
+  {
+    "class_id": 55,
+    "dataset_name": "otter",
+    "prompt_name": "otter",
+    "prompt": "a photo of a otter."
+  },
+  {
+    "class_id": 56,
+    "dataset_name": "palm_tree",
+    "prompt_name": "palm tree",
+    "prompt": "a photo of a palm tree."
+  },
+  {
+    "class_id": 57,
+    "dataset_name": "pear",
+    "prompt_name": "pear",
+    "prompt": "a photo of a pear."
+  },
+  {
+    "class_id": 58,
+    "dataset_name": "pickup_truck",
+    "prompt_name": "pickup truck",
+    "prompt": "a photo of a pickup truck."
+  },
+  {
+    "class_id": 59,
+    "dataset_name": "pine_tree",
+    "prompt_name": "pine tree",
+    "prompt": "a photo of a pine tree."
+  },
+  {
+    "class_id": 60,
+    "dataset_name": "plain",
+    "prompt_name": "plain",
+    "prompt": "a photo of a plain."
+  },
+  {
+    "class_id": 61,
+    "dataset_name": "plate",
+    "prompt_name": "plate",
+    "prompt": "a photo of a plate."
+  },
+  {
+    "class_id": 62,
+    "dataset_name": "poppy",
+    "prompt_name": "poppy",
+    "prompt": "a photo of a poppy."
+  },
+  {
+    "class_id": 63,
+    "dataset_name": "porcupine",
+    "prompt_name": "porcupine",
+    "prompt": "a photo of a porcupine."
+  },
+  {
+    "class_id": 64,
+    "dataset_name": "possum",
+    "prompt_name": "possum",
+    "prompt": "a photo of a possum."
+  },
+  {
+    "class_id": 65,
+    "dataset_name": "rabbit",
+    "prompt_name": "rabbit",
+    "prompt": "a photo of a rabbit."
+  },
+  {
+    "class_id": 66,
+    "dataset_name": "raccoon",
+    "prompt_name": "raccoon",
+    "prompt": "a photo of a raccoon."
+  },
+  {
+    "class_id": 67,
+    "dataset_name": "ray",
+    "prompt_name": "ray",
+    "prompt": "a photo of a ray."
+  },
+  {
+    "class_id": 68,
+    "dataset_name": "road",
+    "prompt_name": "road",
+    "prompt": "a photo of a road."
+  },
+  {
+    "class_id": 69,
+    "dataset_name": "rocket",
+    "prompt_name": "rocket",
+    "prompt": "a photo of a rocket."
+  },
+  {
+    "class_id": 70,
+    "dataset_name": "rose",
+    "prompt_name": "rose",
+    "prompt": "a photo of a rose."
+  },
+  {
+    "class_id": 71,
+    "dataset_name": "sea",
+    "prompt_name": "sea",
+    "prompt": "a photo of a sea."
+  },
+  {
+    "class_id": 72,
+    "dataset_name": "seal",
+    "prompt_name": "seal",
+    "prompt": "a photo of a seal."
+  },
+  {
+    "class_id": 73,
+    "dataset_name": "shark",
+    "prompt_name": "shark",
+    "prompt": "a photo of a shark."
+  },
+  {
+    "class_id": 74,
+    "dataset_name": "shrew",
+    "prompt_name": "shrew",
+    "prompt": "a photo of a shrew."
+  },
+  {
+    "class_id": 75,
+    "dataset_name": "skunk",
+    "prompt_name": "skunk",
+    "prompt": "a photo of a skunk."
+  },
+  {
+    "class_id": 76,
+    "dataset_name": "skyscraper",
+    "prompt_name": "skyscraper",
+    "prompt": "a photo of a skyscraper."
+  },
+  {
+    "class_id": 77,
+    "dataset_name": "snail",
+    "prompt_name": "snail",
+    "prompt": "a photo of a snail."
+  },
+  {
+    "class_id": 78,
+    "dataset_name": "snake",
+    "prompt_name": "snake",
+    "prompt": "a photo of a snake."
+  },
+  {
+    "class_id": 79,
+    "dataset_name": "spider",
+    "prompt_name": "spider",
+    "prompt": "a photo of a spider."
+  },
+  {
+    "class_id": 80,
+    "dataset_name": "squirrel",
+    "prompt_name": "squirrel",
+    "prompt": "a photo of a squirrel."
+  },
+  {
+    "class_id": 81,
+    "dataset_name": "streetcar",
+    "prompt_name": "streetcar",
+    "prompt": "a photo of a streetcar."
+  },
+  {
+    "class_id": 82,
+    "dataset_name": "sunflower",
+    "prompt_name": "sunflower",
+    "prompt": "a photo of a sunflower."
+  },
+  {
+    "class_id": 83,
+    "dataset_name": "sweet_pepper",
+    "prompt_name": "sweet pepper",
+    "prompt": "a photo of a sweet pepper."
+  },
+  {
+    "class_id": 84,
+    "dataset_name": "table",
+    "prompt_name": "table",
+    "prompt": "a photo of a table."
+  },
+  {
+    "class_id": 85,
+    "dataset_name": "tank",
+    "prompt_name": "tank",
+    "prompt": "a photo of a tank."
+  },
+  {
+    "class_id": 86,
+    "dataset_name": "telephone",
+    "prompt_name": "telephone",
+    "prompt": "a photo of a telephone."
+  },
+  {
+    "class_id": 87,
+    "dataset_name": "television",
+    "prompt_name": "television",
+    "prompt": "a photo of a television."
+  },
+  {
+    "class_id": 88,
+    "dataset_name": "tiger",
+    "prompt_name": "tiger",
+    "prompt": "a photo of a tiger."
+  },
+  {
+    "class_id": 89,
+    "dataset_name": "tractor",
+    "prompt_name": "tractor",
+    "prompt": "a photo of a tractor."
+  },
+  {
+    "class_id": 90,
+    "dataset_name": "train",
+    "prompt_name": "train",
+    "prompt": "a photo of a train."
+  },
+  {
+    "class_id": 91,
+    "dataset_name": "trout",
+    "prompt_name": "trout",
+    "prompt": "a photo of a trout."
+  },
+  {
+    "class_id": 92,
+    "dataset_name": "tulip",
+    "prompt_name": "tulip",
+    "prompt": "a photo of a tulip."
+  },
+  {
+    "class_id": 93,
+    "dataset_name": "turtle",
+    "prompt_name": "turtle",
+    "prompt": "a photo of a turtle."
+  },
+  {
+    "class_id": 94,
+    "dataset_name": "wardrobe",
+    "prompt_name": "wardrobe",
+    "prompt": "a photo of a wardrobe."
+  },
+  {
+    "class_id": 95,
+    "dataset_name": "whale",
+    "prompt_name": "whale",
+    "prompt": "a photo of a whale."
+  },
+  {
+    "class_id": 96,
+    "dataset_name": "willow_tree",
+    "prompt_name": "willow tree",
+    "prompt": "a photo of a willow tree."
+  },
+  {
+    "class_id": 97,
+    "dataset_name": "wolf",
+    "prompt_name": "wolf",
+    "prompt": "a photo of a wolf."
+  },
+  {
+    "class_id": 98,
+    "dataset_name": "woman",
+    "prompt_name": "woman",
+    "prompt": "a photo of a woman."
+  },
+  {
+    "class_id": 99,
+    "dataset_name": "worm",
+    "prompt_name": "worm",
+    "prompt": "a photo of a worm."
+  }
+]
