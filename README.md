@@ -22,7 +22,7 @@ Dataset thứ hai đã chạy đầy đủ: **Flowers102 — 3.921/6.149 ảnh �
 
 Sau refactor, cả 10.000 dự đoán và cosine scores giữ nguyên; `predictions.csv` giống từng byte. Xem [biên bản đối chiếu](results/refactor_comparison.json). Hai dataset chưa hoàn thành toàn bộ Topic 14.
 
-Theo điều chỉnh của người dùng ngày **04/11/2026**, phạm vi hiện hành là **một model × năm dataset và bốn bài core probing**. Kế hoạch ba checkpoint/15 ô đã được thay thế; đề bài không bắt buộc nhiều model. Xem [báo cáo baseline](reports/baseline/README.md) (accuracy, toàn bộ 387 lớp, các cặp nhầm lẫn) và [báo cáo probing](reports/probing/README.md) (counting, spatial, negation, fine-grained, đối chứng và khoảng tin cậy). Prompt sensitivity, ensembling, tiếng Việt/văn hóa Việt Nam là extensions chưa thực hiện.
+Theo điều chỉnh của người dùng ngày **04/11/2026**, phạm vi core là **một model × năm dataset và bốn bài core probing**. Kế hoạch ba checkpoint/15 ô đã được thay thế; đề bài không bắt buộc nhiều model. Xem [báo cáo baseline](reports/baseline/README.md) (accuracy, toàn bộ 387 lớp, các cặp nhầm lẫn) và [báo cáo probing](reports/probing/README.md) (counting, spatial, negation, fine-grained, đối chứng và khoảng tin cậy). Đã bổ sung phép thử một cặp prompt category trên CIFAR-100 bên dưới; nghiên cứu nhiều template/ensembling và tiếng Việt/văn hóa Việt Nam vẫn là các extensions tiếp theo.
 
 Ba ô classification mới đã hoàn tất và vượt qua verifier:
 
@@ -37,6 +37,16 @@ Full probing đã hoàn tất và qua audit: counting **32,87%**, spatial **29,5
 Ba bài đếm/không gian/phủ định dùng hình học tự tạo có đối chứng; fine-grained dùng CIFAR-100 với nhãn nhóm lớn thật để giới hạn năm lớp ứng viên. Đây là chẩn đoán lỗi trong nhóm, không phải cải thiện zero-shot 100 lớp. Không suy rộng kết quả một checkpoint thành so sánh nhiều VLM. [Giao thức probing](docs/probing_protocol.md) được xác định trước inference.
 
 ## Chạy đánh giá
+
+Phép thử **CIFAR-100 category v1** so sánh `a photo of a {class}.` với `a photo of a {class}, a type of {category}.`. Ánh xạ lấy từ 20 coarse groups của tập train; mỗi ảnh vẫn chọn giữa đủ 100 lớp. Kết quả full: **64,48% → 62,92%**, chênh **−1,56 điểm phần trăm**, CI 95% ghép cặp [−2,15; −0,96]. Xem [báo cáo category](reports/cifar100_category_v1/README.md) và [giao thức cố định trước khi chạy](docs/cifar100_category_protocol.md).
+
+```powershell
+conda run --no-capture-output -n gen python -m vlm_probe.category_study --run-name category_new
+conda run --no-capture-output -n gen python -m vlm_probe.category_study.audit results/category_new
+conda run --no-capture-output -n gen python -m vlm_probe.category_study.report results/category_new
+```
+
+Thêm `--smoke` để chỉ kiểm tra 200 ảnh đầu; tên run phải mới. Hai bộ prompt dùng chung vector ảnh trong mỗi batch. Lưu mọi cosine score để audit lại argmax trên 100 ứng viên. Phép thử này không dùng coarse label thật của ảnh đầu vào và không phải fine-grained oracle 5-way.
 
 Mở terminal tại thư mục repository. Với môi trường Conda `gen` đã được thiết lập trên máy hiện tại, chọn config để chạy toàn bộ test split:
 
@@ -116,7 +126,20 @@ Bộ kiểm tra xác minh checksum, thứ tự/độ đầy đủ của ảnh v�
 conda run --no-capture-output -n gen python -m unittest discover -s tests -v
 ```
 
-## Cấu trúc
+## Probing chuyên sâu: quan hệ không gian và category
+
+**Cập nhật mới nhất — xác nhận trên ảnh chưa dùng:** đã tự rà soát lại 200 ảnh cũ (giữ 176), rà soát 178 ứng viên mới và cố định 100 nguồn không trùng 400 ảnh từng xem trước suy luận. Ghép cặp T2 thuận đạt 53/100, CI Wilson 95% [43,29%; 62,49%], p một phía = 0,3086. [PDF cập nhật](reports/natural_confirmation_v1/bao_cao_cap_nhat.pdf), [kết quả/giới hạn/tái lập](reports/natural_confirmation_v1/README.md), [giao thức](docs/natural_confirmation_protocol.md). Chưa có annotator người độc lập; không diễn giải kết quả như bằng chứng tương đương đoán ngẫu nhiên.
+
+Đã hoàn thành phần bổ sung với cùng checkpoint CLIP ViT-B/32: 1.440 ảnh hình học/8.640 phép thử; tám điều kiện trên 10.000 ảnh CIFAR-100; 200 ảnh COCO gốc và bản lật/2.400 phép thử. Có giao thức, scores từng mẫu, audit và báo cáo tiếng Việt.
+
+- [Báo cáo PDF mốc probing chuyên sâu](reports/probing_depth_v1/bao_cao_probing_chuyen_sau.pdf) và [kết quả/diễn giải đầy đủ](reports/probing_depth_v1/README.md).
+- [Giao thức và amendment nguồn ảnh](docs/probing_depth_protocol.md), [config](configs/probing_depth_v1.json), [quy trình rà soát ảnh tự nhiên](docs/natural_depth_review.md).
+- Mã mới ở `vlm_probe/depth/`; các run cố định ở `results/full_depth_{historical,spatial,category,natural}_v1`.
+- Trong môi trường `gen`: `python -m vlm_probe.depth audit` kiểm tra toàn bộ run; `python -m vlm_probe.depth report` dựng lại bảng/biểu đồ. [Lệnh chạy lại vào thư mục mới](reports/probing_depth_v1/README.md#7-mã-nguồn-kiểm-chứng-và-chạy-lại).
+
+Phần tự nhiên đã được rà soát bằng trợ lý AI và validator hình học, chưa có người gán nhãn độc lập. Kết quả không được diễn giải như cơ chế nội tại của mọi VLM. Các phần bổ sung được đóng gói trong mốc `v1.1.0-probing-depth` trên `dev`; xem [phạm vi phiên bản và hướng dẫn kiểm tra](docs/probing_depth_release.md). Tag `v1.0.0-core` tiếp tục giữ nguyên mốc core trước đó.
+
+## Cấu trúc thư mục
 
 ```text
 configs/clip_b32_cifar100.json  # Baseline v1: 100 lớp, 10.000 ảnh test
