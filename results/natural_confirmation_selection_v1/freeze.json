@@ -1,0 +1,16 @@
+{
+  "frozen_at_utc": "2026-11-04T16:17:49.637393+00:00",
+  "num_sources": 100,
+  "sha256": {
+    "candidate_metadata.json": "72fe632d4db4bd17661260460dac45a4a8d8fc994e3786dbe6ab9355b926eb4a",
+    "duplicate_screen.json": "a5338d955b09046ec0b16f3a9625b7955c763aae07dc722e474e6078745f932f",
+    "new_candidates.json": "7aa44322303fdeca33234cc778f97d73e74b270c606cdf88bcd7ea3ca52ed476",
+    "new_review.json": "6c55226528dcf78b67ef4d1c66cf5814e7de6695439e56fde3077e5b0d0d8748",
+    "old_candidates.json": "286f503655ee8eb0799b9212afd0f49613593329a3458bfd4934ab0782dd354c",
+    "old_review.json": "ea5c1cf763193d9dec90b9a1b01d55240ab2661438194dfa7ceeef9662b6f709",
+    "preparation.json": "f677db66c8e8857374e34b3eff3442c6deb2fc8988ae23115c97c1c0bae4cb2b",
+    "selected.json": "656ed246180ae78e57535a34665771d8e786318eda07819d2048acb813534dd5"
+  },
+  "config_sha256": "951f778cee2d2bb5c892abd42f179add3a3c29e32e63e3b6ad35a923619e5dce",
+  "protocol_sha256": "609fd9c44470aa6d6c4b53e905af898da7d928755d7610469c313ae601d40cd8"
+}

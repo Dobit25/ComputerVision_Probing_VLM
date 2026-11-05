@@ -1,0 +1,1425 @@
+{
+  "reviewed_at_utc": "2026-11-04T16:13:37.128023+00:00",
+  "reviewer": "Codex assistant; same reviewer, not independent human annotation",
+  "kind": "old",
+  "per_image_clip_scores_shown": false,
+  "old_aggregate_results_known": true,
+  "candidate_sha256": "286f503655ee8eb0799b9212afd0f49613593329a3458bfd4934ab0782dd354c",
+  "sheet_sha256": {
+    "data/natural_confirmation_v1/review_sheets/old_00.png": "1a0ccbdb218b37b424e6deed3af41e9eed977f5e9c3e261ddbc6520de05a71cc",
+    "data/natural_confirmation_v1/review_sheets/old_01.png": "83ef26411bb2b981b657721e3989d3a17b1aae4bce9afb54ae025ad7c2dadd50",
+    "data/natural_confirmation_v1/review_sheets/old_02.png": "6d5d3b7a38881e34017e18cd4e215ff0ffc39e16c323448798e71594ac7f45fe",
+    "data/natural_confirmation_v1/review_sheets/old_03.png": "5db3dc3abaaaee0b39eb6d6d2e04368c65b1475446a09bb850d48e9b6acbc223",
+    "data/natural_confirmation_v1/review_sheets/old_04.png": "f6c7c06826a43ee65fb3b89c5d98452aafe7dba3b5410e8c35be405f57560e86",
+    "data/natural_confirmation_v1/review_sheets/old_05.png": "eca0d92c2a6798cd65959f74784df757fe661f589bc54963fe81acf5f3b6d431",
+    "data/natural_confirmation_v1/review_sheets/old_06.png": "2f78e697b4c203d2d94ed85df7f0a99785ff1dc3fa0359a1ed7bf17ba8338a66",
+    "data/natural_confirmation_v1/review_sheets/old_07.png": "b7c27f36bb35a51c25d4954004d3f1f7f787528f2c3fad53248ef7cf6c634b54",
+    "data/natural_confirmation_v1/review_sheets/old_08.png": "050c4bcc4aced52d62857f4ea8cacae8375b2c15b3566d7f82b1db3e07023f04",
+    "data/natural_confirmation_v1/review_sheets/old_09.png": "1bde3ac43637301b9bf790f3c34b28f4a3a1ce1cd138ab94f27b0d06c2f04b8f",
+    "data/natural_confirmation_v1/review_sheets/old_10.png": "a4afa802919803f5a476cfabf3b615da1bcb60364215dd0d581228919120136e",
+    "data/natural_confirmation_v1/review_sheets/old_11.png": "31f58c5643ec5394bb4efafa153228a7a212972968362f797bb8a8220e8f0445",
+    "data/natural_confirmation_v1/review_sheets/old_12.png": "425d7c45ec90bb58c6c49d96f697acc997f0a7e9e823b52e71819130cacdca9d"
+  },
+  "decisions": [
+    {
+      "review_index": 0,
+      "source_image_id": 409247,
+      "image_sha256": "0f26b415d0ad6a91cf146d69d572826a271697871901fad14e57e6aaab7e68a1",
+      "accepted": true,
+      "reason": "Both targets, class names and relation confirmed in the center crop."
+    },
+    {
+      "review_index": 1,
+      "source_image_id": 407225,
+      "image_sha256": "0e75c17979325f6234204e8a182e1297989716a9456716f560adaa6b461ac09e",
+      "accepted": true,
+      "reason": "Both targets, class names and relation confirmed in the center crop."
+    },
+    {
+      "review_index": 2,
+      "source_image_id": 368242,
+      "image_sha256": "4f420dc2eb3d0574904e3027ad029cc9db079a03d2390003cdc69be2b49ad6b1",
+      "accepted": true,
+      "reason": "Both targets, class names and relation confirmed in the center crop."
+    },
+    {
+      "review_index": 3,
+      "source_image_id": 133515,
+      "image_sha256": "eb578a16c0b12f85633d7a6477b03e53f366736ca4ca385e2dca7052bacfb0b9",
+      "accepted": true,
+      "reason": "Both targets, class names and relation confirmed in the center crop."
+    },
+    {
+      "review_index": 4,
+      "source_image_id": 578324,
+      "image_sha256": "89305d376c56d1aeb3f337e4d15d7aaddd2d5d38f76ff2c0d1efdc7c52c3a067",
+      "accepted": true,
+      "reason": "Both targets, class names and relation confirmed in the center crop."
+    },
+    {
+      "review_index": 5,
+      "source_image_id": 521359,
+      "image_sha256": "02f454a497e36185f66637f492e95e036257234d175af8cf10943991abc8cec9",
+      "accepted": true,
+      "reason": "Both targets, class names and relation confirmed in the center crop."
+    },
+    {
+      "review_index": 6,
+      "source_image_id": 491851,
+      "image_sha256": "550bf526bc3cb74f22efb1d96e9b41486fed4c4a577c89b087cc41256a400e6a",
+      "accepted": true,
+      "reason": "Both targets, class names and relation confirmed in the center crop."
+    },
+    {
+      "review_index": 7,
+      "source_image_id": 433505,
+      "image_sha256": "46563bcb283efa94bef8583ea5787187779e70cadb1171cb43ffdc42e9f8a66f",
+      "accepted": true,
+      "reason": "Both targets, class names and relation confirmed in the center crop."
+    },
+    {
+      "review_index": 8,
+      "source_image_id": 506441,
+      "image_sha256": "1a8cf7eff107f21b983cf9c27d9bba36a74fc9b4ca2b499e112beee481b9721b",
+      "accepted": true,
+      "reason": "Both targets, class names and relation confirmed in the center crop."
+    },
+    {
+      "review_index": 9,
+      "source_image_id": 446005,
+      "image_sha256": "7aaa88f6a47ede127a123ab83f8c01564ea7368f65d848914f2fff6788ac4d56",
+      "accepted": true,
+      "reason": "Both targets, class names and relation confirmed in the center crop."
+    },
+    {
+      "review_index": 10,
+      "source_image_id": 512982,
+      "image_sha256": "618dc059d64b82d50527ce040920b57eef882b204f0138067a401c6b8659e923",
+      "accepted": true,
+      "reason": "Both targets, class names and relation confirmed in the center crop."
+    },
+    {
+      "review_index": 11,
+      "source_image_id": 352480,
+      "image_sha256": "ace411baabacaac704ff56d9ec3cfeb0b4d01a00034dc67cf98d08ac1b1f0835",
+      "accepted": true,
+      "reason": "Both targets, class names and relation confirmed in the center crop."
+    },
+    {
+      "review_index": 12,
+      "source_image_id": 219063,
+      "image_sha256": "6d53ba09cd1d14d10ff2c5fe527d31ce0b79f92fc3cafbd58939be2c71897064",
+      "accepted": true,
+      "reason": "Both targets, class names and relation confirmed in the center crop."
+    },
+    {
+      "review_index": 13,
+      "source_image_id": 61897,
+      "image_sha256": "6444c6f5fa9cbfe008b0289c7b809df832f26742f7d51f9657472aea0c94c319",
+      "accepted": false,
+      "reason": "Backpack is too dark and partly occluded to distinguish confidently from the rider's clothing."
+    },
+    {
+      "review_index": 14,
+      "source_image_id": 61735,
+      "image_sha256": "4e52d33d74f1d1af969fdd350a8461c67d6fddd3687995a456721aaaa73d1255",
+      "accepted": true,
+      "reason": "Both targets, class names and relation confirmed in the center crop."
+    },
+    {
+      "review_index": 15,
+      "source_image_id": 537954,
+      "image_sha256": "5f5ae2296c918e909898ff623dc4d1ab0cca166cd838a18b801957e973069870",
+      "accepted": false,
+      "reason": "Cow is severely truncated at the left edge of the displayed crop; its identity is not sufficiently clear."
+    },
+    {
+      "review_index": 16,
+      "source_image_id": 196789,
+      "image_sha256": "6beca8ca7ce902525f059ef14d4d4541e0eefd7c6534f0a15ae85e9b45615f34",
+      "accepted": true,
+      "reason": "Both targets, class names and relation confirmed in the center crop."
+    },
+    {
+      "review_index": 17,
+      "source_image_id": 346560,
+      "image_sha256": "8601564161c39796f381a694aab70270de645cd6d8fd4789bdf5fa49f97ebfb5",
+      "accepted": true,
+      "reason": "Both targets, class names and relation confirmed in the center crop."
+    },
+    {
+      "review_index": 18,
+      "source_image_id": 539439,
+      "image_sha256": "6fa517c96b98bc02266efaa7f1f91b572261c88e8a046bc4d5015d0e066b957a",
+      "accepted": true,
+      "reason": "Both targets, class names and relation confirmed in the center crop."
+    },
+    {
+      "review_index": 19,
+      "source_image_id": 572665,
+      "image_sha256": "5fb059c4bb35e3663321c137e13436534b6a38c17b65ea95f1b307e17a1995bc",
+      "accepted": true,
+      "reason": "Both targets, class names and relation confirmed in the center crop."
+    },
+    {
+      "review_index": 20,
+      "source_image_id": 302789,
+      "image_sha256": "687795b5855e2bb317f9af8a5ce820ebdbc32fad7bc0218c618788ee96f1f05a",
+      "accepted": true,
+      "reason": "Both targets, class names and relation confirmed in the center crop."
+    },
+    {
+      "review_index": 21,
+      "source_image_id": 290355,
+      "image_sha256": "c0bb1a2a8702d13c693342dda7f9996a6837d43e6335347ff67def47818b1e32",
+      "accepted": true,
+      "reason": "Both targets, class names and relation confirmed in the center crop."
+    },
+    {
+      "review_index": 22,
+      "source_image_id": 560218,
+      "image_sha256": "f816d5ce2228e3fe5f4f1023690fd304233bdb2a6f01f5e2bd7811be23a541eb",
+      "accepted": true,
+      "reason": "Both targets, class names and relation confirmed in the center crop."
+    },
+    {
+      "review_index": 23,
+      "source_image_id": 487698,
+      "image_sha256": "0b9075ededd06f4ff808a3f2b336170cc649f046bd4648c93b07276eb28851fb",
+      "accepted": false,
+      "reason": "Handbag is dark and blends with the person's clothing; the target cannot be confidently distinguished."
+    },
+    {
+      "review_index": 24,
+      "source_image_id": 199962,
+      "image_sha256": "86821c4d6ec7dfdab65b6170b572add80bc41d482ae8e60ffe46a7aed0c41efa",
+      "accepted": true,
+      "reason": "Both targets, class names and relation confirmed in the center crop."
+    },
+    {
+      "review_index": 25,
+      "source_image_id": 511430,
+      "image_sha256": "efdcdc1bff13d08060bbd8ff5eb07eaf899924627a620441c4ba7ace25ba4c94",
+      "accepted": true,
+      "reason": "Both targets, class names and relation confirmed in the center crop."
+    },
+    {
+      "review_index": 26,
+      "source_image_id": 437432,
+      "image_sha256": "683e259f7b852a1c8220fed1db330d36cd694e358cfcce6bed0cce046ed69e87",
+      "accepted": true,
+      "reason": "Both targets, class names and relation confirmed in the center crop."
+    },
+    {
+      "review_index": 27,
+      "source_image_id": 336324,
+      "image_sha256": "d21b6ae791e241a963ab6fad071b1699d0d7ca118646097332c10de0737a1331",
+      "accepted": true,
+      "reason": "Both targets, class names and relation confirmed in the center crop."
+    },
+    {
+      "review_index": 28,
+      "source_image_id": 292741,
+      "image_sha256": "daca12c337e0c730f27b7cb5d1f29e779e2b0d30ee51b5b4473f0d6cd6221970",
+      "accepted": true,
+      "reason": "Both targets, class names and relation confirmed in the center crop."
+    },
+    {
+      "review_index": 29,
+      "source_image_id": 90839,
+      "image_sha256": "6d4dc6ca33e548cc979abd3d48f05f6c3460970d923ebfb8a281e81dd934138e",
+      "accepted": true,
+      "reason": "Both targets, class names and relation confirmed in the center crop."
+    },
+    {
+      "review_index": 30,
+      "source_image_id": 458255,
+      "image_sha256": "a736cbd407d124923301403a399ec841193221775b4cd9671776b8bafe9b29c1",
+      "accepted": true,
+      "reason": "Both targets, class names and relation confirmed in the center crop."
+    },
+    {
+      "review_index": 31,
+      "source_image_id": 490871,
+      "image_sha256": "e7af3de67e5e8e2cbcdf1616d2549138b9bf5de3992982984efec270192ea749",
+      "accepted": true,
+      "reason": "Both targets, class names and relation confirmed in the center crop."
+    },
+    {
+      "review_index": 32,
+      "source_image_id": 532747,
+      "image_sha256": "e06af5600f398bb51df9b0abc2129b0c444974b3f7b23fcebe5de6ae3234a198",
+      "accepted": true,
+      "reason": "Both targets, class names and relation confirmed in the center crop."
+    },
+    {
+      "review_index": 33,
+      "source_image_id": 74030,
+      "image_sha256": "b9c92dfcc38188dc39edecc4a01d9accc6583ec70393284fed791f2f20ac03da",
+      "accepted": true,
+      "reason": "Both targets, class names and relation confirmed in the center crop."
+    },
+    {
+      "review_index": 34,
+      "source_image_id": 7394,
+      "image_sha256": "bd986b32818eb9a103afe3de465e4bfd8e8ab4d371548f01871f7f7e001e0903",
+      "accepted": true,
+      "reason": "Both targets, class names and relation confirmed in the center crop."
+    },
+    {
+      "review_index": 35,
+      "source_image_id": 51355,
+      "image_sha256": "8d2d07216f6b5540502f3c25ca274b9e1b031654ec4f2edda2fa80ae13c23d8d",
+      "accepted": false,
+      "reason": "The target labelled cake appears to be a savory tart/quiche; the specific class name is ambiguous from this crop."
+    },
+    {
+      "review_index": 36,
+      "source_image_id": 62491,
+      "image_sha256": "6a40452bb8ff5d2bcb867e3e615c7114078e6575b5a6b6bc2ff1d8480e76b8c9",
+      "accepted": true,
+      "reason": "Both targets, class names and relation confirmed in the center crop."
+    },
+    {
+      "review_index": 37,
+      "source_image_id": 232488,
+      "image_sha256": "46ed7f291d021660653c24d69f9ce26ce414f3c9e907ee2c60787b9577ffb653",
+      "accepted": true,
+      "reason": "Both targets, class names and relation confirmed in the center crop."
+    },
+    {
+      "review_index": 38,
+      "source_image_id": 237772,
+      "image_sha256": "722e17747b7211b4fb88ee991be79407aa7c9f8d28691250e1728a9b95c7c48a",
+      "accepted": true,
+      "reason": "Both targets, class names and relation confirmed in the center crop."
+    },
+    {
+      "review_index": 39,
+      "source_image_id": 293554,
+      "image_sha256": "ed38b4ca0f52c421a0cc996c0b0f0e38bcb038cbebdd534e97e1fea0deb2330b",
+      "accepted": true,
+      "reason": "Both targets, class names and relation confirmed in the center crop."
+    },
+    {
+      "review_index": 40,
+      "source_image_id": 139518,
+      "image_sha256": "f415cd7d708fcd26b2103584bd15f3c6dc9e6f1959667cf3e9124c473b5a55d7",
+      "accepted": true,
+      "reason": "Both targets, class names and relation confirmed in the center crop."
+    },
+    {
+      "review_index": 41,
+      "source_image_id": 551791,
+      "image_sha256": "7fdba22d5be99ab427f4023356ee04d14717b5e78fa8cb56cb4676cfd3016e8d",
+      "accepted": true,
+      "reason": "Both targets, class names and relation confirmed in the center crop."
+    },
+    {
+      "review_index": 42,
+      "source_image_id": 295693,
+      "image_sha256": "670f3c722fcb9cd7760bcd7432e9b945b701f364e73adb9c39b97ef856bcf19b",
+      "accepted": true,
+      "reason": "Both targets, class names and relation confirmed in the center crop."
+    },
+    {
+      "review_index": 43,
+      "source_image_id": 287335,
+      "image_sha256": "cfdb5b22f65df754a64d34067fa265b138b19855948db5a76514e4be9a945fc8",
+      "accepted": true,
+      "reason": "Both targets, class names and relation confirmed in the center crop."
+    },
+    {
+      "review_index": 44,
+      "source_image_id": 488201,
+      "image_sha256": "a6c823247da3f2bd7afd9f3921aac6392e7acfcc26b790b2365dca986eb2de81",
+      "accepted": true,
+      "reason": "Both targets, class names and relation confirmed in the center crop."
+    },
+    {
+      "review_index": 45,
+      "source_image_id": 313246,
+      "image_sha256": "4625168b39f01b0a2fc2dac8c0627e48ce966561f08801b384868b8486949f8f",
+      "accepted": true,
+      "reason": "Both targets, class names and relation confirmed in the center crop."
+    },
+    {
+      "review_index": 46,
+      "source_image_id": 222430,
+      "image_sha256": "f6227745aa39cbd8a150dae52e8679cfcc9bb8c3f560568e228793291a62d860",
+      "accepted": true,
+      "reason": "Both targets, class names and relation confirmed in the center crop."
+    },
+    {
+      "review_index": 47,
+      "source_image_id": 503294,
+      "image_sha256": "5335be3f48350007c11736fa9df4ee26683dd05a17359f82c8ed4ad8035476d1",
+      "accepted": true,
+      "reason": "Both targets, class names and relation confirmed in the center crop."
+    },
+    {
+      "review_index": 48,
+      "source_image_id": 570848,
+      "image_sha256": "b9cbf995a9ae5cd787255b29006e2438bcef6c7c64803eed8a78383644840162",
+      "accepted": false,
+      "reason": "Chair is almost entirely hidden behind the player; only a small frame fragment is visible."
+    },
+    {
+      "review_index": 49,
+      "source_image_id": 248314,
+      "image_sha256": "b6b1cf5511ed5a690b596376813360b46b180c3fa8c3c3ef9cead9b5647f87e1",
+      "accepted": true,
+      "reason": "Both targets, class names and relation confirmed in the center crop."
+    },
+    {
+      "review_index": 50,
+      "source_image_id": 260486,
+      "image_sha256": "86c71c2d26dee990c7c4d3df0b3396f70234a8f62ed66bfd6fa7f46e7b4b6558",
+      "accepted": true,
+      "reason": "Both targets, class names and relation confirmed in the center crop."
+    },
+    {
+      "review_index": 51,
+      "source_image_id": 462213,
+      "image_sha256": "104a8fe7b40accb463681a9d5bb13f9570244330b1d6ae1b6b96560768f0bbf1",
+      "accepted": true,
+      "reason": "Both targets, class names and relation confirmed in the center crop."
+    },
+    {
+      "review_index": 52,
+      "source_image_id": 253485,
+      "image_sha256": "3735a13faaade4b3f40676e6833b73298287bba6a1d55d95f748087e08e1b26b",
+      "accepted": true,
+      "reason": "Both targets, class names and relation confirmed in the center crop."
+    },
+    {
+      "review_index": 53,
+      "source_image_id": 357604,
+      "image_sha256": "9e086a27c672b8aa06e06d227df9e01d0b0f345de3b4891f08643a51c11a9c5c",
+      "accepted": true,
+      "reason": "Both targets, class names and relation confirmed in the center crop."
+    },
+    {
+      "review_index": 54,
+      "source_image_id": 426205,
+      "image_sha256": "980d8723cfa08f651f38b0450601df0797023b3c671c1461279e199855e96f4f",
+      "accepted": true,
+      "reason": "Both targets, class names and relation confirmed in the center crop."
+    },
+    {
+      "review_index": 55,
+      "source_image_id": 445371,
+      "image_sha256": "9993e45411c02ebc364d286062075e6807d2f957536c49f08de161910d158c62",
+      "accepted": true,
+      "reason": "Both targets, class names and relation confirmed in the center crop."
+    },
+    {
+      "review_index": 56,
+      "source_image_id": 151938,
+      "image_sha256": "4400e146316c97048244f429dc0e75979e5d992a9a2586631c8f78345381e433",
+      "accepted": true,
+      "reason": "Both targets, class names and relation confirmed in the center crop."
+    },
+    {
+      "review_index": 57,
+      "source_image_id": 391656,
+      "image_sha256": "8b3176df3599d62c0eda723447df3da22eb065273bb72d5e1a4bc2b0fc7155be",
+      "accepted": true,
+      "reason": "Both targets, class names and relation confirmed in the center crop."
+    },
+    {
+      "review_index": 58,
+      "source_image_id": 160811,
+      "image_sha256": "243953ce46c9e701b0cb7c845afa09676b8266887f93c7070e624370f7372ee3",
+      "accepted": true,
+      "reason": "Both targets, class names and relation confirmed in the center crop."
+    },
+    {
+      "review_index": 59,
+      "source_image_id": 45406,
+      "image_sha256": "8fa07f5720cbf963b201a5ad92b888bb3aef7efc63dc97c1b6668fbacdbe819a",
+      "accepted": true,
+      "reason": "Both targets, class names and relation confirmed in the center crop."
+    },
+    {
+      "review_index": 60,
+      "source_image_id": 4296,
+      "image_sha256": "b87f186d4d54c3ef2431a1fbcc9aff5b289fcbb59150da75c28bfdeb696f8560",
+      "accepted": true,
+      "reason": "Both targets, class names and relation confirmed in the center crop."
+    },
+    {
+      "review_index": 61,
+      "source_image_id": 478155,
+      "image_sha256": "f582521754a9a5f5f9db1352c02de25b7046305df824294c74a9617a8da467d0",
+      "accepted": true,
+      "reason": "Both targets, class names and relation confirmed in the center crop."
+    },
+    {
+      "review_index": 62,
+      "source_image_id": 378831,
+      "image_sha256": "50a848f1be7c00ef41d7e57019eddb00fb58ef9adbd64db2cf3a9b63a3d110ca",
+      "accepted": true,
+      "reason": "Both targets, class names and relation confirmed in the center crop."
+    },
+    {
+      "review_index": 63,
+      "source_image_id": 172595,
+      "image_sha256": "faa06206531e26d29bed2d1ecca535d5496a017e1e88a7329f19bf4a5574a83b",
+      "accepted": true,
+      "reason": "Both targets, class names and relation confirmed in the center crop."
+    },
+    {
+      "review_index": 64,
+      "source_image_id": 177496,
+      "image_sha256": "1496381ad47e03924857e497c93d23f5f5bbc97e5ac22b90b0e031c2deed9c17",
+      "accepted": true,
+      "reason": "Both targets, class names and relation confirmed in the center crop."
+    },
+    {
+      "review_index": 65,
+      "source_image_id": 225603,
+      "image_sha256": "6e5fe6aced07d2841d75c6dc4925e9ce56c69cee846b697b9355365abeb707d9",
+      "accepted": true,
+      "reason": "Both targets, class names and relation confirmed in the center crop."
+    },
+    {
+      "review_index": 66,
+      "source_image_id": 69021,
+      "image_sha256": "9677fe83e273625ba8e0103c7ba0d39ee9d7c1a7cca551c6ed5f7fda994a7ff1",
+      "accepted": true,
+      "reason": "Both targets, class names and relation confirmed in the center crop."
+    },
+    {
+      "review_index": 67,
+      "source_image_id": 156832,
+      "image_sha256": "bae9eb441783ed87aa8876de4dba5d9c44d2f5688b94144c1f186a17e8de16a8",
+      "accepted": true,
+      "reason": "Both targets, class names and relation confirmed in the center crop."
+    },
+    {
+      "review_index": 68,
+      "source_image_id": 323552,
+      "image_sha256": "20e10432e94124ac1243fb4b2802d536d21a0f32f98b18ef8356caf11fa5f8af",
+      "accepted": true,
+      "reason": "Both targets, class names and relation confirmed in the center crop."
+    },
+    {
+      "review_index": 69,
+      "source_image_id": 501855,
+      "image_sha256": "7ddb043cb0b5175937846b6b886519666084c90ad2bdffc77a1d22dd989c3131",
+      "accepted": true,
+      "reason": "Both targets, class names and relation confirmed in the center crop."
+    },
+    {
+      "review_index": 70,
+      "source_image_id": 190292,
+      "image_sha256": "157976b09f26a528ab89f28c7259dff63c823db21269b35dfafb8192a40e7fcd",
+      "accepted": true,
+      "reason": "Both targets, class names and relation confirmed in the center crop."
+    },
+    {
+      "review_index": 71,
+      "source_image_id": 468917,
+      "image_sha256": "8b22b148c7646583b9579365c46336cec942ff89445738b8580eab6f0b7339e4",
+      "accepted": true,
+      "reason": "Both targets, class names and relation confirmed in the center crop."
+    },
+    {
+      "review_index": 72,
+      "source_image_id": 66635,
+      "image_sha256": "0969fb5fb163065ac5f0a8ee922db3339a3e099086a40f6d4da4b3254fc1a422",
+      "accepted": true,
+      "reason": "Both targets, class names and relation confirmed in the center crop."
+    },
+    {
+      "review_index": 73,
+      "source_image_id": 220915,
+      "image_sha256": "6fa746653acbf2c4e3345708bbbec57c81d6ffaad0ddc6bddff76b8bd2852311",
+      "accepted": true,
+      "reason": "Both targets, class names and relation confirmed in the center crop."
+    },
+    {
+      "review_index": 74,
+      "source_image_id": 291816,
+      "image_sha256": "ba6f2d6aa87ea83ee5c3e01ed7672b7f67d2448d0aba3fecba0ce21c7cb6b3f5",
+      "accepted": true,
+      "reason": "Both targets, class names and relation confirmed in the center crop."
+    },
+    {
+      "review_index": 75,
+      "source_image_id": 507081,
+      "image_sha256": "b8e13828ed5a8b34552854684bd8fb1f2b4f621a0a8729fa5693a20e4d166dde",
+      "accepted": true,
+      "reason": "Both targets, class names and relation confirmed in the center crop."
+    },
+    {
+      "review_index": 76,
+      "source_image_id": 25986,
+      "image_sha256": "721b718fe15a4f3739c0673acde4fa224ae7839f9317e7e66d256653551ea23b",
+      "accepted": true,
+      "reason": "Both targets, class names and relation confirmed in the center crop."
+    },
+    {
+      "review_index": 77,
+      "source_image_id": 470935,
+      "image_sha256": "e85cced333e0307b53aba5182cd818acb1f5b12dfdb6d66e5456986990e87260",
+      "accepted": true,
+      "reason": "Both targets, class names and relation confirmed in the center crop."
+    },
+    {
+      "review_index": 78,
+      "source_image_id": 215787,
+      "image_sha256": "a481681d7d8360aa844c829bccb83307246da1d85e48f7ec7fc778463fb981ec",
+      "accepted": true,
+      "reason": "Both targets, class names and relation confirmed in the center crop."
+    },
+    {
+      "review_index": 79,
+      "source_image_id": 434098,
+      "image_sha256": "882db9644c017ad7d8a5a238e096242c190d5c4fe24b7690895e4026ece6d691",
+      "accepted": false,
+      "reason": "Person is visible only as a small, partially cropped mirror reflection; target identity and extent are ambiguous."
+    },
+    {
+      "review_index": 80,
+      "source_image_id": 548201,
+      "image_sha256": "16aa1953ce6e463586a8a859a07b46006a7d099220f73ae512a98477be234ee5",
+      "accepted": true,
+      "reason": "Both targets, class names and relation confirmed in the center crop."
+    },
+    {
+      "review_index": 81,
+      "source_image_id": 279265,
+      "image_sha256": "71b356b476fc18b7c7b12e98e097f546a762e3dd5d4d1d099c70a6a1281a803a",
+      "accepted": true,
+      "reason": "Both targets, class names and relation confirmed in the center crop."
+    },
+    {
+      "review_index": 82,
+      "source_image_id": 150320,
+      "image_sha256": "62dd03bbcef90a86d8e2684d5e261bce659ba660cf930096a63f783b0203ee2c",
+      "accepted": true,
+      "reason": "Both targets, class names and relation confirmed in the center crop."
+    },
+    {
+      "review_index": 83,
+      "source_image_id": 543393,
+      "image_sha256": "987dc4d6f52bd818aa809380cd076a4a8e19876e3aba1890c4a0142396104491",
+      "accepted": true,
+      "reason": "Both targets, class names and relation confirmed in the center crop."
+    },
+    {
+      "review_index": 84,
+      "source_image_id": 355214,
+      "image_sha256": "36e499aa3f579c9c924ef0e5ca4ae099be545ea899e0e50b6c4508230f615339",
+      "accepted": true,
+      "reason": "Both targets, class names and relation confirmed in the center crop."
+    },
+    {
+      "review_index": 85,
+      "source_image_id": 534081,
+      "image_sha256": "ce69b5b80a9a25a3e72cf1396752de14cf31782f1b329411665efe1435db7c3b",
+      "accepted": true,
+      "reason": "Both targets, class names and relation confirmed in the center crop."
+    },
+    {
+      "review_index": 86,
+      "source_image_id": 514773,
+      "image_sha256": "b7616c66c2a172ac2e19b3e488d18ad2a9d8e88c97340ff4ec1b0f10a3818b5b",
+      "accepted": true,
+      "reason": "Both targets, class names and relation confirmed in the center crop."
+    },
+    {
+      "review_index": 87,
+      "source_image_id": 141017,
+      "image_sha256": "12b5dc1e8b8359bd98f425d858f612e1b38c273e53111eca059628745c93a22d",
+      "accepted": true,
+      "reason": "Both targets, class names and relation confirmed in the center crop."
+    },
+    {
+      "review_index": 88,
+      "source_image_id": 179563,
+      "image_sha256": "e70d7c7a766bec0c49b99480bf8a319d76ea835aefccf827788103014e1080aa",
+      "accepted": false,
+      "reason": "Car target is very dark and small in the background; its identity is insufficiently clear."
+    },
+    {
+      "review_index": 89,
+      "source_image_id": 359659,
+      "image_sha256": "c868ae3179086eab69d2bc5e575d3cc11ac3e1598c610d3cbd39dccfbfe30520",
+      "accepted": true,
+      "reason": "Both targets, class names and relation confirmed in the center crop."
+    },
+    {
+      "review_index": 90,
+      "source_image_id": 76518,
+      "image_sha256": "1f125b89a3cc6d9e2029baba9992ebbeafc6e5483a306435ab9e42c6490f6d3c",
+      "accepted": true,
+      "reason": "Both targets, class names and relation confirmed in the center crop."
+    },
+    {
+      "review_index": 91,
+      "source_image_id": 476787,
+      "image_sha256": "e349a7e122f8e2804bdcb3b959edc9acdc0a915949a7e4e986096d4d2398d195",
+      "accepted": true,
+      "reason": "Both targets, class names and relation confirmed in the center crop."
+    },
+    {
+      "review_index": 92,
+      "source_image_id": 235621,
+      "image_sha256": "77475f728e3230b75c4d86d7fa1c195c6d75d2eb40326dff9f3cc173fa94b877",
+      "accepted": true,
+      "reason": "Both targets, class names and relation confirmed in the center crop."
+    },
+    {
+      "review_index": 93,
+      "source_image_id": 253441,
+      "image_sha256": "d8c68e15e613b5f7e17a5f21af376b0de2f7e40151a715aa75ff8fad532b83b6",
+      "accepted": true,
+      "reason": "Both targets, class names and relation confirmed in the center crop."
+    },
+    {
+      "review_index": 94,
+      "source_image_id": 56426,
+      "image_sha256": "c32b68ebae4e5a808fd977ae9b901c7ed12c74f124b4e7f28d074354da6f287f",
+      "accepted": true,
+      "reason": "Both targets, class names and relation confirmed in the center crop."
+    },
+    {
+      "review_index": 95,
+      "source_image_id": 449675,
+      "image_sha256": "a09f8e07e05e6d87652060a823dea45a022a57b229165510f05ca00e60a1e1c6",
+      "accepted": false,
+      "reason": "Spoon in the background is strongly out of focus and cannot be distinguished confidently from other cutlery."
+    },
+    {
+      "review_index": 96,
+      "source_image_id": 201727,
+      "image_sha256": "80c43373bf062ef6f830e91c5f0a2ae053c59a0e905bf030933b366f3c601ad6",
+      "accepted": true,
+      "reason": "Both targets, class names and relation confirmed in the center crop."
+    },
+    {
+      "review_index": 97,
+      "source_image_id": 37367,
+      "image_sha256": "bf4aff524aeec5679841dc035dccbb433cd8a3965961f7e2f2e6befb9d9f8bc1",
+      "accepted": true,
+      "reason": "Both targets, class names and relation confirmed in the center crop."
+    },
+    {
+      "review_index": 98,
+      "source_image_id": 260655,
+      "image_sha256": "aa33d811278499ead37112aa1a0b25bf3fd28ba79fa23b5ec52ea9be90051fe6",
+      "accepted": true,
+      "reason": "Both targets, class names and relation confirmed in the center crop."
+    },
+    {
+      "review_index": 99,
+      "source_image_id": 171548,
+      "image_sha256": "9817266df81867c7a6f57034f17d16b6664ad359971bedfda106443d4fb01c0f",
+      "accepted": true,
+      "reason": "Both targets, class names and relation confirmed in the center crop."
+    },
+    {
+      "review_index": 100,
+      "source_image_id": 209299,
+      "image_sha256": "8f3f525c5fd72bce1bb5148a51b085d52eca29ed24cc5efaefa292ff9af5aee6",
+      "accepted": true,
+      "reason": "Both targets, class names and relation confirmed in the center crop."
+    },
+    {
+      "review_index": 101,
+      "source_image_id": 139684,
+      "image_sha256": "f667a657676aa38ef258dc184c33c1ed36a1b27f3e96b8eb49d9fb5599f1e103",
+      "accepted": false,
+      "reason": "Cat is visible as a dark, largely featureless shape on the sofa; identity cannot be confidently verified."
+    },
+    {
+      "review_index": 102,
+      "source_image_id": 436963,
+      "image_sha256": "0c83a731cb904696bcad5cde090e98926b1ba3cf78fb0412b12dce26e859bca6",
+      "accepted": true,
+      "reason": "Both targets, class names and relation confirmed in the center crop."
+    },
+    {
+      "review_index": 103,
+      "source_image_id": 451468,
+      "image_sha256": "558fa326f5a4ee566afec88dc0b3c2fa52f726bc1450dc3040ebd41cddf13976",
+      "accepted": true,
+      "reason": "Both targets, class names and relation confirmed in the center crop."
+    },
+    {
+      "review_index": 104,
+      "source_image_id": 348400,
+      "image_sha256": "4a180c4a8aece2e1b8aa281a059a5b9b8729e0989d576c9c0d8fffe0ea75e633",
+      "accepted": true,
+      "reason": "Both targets, class names and relation confirmed in the center crop."
+    },
+    {
+      "review_index": 105,
+      "source_image_id": 75285,
+      "image_sha256": "e6b478e84be8cb4c15068196a72555da2f4c82f2235dd88da12a0a5c35ade686",
+      "accepted": true,
+      "reason": "Both targets, class names and relation confirmed in the center crop."
+    },
+    {
+      "review_index": 106,
+      "source_image_id": 281534,
+      "image_sha256": "40446198fcb850f257dfe8a6c969906bd0bbe8d5f323f35245fd9c2cbf9b29c1",
+      "accepted": true,
+      "reason": "Both targets, class names and relation confirmed in the center crop."
+    },
+    {
+      "review_index": 107,
+      "source_image_id": 43092,
+      "image_sha256": "dbf68d197170853d3adefb6e8f71087b87cd6bf889f57a5e8d30ab1a452b5af2",
+      "accepted": true,
+      "reason": "Both targets, class names and relation confirmed in the center crop."
+    },
+    {
+      "review_index": 108,
+      "source_image_id": 541538,
+      "image_sha256": "a4ffc5a2678d108d1f1149e9c9328fc8658b4b57f2b2b5f6c1210cd77cd05440",
+      "accepted": true,
+      "reason": "Both targets, class names and relation confirmed in the center crop."
+    },
+    {
+      "review_index": 109,
+      "source_image_id": 411564,
+      "image_sha256": "cb82a4cf1b09a8c34c648d4a6808d07ffacd16c418c782b3fe5ede9f0062f5f6",
+      "accepted": false,
+      "reason": "Chair target is heavily blurred and truncated in the foreground."
+    },
+    {
+      "review_index": 110,
+      "source_image_id": 239395,
+      "image_sha256": "07fda03a05b9a442c342aaeef12de153647adddf3cb11b3fc762b54107028321",
+      "accepted": true,
+      "reason": "Both targets, class names and relation confirmed in the center crop."
+    },
+    {
+      "review_index": 111,
+      "source_image_id": 36460,
+      "image_sha256": "fc4fda51f2df67979a5b3242ca8c3f0331ffacfc0bea0497526b9de447f952b0",
+      "accepted": true,
+      "reason": "Both targets, class names and relation confirmed in the center crop."
+    },
+    {
+      "review_index": 112,
+      "source_image_id": 138549,
+      "image_sha256": "48d92f8fea43dd1243421908085b2a4e8335d5a8fbdc1ba3d5414eed1b43f4a6",
+      "accepted": true,
+      "reason": "Both targets, class names and relation confirmed in the center crop."
+    },
+    {
+      "review_index": 113,
+      "source_image_id": 259136,
+      "image_sha256": "15418fb13c1b612deddcf8aba7fe64a58d184717600fbd9d2c76182ef52e0972",
+      "accepted": true,
+      "reason": "Both targets, class names and relation confirmed in the center crop."
+    },
+    {
+      "review_index": 114,
+      "source_image_id": 405188,
+      "image_sha256": "89927b920cde03a9e5022b686eee00da82f9e40dd15839a687620b0b0719bf32",
+      "accepted": true,
+      "reason": "Both targets, class names and relation confirmed in the center crop."
+    },
+    {
+      "review_index": 115,
+      "source_image_id": 528866,
+      "image_sha256": "1b089093d925b697131fad846aeaa6fa41c500060a744306fd5850f205ef5c1c",
+      "accepted": true,
+      "reason": "Both targets, class names and relation confirmed in the center crop."
+    },
+    {
+      "review_index": 116,
+      "source_image_id": 269429,
+      "image_sha256": "d3347d25a346df974c8954961dbef573d8ff048b6d79747f565cfd675d22eb7c",
+      "accepted": true,
+      "reason": "Both targets, class names and relation confirmed in the center crop."
+    },
+    {
+      "review_index": 117,
+      "source_image_id": 318361,
+      "image_sha256": "ebc0f1444a4aafa56b0df60fd602a72b4b4920573f28c6105bf5d8ef9a6e839b",
+      "accepted": true,
+      "reason": "Both targets, class names and relation confirmed in the center crop."
+    },
+    {
+      "review_index": 118,
+      "source_image_id": 264222,
+      "image_sha256": "96a607466a499a3017bac9aa22f2aa39008262f734b2ff0524b3125c9be8c2cb",
+      "accepted": true,
+      "reason": "Both targets, class names and relation confirmed in the center crop."
+    },
+    {
+      "review_index": 119,
+      "source_image_id": 357860,
+      "image_sha256": "6898f470eb7a6b237c42e91e36cb87da15d66c979458b5f02dbd07eb19c5f09c",
+      "accepted": true,
+      "reason": "Both targets, class names and relation confirmed in the center crop."
+    },
+    {
+      "review_index": 120,
+      "source_image_id": 43344,
+      "image_sha256": "9a8bec7a2b1862dfb89d441e6c0acc407dab28bc79c8665547662e716b33b9bb",
+      "accepted": true,
+      "reason": "Both targets, class names and relation confirmed in the center crop."
+    },
+    {
+      "review_index": 121,
+      "source_image_id": 160556,
+      "image_sha256": "864231b70723ca0112be41dd13c67442eb700e8803da3becb5019637aff3e0e9",
+      "accepted": true,
+      "reason": "Both targets, class names and relation confirmed in the center crop."
+    },
+    {
+      "review_index": 122,
+      "source_image_id": 513129,
+      "image_sha256": "d261174da80643115e16415298d1665fa751950d478c7fda8ffd6b3bc7b6458e",
+      "accepted": true,
+      "reason": "Both targets, class names and relation confirmed in the center crop."
+    },
+    {
+      "review_index": 123,
+      "source_image_id": 556178,
+      "image_sha256": "a1d754915433251ac24dd99a69ce103fc12901824a3be1a141a0ad36276c20a9",
+      "accepted": true,
+      "reason": "Both targets, class names and relation confirmed in the center crop."
+    },
+    {
+      "review_index": 124,
+      "source_image_id": 43957,
+      "image_sha256": "a0f17a5be09918629f54ecc6b86b3e2f5086ad2bf384f450c929dac7a0b83bd0",
+      "accepted": true,
+      "reason": "Both targets, class names and relation confirmed in the center crop."
+    },
+    {
+      "review_index": 125,
+      "source_image_id": 214720,
+      "image_sha256": "cf4451b5d6da75e93529fb45b0cfd3a189d65ca52d25ec1afb7cf999d0232ccb",
+      "accepted": false,
+      "reason": "Knife is mostly hidden at the edge of the plate and cannot be confidently separated from other cutlery."
+    },
+    {
+      "review_index": 126,
+      "source_image_id": 233528,
+      "image_sha256": "73ea25f9bb92366e57c47c26753216b39a74f2450080589f22dd05f939583a90",
+      "accepted": true,
+      "reason": "Both targets, class names and relation confirmed in the center crop."
+    },
+    {
+      "review_index": 127,
+      "source_image_id": 389753,
+      "image_sha256": "a115e3b807f90aa77fce23222ded2b10495dad79a365693912ff715788c5459f",
+      "accepted": true,
+      "reason": "Both targets, class names and relation confirmed in the center crop."
+    },
+    {
+      "review_index": 128,
+      "source_image_id": 114187,
+      "image_sha256": "2ebd1b87977f230f287e08ec631f99e40c131b7618e7b209938e5b3df04b3843",
+      "accepted": true,
+      "reason": "Both targets, class names and relation confirmed in the center crop."
+    },
+    {
+      "review_index": 129,
+      "source_image_id": 288955,
+      "image_sha256": "1f6cacaac4241e8660250cfb32f6d67a2cb884a1deb45bfd0e293e6329dc1896",
+      "accepted": true,
+      "reason": "Both targets, class names and relation confirmed in the center crop."
+    },
+    {
+      "review_index": 130,
+      "source_image_id": 9801,
+      "image_sha256": "1f59fe5feb83e6a5285a167018a7813550e21ba924cbf67bc221f3cab82f48c8",
+      "accepted": false,
+      "reason": "Motorcycle target consists of a small, severely occluded fragment; identity cannot be confirmed from the crop."
+    },
+    {
+      "review_index": 131,
+      "source_image_id": 526321,
+      "image_sha256": "74b038f445a49a7a76ca900eea35716f9667817acdde8ffb490205e7a7505e11",
+      "accepted": true,
+      "reason": "Both targets, class names and relation confirmed in the center crop."
+    },
+    {
+      "review_index": 132,
+      "source_image_id": 193271,
+      "image_sha256": "454835e509211d58d75acc26756bfb72b5071b36c9056fc0d0e9b5bf5f9b4178",
+      "accepted": true,
+      "reason": "Both targets, class names and relation confirmed in the center crop."
+    },
+    {
+      "review_index": 133,
+      "source_image_id": 219525,
+      "image_sha256": "8d0bbf66feef5da29e57537cf7c7be65645d297f06cd66e77cbc16f69be63e39",
+      "accepted": true,
+      "reason": "Both targets, class names and relation confirmed in the center crop."
+    },
+    {
+      "review_index": 134,
+      "source_image_id": 496801,
+      "image_sha256": "1e1aebb3bc9ef4e71008ee45f61b1ff59e83588076e7c1556dba80c2cc974acc",
+      "accepted": false,
+      "reason": "The object labelled sandwich has no clearly identifiable bread/filling structure in this crop; class label is ambiguous."
+    },
+    {
+      "review_index": 135,
+      "source_image_id": 539423,
+      "image_sha256": "501cc626ca87295ff8a297cc212205222042f6aec64c5630ef2484dd5251a075",
+      "accepted": true,
+      "reason": "Both targets, class names and relation confirmed in the center crop."
+    },
+    {
+      "review_index": 136,
+      "source_image_id": 264805,
+      "image_sha256": "494bf4c07daa0329bd0b80eddd8a20456cdedf05eecb4e62d826ee905924cc39",
+      "accepted": true,
+      "reason": "Both targets, class names and relation confirmed in the center crop."
+    },
+    {
+      "review_index": 137,
+      "source_image_id": 246968,
+      "image_sha256": "5f7990e5edb8b8ab72faeef5ad6391976b24c2ab14d1c05d178fba70fadfd435",
+      "accepted": false,
+      "reason": "Chair is reduced to a thin cropped portion of its back at the bottom edge."
+    },
+    {
+      "review_index": 138,
+      "source_image_id": 567657,
+      "image_sha256": "4f8cf01b203eef15e8fcd283bef368fece096c554ba581228fbd3fe6c2d6c804",
+      "accepted": true,
+      "reason": "Both targets, class names and relation confirmed in the center crop."
+    },
+    {
+      "review_index": 139,
+      "source_image_id": 366884,
+      "image_sha256": "7d41c97dc524e33c5005651a44c75e6629d9f7b05b48b9b430b76db77765e0a8",
+      "accepted": false,
+      "reason": "Person is small, dark and partially occluded within a mirror; target is insufficiently clear."
+    },
+    {
+      "review_index": 140,
+      "source_image_id": 545002,
+      "image_sha256": "bb2bb93c61ecf46b925b7a828deaaa4735c338cab6960e2113e9d824d3252d5e",
+      "accepted": true,
+      "reason": "Both targets, class names and relation confirmed in the center crop."
+    },
+    {
+      "review_index": 141,
+      "source_image_id": 301963,
+      "image_sha256": "32de342e8abd152fb9e1063d70c8bdd9104d916651ee44a6bea386e0f44450c4",
+      "accepted": true,
+      "reason": "Both targets, class names and relation confirmed in the center crop."
+    },
+    {
+      "review_index": 142,
+      "source_image_id": 97315,
+      "image_sha256": "e03e45b5072580300ae985690b6d065670948f4495a5dc32228e8a290959d72c",
+      "accepted": false,
+      "reason": "The labelled cup appears to be a glass food jar; the specific class name is ambiguous."
+    },
+    {
+      "review_index": 143,
+      "source_image_id": 260247,
+      "image_sha256": "50aa353d0616512e75f5729527439a715519c2c91d4570dd45c8884d56a31d6b",
+      "accepted": true,
+      "reason": "Both targets, class names and relation confirmed in the center crop."
+    },
+    {
+      "review_index": 144,
+      "source_image_id": 134691,
+      "image_sha256": "07c05122db8856580d327e0b3955a2220e69e6a716d5fb02e364f58e95245d9b",
+      "accepted": true,
+      "reason": "Both targets, class names and relation confirmed in the center crop."
+    },
+    {
+      "review_index": 145,
+      "source_image_id": 173907,
+      "image_sha256": "82aedf36fea639bcfb6756ec4e0bc0ad53552c794d69bc7436a2a8962e1e264b",
+      "accepted": true,
+      "reason": "Both targets, class names and relation confirmed in the center crop."
+    },
+    {
+      "review_index": 146,
+      "source_image_id": 576369,
+      "image_sha256": "0bed7edf6596a4f583b1972f953bf717404335f3ea9320592d9849e50894d9d9",
+      "accepted": true,
+      "reason": "Both targets, class names and relation confirmed in the center crop."
+    },
+    {
+      "review_index": 147,
+      "source_image_id": 331807,
+      "image_sha256": "53ac88c88dc5ec04652738cbd968f97d0399350034c6c5d17b8836bf5f1b7e2a",
+      "accepted": true,
+      "reason": "Both targets, class names and relation confirmed in the center crop."
+    },
+    {
+      "review_index": 148,
+      "source_image_id": 492271,
+      "image_sha256": "5cd17119ffddacb3876b482155189ae011e676cd9dfa2c2b26a24ace55468e30",
+      "accepted": true,
+      "reason": "Both targets, class names and relation confirmed in the center crop."
+    },
+    {
+      "review_index": 149,
+      "source_image_id": 271359,
+      "image_sha256": "90134d9762227e424690117ffd8e2da3fe179900c3bc4d3e88865a782d6d6bdb",
+      "accepted": true,
+      "reason": "Both targets, class names and relation confirmed in the center crop."
+    },
+    {
+      "review_index": 150,
+      "source_image_id": 454203,
+      "image_sha256": "363b91fe4e1c68f0838262db5ddf259e31df2e5f7016d5986a8cc46aa6a3ffb2",
+      "accepted": true,
+      "reason": "Both targets, class names and relation confirmed in the center crop."
+    },
+    {
+      "review_index": 151,
+      "source_image_id": 569272,
+      "image_sha256": "c8704c61a9e5b1b936eeb42a7b94378036b326157d1e4ddd33e6790f2eb87d00",
+      "accepted": true,
+      "reason": "Both targets, class names and relation confirmed in the center crop."
+    },
+    {
+      "review_index": 152,
+      "source_image_id": 479067,
+      "image_sha256": "274776c204edad1afbd0cf89da33fda2f6f9abba2cb286ae3f5021413525485e",
+      "accepted": true,
+      "reason": "Both targets, class names and relation confirmed in the center crop."
+    },
+    {
+      "review_index": 153,
+      "source_image_id": 321706,
+      "image_sha256": "4f8f53c44c93c3f4dd436d24f9d9e7eea2258ff875b9335a99e26d7d863c3389",
+      "accepted": true,
+      "reason": "Both targets, class names and relation confirmed in the center crop."
+    },
+    {
+      "review_index": 154,
+      "source_image_id": 313228,
+      "image_sha256": "06b6b9c69dfc282ff9c359eb570093fda09b87745de39af918536ac4b700ce42",
+      "accepted": true,
+      "reason": "Both targets, class names and relation confirmed in the center crop."
+    },
+    {
+      "review_index": 155,
+      "source_image_id": 113126,
+      "image_sha256": "17ffef8a9640c1fce12e0c0f7217c945d6983d69bc1e9173e8abe73fb4428ad2",
+      "accepted": true,
+      "reason": "Both targets, class names and relation confirmed in the center crop."
+    },
+    {
+      "review_index": 156,
+      "source_image_id": 189806,
+      "image_sha256": "95ad20d361c8ca796a19e3543c102e9eaa221b871492b6f0894ae9cef6e18fa6",
+      "accepted": true,
+      "reason": "Both targets, class names and relation confirmed in the center crop."
+    },
+    {
+      "review_index": 157,
+      "source_image_id": 398031,
+      "image_sha256": "9406b17e21f6842b2b23524e5b90458a79b5f2cf2311c3905d04907e553339d6",
+      "accepted": true,
+      "reason": "Both targets, class names and relation confirmed in the center crop."
+    },
+    {
+      "review_index": 158,
+      "source_image_id": 210060,
+      "image_sha256": "b8cdeedd5c70015e65a503fab20c90b5ead3ae648b55f0796558cca05d105c4c",
+      "accepted": true,
+      "reason": "Both targets, class names and relation confirmed in the center crop."
+    },
+    {
+      "review_index": 159,
+      "source_image_id": 549763,
+      "image_sha256": "1c1efc04d9bce6856f24f47428fc7ed9b2126a38b408e19ec356b265cbe1fcc9",
+      "accepted": true,
+      "reason": "Both targets, class names and relation confirmed in the center crop."
+    },
+    {
+      "review_index": 160,
+      "source_image_id": 106487,
+      "image_sha256": "8fd1c6af5ca16c3c74867eea555c8e1fc26839f0862273cd032a4f63091423ba",
+      "accepted": true,
+      "reason": "Both targets, class names and relation confirmed in the center crop."
+    },
+    {
+      "review_index": 161,
+      "source_image_id": 433547,
+      "image_sha256": "0aa7a16073acc35cd1af442d970e03c10ba15f618de24ab40ca1e11eacf205d9",
+      "accepted": true,
+      "reason": "Both targets, class names and relation confirmed in the center crop."
+    },
+    {
+      "review_index": 162,
+      "source_image_id": 568893,
+      "image_sha256": "f5a20ae27444aff0dfa85c1ff56e0ae264555e3cf7f15588aedde9e9776fdcb3",
+      "accepted": true,
+      "reason": "Both targets, class names and relation confirmed in the center crop."
+    },
+    {
+      "review_index": 163,
+      "source_image_id": 290819,
+      "image_sha256": "4c088979fdd0cbe4345692c0f781c30453feae375c02bf62214411b21e4f07be",
+      "accepted": true,
+      "reason": "Both targets, class names and relation confirmed in the center crop."
+    },
+    {
+      "review_index": 164,
+      "source_image_id": 48905,
+      "image_sha256": "00c417f6b122d999ff719fed6c7f35362884cc40f98bb4359a58918c963d9d08",
+      "accepted": true,
+      "reason": "Both targets, class names and relation confirmed in the center crop."
+    },
+    {
+      "review_index": 165,
+      "source_image_id": 500316,
+      "image_sha256": "cd36ba1da5cd90fe767318c92d0d7f2f2de0f3d3c4104a460d9dd0835bc6d55e",
+      "accepted": true,
+      "reason": "Both targets, class names and relation confirmed in the center crop."
+    },
+    {
+      "review_index": 166,
+      "source_image_id": 575293,
+      "image_sha256": "2beb320a0e57a8216cda263c46d2618476117a2e32ae05c255c88bb1b40a59cd",
+      "accepted": true,
+      "reason": "Both targets, class names and relation confirmed in the center crop."
+    },
+    {
+      "review_index": 167,
+      "source_image_id": 219170,
+      "image_sha256": "b4e6a1839dc81d392e919a054f1e339f949e5c3ff49a385a0520f38d6aa22ad9",
+      "accepted": true,
+      "reason": "Both targets, class names and relation confirmed in the center crop."
+    },
+    {
+      "review_index": 168,
+      "source_image_id": 48014,
+      "image_sha256": "8524f0cd31cb14cd987542b8e53e0fb5fd9883794cd4c3c80ceb37e8139510af",
+      "accepted": true,
+      "reason": "Both targets, class names and relation confirmed in the center crop."
+    },
+    {
+      "review_index": 169,
+      "source_image_id": 285832,
+      "image_sha256": "9ef665fbf8eb618b37c2f3fc8a861bbf7019b234a6d38976f4f2449155b41228",
+      "accepted": true,
+      "reason": "Both targets, class names and relation confirmed in the center crop."
+    },
+    {
+      "review_index": 170,
+      "source_image_id": 235203,
+      "image_sha256": "7478f243560bafe53231f3b12114a2d063761f0b2e22fc5bc93faed938be2956",
+      "accepted": false,
+      "reason": "Object labelled remote is a game controller; the caption class is not visually unambiguous."
+    },
+    {
+      "review_index": 171,
+      "source_image_id": 400453,
+      "image_sha256": "05144f4c643d4e63cc80c7b87625eb1c506be6d2d7d1b83ed8e71f69d054be8d",
+      "accepted": true,
+      "reason": "Both targets, class names and relation confirmed in the center crop."
+    },
+    {
+      "review_index": 172,
+      "source_image_id": 131171,
+      "image_sha256": "80ef9c7498011627f9d7743dbec535986c4089bd3acf43f37a21208051904910",
+      "accepted": false,
+      "reason": "Object labelled bowl is a rectangular lunchbox/tray; the class name is ambiguous."
+    },
+    {
+      "review_index": 173,
+      "source_image_id": 65258,
+      "image_sha256": "61e6765bc89f9a993c55283a4532e89b7a5de663da81abdf31b2d268034d3986",
+      "accepted": true,
+      "reason": "Both targets, class names and relation confirmed in the center crop."
+    },
+    {
+      "review_index": 174,
+      "source_image_id": 127585,
+      "image_sha256": "b5ded0299182f25fe29f70a75797c42c07fc8edb089e1a436537257526d6cd51",
+      "accepted": true,
+      "reason": "Both targets, class names and relation confirmed in the center crop."
+    },
+    {
+      "review_index": 175,
+      "source_image_id": 288576,
+      "image_sha256": "07a32e564f881b20d00001e51ab38858dcfd198f6a93861c56b55043341c7047",
+      "accepted": true,
+      "reason": "Both targets, class names and relation confirmed in the center crop."
+    },
+    {
+      "review_index": 176,
+      "source_image_id": 82696,
+      "image_sha256": "ffb33316dedb78408fc1b7db2532b4df3b2e35d3ae76162d333e92ea17c0164c",
+      "accepted": true,
+      "reason": "Both targets, class names and relation confirmed in the center crop."
+    },
+    {
+      "review_index": 177,
+      "source_image_id": 274017,
+      "image_sha256": "b6bbdac962a02fe6bf9081c9f946e012c42ae7683337ecd8cc0ad86f02327c11",
+      "accepted": false,
+      "reason": "Sink annotation shows mostly the draining board; the basin itself is not clearly visible in the crop."
+    },
+    {
+      "review_index": 178,
+      "source_image_id": 212462,
+      "image_sha256": "0040ab2b58269e50c80f010bda55ab0e51a9c341c639ddea0e138a7d7ee6a778",
+      "accepted": true,
+      "reason": "Both targets, class names and relation confirmed in the center crop."
+    },
+    {
+      "review_index": 179,
+      "source_image_id": 455956,
+      "image_sha256": "df20fc71d32af119c7dc96b61ba934435ef4981b0529e3b6940991b66f1d297f",
+      "accepted": true,
+      "reason": "Both targets, class names and relation confirmed in the center crop."
+    },
+    {
+      "review_index": 180,
+      "source_image_id": 33441,
+      "image_sha256": "b80f4edbb0dd91c28160199286d74263633c945cca2cb030abe737dab2ff51b6",
+      "accepted": false,
+      "reason": "Suitcase is strongly motion-blurred and cannot be confidently distinguished from another bag/object."
+    },
+    {
+      "review_index": 181,
+      "source_image_id": 208408,
+      "image_sha256": "27bbda2389e66fcafb1c1b80861370f9e8c17c3bb4d520bc7929ad54ec87d636",
+      "accepted": true,
+      "reason": "Both targets, class names and relation confirmed in the center crop."
+    },
+    {
+      "review_index": 182,
+      "source_image_id": 562628,
+      "image_sha256": "9e99554036860e307cc1f2f8b76358c2834f2a0de7263a89ff1aac09daaec495",
+      "accepted": true,
+      "reason": "Both targets, class names and relation confirmed in the center crop."
+    },
+    {
+      "review_index": 183,
+      "source_image_id": 241599,
+      "image_sha256": "b8aa96546cd17a9ff89bd3d4c7f1a810040f917b444204866c1b4697ad88acd1",
+      "accepted": true,
+      "reason": "Both targets, class names and relation confirmed in the center crop."
+    },
+    {
+      "review_index": 184,
+      "source_image_id": 13923,
+      "image_sha256": "91494500cd053f1c4e547edc53f62edce2b088588bf9b4dbc8ceaea86ad4d49e",
+      "accepted": true,
+      "reason": "Both targets, class names and relation confirmed in the center crop."
+    },
+    {
+      "review_index": 185,
+      "source_image_id": 527573,
+      "image_sha256": "c904eb3b9ce0b861e34777228af78354a999eaadb7bc66567d66b66b9baea9f1",
+      "accepted": true,
+      "reason": "Both targets, class names and relation confirmed in the center crop."
+    },
+    {
+      "review_index": 186,
+      "source_image_id": 460378,
+      "image_sha256": "c70e6bdc53f3765d5a7677f279d2a32d9e8fa01b11ccde1f137d092f8f7d8750",
+      "accepted": false,
+      "reason": "Object labelled dining table appears to be a kitchen island/counter with a cooktop."
+    },
+    {
+      "review_index": 187,
+      "source_image_id": 77396,
+      "image_sha256": "58a4aa081452ad2930aba0d5c716615aaede8e43a6e80a456132877d318991af",
+      "accepted": true,
+      "reason": "Both targets, class names and relation confirmed in the center crop."
+    },
+    {
+      "review_index": 188,
+      "source_image_id": 396608,
+      "image_sha256": "ced7ffb9fefc83b43305bdb6af2c4ff975f2cad79d3f90cecc2c75de1ededef2",
+      "accepted": true,
+      "reason": "Both targets, class names and relation confirmed in the center crop."
+    },
+    {
+      "review_index": 189,
+      "source_image_id": 295599,
+      "image_sha256": "b12a60dadf6c591e29a40c18d808cfdcce8ff016ea7aa50c920aea16aeeb402a",
+      "accepted": true,
+      "reason": "Both targets, class names and relation confirmed in the center crop."
+    },
+    {
+      "review_index": 190,
+      "source_image_id": 561619,
+      "image_sha256": "b93061c849912b6ef0d907a3734c2187eafe24ffad45e74e9c4aa91ebd6b8879",
+      "accepted": true,
+      "reason": "Both targets, class names and relation confirmed in the center crop."
+    },
+    {
+      "review_index": 191,
+      "source_image_id": 265518,
+      "image_sha256": "65effd9cbf440739c171ef3b55b310fe9111b2d91c4edaa91a668c1d2046ab7a",
+      "accepted": true,
+      "reason": "Both targets, class names and relation confirmed in the center crop."
+    },
+    {
+      "review_index": 192,
+      "source_image_id": 106900,
+      "image_sha256": "99ecb7a533736231fcb8061421e72bc6eb76c466055e1239c4c926ccb6d00095",
+      "accepted": true,
+      "reason": "Both targets, class names and relation confirmed in the center crop."
+    },
+    {
+      "review_index": 193,
+      "source_image_id": 455480,
+      "image_sha256": "42170db67bc89ef60a99a9b64c8021291c5cb6a3a919ebc1c9b60dcfb62c0c0d",
+      "accepted": true,
+      "reason": "Both targets, class names and relation confirmed in the center crop."
+    },
+    {
+      "review_index": 194,
+      "source_image_id": 300353,
+      "image_sha256": "fd1aef842afdaf78a176b5c403668c6f1e3afe4745af3c92586586231d1b1994",
+      "accepted": true,
+      "reason": "Both targets, class names and relation confirmed in the center crop."
+    },
+    {
+      "review_index": 195,
+      "source_image_id": 326572,
+      "image_sha256": "c0dd2edc0c82e50380c0d516b6f6399f437ba5a974c638630351c7f638f4c281",
+      "accepted": false,
+      "reason": "Citrus wedge labelled orange appears yellow and could be lemon; class name is ambiguous."
+    },
+    {
+      "review_index": 196,
+      "source_image_id": 269015,
+      "image_sha256": "3b784f23ad81102b8105ef87f4b008307615142e642872dc9faa05c15698fead",
+      "accepted": true,
+      "reason": "Both targets, class names and relation confirmed in the center crop."
+    },
+    {
+      "review_index": 197,
+      "source_image_id": 322482,
+      "image_sha256": "dde6dd0cda16568003723f41c6da5bcf0864f4dcb0dd5418d11f6a93fd737532",
+      "accepted": false,
+      "reason": "Suitcase is heavily occluded and truncated behind the person; identity is insufficiently clear."
+    },
+    {
+      "review_index": 198,
+      "source_image_id": 265151,
+      "image_sha256": "eac24d6dcdc9123f655d868650046b2dbc1aaab924fbec3802a3ad6dd6abe4e1",
+      "accepted": false,
+      "reason": "The target labelled TV is a printed monitor image on retail packaging, not the physical display."
+    },
+    {
+      "review_index": 199,
+      "source_image_id": 124607,
+      "image_sha256": "f87f8c14838db313a0f6182e53d9b45457efa734873b2854884108cde6dfdeff",
+      "accepted": true,
+      "reason": "Both targets, class names and relation confirmed in the center crop."
+    }
+  ]
+}

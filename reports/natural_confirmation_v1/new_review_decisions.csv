@@ -1,0 +1,179 @@
+review_index,source_image_id,image_sha256,accepted,reason
+0,410576,336a75d69c82d406eea69ef8bba5f71d5beb7824a480fe9b639ea8869fd8be19,True,"Both targets, class names and relation confirmed in the center crop."
+1,59225,a46df21fb12c7fb3b6e2b65ab241d776b2acb763edfe820875f36348737c4a0f,True,"Both targets, class names and relation confirmed in the center crop."
+2,503663,414016e49e4359ea0350c16f9a4890e2c3f414f5ca2d3c8d3f30f5f857dbd404,False,"Refrigerator is a dark, occluded background fragment and cannot be identified confidently."
+3,502318,6d1a689eedaac652c639e185e80e4abc808d54a55a6236652463f56085f681fa,False,Same distinctive desert TV/chair scene as previously screened COCO 355214; visually near-duplicate despite different source ID.
+4,469471,6f67704b405cae9881a22d0bc9bcc8def3ef5833a5121e5b134cb7c5f1020cf1,True,"Both targets, class names and relation confirmed in the center crop."
+5,34866,1b9ab2d24c0357be47468765d828a12b8672e9800db7e6bcc705633ab463de83,False,Vehicle looks like a van/minibus from the front; truck class cannot be confirmed.
+6,99039,03b7ba8aac61bb08650f9fb4bb0aad823e81e49156c2b5d15fdfb2d78fd4c3cc,False,"Wine-glass annotation spans two separate glasses, making the intended target non-unique."
+7,318174,17bf35dbc65207ed9ebe34112e4111653850fb6cd47160fdbace78d53f4d748d,True,"Both targets, class names and relation confirmed in the center crop."
+8,20908,6910893526b1b664ead231cef6a69334f36e5e17fff5b3b59dc97447ff71fec7,False,Chair is visible only as a narrow strip behind the table; target cannot be identified confidently.
+9,19916,57dd021a000866e9063e9c32d8b51acffbf917fdf54666966590e43ebdabddc1,True,"Both targets, class names and relation confirmed in the center crop."
+10,505528,abe7d44fcf3d9f9ba36d2f768c0d480512c5ab1f9177f9111d756259b629f37c,False,Equine appears donkey/mule-like; horse class is ambiguous.
+11,364444,924d531210452a49ea881bbfcb048723f510cf00d00354ae5a15cfba6d74a849,True,"Both targets, class names and relation confirmed in the center crop."
+12,273002,3efdb34ed48aae48804bc7ebaa00ab8b047741c7c1af793d8172e34f29245605,True,"Both targets, class names and relation confirmed in the center crop."
+13,185614,fa4b7b3c3f543d1da736b3cad112fa1a7cfc9c6817b52124302bacecf751b84f,True,"Both targets, class names and relation confirmed in the center crop."
+14,291784,e62f6ce5ef95016dddfef7e2202154c308d7c7d4090aa60086633ba523aef3a6,False,Microwave is shown mostly from the side/back and obscured; identity cannot be confidently verified.
+15,335839,fc46f46949b1c5a3a17fbfd32adac1e7147f8ec97b89228d43c56ccc1749cd5b,True,"Both targets, class names and relation confirmed in the center crop."
+16,292206,a3212dc24c54fae2b519413fea6940d05468b7bc28d98d2152a90d8f88612af6,False,"Blue vehicle could be a van rather than truck, and backpack is partly hidden by the seated person."
+17,143040,2a67f6aaf6dc3d0ea0d0daa5ec15f2ace413c6ebb0e05e5a6465fe219262d561,False,Sink target shows a small drainer/counter edge rather than a clear basin.
+18,257198,26f2d167233a08065a45863d099dc63e67c79e1a89196def6cd9b3291768c88a,True,"Both targets, class names and relation confirmed in the center crop."
+19,574357,12dc6665ccb99a8dd33584f2c4dd0fa68ae348b469eabe6020cb897dc2a18cb4,True,"Both targets, class names and relation confirmed in the center crop."
+20,529507,4a8501bd66d60cc4a3574f53e9229996078c66c2c19aaac83c2a3593c9a158f1,False,Toilet is severely truncated at the left crop edge.
+21,78488,dd8400c0f2958d66951133fd833aabc99b4d95bfc9cd202dd7a627a6f9c9955e,True,"Both targets, class names and relation confirmed in the center crop."
+22,462978,49537c0d7d446cdadedc4a3e0cb5774d059be1b3b773d0ec8bfdd5fd44cdb156,False,"Bird is a painted decoration on a vase, not a real bird."
+23,455937,1010b85b88a9ca6b84856f7850b018e114a024b782f43cae0f5a1d4ada68a5b2,True,"Both targets, class names and relation confirmed in the center crop."
+24,154931,d81c262afe4d87905406358e59b24265036379d6c059e3a9c431c4b7ab02eaa8,False,Chair is mostly occluded by the person; only an indistinct fragment is visible.
+25,529568,2c97efcc385141e55c77afcf239cf59639637e9155cacf5ac870c87d2a6de42e,True,"Both targets, class names and relation confirmed in the center crop."
+26,341011,d658581397c3b8574bf6dc7226b151c10aec1b79f69a4ef4c90f227faec335a2,True,"Both targets, class names and relation confirmed in the center crop."
+27,365214,2d68361f225f00a0be3dadef1825a3d83e5fb2b1cd8ab5d9bd2d76720ce42b63,False,Book is overexposed and indistinguishable from a loose sheet or leaflet.
+28,294437,b0fc0c0bd0f16f9b100f9017574918b23d4d19d638b569e5538019c35caf7cd2,False,Potted plant is mostly outside/behind the door and cannot be identified from the annotated fragment.
+29,267910,8eab61d09398dc1804cfcdd59eb546329b11964325e1390fb1584c17d20ddedf,True,"Both targets, class names and relation confirmed in the center crop."
+30,519649,15c561ddb669b360470cd6439c4dd1eb97da5d69f1001d82db3a37015ef25888,True,"Both targets, class names and relation confirmed in the center crop."
+31,252280,63c53468a2d83e030f628a291a8fa59b90c2d9bae7c0bc221173f8d46311beb8,False,Multiple red umbrellas occupy the target region; no unique target is specified.
+32,374087,244357b3009653e20d2d14280055133e91e4f7780d82511bd913242b68a09d49,True,"Both targets, class names and relation confirmed in the center crop."
+33,316912,e5e4e2b3ba85e8af5feb27245c7b3188e180eb6fa1a03fbd50d441a7f193698c,True,"Both targets, class names and relation confirmed in the center crop."
+34,386968,6932d91b74f9705253f727cd2615770ae0f3a7dbbcefdfae0a45149f4b94e3b9,False,Handbag is mostly hidden inside the bicycle basket; visible fragment is ambiguous.
+35,181449,da9dfa9cd6afb4159546c9b179272fcc7d27fa4849a08ff0976ee901072ad78d,False,Object labelled remote is a cordless telephone handset.
+36,497145,c92f326833e4217807f9ef437b7e2c78a142a90b0eac6ebd5a0ed20d99cf8efc,True,"Both targets, class names and relation confirmed in the center crop."
+37,114744,1f9bec45a3448c965a4580a659a510faa860e24ec1c2e005e384242812f94332,False,"Handbag is too dark, occluded and narrow to identify reliably."
+38,277289,b9466e2f1e1cf848b2b57a01fef257c1e6a0efef28e07c7457c630b3d308c43f,True,"Both targets, class names and relation confirmed in the center crop."
+39,341118,0ffcecdec48c2e8f096497d2454a81b4bccd571ad0aa8f362657ab6c1cae702c,False,Suitcase is hidden behind foreground objects; visible portion is ambiguous.
+40,190140,abade429d12b97abe8d8e437d38fa2beda1058343ddbc46fa5bdd80000aa6c32,True,"Both targets, class names and relation confirmed in the center crop."
+41,235751,0ac0d38a26a9868b070cb835ad6eb9fd77dc758d84aa3f9f3692f6799967674d,False,"Oven is reduced to a dark, narrow occluded strip behind the wall."
+42,349321,2aa10c3f100d2b7616581e49397c6aff85d6e31a510b529e6a95f2090bd8d524,False,Object labelled oven is a fireplace.
+43,148830,822491a7a71f8f51a52dfb213a5fec986c698aa6ac6af14763236d6ffb68f7c6,True,"Both targets, class names and relation confirmed in the center crop."
+44,448795,916f8b625d951b95b4d81d94f8471ec7bb73a2cb97a9f706055f94a67fa560ac,True,"Both targets, class names and relation confirmed in the center crop."
+45,252201,beb3e110b1733d935d147b2185d0fa760df30e99276152365c04c88eab96227d,True,"Both targets, class names and relation confirmed in the center crop."
+46,180830,943b1636367167055f40e4d6b187da82eb37b70ddabdd0e2767ee20bfd5702ae,False,"Image is a composited decorative scene, not a natural photograph of the two targets."
+47,334813,2eb9a7a89120dfd9cdcf8469c1a04be6871cd52d2a60a98723368aee284b3077,True,"Both targets, class names and relation confirmed in the center crop."
+48,274058,601009449a3051cea6ce6d8aff7abae2c542fc3146dfa5df06096e977c4044ba,False,Person target shows only a forearm through a vehicle window; a person cannot be verified as a clear target.
+49,86250,34f807b612aa5a19724cf4e5315933f01bf9d6ea825a501725731396a61c0117,False,Plant target appears to be a bouquet in a vase rather than a clearly potted plant.
+50,380116,2fdcfd1ca3ec23203df1f4f02efddfaf655ff48b5b3c7392937f26e7b6943615,True,"Both targets, class names and relation confirmed in the center crop."
+51,436273,4b72a70506bc218cf5059ce63d63c9475f2eae785bb7dfdc218ad5ebf807947a,True,"Both targets, class names and relation confirmed in the center crop."
+52,490701,5758027c056a8a41c3ce403bea12e5d9d0070eb1fb8ef4fe088e207ca704eb69,True,"Both targets, class names and relation confirmed in the center crop."
+53,81315,831ce7f7517120c57a3e6e6d705c923ef530d3f0c3413548bac653791b2d2c0f,False,Dark appliance labelled oven could be a dishwasher; its class cannot be confirmed from the front shown.
+54,515850,5a59e8f4af376e216059ce4d105b171a5cb3c74fdd30dbccbf7e0ca1048d079b,False,Couch target is mostly hidden by people's heads and equipment.
+55,156324,a0ae6a9efe9cbc9a3a75326ca1c0548d373fab52fc8968e80f3592d695d4f507,True,"Both targets, class names and relation confirmed in the center crop."
+56,88244,6b0013bf26d9f7fe4d53a9eec10e8b141e450f154d63e9af734ee60482fa27f5,True,"Both targets, class names and relation confirmed in the center crop."
+57,47720,7e1a1090d3e14c95709e812467f81a35c4980491d52004644ef2665fae53577e,False,Object labelled pizza is a grilled sandwich/toast triangle.
+58,311378,e79afb5a9528b981c6de59ded57e44bb45f1b6646541cb2f7cf1cea9d48392f5,True,"Both targets, class names and relation confirmed in the center crop."
+59,557896,b4b6cb9b43eb0ec52432273ef873baeb82b4e6df3f839e55cbc898326948b91c,True,"Both targets, class names and relation confirmed in the center crop."
+60,126744,af495322119ed1721e5bc7d4b79cf03f8e2528adfcc9572daaa5910bdb570e00,True,"Both targets, class names and relation confirmed in the center crop."
+61,331096,f6a774fb74fc5b11e84b53842eca5c978b1d55741259807ef1b494b582fb4da8,True,"Both targets, class names and relation confirmed in the center crop."
+62,98054,cbd5bafe8f14ab4116518a502fd8351f87615056df7c7d76a6d15e80ec04c92a,True,"Both targets, class names and relation confirmed in the center crop."
+63,485731,8e6447a0f0b3d8659ad744bacef2095e7bb857a34af165b979b04fbe7cdb260e,False,Object labelled dining table is a kitchen counter/island.
+64,357782,a8ff6f051534d5f42b2747f43ac41499d2444e58b0fc806c9c98f135ba3241af,False,Bowl is partly hidden among market items and handbag is reduced to a strap/fragment; identities are ambiguous.
+65,283561,a81cea026d0342bfc0efd813ad802523ab650cdf744f6b834755402f7a245bcb,True,"Both targets, class names and relation confirmed in the center crop."
+66,306395,3dbb1319e99764369fa8aa9567338d868fde8626474ea2b4255726bf258b83c0,True,"Both targets, class names and relation confirmed in the center crop."
+67,96832,7be37c1090558ecc5571019be97e96ad9bd2f8bccb142260008d9986ad7370a9,True,"Both targets, class names and relation confirmed in the center crop."
+68,117425,3ce22b1b2e55db6f118b1b057ddb7563970d09bce66b4b95d1f896df88605b6c,True,"Both targets, class names and relation confirmed in the center crop."
+69,575882,cdcd1952db901c61bf83ab8f81c25415d47afe6a0f4871ee47ecdb7f4e7dda70,True,"Both targets, class names and relation confirmed in the center crop."
+70,283858,6dfb20cbe6a75288fde81a98372e9207f354da8ac704a2f3532ee9c06484b143,True,"Both targets, class names and relation confirmed in the center crop."
+71,117674,9beac209cfbe065b24f6372e26f608c940684af6fb11648d9654fdf425d72b78,True,"Both targets, class names and relation confirmed in the center crop."
+72,264625,b682f23cf983c5fb3f73b7bf2cf0e33dea9f9b2c772b3612ea6cc1fe8e2886cd,True,"Both targets, class names and relation confirmed in the center crop."
+73,211203,21625f1038f985451b845db758dbce9cc76259495ea7749e026f3f77624fd1b8,True,"Both targets, class names and relation confirmed in the center crop."
+74,554523,fd2d544b3320f789c8af4632836a390cd55420634d4490e67afaac16431780bf,False,Oven is almost entirely occluded behind the door/wall.
+75,396496,1ef993ac63d27779cea9735cb799f11e19b1e8c434c03079f570178d4064f4a8,False,"Bounding box for train covers an umbrella, not the background train."
+76,501790,c53a09af1b39021bdd1315e6097851e9bd5aba4d3963871e791fae81dff074a1,False,"Car is a very small, partly hidden background fragment behind fencing."
+77,300791,359a51a37c9d1787615be8b53cfaa172c020698e322709dcf3c0c5437f03a1a2,True,"Both targets, class names and relation confirmed in the center crop."
+78,520012,03be5853d2d50e808274f465896962cf1e37b930a13f5ea6902161cd5e1e7093,True,"Both targets, class names and relation confirmed in the center crop."
+79,406340,08845e550b723070745ba53dba3803abf58f41ecf269222686f7654c82b30950,True,"Both targets, class names and relation confirmed in the center crop."
+80,87574,b08d028f3010b0616577ff661134a9138daa1037cb6b33cc5413e893b259df1a,False,"Chair is reduced to an indistinct, cropped foreground fragment."
+81,434930,f07e7ded20f68a04c0ffd2fc4ec80e01a382fc2aa9ae0f053986501f260097b0,True,"Both targets, class names and relation confirmed in the center crop."
+82,499842,154adc7aff421a0974b96a591f304d3d8e1fbe8d66d40ed3a61848919a0f1a8f,False,Only a screen is shown for the laptop target; laptop versus monitor cannot be confirmed.
+83,554348,ef3be86943249c4130f2ce6df5b38f7a02cf2f7fbd6a00be5e466a65e573ca26,True,"Both targets, class names and relation confirmed in the center crop."
+84,556545,ad7babbaed7723e47185c81cf1aec45619719ef233456c2c4b7c2e0d80afefe6,False,"Person is depicted in a framed picture, not physically present."
+85,394957,4b247851c27fae7ff19eee4847410ffafddbe186c99c73354af5e387ec8b513f,True,"Both targets, class names and relation confirmed in the center crop."
+86,280083,86b5ac7acc7247a6fc141b32724228d4fe0bce57b8a868403b21a08466bcf1da,True,"Both targets, class names and relation confirmed in the center crop."
+87,540642,7d991f99b1d142270144bcd95f6c185e6210a1c56d83f9b8b7af37bb438deda7,True,"Both targets, class names and relation confirmed in the center crop."
+88,250164,de3a59e4dde2767a001ef18f545ff4c50379df04ab1c4eb3e82a15016ab62390,False,Bed label is ambiguous in the heavily stylized interior; visible target resembles seating rather than a clear bed.
+89,107656,8f0656db90eb1379817f0b4ce5460f589d5f0c8e2cc4ea5e0c20bce9ce3c6f47,False,"Dog is a dark, mostly featureless shape on the sofa and cannot be identified reliably."
+90,363119,2547678fe2aaeba4950ba7518df396415a48bedf74cffd10a977892addd0b6ad,True,"Both targets, class names and relation confirmed in the center crop."
+91,353748,da3b2e8ad4f0c764237ae981dc57168480c3575469892ab20ba7b972a5562cb4,True,"Both targets, class names and relation confirmed in the center crop."
+92,328805,3cc50604804e8df44d96b803cc5a84d5edee9a663c2e0ebc64abd02f566d0c5a,False,The labelled potted plant appears to be cut flowers in a transparent vase.
+93,294475,2f5fa6486762ad565baa923d754df7b6e7f2017d8fb112da676717f40934d503,True,"Both targets, class names and relation confirmed in the center crop."
+94,422328,fff3126e42e6d55f2ef6e7388e92a663da8e47df6fb85ceec62f86ed0835ddef,False,Snowboard target is ambiguous with an advertising/display board.
+95,435389,e664e5c3f7e00cecb45b02541a2f1bd350fdf59fbc4af2be3c38570682388343,True,"Both targets, class names and relation confirmed in the center crop."
+96,312020,ccaaba78b7d821f733056a5137d8f749fcc7f55f7c913fcdd30bfacc70182348,True,"Both targets, class names and relation confirmed in the center crop."
+97,209682,3a6edb3a7073773c7072a7ed7a6cc76421686935827bc16ef0e946b5d1c15a13,True,"Both targets, class names and relation confirmed in the center crop."
+98,107516,6a230177078bf9d2e45c525fd218f21c524e5511acdcd024da69f4a99ffc0b0a,True,"Both targets, class names and relation confirmed in the center crop."
+99,355325,2a8356486557241592dd40f38db50394624b48ed6e0218b7138350ce0c44b1e3,True,"Both targets, class names and relation confirmed in the center crop."
+100,241645,25955524f68692f15a2c0479c47c272d2036b57878ab79da7b8671c87d55d04e,False,Composite layout combines several photographs; targets are in different panels.
+101,436848,c3057662f28c20911b36fc7b730e52106ae77b2ef9f79c33ba1ba958c6955cae,True,"Both targets, class names and relation confirmed in the center crop."
+102,390048,f539af3b025530b5c5d0459ae8516763f9402c635fe3e7111e0d6c0891f1de89,False,Chair is strongly blurred and mostly occluded behind the person.
+103,160341,ce118523a600637532670d4003f9940c3104e1ab265f65b55753c405131ce965,False,Bench target is obscured by a large sign and cannot be identified confidently.
+104,318701,ea9298d3d72ea18fffc10f834f14231ae85d96a8f6d99476770a8e5eb45c29d4,False,Person is a faint overlapping reflection in glass; target is ambiguous.
+105,330022,667387565547158d11c203a2acc47d5c20f641151a186421e3b97c0b5e79bade,False,"Sheep/cake targets belong to a miniature decorative scene, not a natural pair of objects."
+106,336182,41d2d215ea57128bf4da4317acb36928f8119d6105448a885c311ce72e2c3938,True,"Both targets, class names and relation confirmed in the center crop."
+107,145318,f656857e81a14ebdfef54c0a7b39ad4bfff236ef9d7f7a4086bb274136acbfa5,True,"Both targets, class names and relation confirmed in the center crop."
+108,225867,5beadb80c08215437fd56d6091372d246ce33bde805bdb0e8415701d067c14cb,True,"Both targets, class names and relation confirmed in the center crop."
+109,569526,836291ccc3908e2ac50c850259b6505c0afff5c19cbce58bd62bc7b7a346ba5e,True,"Both targets, class names and relation confirmed in the center crop."
+110,135410,603013773e6bca16d1e4af56e76b38b3f7510c62d41e6089072905419ef4373f,True,"Both targets, class names and relation confirmed in the center crop."
+111,307683,39487a02b987fdcf5855c4c47713fe5f93528a9ba83811f26f44dd716fada884,False,Target labelled cake could be savory quiche or another food; specific class is ambiguous.
+112,68814,ad84b7175e62ab9e7dd4b1b513c549db4e9ec552c4f1b8ec7764343bd0f1cb1c,True,"Both targets, class names and relation confirmed in the center crop."
+113,138382,16f8fd6d5006bf28b42013e216580fd6a53b41cad51145c4e8bec68cf1075f51,False,Bowl target is a rectangular food tray/container; class name is ambiguous.
+114,120388,325044ae187850a9dc73647d28513dd1224a3a7d3d1d377a783f42a8d14dbda6,True,"Both targets, class names and relation confirmed in the center crop."
+115,212704,b8a2d197c60e13074c2e09c316dd1e86a91ca017859649926293717f647ac40d,False,Chair box mostly covers the person's body; actual chair is not identifiable.
+116,65969,ed9f7404fc0a9e73dcd83464e608a2107bc2e558c85f355f598dfb6f877269c6,True,"Both targets, class names and relation confirmed in the center crop."
+117,489264,4d86052f98e365ac3a7f1ab7ac6cff1f8418cbd47043e36afa5948d49505496f,True,"Both targets, class names and relation confirmed in the center crop."
+118,233405,a2dca91b2e9a341ba5a8ed1e3c6a481d3f1de495224940ef28ceb7f18cd0f3a9,True,"Both targets, class names and relation confirmed in the center crop."
+119,333436,99f652bf9d247f75bfc6d40ab7ab9c56a51f900477884e281fd1295255aac71e,False,Round sign does not clearly depict a stop sign; class cannot be confirmed.
+120,449560,09e6bb5476c0c254b262b08130c78ebf77862d401a489643b2eb825cf6907183,False,Handbag target looks like loose clothing; no clear bag structure is visible.
+121,420825,437143e4ca45a18d070fbbd1df1423d5954427f0c8914c72ba5aa860615f3c33,False,Background car is very small and heavily out of focus.
+122,276892,9c1daa74664897e6b0648e75a79d2debef56708cc2b80db3a69a70c36801846f,True,"Both targets, class names and relation confirmed in the center crop."
+123,370478,f5ed1c21f176378a77e5e3dcd071908850d193cc200232790071fea5a1234aaf,True,"Both targets, class names and relation confirmed in the center crop."
+124,376347,ea24b63928505ee35c54c69e92a257244962efbbb54975b3dc1b6dae88fc2ecc,False,Person is hidden by water spray; the target cannot be seen clearly.
+125,265816,a32a1609153269b5936d90d3c782a9bd9ce435c528ac14892f5f86c80e4a0af0,True,"Both targets, class names and relation confirmed in the center crop."
+126,465986,b0f3d38bb0e2c84116b15ae4fb924b0191075bb77e314b9e0cc13df9a1644b83,True,"Both targets, class names and relation confirmed in the center crop."
+127,261780,c3abbe2fa2d92a7aaf615d9e33b1478aa7d494e732f9f8ea6b7f873e57b46d9d,True,"Both targets, class names and relation confirmed in the center crop."
+128,375232,0cdf0ddfa0cc7a2b8b8c225dcebb776f34716dc843fd60965a4f38224a419913,True,"Both targets, class names and relation confirmed in the center crop."
+129,364783,3f5491ac13fdb335223bbadff26ae735dc216e3ec1cddb57bfc2b6ea6341d9e9,False,Chair is represented only by a narrow cropped strip at the right edge.
+130,535770,4e4f5168d1066354e7f4f4a0088cbf2ed5d2921d2abe865fe2834dbfad2f0090,True,"Both targets, class names and relation confirmed in the center crop."
+131,282768,b37a990d615acc2609710356c3c31ccb504725d57c122290fca41c21b7cdc546,True,"Both targets, class names and relation confirmed in the center crop."
+132,187624,aeb1a8c6a753aa0ab65ea15cc686bc05d67eabefa408178c2f97d3fe1bb8c3b8,False,Backpack box covers the person's jacket/back; no backpack is clearly visible.
+133,154705,65c43fb6b824facd86b8cdda2a14eb47c6dd67920e919bb888f376d78a13ec6b,True,"Both targets, class names and relation confirmed in the center crop."
+134,104392,63be51bcc46680bc758557a81c0980d1efb892750fb6009afb1db27dc48e845d,False,"Refrigerator is a narrow, partly cropped dark fragment and cannot be confirmed."
+135,216277,a0f22aeeca99a5663c65f7e11f440c37b4b911a41535ed0a3d650face687c202,True,"Both targets, class names and relation confirmed in the center crop."
+136,462614,a62b0455cf18a765b1966e6128614136c86bf8a470f38d91d1c4a0e9510eee74,False,Bathroom appears to be a stylized illustration/rendering; natural-photo status is unclear.
+137,472246,4d42d8767703298432135de4082d9e6add1b487379c9c91eab0f2baa30c160e8,True,"Both targets, class names and relation confirmed in the center crop."
+138,547212,d5e37380044331b8d9b2b96c174fe49662789daf2c827b71d3e54af379736ace,True,"Both targets, class names and relation confirmed in the center crop."
+139,31442,a55811c1b1ea3517427e4b1d70297309f8122007171d02c72e56a94325ce0e01,True,"Both targets, class names and relation confirmed in the center crop."
+140,159463,20e3e8f523158c15da1a32eb0b4970fd4b2f7274aa9bb03359d7489014a525ee,True,"Both targets, class names and relation confirmed in the center crop."
+141,120099,f82a2c83e704e711a1aae9f9881cdbb9b68887f9fd484cd679640aac460eb97b,True,"Both targets, class names and relation confirmed in the center crop."
+142,572042,d0c7973cb27aa4fc5a9518d8329b7139d47c3089ef7809cde706be7f5cad7879,True,"Both targets, class names and relation confirmed in the center crop."
+143,262476,c976f098a422f47dfb20c9d80e92c21c164311b70599fd4701973420f8c72c6d,False,Refrigerator is almost entirely occluded by people and handbag is only an indistinct dark fragment.
+144,459382,6e5f9f5821cab8aa770cb216b72dac1efff7978a9e7c46a000cc4716148bd692,True,"Both targets, class names and relation confirmed in the center crop."
+145,104326,f5cacd53d860e4cf08b99647d63b3b99401d010f821dcda1538998629f8c1f89,False,Appliance labelled oven resembles open cabinetry/racking; its class is not clear.
+146,571313,9a3c075c9f15b67417d616b5cde10f704705215341ed15414035f8a77277a80e,True,"Both targets, class names and relation confirmed in the center crop."
+147,187933,cde74a37f0cbb7939a4fea1dfe626d6dd819a5d08d4ed841d1d85ad09780ca35,True,"Both targets, class names and relation confirmed in the center crop."
+148,188421,201d0c3e5a66e2e94e03ce666f84ef350de7081b8fa6afef484b7a8ae389c590,True,"Both targets, class names and relation confirmed in the center crop."
+149,216437,421e385bc6d473342ad0837fd8b22d71265f2b9c53bf108de16032fbb093fdb2,True,"Both targets, class names and relation confirmed in the center crop."
+150,141509,df17c60b3fd4db8d3bd8440560d24ce8041f21533f21d00b11cb0eaa3fe44275,True,"Both targets, class names and relation confirmed in the center crop."
+151,369259,d26fb7e93b76d3f7e2459985cc3c4de22b218543f40978e111b9a305400557f9,True,"Both targets, class names and relation confirmed in the center crop."
+152,456991,d5d01ee8c2790de4b407dec714b071fdecf33c8d2960d46f1d8554583246f1ce,True,"Both targets, class names and relation confirmed in the center crop."
+153,206268,94e347a4c706578331314b0f35a9e4f3e79fa9edfffecd106150b4708191d293,False,Chair is almost entirely hidden behind the person; annotated region mostly shows clothing.
+154,85803,bb5f700042862bfe8e0647d4a2082596d212166613c650ab1a96b7f508db26b0,True,"Both targets, class names and relation confirmed in the center crop."
+155,365208,a1a58588a52869234419bdf068722001a86e3cc4dbcd1f2da1665921ce46370b,True,"Both targets, class names and relation confirmed in the center crop."
+156,553129,d95d8dc810bb2d5ffdf36bb44b92a3d16890e6cec07417a482d10f2d9448ee8b,True,"Both targets, class names and relation confirmed in the center crop."
+157,296802,6ca4f07f9781c7c755817aeec4059c17aea7cb09ec7eff19dbce6c02cff78274,True,"Both targets, class names and relation confirmed in the center crop."
+158,199883,c3a3642d696b9f2a5abdbd902ecc0b24f197d47ed57e6c10d99e38b031890002,True,"Both targets, class names and relation confirmed in the center crop."
+159,95569,e95d49dbc5fc050268ca1b94552b71db56b19a71a0185fac32ceb2645fe5e446,False,Object labelled microwave appears to be a toaster oven with heating racks and rotary controls.
+160,332025,66f1cba779681317cb7d5b61c981d09716bdd3d330d6b7f6e5256d24e540d9f1,True,"Both targets, class names and relation confirmed in the center crop."
+161,34015,a2420071a5ed7cf81749ca3ae9ba408d3ef26c4205989720e5f5f86a824aa261,True,"Both targets, class names and relation confirmed in the center crop."
+162,200668,d8aeaa500103f32f5b8bff5a5816a049c39901fa8b054d38ad01efe4c166af44,True,"Both targets, class names and relation confirmed in the center crop."
+163,211215,a3747beef976406fabc48f983b748ba31dac371ac1c4687a149f9eec820debfc,False,Backpack is mostly outside the crop; only shoulder straps/fragments can be seen.
+164,232993,fe660fe3563fe4fedeb9cda1ce23d7ea821a0a135cf591f0ee05154cb9e55b73,True,"Both targets, class names and relation confirmed in the center crop."
+165,454199,529e18838d8209def9d0b34894868528c42942053791325c25ee0c683588d985,False,Spoon is blurred and partly hidden by the hand; utensil type cannot be confirmed.
+166,267932,b74a69b26d5274934995795bd12ff6d8076b889137013f0f3e1a2cdb8aa6cd04,True,"Both targets, class names and relation confirmed in the center crop."
+167,414212,0383fc20b183c06b8450d2e3073aab5e73f174732efc293293ec3effd2cb22d4,False,"Object labelled bottle is rectangular toothpaste packaging, not a clear bottle."
+168,78554,74e4cd4df7ab2e8fff5e1d1371fb7a303e13acb7939c0c67e29e3d3287b6e377,False,Bathroom is a stylized computer-rendered scene rather than a natural photograph.
+169,344271,a9822191a727c4ae0f0e77f7086071ba6155dc506667de28c7775332397f44de,False,Chair/couch targets are largely hidden by the bicycle and person; boxes do not identify two clear seating objects.
+170,166166,0a661b59e78b8dd84eccea6177f8a51888c5dbc48fe063c68c76c7300f998c85,False,Distant dining-table target is too dark/occluded and resembles cabinetry.
+171,182078,0a8ea83797801298b153727e8c53342eb1e7a7c526e8f0be485ab4bb2183d5cf,True,"Both targets, class names and relation confirmed in the center crop."
+172,478689,cae753ef9366a17b76bfa82085e1f59786b835308a75e5d17d46c1191992434d,True,"Both targets, class names and relation confirmed in the center crop."
+173,371427,84d06cb62bf96aa1591c90bebfc3d56c0ed014494dde65716d40d51633e9f205,True,"Both targets, class names and relation confirmed in the center crop."
+174,509699,41970635662e03bb7512f59205eb55b5e4bd919b09d07faab12ed03be86d9b15,True,"Both targets, class names and relation confirmed in the center crop."
+175,41020,dfc6feb7cc00f15dfca50aec54776166db825adb87ba45418c3442f56252d57d,False,Car box covers a small red background object/bin; no car is identifiable in that box.
+176,218703,2b1cb6b6806bb0e90cf223c482f325bc2f4a2983286432a35380b5b214666a36,True,"Both targets, class names and relation confirmed in the center crop."
+177,541917,18e6ee13d37ef67e38d00eb9f2500deda53b95aeea499ae1bf709e9ceba937e6,True,"Both targets, class names and relation confirmed in the center crop."
