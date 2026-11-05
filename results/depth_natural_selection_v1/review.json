@@ -1,0 +1,2841 @@
+{
+  "reviewer": "Codex assistant; visual inspection of 25 contact sheets covering all 400 candidates",
+  "reviewed_at_utc": "2026-11-04T09:08:47.407374+00:00",
+  "blinded_to_clip_outputs": true,
+  "independent_human_reviewers": 0,
+  "criteria": "Two directly recognizable targets; clear 2D relation; exclude ambiguous labels, severe occlusion/blur/crop, depictions/collages, ambiguous repeated instances and visually noticed duplicate scenes.",
+  "candidate_sha256": "15df662fa970a2ee653e71291d8449de7baab2259495738b53244a0e5944bf47",
+  "review_sheet_sha256": {
+    "data/probing_depth_v1/natural/review_sheets/reserve_00.png": "e5bd220374ffcda022dd14c7508e851fbf745f7b53fa98671793b913333f0c73",
+    "data/probing_depth_v1/natural/review_sheets/reserve_01.png": "0a40d7690b63df7d10da03ceb7d1b53fa2d18b5e922772f45dbbc54ffd711764",
+    "data/probing_depth_v1/natural/review_sheets/reserve_02.png": "e62ecfb4d9dde6a95ec063fd5aef9786a85fcc821d98537141672e44170cf00b",
+    "data/probing_depth_v1/natural/review_sheets/reserve_03.png": "095805bcd4a662350f1a3b93b96801817bf912d605c92aac229461bba39eb886",
+    "data/probing_depth_v1/natural/review_sheets/reserve_04.png": "5c6acfaf7896c49b3f27854bb6f07ae4cfbd57aae1ba9ff530c26edcc56a2c49",
+    "data/probing_depth_v1/natural/review_sheets/reserve_05.png": "c77f45c898ccad99bfdb87e1c9ea450d7f1b57f655a4e271205f9ca7da54a338",
+    "data/probing_depth_v1/natural/review_sheets/reserve_06.png": "1a5e7092324cbf6600e1006ffceaea1e8a576be804ef68ea59d44ae0d940c661",
+    "data/probing_depth_v1/natural/review_sheets/reserve_07.png": "cd992a15b1fe34ecbe7d072f75138b11f79c7ffe45d6552bc0e26b17e91fb820",
+    "data/probing_depth_v1/natural/review_sheets/reserve_08.png": "347dccce097a0bd8a34b6c2f10d15519177421522718d379f32e1fe789132d9f",
+    "data/probing_depth_v1/natural/review_sheets/reserve_09.png": "651bf61b2697bcd04effc9afc6c935d91fa6dc4b10fb3d08529e5c0d1690db6e",
+    "data/probing_depth_v1/natural/review_sheets/review_00.png": "fc85df4bf96978a0db757fc69fbd39c6a6161ccc6c7d9b88938ef622a7827b22",
+    "data/probing_depth_v1/natural/review_sheets/review_01.png": "466f265b9688732ab3a5f1a80fcf1989e7d87cd2f2f465390cbe56ffdb54aabe",
+    "data/probing_depth_v1/natural/review_sheets/review_02.png": "ecc3fcd726971e5a954b5482859731221ef628cfd0b4b1bf8f4d51f6d21ff192",
+    "data/probing_depth_v1/natural/review_sheets/review_03.png": "da239df23d2604568d73ba1e1de0dc9c5b2dd9d2f061f4310f09ff9d4a3066f3",
+    "data/probing_depth_v1/natural/review_sheets/review_04.png": "469bb4164de46863811ffbd63810fff6ce09ad1ae190c78cfd8697a7d8943eb0",
+    "data/probing_depth_v1/natural/review_sheets/review_05.png": "53cb46605ef9beea252c0e3ad489475be54351676ca9b14667660ef70f588cec",
+    "data/probing_depth_v1/natural/review_sheets/review_06.png": "59879d8f2a2b2b4e33dda1965536db88f3017f1a08486e33ec49529b0bbb24e8",
+    "data/probing_depth_v1/natural/review_sheets/review_07.png": "55087f1109f09c4024ada5faf194e52d387dd74a104a1d2af2dd5d99f8441d36",
+    "data/probing_depth_v1/natural/review_sheets/review_08.png": "6b7f23eaee295a6f18cf495b8c3dd29b90c0b076db7f2d30e1b25fd6f186f413",
+    "data/probing_depth_v1/natural/review_sheets/review_09.png": "e9eef3e48e976d5c162b17dacc439f2b785ebaefbec9dadaa05eba74b1f54387",
+    "data/probing_depth_v1/natural/review_sheets/review_10.png": "8dbe2b373394ce44565ffd145ee97f7c4cec1916306615eacdcc0add8ace6ac8",
+    "data/probing_depth_v1/natural/review_sheets/review_11.png": "2acd2bdf4c0ffa3f94dd8b32e777268cd4dbe8e7c8468d90b4925d0cdcf36587",
+    "data/probing_depth_v1/natural/review_sheets/review_12.png": "8e3f764e9f91a4eb6405f36e69d9c8ae5ec6abedb9f64cfb0bd3b6d019da79cf",
+    "data/probing_depth_v1/natural/review_sheets/review_13.png": "2e33c960ab26a9b0249c4614c9d51474a59bbe3791974de73eae72318111a396",
+    "data/probing_depth_v1/natural/review_sheets/review_14.png": "5929eeef70d5441e3dbb47eb910aeb4bdf386bdba8052b32af961fde10cb5c13"
+  },
+  "near_duplicate_screen": {
+    "method": "64-bit crop dHash, distance <= 6",
+    "pairs": []
+  },
+  "decisions": [
+    {
+      "source_image_id": 409247,
+      "review_index": 0,
+      "image_sha256": "0f26b415d0ad6a91cf146d69d572826a271697871901fad14e57e6aaab7e68a1",
+      "status": "accepted",
+      "reason": "Both target objects and the annotated relation are visually identifiable in the displayed center crop."
+    },
+    {
+      "source_image_id": 407225,
+      "review_index": 1,
+      "image_sha256": "0e75c17979325f6234204e8a182e1297989716a9456716f560adaa6b461ac09e",
+      "status": "accepted",
+      "reason": "Both target objects and the annotated relation are visually identifiable in the displayed center crop."
+    },
+    {
+      "source_image_id": 368242,
+      "review_index": 2,
+      "image_sha256": "4f420dc2eb3d0574904e3027ad029cc9db079a03d2390003cdc69be2b49ad6b1",
+      "status": "accepted",
+      "reason": "Both target objects and the annotated relation are visually identifiable in the displayed center crop."
+    },
+    {
+      "source_image_id": 182339,
+      "review_index": 3,
+      "image_sha256": "06abadc4ce8609aeafaeb2eaafdca28b52acdbdb062b754501a1c75dcdb794ed",
+      "status": "rejected",
+      "reason": "Backpack is almost entirely occluded; only a strap/edge is visible."
+    },
+    {
+      "source_image_id": 540117,
+      "review_index": 4,
+      "image_sha256": "160ead8e9957273f2d4a605570f7e0c730efd923934f20b2533fc81e7af8d082",
+      "status": "rejected",
+      "reason": "Vehicles are visible only through a reflection/window and the target truck is ambiguous."
+    },
+    {
+      "source_image_id": 93853,
+      "review_index": 5,
+      "image_sha256": "b1d202d45724f874f5c77d2cefe8bc21a7678782ce1b9faa186e7994ec5c038b",
+      "status": "rejected",
+      "reason": "The labeled tennis racket appears to be a solid paddle; class identity is ambiguous."
+    },
+    {
+      "source_image_id": 539124,
+      "review_index": 6,
+      "image_sha256": "fae16bc7599a9433d8d7168515b3b5c948a510c7ec28e6b41a4857790cc04063",
+      "status": "rejected",
+      "reason": "Target bicycle is heavily occluded by people and other foreground objects."
+    },
+    {
+      "source_image_id": 133515,
+      "review_index": 7,
+      "image_sha256": "eb578a16c0b12f85633d7a6477b03e53f366736ca4ca385e2dca7052bacfb0b9",
+      "status": "accepted",
+      "reason": "Both target objects and the annotated relation are visually identifiable in the displayed center crop."
+    },
+    {
+      "source_image_id": 192296,
+      "review_index": 8,
+      "image_sha256": "31c4fa41bb5f9f0e5648a913cbdfd73b0badaefa1ffe0d17a0a620c481cf9e7a",
+      "status": "rejected",
+      "reason": "More than one umbrella is clearly visible; an unqualified umbrella caption is ambiguous."
+    },
+    {
+      "source_image_id": 578324,
+      "review_index": 9,
+      "image_sha256": "89305d376c56d1aeb3f337e4d15d7aaddd2d5d38f76ff2c0d1efdc7c52c3a067",
+      "status": "accepted",
+      "reason": "Both target objects and the annotated relation are visually identifiable in the displayed center crop."
+    },
+    {
+      "source_image_id": 28194,
+      "review_index": 10,
+      "image_sha256": "c5941dc734d6dc239c544a25dd56cf45bf061990aeebc5faf8f098a63a82cea4",
+      "status": "rejected",
+      "reason": "Only a small board fragment is visible under surf; target surfboard is heavily occluded."
+    },
+    {
+      "source_image_id": 427245,
+      "review_index": 11,
+      "image_sha256": "281dfceb95f453a8c2b29e0d4c7236d332cd3b6133ab3fceb19f17ed304b56a6",
+      "status": "rejected",
+      "reason": "Target bottle is dark and blurred, difficult to distinguish."
+    },
+    {
+      "source_image_id": 521359,
+      "review_index": 12,
+      "image_sha256": "02f454a497e36185f66637f492e95e036257234d175af8cf10943991abc8cec9",
+      "status": "accepted",
+      "reason": "Both target objects and the annotated relation are visually identifiable in the displayed center crop."
+    },
+    {
+      "source_image_id": 399349,
+      "review_index": 13,
+      "image_sha256": "1425ef95ea39bc4eeb8dfa5631e5ecbb8c8a6e3e739046ca0b2b3cd349b8b440",
+      "status": "rejected",
+      "reason": "Target car is heavily occluded behind the horse and difficult to identify."
+    },
+    {
+      "source_image_id": 491851,
+      "review_index": 14,
+      "image_sha256": "550bf526bc3cb74f22efb1d96e9b41486fed4c4a577c89b087cc41256a400e6a",
+      "status": "accepted",
+      "reason": "Both target objects and the annotated relation are visually identifiable in the displayed center crop."
+    },
+    {
+      "source_image_id": 231408,
+      "review_index": 15,
+      "image_sha256": "4267d09c9dbfccdf50bcccb1415a1f81c9fa8cdd145d8c99e482d5c5c934bfd5",
+      "status": "rejected",
+      "reason": "The purported bird is strongly defocused and not reliably identifiable."
+    },
+    {
+      "source_image_id": 433505,
+      "review_index": 16,
+      "image_sha256": "46563bcb283efa94bef8583ea5787187779e70cadb1171cb43ffdc42e9f8a66f",
+      "status": "accepted",
+      "reason": "Both target objects and the annotated relation are visually identifiable in the displayed center crop."
+    },
+    {
+      "source_image_id": 506441,
+      "review_index": 17,
+      "image_sha256": "1a8cf7eff107f21b983cf9c27d9bba36a74fc9b4ca2b499e112beee481b9721b",
+      "status": "accepted",
+      "reason": "Both target objects and the annotated relation are visually identifiable in the displayed center crop."
+    },
+    {
+      "source_image_id": 392048,
+      "review_index": 18,
+      "image_sha256": "afe6b8e9d3075c32c406153c76e23e33094f2d8ab6eb1bb091270e7367689501",
+      "status": "rejected",
+      "reason": "The target bowl resembles a cup; target category is visually ambiguous."
+    },
+    {
+      "source_image_id": 446005,
+      "review_index": 19,
+      "image_sha256": "7aaa88f6a47ede127a123ab83f8c01564ea7368f65d848914f2fff6788ac4d56",
+      "status": "accepted",
+      "reason": "Both target objects and the annotated relation are visually identifiable in the displayed center crop."
+    },
+    {
+      "source_image_id": 512982,
+      "review_index": 20,
+      "image_sha256": "618dc059d64b82d50527ce040920b57eef882b204f0138067a401c6b8659e923",
+      "status": "accepted",
+      "reason": "Both target objects and the annotated relation are visually identifiable in the displayed center crop."
+    },
+    {
+      "source_image_id": 352480,
+      "review_index": 21,
+      "image_sha256": "ace411baabacaac704ff56d9ec3cfeb0b4d01a00034dc67cf98d08ac1b1f0835",
+      "status": "accepted",
+      "reason": "Both target objects and the annotated relation are visually identifiable in the displayed center crop."
+    },
+    {
+      "source_image_id": 219063,
+      "review_index": 22,
+      "image_sha256": "6d53ba09cd1d14d10ff2c5fe527d31ce0b79f92fc3cafbd58939be2c71897064",
+      "status": "accepted",
+      "reason": "Both target objects and the annotated relation are visually identifiable in the displayed center crop."
+    },
+    {
+      "source_image_id": 61897,
+      "review_index": 23,
+      "image_sha256": "6444c6f5fa9cbfe008b0289c7b809df832f26742f7d51f9657472aea0c94c319",
+      "status": "accepted",
+      "reason": "Both target objects and the annotated relation are visually identifiable in the displayed center crop."
+    },
+    {
+      "source_image_id": 61735,
+      "review_index": 24,
+      "image_sha256": "4e52d33d74f1d1af969fdd350a8461c67d6fddd3687995a456721aaaa73d1255",
+      "status": "accepted",
+      "reason": "Both target objects and the annotated relation are visually identifiable in the displayed center crop."
+    },
+    {
+      "source_image_id": 332499,
+      "review_index": 25,
+      "image_sha256": "de825ac428dd46bfd01a678ecd84b82134a5f8fff539b5085300eb9afad7da08",
+      "status": "rejected",
+      "reason": "Target potted plant is too blurred/dark to identify confidently."
+    },
+    {
+      "source_image_id": 264957,
+      "review_index": 26,
+      "image_sha256": "a87392b567dbf827083ab97d285e18015ab798454c90624f77e4014ce2745f39",
+      "status": "rejected",
+      "reason": "Target train is visible only as a small distorted reflected fragment."
+    },
+    {
+      "source_image_id": 537954,
+      "review_index": 27,
+      "image_sha256": "5f5ae2296c918e909898ff623dc4d1ab0cca166cd838a18b801957e973069870",
+      "status": "accepted",
+      "reason": "Both target objects and the annotated relation are visually identifiable in the displayed center crop."
+    },
+    {
+      "source_image_id": 342060,
+      "review_index": 28,
+      "image_sha256": "d6b69da4021a14aea4b24659cd6759502df26e243a43a2ccdb151d1e79dcc755",
+      "status": "rejected",
+      "reason": "Multiple chairs are visible despite the unique-instance annotation filter."
+    },
+    {
+      "source_image_id": 196789,
+      "review_index": 29,
+      "image_sha256": "6beca8ca7ce902525f059ef14d4d4541e0eefd7c6534f0a15ae85e9b45615f34",
+      "status": "accepted",
+      "reason": "Both target objects and the annotated relation are visually identifiable in the displayed center crop."
+    },
+    {
+      "source_image_id": 346560,
+      "review_index": 30,
+      "image_sha256": "8601564161c39796f381a694aab70270de645cd6d8fd4789bdf5fa49f97ebfb5",
+      "status": "accepted",
+      "reason": "Both target objects and the annotated relation are visually identifiable in the displayed center crop."
+    },
+    {
+      "source_image_id": 347228,
+      "review_index": 31,
+      "image_sha256": "f2584ac92811ac4a1662aa62802026cd6c789cc31458acfa1de18944e6ceace3",
+      "status": "rejected",
+      "reason": "Target dining table is a small, strongly blurred background fragment."
+    },
+    {
+      "source_image_id": 539439,
+      "review_index": 32,
+      "image_sha256": "6fa517c96b98bc02266efaa7f1f91b572261c88e8a046bc4d5015d0e066b957a",
+      "status": "accepted",
+      "reason": "Both target objects and the annotated relation are visually identifiable in the displayed center crop."
+    },
+    {
+      "source_image_id": 286524,
+      "review_index": 33,
+      "image_sha256": "9048299b821ee497d13ddc8279d75c488c7ddc9a3e0c3f0b6c13854c8cf1f4c0",
+      "status": "rejected",
+      "reason": "Target cell phone is out of focus and unrecognizable."
+    },
+    {
+      "source_image_id": 57403,
+      "review_index": 34,
+      "image_sha256": "4e1f36c46679f23b4c671df78ae46c8158f4928f23e301ea53b3ff73fe3df362",
+      "status": "rejected",
+      "reason": "Target cell phone is strongly blurred and not reliably identifiable."
+    },
+    {
+      "source_image_id": 5325,
+      "review_index": 35,
+      "image_sha256": "ec86b57671646c1b26bbe2512431a3569e7a4ec5a537509a7f71fd84b0daac75",
+      "status": "rejected",
+      "reason": "Target handbag is largely occluded and difficult to distinguish from the person's clothing."
+    },
+    {
+      "source_image_id": 487338,
+      "review_index": 36,
+      "image_sha256": "03ac5b5dc6fafcabe8ea0420339baab454c126626638772a60ea98485e8de6fb",
+      "status": "rejected",
+      "reason": "Target chair is almost completely occluded by the person."
+    },
+    {
+      "source_image_id": 572665,
+      "review_index": 37,
+      "image_sha256": "5fb059c4bb35e3663321c137e13436534b6a38c17b65ea95f1b307e17a1995bc",
+      "status": "accepted",
+      "reason": "Both target objects and the annotated relation are visually identifiable in the displayed center crop."
+    },
+    {
+      "source_image_id": 302789,
+      "review_index": 38,
+      "image_sha256": "687795b5855e2bb317f9af8a5ce820ebdbc32fad7bc0218c618788ee96f1f05a",
+      "status": "accepted",
+      "reason": "Both target objects and the annotated relation are visually identifiable in the displayed center crop."
+    },
+    {
+      "source_image_id": 290355,
+      "review_index": 39,
+      "image_sha256": "c0bb1a2a8702d13c693342dda7f9996a6837d43e6335347ff67def47818b1e32",
+      "status": "accepted",
+      "reason": "Both target objects and the annotated relation are visually identifiable in the displayed center crop."
+    },
+    {
+      "source_image_id": 560218,
+      "review_index": 40,
+      "image_sha256": "f816d5ce2228e3fe5f4f1023690fd304233bdb2a6f01f5e2bd7811be23a541eb",
+      "status": "accepted",
+      "reason": "Both target objects and the annotated relation are visually identifiable in the displayed center crop."
+    },
+    {
+      "source_image_id": 487698,
+      "review_index": 41,
+      "image_sha256": "0b9075ededd06f4ff808a3f2b336170cc649f046bd4648c93b07276eb28851fb",
+      "status": "accepted",
+      "reason": "Both target objects and the annotated relation are visually identifiable in the displayed center crop."
+    },
+    {
+      "source_image_id": 199962,
+      "review_index": 42,
+      "image_sha256": "86821c4d6ec7dfdab65b6170b572add80bc41d482ae8e60ffe46a7aed0c41efa",
+      "status": "accepted",
+      "reason": "Both target objects and the annotated relation are visually identifiable in the displayed center crop."
+    },
+    {
+      "source_image_id": 239355,
+      "review_index": 43,
+      "image_sha256": "e75c2bc8d76bfe819145f8fd7ea36a87996951e94607e7e3f1f69ea7a1b87bb6",
+      "status": "rejected",
+      "reason": "The target motorcycle region contains an ambiguous cluster of small two-wheelers."
+    },
+    {
+      "source_image_id": 76648,
+      "review_index": 44,
+      "image_sha256": "04fe14ff5c93baabb80f444bd7ce5579b0b05a6f9992b19a2450e3fee6286ab6",
+      "status": "rejected",
+      "reason": "The bicycle is a pictogram on a road sign, not a directly visible bicycle."
+    },
+    {
+      "source_image_id": 511430,
+      "review_index": 45,
+      "image_sha256": "efdcdc1bff13d08060bbd8ff5eb07eaf899924627a620441c4ba7ace25ba4c94",
+      "status": "accepted",
+      "reason": "Both target objects and the annotated relation are visually identifiable in the displayed center crop."
+    },
+    {
+      "source_image_id": 437432,
+      "review_index": 46,
+      "image_sha256": "683e259f7b852a1c8220fed1db330d36cd694e358cfcce6bed0cce046ed69e87",
+      "status": "accepted",
+      "reason": "Both target objects and the annotated relation are visually identifiable in the displayed center crop."
+    },
+    {
+      "source_image_id": 494404,
+      "review_index": 47,
+      "image_sha256": "b0dadf4b4871c42d01e354d6c81d0fadab10704b9ab15391047e13e1d0a0eabb",
+      "status": "rejected",
+      "reason": "The sign appears to be a no-parking sign rather than the labeled stop sign."
+    },
+    {
+      "source_image_id": 383979,
+      "review_index": 48,
+      "image_sha256": "c2e5a026738b5e33b2639c5077a4e81bd4a507b4efa55270071f616ee09fc183",
+      "status": "rejected",
+      "reason": "Food identities cake/sandwich are visually ambiguous in the selected boxes."
+    },
+    {
+      "source_image_id": 336324,
+      "review_index": 49,
+      "image_sha256": "d21b6ae791e241a963ab6fad071b1699d0d7ca118646097332c10de0737a1331",
+      "status": "accepted",
+      "reason": "Both target objects and the annotated relation are visually identifiable in the displayed center crop."
+    },
+    {
+      "source_image_id": 292741,
+      "review_index": 50,
+      "image_sha256": "daca12c337e0c730f27b7cb5d1f29e779e2b0d30ee51b5b4473f0d6cd6221970",
+      "status": "accepted",
+      "reason": "Both target objects and the annotated relation are visually identifiable in the displayed center crop."
+    },
+    {
+      "source_image_id": 90839,
+      "review_index": 51,
+      "image_sha256": "6d4dc6ca33e548cc979abd3d48f05f6c3460970d923ebfb8a281e81dd934138e",
+      "status": "accepted",
+      "reason": "Both target objects and the annotated relation are visually identifiable in the displayed center crop."
+    },
+    {
+      "source_image_id": 458255,
+      "review_index": 52,
+      "image_sha256": "a736cbd407d124923301403a399ec841193221775b4cd9671776b8bafe9b29c1",
+      "status": "accepted",
+      "reason": "Both target objects and the annotated relation are visually identifiable in the displayed center crop."
+    },
+    {
+      "source_image_id": 20175,
+      "review_index": 53,
+      "image_sha256": "e043b15ff8c057c1bc2a41300a74587cc1a5aed8510b123a2c6370211bdb1903",
+      "status": "rejected",
+      "reason": "Refrigerator is almost fully hidden behind people."
+    },
+    {
+      "source_image_id": 490871,
+      "review_index": 54,
+      "image_sha256": "e7af3de67e5e8e2cbcdf1616d2549138b9bf5de3992982984efec270192ea749",
+      "status": "accepted",
+      "reason": "Both target objects and the annotated relation are visually identifiable in the displayed center crop."
+    },
+    {
+      "source_image_id": 532747,
+      "review_index": 55,
+      "image_sha256": "e06af5600f398bb51df9b0abc2129b0c444974b3f7b23fcebe5de6ae3234a198",
+      "status": "accepted",
+      "reason": "Both target objects and the annotated relation are visually identifiable in the displayed center crop."
+    },
+    {
+      "source_image_id": 551288,
+      "review_index": 56,
+      "image_sha256": "c8cb6bd3d303228324b8b03da8c0314a9fd26028636d66be707d2a3e089715a1",
+      "status": "rejected",
+      "reason": "Handbag is visible mainly as a strap and the chair is heavily occluded."
+    },
+    {
+      "source_image_id": 360629,
+      "review_index": 57,
+      "image_sha256": "931f12e1c4f8b32c04756d15e39bcce53ffd66f49517db5ab8ad4e9720aff6cb",
+      "status": "rejected",
+      "reason": "Labeled orange appears to be a lemon slice; category mismatch."
+    },
+    {
+      "source_image_id": 278121,
+      "review_index": 58,
+      "image_sha256": "7ae74ec066d439d432494dff9cf2e116a9c52bd992aa874bd5dd58b4d34270a6",
+      "status": "rejected",
+      "reason": "Labeled person is an indistinct dark reflection/background patch."
+    },
+    {
+      "source_image_id": 74030,
+      "review_index": 59,
+      "image_sha256": "b9c92dfcc38188dc39edecc4a01d9accc6583ec70393284fed791f2f20ac03da",
+      "status": "accepted",
+      "reason": "Both target objects and the annotated relation are visually identifiable in the displayed center crop."
+    },
+    {
+      "source_image_id": 7394,
+      "review_index": 60,
+      "image_sha256": "bd986b32818eb9a103afe3de465e4bfd8e8ab4d371548f01871f7f7e001e0903",
+      "status": "accepted",
+      "reason": "Both target objects and the annotated relation are visually identifiable in the displayed center crop."
+    },
+    {
+      "source_image_id": 51355,
+      "review_index": 61,
+      "image_sha256": "8d2d07216f6b5540502f3c25ca274b9e1b031654ec4f2edda2fa80ae13c23d8d",
+      "status": "accepted",
+      "reason": "Both target objects and the annotated relation are visually identifiable in the displayed center crop."
+    },
+    {
+      "source_image_id": 62491,
+      "review_index": 62,
+      "image_sha256": "6a40452bb8ff5d2bcb867e3e615c7114078e6575b5a6b6bc2ff1d8480e76b8c9",
+      "status": "accepted",
+      "reason": "Both target objects and the annotated relation are visually identifiable in the displayed center crop."
+    },
+    {
+      "source_image_id": 232488,
+      "review_index": 63,
+      "image_sha256": "46ed7f291d021660653c24d69f9ce26ce414f3c9e907ee2c60787b9577ffb653",
+      "status": "accepted",
+      "reason": "Both target objects and the annotated relation are visually identifiable in the displayed center crop."
+    },
+    {
+      "source_image_id": 237772,
+      "review_index": 64,
+      "image_sha256": "722e17747b7211b4fb88ee991be79407aa7c9f8d28691250e1728a9b95c7c48a",
+      "status": "accepted",
+      "reason": "Both target objects and the annotated relation are visually identifiable in the displayed center crop."
+    },
+    {
+      "source_image_id": 293554,
+      "review_index": 65,
+      "image_sha256": "ed38b4ca0f52c421a0cc996c0b0f0e38bcb038cbebdd534e97e1fea0deb2330b",
+      "status": "accepted",
+      "reason": "Both target objects and the annotated relation are visually identifiable in the displayed center crop."
+    },
+    {
+      "source_image_id": 424162,
+      "review_index": 66,
+      "image_sha256": "765a481659aa263c0ac345053f0f47ce073144fa93b667c3eb66a565994116a8",
+      "status": "rejected",
+      "reason": "Target backpack is mostly hidden; only strap fragments are visible."
+    },
+    {
+      "source_image_id": 139518,
+      "review_index": 67,
+      "image_sha256": "f415cd7d708fcd26b2103584bd15f3c6dc9e6f1959667cf3e9124c473b5a55d7",
+      "status": "accepted",
+      "reason": "Both target objects and the annotated relation are visually identifiable in the displayed center crop."
+    },
+    {
+      "source_image_id": 551791,
+      "review_index": 68,
+      "image_sha256": "7fdba22d5be99ab427f4023356ee04d14717b5e78fa8cb56cb4676cfd3016e8d",
+      "status": "accepted",
+      "reason": "Both target objects and the annotated relation are visually identifiable in the displayed center crop."
+    },
+    {
+      "source_image_id": 14600,
+      "review_index": 69,
+      "image_sha256": "32ff3d1246463d74ad7603dbf242230be2486a3cd67db8bf1b7219439f80cd46",
+      "status": "rejected",
+      "reason": "Targets are painted mural figures rather than directly visible natural objects."
+    },
+    {
+      "source_image_id": 6484,
+      "review_index": 70,
+      "image_sha256": "38e72f004e4d46e003fa67f4deca961a0093f417ffef62307c92e5138ea68edf",
+      "status": "rejected",
+      "reason": "Target cup is visually ambiguous with a bowl; other cup-like objects are present."
+    },
+    {
+      "source_image_id": 123842,
+      "review_index": 71,
+      "image_sha256": "f40645e2f9d38dc5bba48c9eae54ac31838beff988851b942a8ad63685fc6952",
+      "status": "rejected",
+      "reason": "Targets appear inside a television screen rather than as directly visible objects in the scene."
+    },
+    {
+      "source_image_id": 102349,
+      "review_index": 72,
+      "image_sha256": "afad95c207e643d1371f23422dd089894389cb86e8c0b297ae579379d0e1471b",
+      "status": "rejected",
+      "reason": "Target bicycle is a very small, heavily occluded fragment among people."
+    },
+    {
+      "source_image_id": 295693,
+      "review_index": 73,
+      "image_sha256": "670f3c722fcb9cd7760bcd7432e9b945b701f364e73adb9c39b97ef856bcf19b",
+      "status": "accepted",
+      "reason": "Both target objects and the annotated relation are visually identifiable in the displayed center crop."
+    },
+    {
+      "source_image_id": 287335,
+      "review_index": 74,
+      "image_sha256": "cfdb5b22f65df754a64d34067fa265b138b19855948db5a76514e4be9a945fc8",
+      "status": "accepted",
+      "reason": "Both target objects and the annotated relation are visually identifiable in the displayed center crop."
+    },
+    {
+      "source_image_id": 27578,
+      "review_index": 75,
+      "image_sha256": "db2b3b86d436403c48495239a2d742d24c2822b69084c716bf288b0db6cb6a56",
+      "status": "rejected",
+      "reason": "Target TV is almost entirely occluded by a foreground person."
+    },
+    {
+      "source_image_id": 419974,
+      "review_index": 76,
+      "image_sha256": "eff82e4b2a14a39e1f76d1ef1f4dc986866d985f679367e45c8c071a1f4078cf",
+      "status": "rejected",
+      "reason": "Target bench is an occluded furniture fragment and not reliably identifiable."
+    },
+    {
+      "source_image_id": 488201,
+      "review_index": 77,
+      "image_sha256": "a6c823247da3f2bd7afd9f3921aac6392e7acfcc26b790b2365dca986eb2de81",
+      "status": "accepted",
+      "reason": "Both target objects and the annotated relation are visually identifiable in the displayed center crop."
+    },
+    {
+      "source_image_id": 313246,
+      "review_index": 78,
+      "image_sha256": "4625168b39f01b0a2fc2dac8c0627e48ce966561f08801b384868b8486949f8f",
+      "status": "accepted",
+      "reason": "Both target objects and the annotated relation are visually identifiable in the displayed center crop."
+    },
+    {
+      "source_image_id": 222430,
+      "review_index": 79,
+      "image_sha256": "f6227745aa39cbd8a150dae52e8679cfcc9bb8c3f560568e228793291a62d860",
+      "status": "accepted",
+      "reason": "Both target objects and the annotated relation are visually identifiable in the displayed center crop."
+    },
+    {
+      "source_image_id": 503294,
+      "review_index": 80,
+      "image_sha256": "5335be3f48350007c11736fa9df4ee26683dd05a17359f82c8ed4ad8035476d1",
+      "status": "accepted",
+      "reason": "Both target objects and the annotated relation are visually identifiable in the displayed center crop."
+    },
+    {
+      "source_image_id": 463360,
+      "review_index": 81,
+      "image_sha256": "dc09433808d6a03ab4d0e9af5486f0433ed02af8768ffa0cdbeeaaac9907ce12",
+      "status": "rejected",
+      "reason": "Target labeled TV resembles a framed picture; identity is uncertain."
+    },
+    {
+      "source_image_id": 464196,
+      "review_index": 82,
+      "image_sha256": "3f6c6e2d6899a78705da896aac5d8a336b33a5dbd855cd68beaab077134b2977",
+      "status": "rejected",
+      "reason": "Target chair is almost entirely hidden behind laptops."
+    },
+    {
+      "source_image_id": 498319,
+      "review_index": 83,
+      "image_sha256": "16bbfa7216a7dc9713bc40ce062bc29595a08a68539ae5e46a820d1a9ec44943",
+      "status": "rejected",
+      "reason": "The labeled oven appears to be a microwave; class identity mismatch."
+    },
+    {
+      "source_image_id": 570848,
+      "review_index": 84,
+      "image_sha256": "b9cbf995a9ae5cd787255b29006e2438bcef6c7c64803eed8a78383644840162",
+      "status": "accepted",
+      "reason": "Both target objects and the annotated relation are visually identifiable in the displayed center crop."
+    },
+    {
+      "source_image_id": 248314,
+      "review_index": 85,
+      "image_sha256": "b6b1cf5511ed5a690b596376813360b46b180c3fa8c3c3ef9cead9b5647f87e1",
+      "status": "accepted",
+      "reason": "Both target objects and the annotated relation are visually identifiable in the displayed center crop."
+    },
+    {
+      "source_image_id": 495090,
+      "review_index": 86,
+      "image_sha256": "65b7d7ce7966326e094584ca1767ca4bb8e6ee1db16bf70e2bf0bbd4f619969e",
+      "status": "rejected",
+      "reason": "The carrot box largely covers rice/container and the apple resembles a tomato; labels are ambiguous."
+    },
+    {
+      "source_image_id": 260486,
+      "review_index": 87,
+      "image_sha256": "86c71c2d26dee990c7c4d3df0b3396f70234a8f62ed66bfd6fa7f46e7b4b6558",
+      "status": "accepted",
+      "reason": "Both target objects and the annotated relation are visually identifiable in the displayed center crop."
+    },
+    {
+      "source_image_id": 116362,
+      "review_index": 88,
+      "image_sha256": "016c0d06fa81cdd90a9516c582b0627fc091ca00030db77a903f3db2b310e2ca",
+      "status": "rejected",
+      "reason": "Dining-table box covers an arbitrary background fragment, making the proposed above relation ambiguous."
+    },
+    {
+      "source_image_id": 73139,
+      "review_index": 89,
+      "image_sha256": "6c37398274e31f628b9f4a8fc0a24e7f471f24016271044b5e84db07c348cb50",
+      "status": "rejected",
+      "reason": "The spoon is a sculpted decorative element of the clock rather than a direct object."
+    },
+    {
+      "source_image_id": 462213,
+      "review_index": 90,
+      "image_sha256": "104a8fe7b40accb463681a9d5bb13f9570244330b1d6ae1b6b96560768f0bbf1",
+      "status": "accepted",
+      "reason": "Both target objects and the annotated relation are visually identifiable in the displayed center crop."
+    },
+    {
+      "source_image_id": 150417,
+      "review_index": 91,
+      "image_sha256": "5266b827e5baf363e25b5d7cbdd7ac9b3a216ae7e1bbb189525adc2c6274b4a2",
+      "status": "rejected",
+      "reason": "Target chair is heavily occluded by the seated person."
+    },
+    {
+      "source_image_id": 253485,
+      "review_index": 92,
+      "image_sha256": "3735a13faaade4b3f40676e6833b73298287bba6a1d55d95f748087e08e1b26b",
+      "status": "accepted",
+      "reason": "Both target objects and the annotated relation are visually identifiable in the displayed center crop."
+    },
+    {
+      "source_image_id": 503005,
+      "review_index": 93,
+      "image_sha256": "7a7463af836575469d78d3634d5df62adea6d3c18200c3452b4af110754b6f3a",
+      "status": "rejected",
+      "reason": "Target person is part of a statue, not a directly visible person."
+    },
+    {
+      "source_image_id": 444343,
+      "review_index": 94,
+      "image_sha256": "3a8bfcb59ca106dd7c7b796e64a89198aaf9199133a497bf36862fdcb32b77da",
+      "status": "rejected",
+      "reason": "Targets are printed/decorative elements on a toy; cat/tie identities are ambiguous."
+    },
+    {
+      "source_image_id": 532963,
+      "review_index": 95,
+      "image_sha256": "1a02f59d43bf701157397427a441f03b0ba654affe0022367ebb7436064116da",
+      "status": "rejected",
+      "reason": "Target handbag is mostly outside/behind the chair; only its strap is visible."
+    },
+    {
+      "source_image_id": 363581,
+      "review_index": 96,
+      "image_sha256": "7499f8ea0e576444807ad1d81453aa3f10d7d48f3403edddbf862a9d654a0418",
+      "status": "rejected",
+      "reason": "Target bench is almost entirely occluded by diners; only a backrest fragment is visible."
+    },
+    {
+      "source_image_id": 357604,
+      "review_index": 97,
+      "image_sha256": "9e086a27c672b8aa06e06d227df9e01d0b0f345de3b4891f08643a51c11a9c5c",
+      "status": "accepted",
+      "reason": "Both target objects and the annotated relation are visually identifiable in the displayed center crop."
+    },
+    {
+      "source_image_id": 426205,
+      "review_index": 98,
+      "image_sha256": "980d8723cfa08f651f38b0450601df0797023b3c671c1461279e199855e96f4f",
+      "status": "accepted",
+      "reason": "Both target objects and the annotated relation are visually identifiable in the displayed center crop."
+    },
+    {
+      "source_image_id": 445371,
+      "review_index": 99,
+      "image_sha256": "9993e45411c02ebc364d286062075e6807d2f957536c49f08de161910d158c62",
+      "status": "accepted",
+      "reason": "Both target objects and the annotated relation are visually identifiable in the displayed center crop."
+    },
+    {
+      "source_image_id": 429261,
+      "review_index": 100,
+      "image_sha256": "e0ca493edc795d614c7614354ad2ed6ef3f4b48f6cd988f95260a9d5a45d8a74",
+      "status": "rejected",
+      "reason": "The labeled hot dog resembles a round sandwich, and target fork is not clearly visible."
+    },
+    {
+      "source_image_id": 151938,
+      "review_index": 101,
+      "image_sha256": "4400e146316c97048244f429dc0e75979e5d992a9a2586631c8f78345381e433",
+      "status": "accepted",
+      "reason": "Both target objects and the annotated relation are visually identifiable in the displayed center crop."
+    },
+    {
+      "source_image_id": 20553,
+      "review_index": 102,
+      "image_sha256": "739fee1c09f6d7c1670d2f558f70d2aea2ea6863a964c5a9582ca3bb70a55cb5",
+      "status": "rejected",
+      "reason": "Target umbrella is an indistinct collapsed patterned object; identity is uncertain."
+    },
+    {
+      "source_image_id": 235399,
+      "review_index": 103,
+      "image_sha256": "81d6bac01b9ef3cac3887cdba47e1eb9fce0bb29d4ef112ece0a70c3ebc1f771",
+      "status": "rejected",
+      "reason": "The labeled bed appears as a wrapped upright furniture/mattress fragment."
+    },
+    {
+      "source_image_id": 555144,
+      "review_index": 104,
+      "image_sha256": "c0b61b410684e1e9fd53dcb2e60b19111d7172c170827801a44be0fa3244c1c6",
+      "status": "rejected",
+      "reason": "The labeled TV is a projected image on a screen rather than a clearly identifiable TV/monitor."
+    },
+    {
+      "source_image_id": 391656,
+      "review_index": 105,
+      "image_sha256": "8b3176df3599d62c0eda723447df3da22eb065273bb72d5e1a4bc2b0fc7155be",
+      "status": "accepted",
+      "reason": "Both target objects and the annotated relation are visually identifiable in the displayed center crop."
+    },
+    {
+      "source_image_id": 160811,
+      "review_index": 106,
+      "image_sha256": "243953ce46c9e701b0cb7c845afa09676b8266887f93c7070e624370f7372ee3",
+      "status": "accepted",
+      "reason": "Both target objects and the annotated relation are visually identifiable in the displayed center crop."
+    },
+    {
+      "source_image_id": 45406,
+      "review_index": 107,
+      "image_sha256": "8fa07f5720cbf963b201a5ad92b888bb3aef7efc63dc97c1b6668fbacdbe819a",
+      "status": "accepted",
+      "reason": "Both target objects and the annotated relation are visually identifiable in the displayed center crop."
+    },
+    {
+      "source_image_id": 4296,
+      "review_index": 108,
+      "image_sha256": "b87f186d4d54c3ef2431a1fbcc9aff5b289fcbb59150da75c28bfdeb696f8560",
+      "status": "accepted",
+      "reason": "Both target objects and the annotated relation are visually identifiable in the displayed center crop."
+    },
+    {
+      "source_image_id": 478155,
+      "review_index": 109,
+      "image_sha256": "f582521754a9a5f5f9db1352c02de25b7046305df824294c74a9617a8da467d0",
+      "status": "accepted",
+      "reason": "Both target objects and the annotated relation are visually identifiable in the displayed center crop."
+    },
+    {
+      "source_image_id": 480122,
+      "review_index": 110,
+      "image_sha256": "59388d47e3ddcabe229718019086d04ad7ef4ef15b38e69c71348191cbaf0b6f",
+      "status": "rejected",
+      "reason": "Target refrigerator resembles an under-counter dishwasher; identity is uncertain."
+    },
+    {
+      "source_image_id": 335992,
+      "review_index": 111,
+      "image_sha256": "31e66b897699933bb07e8d3d2667e88112400bbe23bb1e40d347de060d2e3e5f",
+      "status": "rejected",
+      "reason": "The file is a side-by-side collage, so objects do not share one natural scene."
+    },
+    {
+      "source_image_id": 378831,
+      "review_index": 112,
+      "image_sha256": "50a848f1be7c00ef41d7e57019eddb00fb58ef9adbd64db2cf3a9b63a3d110ca",
+      "status": "accepted",
+      "reason": "Both target objects and the annotated relation are visually identifiable in the displayed center crop."
+    },
+    {
+      "source_image_id": 172595,
+      "review_index": 113,
+      "image_sha256": "faa06206531e26d29bed2d1ecca535d5496a017e1e88a7329f19bf4a5574a83b",
+      "status": "accepted",
+      "reason": "Both target objects and the annotated relation are visually identifiable in the displayed center crop."
+    },
+    {
+      "source_image_id": 349822,
+      "review_index": 114,
+      "image_sha256": "ac6226305bfbe578f85db25d99f77f1e6e6d88a012b50ef15bdb8fbbebfb02d0",
+      "status": "rejected",
+      "reason": "The labeled umbrella is an ambiguous small object held by the person."
+    },
+    {
+      "source_image_id": 177496,
+      "review_index": 115,
+      "image_sha256": "1496381ad47e03924857e497c93d23f5f5bbc97e5ac22b90b0e031c2deed9c17",
+      "status": "accepted",
+      "reason": "Both target objects and the annotated relation are visually identifiable in the displayed center crop."
+    },
+    {
+      "source_image_id": 225603,
+      "review_index": 116,
+      "image_sha256": "6e5fe6aced07d2841d75c6dc4925e9ce56c69cee846b697b9355365abeb707d9",
+      "status": "accepted",
+      "reason": "Both target objects and the annotated relation are visually identifiable in the displayed center crop."
+    },
+    {
+      "source_image_id": 527054,
+      "review_index": 117,
+      "image_sha256": "9979914ddd95175fefb9c8276a965367e801a7c1ebba3b2be34e153082e7ca71",
+      "status": "rejected",
+      "reason": "The labeled fire hydrant appears to be a street bollard."
+    },
+    {
+      "source_image_id": 153631,
+      "review_index": 118,
+      "image_sha256": "8d1855c7aae80aaa97c51e6cb63d415eb479d2a44bcb7bacaf4c6b79757c8c04",
+      "status": "rejected",
+      "reason": "The labeled suitcase appears to be a ball container/cart; identity is uncertain."
+    },
+    {
+      "source_image_id": 69021,
+      "review_index": 119,
+      "image_sha256": "9677fe83e273625ba8e0103c7ba0d39ee9d7c1a7cca551c6ed5f7fda994a7ff1",
+      "status": "accepted",
+      "reason": "Both target objects and the annotated relation are visually identifiable in the displayed center crop."
+    },
+    {
+      "source_image_id": 156832,
+      "review_index": 120,
+      "image_sha256": "bae9eb441783ed87aa8876de4dba5d9c44d2f5688b94144c1f186a17e8de16a8",
+      "status": "accepted",
+      "reason": "Both target objects and the annotated relation are visually identifiable in the displayed center crop."
+    },
+    {
+      "source_image_id": 323552,
+      "review_index": 121,
+      "image_sha256": "20e10432e94124ac1243fb4b2802d536d21a0f32f98b18ef8356caf11fa5f8af",
+      "status": "accepted",
+      "reason": "Both target objects and the annotated relation are visually identifiable in the displayed center crop."
+    },
+    {
+      "source_image_id": 501855,
+      "review_index": 122,
+      "image_sha256": "7ddb043cb0b5175937846b6b886519666084c90ad2bdffc77a1d22dd989c3131",
+      "status": "accepted",
+      "reason": "Both target objects and the annotated relation are visually identifiable in the displayed center crop."
+    },
+    {
+      "source_image_id": 190292,
+      "review_index": 123,
+      "image_sha256": "157976b09f26a528ab89f28c7259dff63c823db21269b35dfafb8192a40e7fcd",
+      "status": "accepted",
+      "reason": "Both target objects and the annotated relation are visually identifiable in the displayed center crop."
+    },
+    {
+      "source_image_id": 468917,
+      "review_index": 124,
+      "image_sha256": "8b22b148c7646583b9579365c46336cec942ff89445738b8580eab6f0b7339e4",
+      "status": "accepted",
+      "reason": "Both target objects and the annotated relation are visually identifiable in the displayed center crop."
+    },
+    {
+      "source_image_id": 210522,
+      "review_index": 125,
+      "image_sha256": "e78e8c7b27a55825cc364b2c97401d60692359546e1475a9fc4b8eac0b551fa2",
+      "status": "rejected",
+      "reason": "Target backpack is largely hidden; only straps are visible."
+    },
+    {
+      "source_image_id": 214388,
+      "review_index": 126,
+      "image_sha256": "2a44bb4b0e8c33e738766ea7b998b6e1607b4845c7a7ec977a89097f61930734",
+      "status": "rejected",
+      "reason": "The labeled sandwich is a food item of uncertain identity."
+    },
+    {
+      "source_image_id": 245013,
+      "review_index": 127,
+      "image_sha256": "3be7a0a1a33eb8dac487c16bc120da3660ad48e6d92d453bad07ddca384bf516",
+      "status": "rejected",
+      "reason": "The labeled teddy bear appears to be a large inflatable cartoon dog."
+    },
+    {
+      "source_image_id": 66635,
+      "review_index": 128,
+      "image_sha256": "0969fb5fb163065ac5f0a8ee922db3339a3e099086a40f6d4da4b3254fc1a422",
+      "status": "accepted",
+      "reason": "Both target objects and the annotated relation are visually identifiable in the displayed center crop."
+    },
+    {
+      "source_image_id": 220915,
+      "review_index": 129,
+      "image_sha256": "6fa746653acbf2c4e3345708bbbec57c81d6ffaad0ddc6bddff76b8bd2852311",
+      "status": "accepted",
+      "reason": "Both target objects and the annotated relation are visually identifiable in the displayed center crop."
+    },
+    {
+      "source_image_id": 291816,
+      "review_index": 130,
+      "image_sha256": "ba6f2d6aa87ea83ee5c3e01ed7672b7f67d2448d0aba3fecba0ce21c7cb6b3f5",
+      "status": "accepted",
+      "reason": "Both target objects and the annotated relation are visually identifiable in the displayed center crop."
+    },
+    {
+      "source_image_id": 507081,
+      "review_index": 131,
+      "image_sha256": "b8e13828ed5a8b34552854684bd8fb1f2b4f621a0a8729fa5693a20e4d166dde",
+      "status": "accepted",
+      "reason": "Both target objects and the annotated relation are visually identifiable in the displayed center crop."
+    },
+    {
+      "source_image_id": 25986,
+      "review_index": 132,
+      "image_sha256": "721b718fe15a4f3739c0673acde4fa224ae7839f9317e7e66d256653551ea23b",
+      "status": "accepted",
+      "reason": "Both target objects and the annotated relation are visually identifiable in the displayed center crop."
+    },
+    {
+      "source_image_id": 48129,
+      "review_index": 133,
+      "image_sha256": "66ec7d70bd10120f78199d3ede98d28b752add4ef960ba536ce9e36e457ef7aa",
+      "status": "rejected",
+      "reason": "Target cup is mostly cut off at the image edge."
+    },
+    {
+      "source_image_id": 470935,
+      "review_index": 134,
+      "image_sha256": "e85cced333e0307b53aba5182cd818acb1f5b12dfdb6d66e5456986990e87260",
+      "status": "accepted",
+      "reason": "Both target objects and the annotated relation are visually identifiable in the displayed center crop."
+    },
+    {
+      "source_image_id": 578788,
+      "review_index": 135,
+      "image_sha256": "b1f23336aa1b3ad23fcd5248dff9b9a1e7151626130816779bbb36f42c6ad0f9",
+      "status": "rejected",
+      "reason": "Target truck is a small heavily occluded background fragment behind the fence."
+    },
+    {
+      "source_image_id": 239894,
+      "review_index": 136,
+      "image_sha256": "79cfff40fc14c76c7bbe9a409b91ef1b03ec7759cb8e6ea94b277e49f810828b",
+      "status": "rejected",
+      "reason": "Target bench is an indistinct background furniture fragment."
+    },
+    {
+      "source_image_id": 215787,
+      "review_index": 137,
+      "image_sha256": "a481681d7d8360aa844c829bccb83307246da1d85e48f7ec7fc778463fb981ec",
+      "status": "accepted",
+      "reason": "Both target objects and the annotated relation are visually identifiable in the displayed center crop."
+    },
+    {
+      "source_image_id": 434098,
+      "review_index": 138,
+      "image_sha256": "882db9644c017ad7d8a5a238e096242c190d5c4fe24b7690895e4026ece6d691",
+      "status": "accepted",
+      "reason": "Both target objects and the annotated relation are visually identifiable in the displayed center crop."
+    },
+    {
+      "source_image_id": 558911,
+      "review_index": 139,
+      "image_sha256": "96a4763a93544e614258df3870a33f8856d6f8ae16f193231512ec5cd93882ce",
+      "status": "rejected",
+      "reason": "Target orange is strongly defocused; apple slice identity is also uncertain."
+    },
+    {
+      "source_image_id": 548201,
+      "review_index": 140,
+      "image_sha256": "16aa1953ce6e463586a8a859a07b46006a7d099220f73ae512a98477be234ee5",
+      "status": "accepted",
+      "reason": "Both target objects and the annotated relation are visually identifiable in the displayed center crop."
+    },
+    {
+      "source_image_id": 279265,
+      "review_index": 141,
+      "image_sha256": "71b356b476fc18b7c7b12e98e097f546a762e3dd5d4d1d099c70a6a1281a803a",
+      "status": "accepted",
+      "reason": "Both target objects and the annotated relation are visually identifiable in the displayed center crop."
+    },
+    {
+      "source_image_id": 150320,
+      "review_index": 142,
+      "image_sha256": "62dd03bbcef90a86d8e2684d5e261bce659ba660cf930096a63f783b0203ee2c",
+      "status": "accepted",
+      "reason": "Both target objects and the annotated relation are visually identifiable in the displayed center crop."
+    },
+    {
+      "source_image_id": 543393,
+      "review_index": 143,
+      "image_sha256": "987dc4d6f52bd818aa809380cd076a4a8e19876e3aba1890c4a0142396104491",
+      "status": "accepted",
+      "reason": "Both target objects and the annotated relation are visually identifiable in the displayed center crop."
+    },
+    {
+      "source_image_id": 355214,
+      "review_index": 144,
+      "image_sha256": "36e499aa3f579c9c924ef0e5ca4ae099be545ea899e0e50b6c4508230f615339",
+      "status": "accepted",
+      "reason": "Both target objects and the annotated relation are visually identifiable in the displayed center crop."
+    },
+    {
+      "source_image_id": 534081,
+      "review_index": 145,
+      "image_sha256": "ce69b5b80a9a25a3e72cf1396752de14cf31782f1b329411665efe1435db7c3b",
+      "status": "accepted",
+      "reason": "Both target objects and the annotated relation are visually identifiable in the displayed center crop."
+    },
+    {
+      "source_image_id": 514773,
+      "review_index": 146,
+      "image_sha256": "b7616c66c2a172ac2e19b3e488d18ad2a9d8e88c97340ff4ec1b0f10a3818b5b",
+      "status": "accepted",
+      "reason": "Both target objects and the annotated relation are visually identifiable in the displayed center crop."
+    },
+    {
+      "source_image_id": 141017,
+      "review_index": 147,
+      "image_sha256": "12b5dc1e8b8359bd98f425d858f612e1b38c273e53111eca059628745c93a22d",
+      "status": "accepted",
+      "reason": "Both target objects and the annotated relation are visually identifiable in the displayed center crop."
+    },
+    {
+      "source_image_id": 179563,
+      "review_index": 148,
+      "image_sha256": "e70d7c7a766bec0c49b99480bf8a319d76ea835aefccf827788103014e1080aa",
+      "status": "accepted",
+      "reason": "Both target objects and the annotated relation are visually identifiable in the displayed center crop."
+    },
+    {
+      "source_image_id": 44677,
+      "review_index": 149,
+      "image_sha256": "882a95b12ff463bd8b29c010fb6f6bebc3955a0661808e51b3996e4a309fb41d",
+      "status": "rejected",
+      "reason": "Target labeled fork appears to be a spoon; utensil identity mismatch."
+    },
+    {
+      "source_image_id": 359659,
+      "review_index": 150,
+      "image_sha256": "c868ae3179086eab69d2bc5e575d3cc11ac3e1598c610d3cbd39dccfbfe30520",
+      "status": "accepted",
+      "reason": "Both target objects and the annotated relation are visually identifiable in the displayed center crop."
+    },
+    {
+      "source_image_id": 572811,
+      "review_index": 151,
+      "image_sha256": "1e6fb7b2a8c778e3db6bc6a0524ef1f494a7327672390e949741b13471a4d3b2",
+      "status": "rejected",
+      "reason": "Target labeled hot dog appears to be a wrapped sandwich/burrito; identity is uncertain."
+    },
+    {
+      "source_image_id": 76518,
+      "review_index": 152,
+      "image_sha256": "1f125b89a3cc6d9e2029baba9992ebbeafc6e5483a306435ab9e42c6490f6d3c",
+      "status": "accepted",
+      "reason": "Both target objects and the annotated relation are visually identifiable in the displayed center crop."
+    },
+    {
+      "source_image_id": 476787,
+      "review_index": 153,
+      "image_sha256": "e349a7e122f8e2804bdcb3b959edc9acdc0a915949a7e4e986096d4d2398d195",
+      "status": "accepted",
+      "reason": "Both target objects and the annotated relation are visually identifiable in the displayed center crop."
+    },
+    {
+      "source_image_id": 235621,
+      "review_index": 154,
+      "image_sha256": "77475f728e3230b75c4d86d7fa1c195c6d75d2eb40326dff9f3cc173fa94b877",
+      "status": "accepted",
+      "reason": "Both target objects and the annotated relation are visually identifiable in the displayed center crop."
+    },
+    {
+      "source_image_id": 253441,
+      "review_index": 155,
+      "image_sha256": "d8c68e15e613b5f7e17a5f21af376b0de2f7e40151a715aa75ff8fad532b83b6",
+      "status": "accepted",
+      "reason": "Both target objects and the annotated relation are visually identifiable in the displayed center crop."
+    },
+    {
+      "source_image_id": 56426,
+      "review_index": 156,
+      "image_sha256": "c32b68ebae4e5a808fd977ae9b901c7ed12c74f124b4e7f28d074354da6f287f",
+      "status": "accepted",
+      "reason": "Both target objects and the annotated relation are visually identifiable in the displayed center crop."
+    },
+    {
+      "source_image_id": 263613,
+      "review_index": 157,
+      "image_sha256": "5e33384b3d14bce8733aea7f065879e14df4fbfe9a58e532460ddf6be0302c9c",
+      "status": "rejected",
+      "reason": "Image is a fantastical composite/collage rather than one natural scene."
+    },
+    {
+      "source_image_id": 260974,
+      "review_index": 158,
+      "image_sha256": "64452d7e3e42826b94444fea7db6795d8f1b172fad6d7a0ef50a14c904e01cc3",
+      "status": "rejected",
+      "reason": "Target labeled vase resembles an outdoor chiminea/fireplace; identity is uncertain."
+    },
+    {
+      "source_image_id": 517807,
+      "review_index": 159,
+      "image_sha256": "f831feee997c64a228773c935feef4c538b338c17b36647f0685760643e863e0",
+      "status": "rejected",
+      "reason": "Target truck is a heavily cropped and occluded vehicle fragment."
+    },
+    {
+      "source_image_id": 449675,
+      "review_index": 160,
+      "image_sha256": "a09f8e07e05e6d87652060a823dea45a022a57b229165510f05ca00e60a1e1c6",
+      "status": "accepted",
+      "reason": "Both target objects and the annotated relation are visually identifiable in the displayed center crop."
+    },
+    {
+      "source_image_id": 377910,
+      "review_index": 161,
+      "image_sha256": "1ed4041ba70f5b77be12aedb8d93b5077a19f99ceb9d05a41e97505eead284cf",
+      "status": "rejected",
+      "reason": "Target spoon is mostly hidden/indistinct among plate and cutlery."
+    },
+    {
+      "source_image_id": 201727,
+      "review_index": 162,
+      "image_sha256": "80c43373bf062ef6f830e91c5f0a2ae053c59a0e905bf030933b366f3c601ad6",
+      "status": "accepted",
+      "reason": "Both target objects and the annotated relation are visually identifiable in the displayed center crop."
+    },
+    {
+      "source_image_id": 37367,
+      "review_index": 163,
+      "image_sha256": "bf4aff524aeec5679841dc035dccbb433cd8a3965961f7e2f2e6befb9d9f8bc1",
+      "status": "accepted",
+      "reason": "Both target objects and the annotated relation are visually identifiable in the displayed center crop."
+    },
+    {
+      "source_image_id": 260655,
+      "review_index": 164,
+      "image_sha256": "aa33d811278499ead37112aa1a0b25bf3fd28ba79fa23b5ec52ea9be90051fe6",
+      "status": "accepted",
+      "reason": "Both target objects and the annotated relation are visually identifiable in the displayed center crop."
+    },
+    {
+      "source_image_id": 171548,
+      "review_index": 165,
+      "image_sha256": "9817266df81867c7a6f57034f17d16b6664ad359971bedfda106443d4fb01c0f",
+      "status": "accepted",
+      "reason": "Both target objects and the annotated relation are visually identifiable in the displayed center crop."
+    },
+    {
+      "source_image_id": 369249,
+      "review_index": 166,
+      "image_sha256": "9aef65830ea0aba3b2a36b55b764aa6cbc97e388bbebb4fdf580ca123daf7458",
+      "status": "rejected",
+      "reason": "Targets are miniature/display decorations and the umbrella is not clearly identifiable."
+    },
+    {
+      "source_image_id": 430079,
+      "review_index": 167,
+      "image_sha256": "3584396d7d7d1b8e83d0cbefda436ff44886554f780cde34090b52f865d04f31",
+      "status": "rejected",
+      "reason": "Target bird is a decorative sculpture, not a directly visible bird."
+    },
+    {
+      "source_image_id": 209299,
+      "review_index": 168,
+      "image_sha256": "8f3f525c5fd72bce1bb5148a51b085d52eca29ed24cc5efaefa292ff9af5aee6",
+      "status": "accepted",
+      "reason": "Both target objects and the annotated relation are visually identifiable in the displayed center crop."
+    },
+    {
+      "source_image_id": 93483,
+      "review_index": 169,
+      "image_sha256": "8b29c85bd791dba02924c741e623c0a5d77a1bc7786b186cd68279a2f4157d17",
+      "status": "rejected",
+      "reason": "Person is represented only by cropped feet/legs; the full-object relation is ambiguous."
+    },
+    {
+      "source_image_id": 131138,
+      "review_index": 170,
+      "image_sha256": "2598539292e89180ada7b17491bb6f7d3793dd792897e22ef8bbe21f3eec87cb",
+      "status": "rejected",
+      "reason": "Target potted plant is heavily hidden behind a monitor; its extent is ambiguous."
+    },
+    {
+      "source_image_id": 93034,
+      "review_index": 171,
+      "image_sha256": "c1e8779c1ace98f20d02468d72fb2bd7ad5585adfdf7f9bec060045ca4df0c8e",
+      "status": "rejected",
+      "reason": "Target car is a reflection/background vehicle with ambiguous instance identity."
+    },
+    {
+      "source_image_id": 139684,
+      "review_index": 172,
+      "image_sha256": "f667a657676aa38ef258dc184c33c1ed36a1b27f3e96b8eb49d9fb5599f1e103",
+      "status": "accepted",
+      "reason": "Both target objects and the annotated relation are visually identifiable in the displayed center crop."
+    },
+    {
+      "source_image_id": 436963,
+      "review_index": 173,
+      "image_sha256": "0c83a731cb904696bcad5cde090e98926b1ba3cf78fb0412b12dce26e859bca6",
+      "status": "accepted",
+      "reason": "Both target objects and the annotated relation are visually identifiable in the displayed center crop."
+    },
+    {
+      "source_image_id": 451468,
+      "review_index": 174,
+      "image_sha256": "558fa326f5a4ee566afec88dc0b3c2fa52f726bc1450dc3040ebd41cddf13976",
+      "status": "accepted",
+      "reason": "Both target objects and the annotated relation are visually identifiable in the displayed center crop."
+    },
+    {
+      "source_image_id": 348400,
+      "review_index": 175,
+      "image_sha256": "4a180c4a8aece2e1b8aa281a059a5b9b8729e0989d576c9c0d8fffe0ea75e633",
+      "status": "accepted",
+      "reason": "Both target objects and the annotated relation are visually identifiable in the displayed center crop."
+    },
+    {
+      "source_image_id": 75285,
+      "review_index": 176,
+      "image_sha256": "e6b478e84be8cb4c15068196a72555da2f4c82f2235dd88da12a0a5c35ade686",
+      "status": "accepted",
+      "reason": "Both target objects and the annotated relation are visually identifiable in the displayed center crop."
+    },
+    {
+      "source_image_id": 281534,
+      "review_index": 177,
+      "image_sha256": "40446198fcb850f257dfe8a6c969906bd0bbe8d5f323f35245fd9c2cbf9b29c1",
+      "status": "accepted",
+      "reason": "Both target objects and the annotated relation are visually identifiable in the displayed center crop."
+    },
+    {
+      "source_image_id": 43092,
+      "review_index": 178,
+      "image_sha256": "dbf68d197170853d3adefb6e8f71087b87cd6bf889f57a5e8d30ab1a452b5af2",
+      "status": "accepted",
+      "reason": "Both target objects and the annotated relation are visually identifiable in the displayed center crop."
+    },
+    {
+      "source_image_id": 541538,
+      "review_index": 179,
+      "image_sha256": "a4ffc5a2678d108d1f1149e9c9328fc8658b4b57f2b2b5f6c1210cd77cd05440",
+      "status": "accepted",
+      "reason": "Both target objects and the annotated relation are visually identifiable in the displayed center crop."
+    },
+    {
+      "source_image_id": 435069,
+      "review_index": 180,
+      "image_sha256": "95fcb91150f23ca673cccc58dcfdf40b9e52718d20972247d6f0a3e312fefeba",
+      "status": "rejected",
+      "reason": "Both target person and bicycle are strongly defocused."
+    },
+    {
+      "source_image_id": 411564,
+      "review_index": 181,
+      "image_sha256": "cb82a4cf1b09a8c34c648d4a6808d07ffacd16c418c782b3fe5ede9f0062f5f6",
+      "status": "accepted",
+      "reason": "Both target objects and the annotated relation are visually identifiable in the displayed center crop."
+    },
+    {
+      "source_image_id": 239395,
+      "review_index": 182,
+      "image_sha256": "07fda03a05b9a442c342aaeef12de153647adddf3cb11b3fc762b54107028321",
+      "status": "accepted",
+      "reason": "Both target objects and the annotated relation are visually identifiable in the displayed center crop."
+    },
+    {
+      "source_image_id": 242510,
+      "review_index": 183,
+      "image_sha256": "47f2d5fd35b71607f8e66b092883971ae7479b3d491f4ff31a492cd46f18ede1",
+      "status": "rejected",
+      "reason": "Target dog is a statue/decorative street object rather than a real dog."
+    },
+    {
+      "source_image_id": 36460,
+      "review_index": 184,
+      "image_sha256": "fc4fda51f2df67979a5b3242ca8c3f0331ffacfc0bea0497526b9de447f952b0",
+      "status": "accepted",
+      "reason": "Both target objects and the annotated relation are visually identifiable in the displayed center crop."
+    },
+    {
+      "source_image_id": 138549,
+      "review_index": 185,
+      "image_sha256": "48d92f8fea43dd1243421908085b2a4e8335d5a8fbdc1ba3d5414eed1b43f4a6",
+      "status": "accepted",
+      "reason": "Both target objects and the annotated relation are visually identifiable in the displayed center crop."
+    },
+    {
+      "source_image_id": 259136,
+      "review_index": 186,
+      "image_sha256": "15418fb13c1b612deddcf8aba7fe64a58d184717600fbd9d2c76182ef52e0972",
+      "status": "accepted",
+      "reason": "Both target objects and the annotated relation are visually identifiable in the displayed center crop."
+    },
+    {
+      "source_image_id": 405188,
+      "review_index": 187,
+      "image_sha256": "89927b920cde03a9e5022b686eee00da82f9e40dd15839a687620b0b0719bf32",
+      "status": "accepted",
+      "reason": "Both target objects and the annotated relation are visually identifiable in the displayed center crop."
+    },
+    {
+      "source_image_id": 511572,
+      "review_index": 188,
+      "image_sha256": "6f77310d21527a726d5806b7ef0da1c32b2f147dc7be43b84c16b23293920e2f",
+      "status": "rejected",
+      "reason": "Target cup is an unrecognizable blue patch at the image edge."
+    },
+    {
+      "source_image_id": 188768,
+      "review_index": 189,
+      "image_sha256": "2f2e9c01dfcd9347073edab8a6ce5ee62157cb1a89155359dcc48f4705b39858",
+      "status": "rejected",
+      "reason": "Sandwich-like item may be a decorated cake and the chair is mostly cropped."
+    },
+    {
+      "source_image_id": 528866,
+      "review_index": 190,
+      "image_sha256": "1b089093d925b697131fad846aeaa6fa41c500060a744306fd5850f205ef5c1c",
+      "status": "accepted",
+      "reason": "Both target objects and the annotated relation are visually identifiable in the displayed center crop."
+    },
+    {
+      "source_image_id": 505862,
+      "review_index": 191,
+      "image_sha256": "a40649d4def864d1479eef257919081d372c9bfa2e08302b2c4bbed051afa2a2",
+      "status": "rejected",
+      "reason": "Target truck is a small occluded background region and cannot be identified reliably."
+    },
+    {
+      "source_image_id": 193474,
+      "review_index": 192,
+      "image_sha256": "07257882dca87c69b54b61bdad14ca9fa8d9c2ba3c8614cbce8e345e1d564870",
+      "status": "rejected",
+      "reason": "Surfboard is submerged/obscured by the wave and not clearly visible."
+    },
+    {
+      "source_image_id": 269429,
+      "review_index": 193,
+      "image_sha256": "d3347d25a346df974c8954961dbef573d8ff048b6d79747f565cfd675d22eb7c",
+      "status": "accepted",
+      "reason": "Both target objects and the annotated relation are visually identifiable in the displayed center crop."
+    },
+    {
+      "source_image_id": 318361,
+      "review_index": 194,
+      "image_sha256": "ebc0f1444a4aafa56b0df60fd602a72b4b4920573f28c6105bf5d8ef9a6e839b",
+      "status": "accepted",
+      "reason": "Both target objects and the annotated relation are visually identifiable in the displayed center crop."
+    },
+    {
+      "source_image_id": 264222,
+      "review_index": 195,
+      "image_sha256": "96a607466a499a3017bac9aa22f2aa39008262f734b2ff0524b3125c9be8c2cb",
+      "status": "accepted",
+      "reason": "Both target objects and the annotated relation are visually identifiable in the displayed center crop."
+    },
+    {
+      "source_image_id": 339678,
+      "review_index": 196,
+      "image_sha256": "9fc24ac2c5a243e4037bc562e4de572b6e72b00b4c951f8f2c0e2658b6cf1694",
+      "status": "rejected",
+      "reason": "Target hydrant is mostly buried in snow; its identifying structure is unclear."
+    },
+    {
+      "source_image_id": 357860,
+      "review_index": 197,
+      "image_sha256": "6898f470eb7a6b237c42e91e36cb87da15d66c979458b5f02dbd07eb19c5f09c",
+      "status": "accepted",
+      "reason": "Both target objects and the annotated relation are visually identifiable in the displayed center crop."
+    },
+    {
+      "source_image_id": 43344,
+      "review_index": 198,
+      "image_sha256": "9a8bec7a2b1862dfb89d441e6c0acc407dab28bc79c8665547662e716b33b9bb",
+      "status": "accepted",
+      "reason": "Both target objects and the annotated relation are visually identifiable in the displayed center crop."
+    },
+    {
+      "source_image_id": 160556,
+      "review_index": 199,
+      "image_sha256": "864231b70723ca0112be41dd13c67442eb700e8803da3becb5019637aff3e0e9",
+      "status": "accepted",
+      "reason": "Both target objects and the annotated relation are visually identifiable in the displayed center crop."
+    },
+    {
+      "source_image_id": 513129,
+      "review_index": 200,
+      "image_sha256": "d261174da80643115e16415298d1665fa751950d478c7fda8ffd6b3bc7b6458e",
+      "status": "accepted",
+      "reason": "Both target objects and the annotated relation are visually identifiable in the displayed center crop."
+    },
+    {
+      "source_image_id": 556178,
+      "review_index": 201,
+      "image_sha256": "a1d754915433251ac24dd99a69ce103fc12901824a3be1a141a0ad36276c20a9",
+      "status": "accepted",
+      "reason": "Both target objects and the annotated relation are visually identifiable in the displayed center crop."
+    },
+    {
+      "source_image_id": 43957,
+      "review_index": 202,
+      "image_sha256": "a0f17a5be09918629f54ecc6b86b3e2f5086ad2bf384f450c929dac7a0b83bd0",
+      "status": "accepted",
+      "reason": "Both target objects and the annotated relation are visually identifiable in the displayed center crop."
+    },
+    {
+      "source_image_id": 214720,
+      "review_index": 203,
+      "image_sha256": "cf4451b5d6da75e93529fb45b0cfd3a189d65ca52d25ec1afb7cf999d0232ccb",
+      "status": "accepted",
+      "reason": "Both target objects and the annotated relation are visually identifiable in the displayed center crop."
+    },
+    {
+      "source_image_id": 233528,
+      "review_index": 204,
+      "image_sha256": "73ea25f9bb92366e57c47c26753216b39a74f2450080589f22dd05f939583a90",
+      "status": "accepted",
+      "reason": "Both target objects and the annotated relation are visually identifiable in the displayed center crop."
+    },
+    {
+      "source_image_id": 12147,
+      "review_index": 205,
+      "image_sha256": "81e96ea0c5c81cb1b9fb678324f54ba6062d0a21ac945a4cd761daf8a0ecf93f",
+      "status": "rejected",
+      "reason": "Person target is blurred and overlaps another human silhouette; instance identity is ambiguous."
+    },
+    {
+      "source_image_id": 389753,
+      "review_index": 206,
+      "image_sha256": "a115e3b807f90aa77fce23222ded2b10495dad79a365693912ff715788c5459f",
+      "status": "accepted",
+      "reason": "Both target objects and the annotated relation are visually identifiable in the displayed center crop."
+    },
+    {
+      "source_image_id": 114187,
+      "review_index": 207,
+      "image_sha256": "2ebd1b87977f230f287e08ec631f99e40c131b7618e7b209938e5b3df04b3843",
+      "status": "accepted",
+      "reason": "Both target objects and the annotated relation are visually identifiable in the displayed center crop."
+    },
+    {
+      "source_image_id": 539238,
+      "review_index": 208,
+      "image_sha256": "a044a27bc547b94350664852c4ce065d53f4bda59c74ec5f66711281b31ce32a",
+      "status": "rejected",
+      "reason": "Target dining table is heavily occluded by furniture/cloth and difficult to identify."
+    },
+    {
+      "source_image_id": 288955,
+      "review_index": 209,
+      "image_sha256": "1f6cacaac4241e8660250cfb32f6d67a2cb884a1deb45bfd0e293e6329dc1896",
+      "status": "accepted",
+      "reason": "Both target objects and the annotated relation are visually identifiable in the displayed center crop."
+    },
+    {
+      "source_image_id": 578391,
+      "review_index": 210,
+      "image_sha256": "e1cd862d4ab9e4dcbd63041787017c8db3d51b333949faad0fd19233076522fd",
+      "status": "rejected",
+      "reason": "The labeled vase appears to be a craft/paper object and the table target is ambiguous."
+    },
+    {
+      "source_image_id": 9801,
+      "review_index": 211,
+      "image_sha256": "1f59fe5feb83e6a5285a167018a7813550e21ba924cbf67bc221f3cab82f48c8",
+      "status": "accepted",
+      "reason": "Both target objects and the annotated relation are visually identifiable in the displayed center crop."
+    },
+    {
+      "source_image_id": 233223,
+      "review_index": 212,
+      "image_sha256": "4e9459c0c55c3019827f6871c3e47bf3d9a050741a0f923e96d0643d236c691f",
+      "status": "rejected",
+      "reason": "Target chair is almost completely hidden behind children and toys."
+    },
+    {
+      "source_image_id": 526321,
+      "review_index": 213,
+      "image_sha256": "74b038f445a49a7a76ca900eea35716f9667817acdde8ffb490205e7a7505e11",
+      "status": "accepted",
+      "reason": "Both target objects and the annotated relation are visually identifiable in the displayed center crop."
+    },
+    {
+      "source_image_id": 267725,
+      "review_index": 214,
+      "image_sha256": "c95ea224a9937f0d94826de1e5e9bc5f2cc0376ff461b5dce6c61059010fbdde",
+      "status": "rejected",
+      "reason": "Target suitcase is unrecognizable; person is also mostly hidden."
+    },
+    {
+      "source_image_id": 422654,
+      "review_index": 215,
+      "image_sha256": "eb5e2feaadc24110c81f631777f3dea89e137a23ca8f153ae5891505625de8fc",
+      "status": "rejected",
+      "reason": "Target labeled TV resembles a framed wall picture rather than a clear display."
+    },
+    {
+      "source_image_id": 193271,
+      "review_index": 216,
+      "image_sha256": "454835e509211d58d75acc26756bfb72b5071b36c9056fc0d0e9b5bf5f9b4178",
+      "status": "accepted",
+      "reason": "Both target objects and the annotated relation are visually identifiable in the displayed center crop."
+    },
+    {
+      "source_image_id": 219525,
+      "review_index": 217,
+      "image_sha256": "8d0bbf66feef5da29e57537cf7c7be65645d297f06cd66e77cbc16f69be63e39",
+      "status": "accepted",
+      "reason": "Both target objects and the annotated relation are visually identifiable in the displayed center crop."
+    },
+    {
+      "source_image_id": 452623,
+      "review_index": 218,
+      "image_sha256": "210475f86840c2d0822d865d3a487cea25dd3c86813b462a07e79d3605318348",
+      "status": "rejected",
+      "reason": "Only a handle fragment of the labeled fork is visible."
+    },
+    {
+      "source_image_id": 496801,
+      "review_index": 219,
+      "image_sha256": "1e1aebb3bc9ef4e71008ee45f61b1ff59e83588076e7c1556dba80c2cc974acc",
+      "status": "accepted",
+      "reason": "Both target objects and the annotated relation are visually identifiable in the displayed center crop."
+    },
+    {
+      "source_image_id": 539423,
+      "review_index": 220,
+      "image_sha256": "501cc626ca87295ff8a297cc212205222042f6aec64c5630ef2484dd5251a075",
+      "status": "accepted",
+      "reason": "Both target objects and the annotated relation are visually identifiable in the displayed center crop."
+    },
+    {
+      "source_image_id": 264805,
+      "review_index": 221,
+      "image_sha256": "494bf4c07daa0329bd0b80eddd8a20456cdedf05eecb4e62d826ee905924cc39",
+      "status": "accepted",
+      "reason": "Both target objects and the annotated relation are visually identifiable in the displayed center crop."
+    },
+    {
+      "source_image_id": 246968,
+      "review_index": 222,
+      "image_sha256": "5f7990e5edb8b8ab72faeef5ad6391976b24c2ab14d1c05d178fba70fadfd435",
+      "status": "accepted",
+      "reason": "Both target objects and the annotated relation are visually identifiable in the displayed center crop."
+    },
+    {
+      "source_image_id": 387696,
+      "review_index": 223,
+      "image_sha256": "7bbc69f82c8f5f0265eb7f64dc171f3b6be19221ceb1a8ee3b44310d56300fd4",
+      "status": "rejected",
+      "reason": "The labeled oven is represented mainly by a cooktop and cookware; oven identity is uncertain."
+    },
+    {
+      "source_image_id": 29151,
+      "review_index": 224,
+      "image_sha256": "1fcba3e120aa9b8a5e98703e3d2e37a2cdecb040e6c2444606a281832d7a2181",
+      "status": "rejected",
+      "reason": "Surfboard extends under the person beyond its annotation box, making the right-of relation ambiguous."
+    },
+    {
+      "source_image_id": 567657,
+      "review_index": 225,
+      "image_sha256": "4f8cf01b203eef15e8fcd283bef368fece096c554ba581228fbd3fe6c2d6c804",
+      "status": "accepted",
+      "reason": "Both target objects and the annotated relation are visually identifiable in the displayed center crop."
+    },
+    {
+      "source_image_id": 366884,
+      "review_index": 226,
+      "image_sha256": "7d41c97dc524e33c5005651a44c75e6629d9f7b05b48b9b430b76db77765e0a8",
+      "status": "accepted",
+      "reason": "Both target objects and the annotated relation are visually identifiable in the displayed center crop."
+    },
+    {
+      "source_image_id": 545002,
+      "review_index": 227,
+      "image_sha256": "bb2bb93c61ecf46b925b7a828deaaa4735c338cab6960e2113e9d824d3252d5e",
+      "status": "accepted",
+      "reason": "Both target objects and the annotated relation are visually identifiable in the displayed center crop."
+    },
+    {
+      "source_image_id": 301963,
+      "review_index": 228,
+      "image_sha256": "32de342e8abd152fb9e1063d70c8bdd9104d916651ee44a6bea386e0f44450c4",
+      "status": "accepted",
+      "reason": "Both target objects and the annotated relation are visually identifiable in the displayed center crop."
+    },
+    {
+      "source_image_id": 97315,
+      "review_index": 229,
+      "image_sha256": "e03e45b5072580300ae985690b6d065670948f4495a5dc32228e8a290959d72c",
+      "status": "accepted",
+      "reason": "Both target objects and the annotated relation are visually identifiable in the displayed center crop."
+    },
+    {
+      "source_image_id": 260247,
+      "review_index": 230,
+      "image_sha256": "50aa353d0616512e75f5729527439a715519c2c91d4570dd45c8884d56a31d6b",
+      "status": "accepted",
+      "reason": "Both target objects and the annotated relation are visually identifiable in the displayed center crop."
+    },
+    {
+      "source_image_id": 198416,
+      "review_index": 231,
+      "image_sha256": "75dbde160e1a95623fb8f7c8af724910a46425147d9f755e74d59edf4e5cc8c2",
+      "status": "rejected",
+      "reason": "File is a collage of two separate photographs."
+    },
+    {
+      "source_image_id": 521869,
+      "review_index": 232,
+      "image_sha256": "a895f8ca578037e36fa5c27570b39ab00317c5abfb8b5040b242bf4ac60ab930",
+      "status": "rejected",
+      "reason": "Target truck is visible only as an occluded vehicle fragment through the window."
+    },
+    {
+      "source_image_id": 134691,
+      "review_index": 233,
+      "image_sha256": "07c05122db8856580d327e0b3955a2220e69e6a716d5fb02e364f58e95245d9b",
+      "status": "accepted",
+      "reason": "Both target objects and the annotated relation are visually identifiable in the displayed center crop."
+    },
+    {
+      "source_image_id": 173907,
+      "review_index": 234,
+      "image_sha256": "82aedf36fea639bcfb6756ec4e0bc0ad53552c794d69bc7436a2a8962e1e264b",
+      "status": "accepted",
+      "reason": "Both target objects and the annotated relation are visually identifiable in the displayed center crop."
+    },
+    {
+      "source_image_id": 576369,
+      "review_index": 235,
+      "image_sha256": "0bed7edf6596a4f583b1972f953bf717404335f3ea9320592d9849e50894d9d9",
+      "status": "accepted",
+      "reason": "Both target objects and the annotated relation are visually identifiable in the displayed center crop."
+    },
+    {
+      "source_image_id": 331807,
+      "review_index": 236,
+      "image_sha256": "53ac88c88dc5ec04652738cbd968f97d0399350034c6c5d17b8836bf5f1b7e2a",
+      "status": "accepted",
+      "reason": "Both target objects and the annotated relation are visually identifiable in the displayed center crop."
+    },
+    {
+      "source_image_id": 322959,
+      "review_index": 237,
+      "image_sha256": "57f2bc4665e7cecfa799fb3ee60c79a5e9df4b2383e0f9921179265f2acdd832",
+      "status": "rejected",
+      "reason": "The knife target overlaps other cutlery and is not clearly distinguishable."
+    },
+    {
+      "source_image_id": 492271,
+      "review_index": 238,
+      "image_sha256": "5cd17119ffddacb3876b482155189ae011e676cd9dfa2c2b26a24ace55468e30",
+      "status": "accepted",
+      "reason": "Both target objects and the annotated relation are visually identifiable in the displayed center crop."
+    },
+    {
+      "source_image_id": 271359,
+      "review_index": 239,
+      "image_sha256": "90134d9762227e424690117ffd8e2da3fe179900c3bc4d3e88865a782d6d6bdb",
+      "status": "accepted",
+      "reason": "Both target objects and the annotated relation are visually identifiable in the displayed center crop."
+    },
+    {
+      "source_image_id": 252054,
+      "review_index": 240,
+      "image_sha256": "c059ed49cfae64de9ff056809990627a5ac1e79ba5abc482ad9bbf6a6ac1fa24",
+      "status": "rejected",
+      "reason": "Target car is an occluded fragment and the truck is strongly defocused."
+    },
+    {
+      "source_image_id": 454203,
+      "review_index": 241,
+      "image_sha256": "363b91fe4e1c68f0838262db5ddf259e31df2e5f7016d5986a8cc46aa6a3ffb2",
+      "status": "accepted",
+      "reason": "Both target objects and the annotated relation are visually identifiable in the displayed center crop."
+    },
+    {
+      "source_image_id": 569272,
+      "review_index": 242,
+      "image_sha256": "c8704c61a9e5b1b936eeb42a7b94378036b326157d1e4ddd33e6790f2eb87d00",
+      "status": "accepted",
+      "reason": "Both target objects and the annotated relation are visually identifiable in the displayed center crop."
+    },
+    {
+      "source_image_id": 180869,
+      "review_index": 243,
+      "image_sha256": "9f4443ea40631c8b03b36460ca1d7ed391e0a185e62835f4b405c4b32a7dda67",
+      "status": "rejected",
+      "reason": "Laptop/monitor identity is uncertain and the chair is heavily occluded."
+    },
+    {
+      "source_image_id": 552504,
+      "review_index": 244,
+      "image_sha256": "a48ffbe3310ab675a7b4c37ecf8f402e09b5ca233fc1f39c4f1be7abeece1d7e",
+      "status": "rejected",
+      "reason": "Target car is strongly defocused in the background."
+    },
+    {
+      "source_image_id": 479067,
+      "review_index": 245,
+      "image_sha256": "274776c204edad1afbd0cf89da33fda2f6f9abba2cb286ae3f5021413525485e",
+      "status": "accepted",
+      "reason": "Both target objects and the annotated relation are visually identifiable in the displayed center crop."
+    },
+    {
+      "source_image_id": 321706,
+      "review_index": 246,
+      "image_sha256": "4f8f53c44c93c3f4dd436d24f9d9e7eea2258ff875b9335a99e26d7d863c3389",
+      "status": "accepted",
+      "reason": "Both target objects and the annotated relation are visually identifiable in the displayed center crop."
+    },
+    {
+      "source_image_id": 313228,
+      "review_index": 247,
+      "image_sha256": "06b6b9c69dfc282ff9c359eb570093fda09b87745de39af918536ac4b700ce42",
+      "status": "accepted",
+      "reason": "Both target objects and the annotated relation are visually identifiable in the displayed center crop."
+    },
+    {
+      "source_image_id": 28903,
+      "review_index": 248,
+      "image_sha256": "49274b91364512e030a44ee708ba27aa5bf7f713376dd73c9097bac0e6819f5e",
+      "status": "rejected",
+      "reason": "Only an edge fragment of the sink is visible."
+    },
+    {
+      "source_image_id": 113126,
+      "review_index": 249,
+      "image_sha256": "17ffef8a9640c1fce12e0c0f7217c945d6983d69bc1e9173e8abe73fb4428ad2",
+      "status": "accepted",
+      "reason": "Both target objects and the annotated relation are visually identifiable in the displayed center crop."
+    },
+    {
+      "source_image_id": 189806,
+      "review_index": 250,
+      "image_sha256": "95ad20d361c8ca796a19e3543c102e9eaa221b871492b6f0894ae9cef6e18fa6",
+      "status": "accepted",
+      "reason": "Both target objects and the annotated relation are visually identifiable in the displayed center crop."
+    },
+    {
+      "source_image_id": 474854,
+      "review_index": 251,
+      "image_sha256": "0e66a2748ad65ccd3cb04e5163b77def18ae135109bfe19935ff7d3183eba7b4",
+      "status": "rejected",
+      "reason": "Target chair is represented by a small, occluded wooden fragment."
+    },
+    {
+      "source_image_id": 398031,
+      "review_index": 252,
+      "image_sha256": "9406b17e21f6842b2b23524e5b90458a79b5f2cf2311c3905d04907e553339d6",
+      "status": "accepted",
+      "reason": "Both target objects and the annotated relation are visually identifiable in the displayed center crop."
+    },
+    {
+      "source_image_id": 210060,
+      "review_index": 253,
+      "image_sha256": "b8cdeedd5c70015e65a503fab20c90b5ead3ae648b55f0796558cca05d105c4c",
+      "status": "accepted",
+      "reason": "Both target objects and the annotated relation are visually identifiable in the displayed center crop."
+    },
+    {
+      "source_image_id": 549763,
+      "review_index": 254,
+      "image_sha256": "1c1efc04d9bce6856f24f47428fc7ed9b2126a38b408e19ec356b265cbe1fcc9",
+      "status": "accepted",
+      "reason": "Both target objects and the annotated relation are visually identifiable in the displayed center crop."
+    },
+    {
+      "source_image_id": 106487,
+      "review_index": 255,
+      "image_sha256": "8fd1c6af5ca16c3c74867eea555c8e1fc26839f0862273cd032a4f63091423ba",
+      "status": "accepted",
+      "reason": "Both target objects and the annotated relation are visually identifiable in the displayed center crop."
+    },
+    {
+      "source_image_id": 468751,
+      "review_index": 256,
+      "image_sha256": "21ca7482d26ada920593ef3573d575db7ee09853d189e5b2f2b32c612bc27c7f",
+      "status": "rejected",
+      "reason": "The labeled bench region appears to contain a bag/person fragment."
+    },
+    {
+      "source_image_id": 158660,
+      "review_index": 257,
+      "image_sha256": "a33426379658d6ddc0a3b4c574e224eee02b9a26589a699e122a40c74cac9a05",
+      "status": "rejected",
+      "reason": "Target oven is heavily occluded by foreground food and not reliably identifiable."
+    },
+    {
+      "source_image_id": 125017,
+      "review_index": 258,
+      "image_sha256": "be7bca1b0dc86c4857e7d66bc519733c4cdcf71344d5289eb1d55084ab524036",
+      "status": "rejected",
+      "reason": "Near-duplicate scene of reviewed candidate 130 (same clock/laptop arrangement); avoid repeated scene evidence."
+    },
+    {
+      "source_image_id": 433547,
+      "review_index": 259,
+      "image_sha256": "0aa7a16073acc35cd1af442d970e03c10ba15f618de24ab40ca1e11eacf205d9",
+      "status": "accepted",
+      "reason": "Both target objects and the annotated relation are visually identifiable in the displayed center crop."
+    },
+    {
+      "source_image_id": 568893,
+      "review_index": 260,
+      "image_sha256": "f5a20ae27444aff0dfa85c1ff56e0ae264555e3cf7f15588aedde9e9776fdcb3",
+      "status": "accepted",
+      "reason": "Both target objects and the annotated relation are visually identifiable in the displayed center crop."
+    },
+    {
+      "source_image_id": 290819,
+      "review_index": 261,
+      "image_sha256": "4c088979fdd0cbe4345692c0f781c30453feae375c02bf62214411b21e4f07be",
+      "status": "accepted",
+      "reason": "Both target objects and the annotated relation are visually identifiable in the displayed center crop."
+    },
+    {
+      "source_image_id": 163112,
+      "review_index": 262,
+      "image_sha256": "7fd78aea0d189069e19f2eeb275c4b6588fc1ef700c3a9bb5ceec41fe7be55dc",
+      "status": "rejected",
+      "reason": "Target suitcase is too dark and occluded to identify."
+    },
+    {
+      "source_image_id": 48905,
+      "review_index": 263,
+      "image_sha256": "00c417f6b122d999ff719fed6c7f35362884cc40f98bb4359a58918c963d9d08",
+      "status": "accepted",
+      "reason": "Both target objects and the annotated relation are visually identifiable in the displayed center crop."
+    },
+    {
+      "source_image_id": 500316,
+      "review_index": 264,
+      "image_sha256": "cd36ba1da5cd90fe767318c92d0d7f2f2de0f3d3c4104a460d9dd0835bc6d55e",
+      "status": "accepted",
+      "reason": "Both target objects and the annotated relation are visually identifiable in the displayed center crop."
+    },
+    {
+      "source_image_id": 575293,
+      "review_index": 265,
+      "image_sha256": "2beb320a0e57a8216cda263c46d2618476117a2e32ae05c255c88bb1b40a59cd",
+      "status": "accepted",
+      "reason": "Both target objects and the annotated relation are visually identifiable in the displayed center crop."
+    },
+    {
+      "source_image_id": 283203,
+      "review_index": 266,
+      "image_sha256": "50fd353d7cf08a2c349a5791ca9f88bb0bbf8ba32d84d169a229bef2fef233c6",
+      "status": "rejected",
+      "reason": "Target train is a dark indistinct background silhouette."
+    },
+    {
+      "source_image_id": 386165,
+      "review_index": 267,
+      "image_sha256": "c180dd8d705f783639d841e65e310790d98454352f59ac8e47a02c39e9dbec47",
+      "status": "accepted",
+      "reason": "Both target objects and the annotated relation are visually identifiable in the displayed center crop."
+    },
+    {
+      "source_image_id": 338159,
+      "review_index": 268,
+      "image_sha256": "5828435e67ac3f6fadc969aff8fe67bcf2267d7d07f2cd3f6d1ae31db6a82bf6",
+      "status": "accepted",
+      "reason": "Both target objects and the annotated relation are visually identifiable in the displayed center crop."
+    },
+    {
+      "source_image_id": 219170,
+      "review_index": 269,
+      "image_sha256": "b4e6a1839dc81d392e919a054f1e339f949e5c3ff49a385a0520f38d6aa22ad9",
+      "status": "accepted",
+      "reason": "Both target objects and the annotated relation are visually identifiable in the displayed center crop."
+    },
+    {
+      "source_image_id": 159977,
+      "review_index": 270,
+      "image_sha256": "6fe8628f93d0e3c2889c787e6a54dba874bc51a1a2b33039b6bd533efc9e335d",
+      "status": "accepted",
+      "reason": "Both target objects and the annotated relation are visually identifiable in the displayed center crop."
+    },
+    {
+      "source_image_id": 48014,
+      "review_index": 271,
+      "image_sha256": "8524f0cd31cb14cd987542b8e53e0fb5fd9883794cd4c3c80ceb37e8139510af",
+      "status": "accepted",
+      "reason": "Both target objects and the annotated relation are visually identifiable in the displayed center crop."
+    },
+    {
+      "source_image_id": 285832,
+      "review_index": 272,
+      "image_sha256": "9ef665fbf8eb618b37c2f3fc8a861bbf7019b234a6d38976f4f2449155b41228",
+      "status": "accepted",
+      "reason": "Both target objects and the annotated relation are visually identifiable in the displayed center crop."
+    },
+    {
+      "source_image_id": 235203,
+      "review_index": 273,
+      "image_sha256": "7478f243560bafe53231f3b12114a2d063761f0b2e22fc5bc93faed938be2956",
+      "status": "accepted",
+      "reason": "Both target objects and the annotated relation are visually identifiable in the displayed center crop."
+    },
+    {
+      "source_image_id": 391132,
+      "review_index": 274,
+      "image_sha256": "9f707b6a29a6968782f8ecde01445224e79eed6ff470de1b78bdf86cd03a7724",
+      "status": "rejected",
+      "reason": "Person is represented only by a small cropped lower-body fragment."
+    },
+    {
+      "source_image_id": 301575,
+      "review_index": 275,
+      "image_sha256": "9ad4f6d27db9fdc22c62c51843806207a76805b8ec3a5d6767b0a8a91ef30520",
+      "status": "rejected",
+      "reason": "Meme/screen image with inconsistent target labels; not one natural scene."
+    },
+    {
+      "source_image_id": 400453,
+      "review_index": 276,
+      "image_sha256": "05144f4c643d4e63cc80c7b87625eb1c506be6d2d7d1b83ed8e71f69d054be8d",
+      "status": "accepted",
+      "reason": "Both target objects and the annotated relation are visually identifiable in the displayed center crop."
+    },
+    {
+      "source_image_id": 131171,
+      "review_index": 277,
+      "image_sha256": "80ef9c7498011627f9d7743dbec535986c4089bd3acf43f37a21208051904910",
+      "status": "accepted",
+      "reason": "Both target objects and the annotated relation are visually identifiable in the displayed center crop."
+    },
+    {
+      "source_image_id": 65258,
+      "review_index": 278,
+      "image_sha256": "61e6765bc89f9a993c55283a4532e89b7a5de663da81abdf31b2d268034d3986",
+      "status": "accepted",
+      "reason": "Both target objects and the annotated relation are visually identifiable in the displayed center crop."
+    },
+    {
+      "source_image_id": 170401,
+      "review_index": 279,
+      "image_sha256": "2a179296ee5abb8a30ceef82bc127342daf0a29b3d2d87ba35c9dee87275865f",
+      "status": "accepted",
+      "reason": "Both target objects and the annotated relation are visually identifiable in the displayed center crop."
+    },
+    {
+      "source_image_id": 45775,
+      "review_index": 280,
+      "image_sha256": "2d2cbd30700711d319f49b55ed170d2cccce82b8b08cac2c3dc9f650f3254eee",
+      "status": "accepted",
+      "reason": "Both target objects and the annotated relation are visually identifiable in the displayed center crop."
+    },
+    {
+      "source_image_id": 127585,
+      "review_index": 281,
+      "image_sha256": "b5ded0299182f25fe29f70a75797c42c07fc8edb089e1a436537257526d6cd51",
+      "status": "accepted",
+      "reason": "Both target objects and the annotated relation are visually identifiable in the displayed center crop."
+    },
+    {
+      "source_image_id": 271759,
+      "review_index": 282,
+      "image_sha256": "f36c96c871da4c24ce95a8905dbe55b5259a340a4c7fd45fc5299c3b59dde41c",
+      "status": "rejected",
+      "reason": "Target labeled microwave appears to be a countertop toaster oven."
+    },
+    {
+      "source_image_id": 340934,
+      "review_index": 283,
+      "image_sha256": "84f63c2857a8a98f5231afd0ec7369ba8d84e1f26260c39b23ce437902aa66a6",
+      "status": "accepted",
+      "reason": "Both target objects and the annotated relation are visually identifiable in the displayed center crop."
+    },
+    {
+      "source_image_id": 271117,
+      "review_index": 284,
+      "image_sha256": "9e6e942b87a18f0b74ac2449b5895d9d529a220cb713aabbcc5e241949ef04ad",
+      "status": "accepted",
+      "reason": "Both target objects and the annotated relation are visually identifiable in the displayed center crop."
+    },
+    {
+      "source_image_id": 297233,
+      "review_index": 285,
+      "image_sha256": "f40f2fde0a740047b7d7f220ddede166aaf87adb062e22c05a663655f392b9c9",
+      "status": "rejected",
+      "reason": "Target sandwich is largely hidden behind tableware."
+    },
+    {
+      "source_image_id": 34096,
+      "review_index": 286,
+      "image_sha256": "eca9355a1df32cb00eae6fcab28d4fd5f5bf2f4866e17f59a65e9893aa83358a",
+      "status": "rejected",
+      "reason": "Targets resemble construction panels/materials rather than a bed and TV."
+    },
+    {
+      "source_image_id": 288576,
+      "review_index": 287,
+      "image_sha256": "07a32e564f881b20d00001e51ab38858dcfd198f6a93861c56b55043341c7047",
+      "status": "accepted",
+      "reason": "Both target objects and the annotated relation are visually identifiable in the displayed center crop."
+    },
+    {
+      "source_image_id": 287366,
+      "review_index": 288,
+      "image_sha256": "917eeb68b64ee445e23f61cb317d03d8bdce757682fc793995f878752a17fcb2",
+      "status": "rejected",
+      "reason": "Target chair is almost entirely hidden by the seated person."
+    },
+    {
+      "source_image_id": 271620,
+      "review_index": 289,
+      "image_sha256": "2503ad72130b807eb466a3153f1d8d0a7841d7a99ffc239ab04363bb9d293142",
+      "status": "rejected",
+      "reason": "Target fork is wrapped and not distinguishable from other packaged cutlery."
+    },
+    {
+      "source_image_id": 82807,
+      "review_index": 290,
+      "image_sha256": "3e179674fec6fc9f3ee3fc07038ede753ab95ff4b5a39916a10c6582427fed6b",
+      "status": "rejected",
+      "reason": "Chair is almost completely occluded by the dog."
+    },
+    {
+      "source_image_id": 10138,
+      "review_index": 291,
+      "image_sha256": "de865325ee014719b7f07aaf7ed7de03abd44d4a81603c7759119dee4d79b531",
+      "status": "rejected",
+      "reason": "Target oven is a small fragment behind the person's head."
+    },
+    {
+      "source_image_id": 106739,
+      "review_index": 292,
+      "image_sha256": "097315f8c58434cf50f5a21c73fffe8590bc7ded3d66fe70cd516a9f9b784cdf",
+      "status": "rejected",
+      "reason": "Only a narrow wheel/frame fragment of the bicycle is visible."
+    },
+    {
+      "source_image_id": 416543,
+      "review_index": 293,
+      "image_sha256": "ca887a49186a2ffa8f4d0d2ea2802210aaabeb9a570062e5d88bfae5e65939de",
+      "status": "accepted",
+      "reason": "Both target objects and the annotated relation are visually identifiable in the displayed center crop."
+    },
+    {
+      "source_image_id": 321522,
+      "review_index": 294,
+      "image_sha256": "bf50adf7596a163c34a50de10be203d31c67e5421120aca79e76122ba63e15a5",
+      "status": "accepted",
+      "reason": "Both target objects and the annotated relation are visually identifiable in the displayed center crop."
+    },
+    {
+      "source_image_id": 17095,
+      "review_index": 295,
+      "image_sha256": "ce638fe44828ecce3cb09dbb25838b67caa8586635a056482db1919fcffb4b31",
+      "status": "accepted",
+      "reason": "Both target objects and the annotated relation are visually identifiable in the displayed center crop."
+    },
+    {
+      "source_image_id": 82696,
+      "review_index": 296,
+      "image_sha256": "ffb33316dedb78408fc1b7db2532b4df3b2e35d3ae76162d333e92ea17c0164c",
+      "status": "accepted",
+      "reason": "Both target objects and the annotated relation are visually identifiable in the displayed center crop."
+    },
+    {
+      "source_image_id": 529762,
+      "review_index": 297,
+      "image_sha256": "b70d80f5e359e5e16c6976d94627e7a9392abf7a78ab495f10311def1e39f8dc",
+      "status": "rejected",
+      "reason": "Target sandwich is an ambiguous small bread fragment."
+    },
+    {
+      "source_image_id": 274017,
+      "review_index": 298,
+      "image_sha256": "b6bbdac962a02fe6bf9081c9f946e012c42ae7683337ecd8cc0ad86f02327c11",
+      "status": "accepted",
+      "reason": "Both target objects and the annotated relation are visually identifiable in the displayed center crop."
+    },
+    {
+      "source_image_id": 565034,
+      "review_index": 299,
+      "image_sha256": "5def435fcaca845bb87706b8d0de6b91b1e0050c9121a72013a785fc61717a31",
+      "status": "rejected",
+      "reason": "Car is shown on a monitor, not directly visible in the scene."
+    },
+    {
+      "source_image_id": 361815,
+      "review_index": 300,
+      "image_sha256": "6e2e3faf22c2bc936cd9144c1707219ddfcc9e34bfb3a8198932756d621183e5",
+      "status": "accepted",
+      "reason": "Both target objects and the annotated relation are visually identifiable in the displayed center crop."
+    },
+    {
+      "source_image_id": 212462,
+      "review_index": 301,
+      "image_sha256": "0040ab2b58269e50c80f010bda55ab0e51a9c341c639ddea0e138a7d7ee6a778",
+      "status": "accepted",
+      "reason": "Both target objects and the annotated relation are visually identifiable in the displayed center crop."
+    },
+    {
+      "source_image_id": 341010,
+      "review_index": 302,
+      "image_sha256": "96367d5887a6f36cc4e312f46ba384746dd15cb6d89e5349b349495b057c6a3e",
+      "status": "rejected",
+      "reason": "Target handbag is indistinct against the robe and truck is heavily occluded."
+    },
+    {
+      "source_image_id": 284153,
+      "review_index": 303,
+      "image_sha256": "a7205aa1b84190c7b382047a7f188e3532e6229d7e78096331187663f3c5fe1e",
+      "status": "rejected",
+      "reason": "Target sink is too dark and cropped to identify."
+    },
+    {
+      "source_image_id": 151051,
+      "review_index": 304,
+      "image_sha256": "da7f044214ff627a29b11ca335b2a73bf8f7ba6f999a04f25c614679bcac544c",
+      "status": "rejected",
+      "reason": "Skis are almost entirely buried in snow."
+    },
+    {
+      "source_image_id": 455956,
+      "review_index": 305,
+      "image_sha256": "df20fc71d32af119c7dc96b61ba934435ef4981b0529e3b6940991b66f1d297f",
+      "status": "accepted",
+      "reason": "Both target objects and the annotated relation are visually identifiable in the displayed center crop."
+    },
+    {
+      "source_image_id": 177246,
+      "review_index": 306,
+      "image_sha256": "6c9661db451c776580fd5243679a50e11b5301df7e45ff07ba65d8a1dfb7c937",
+      "status": "rejected",
+      "reason": "Person is represented only by a cropped hand; relation of the full person is ambiguous."
+    },
+    {
+      "source_image_id": 33441,
+      "review_index": 307,
+      "image_sha256": "b80f4edbb0dd91c28160199286d74263633c945cca2cb030abe737dab2ff51b6",
+      "status": "accepted",
+      "reason": "Both target objects and the annotated relation are visually identifiable in the displayed center crop."
+    },
+    {
+      "source_image_id": 64121,
+      "review_index": 308,
+      "image_sha256": "274fed119a598d259f806b52bf8fa35b0c53dace77a502c39b636969c7108806",
+      "status": "accepted",
+      "reason": "Both target objects and the annotated relation are visually identifiable in the displayed center crop."
+    },
+    {
+      "source_image_id": 208408,
+      "review_index": 309,
+      "image_sha256": "27bbda2389e66fcafb1c1b80861370f9e8c17c3bb4d520bc7929ad54ec87d636",
+      "status": "accepted",
+      "reason": "Both target objects and the annotated relation are visually identifiable in the displayed center crop."
+    },
+    {
+      "source_image_id": 562628,
+      "review_index": 310,
+      "image_sha256": "9e99554036860e307cc1f2f8b76358c2834f2a0de7263a89ff1aac09daaec495",
+      "status": "accepted",
+      "reason": "Both target objects and the annotated relation are visually identifiable in the displayed center crop."
+    },
+    {
+      "source_image_id": 323925,
+      "review_index": 311,
+      "image_sha256": "4b5b44da64a7ec92a1a9b4b73483703ae87c5df54f27516f9f9241f1f6f92356",
+      "status": "rejected",
+      "reason": "Teddy bear is a food decoration rather than a toy object."
+    },
+    {
+      "source_image_id": 345401,
+      "review_index": 312,
+      "image_sha256": "8335e1644b1d4e23b0c248a974cecd9fb7d6c35d8138fe9e4fd91ff06ae0718b",
+      "status": "accepted",
+      "reason": "Both target objects and the annotated relation are visually identifiable in the displayed center crop."
+    },
+    {
+      "source_image_id": 241599,
+      "review_index": 313,
+      "image_sha256": "b8aa96546cd17a9ff89bd3d4c7f1a810040f917b444204866c1b4697ad88acd1",
+      "status": "accepted",
+      "reason": "Both target objects and the annotated relation are visually identifiable in the displayed center crop."
+    },
+    {
+      "source_image_id": 217561,
+      "review_index": 314,
+      "image_sha256": "a5acea151bfdc5ad36150f3bf43723ce35d38582f6d09555ae4b4ab855aa24e4",
+      "status": "rejected",
+      "reason": "Target knife is not clearly separable from the pile of spoons/cutlery."
+    },
+    {
+      "source_image_id": 13923,
+      "review_index": 315,
+      "image_sha256": "91494500cd053f1c4e547edc53f62edce2b088588bf9b4dbc8ceaea86ad4d49e",
+      "status": "accepted",
+      "reason": "Both target objects and the annotated relation are visually identifiable in the displayed center crop."
+    },
+    {
+      "source_image_id": 527573,
+      "review_index": 316,
+      "image_sha256": "c904eb3b9ce0b861e34777228af78354a999eaadb7bc66567d66b66b9baea9f1",
+      "status": "accepted",
+      "reason": "Both target objects and the annotated relation are visually identifiable in the displayed center crop."
+    },
+    {
+      "source_image_id": 460378,
+      "review_index": 317,
+      "image_sha256": "c70e6bdc53f3765d5a7677f279d2a32d9e8fa01b11ccde1f137d092f8f7d8750",
+      "status": "accepted",
+      "reason": "Both target objects and the annotated relation are visually identifiable in the displayed center crop."
+    },
+    {
+      "source_image_id": 157155,
+      "review_index": 318,
+      "image_sha256": "270dbdd85735e4ebddc5885b9ac10485e34e07c0921ed958042eeb4d28678e14",
+      "status": "rejected",
+      "reason": "Target truck is a strongly blurred background vehicle."
+    },
+    {
+      "source_image_id": 77396,
+      "review_index": 319,
+      "image_sha256": "58a4aa081452ad2930aba0d5c716615aaede8e43a6e80a456132877d318991af",
+      "status": "accepted",
+      "reason": "Both target objects and the annotated relation are visually identifiable in the displayed center crop."
+    },
+    {
+      "source_image_id": 396608,
+      "review_index": 320,
+      "image_sha256": "ced7ffb9fefc83b43305bdb6af2c4ff975f2cad79d3f90cecc2c75de1ededef2",
+      "status": "accepted",
+      "reason": "Both target objects and the annotated relation are visually identifiable in the displayed center crop."
+    },
+    {
+      "source_image_id": 295599,
+      "review_index": 321,
+      "image_sha256": "b12a60dadf6c591e29a40c18d808cfdcce8ff016ea7aa50c920aea16aeeb402a",
+      "status": "accepted",
+      "reason": "Both target objects and the annotated relation are visually identifiable in the displayed center crop."
+    },
+    {
+      "source_image_id": 433373,
+      "review_index": 322,
+      "image_sha256": "34de2a887bab9913eaa637d0592d2f0af04be57ae4b0975d77d2535a4d8789b7",
+      "status": "accepted",
+      "reason": "Both target objects and the annotated relation are visually identifiable in the displayed center crop."
+    },
+    {
+      "source_image_id": 561619,
+      "review_index": 323,
+      "image_sha256": "b93061c849912b6ef0d907a3734c2187eafe24ffad45e74e9c4aa91ebd6b8879",
+      "status": "accepted",
+      "reason": "Both target objects and the annotated relation are visually identifiable in the displayed center crop."
+    },
+    {
+      "source_image_id": 301827,
+      "review_index": 324,
+      "image_sha256": "b38eec573a82cb818051757ae6ec648aef0245cbcb92bd1c55dca6be5490af5d",
+      "status": "accepted",
+      "reason": "Both target objects and the annotated relation are visually identifiable in the displayed center crop."
+    },
+    {
+      "source_image_id": 18442,
+      "review_index": 325,
+      "image_sha256": "bc1d1873d81bab6dd044ae7d3ce0f61150444a2ed04d096478d51c9d7ee51ca5",
+      "status": "accepted",
+      "reason": "Both target objects and the annotated relation are visually identifiable in the displayed center crop."
+    },
+    {
+      "source_image_id": 346702,
+      "review_index": 326,
+      "image_sha256": "05ea5995f7b044bd40778d01ce77e3d4523662499f820effb063be9d2823164b",
+      "status": "accepted",
+      "reason": "Both target objects and the annotated relation are visually identifiable in the displayed center crop."
+    },
+    {
+      "source_image_id": 139099,
+      "review_index": 327,
+      "image_sha256": "ab9c7a09369b381043f90e6008307610d63cd9cbe3803ba1af6b1998b361fe51",
+      "status": "rejected",
+      "reason": "Target bicycle is heavily occluded amid crowded street objects."
+    },
+    {
+      "source_image_id": 265518,
+      "review_index": 328,
+      "image_sha256": "65effd9cbf440739c171ef3b55b310fe9111b2d91c4edaa91a668c1d2046ab7a",
+      "status": "accepted",
+      "reason": "Both target objects and the annotated relation are visually identifiable in the displayed center crop."
+    },
+    {
+      "source_image_id": 171067,
+      "review_index": 329,
+      "image_sha256": "092036da2a51ae05ff875dde868af1dabd73cc2e0373ef2e6aa743033c418a69",
+      "status": "rejected",
+      "reason": "Bird is a decorative element of a cuckoo clock."
+    },
+    {
+      "source_image_id": 488198,
+      "review_index": 330,
+      "image_sha256": "6e70f8ca53a8bf1316654b7707bfa90d25921050628d6498cf7d2ed1ea30310c",
+      "status": "accepted",
+      "reason": "Both target objects and the annotated relation are visually identifiable in the displayed center crop."
+    },
+    {
+      "source_image_id": 212198,
+      "review_index": 331,
+      "image_sha256": "2a7ecb350296dc743a5e547a4d7f5695c1d4a1c03e1f734f3d59b53102054154",
+      "status": "accepted",
+      "reason": "Both target objects and the annotated relation are visually identifiable in the displayed center crop."
+    },
+    {
+      "source_image_id": 396269,
+      "review_index": 332,
+      "image_sha256": "8e890fc00e858ae4fa9706a4997a55e4032c681a789a7f59d1d53fdf5b156937",
+      "status": "accepted",
+      "reason": "Both target objects and the annotated relation are visually identifiable in the displayed center crop."
+    },
+    {
+      "source_image_id": 429366,
+      "review_index": 333,
+      "image_sha256": "5007acfca17eb1899bb03767627675dd22551d287264e3cb4c2a19d121eabf2d",
+      "status": "rejected",
+      "reason": "Target oven is heavily obscured by countertop objects."
+    },
+    {
+      "source_image_id": 440377,
+      "review_index": 334,
+      "image_sha256": "87a19d5e1daded2718d4522614c067e63836b4fe8d8978d0af8258eb4052a539",
+      "status": "rejected",
+      "reason": "Target labeled sandwich appears to be an omelette; identity mismatch."
+    },
+    {
+      "source_image_id": 158744,
+      "review_index": 335,
+      "image_sha256": "0e81861fe2af2534d4ebec6c37facba21026d28863f94a694425a9fed9cd0b46",
+      "status": "rejected",
+      "reason": "Target couch resembles an ottoman/display block; identity is uncertain."
+    },
+    {
+      "source_image_id": 194208,
+      "review_index": 336,
+      "image_sha256": "f2839c98fae435289fc42b2387aebbde1fa500e2fce80be89222e5c633c29c9f",
+      "status": "accepted",
+      "reason": "Both target objects and the annotated relation are visually identifiable in the displayed center crop."
+    },
+    {
+      "source_image_id": 106900,
+      "review_index": 337,
+      "image_sha256": "99ecb7a533736231fcb8061421e72bc6eb76c466055e1239c4c926ccb6d00095",
+      "status": "accepted",
+      "reason": "Both target objects and the annotated relation are visually identifiable in the displayed center crop."
+    },
+    {
+      "source_image_id": 353982,
+      "review_index": 338,
+      "image_sha256": "97b540309576b16c2c0346df28feeb3d52d2954580542b7c3c9cd32fb9930bdf",
+      "status": "rejected",
+      "reason": "The labeled handbag is a paper gift/shopping bag; handbag identity is uncertain."
+    },
+    {
+      "source_image_id": 455480,
+      "review_index": 339,
+      "image_sha256": "42170db67bc89ef60a99a9b64c8021291c5cb6a3a919ebc1c9b60dcfb62c0c0d",
+      "status": "accepted",
+      "reason": "Both target objects and the annotated relation are visually identifiable in the displayed center crop."
+    },
+    {
+      "source_image_id": 300353,
+      "review_index": 340,
+      "image_sha256": "fd1aef842afdaf78a176b5c403668c6f1e3afe4745af3c92586586231d1b1994",
+      "status": "accepted",
+      "reason": "Both target objects and the annotated relation are visually identifiable in the displayed center crop."
+    },
+    {
+      "source_image_id": 281711,
+      "review_index": 341,
+      "image_sha256": "6a3aa1173d8becc0988aeaa1ef78fcf5cb2d1bf2bdd156a36c2adf3c29a6654d",
+      "status": "accepted",
+      "reason": "Both target objects and the annotated relation are visually identifiable in the displayed center crop."
+    },
+    {
+      "source_image_id": 301421,
+      "review_index": 342,
+      "image_sha256": "a68205cde5ae859ac50c6cb563a0a3e5f7d780f28625afddeb8db153c7dcbb71",
+      "status": "rejected",
+      "reason": "Target car is depicted on a monitor rather than directly visible."
+    },
+    {
+      "source_image_id": 393569,
+      "review_index": 343,
+      "image_sha256": "83f53c85f83977281211de6cd34a7eef01944b02704b17a25cf213e839586256",
+      "status": "rejected",
+      "reason": "Target backpack is heavily occluded by bed rails and bedding."
+    },
+    {
+      "source_image_id": 45746,
+      "review_index": 344,
+      "image_sha256": "0d0470e42d734d5449af9e5c7ac097eea396d3d89fa70a7e63fa084faaf94a4e",
+      "status": "accepted",
+      "reason": "Both target objects and the annotated relation are visually identifiable in the displayed center crop."
+    },
+    {
+      "source_image_id": 266176,
+      "review_index": 345,
+      "image_sha256": "d0df11aa5ab0989159ee3c84e324a87df8cf9cb1508a8c3ca499169ce69b3ee7",
+      "status": "accepted",
+      "reason": "Both target objects and the annotated relation are visually identifiable in the displayed center crop."
+    },
+    {
+      "source_image_id": 399452,
+      "review_index": 346,
+      "image_sha256": "4d4b0f46c9df7e01f95712563bddddcb6b55a6480b8296171b919e29ea483426",
+      "status": "rejected",
+      "reason": "Fork/spoon targets are indistinct overlapping cutlery fragments."
+    },
+    {
+      "source_image_id": 326572,
+      "review_index": 347,
+      "image_sha256": "c0dd2edc0c82e50380c0d516b6f6399f437ba5a974c638630351c7f638f4c281",
+      "status": "accepted",
+      "reason": "Both target objects and the annotated relation are visually identifiable in the displayed center crop."
+    },
+    {
+      "source_image_id": 87399,
+      "review_index": 348,
+      "image_sha256": "8cea833eddefb5743505c801fecfc56f83298a6573105bd67c4b91c46599ca88",
+      "status": "rejected",
+      "reason": "Target cell phone is largely hidden by a hand in a reflection."
+    },
+    {
+      "source_image_id": 269015,
+      "review_index": 349,
+      "image_sha256": "3b784f23ad81102b8105ef87f4b008307615142e642872dc9faa05c15698fead",
+      "status": "accepted",
+      "reason": "Both target objects and the annotated relation are visually identifiable in the displayed center crop."
+    },
+    {
+      "source_image_id": 322482,
+      "review_index": 350,
+      "image_sha256": "dde6dd0cda16568003723f41c6da5bcf0864f4dcb0dd5418d11f6a93fd737532",
+      "status": "accepted",
+      "reason": "Both target objects and the annotated relation are visually identifiable in the displayed center crop."
+    },
+    {
+      "source_image_id": 481313,
+      "review_index": 351,
+      "image_sha256": "46121112b5c515ac7046db0314994a912ddb30fe41e7150d082481bd94216867",
+      "status": "accepted",
+      "reason": "Both target objects and the annotated relation are visually identifiable in the displayed center crop."
+    },
+    {
+      "source_image_id": 221776,
+      "review_index": 352,
+      "image_sha256": "6dc566f96988bb6a8e29d79a93bf36f05f63cf94cc8a7482a76f66b5f88650d2",
+      "status": "accepted",
+      "reason": "Both target objects and the annotated relation are visually identifiable in the displayed center crop."
+    },
+    {
+      "source_image_id": 267321,
+      "review_index": 353,
+      "image_sha256": "22e4f7567debfeef6558cadc5d0fc8cf87f3bc2af4b4bdff9803380c8e96def4",
+      "status": "accepted",
+      "reason": "Both target objects and the annotated relation are visually identifiable in the displayed center crop."
+    },
+    {
+      "source_image_id": 332844,
+      "review_index": 354,
+      "image_sha256": "72529e658a7c2b37012c7659464caa873df2d1889082b43f59f46b90cbc11d44",
+      "status": "accepted",
+      "reason": "Both target objects and the annotated relation are visually identifiable in the displayed center crop."
+    },
+    {
+      "source_image_id": 265151,
+      "review_index": 355,
+      "image_sha256": "eac24d6dcdc9123f655d868650046b2dbc1aaab924fbec3802a3ad6dd6abe4e1",
+      "status": "accepted",
+      "reason": "Both target objects and the annotated relation are visually identifiable in the displayed center crop."
+    },
+    {
+      "source_image_id": 442929,
+      "review_index": 356,
+      "image_sha256": "9566b04dc827d239cf661c20a25ab2ebbd9de63041b29edb930b7cbc5f05924c",
+      "status": "rejected",
+      "reason": "Target labeled orange is visibly a lemon slice."
+    },
+    {
+      "source_image_id": 12754,
+      "review_index": 357,
+      "image_sha256": "2abef2ce143b5fe2f4343694cd560d279ddddcee50c9f7f0e58f57a514ff82b5",
+      "status": "rejected",
+      "reason": "File is a collage with a bird pictogram; objects do not share one natural scene."
+    },
+    {
+      "source_image_id": 382307,
+      "review_index": 358,
+      "image_sha256": "e44c6adfb6f31a7aaf602180f7a5228781252e06d3bdf3cbf81f0798e5977768",
+      "status": "accepted",
+      "reason": "Both target objects and the annotated relation are visually identifiable in the displayed center crop."
+    },
+    {
+      "source_image_id": 394608,
+      "review_index": 359,
+      "image_sha256": "cd902e08ecadfba6b6555031cbe6146d645991b1676825897ab50cc0576595f6",
+      "status": "accepted",
+      "reason": "Both target objects and the annotated relation are visually identifiable in the displayed center crop."
+    },
+    {
+      "source_image_id": 468505,
+      "review_index": 360,
+      "image_sha256": "a3327665e199c84b0ad0e69c8e3f3f6df13902eb3b8580a0708c2c6cade370b6",
+      "status": "rejected",
+      "reason": "Target bicycle is an indistinct decorative/background frame."
+    },
+    {
+      "source_image_id": 523373,
+      "review_index": 361,
+      "image_sha256": "1625631183449f7fd01763905c089a5f58079c53e0a79d5b6824b45358640c7b",
+      "status": "accepted",
+      "reason": "Both target objects and the annotated relation are visually identifiable in the displayed center crop."
+    },
+    {
+      "source_image_id": 544432,
+      "review_index": 362,
+      "image_sha256": "acbee937567b65dad8bca6d29872eaa451cf230650d443fdcb01dc3b5c3df624",
+      "status": "accepted",
+      "reason": "Both target objects and the annotated relation are visually identifiable in the displayed center crop."
+    },
+    {
+      "source_image_id": 210012,
+      "review_index": 363,
+      "image_sha256": "de26d52c39ec488e525b8fdd0a2e7616b4f175a88d952cb3d0b1724e6179d40c",
+      "status": "rejected",
+      "reason": "Small dark target animal is not reliably identifiable as a dog."
+    },
+    {
+      "source_image_id": 67785,
+      "review_index": 364,
+      "image_sha256": "b9c1fb0a7869c7da4812c634e548789c6130566fc7c3e75a822d96793c14a7dd",
+      "status": "rejected",
+      "reason": "The labeled pizza resembles a decorated birthday cake; identity is uncertain."
+    },
+    {
+      "source_image_id": 165298,
+      "review_index": 365,
+      "image_sha256": "ba49791b0dbff61aea779aa3e1f210c0217ffd1c0b5cec0546fd39cdc7470526",
+      "status": "accepted",
+      "reason": "Both target objects and the annotated relation are visually identifiable in the displayed center crop."
+    },
+    {
+      "source_image_id": 124607,
+      "review_index": 366,
+      "image_sha256": "f87f8c14838db313a0f6182e53d9b45457efa734873b2854884108cde6dfdeff",
+      "status": "accepted",
+      "reason": "Both target objects and the annotated relation are visually identifiable in the displayed center crop."
+    },
+    {
+      "source_image_id": 570471,
+      "review_index": 367,
+      "image_sha256": "ee74f5c66871ee9453153f11e9b530e0c4562aa10e3ce6954d85b7ed4aeda5d1",
+      "status": "accepted",
+      "reason": "Both target objects and the annotated relation are visually identifiable in the displayed center crop."
+    },
+    {
+      "source_image_id": 503826,
+      "review_index": 368,
+      "image_sha256": "f42805c88242fe6ca6f9b26c44ea4d9cf9bc980986bc3142cb303df9f151418d",
+      "status": "accepted",
+      "reason": "Both target objects and the annotated relation are visually identifiable in the displayed center crop."
+    },
+    {
+      "source_image_id": 103017,
+      "review_index": 369,
+      "image_sha256": "ce614959c8bdb84abdb00cdc3ae150e1a08ad38ee2909558b73d3e9531586f9b",
+      "status": "accepted",
+      "reason": "Both target objects and the annotated relation are visually identifiable in the displayed center crop."
+    },
+    {
+      "source_image_id": 99177,
+      "review_index": 370,
+      "image_sha256": "1692d6603d73659ca840f5ef52afcdeb367c0a472a1b97252b0004143c7e929e",
+      "status": "accepted",
+      "reason": "Both target objects and the annotated relation are visually identifiable in the displayed center crop."
+    },
+    {
+      "source_image_id": 42375,
+      "review_index": 371,
+      "image_sha256": "e7010f17bfde4c4951a981349d9188449fa19244f072cae8b3ecd7c975c251ad",
+      "status": "rejected",
+      "reason": "Target handbag is visible mainly as a strap."
+    },
+    {
+      "source_image_id": 412464,
+      "review_index": 372,
+      "image_sha256": "85c0f9b47318b8e9f696abf84c61b3de48dfa47db548a2134644ef900bee35ab",
+      "status": "rejected",
+      "reason": "Fork tines/body are hidden and the utensil is not clearly identifiable."
+    },
+    {
+      "source_image_id": 3067,
+      "review_index": 373,
+      "image_sha256": "6696917b3e8ba513c18c5b9b9fe58d3a9c1d2ee6194de29d2c62eb1a53736cb4",
+      "status": "accepted",
+      "reason": "Both target objects and the annotated relation are visually identifiable in the displayed center crop."
+    },
+    {
+      "source_image_id": 13132,
+      "review_index": 374,
+      "image_sha256": "367dc27a5d46361353c33420ee26e12efbcac8a2696a2e1e9fe8aae2bccfe744",
+      "status": "rejected",
+      "reason": "Target backpack appears to be a chest-mounted fishing vest/pouch."
+    },
+    {
+      "source_image_id": 425361,
+      "review_index": 375,
+      "image_sha256": "0015373b99aaa5ec2fede8f51ad0598df27e913924009d4b69bbfca37789ac11",
+      "status": "accepted",
+      "reason": "Both target objects and the annotated relation are visually identifiable in the displayed center crop."
+    },
+    {
+      "source_image_id": 289497,
+      "review_index": 376,
+      "image_sha256": "c0a5c2296865924ea353870e41a4f2869d627f76668a70fbe4a06d5abd59c93f",
+      "status": "accepted",
+      "reason": "Both target objects and the annotated relation are visually identifiable in the displayed center crop."
+    },
+    {
+      "source_image_id": 520251,
+      "review_index": 377,
+      "image_sha256": "50d335fe9002b4238b24d6da704a3fec7b358bc1447625bbbecc7256d74d2d2c",
+      "status": "accepted",
+      "reason": "Both target objects and the annotated relation are visually identifiable in the displayed center crop."
+    },
+    {
+      "source_image_id": 345027,
+      "review_index": 378,
+      "image_sha256": "0c6655788cf20761d9c650c631d254cea96be405cc5f8ab06a6f1446844ad5d5",
+      "status": "accepted",
+      "reason": "Both target objects and the annotated relation are visually identifiable in the displayed center crop."
+    },
+    {
+      "source_image_id": 22870,
+      "review_index": 379,
+      "image_sha256": "baa95ee33a6200c6cb9bd34785a24c6c5380c85156fe80de24de84b03732d8d2",
+      "status": "rejected",
+      "reason": "Target kite is an ambiguous small decorative object."
+    },
+    {
+      "source_image_id": 112160,
+      "review_index": 380,
+      "image_sha256": "1fbf19026e4ea6511e029b0edf1676ad752899c11d6eaae899509baa25060a94",
+      "status": "accepted",
+      "reason": "Both target objects and the annotated relation are visually identifiable in the displayed center crop."
+    },
+    {
+      "source_image_id": 193547,
+      "review_index": 381,
+      "image_sha256": "bb4b89caf09fd0613171db8e2cbe1284a36564627076c4e4c101aab1414856d8",
+      "status": "rejected",
+      "reason": "Target car is an unrecognizable narrow background/reflected patch."
+    },
+    {
+      "source_image_id": 396385,
+      "review_index": 382,
+      "image_sha256": "f4d3482ee4a3ddc36b00a0bdb03f4fae7249f4e72c2cd5ea98d5ddb0e1b383b3",
+      "status": "accepted",
+      "reason": "Both target objects and the annotated relation are visually identifiable in the displayed center crop."
+    },
+    {
+      "source_image_id": 516313,
+      "review_index": 383,
+      "image_sha256": "78640de182611984b2cc7c76b9e177f8baf48e40ad6338cfea6dbc3d0c5cc3bb",
+      "status": "accepted",
+      "reason": "Both target objects and the annotated relation are visually identifiable in the displayed center crop."
+    },
+    {
+      "source_image_id": 146504,
+      "review_index": 384,
+      "image_sha256": "7a595b3dc302a3752d2fdabee1aaf0294ec3485ae7188a4785876104d3e0f66b",
+      "status": "accepted",
+      "reason": "Both target objects and the annotated relation are visually identifiable in the displayed center crop."
+    },
+    {
+      "source_image_id": 484075,
+      "review_index": 385,
+      "image_sha256": "26353bf545b935b4f86e4b7e032f532cbe9183afc5ccebc12ae6054a6ca0aa84",
+      "status": "accepted",
+      "reason": "Both target objects and the annotated relation are visually identifiable in the displayed center crop."
+    },
+    {
+      "source_image_id": 114855,
+      "review_index": 386,
+      "image_sha256": "1c1a6cb8b1996d84d4be72e22d3228eaff9a671ca245ecb53c2a1458536218d5",
+      "status": "rejected",
+      "reason": "Targets are pictograms on a traffic sign."
+    },
+    {
+      "source_image_id": 528311,
+      "review_index": 387,
+      "image_sha256": "f4634da7571f2b17032f4bb75a631fcbbfab2f667342d8ddc98b76ac67441d6d",
+      "status": "accepted",
+      "reason": "Both target objects and the annotated relation are visually identifiable in the displayed center crop."
+    },
+    {
+      "source_image_id": 329542,
+      "review_index": 388,
+      "image_sha256": "8b127480fff0417e871fe4439d8ce8e214820ccb09152c91087c32aae07001a8",
+      "status": "rejected",
+      "reason": "Target person is only a cropped hand and the cup is unrecognizable."
+    },
+    {
+      "source_image_id": 30361,
+      "review_index": 389,
+      "image_sha256": "eb1b1036b2ac9e7d4fc1b85aa660c401d2615d7bc758efce5ad9810f306ac34c",
+      "status": "accepted",
+      "reason": "Both target objects and the annotated relation are visually identifiable in the displayed center crop."
+    },
+    {
+      "source_image_id": 258985,
+      "review_index": 390,
+      "image_sha256": "35161373d9f1117df7915d2bf156356febe0b6d4535d37e066132e04d13e9d67",
+      "status": "accepted",
+      "reason": "Both target objects and the annotated relation are visually identifiable in the displayed center crop."
+    },
+    {
+      "source_image_id": 518383,
+      "review_index": 391,
+      "image_sha256": "b54c608b323fb08fd54e57320f035b9020a0097b75f4e52ce7e48fb8fff0b732",
+      "status": "accepted",
+      "reason": "Both target objects and the annotated relation are visually identifiable in the displayed center crop."
+    },
+    {
+      "source_image_id": 393089,
+      "review_index": 392,
+      "image_sha256": "3daf4929966e165a162d0636f45de5879b29a329338a562215e0c3b3fd8f7eee",
+      "status": "accepted",
+      "reason": "Both target objects and the annotated relation are visually identifiable in the displayed center crop."
+    },
+    {
+      "source_image_id": 45463,
+      "review_index": 393,
+      "image_sha256": "5dad8700840a75dd6238cc21fffe4077cab205ea751bbeec1ca9f7ba6a84c496",
+      "status": "rejected",
+      "reason": "Target backpack is a small heavily occluded floor fragment."
+    },
+    {
+      "source_image_id": 154423,
+      "review_index": 394,
+      "image_sha256": "daab2ccca9313352c65f2647762e2a2e59dd5325c4d33f98d916a63e8dfdcd90",
+      "status": "accepted",
+      "reason": "Both target objects and the annotated relation are visually identifiable in the displayed center crop."
+    },
+    {
+      "source_image_id": 150342,
+      "review_index": 395,
+      "image_sha256": "af3d61f690131a7e30a4f22ef6dfd289708f67ae4e9016e21fd97332a87e2a8e",
+      "status": "accepted",
+      "reason": "Both target objects and the annotated relation are visually identifiable in the displayed center crop."
+    },
+    {
+      "source_image_id": 581205,
+      "review_index": 396,
+      "image_sha256": "2a62f50e5cd864d1f7cff101a57586fffc2da7b8b42db6e4c68831c4000a63ca",
+      "status": "accepted",
+      "reason": "Both target objects and the annotated relation are visually identifiable in the displayed center crop."
+    },
+    {
+      "source_image_id": 208995,
+      "review_index": 397,
+      "image_sha256": "48032e56a97de7f83bb3dfc0ed26d94dfc39cfe28a11e7948678b2eb767149a1",
+      "status": "accepted",
+      "reason": "Both target objects and the annotated relation are visually identifiable in the displayed center crop."
+    },
+    {
+      "source_image_id": 6720,
+      "review_index": 398,
+      "image_sha256": "a7331cc45d28b331e049174f44755e47e814f56388fd2bf4f4d2112844629f4c",
+      "status": "accepted",
+      "reason": "Both target objects and the annotated relation are visually identifiable in the displayed center crop."
+    },
+    {
+      "source_image_id": 457449,
+      "review_index": 399,
+      "image_sha256": "b4eadb174250b36ff8dd8f7212da549d91ba8483b1e8953698b764866b54887a",
+      "status": "accepted",
+      "reason": "Both target objects and the annotated relation are visually identifiable in the displayed center crop."
+    }
+  ]
+}

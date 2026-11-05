@@ -1,0 +1,12 @@
+{
+  "url": "https://s3.amazonaws.com/images.cocodataset.org/annotations/annotations_trainval2014.zip",
+  "member": "annotations/instances_val2014.json",
+  "archive_bytes": 252872794,
+  "member_crc32": 642745279,
+  "sha256": "e1b4d1bc54906827b1a029981b1c77f2088bd4462569b7615db7929070c3ab47",
+  "config_sha256": "da06fb96f9da7292d07e70713b1c6c1908f3f91fd2303d87b7ccdd76bf2fcee2",
+  "protocol_sha256": "1c04bf2720d291049b04fa4f59e70de652f7a5e1b7a285b65c58a3c8bf6fe2ca",
+  "terms": "https://cocodataset.org/#termsofuse",
+  "annotation_license": "CC BY 4.0",
+  "image_licenses": "per image metadata; original photos not redistributed in Git"
+}

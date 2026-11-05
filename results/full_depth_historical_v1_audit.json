@@ -1,0 +1,7 @@
+{
+  "verified": true,
+  "stage": "historical",
+  "mode": "full",
+  "run": "results/full_depth_historical_v1",
+  "metrics_recomputed": true
+}

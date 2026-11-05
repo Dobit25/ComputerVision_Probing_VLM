@@ -1,0 +1,42 @@
+{
+  "description": "Full runs audited before reporting. Pair assignment is explicitly post-hoc.",
+  "input_sha256": {
+    "results/full_depth_historical_v1/manifest.json": "aaf10e8a05953f1d612c105b80ffa1f81cb9c9909abb572a99791d36b3fb19b2",
+    "results/full_depth_historical_v1/metrics.json": "034e93eb93ad3dcabb90892f9795de7e0f347c0c1d7c2f2b543219627a17d3db",
+    "results/full_depth_historical_v1_audit.json": "623df1757ee4802c1b8f551cce8d5578aa9f7c2c9110d9c13e1e130dfd573be2",
+    "results/full_depth_spatial_v1/manifest.json": "0c3472b1e2d0941d8c9ccf8b60c7c1d8da9b97d7ea55ad660093ba9d4056015c",
+    "results/full_depth_spatial_v1/metrics.json": "9caf3f2f5c4e1fc8686ebc4ae93e5182f751fa8cf356edba98f209e984cfceb2",
+    "results/full_depth_spatial_v1_audit.json": "57bb9f51375b063312040ae1970f733eaa87390a03d0fd88ea0d91d961c85b77",
+    "results/full_depth_category_v1/manifest.json": "7b55dcf776b44fd46ad3c2eda1891ec5cb252b5e6e73198c4455d741256ba505",
+    "results/full_depth_category_v1/metrics.json": "c7a29c80ba3d82eb9ea1847b2766ee4729e523900b72db0c25991d8d57a2d335",
+    "results/full_depth_category_v1_audit.json": "0bb9315a4fc1455dbbfcd623b11158bbc724edfefd7f65ec1dff9ed824036684",
+    "results/full_depth_natural_v1/manifest.json": "e2f117c0a429b65483755339492b25ddabc72f7cd5ccef2645c2647fda1dbe9f",
+    "results/full_depth_natural_v1/metrics.json": "3b06440774057de060fb7c6b2c88ca0ed8ba0227744549d7399103eea2bf4299",
+    "results/full_depth_natural_v1_audit.json": "968000e94516a303e6c4d7a9ed0b3b8a8d2b0264b33f7d57dfc02221fabc11e0",
+    "reports/probing_depth_v1/README.md": "0e0f77422c8b17829043c5a97f1faa5d398a91eefc2ddc0e283968b30a0a81e8",
+    "reports/probing_depth_v1/bao_cao_probing_chuyen_sau.tex": "9621faadb02168c18198322558faae583ca1d8bcd7e623fa74dd078ba5aa1812",
+    "vlm_probe/depth/report.py": "4fd38a91ac78c52773eb98b788bb2c0b7913f0aab0a590d361c6b525ae598213",
+    "vlm_probe/depth/pairs.py": "d24b763e3d26a67fc12f5e61c3292e9f67500dca44bf3529c8513ec3b49481ea",
+    "docs/depth_exploratory_pair_analysis.md": "c9305e96e1f08864cea145745993ceb9c4b83bf273c2ef4630ed96a39e270418",
+    "docs/natural_depth_review.md": "89e35d08c287eb61e46fcb47708ebad2148fad35c165463432cc83a3ba937623",
+    "results/depth_natural_selection_v1/review.json": "0a079e56ccad6bdfcd3dd253f3770606dd37d6e2c756f8092f232233ba19e4b7",
+    "results/depth_natural_selection_v1/selected.json": "1f843f11a779800e12b60878ae683373e3286da41e432b5f7fa82e976001c3ff"
+  },
+  "derived_sha256": {
+    "category_conditions.csv": "6778488d4a21ed72cb40712a0f61b9fb56827cd45208a75bb2fb48966675ac82",
+    "category_controls.pdf": "44fb9f3722b99f8e910ed04410988974012326fa0109844a7ffa98f5d0c57741",
+    "category_controls.png": "217411abef72392974843e94fec29559f7dbf597020abfccc1df79fd9e4b9fd4",
+    "category_planned_comparisons.csv": "25467d9ce380a440f91d50d534a274a38411e55496a2214192c391221c865e1b",
+    "category_table.tex": "ac05daf23086b76acb1d3d6702a10c158a179215321c4b809dd81aa5dd337cd3",
+    "exploratory_pair_metrics.json": "44d0c49d1e4cdb012178bbd2d00b15c45b83c3b8d6111e1eaa6ea2d7bfbb6605",
+    "natural_exploratory_pairs.csv": "6924d0ed11f9a8a5748aeab7a7f278e81ac8e3b86bb1df6082b9d77fdf22f22f",
+    "numbers.tex": "6b47e0aa1d98b1f472e57288d348c22e3201477857f1aa3ae1797b8f8de20a5b",
+    "spatial_accuracy.pdf": "8811aecf55c3680b8837a2f98fc406a7f05dd86b43273efe2fe95dca71c5939c",
+    "spatial_accuracy.png": "c577d1a9057a27ae0d41124af2c1e9d7c113c635fc2b191cb126f3484186c29c",
+    "spatial_conditions.csv": "a86be023952ca040b76c269d8b58eb9fee399abbabd17310ca9552a7d7787fa7",
+    "spatial_confusion.pdf": "cf56b605ab78385be7e679b6aceee5d22153339edd67fa0fff02016dcbabeab8",
+    "spatial_confusion.png": "da796f6f405ae4597559c7cef594728db4ca83197472ad2a5b1050fe1731ca36",
+    "spatial_exploratory_pairs.csv": "d9441bf16d7c5e8bc32bd7b9f8c548cf912169dcd17f506f26200b51d2bb879b",
+    "spatial_table.tex": "832e37c7125ad29f39dca0832a4ed1105ef87f8fd2b4acb7d48abaed78021594"
+  }
+}

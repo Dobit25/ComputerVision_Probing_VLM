@@ -1,0 +1,9 @@
+{
+  "verified": true,
+  "stage": "spatial",
+  "mode": "full",
+  "run": "results/full_depth_spatial_v1",
+  "num_images": 1440,
+  "num_trials": 8640,
+  "metrics_recomputed": true
+}

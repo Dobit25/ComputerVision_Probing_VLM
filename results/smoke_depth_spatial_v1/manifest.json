@@ -1,0 +1,301 @@
+{
+  "status": "completed",
+  "stage": "spatial",
+  "mode": "smoke",
+  "started_at_utc": "2026-11-04T06:41:15.898298+00:00",
+  "git_head": "9a8aac619d7307d052b5376d76cca6e62d0f7b13",
+  "source_sha256": {
+    "configs/clip_b32_cifar100.json": "c67340dde83213b7138991c90d2f41f793ee06eb15a82482cfb06017e93010c4",
+    "configs/probing_depth_v1.json": "f7ecacb75fe68e69b6cd37b79c583cb7a763bd08e16d67780ffb8fe627727ab0",
+    "docs/probing_depth_protocol.md": "8e94e39cca67c0d95ceb5b43bb5c7753d76eaded4e79afa800c8dac8791e078c",
+    "requirements.txt": "823189c5e900e5a5fd5b612017f0a282abc249a42d432dfd6ba096db16bd0168",
+    "vlm_probe/__init__.py": "a67e12125e012495d84256bfcf67041abcda07dfaf49722bdfafd58566aa637d",
+    "vlm_probe/__main__.py": "db422f547f341e29abd6589f232935674ebeb83ad8793a293ad5bf6f609ef54c",
+    "vlm_probe/assets.py": "18c3f5b444f4e0325d72348689b37e0b74e6530f4e2aaa698c7dd7afef608bad",
+    "vlm_probe/category_study/__init__.py": "8740dace9dc0b1bac7e45ec138aefc4107d8bb0e6554d4e1a86ccbc838c7b182",
+    "vlm_probe/category_study/__main__.py": "b3ec98b15db318fb0169c86ec5cefe961be4386506443d2433f85ddced6c1c18",
+    "vlm_probe/category_study/audit.py": "eb31b6e31138a18f18494332f1cc121a9a6626935f3dea54e9ab217dd65b2742",
+    "vlm_probe/category_study/metrics.py": "e3c926b4699b7066579c297c329fffa40bfdc281a30b33d48f063bfdea1b834e",
+    "vlm_probe/category_study/report.py": "4ca42bd08f6ba1bafd3b2f18e95914f4fbe9282589e5549b22548c3a81eed8d3",
+    "vlm_probe/category_study/runner.py": "b8ae6d0d8c9b767f235dc08f434336a5dd82c83520f6507219d6eafcb4ed554c",
+    "vlm_probe/category_study/taxonomy.py": "b6f3408ecc3318a2ac3d6afd9948d6bc01a9615685dff875027178bf2a633acb",
+    "vlm_probe/compare.py": "b88003cdbf06947317b7738b38887e4def427981e183a99d95aec2bd3a41a90d",
+    "vlm_probe/configuration.py": "295f0ea83f45d6b79d23d60bbff8083aaabaca427026905a1ccd0ae143368cc6",
+    "vlm_probe/dataset_adapters/__init__.py": "c279148c8304811dacdac1c1fee2fba5248cb81459a784fb0e8f46d9450ae17c",
+    "vlm_probe/dataset_adapters/archive_utils.py": "65f74c803c2ad93e331a1828ba54862f719493281720caf69cf4d0cff3d44ab2",
+    "vlm_probe/dataset_adapters/cifar100.py": "84dafd1265ae1f1a0d4bdaf96dcac2697aeba29fac16ca5e33951d6cbb09d096",
+    "vlm_probe/dataset_adapters/dtd.py": "8ae4883afdedecd3ab5db39de140aa1c7979011707d6daab5be62676fa2ecbae",
+    "vlm_probe/dataset_adapters/flowers102.py": "2298e0e0f810f6b8094dab6d1ab7799277781a42bff0000799cdd721fbee0709",
+    "vlm_probe/dataset_adapters/food101.py": "04188b6d48b58c0cee30ae47d2035c0ba2c410b6aac0f10c2b56f2bd9011f7fc",
+    "vlm_probe/dataset_adapters/oxford_pet.py": "c903d1bfe1778129796145076586f9731665eed67ae696b44a4c332501fc39fd",
+    "vlm_probe/depth/__init__.py": "d9aaa8af70f1828e9ab117e783ddb1ba115efc2112a622abaac96df275dbd2de",
+    "vlm_probe/depth/__main__.py": "3fed4e93d925207f9461a8e01e9a2deb5a04602607574e4c39b12514a408da03",
+    "vlm_probe/depth/analysis.py": "92bfd3f8b02701e2ae2670136205e2b131b812ce12291448f10450d23943af9b",
+    "vlm_probe/depth/common.py": "71f6722b4500871ef0e22d3c7f2144ddea2854d34f94b7e70ee6b5ccba26a06e",
+    "vlm_probe/depth/design.py": "acad5d4c22e742fb3942991ce7733575307578c9f31fe7bf7f89c404080a7cd1",
+    "vlm_probe/depth/spatial.py": "d1271bc07c30432ccacb706fd4e079406deed38fe37026ca2311fbdb7403e746",
+    "vlm_probe/evaluate.py": "1fb8cc1792cf30ada2a06146440c18e7db5c018a7845e855f9c52c0fcfd975a7",
+    "vlm_probe/io_utils.py": "17d915b400b7f58f257c9dd8a2c140616f8562b25e6025341f5547b2f376aae7",
+    "vlm_probe/metrics.py": "98abd6be72af818db8da015a5659142e75e1d2983436a782a114e3b06d1a50b3",
+    "vlm_probe/model_adapters/__init__.py": "c879117fa9f8e4f304e0ac14c215d4944edb7133d395cb70f2121e1a8c7772e3",
+    "vlm_probe/model_adapters/openai_clip.py": "613d66e151f0b831d398c7fe21144439942b3a0142e6e78c547afcf5cd84f06a",
+    "vlm_probe/probing/__init__.py": "a6f62afadd7fed643476da34bdf6d2675fc3fb2d51e0288d01c995571e2121f2",
+    "vlm_probe/probing/__main__.py": "db414e71974fc6ff6a99173d54441a7c37e24f3fb632c32bd81c48f136863249",
+    "vlm_probe/probing/audit.py": "6c58833ad144491f32ac22bddd3ea68f28c67b9d2504ed560bc05726e28bb90a",
+    "vlm_probe/probing/evaluate.py": "067b316db4d726a74db291fe93a3be2606c0d3a36b8fe9bfccccaecdf9890080",
+    "vlm_probe/probing/metrics.py": "28566bec94fe4bd0ec1ed35ed9f28e060cb105fb43807d6336f194941d725da9",
+    "vlm_probe/probing/stimuli.py": "77287a02cec6d2c2278254acff37d56c4d2640744bfc204a73c5f455660f52c2",
+    "vlm_probe/report.py": "7a2637410d9b796fb60ad42610d3aef403391647f59b008f85c2672ba829030f",
+    "vlm_probe/verify.py": "6431327b1ec124c309c896e1dcc3ba73f3cfdef0b513e41fbd49458bf3eba081"
+  },
+  "source_snapshot": {
+    "path": "results/source_snapshots/source_3cc022e13f03fc4c1e46.zip",
+    "sha256": "95607702286034c66ec7c8128b8f348c6b2fca1bc3e444836ea418fdb8731251"
+  },
+  "input_sha256": {},
+  "model_adapter": "openai_clip",
+  "model_embedding_dim": 512,
+  "checkpoint": {
+    "url": "https://openaipublic.azureedge.net/clip/models/40d365715913c9da98579312b702a82c18be219cc2a73407c4526f58eba950af/ViT-B-32.pt",
+    "sha256": "40d365715913c9da98579312b702a82c18be219cc2a73407c4526f58eba950af",
+    "path": "models/ViT-B-32.pt",
+    "quick_gelu": true
+  },
+  "preprocessing": "Compose(\n    Resize(size=224, interpolation=bicubic, max_size=None, antialias=True)\n    CenterCrop(size=(224, 224))\n    MaybeConvertMode()\n    MaybeToTensor()\n    Normalize(mean=(0.48145466, 0.4578275, 0.40821073), std=(0.26862954, 0.26130258, 0.27577711))\n)",
+  "pretrained_config": {
+    "url": "https://openaipublic.azureedge.net/clip/models/40d365715913c9da98579312b702a82c18be219cc2a73407c4526f58eba950af/ViT-B-32.pt",
+    "hf_hub": "timm/vit_base_patch32_clip_224.openai/",
+    "mean": [
+      0.48145466,
+      0.4578275,
+      0.40821073
+    ],
+    "std": [
+      0.26862954,
+      0.26130258,
+      0.27577711
+    ],
+    "interpolation": "bicubic",
+    "resize_mode": "shortest",
+    "quick_gelu": true
+  },
+  "tokenizer": "SimpleTokenizer",
+  "context_length": 77,
+  "feature_caches": [
+    {
+      "path": ".cache/depth_features/c61655fa5617db09431b912cf0405982193f0fa90d8d50e65fb5c0c332c56fce.npy",
+      "sha256": "e70781c18aa550c2c906eae490926b00cec70b72179739859b3d024290cd2772",
+      "identity": {
+        "input": {
+          "images": [
+            {
+              "image_id": "spatial/000/original/0",
+              "image_sha256": "6ab85f36464b75ab485b55c8d4fc75d4617dc9e21c0b5ecfea730b25ecf9c6ec",
+              "transform": null
+            },
+            {
+              "image_id": "spatial/000/original/1",
+              "image_sha256": "20429129637765829cee670e3a04ed998d3d6d0f610bf6e4160ca1e5de52caa8",
+              "transform": null
+            },
+            {
+              "image_id": "spatial/000/original/2",
+              "image_sha256": "20c3350dad7a51aec4d905cb57f4825cabcd14e72b3034bf1c206664aecdb070",
+              "transform": null
+            },
+            {
+              "image_id": "spatial/000/original/3",
+              "image_sha256": "a2d432b69d150073aeec5188b7990e7192b06dc1c0dfb90c1402f4e3f119984f",
+              "transform": null
+            },
+            {
+              "image_id": "spatial/000/color_cycle/0",
+              "image_sha256": "9c56fa6235af02e1b87f82fa10a7ff65633eb5d72880ce23e056add6d9135d46",
+              "transform": null
+            },
+            {
+              "image_id": "spatial/000/color_cycle/1",
+              "image_sha256": "4e88f9dff9af4e86b19e0961829940e597bbe6cc2fbceba2f76ba5832cb9b4e0",
+              "transform": null
+            },
+            {
+              "image_id": "spatial/000/color_cycle/2",
+              "image_sha256": "546c461057046377083e33bed4ce4e40d3d8d3db481137fa5dbc765510af5d28",
+              "transform": null
+            },
+            {
+              "image_id": "spatial/000/color_cycle/3",
+              "image_sha256": "feea8e0a2cd61ce514e0ced77c5d02f434e4e33d0ae67a68e6031f3219b6d356",
+              "transform": null
+            },
+            {
+              "image_id": "spatial/000/shape_cycle/0",
+              "image_sha256": "ef53ae787f348e392547498fca553758148f703764e5d6cc9e255479236d20af",
+              "transform": null
+            },
+            {
+              "image_id": "spatial/000/shape_cycle/1",
+              "image_sha256": "d552ec17237595a2122c7c3de3c8490f734940d82f48b64d5c334b51f994969c",
+              "transform": null
+            },
+            {
+              "image_id": "spatial/000/shape_cycle/2",
+              "image_sha256": "e3608b611cf4a1cb92667bd79369fd457f22e72d5ea81572acd8865593a19bee",
+              "transform": null
+            },
+            {
+              "image_id": "spatial/000/shape_cycle/3",
+              "image_sha256": "e358fd8181e0ff8a862f419c60ad6d00540dc22e05354897fdbbd5d5343c2b12",
+              "transform": null
+            },
+            {
+              "image_id": "spatial/001/original/0",
+              "image_sha256": "07f9670dd8fdacb0dbd11d33c1788e45b2d242bd5850cb687272d6d26ece7f51",
+              "transform": null
+            },
+            {
+              "image_id": "spatial/001/original/1",
+              "image_sha256": "0ce23dac68373b0909642182ef1c33377e86e7652d3860f46ff57f484966599e",
+              "transform": null
+            },
+            {
+              "image_id": "spatial/001/original/2",
+              "image_sha256": "abad36b2010bcf37742128be568f9beeb3abf01364e6c48d83d7ac2f081649fa",
+              "transform": null
+            },
+            {
+              "image_id": "spatial/001/original/3",
+              "image_sha256": "80038c04bb3f7f1d79f7f9ec6a810e39057ad145603ca10387f97b62539e169e",
+              "transform": null
+            },
+            {
+              "image_id": "spatial/001/color_cycle/0",
+              "image_sha256": "48041cf0a4af5720ce3ae3d393153da81f0879476c6d924ef5269afc03255dcd",
+              "transform": null
+            },
+            {
+              "image_id": "spatial/001/color_cycle/1",
+              "image_sha256": "734b21ecf05268f8e2a89977e5a773b3589cc5d5e5612192611858a8b4a8e79e",
+              "transform": null
+            },
+            {
+              "image_id": "spatial/001/color_cycle/2",
+              "image_sha256": "06f2662f3f870416f4acae6468cc49378b3321acaf88a40f2b63c61e28a76728",
+              "transform": null
+            },
+            {
+              "image_id": "spatial/001/color_cycle/3",
+              "image_sha256": "0c8f864cac4d0138ca3d7a905f8fdea21ad5248e61b7d3d0e6c85983cf923dbd",
+              "transform": null
+            },
+            {
+              "image_id": "spatial/001/shape_cycle/0",
+              "image_sha256": "7b87e14623f92a73954ad8820cd85536143d56b5edfe2909eb7d4425c477aae3",
+              "transform": null
+            },
+            {
+              "image_id": "spatial/001/shape_cycle/1",
+              "image_sha256": "a6529ae60809961dc6b90bc8343178b7dc02f751b4f2ba9c8ed223f595701342",
+              "transform": null
+            },
+            {
+              "image_id": "spatial/001/shape_cycle/2",
+              "image_sha256": "e2f3135b945538ff908d5576f83c86dc4297d37e2e6b6d0ce074c31fbc608734",
+              "transform": null
+            },
+            {
+              "image_id": "spatial/001/shape_cycle/3",
+              "image_sha256": "eb55a4cc86d9f94143a67e4d46f5d4b41357e3696fc301c5355a618b1c28bc38",
+              "transform": null
+            },
+            {
+              "image_id": "spatial/002/original/0",
+              "image_sha256": "03a97da38b9b72742642239f53ecee4ca48adaed74aaa62bdbd3266b635f6e45",
+              "transform": null
+            },
+            {
+              "image_id": "spatial/002/original/1",
+              "image_sha256": "4abb66cbed3ec23ba336e10d6d233be1b840c2d34726f556f4a6035ebf4de44f",
+              "transform": null
+            },
+            {
+              "image_id": "spatial/002/original/2",
+              "image_sha256": "fdcc4c57f393bf00657dbe770ded3b7938f5778f2c8450a8f5fd7907b6344f41",
+              "transform": null
+            },
+            {
+              "image_id": "spatial/002/original/3",
+              "image_sha256": "b39a72f5aed6be892f70a4bbaa76681a0abdfdcad6ae14022dc7819f9f3348f6",
+              "transform": null
+            },
+            {
+              "image_id": "spatial/002/color_cycle/0",
+              "image_sha256": "276b401da95a73db27b72f21a35cfba6ef3a91f1d9c65c4aeeade77a278af23e",
+              "transform": null
+            },
+            {
+              "image_id": "spatial/002/color_cycle/1",
+              "image_sha256": "b5d0d13b04a599d4aca672c0372ee34d98caf549021d1e3b762824b33a4baf85",
+              "transform": null
+            },
+            {
+              "image_id": "spatial/002/color_cycle/2",
+              "image_sha256": "4d537071071238f87abcc29fdc118fc7cae62bc003a3a98539253f784714ec5d",
+              "transform": null
+            },
+            {
+              "image_id": "spatial/002/color_cycle/3",
+              "image_sha256": "cbf0b1b8f84a48e8d78ebcf69e2ed640e0cf3079327e720ada27ab7eba0c3f04",
+              "transform": null
+            },
+            {
+              "image_id": "spatial/002/shape_cycle/0",
+              "image_sha256": "e8b9f93ae896ceec10fbba274e67b668d528868c9fe707256ad108d96d42fc8b",
+              "transform": null
+            },
+            {
+              "image_id": "spatial/002/shape_cycle/1",
+              "image_sha256": "89f38d8d4325fb81cc1b6f3ae5ca106bb3865f2f9b86818b588a1c6a68ad1556",
+              "transform": null
+            },
+            {
+              "image_id": "spatial/002/shape_cycle/2",
+              "image_sha256": "be9aaf238dceb373dd8778e8905fc2cecdab366b3b2c4a34a4a102bbcda6b732",
+              "transform": null
+            },
+            {
+              "image_id": "spatial/002/shape_cycle/3",
+              "image_sha256": "ac71f71ffde426a96db0b834d245fbbf7c96d26a1b512a00700bbc1619bf9801",
+              "transform": null
+            }
+          ]
+        },
+        "checkpoint": {
+          "url": "https://openaipublic.azureedge.net/clip/models/40d365715913c9da98579312b702a82c18be219cc2a73407c4526f58eba950af/ViT-B-32.pt",
+          "sha256": "40d365715913c9da98579312b702a82c18be219cc2a73407c4526f58eba950af",
+          "path": "models/ViT-B-32.pt",
+          "quick_gelu": true
+        },
+        "preprocessing": "Compose(\n    Resize(size=224, interpolation=bicubic, max_size=None, antialias=True)\n    CenterCrop(size=(224, 224))\n    MaybeConvertMode()\n    MaybeToTensor()\n    Normalize(mean=(0.48145466, 0.4578275, 0.40821073), std=(0.26862954, 0.26130258, 0.27577711))\n)",
+        "precision": "fp32",
+        "batch_size": 32,
+        "engine_source_sha256": "71f6722b4500871ef0e22d3c7f2144ddea2854d34f94b7e70ee6b5ccba26a06e"
+      }
+    }
+  ],
+  "num_images": 36,
+  "num_trials": 216,
+  "unique_caption_count": 208,
+  "finished_at_utc": "2026-11-04T06:42:27.274369+00:00",
+  "artifact_sha256": {
+    "config.json": "83edb8b2b2619713f8dd1e2c3039c15d95d1123cbbeef2f7875a93f59446a1c2",
+    "environment.json": "e51ec032db8e97b5923a5b973ae265c8fccca932c2a2e4bc479ff63e04d07604",
+    "images.json": "8549a005db9d72ec6ddc092b0c2cbfe8e5bcf7691c80660a25175ac383bfad67",
+    "metrics.json": "a50b02f349caa912fd9beb481151c6e0c51b9edf1a0f10acf4501511142583df",
+    "predictions.csv": "2754c1717414c6ecf833d00f834f761abf9af1d81fec515e1ce6a4bf16521603",
+    "protocol.md": "8e94e39cca67c0d95ceb5b43bb5c7753d76eaded4e79afa800c8dac8791e078c",
+    "scores.npz": "10d85aee71c71cc4ff5f383c3455c4b35183e6ebddde706c25a181d7aab2ddd5",
+    "text_pool.json": "ae7fe2128a462e7c73f584eb8c08cda0c27e536285b15251dcac5f5c024212fa",
+    "trials.json": "392b7c943f5fc6cc7bb882180e98916de6cf225800537019b149da4f2ada39c5"
+  }
+}

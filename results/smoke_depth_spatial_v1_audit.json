@@ -1,0 +1,9 @@
+{
+  "verified": true,
+  "stage": "spatial",
+  "mode": "smoke",
+  "run": "results/smoke_depth_spatial_v1",
+  "num_images": 36,
+  "num_trials": 216,
+  "metrics_recomputed": true
+}

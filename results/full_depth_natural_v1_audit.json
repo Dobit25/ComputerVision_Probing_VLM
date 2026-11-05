@@ -1,0 +1,9 @@
+{
+  "verified": true,
+  "stage": "natural",
+  "mode": "full",
+  "run": "results/full_depth_natural_v1",
+  "num_images": 400,
+  "num_trials": 2400,
+  "metrics_recomputed": true
+}

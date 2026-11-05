@@ -1,0 +1,1154 @@
+[
+  {
+    "image_id": "spatial/000/original/0",
+    "group_id": "spatial/000",
+    "variant": "original",
+    "target": 0,
+    "objects": [
+      {
+        "color": "red",
+        "shape": "square",
+        "x": 48.06504375403203,
+        "y": 122.47327187307405,
+        "radius": 17.26542276196508
+      },
+      {
+        "color": "green",
+        "shape": "triangle",
+        "x": 155.0362591383884,
+        "y": 122.47327187307405,
+        "radius": 17.26542276196508
+      }
+    ],
+    "background": 255,
+    "a": "a red square",
+    "b": "a green triangle",
+    "control_captions": [
+      "a drawing of a red square and a green triangle.",
+      "a drawing of a blue square and a green triangle."
+    ],
+    "control_target": 0,
+    "image_path": "data/probing_depth_v1/spatial/90f7a3980caff02daf01acfaa31c8f786705088427e3f53a6a10c6045ebb82e1.png",
+    "image_sha256": "6ab85f36464b75ab485b55c8d4fc75d4617dc9e21c0b5ecfea730b25ecf9c6ec"
+  },
+  {
+    "image_id": "spatial/000/original/1",
+    "group_id": "spatial/000",
+    "variant": "original",
+    "target": 1,
+    "objects": [
+      {
+        "color": "red",
+        "shape": "square",
+        "x": 155.0362591383884,
+        "y": 122.47327187307405,
+        "radius": 17.26542276196508
+      },
+      {
+        "color": "green",
+        "shape": "triangle",
+        "x": 48.06504375403203,
+        "y": 122.47327187307405,
+        "radius": 17.26542276196508
+      }
+    ],
+    "background": 255,
+    "a": "a red square",
+    "b": "a green triangle",
+    "control_captions": [
+      "a drawing of a blue square and a green triangle.",
+      "a drawing of a red square and a green triangle."
+    ],
+    "control_target": 1,
+    "image_path": "data/probing_depth_v1/spatial/89b9ce6b01d9c1827c277dcb1c33c41a4cab6a4ea94feede0ba90c933477526b.png",
+    "image_sha256": "20429129637765829cee670e3a04ed998d3d6d0f610bf6e4160ca1e5de52caa8"
+  },
+  {
+    "image_id": "spatial/000/original/2",
+    "group_id": "spatial/000",
+    "variant": "original",
+    "target": 2,
+    "objects": [
+      {
+        "color": "red",
+        "shape": "square",
+        "x": 101.55065144621021,
+        "y": 68.98766418089588,
+        "radius": 17.26542276196508
+      },
+      {
+        "color": "green",
+        "shape": "triangle",
+        "x": 101.55065144621021,
+        "y": 175.95887956525223,
+        "radius": 17.26542276196508
+      }
+    ],
+    "background": 255,
+    "a": "a red square",
+    "b": "a green triangle",
+    "control_captions": [
+      "a drawing of a red square and a green triangle.",
+      "a drawing of a blue square and a green triangle."
+    ],
+    "control_target": 0,
+    "image_path": "data/probing_depth_v1/spatial/04be1f8124c6a9893e3638dad2a7622f5b5324d483947ded5409bb91e23e6add.png",
+    "image_sha256": "20c3350dad7a51aec4d905cb57f4825cabcd14e72b3034bf1c206664aecdb070"
+  },
+  {
+    "image_id": "spatial/000/original/3",
+    "group_id": "spatial/000",
+    "variant": "original",
+    "target": 3,
+    "objects": [
+      {
+        "color": "red",
+        "shape": "square",
+        "x": 101.55065144621021,
+        "y": 175.95887956525223,
+        "radius": 17.26542276196508
+      },
+      {
+        "color": "green",
+        "shape": "triangle",
+        "x": 101.55065144621021,
+        "y": 68.98766418089588,
+        "radius": 17.26542276196508
+      }
+    ],
+    "background": 255,
+    "a": "a red square",
+    "b": "a green triangle",
+    "control_captions": [
+      "a drawing of a blue square and a green triangle.",
+      "a drawing of a red square and a green triangle."
+    ],
+    "control_target": 1,
+    "image_path": "data/probing_depth_v1/spatial/527abc2c10805d263138f3935aad0b7fb5a02e717a581619ffb67f362b8c33ee.png",
+    "image_sha256": "a2d432b69d150073aeec5188b7990e7192b06dc1c0dfb90c1402f4e3f119984f"
+  },
+  {
+    "image_id": "spatial/000/color_cycle/0",
+    "group_id": "spatial/000",
+    "variant": "color_cycle",
+    "target": 0,
+    "objects": [
+      {
+        "color": "blue",
+        "shape": "square",
+        "x": 48.06504375403203,
+        "y": 122.47327187307405,
+        "radius": 17.26542276196508
+      },
+      {
+        "color": "red",
+        "shape": "triangle",
+        "x": 155.0362591383884,
+        "y": 122.47327187307405,
+        "radius": 17.26542276196508
+      }
+    ],
+    "background": 255,
+    "a": "a blue square",
+    "b": "a red triangle",
+    "control_captions": [
+      "a drawing of a green square and a red triangle.",
+      "a drawing of a blue square and a red triangle."
+    ],
+    "control_target": 1,
+    "image_path": "data/probing_depth_v1/spatial/153b48dab0aa55341455e1fd4ef3551d5abad53c6de5441f186c18213c738ed3.png",
+    "image_sha256": "9c56fa6235af02e1b87f82fa10a7ff65633eb5d72880ce23e056add6d9135d46"
+  },
+  {
+    "image_id": "spatial/000/color_cycle/1",
+    "group_id": "spatial/000",
+    "variant": "color_cycle",
+    "target": 1,
+    "objects": [
+      {
+        "color": "blue",
+        "shape": "square",
+        "x": 155.0362591383884,
+        "y": 122.47327187307405,
+        "radius": 17.26542276196508
+      },
+      {
+        "color": "red",
+        "shape": "triangle",
+        "x": 48.06504375403203,
+        "y": 122.47327187307405,
+        "radius": 17.26542276196508
+      }
+    ],
+    "background": 255,
+    "a": "a blue square",
+    "b": "a red triangle",
+    "control_captions": [
+      "a drawing of a blue square and a red triangle.",
+      "a drawing of a green square and a red triangle."
+    ],
+    "control_target": 0,
+    "image_path": "data/probing_depth_v1/spatial/38f685257307107c8cc3d8cbfc9a795e79002a265cafff6fa045b85d61653c5a.png",
+    "image_sha256": "4e88f9dff9af4e86b19e0961829940e597bbe6cc2fbceba2f76ba5832cb9b4e0"
+  },
+  {
+    "image_id": "spatial/000/color_cycle/2",
+    "group_id": "spatial/000",
+    "variant": "color_cycle",
+    "target": 2,
+    "objects": [
+      {
+        "color": "blue",
+        "shape": "square",
+        "x": 101.55065144621021,
+        "y": 68.98766418089588,
+        "radius": 17.26542276196508
+      },
+      {
+        "color": "red",
+        "shape": "triangle",
+        "x": 101.55065144621021,
+        "y": 175.95887956525223,
+        "radius": 17.26542276196508
+      }
+    ],
+    "background": 255,
+    "a": "a blue square",
+    "b": "a red triangle",
+    "control_captions": [
+      "a drawing of a green square and a red triangle.",
+      "a drawing of a blue square and a red triangle."
+    ],
+    "control_target": 1,
+    "image_path": "data/probing_depth_v1/spatial/723ee3e18b18ff7a8e2cc6aa982bd4b77cb34bc27ef144f26c90f8ed3938b3f5.png",
+    "image_sha256": "546c461057046377083e33bed4ce4e40d3d8d3db481137fa5dbc765510af5d28"
+  },
+  {
+    "image_id": "spatial/000/color_cycle/3",
+    "group_id": "spatial/000",
+    "variant": "color_cycle",
+    "target": 3,
+    "objects": [
+      {
+        "color": "blue",
+        "shape": "square",
+        "x": 101.55065144621021,
+        "y": 175.95887956525223,
+        "radius": 17.26542276196508
+      },
+      {
+        "color": "red",
+        "shape": "triangle",
+        "x": 101.55065144621021,
+        "y": 68.98766418089588,
+        "radius": 17.26542276196508
+      }
+    ],
+    "background": 255,
+    "a": "a blue square",
+    "b": "a red triangle",
+    "control_captions": [
+      "a drawing of a blue square and a red triangle.",
+      "a drawing of a green square and a red triangle."
+    ],
+    "control_target": 0,
+    "image_path": "data/probing_depth_v1/spatial/5b5e15b521fe408dd185f5b5e57b0480fede8359a8c9382841790e5a30b0cfdb.png",
+    "image_sha256": "feea8e0a2cd61ce514e0ced77c5d02f434e4e33d0ae67a68e6031f3219b6d356"
+  },
+  {
+    "image_id": "spatial/000/shape_cycle/0",
+    "group_id": "spatial/000",
+    "variant": "shape_cycle",
+    "target": 0,
+    "objects": [
+      {
+        "color": "red",
+        "shape": "triangle",
+        "x": 48.06504375403203,
+        "y": 122.47327187307405,
+        "radius": 17.26542276196508
+      },
+      {
+        "color": "green",
+        "shape": "circle",
+        "x": 155.0362591383884,
+        "y": 122.47327187307405,
+        "radius": 17.26542276196508
+      }
+    ],
+    "background": 255,
+    "a": "a red triangle",
+    "b": "a green circle",
+    "control_captions": [
+      "a drawing of a red triangle and a green circle.",
+      "a drawing of a blue triangle and a green circle."
+    ],
+    "control_target": 0,
+    "image_path": "data/probing_depth_v1/spatial/ebc8e94e80d3810f8ec4b665ed8ea4c97bd75466ab08a35581ff62ceab4d3723.png",
+    "image_sha256": "ef53ae787f348e392547498fca553758148f703764e5d6cc9e255479236d20af"
+  },
+  {
+    "image_id": "spatial/000/shape_cycle/1",
+    "group_id": "spatial/000",
+    "variant": "shape_cycle",
+    "target": 1,
+    "objects": [
+      {
+        "color": "red",
+        "shape": "triangle",
+        "x": 155.0362591383884,
+        "y": 122.47327187307405,
+        "radius": 17.26542276196508
+      },
+      {
+        "color": "green",
+        "shape": "circle",
+        "x": 48.06504375403203,
+        "y": 122.47327187307405,
+        "radius": 17.26542276196508
+      }
+    ],
+    "background": 255,
+    "a": "a red triangle",
+    "b": "a green circle",
+    "control_captions": [
+      "a drawing of a blue triangle and a green circle.",
+      "a drawing of a red triangle and a green circle."
+    ],
+    "control_target": 1,
+    "image_path": "data/probing_depth_v1/spatial/34f8824c129bd8efbac43719ea5b1900c9da6c3767d1cb937d5ce40beb2274d2.png",
+    "image_sha256": "d552ec17237595a2122c7c3de3c8490f734940d82f48b64d5c334b51f994969c"
+  },
+  {
+    "image_id": "spatial/000/shape_cycle/2",
+    "group_id": "spatial/000",
+    "variant": "shape_cycle",
+    "target": 2,
+    "objects": [
+      {
+        "color": "red",
+        "shape": "triangle",
+        "x": 101.55065144621021,
+        "y": 68.98766418089588,
+        "radius": 17.26542276196508
+      },
+      {
+        "color": "green",
+        "shape": "circle",
+        "x": 101.55065144621021,
+        "y": 175.95887956525223,
+        "radius": 17.26542276196508
+      }
+    ],
+    "background": 255,
+    "a": "a red triangle",
+    "b": "a green circle",
+    "control_captions": [
+      "a drawing of a red triangle and a green circle.",
+      "a drawing of a blue triangle and a green circle."
+    ],
+    "control_target": 0,
+    "image_path": "data/probing_depth_v1/spatial/836b1e72a019613ad00185268de6dd6bc4d86d4a0c5eb4efa898cc1236504ef3.png",
+    "image_sha256": "e3608b611cf4a1cb92667bd79369fd457f22e72d5ea81572acd8865593a19bee"
+  },
+  {
+    "image_id": "spatial/000/shape_cycle/3",
+    "group_id": "spatial/000",
+    "variant": "shape_cycle",
+    "target": 3,
+    "objects": [
+      {
+        "color": "red",
+        "shape": "triangle",
+        "x": 101.55065144621021,
+        "y": 175.95887956525223,
+        "radius": 17.26542276196508
+      },
+      {
+        "color": "green",
+        "shape": "circle",
+        "x": 101.55065144621021,
+        "y": 68.98766418089588,
+        "radius": 17.26542276196508
+      }
+    ],
+    "background": 255,
+    "a": "a red triangle",
+    "b": "a green circle",
+    "control_captions": [
+      "a drawing of a blue triangle and a green circle.",
+      "a drawing of a red triangle and a green circle."
+    ],
+    "control_target": 1,
+    "image_path": "data/probing_depth_v1/spatial/aacb4402b7009da76218cf4d3501f3e803a4b5d43ce33ba6263f865a45d771d8.png",
+    "image_sha256": "e358fd8181e0ff8a862f419c60ad6d00540dc22e05354897fdbbd5d5343c2b12"
+  },
+  {
+    "image_id": "spatial/001/original/0",
+    "group_id": "spatial/001",
+    "variant": "original",
+    "target": 0,
+    "objects": [
+      {
+        "color": "red",
+        "shape": "triangle",
+        "x": 58.131581610415395,
+        "y": 101.55787165817235,
+        "radius": 21.794404592176853
+      },
+      {
+        "color": "green",
+        "shape": "circle",
+        "x": 170.0511247950464,
+        "y": 101.55787165817235,
+        "radius": 21.794404592176853
+      }
+    ],
+    "background": 245,
+    "a": "a red triangle",
+    "b": "a green circle",
+    "control_captions": [
+      "a drawing of a blue triangle and a green circle.",
+      "a drawing of a red triangle and a green circle."
+    ],
+    "control_target": 1,
+    "image_path": "data/probing_depth_v1/spatial/ef561b61998d3978b61267e89b560ab26b68cc208543caa6a3c5e1a66e22a778.png",
+    "image_sha256": "07f9670dd8fdacb0dbd11d33c1788e45b2d242bd5850cb687272d6d26ece7f51"
+  },
+  {
+    "image_id": "spatial/001/original/1",
+    "group_id": "spatial/001",
+    "variant": "original",
+    "target": 1,
+    "objects": [
+      {
+        "color": "red",
+        "shape": "triangle",
+        "x": 170.0511247950464,
+        "y": 101.55787165817235,
+        "radius": 21.794404592176853
+      },
+      {
+        "color": "green",
+        "shape": "circle",
+        "x": 58.131581610415395,
+        "y": 101.55787165817235,
+        "radius": 21.794404592176853
+      }
+    ],
+    "background": 245,
+    "a": "a red triangle",
+    "b": "a green circle",
+    "control_captions": [
+      "a drawing of a red triangle and a green circle.",
+      "a drawing of a blue triangle and a green circle."
+    ],
+    "control_target": 0,
+    "image_path": "data/probing_depth_v1/spatial/d43858a800009326d949f8915c972cd02792f697c5037c03a362773f3c5271cf.png",
+    "image_sha256": "0ce23dac68373b0909642182ef1c33377e86e7652d3860f46ff57f484966599e"
+  },
+  {
+    "image_id": "spatial/001/original/2",
+    "group_id": "spatial/001",
+    "variant": "original",
+    "target": 2,
+    "objects": [
+      {
+        "color": "red",
+        "shape": "triangle",
+        "x": 114.0913532027309,
+        "y": 45.59810006585684,
+        "radius": 21.794404592176853
+      },
+      {
+        "color": "green",
+        "shape": "circle",
+        "x": 114.0913532027309,
+        "y": 157.51764325048785,
+        "radius": 21.794404592176853
+      }
+    ],
+    "background": 245,
+    "a": "a red triangle",
+    "b": "a green circle",
+    "control_captions": [
+      "a drawing of a blue triangle and a green circle.",
+      "a drawing of a red triangle and a green circle."
+    ],
+    "control_target": 1,
+    "image_path": "data/probing_depth_v1/spatial/dd23a1bbae91547e153668cab82873130e7f1d3d12b1be158f3cce18f71eb82a.png",
+    "image_sha256": "abad36b2010bcf37742128be568f9beeb3abf01364e6c48d83d7ac2f081649fa"
+  },
+  {
+    "image_id": "spatial/001/original/3",
+    "group_id": "spatial/001",
+    "variant": "original",
+    "target": 3,
+    "objects": [
+      {
+        "color": "red",
+        "shape": "triangle",
+        "x": 114.0913532027309,
+        "y": 157.51764325048785,
+        "radius": 21.794404592176853
+      },
+      {
+        "color": "green",
+        "shape": "circle",
+        "x": 114.0913532027309,
+        "y": 45.59810006585684,
+        "radius": 21.794404592176853
+      }
+    ],
+    "background": 245,
+    "a": "a red triangle",
+    "b": "a green circle",
+    "control_captions": [
+      "a drawing of a red triangle and a green circle.",
+      "a drawing of a blue triangle and a green circle."
+    ],
+    "control_target": 0,
+    "image_path": "data/probing_depth_v1/spatial/5b58b4318f25714bca2223dafc41a2a6014cba538e5f0f99e112e93c9e67fca0.png",
+    "image_sha256": "80038c04bb3f7f1d79f7f9ec6a810e39057ad145603ca10387f97b62539e169e"
+  },
+  {
+    "image_id": "spatial/001/color_cycle/0",
+    "group_id": "spatial/001",
+    "variant": "color_cycle",
+    "target": 0,
+    "objects": [
+      {
+        "color": "blue",
+        "shape": "triangle",
+        "x": 58.131581610415395,
+        "y": 101.55787165817235,
+        "radius": 21.794404592176853
+      },
+      {
+        "color": "red",
+        "shape": "circle",
+        "x": 170.0511247950464,
+        "y": 101.55787165817235,
+        "radius": 21.794404592176853
+      }
+    ],
+    "background": 245,
+    "a": "a blue triangle",
+    "b": "a red circle",
+    "control_captions": [
+      "a drawing of a blue triangle and a red circle.",
+      "a drawing of a green triangle and a red circle."
+    ],
+    "control_target": 0,
+    "image_path": "data/probing_depth_v1/spatial/64b9c3b05c97089012d516d02d8cd2eabee478336d58e7c7cc78d8cf3cc412af.png",
+    "image_sha256": "48041cf0a4af5720ce3ae3d393153da81f0879476c6d924ef5269afc03255dcd"
+  },
+  {
+    "image_id": "spatial/001/color_cycle/1",
+    "group_id": "spatial/001",
+    "variant": "color_cycle",
+    "target": 1,
+    "objects": [
+      {
+        "color": "blue",
+        "shape": "triangle",
+        "x": 170.0511247950464,
+        "y": 101.55787165817235,
+        "radius": 21.794404592176853
+      },
+      {
+        "color": "red",
+        "shape": "circle",
+        "x": 58.131581610415395,
+        "y": 101.55787165817235,
+        "radius": 21.794404592176853
+      }
+    ],
+    "background": 245,
+    "a": "a blue triangle",
+    "b": "a red circle",
+    "control_captions": [
+      "a drawing of a green triangle and a red circle.",
+      "a drawing of a blue triangle and a red circle."
+    ],
+    "control_target": 1,
+    "image_path": "data/probing_depth_v1/spatial/4f5053b893f4b2f255731769d03f20fcc75dc34464c1cfd18f91b964e056e4d0.png",
+    "image_sha256": "734b21ecf05268f8e2a89977e5a773b3589cc5d5e5612192611858a8b4a8e79e"
+  },
+  {
+    "image_id": "spatial/001/color_cycle/2",
+    "group_id": "spatial/001",
+    "variant": "color_cycle",
+    "target": 2,
+    "objects": [
+      {
+        "color": "blue",
+        "shape": "triangle",
+        "x": 114.0913532027309,
+        "y": 45.59810006585684,
+        "radius": 21.794404592176853
+      },
+      {
+        "color": "red",
+        "shape": "circle",
+        "x": 114.0913532027309,
+        "y": 157.51764325048785,
+        "radius": 21.794404592176853
+      }
+    ],
+    "background": 245,
+    "a": "a blue triangle",
+    "b": "a red circle",
+    "control_captions": [
+      "a drawing of a blue triangle and a red circle.",
+      "a drawing of a green triangle and a red circle."
+    ],
+    "control_target": 0,
+    "image_path": "data/probing_depth_v1/spatial/28d9c67cdcf30cedc679edd20d58c3b42e95d8ea58340a97bf689b5c79a03c5c.png",
+    "image_sha256": "06f2662f3f870416f4acae6468cc49378b3321acaf88a40f2b63c61e28a76728"
+  },
+  {
+    "image_id": "spatial/001/color_cycle/3",
+    "group_id": "spatial/001",
+    "variant": "color_cycle",
+    "target": 3,
+    "objects": [
+      {
+        "color": "blue",
+        "shape": "triangle",
+        "x": 114.0913532027309,
+        "y": 157.51764325048785,
+        "radius": 21.794404592176853
+      },
+      {
+        "color": "red",
+        "shape": "circle",
+        "x": 114.0913532027309,
+        "y": 45.59810006585684,
+        "radius": 21.794404592176853
+      }
+    ],
+    "background": 245,
+    "a": "a blue triangle",
+    "b": "a red circle",
+    "control_captions": [
+      "a drawing of a green triangle and a red circle.",
+      "a drawing of a blue triangle and a red circle."
+    ],
+    "control_target": 1,
+    "image_path": "data/probing_depth_v1/spatial/4005eddd75fcfb647279372c989311f13cd493e70063e7fbdf020b7a31893a3d.png",
+    "image_sha256": "0c8f864cac4d0138ca3d7a905f8fdea21ad5248e61b7d3d0e6c85983cf923dbd"
+  },
+  {
+    "image_id": "spatial/001/shape_cycle/0",
+    "group_id": "spatial/001",
+    "variant": "shape_cycle",
+    "target": 0,
+    "objects": [
+      {
+        "color": "red",
+        "shape": "circle",
+        "x": 58.131581610415395,
+        "y": 101.55787165817235,
+        "radius": 21.794404592176853
+      },
+      {
+        "color": "green",
+        "shape": "square",
+        "x": 170.0511247950464,
+        "y": 101.55787165817235,
+        "radius": 21.794404592176853
+      }
+    ],
+    "background": 245,
+    "a": "a red circle",
+    "b": "a green square",
+    "control_captions": [
+      "a drawing of a blue circle and a green square.",
+      "a drawing of a red circle and a green square."
+    ],
+    "control_target": 1,
+    "image_path": "data/probing_depth_v1/spatial/5c68aacaed45dbc3a36891937b60a1c4019f265a524af1ca82a62a224fea0be0.png",
+    "image_sha256": "7b87e14623f92a73954ad8820cd85536143d56b5edfe2909eb7d4425c477aae3"
+  },
+  {
+    "image_id": "spatial/001/shape_cycle/1",
+    "group_id": "spatial/001",
+    "variant": "shape_cycle",
+    "target": 1,
+    "objects": [
+      {
+        "color": "red",
+        "shape": "circle",
+        "x": 170.0511247950464,
+        "y": 101.55787165817235,
+        "radius": 21.794404592176853
+      },
+      {
+        "color": "green",
+        "shape": "square",
+        "x": 58.131581610415395,
+        "y": 101.55787165817235,
+        "radius": 21.794404592176853
+      }
+    ],
+    "background": 245,
+    "a": "a red circle",
+    "b": "a green square",
+    "control_captions": [
+      "a drawing of a red circle and a green square.",
+      "a drawing of a blue circle and a green square."
+    ],
+    "control_target": 0,
+    "image_path": "data/probing_depth_v1/spatial/488194db7ea118fa00c73696a7a766dd64235b51cfb77493ebde7c27a6532925.png",
+    "image_sha256": "a6529ae60809961dc6b90bc8343178b7dc02f751b4f2ba9c8ed223f595701342"
+  },
+  {
+    "image_id": "spatial/001/shape_cycle/2",
+    "group_id": "spatial/001",
+    "variant": "shape_cycle",
+    "target": 2,
+    "objects": [
+      {
+        "color": "red",
+        "shape": "circle",
+        "x": 114.0913532027309,
+        "y": 45.59810006585684,
+        "radius": 21.794404592176853
+      },
+      {
+        "color": "green",
+        "shape": "square",
+        "x": 114.0913532027309,
+        "y": 157.51764325048785,
+        "radius": 21.794404592176853
+      }
+    ],
+    "background": 245,
+    "a": "a red circle",
+    "b": "a green square",
+    "control_captions": [
+      "a drawing of a blue circle and a green square.",
+      "a drawing of a red circle and a green square."
+    ],
+    "control_target": 1,
+    "image_path": "data/probing_depth_v1/spatial/0916a62057485479dea4f9fd3252f9f50db4a8a60a22df7507c88170370c57b8.png",
+    "image_sha256": "e2f3135b945538ff908d5576f83c86dc4297d37e2e6b6d0ce074c31fbc608734"
+  },
+  {
+    "image_id": "spatial/001/shape_cycle/3",
+    "group_id": "spatial/001",
+    "variant": "shape_cycle",
+    "target": 3,
+    "objects": [
+      {
+        "color": "red",
+        "shape": "circle",
+        "x": 114.0913532027309,
+        "y": 157.51764325048785,
+        "radius": 21.794404592176853
+      },
+      {
+        "color": "green",
+        "shape": "square",
+        "x": 114.0913532027309,
+        "y": 45.59810006585684,
+        "radius": 21.794404592176853
+      }
+    ],
+    "background": 245,
+    "a": "a red circle",
+    "b": "a green square",
+    "control_captions": [
+      "a drawing of a red circle and a green square.",
+      "a drawing of a blue circle and a green square."
+    ],
+    "control_target": 0,
+    "image_path": "data/probing_depth_v1/spatial/11593e7b76bb42b23dc4ec4b1c97757b04cf9beb0b4256ee7fd17f139201fabf.png",
+    "image_sha256": "eb55a4cc86d9f94143a67e4d46f5d4b41357e3696fc301c5355a618b1c28bc38"
+  },
+  {
+    "image_id": "spatial/002/original/0",
+    "group_id": "spatial/002",
+    "variant": "original",
+    "target": 0,
+    "objects": [
+      {
+        "color": "blue",
+        "shape": "triangle",
+        "x": 56.45436298243321,
+        "y": 111.5568569906261,
+        "radius": 16.434284231981824
+      },
+      {
+        "color": "red",
+        "shape": "square",
+        "x": 167.95473481539113,
+        "y": 111.5568569906261,
+        "radius": 16.434284231981824
+      }
+    ],
+    "background": 255,
+    "a": "a blue triangle",
+    "b": "a red square",
+    "control_captions": [
+      "a drawing of a blue triangle and a red square.",
+      "a drawing of a green triangle and a red square."
+    ],
+    "control_target": 0,
+    "image_path": "data/probing_depth_v1/spatial/2989055437b9eb72e84957e0a46d93e8782da3e32763dd668898644cbdf61eeb.png",
+    "image_sha256": "03a97da38b9b72742642239f53ecee4ca48adaed74aaa62bdbd3266b635f6e45"
+  },
+  {
+    "image_id": "spatial/002/original/1",
+    "group_id": "spatial/002",
+    "variant": "original",
+    "target": 1,
+    "objects": [
+      {
+        "color": "blue",
+        "shape": "triangle",
+        "x": 167.95473481539113,
+        "y": 111.5568569906261,
+        "radius": 16.434284231981824
+      },
+      {
+        "color": "red",
+        "shape": "square",
+        "x": 56.45436298243321,
+        "y": 111.5568569906261,
+        "radius": 16.434284231981824
+      }
+    ],
+    "background": 255,
+    "a": "a blue triangle",
+    "b": "a red square",
+    "control_captions": [
+      "a drawing of a green triangle and a red square.",
+      "a drawing of a blue triangle and a red square."
+    ],
+    "control_target": 1,
+    "image_path": "data/probing_depth_v1/spatial/f26baaa588fdfdda6ccce421a6f5ba0e83a82d35240f0eff9c2640d054024b30.png",
+    "image_sha256": "4abb66cbed3ec23ba336e10d6d233be1b840c2d34726f556f4a6035ebf4de44f"
+  },
+  {
+    "image_id": "spatial/002/original/2",
+    "group_id": "spatial/002",
+    "variant": "original",
+    "target": 2,
+    "objects": [
+      {
+        "color": "blue",
+        "shape": "triangle",
+        "x": 112.20454889891217,
+        "y": 55.80667107414715,
+        "radius": 16.434284231981824
+      },
+      {
+        "color": "red",
+        "shape": "square",
+        "x": 112.20454889891217,
+        "y": 167.30704290710506,
+        "radius": 16.434284231981824
+      }
+    ],
+    "background": 255,
+    "a": "a blue triangle",
+    "b": "a red square",
+    "control_captions": [
+      "a drawing of a blue triangle and a red square.",
+      "a drawing of a green triangle and a red square."
+    ],
+    "control_target": 0,
+    "image_path": "data/probing_depth_v1/spatial/9a1d83cc195466f0ef7e6519d72a1b4e50a97156433fd6c585922d43739890bf.png",
+    "image_sha256": "fdcc4c57f393bf00657dbe770ded3b7938f5778f2c8450a8f5fd7907b6344f41"
+  },
+  {
+    "image_id": "spatial/002/original/3",
+    "group_id": "spatial/002",
+    "variant": "original",
+    "target": 3,
+    "objects": [
+      {
+        "color": "blue",
+        "shape": "triangle",
+        "x": 112.20454889891217,
+        "y": 167.30704290710506,
+        "radius": 16.434284231981824
+      },
+      {
+        "color": "red",
+        "shape": "square",
+        "x": 112.20454889891217,
+        "y": 55.80667107414715,
+        "radius": 16.434284231981824
+      }
+    ],
+    "background": 255,
+    "a": "a blue triangle",
+    "b": "a red square",
+    "control_captions": [
+      "a drawing of a green triangle and a red square.",
+      "a drawing of a blue triangle and a red square."
+    ],
+    "control_target": 1,
+    "image_path": "data/probing_depth_v1/spatial/e46da82ed12f790774518a8d9b27bb45a815c5a88c43b7ce19bb8c5e8de1da69.png",
+    "image_sha256": "b39a72f5aed6be892f70a4bbaa76681a0abdfdcad6ae14022dc7819f9f3348f6"
+  },
+  {
+    "image_id": "spatial/002/color_cycle/0",
+    "group_id": "spatial/002",
+    "variant": "color_cycle",
+    "target": 0,
+    "objects": [
+      {
+        "color": "green",
+        "shape": "triangle",
+        "x": 56.45436298243321,
+        "y": 111.5568569906261,
+        "radius": 16.434284231981824
+      },
+      {
+        "color": "blue",
+        "shape": "square",
+        "x": 167.95473481539113,
+        "y": 111.5568569906261,
+        "radius": 16.434284231981824
+      }
+    ],
+    "background": 255,
+    "a": "a green triangle",
+    "b": "a blue square",
+    "control_captions": [
+      "a drawing of a red triangle and a blue square.",
+      "a drawing of a green triangle and a blue square."
+    ],
+    "control_target": 1,
+    "image_path": "data/probing_depth_v1/spatial/219e6e47651bac8841d09e9517f63ef37d74918c3e0746c46fcf42aa992c73b3.png",
+    "image_sha256": "276b401da95a73db27b72f21a35cfba6ef3a91f1d9c65c4aeeade77a278af23e"
+  },
+  {
+    "image_id": "spatial/002/color_cycle/1",
+    "group_id": "spatial/002",
+    "variant": "color_cycle",
+    "target": 1,
+    "objects": [
+      {
+        "color": "green",
+        "shape": "triangle",
+        "x": 167.95473481539113,
+        "y": 111.5568569906261,
+        "radius": 16.434284231981824
+      },
+      {
+        "color": "blue",
+        "shape": "square",
+        "x": 56.45436298243321,
+        "y": 111.5568569906261,
+        "radius": 16.434284231981824
+      }
+    ],
+    "background": 255,
+    "a": "a green triangle",
+    "b": "a blue square",
+    "control_captions": [
+      "a drawing of a green triangle and a blue square.",
+      "a drawing of a red triangle and a blue square."
+    ],
+    "control_target": 0,
+    "image_path": "data/probing_depth_v1/spatial/687e65f4c73030d03f19c5320f34abeaa7cb79a9faf5279b92bfeedb98ef4a40.png",
+    "image_sha256": "b5d0d13b04a599d4aca672c0372ee34d98caf549021d1e3b762824b33a4baf85"
+  },
+  {
+    "image_id": "spatial/002/color_cycle/2",
+    "group_id": "spatial/002",
+    "variant": "color_cycle",
+    "target": 2,
+    "objects": [
+      {
+        "color": "green",
+        "shape": "triangle",
+        "x": 112.20454889891217,
+        "y": 55.80667107414715,
+        "radius": 16.434284231981824
+      },
+      {
+        "color": "blue",
+        "shape": "square",
+        "x": 112.20454889891217,
+        "y": 167.30704290710506,
+        "radius": 16.434284231981824
+      }
+    ],
+    "background": 255,
+    "a": "a green triangle",
+    "b": "a blue square",
+    "control_captions": [
+      "a drawing of a red triangle and a blue square.",
+      "a drawing of a green triangle and a blue square."
+    ],
+    "control_target": 1,
+    "image_path": "data/probing_depth_v1/spatial/9e9615e24129ad7ed54ca59d39973f9b36b5b55d27a8ed5400bfb1a403aa15ab.png",
+    "image_sha256": "4d537071071238f87abcc29fdc118fc7cae62bc003a3a98539253f784714ec5d"
+  },
+  {
+    "image_id": "spatial/002/color_cycle/3",
+    "group_id": "spatial/002",
+    "variant": "color_cycle",
+    "target": 3,
+    "objects": [
+      {
+        "color": "green",
+        "shape": "triangle",
+        "x": 112.20454889891217,
+        "y": 167.30704290710506,
+        "radius": 16.434284231981824
+      },
+      {
+        "color": "blue",
+        "shape": "square",
+        "x": 112.20454889891217,
+        "y": 55.80667107414715,
+        "radius": 16.434284231981824
+      }
+    ],
+    "background": 255,
+    "a": "a green triangle",
+    "b": "a blue square",
+    "control_captions": [
+      "a drawing of a green triangle and a blue square.",
+      "a drawing of a red triangle and a blue square."
+    ],
+    "control_target": 0,
+    "image_path": "data/probing_depth_v1/spatial/281d3cc85d5ec6ba87d7b4b5cbfc203706764abbebadebbd95b4280f4247c1b7.png",
+    "image_sha256": "cbf0b1b8f84a48e8d78ebcf69e2ed640e0cf3079327e720ada27ab7eba0c3f04"
+  },
+  {
+    "image_id": "spatial/002/shape_cycle/0",
+    "group_id": "spatial/002",
+    "variant": "shape_cycle",
+    "target": 0,
+    "objects": [
+      {
+        "color": "blue",
+        "shape": "circle",
+        "x": 56.45436298243321,
+        "y": 111.5568569906261,
+        "radius": 16.434284231981824
+      },
+      {
+        "color": "red",
+        "shape": "triangle",
+        "x": 167.95473481539113,
+        "y": 111.5568569906261,
+        "radius": 16.434284231981824
+      }
+    ],
+    "background": 255,
+    "a": "a blue circle",
+    "b": "a red triangle",
+    "control_captions": [
+      "a drawing of a blue circle and a red triangle.",
+      "a drawing of a green circle and a red triangle."
+    ],
+    "control_target": 0,
+    "image_path": "data/probing_depth_v1/spatial/8bf5afa69b089ee2775b1c32a921a2e70746190a9701fbc1babf7ea4c2907907.png",
+    "image_sha256": "e8b9f93ae896ceec10fbba274e67b668d528868c9fe707256ad108d96d42fc8b"
+  },
+  {
+    "image_id": "spatial/002/shape_cycle/1",
+    "group_id": "spatial/002",
+    "variant": "shape_cycle",
+    "target": 1,
+    "objects": [
+      {
+        "color": "blue",
+        "shape": "circle",
+        "x": 167.95473481539113,
+        "y": 111.5568569906261,
+        "radius": 16.434284231981824
+      },
+      {
+        "color": "red",
+        "shape": "triangle",
+        "x": 56.45436298243321,
+        "y": 111.5568569906261,
+        "radius": 16.434284231981824
+      }
+    ],
+    "background": 255,
+    "a": "a blue circle",
+    "b": "a red triangle",
+    "control_captions": [
+      "a drawing of a green circle and a red triangle.",
+      "a drawing of a blue circle and a red triangle."
+    ],
+    "control_target": 1,
+    "image_path": "data/probing_depth_v1/spatial/a57f8d0319ae81b0d58bce1f2b772df42277f31be47f191ca8ea56d9a2c8f120.png",
+    "image_sha256": "89f38d8d4325fb81cc1b6f3ae5ca106bb3865f2f9b86818b588a1c6a68ad1556"
+  },
+  {
+    "image_id": "spatial/002/shape_cycle/2",
+    "group_id": "spatial/002",
+    "variant": "shape_cycle",
+    "target": 2,
+    "objects": [
+      {
+        "color": "blue",
+        "shape": "circle",
+        "x": 112.20454889891217,
+        "y": 55.80667107414715,
+        "radius": 16.434284231981824
+      },
+      {
+        "color": "red",
+        "shape": "triangle",
+        "x": 112.20454889891217,
+        "y": 167.30704290710506,
+        "radius": 16.434284231981824
+      }
+    ],
+    "background": 255,
+    "a": "a blue circle",
+    "b": "a red triangle",
+    "control_captions": [
+      "a drawing of a blue circle and a red triangle.",
+      "a drawing of a green circle and a red triangle."
+    ],
+    "control_target": 0,
+    "image_path": "data/probing_depth_v1/spatial/9d540b4ffba9036b1e2a0dc901ad033d119123889b3a3bbc0744fbcb8d3ec8b6.png",
+    "image_sha256": "be9aaf238dceb373dd8778e8905fc2cecdab366b3b2c4a34a4a102bbcda6b732"
+  },
+  {
+    "image_id": "spatial/002/shape_cycle/3",
+    "group_id": "spatial/002",
+    "variant": "shape_cycle",
+    "target": 3,
+    "objects": [
+      {
+        "color": "blue",
+        "shape": "circle",
+        "x": 112.20454889891217,
+        "y": 167.30704290710506,
+        "radius": 16.434284231981824
+      },
+      {
+        "color": "red",
+        "shape": "triangle",
+        "x": 112.20454889891217,
+        "y": 55.80667107414715,
+        "radius": 16.434284231981824
+      }
+    ],
+    "background": 255,
+    "a": "a blue circle",
+    "b": "a red triangle",
+    "control_captions": [
+      "a drawing of a green circle and a red triangle.",
+      "a drawing of a blue circle and a red triangle."
+    ],
+    "control_target": 1,
+    "image_path": "data/probing_depth_v1/spatial/68d2bf0ee62c465fb5822e0d99d6103f87b3afafc80d0ee809c0079f4d717804.png",
+    "image_sha256": "ac71f71ffde426a96db0b834d245fbbf7c96d26a1b512a00700bbc1619bf9801"
+  }
+]

@@ -1,0 +1,1374 @@
+{
+  "status": "completed",
+  "stage": "category",
+  "mode": "smoke",
+  "started_at_utc": "2026-11-04T06:46:56.345566+00:00",
+  "git_head": "9a8aac619d7307d052b5376d76cca6e62d0f7b13",
+  "source_sha256": {
+    "configs/clip_b32_cifar100.json": "c67340dde83213b7138991c90d2f41f793ee06eb15a82482cfb06017e93010c4",
+    "configs/probing_depth_v1.json": "f7ecacb75fe68e69b6cd37b79c583cb7a763bd08e16d67780ffb8fe627727ab0",
+    "docs/probing_depth_protocol.md": "8e94e39cca67c0d95ceb5b43bb5c7753d76eaded4e79afa800c8dac8791e078c",
+    "requirements.txt": "823189c5e900e5a5fd5b612017f0a282abc249a42d432dfd6ba096db16bd0168",
+    "vlm_probe/__init__.py": "a67e12125e012495d84256bfcf67041abcda07dfaf49722bdfafd58566aa637d",
+    "vlm_probe/__main__.py": "db422f547f341e29abd6589f232935674ebeb83ad8793a293ad5bf6f609ef54c",
+    "vlm_probe/assets.py": "18c3f5b444f4e0325d72348689b37e0b74e6530f4e2aaa698c7dd7afef608bad",
+    "vlm_probe/category_study/__init__.py": "8740dace9dc0b1bac7e45ec138aefc4107d8bb0e6554d4e1a86ccbc838c7b182",
+    "vlm_probe/category_study/__main__.py": "b3ec98b15db318fb0169c86ec5cefe961be4386506443d2433f85ddced6c1c18",
+    "vlm_probe/category_study/audit.py": "eb31b6e31138a18f18494332f1cc121a9a6626935f3dea54e9ab217dd65b2742",
+    "vlm_probe/category_study/metrics.py": "e3c926b4699b7066579c297c329fffa40bfdc281a30b33d48f063bfdea1b834e",
+    "vlm_probe/category_study/report.py": "4ca42bd08f6ba1bafd3b2f18e95914f4fbe9282589e5549b22548c3a81eed8d3",
+    "vlm_probe/category_study/runner.py": "b8ae6d0d8c9b767f235dc08f434336a5dd82c83520f6507219d6eafcb4ed554c",
+    "vlm_probe/category_study/taxonomy.py": "b6f3408ecc3318a2ac3d6afd9948d6bc01a9615685dff875027178bf2a633acb",
+    "vlm_probe/compare.py": "b88003cdbf06947317b7738b38887e4def427981e183a99d95aec2bd3a41a90d",
+    "vlm_probe/configuration.py": "295f0ea83f45d6b79d23d60bbff8083aaabaca427026905a1ccd0ae143368cc6",
+    "vlm_probe/dataset_adapters/__init__.py": "c279148c8304811dacdac1c1fee2fba5248cb81459a784fb0e8f46d9450ae17c",
+    "vlm_probe/dataset_adapters/archive_utils.py": "65f74c803c2ad93e331a1828ba54862f719493281720caf69cf4d0cff3d44ab2",
+    "vlm_probe/dataset_adapters/cifar100.py": "84dafd1265ae1f1a0d4bdaf96dcac2697aeba29fac16ca5e33951d6cbb09d096",
+    "vlm_probe/dataset_adapters/dtd.py": "8ae4883afdedecd3ab5db39de140aa1c7979011707d6daab5be62676fa2ecbae",
+    "vlm_probe/dataset_adapters/flowers102.py": "2298e0e0f810f6b8094dab6d1ab7799277781a42bff0000799cdd721fbee0709",
+    "vlm_probe/dataset_adapters/food101.py": "04188b6d48b58c0cee30ae47d2035c0ba2c410b6aac0f10c2b56f2bd9011f7fc",
+    "vlm_probe/dataset_adapters/oxford_pet.py": "c903d1bfe1778129796145076586f9731665eed67ae696b44a4c332501fc39fd",
+    "vlm_probe/depth/__init__.py": "d9aaa8af70f1828e9ab117e783ddb1ba115efc2112a622abaac96df275dbd2de",
+    "vlm_probe/depth/__main__.py": "3fed4e93d925207f9461a8e01e9a2deb5a04602607574e4c39b12514a408da03",
+    "vlm_probe/depth/analysis.py": "1fc7c3193e242ae35b6f0ecef58dd144508b0fe09f913b608c0efc4dafbd0dc9",
+    "vlm_probe/depth/audit.py": "b35621238c437c7dfae2373d49c3d890262dc39e487f8b8a64050ce6e868bbfb",
+    "vlm_probe/depth/category.py": "0a9e7ca8834f2a2025866d6254466923b3d8a902221dd14819cca7658232859b",
+    "vlm_probe/depth/common.py": "71f6722b4500871ef0e22d3c7f2144ddea2854d34f94b7e70ee6b5ccba26a06e",
+    "vlm_probe/depth/design.py": "acad5d4c22e742fb3942991ce7733575307578c9f31fe7bf7f89c404080a7cd1",
+    "vlm_probe/depth/natural.py": "c0001b05e88796a3f1472e0cb50cbfeabe714f12c87916d4eca1f301e97c1e45",
+    "vlm_probe/depth/spatial.py": "d1271bc07c30432ccacb706fd4e079406deed38fe37026ca2311fbdb7403e746",
+    "vlm_probe/evaluate.py": "1fb8cc1792cf30ada2a06146440c18e7db5c018a7845e855f9c52c0fcfd975a7",
+    "vlm_probe/io_utils.py": "17d915b400b7f58f257c9dd8a2c140616f8562b25e6025341f5547b2f376aae7",
+    "vlm_probe/metrics.py": "98abd6be72af818db8da015a5659142e75e1d2983436a782a114e3b06d1a50b3",
+    "vlm_probe/model_adapters/__init__.py": "c879117fa9f8e4f304e0ac14c215d4944edb7133d395cb70f2121e1a8c7772e3",
+    "vlm_probe/model_adapters/openai_clip.py": "613d66e151f0b831d398c7fe21144439942b3a0142e6e78c547afcf5cd84f06a",
+    "vlm_probe/probing/__init__.py": "a6f62afadd7fed643476da34bdf6d2675fc3fb2d51e0288d01c995571e2121f2",
+    "vlm_probe/probing/__main__.py": "db414e71974fc6ff6a99173d54441a7c37e24f3fb632c32bd81c48f136863249",
+    "vlm_probe/probing/audit.py": "6c58833ad144491f32ac22bddd3ea68f28c67b9d2504ed560bc05726e28bb90a",
+    "vlm_probe/probing/evaluate.py": "067b316db4d726a74db291fe93a3be2606c0d3a36b8fe9bfccccaecdf9890080",
+    "vlm_probe/probing/metrics.py": "28566bec94fe4bd0ec1ed35ed9f28e060cb105fb43807d6336f194941d725da9",
+    "vlm_probe/probing/stimuli.py": "77287a02cec6d2c2278254acff37d56c4d2640744bfc204a73c5f455660f52c2",
+    "vlm_probe/report.py": "7a2637410d9b796fb60ad42610d3aef403391647f59b008f85c2672ba829030f",
+    "vlm_probe/verify.py": "6431327b1ec124c309c896e1dcc3ba73f3cfdef0b513e41fbd49458bf3eba081"
+  },
+  "source_snapshot": {
+    "path": "results/source_snapshots/source_a4543de8cc02a64044d2.zip",
+    "sha256": "2ad051c61b011c126371b01226ea693620a47013b6783a04065ddc145cdcd47d"
+  },
+  "input_sha256": {
+    "results/full_cifar100_category_v1/scores.npz": "3747f5277c07ef3bbc003c19c7feb8bf89d561b1b42aa51e2f2b49c75bd3da7f",
+    "results/full_cifar100_category_v1/classes.json": "77c96b985bd10c88d67599c34e31daf6d1a8f2247b0a48f2a5e21c4261ba3e0e",
+    "results/full_cifar100_category_v1/samples.json": "925902bfacd3ebcc4b3ed37a5c551eaccd0ebbf2d17cf3e3ed77b6f85480b5e3",
+    "results/full_cifar100_category_v1/manifest.json": "cfcc1c5b2813028e08aaf94d536ab3deed27aaa93c63e34c97645e5f01822607"
+  },
+  "model_adapter": "openai_clip",
+  "model_embedding_dim": 512,
+  "checkpoint": {
+    "url": "https://openaipublic.azureedge.net/clip/models/40d365715913c9da98579312b702a82c18be219cc2a73407c4526f58eba950af/ViT-B-32.pt",
+    "sha256": "40d365715913c9da98579312b702a82c18be219cc2a73407c4526f58eba950af",
+    "path": "models/ViT-B-32.pt",
+    "quick_gelu": true
+  },
+  "preprocessing": "Compose(\n    Resize(size=224, interpolation=bicubic, max_size=None, antialias=True)\n    CenterCrop(size=(224, 224))\n    MaybeConvertMode()\n    MaybeToTensor()\n    Normalize(mean=(0.48145466, 0.4578275, 0.40821073), std=(0.26862954, 0.26130258, 0.27577711))\n)",
+  "pretrained_config": {
+    "url": "https://openaipublic.azureedge.net/clip/models/40d365715913c9da98579312b702a82c18be219cc2a73407c4526f58eba950af/ViT-B-32.pt",
+    "hf_hub": "timm/vit_base_patch32_clip_224.openai/",
+    "mean": [
+      0.48145466,
+      0.4578275,
+      0.40821073
+    ],
+    "std": [
+      0.26862954,
+      0.26130258,
+      0.27577711
+    ],
+    "interpolation": "bicubic",
+    "resize_mode": "shortest",
+    "quick_gelu": true
+  },
+  "tokenizer": "SimpleTokenizer",
+  "context_length": 77,
+  "feature_caches": [
+    {
+      "path": ".cache/depth_features/3579b8888ce4c9dcdd31624b073547606cf7ac592b7ff79d11677359919803bc.npy",
+      "sha256": "84662b7ff1b4ce903ca3f7bc1f3d4228a908c41230a0fc2109f99313b4313b7c",
+      "identity": {
+        "input": {
+          "dataset": {
+            "name": "CIFAR100",
+            "split": "test",
+            "origin_url": "https://www.cs.toronto.edu/~kriz/cifar-100-python.tar.gz",
+            "download_url": "https://dataset.bj.bcebos.com/cifar/cifar-100-python.tar.gz",
+            "archive_md5": "eb9058c3a382ffc7106e4002c42a8d85",
+            "test_sha256": "4b67687d9933c4db8f0831104447f15b93774f4f464bd0516f0f0f2ac83b7864",
+            "meta_sha256": "a5d4786345c961390f865e93b434dbd5c6904ce880667e0cb888c97d449f28b9",
+            "torchvision_integrity_checked": true,
+            "num_classes": 100,
+            "total_test_samples": 10000,
+            "full_split_support": [
+              100,
+              100,
+              100,
+              100,
+              100,
+              100,
+              100,
+              100,
+              100,
+              100,
+              100,
+              100,
+              100,
+              100,
+              100,
+              100,
+              100,
+              100,
+              100,
+              100,
+              100,
+              100,
+              100,
+              100,
+              100,
+              100,
+              100,
+              100,
+              100,
+              100,
+              100,
+              100,
+              100,
+              100,
+              100,
+              100,
+              100,
+              100,
+              100,
+              100,
+              100,
+              100,
+              100,
+              100,
+              100,
+              100,
+              100,
+              100,
+              100,
+              100,
+              100,
+              100,
+              100,
+              100,
+              100,
+              100,
+              100,
+              100,
+              100,
+              100,
+              100,
+              100,
+              100,
+              100,
+              100,
+              100,
+              100,
+              100,
+              100,
+              100,
+              100,
+              100,
+              100,
+              100,
+              100,
+              100,
+              100,
+              100,
+              100,
+              100,
+              100,
+              100,
+              100,
+              100,
+              100,
+              100,
+              100,
+              100,
+              100,
+              100,
+              100,
+              100,
+              100,
+              100,
+              100,
+              100,
+              100,
+              100,
+              100,
+              100
+            ]
+          },
+          "samples": [
+            {
+              "test_index": 0,
+              "sample_id": "cifar100/test/00000",
+              "target_id": 49
+            },
+            {
+              "test_index": 1,
+              "sample_id": "cifar100/test/00001",
+              "target_id": 33
+            },
+            {
+              "test_index": 2,
+              "sample_id": "cifar100/test/00002",
+              "target_id": 72
+            },
+            {
+              "test_index": 3,
+              "sample_id": "cifar100/test/00003",
+              "target_id": 51
+            },
+            {
+              "test_index": 4,
+              "sample_id": "cifar100/test/00004",
+              "target_id": 71
+            },
+            {
+              "test_index": 5,
+              "sample_id": "cifar100/test/00005",
+              "target_id": 92
+            },
+            {
+              "test_index": 6,
+              "sample_id": "cifar100/test/00006",
+              "target_id": 15
+            },
+            {
+              "test_index": 7,
+              "sample_id": "cifar100/test/00007",
+              "target_id": 14
+            },
+            {
+              "test_index": 8,
+              "sample_id": "cifar100/test/00008",
+              "target_id": 23
+            },
+            {
+              "test_index": 9,
+              "sample_id": "cifar100/test/00009",
+              "target_id": 0
+            },
+            {
+              "test_index": 10,
+              "sample_id": "cifar100/test/00010",
+              "target_id": 71
+            },
+            {
+              "test_index": 11,
+              "sample_id": "cifar100/test/00011",
+              "target_id": 75
+            },
+            {
+              "test_index": 12,
+              "sample_id": "cifar100/test/00012",
+              "target_id": 81
+            },
+            {
+              "test_index": 13,
+              "sample_id": "cifar100/test/00013",
+              "target_id": 69
+            },
+            {
+              "test_index": 14,
+              "sample_id": "cifar100/test/00014",
+              "target_id": 40
+            },
+            {
+              "test_index": 15,
+              "sample_id": "cifar100/test/00015",
+              "target_id": 43
+            },
+            {
+              "test_index": 16,
+              "sample_id": "cifar100/test/00016",
+              "target_id": 92
+            },
+            {
+              "test_index": 17,
+              "sample_id": "cifar100/test/00017",
+              "target_id": 97
+            },
+            {
+              "test_index": 18,
+              "sample_id": "cifar100/test/00018",
+              "target_id": 70
+            },
+            {
+              "test_index": 19,
+              "sample_id": "cifar100/test/00019",
+              "target_id": 53
+            },
+            {
+              "test_index": 20,
+              "sample_id": "cifar100/test/00020",
+              "target_id": 70
+            },
+            {
+              "test_index": 21,
+              "sample_id": "cifar100/test/00021",
+              "target_id": 49
+            },
+            {
+              "test_index": 22,
+              "sample_id": "cifar100/test/00022",
+              "target_id": 75
+            },
+            {
+              "test_index": 23,
+              "sample_id": "cifar100/test/00023",
+              "target_id": 29
+            },
+            {
+              "test_index": 24,
+              "sample_id": "cifar100/test/00024",
+              "target_id": 21
+            },
+            {
+              "test_index": 25,
+              "sample_id": "cifar100/test/00025",
+              "target_id": 16
+            },
+            {
+              "test_index": 26,
+              "sample_id": "cifar100/test/00026",
+              "target_id": 39
+            },
+            {
+              "test_index": 27,
+              "sample_id": "cifar100/test/00027",
+              "target_id": 8
+            },
+            {
+              "test_index": 28,
+              "sample_id": "cifar100/test/00028",
+              "target_id": 8
+            },
+            {
+              "test_index": 29,
+              "sample_id": "cifar100/test/00029",
+              "target_id": 70
+            },
+            {
+              "test_index": 30,
+              "sample_id": "cifar100/test/00030",
+              "target_id": 20
+            },
+            {
+              "test_index": 31,
+              "sample_id": "cifar100/test/00031",
+              "target_id": 61
+            },
+            {
+              "test_index": 32,
+              "sample_id": "cifar100/test/00032",
+              "target_id": 41
+            },
+            {
+              "test_index": 33,
+              "sample_id": "cifar100/test/00033",
+              "target_id": 93
+            },
+            {
+              "test_index": 34,
+              "sample_id": "cifar100/test/00034",
+              "target_id": 56
+            },
+            {
+              "test_index": 35,
+              "sample_id": "cifar100/test/00035",
+              "target_id": 73
+            },
+            {
+              "test_index": 36,
+              "sample_id": "cifar100/test/00036",
+              "target_id": 58
+            },
+            {
+              "test_index": 37,
+              "sample_id": "cifar100/test/00037",
+              "target_id": 11
+            },
+            {
+              "test_index": 38,
+              "sample_id": "cifar100/test/00038",
+              "target_id": 25
+            },
+            {
+              "test_index": 39,
+              "sample_id": "cifar100/test/00039",
+              "target_id": 37
+            },
+            {
+              "test_index": 40,
+              "sample_id": "cifar100/test/00040",
+              "target_id": 63
+            },
+            {
+              "test_index": 41,
+              "sample_id": "cifar100/test/00041",
+              "target_id": 24
+            },
+            {
+              "test_index": 42,
+              "sample_id": "cifar100/test/00042",
+              "target_id": 49
+            },
+            {
+              "test_index": 43,
+              "sample_id": "cifar100/test/00043",
+              "target_id": 73
+            },
+            {
+              "test_index": 44,
+              "sample_id": "cifar100/test/00044",
+              "target_id": 56
+            },
+            {
+              "test_index": 45,
+              "sample_id": "cifar100/test/00045",
+              "target_id": 22
+            },
+            {
+              "test_index": 46,
+              "sample_id": "cifar100/test/00046",
+              "target_id": 41
+            },
+            {
+              "test_index": 47,
+              "sample_id": "cifar100/test/00047",
+              "target_id": 58
+            },
+            {
+              "test_index": 48,
+              "sample_id": "cifar100/test/00048",
+              "target_id": 75
+            },
+            {
+              "test_index": 49,
+              "sample_id": "cifar100/test/00049",
+              "target_id": 17
+            },
+            {
+              "test_index": 50,
+              "sample_id": "cifar100/test/00050",
+              "target_id": 4
+            },
+            {
+              "test_index": 51,
+              "sample_id": "cifar100/test/00051",
+              "target_id": 6
+            },
+            {
+              "test_index": 52,
+              "sample_id": "cifar100/test/00052",
+              "target_id": 9
+            },
+            {
+              "test_index": 53,
+              "sample_id": "cifar100/test/00053",
+              "target_id": 57
+            },
+            {
+              "test_index": 54,
+              "sample_id": "cifar100/test/00054",
+              "target_id": 2
+            },
+            {
+              "test_index": 55,
+              "sample_id": "cifar100/test/00055",
+              "target_id": 32
+            },
+            {
+              "test_index": 56,
+              "sample_id": "cifar100/test/00056",
+              "target_id": 71
+            },
+            {
+              "test_index": 57,
+              "sample_id": "cifar100/test/00057",
+              "target_id": 52
+            },
+            {
+              "test_index": 58,
+              "sample_id": "cifar100/test/00058",
+              "target_id": 42
+            },
+            {
+              "test_index": 59,
+              "sample_id": "cifar100/test/00059",
+              "target_id": 69
+            },
+            {
+              "test_index": 60,
+              "sample_id": "cifar100/test/00060",
+              "target_id": 77
+            },
+            {
+              "test_index": 61,
+              "sample_id": "cifar100/test/00061",
+              "target_id": 27
+            },
+            {
+              "test_index": 62,
+              "sample_id": "cifar100/test/00062",
+              "target_id": 15
+            },
+            {
+              "test_index": 63,
+              "sample_id": "cifar100/test/00063",
+              "target_id": 65
+            },
+            {
+              "test_index": 64,
+              "sample_id": "cifar100/test/00064",
+              "target_id": 7
+            },
+            {
+              "test_index": 65,
+              "sample_id": "cifar100/test/00065",
+              "target_id": 35
+            },
+            {
+              "test_index": 66,
+              "sample_id": "cifar100/test/00066",
+              "target_id": 43
+            },
+            {
+              "test_index": 67,
+              "sample_id": "cifar100/test/00067",
+              "target_id": 82
+            },
+            {
+              "test_index": 68,
+              "sample_id": "cifar100/test/00068",
+              "target_id": 63
+            },
+            {
+              "test_index": 69,
+              "sample_id": "cifar100/test/00069",
+              "target_id": 92
+            },
+            {
+              "test_index": 70,
+              "sample_id": "cifar100/test/00070",
+              "target_id": 66
+            },
+            {
+              "test_index": 71,
+              "sample_id": "cifar100/test/00071",
+              "target_id": 90
+            },
+            {
+              "test_index": 72,
+              "sample_id": "cifar100/test/00072",
+              "target_id": 67
+            },
+            {
+              "test_index": 73,
+              "sample_id": "cifar100/test/00073",
+              "target_id": 91
+            },
+            {
+              "test_index": 74,
+              "sample_id": "cifar100/test/00074",
+              "target_id": 32
+            },
+            {
+              "test_index": 75,
+              "sample_id": "cifar100/test/00075",
+              "target_id": 32
+            },
+            {
+              "test_index": 76,
+              "sample_id": "cifar100/test/00076",
+              "target_id": 82
+            },
+            {
+              "test_index": 77,
+              "sample_id": "cifar100/test/00077",
+              "target_id": 10
+            },
+            {
+              "test_index": 78,
+              "sample_id": "cifar100/test/00078",
+              "target_id": 77
+            },
+            {
+              "test_index": 79,
+              "sample_id": "cifar100/test/00079",
+              "target_id": 22
+            },
+            {
+              "test_index": 80,
+              "sample_id": "cifar100/test/00080",
+              "target_id": 71
+            },
+            {
+              "test_index": 81,
+              "sample_id": "cifar100/test/00081",
+              "target_id": 78
+            },
+            {
+              "test_index": 82,
+              "sample_id": "cifar100/test/00082",
+              "target_id": 54
+            },
+            {
+              "test_index": 83,
+              "sample_id": "cifar100/test/00083",
+              "target_id": 6
+            },
+            {
+              "test_index": 84,
+              "sample_id": "cifar100/test/00084",
+              "target_id": 29
+            },
+            {
+              "test_index": 85,
+              "sample_id": "cifar100/test/00085",
+              "target_id": 89
+            },
+            {
+              "test_index": 86,
+              "sample_id": "cifar100/test/00086",
+              "target_id": 78
+            },
+            {
+              "test_index": 87,
+              "sample_id": "cifar100/test/00087",
+              "target_id": 33
+            },
+            {
+              "test_index": 88,
+              "sample_id": "cifar100/test/00088",
+              "target_id": 11
+            },
+            {
+              "test_index": 89,
+              "sample_id": "cifar100/test/00089",
+              "target_id": 67
+            },
+            {
+              "test_index": 90,
+              "sample_id": "cifar100/test/00090",
+              "target_id": 22
+            },
+            {
+              "test_index": 91,
+              "sample_id": "cifar100/test/00091",
+              "target_id": 18
+            },
+            {
+              "test_index": 92,
+              "sample_id": "cifar100/test/00092",
+              "target_id": 27
+            },
+            {
+              "test_index": 93,
+              "sample_id": "cifar100/test/00093",
+              "target_id": 21
+            },
+            {
+              "test_index": 94,
+              "sample_id": "cifar100/test/00094",
+              "target_id": 13
+            },
+            {
+              "test_index": 95,
+              "sample_id": "cifar100/test/00095",
+              "target_id": 21
+            },
+            {
+              "test_index": 96,
+              "sample_id": "cifar100/test/00096",
+              "target_id": 50
+            },
+            {
+              "test_index": 97,
+              "sample_id": "cifar100/test/00097",
+              "target_id": 75
+            },
+            {
+              "test_index": 98,
+              "sample_id": "cifar100/test/00098",
+              "target_id": 37
+            },
+            {
+              "test_index": 99,
+              "sample_id": "cifar100/test/00099",
+              "target_id": 35
+            },
+            {
+              "test_index": 100,
+              "sample_id": "cifar100/test/00100",
+              "target_id": 26
+            },
+            {
+              "test_index": 101,
+              "sample_id": "cifar100/test/00101",
+              "target_id": 83
+            },
+            {
+              "test_index": 102,
+              "sample_id": "cifar100/test/00102",
+              "target_id": 47
+            },
+            {
+              "test_index": 103,
+              "sample_id": "cifar100/test/00103",
+              "target_id": 95
+            },
+            {
+              "test_index": 104,
+              "sample_id": "cifar100/test/00104",
+              "target_id": 43
+            },
+            {
+              "test_index": 105,
+              "sample_id": "cifar100/test/00105",
+              "target_id": 69
+            },
+            {
+              "test_index": 106,
+              "sample_id": "cifar100/test/00106",
+              "target_id": 76
+            },
+            {
+              "test_index": 107,
+              "sample_id": "cifar100/test/00107",
+              "target_id": 17
+            },
+            {
+              "test_index": 108,
+              "sample_id": "cifar100/test/00108",
+              "target_id": 57
+            },
+            {
+              "test_index": 109,
+              "sample_id": "cifar100/test/00109",
+              "target_id": 59
+            },
+            {
+              "test_index": 110,
+              "sample_id": "cifar100/test/00110",
+              "target_id": 25
+            },
+            {
+              "test_index": 111,
+              "sample_id": "cifar100/test/00111",
+              "target_id": 20
+            },
+            {
+              "test_index": 112,
+              "sample_id": "cifar100/test/00112",
+              "target_id": 27
+            },
+            {
+              "test_index": 113,
+              "sample_id": "cifar100/test/00113",
+              "target_id": 0
+            },
+            {
+              "test_index": 114,
+              "sample_id": "cifar100/test/00114",
+              "target_id": 9
+            },
+            {
+              "test_index": 115,
+              "sample_id": "cifar100/test/00115",
+              "target_id": 71
+            },
+            {
+              "test_index": 116,
+              "sample_id": "cifar100/test/00116",
+              "target_id": 8
+            },
+            {
+              "test_index": 117,
+              "sample_id": "cifar100/test/00117",
+              "target_id": 43
+            },
+            {
+              "test_index": 118,
+              "sample_id": "cifar100/test/00118",
+              "target_id": 57
+            },
+            {
+              "test_index": 119,
+              "sample_id": "cifar100/test/00119",
+              "target_id": 56
+            },
+            {
+              "test_index": 120,
+              "sample_id": "cifar100/test/00120",
+              "target_id": 85
+            },
+            {
+              "test_index": 121,
+              "sample_id": "cifar100/test/00121",
+              "target_id": 10
+            },
+            {
+              "test_index": 122,
+              "sample_id": "cifar100/test/00122",
+              "target_id": 19
+            },
+            {
+              "test_index": 123,
+              "sample_id": "cifar100/test/00123",
+              "target_id": 92
+            },
+            {
+              "test_index": 124,
+              "sample_id": "cifar100/test/00124",
+              "target_id": 33
+            },
+            {
+              "test_index": 125,
+              "sample_id": "cifar100/test/00125",
+              "target_id": 20
+            },
+            {
+              "test_index": 126,
+              "sample_id": "cifar100/test/00126",
+              "target_id": 21
+            },
+            {
+              "test_index": 127,
+              "sample_id": "cifar100/test/00127",
+              "target_id": 50
+            },
+            {
+              "test_index": 128,
+              "sample_id": "cifar100/test/00128",
+              "target_id": 70
+            },
+            {
+              "test_index": 129,
+              "sample_id": "cifar100/test/00129",
+              "target_id": 46
+            },
+            {
+              "test_index": 130,
+              "sample_id": "cifar100/test/00130",
+              "target_id": 11
+            },
+            {
+              "test_index": 131,
+              "sample_id": "cifar100/test/00131",
+              "target_id": 16
+            },
+            {
+              "test_index": 132,
+              "sample_id": "cifar100/test/00132",
+              "target_id": 1
+            },
+            {
+              "test_index": 133,
+              "sample_id": "cifar100/test/00133",
+              "target_id": 74
+            },
+            {
+              "test_index": 134,
+              "sample_id": "cifar100/test/00134",
+              "target_id": 33
+            },
+            {
+              "test_index": 135,
+              "sample_id": "cifar100/test/00135",
+              "target_id": 91
+            },
+            {
+              "test_index": 136,
+              "sample_id": "cifar100/test/00136",
+              "target_id": 60
+            },
+            {
+              "test_index": 137,
+              "sample_id": "cifar100/test/00137",
+              "target_id": 64
+            },
+            {
+              "test_index": 138,
+              "sample_id": "cifar100/test/00138",
+              "target_id": 52
+            },
+            {
+              "test_index": 139,
+              "sample_id": "cifar100/test/00139",
+              "target_id": 23
+            },
+            {
+              "test_index": 140,
+              "sample_id": "cifar100/test/00140",
+              "target_id": 4
+            },
+            {
+              "test_index": 141,
+              "sample_id": "cifar100/test/00141",
+              "target_id": 11
+            },
+            {
+              "test_index": 142,
+              "sample_id": "cifar100/test/00142",
+              "target_id": 52
+            },
+            {
+              "test_index": 143,
+              "sample_id": "cifar100/test/00143",
+              "target_id": 37
+            },
+            {
+              "test_index": 144,
+              "sample_id": "cifar100/test/00144",
+              "target_id": 24
+            },
+            {
+              "test_index": 145,
+              "sample_id": "cifar100/test/00145",
+              "target_id": 95
+            },
+            {
+              "test_index": 146,
+              "sample_id": "cifar100/test/00146",
+              "target_id": 25
+            },
+            {
+              "test_index": 147,
+              "sample_id": "cifar100/test/00147",
+              "target_id": 39
+            },
+            {
+              "test_index": 148,
+              "sample_id": "cifar100/test/00148",
+              "target_id": 51
+            },
+            {
+              "test_index": 149,
+              "sample_id": "cifar100/test/00149",
+              "target_id": 58
+            },
+            {
+              "test_index": 150,
+              "sample_id": "cifar100/test/00150",
+              "target_id": 58
+            },
+            {
+              "test_index": 151,
+              "sample_id": "cifar100/test/00151",
+              "target_id": 77
+            },
+            {
+              "test_index": 152,
+              "sample_id": "cifar100/test/00152",
+              "target_id": 18
+            },
+            {
+              "test_index": 153,
+              "sample_id": "cifar100/test/00153",
+              "target_id": 59
+            },
+            {
+              "test_index": 154,
+              "sample_id": "cifar100/test/00154",
+              "target_id": 45
+            },
+            {
+              "test_index": 155,
+              "sample_id": "cifar100/test/00155",
+              "target_id": 66
+            },
+            {
+              "test_index": 156,
+              "sample_id": "cifar100/test/00156",
+              "target_id": 58
+            },
+            {
+              "test_index": 157,
+              "sample_id": "cifar100/test/00157",
+              "target_id": 20
+            },
+            {
+              "test_index": 158,
+              "sample_id": "cifar100/test/00158",
+              "target_id": 24
+            },
+            {
+              "test_index": 159,
+              "sample_id": "cifar100/test/00159",
+              "target_id": 4
+            },
+            {
+              "test_index": 160,
+              "sample_id": "cifar100/test/00160",
+              "target_id": 36
+            },
+            {
+              "test_index": 161,
+              "sample_id": "cifar100/test/00161",
+              "target_id": 8
+            },
+            {
+              "test_index": 162,
+              "sample_id": "cifar100/test/00162",
+              "target_id": 87
+            },
+            {
+              "test_index": 163,
+              "sample_id": "cifar100/test/00163",
+              "target_id": 10
+            },
+            {
+              "test_index": 164,
+              "sample_id": "cifar100/test/00164",
+              "target_id": 30
+            },
+            {
+              "test_index": 165,
+              "sample_id": "cifar100/test/00165",
+              "target_id": 47
+            },
+            {
+              "test_index": 166,
+              "sample_id": "cifar100/test/00166",
+              "target_id": 54
+            },
+            {
+              "test_index": 167,
+              "sample_id": "cifar100/test/00167",
+              "target_id": 99
+            },
+            {
+              "test_index": 168,
+              "sample_id": "cifar100/test/00168",
+              "target_id": 51
+            },
+            {
+              "test_index": 169,
+              "sample_id": "cifar100/test/00169",
+              "target_id": 83
+            },
+            {
+              "test_index": 170,
+              "sample_id": "cifar100/test/00170",
+              "target_id": 9
+            },
+            {
+              "test_index": 171,
+              "sample_id": "cifar100/test/00171",
+              "target_id": 37
+            },
+            {
+              "test_index": 172,
+              "sample_id": "cifar100/test/00172",
+              "target_id": 4
+            },
+            {
+              "test_index": 173,
+              "sample_id": "cifar100/test/00173",
+              "target_id": 83
+            },
+            {
+              "test_index": 174,
+              "sample_id": "cifar100/test/00174",
+              "target_id": 95
+            },
+            {
+              "test_index": 175,
+              "sample_id": "cifar100/test/00175",
+              "target_id": 83
+            },
+            {
+              "test_index": 176,
+              "sample_id": "cifar100/test/00176",
+              "target_id": 32
+            },
+            {
+              "test_index": 177,
+              "sample_id": "cifar100/test/00177",
+              "target_id": 73
+            },
+            {
+              "test_index": 178,
+              "sample_id": "cifar100/test/00178",
+              "target_id": 18
+            },
+            {
+              "test_index": 179,
+              "sample_id": "cifar100/test/00179",
+              "target_id": 40
+            },
+            {
+              "test_index": 180,
+              "sample_id": "cifar100/test/00180",
+              "target_id": 39
+            },
+            {
+              "test_index": 181,
+              "sample_id": "cifar100/test/00181",
+              "target_id": 64
+            },
+            {
+              "test_index": 182,
+              "sample_id": "cifar100/test/00182",
+              "target_id": 22
+            },
+            {
+              "test_index": 183,
+              "sample_id": "cifar100/test/00183",
+              "target_id": 80
+            },
+            {
+              "test_index": 184,
+              "sample_id": "cifar100/test/00184",
+              "target_id": 28
+            },
+            {
+              "test_index": 185,
+              "sample_id": "cifar100/test/00185",
+              "target_id": 28
+            },
+            {
+              "test_index": 186,
+              "sample_id": "cifar100/test/00186",
+              "target_id": 40
+            },
+            {
+              "test_index": 187,
+              "sample_id": "cifar100/test/00187",
+              "target_id": 95
+            },
+            {
+              "test_index": 188,
+              "sample_id": "cifar100/test/00188",
+              "target_id": 98
+            },
+            {
+              "test_index": 189,
+              "sample_id": "cifar100/test/00189",
+              "target_id": 83
+            },
+            {
+              "test_index": 190,
+              "sample_id": "cifar100/test/00190",
+              "target_id": 12
+            },
+            {
+              "test_index": 191,
+              "sample_id": "cifar100/test/00191",
+              "target_id": 24
+            },
+            {
+              "test_index": 192,
+              "sample_id": "cifar100/test/00192",
+              "target_id": 45
+            },
+            {
+              "test_index": 193,
+              "sample_id": "cifar100/test/00193",
+              "target_id": 13
+            },
+            {
+              "test_index": 194,
+              "sample_id": "cifar100/test/00194",
+              "target_id": 94
+            },
+            {
+              "test_index": 195,
+              "sample_id": "cifar100/test/00195",
+              "target_id": 24
+            },
+            {
+              "test_index": 196,
+              "sample_id": "cifar100/test/00196",
+              "target_id": 58
+            },
+            {
+              "test_index": 197,
+              "sample_id": "cifar100/test/00197",
+              "target_id": 63
+            },
+            {
+              "test_index": 198,
+              "sample_id": "cifar100/test/00198",
+              "target_id": 7
+            },
+            {
+              "test_index": 199,
+              "sample_id": "cifar100/test/00199",
+              "target_id": 87
+            }
+          ]
+        },
+        "checkpoint": {
+          "url": "https://openaipublic.azureedge.net/clip/models/40d365715913c9da98579312b702a82c18be219cc2a73407c4526f58eba950af/ViT-B-32.pt",
+          "sha256": "40d365715913c9da98579312b702a82c18be219cc2a73407c4526f58eba950af",
+          "path": "models/ViT-B-32.pt",
+          "quick_gelu": true
+        },
+        "preprocessing": "Compose(\n    Resize(size=224, interpolation=bicubic, max_size=None, antialias=True)\n    CenterCrop(size=(224, 224))\n    MaybeConvertMode()\n    MaybeToTensor()\n    Normalize(mean=(0.48145466, 0.4578275, 0.40821073), std=(0.26862954, 0.26130258, 0.27577711))\n)",
+        "precision": "fp32",
+        "batch_size": 32,
+        "engine_source_sha256": "71f6722b4500871ef0e22d3c7f2144ddea2854d34f94b7e70ee6b5ccba26a06e"
+      }
+    }
+  ],
+  "parity": {
+    "baseline": {
+      "predictions_match": true,
+      "max_score_difference": 1.341104507446289e-07,
+      "n": 200
+    },
+    "category": {
+      "predictions_match": true,
+      "max_score_difference": 1.1920928955078125e-07,
+      "n": 200
+    }
+  },
+  "num_samples": 200,
+  "candidate_count": 100,
+  "num_conditions": 8,
+  "dataset": {
+    "name": "CIFAR100",
+    "split": "test",
+    "origin_url": "https://www.cs.toronto.edu/~kriz/cifar-100-python.tar.gz",
+    "download_url": "https://dataset.bj.bcebos.com/cifar/cifar-100-python.tar.gz",
+    "archive_md5": "eb9058c3a382ffc7106e4002c42a8d85",
+    "test_sha256": "4b67687d9933c4db8f0831104447f15b93774f4f464bd0516f0f0f2ac83b7864",
+    "meta_sha256": "a5d4786345c961390f865e93b434dbd5c6904ce880667e0cb888c97d449f28b9",
+    "torchvision_integrity_checked": true,
+    "num_classes": 100,
+    "total_test_samples": 10000,
+    "full_split_support": [
+      100,
+      100,
+      100,
+      100,
+      100,
+      100,
+      100,
+      100,
+      100,
+      100,
+      100,
+      100,
+      100,
+      100,
+      100,
+      100,
+      100,
+      100,
+      100,
+      100,
+      100,
+      100,
+      100,
+      100,
+      100,
+      100,
+      100,
+      100,
+      100,
+      100,
+      100,
+      100,
+      100,
+      100,
+      100,
+      100,
+      100,
+      100,
+      100,
+      100,
+      100,
+      100,
+      100,
+      100,
+      100,
+      100,
+      100,
+      100,
+      100,
+      100,
+      100,
+      100,
+      100,
+      100,
+      100,
+      100,
+      100,
+      100,
+      100,
+      100,
+      100,
+      100,
+      100,
+      100,
+      100,
+      100,
+      100,
+      100,
+      100,
+      100,
+      100,
+      100,
+      100,
+      100,
+      100,
+      100,
+      100,
+      100,
+      100,
+      100,
+      100,
+      100,
+      100,
+      100,
+      100,
+      100,
+      100,
+      100,
+      100,
+      100,
+      100,
+      100,
+      100,
+      100,
+      100,
+      100,
+      100,
+      100,
+      100,
+      100
+    ]
+  },
+  "finished_at_utc": "2026-11-04T06:47:11.058032+00:00",
+  "artifact_sha256": {
+    "category_sample_scores.csv": "76a84c3fa7f6263556ec76e95d95af22793e3e0672095016629003dde4034772",
+    "category_score_shifts.json": "5253cefcb4beba2425297cdd31da9e8759f07d9fcaa395baa46bcff970507182",
+    "classes.json": "77c96b985bd10c88d67599c34e31daf6d1a8f2247b0a48f2a5e21c4261ba3e0e",
+    "config.json": "83edb8b2b2619713f8dd1e2c3039c15d95d1123cbbeef2f7875a93f59446a1c2",
+    "environment.json": "e51ec032db8e97b5923a5b973ae265c8fccca932c2a2e4bc479ff63e04d07604",
+    "metrics.json": "ea7961346cf7f6a2d2ceb6bb6803f4438e221fb49dbbfeba7cffb410929d6ce2",
+    "neutral_token_matching.json": "f566819adbde8368b5a4161e8f2e9e5c0bb283a6f042eee18f17bd6cfefd61b1",
+    "per_class.csv": "55e10663e1c75fe9575aee25c30065ae3f99a190a067a675b47b2ea31645938b",
+    "predictions.csv": "5593385009b2e1f553d55e1bccf8fc58f6017d349d6c61fabd9492e291f78f13",
+    "prompts.json": "25d95389062f7b830b11062bcb91f5d2fc10c4765b44d8580b0015dcdbaaed35",
+    "protocol.md": "8e94e39cca67c0d95ceb5b43bb5c7753d76eaded4e79afa800c8dac8791e078c",
+    "samples.json": "e930e5cb9ce9c0f924e68ea8554d2d78c9e8286fb422b5b228c4d7ffcb1e19d5",
+    "scores.npz": "173a59a46d2ff7f7cb6245c6a5c792f22f862e45c396b9cc17356563589fe298",
+    "shuffle_permutations.json": "db9df8506d2528303e1682f9bee25e59b674aee48b0d1f15f949c9e525a6b70e"
+  }
+}

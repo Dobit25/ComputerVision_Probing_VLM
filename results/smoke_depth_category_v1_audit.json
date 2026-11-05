@@ -1,0 +1,10 @@
+{
+  "verified": true,
+  "stage": "category",
+  "mode": "smoke",
+  "run": "results/smoke_depth_category_v1",
+  "num_samples": 200,
+  "num_conditions": 8,
+  "metrics_recomputed": true,
+  "historical_parity": true
+}
