@@ -1,0 +1,31 @@
+{
+  "verified": true,
+  "mode": "smoke",
+  "num_samples": 200,
+  "candidate_count": 100,
+  "baseline_accuracy_percent": 69.5,
+  "category_accuracy_percent": 69.0,
+  "paired": {
+    "both_correct": 131,
+    "both_wrong": 54,
+    "wrong_to_correct": 7,
+    "correct_to_wrong": 8,
+    "prediction_changed": 30,
+    "delta_percentage_points": -0.5,
+    "delta_ci95_percentage_points": [
+      -3.0,
+      2.0
+    ],
+    "bootstrap": {
+      "method": "paired_stratified_by_fine_class",
+      "draws": 1000,
+      "seed": 0
+    }
+  },
+  "baseline_parity": {
+    "predictions_match": true,
+    "compared_samples": 200,
+    "max_absolute_cosine_or_margin_difference": 1.1920928955078125e-07,
+    "tolerance": 1e-06
+  }
+}

@@ -1,0 +1,39 @@
+{
+  "baseline": {
+    "num_samples": 200,
+    "num_classes": 100,
+    "correct": 139,
+    "top1_accuracy": 0.695,
+    "top1_accuracy_percent": 69.5,
+    "mean_per_class_accuracy": 0.6635294117647058,
+    "mean_per_class_accuracy_percent": 66.3529411764706,
+    "classes_with_support": 85
+  },
+  "category": {
+    "num_samples": 200,
+    "num_classes": 100,
+    "correct": 138,
+    "top1_accuracy": 0.69,
+    "top1_accuracy_percent": 69.0,
+    "mean_per_class_accuracy": 0.6635294117647058,
+    "mean_per_class_accuracy_percent": 66.3529411764706,
+    "classes_with_support": 85
+  },
+  "paired": {
+    "both_correct": 131,
+    "both_wrong": 54,
+    "wrong_to_correct": 7,
+    "correct_to_wrong": 8,
+    "prediction_changed": 30,
+    "delta_percentage_points": -0.5,
+    "delta_ci95_percentage_points": [
+      -3.0,
+      2.0
+    ],
+    "bootstrap": {
+      "method": "paired_stratified_by_fine_class",
+      "draws": 1000,
+      "seed": 0
+    }
+  }
+}
