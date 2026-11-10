@@ -32,7 +32,10 @@ def verify_test_images(archive_path, image_paths):
             if not member.isfile() or member.name in digests:
                 raise RuntimeError("Invalid or duplicate archive image entry.")
             with archive.extractfile(member) as stream:
-                digest = hashlib.file_digest(stream, "sha256").hexdigest()
+                if hasattr(hashlib, "file_digest"):
+                    digest = hashlib.file_digest(stream, "sha256").hexdigest()
+                else:
+                    digest = hashlib.sha256(stream.read()).hexdigest()
             if sha256(expected[member.name]) != digest:
                 raise RuntimeError(f"Extracted image differs from original archive: {member.name}")
             digests[member.name] = digest

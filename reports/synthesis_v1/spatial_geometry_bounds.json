@@ -1,0 +1,23 @@
+{
+  "synthetic_depth_1440": {
+    "n_images": 1440,
+    "four_way_accuracy_percent": 100.0,
+    "straddles_midline_rate_percent": 100.0
+  },
+  "natural_exploratory_200": {
+    "n_sources": 200,
+    "ideal_half_canvas_four_way_accuracy_percent": 92.5,
+    "ideal_half_canvas_horizontal_two_way_accuracy_percent": 97.0,
+    "objects_straddle_image_midline_percent": 86.5,
+    "both_objects_in_same_half_count": 27,
+    "both_objects_in_same_half_percent": 13.5
+  },
+  "natural_confirmation_100": {
+    "n_sources": 100,
+    "ideal_half_canvas_four_way_accuracy_percent": 97.0,
+    "ideal_half_canvas_horizontal_two_way_accuracy_percent": 99.0,
+    "objects_straddle_image_midline_percent": 93.0,
+    "both_objects_in_same_half_count": 7,
+    "both_objects_in_same_half_percent": 7.0
+  }
+}

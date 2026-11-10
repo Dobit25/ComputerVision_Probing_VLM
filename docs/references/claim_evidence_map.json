@@ -1,0 +1,259 @@
+{
+  "schema_version": 1,
+  "updated_at": "2026-11-09",
+  "timezone": "Asia/Saigon",
+  "claims": [
+    {
+      "claim_id": "C01",
+      "rq": "RQ1",
+      "topic": "Zero-shot baseline across 5 datasets",
+      "claim_summary": "OpenAI CLIP ViT-B/32 zero-shot accuracy varies substantially across five standard domains (42.45% to 85.06%), with severe class-level failures (including 0% classes) persisting even in high-accuracy datasets.",
+      "metrics": {
+        "cifar100_top1_percent": 64.48,
+        "flowers102_top1_percent": 63.76646609204749,
+        "flowers102_macro_percent": 64.23383529156224,
+        "oxford_pet_top1_percent": 85.0640501499046,
+        "oxford_pet_macro_percent": 84.71928379184323,
+        "dtd_p1_top1_percent": 42.4468085106383,
+        "food101_top1_percent": 82.31287128712872,
+        "total_test_images": 46948
+      },
+      "runs": [
+        "results/full_cifar100_clip_b32_v1",
+        "results/full_flowers102_clip_b32_v2",
+        "results/full_oxford_pet_clip_b32_v3",
+        "results/full_dtd_clip_b32_v3",
+        "results/full_food101_clip_b32_v3"
+      ],
+      "controls": "Frozen OpenAI ViT-B/32 checkpoint, FP32, QuickGELU, fixed single prompt per dataset without test-set tuning.",
+      "uncertainty": "Full official test splits evaluated deterministically; per-class support documented in reports/baseline/per_class.csv.",
+      "limitations": [
+        "Cross-dataset accuracy differences reflect domain, candidate count, and class naming, not model improvements.",
+        "DTD uses test partition 1 only, not the 10-partition average."
+      ]
+    },
+    {
+      "claim_id": "C02",
+      "rq": "RQ1",
+      "topic": "Synthetic counting probe (1 to 6 objects)",
+      "claim_summary": "On 1,080 synthetic counting scenes, accuracy is 32.87% (above 16.67% chance, MAE 1.0157), remains low (34.45%) on the 74.44% subset where color/shape recognition succeeds, and is similar between fixed radius (32.41%) and fixed total area (33.33%).",
+      "metrics": {
+        "accuracy_percent": 32.870370370370374,
+        "correct": 355,
+        "num_samples": 1080,
+        "chance_percent": 16.666666666666668,
+        "mae": 1.0157407407407408,
+        "mean_signed_error": -0.19537037037037036,
+        "fixed_radius_accuracy_percent": 32.407407407407405,
+        "fixed_total_area_accuracy_percent": 33.333333333333336,
+        "all_six_counts_correct_group_rate_percent": 0.0
+      },
+      "runs": [
+        "results/full_probing_clip_b32_v1",
+        "results/full_depth_historical_v1"
+      ],
+      "controls": {
+        "recognition_control_9way_percent": 74.44444444444444,
+        "recognition_control_correct": 804,
+        "counting_given_control_correct_percent": 34.45273631840796
+      },
+      "uncertainty": {
+        "group_bootstrap_ci95_percent": [
+          30.64814814814815,
+          35.0
+        ],
+        "bootstrap_unit": "180 scene groups (6 counts per group)"
+      },
+      "limitations": [
+        "Synthetic 2D shapes differ from natural images.",
+        "Accuracy across counts 1-6 is non-monotonic (52.22% at count 3 vs 9.44% at count 4); do not claim a monotonic degradation law."
+      ]
+    },
+    {
+      "claim_id": "C03",
+      "rq": "RQ1",
+      "topic": "Synthetic negation probe",
+      "claim_summary": "On 720 synthetic two-object scenes (1,440 trials), CLIP achieves 86.11% accuracy without affirmative bias (48.06% affirmative choices), but shows a 10.56 percentage-point sensitivity between 'with/without' (91.39%) and 'contains/does not contain' (80.83%), with 58.61% full-group consistency.",
+      "metrics": {
+        "accuracy_percent": 86.11111111111111,
+        "correct": 1240,
+        "num_samples": 1440,
+        "unique_images": 720,
+        "with_without_accuracy_percent": 91.38888888888889,
+        "contains_does_not_accuracy_percent": 80.83333333333333,
+        "present_accuracy_percent": 84.16666666666667,
+        "absent_accuracy_percent": 88.05555555555556,
+        "affirmative_choice_rate_percent": 48.05555555555556,
+        "all_four_trials_correct_group_rate_percent": 58.611111111111114
+      },
+      "runs": [
+        "results/full_probing_clip_b32_v1",
+        "results/full_depth_historical_v1"
+      ],
+      "controls": {
+        "affirmative_pair_recognition_control_percent": 97.63888888888889,
+        "negation_given_control_correct_percent": 86.91322901849218
+      },
+      "uncertainty": {
+        "group_bootstrap_ci95_percent": [
+          84.234375,
+          88.05555555555556
+        ],
+        "bootstrap_unit": "360 scene groups (present/absent x 2 templates)"
+      },
+      "limitations": [
+        "Do not claim 'CLIP fails at negation' from this study; in this controlled 2-object geometric setup, accuracy is 86.11%.",
+        "Does not cover cluttered natural scenes with multiple distractors."
+      ]
+    },
+    {
+      "claim_id": "C04",
+      "rq": "RQ1",
+      "topic": "Fine-grained classification and within-superclass oracle diagnostic",
+      "claim_summary": "Restricting CIFAR-100 candidates to the 5 true coarse-group classes (oracle 5-way) yields 77.95% accuracy (2,205 within-group errors remain), while full candidate-set evaluation across Pet, Flowers102, DTD, and Food-101 reveals systematic confusions between visually or lexically similar classes.",
+      "metrics": {
+        "cifar100_oracle_5way_accuracy_percent": 77.95,
+        "cifar100_oracle_5way_errors": 2205,
+        "cifar100_global_100way_parity_matches": 10000,
+        "lowest_coarse_group_fish_percent": 56.6,
+        "highest_coarse_group_vehicles1_percent": 92.2
+      },
+      "runs": [
+        "results/full_probing_clip_b32_v1",
+        "results/full_cifar100_clip_b32_v1",
+        "results/full_flowers102_clip_b32_v2",
+        "results/full_oxford_pet_clip_b32_v3",
+        "results/full_dtd_clip_b32_v3",
+        "results/full_food101_clip_b32_v3"
+      ],
+      "controls": "Exact 10,000/10,000 global prediction parity against baseline CIFAR-100 run.",
+      "uncertainty": {
+        "image_bootstrap_ci95_percent": [
+          77.16,
+          78.77
+        ]
+      },
+      "limitations": [
+        "77.95% uses ground-truth coarse labels (oracle) and must never be presented as a deployable improvement over 64.48% 100-way accuracy."
+      ]
+    },
+    {
+      "claim_id": "C05",
+      "rq": "RQ2",
+      "topic": "Controlled synthetic spatial interventions",
+      "claim_summary": "Across 1,440 synthetic scenes and 8,640 trials, object recognition reaches 96.94% but 4-way spatial classification is 27.36% (T0 forward), with strong bias toward 'above' (56.18%), 0.56% horizontal pair consistency, 0% all-four-relation consistency, and 16.25% agreement between grammatically equivalent forward/reversed prompts.",
+      "metrics": {
+        "t0_forward_accuracy_percent": 27.36111111111111,
+        "control_accuracy_percent": 96.94444444444444,
+        "accuracy_given_control_correct_percent": 27.507163323782235,
+        "horizontal_pair_both_correct_percent": 0.5555555555555556,
+        "vertical_pair_both_correct_percent": 1.6666666666666667,
+        "all_four_relations_correct_percent": 0.0,
+        "t0_equivalent_order_agreement_percent": 16.25,
+        "t0_equivalent_order_both_correct_percent": 2.986111111111111,
+        "above_prediction_rate_percent": 56.18055555555556,
+        "blank_canvas_agreement_percent": 23.819444444444443
+      },
+      "runs": [
+        "results/full_depth_spatial_v1"
+      ],
+      "controls": "Two-object recognition control (96.94%) and blank-canvas prior check (23.82% agreement).",
+      "uncertainty": {
+        "cluster_bootstrap_ci95_percent": [
+          26.180555555555557,
+          28.61111111111111
+        ],
+        "bootstrap_unit": "120 base layout groups (2,000 draws, seed 1402)"
+      },
+      "limitations": [
+        "Blank-canvas predictions agree with only 23.82% of scene predictions, ruling out a pure image-ignoring constant prior.",
+        "Behavioral probe does not isolate specific internal transformer layers or attention heads."
+      ]
+    },
+    {
+      "claim_id": "C06",
+      "rq": "RQ3",
+      "topic": "Controlled category prompt study on CIFAR-100",
+      "claim_summary": "Appending the true coarse category ('a photo of a {class}, a type of {category}.') outperforms five deranged wrong-category mappings by +8.734 percentage points, but reduces Top-1 accuracy by 1.56 percentage points relative to baseline (62.92% vs 64.48%) and by 1.17 percentage points relative to token-length-matched neutral suffixes (64.09%), because strongest rival scores increase more than target class scores.",
+      "metrics": {
+        "baseline_accuracy_percent": 64.48,
+        "true_category_accuracy_percent": 62.92,
+        "neutral_suffix_accuracy_percent": 64.09,
+        "wrong_category_mean_accuracy_percent": 54.186,
+        "delta_true_minus_baseline_pp": -1.56,
+        "delta_true_minus_neutral_pp": -1.17,
+        "delta_true_minus_wrong_mean_pp": 8.734,
+        "mean_target_score_delta": 0.001628148165345192,
+        "mean_rival_score_delta": 0.002908395370841026,
+        "mean_margin_delta": -0.0012802472054958343,
+        "rival_identity_changed_percent": 33.75
+      },
+      "runs": [
+        "results/full_cifar100_category_v1",
+        "results/full_depth_category_v1",
+        "results/full_depth_historical_v1"
+      ],
+      "controls": "Token-length-matched neutral suffixes (exact token match in 80/100 classes, +/-1 token in 20 classes) and 5 derangement permutations (seeds 271-275).",
+      "uncertainty": {
+        "true_minus_baseline_ci95_pp": [
+          -2.14,
+          -0.98
+        ],
+        "true_minus_neutral_ci95_pp": [
+          -1.77,
+          -0.61
+        ],
+        "true_minus_wrong_mean_ci95_pp": [
+          8.14,
+          9.33
+        ]
+      },
+      "limitations": [
+        "Evaluated on the CIFAR-100 test split for a single category template structure prior to P3 multi-template expansion.",
+        "Strongest rival changes identity in 33.75% of images; fixed baseline rival score delta is -0.000111."
+      ]
+    },
+    {
+      "claim_id": "C07",
+      "rq": "RQ2",
+      "topic": "Natural-image spatial probing and preregistered 2x2 confirmation on COCO val2014",
+      "claim_summary": "On 200 screened COCO val2014 images, 4-way spatial accuracy (T2 forward) is 28.00% (28.41% on 176 retained after second review) with a 62.00% 'right' prediction bias; on a frozen confirmation set of 100 new horizontal sources disjoint from all 400 prior candidates, 2x2 debiased assignment accuracy is 53.00% (53/100, p = 0.3086 vs 50%), while only 4.00% of original/mirror pairs are both individually correct.",
+      "metrics": {
+        "old_200_four_way_t2_forward_percent": 28.0,
+        "old_176_reviewed_four_way_t2_forward_percent": 28.40909090909091,
+        "old_100_horizontal_2x2_t2_forward_percent": 54.0,
+        "old_93_reviewed_horizontal_2x2_t2_forward_percent": 55.913978494623656,
+        "new_100_confirmation_2x2_t2_forward_percent": 53.0,
+        "new_100_two_way_individual_percent": 51.5,
+        "new_100_both_images_correct_percent": 4.0,
+        "new_minus_old_2x2_delta_pp": -1.0
+      },
+      "runs": [
+        "results/full_depth_natural_v1",
+        "results/full_natural_confirmation_v1"
+      ],
+      "controls": "Source ID disjointness against all 400 previously screened candidates, 64-bit dHash screening, selection freeze timestamp prior to inference, and 2x2 assignment gap cancelling additive per-image/per-caption biases.",
+      "uncertainty": {
+        "new_wilson_ci95_percent": [
+          43.28885697009937,
+          62.48918204065872
+        ],
+        "new_bootstrap_ci95_percent": [
+          43.0,
+          63.0
+        ],
+        "one_sided_binomial_p_greater_0_5": 0.308649706794626,
+        "new_minus_old_independent_bootstrap_ci95_pp": [
+          -15.0,
+          12.0
+        ]
+      },
+      "limitations": [
+        "Non-significant p = 0.3086 does not prove p = 0.50 or zero spatial information.",
+        "Visual screening was performed by the same AI assistant + geometric validator, without independent human annotators.",
+        "No separate object-recognition control has yet been run on the COCO subset (planned as diagnostic option P2.1)."
+      ]
+    }
+  ]
+}
+
