@@ -1,5 +1,7 @@
 # Báo cáo tiến độ gửi giảng viên
 
+**Bản review tích hợp mới nhất (11/11/2026):** [PDF nghiên cứu](../research_review_v2/bao_cao_nghien_cuu.pdf), [nguồn số liệu và trạng thái](../research_review_v2/README.md). Các PDF bên dưới là mốc lịch sử được giữ nguyên để đối chiếu.
+
 **Bản mới nhất sau kiểm chứng tập ảnh mới:** [PDF cập nhật](../natural_confirmation_v1/bao_cao_cap_nhat.pdf), [kết quả và khả năng tái lập](../natural_confirmation_v1/README.md). Bao gồm tự rà soát nhãn cũ và phép ghép cặp định trước trên 100 nguồn ảnh mới.
 
 **Mốc probing chuyên sâu trước phần xác nhận mới:** [Báo cáo probing chuyên sâu (PDF)](../probing_depth_v1/bao_cao_probing_chuyen_sau.pdf), bổ sung can thiệp không gian, đối chứng category và kiểm chứng trên ảnh tự nhiên. [Bảng kết quả, giới hạn và hướng dẫn tái lập](../probing_depth_v1/README.md). Bản bên dưới giữ nguyên để đối chiếu mốc trước phần mở rộng.

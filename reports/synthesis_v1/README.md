@@ -1,6 +1,7 @@
-# Báo Cáo Tổng Hợp Chẩn Đoán Cơ Chế, Độ Nhạy Prompt & Phân Mảnh BPE Tiếng Việt (`synthesis_v1`)
+# Báo cáo tổng hợp hành vi điểm số, prompt và tiếng Việt (`synthesis_v1`, đã review)
 
 Tài liệu này được sinh tự động và tất định bởi `python -m vlm_probe.synthesis` từ các artifact trong `results/`.
+Bản hiện hành đầy đủ hơn nằm ở `reports/research_review_v2/`. Mẫu review được xuất không đồng nghĩa người đã chấm. Giao thức v1 được giữ như hồ sơ lịch sử; sửa đổi hiện hành ở `docs/integration_protocol_v2.md`.
 
 ---
 
@@ -23,15 +24,15 @@ Tài liệu này được sinh tự động và tất định bởi `python -m v
 | **COCO Exploratory (`T2` thuận, ngang)** | `100` | `0.00495` | `0.00044` | **`11.18x`** | `93.00%` | `54.00%` | **`4.00%`** |
 | **COCO Confirmation (`T2` thuận, ngang)** | `100` | `0.00546` | `0.00033` | **`16.69x`** | `95.00%` | `53.00%` | **`4.00%`** |
 
-> **Kết luận cơ chế (`RQ2`):** Trên cả ảnh hình học tổng hợp lẫn ảnh tự nhiên COCO, độ lớn tuyệt đối của thiên kiến bất biến vị trí $\mathbb{E}[\lvert B \rvert]$ lớn gấp **`11.2`–`16.7` lần** tín hiệu đổi chỗ không gian $\mathbb{E}[\lvert \Delta_{\text{spatial}} \rvert]$. Do $\lvert B \rvert > \lvert \Delta_{\text{spatial}} \rvert$ trên hơn `93%–98,6%` số cặp, hai ảnh đối xứng bị đẩy về cùng một nhãn dự đoán, giải thích chính xác tại sao `both_images_correct` chỉ đạt `1,11%–4,00%` dù 2×2 assignment đạt `45%–54%`.
+> **Diễn giải hành vi (`RQ2`):** Trên các cặp ảnh đã xét, thành phần hiệu điểm trung bình trong cặp $\mathbb{E}[\lvert B \rvert]$ lớn gấp **`11.2`–`16.7` lần** tín hiệu đổi chỗ không gian $\mathbb{E}[\lvert \Delta_{\text{spatial}} \rvert]$. Do $\lvert B \rvert > \lvert \Delta_{\text{spatial}} \rvert$ trên phần lớn số cặp, hai ảnh thường có cùng nhãn dự đoán. Đây là mô tả đại số của điểm số, chưa chứng minh nguồn gốc bias ở encoder hoặc cơ chế neuron.
 
 ### 2.2. Kết quả Thực nghiệm GPU & Giới hạn hình học của Half-Canvas Zero-Shot Mitigation (`P2.2/P2.3`)
 
-| Tập dữ liệu | Số nguồn ảnh | Tỷ lệ 2 vật thể nằm khác phía đường chia tâm | Giới hạn hình học lý tưởng | Kết quả CLIP `ViT-B/32` Holistic (Baseline) | Kết quả CLIP `ViT-B/32` Half-Canvas (`full_spatial_mitigation_v1`) |
+| Tập dữ liệu | Số nguồn ảnh | Tỷ lệ 2 vật thể khác phía tâm | Mô phỏng từ bbox | Holistic tham chiếu | Half-Canvas thực đo |
 | --- | ---: | ---: | ---: | ---: | ---: |
-| **Synthetic Depth (`1.440` ảnh)** | `1440` | **`100.00%`** | **`100.00%`** | `25.49%` (`0.00%` 4-relation) | **`100.00%`** (`100%` both-correct & 4-relation consistent) |
-| **COCO Exploratory (`200` nguồn)** | `200` | `86.50%` | `92.50%` (`13.50%` cùng nửa) | `28.50%` | Giới hạn trần `92.50%` |
-| **COCO Confirmation (`100` nguồn ngang)** | `100` | `93.00%` | `99.00%` (2-way, `7.00%` cùng nửa) | `49.00%` (`4.00%` both correct) | Giới hạn trần `93.00%`–`99.00%` |
+| **Synthetic Depth (`1.440` ảnh)** | `1440` | `100.00%` | `100.00%` | T0 thuận: `27.36%` (4-way) | **`100.00%`** (`100%` both-correct & 4-relation consistent) |
+| **COCO Exploratory (`200` nguồn)** | `200` | `86.50%` | `92.50%` | T2 gốc: `28.00%` (4-way) | Xem run COCO review v2; không dùng bbox làm accuracy CLIP |
+| **COCO Confirmation (`100` nguồn ngang)** | `100` | `93.00%` | `99.00%` (2-way) | T2 gốc+lật: `51.50%` (2-way) | Xem run COCO review v2; không dùng bbox làm accuracy CLIP |
 
 ---
 
@@ -63,14 +64,14 @@ Tài liệu này được sinh tự động và tất định bởi `python -m v
 
 ### 3.3. Phân tích cơ chế cân bằng thiên kiến Present vs Absent trên Negation (`with_without` + `contains_does_not`)
 
-| Điều kiện / Ensemble | Accuracy tổng (`720` cảnh) | Present (`360` cảnh) | Absent (`360` cảnh) | Chênh lệch `Present - Absent` | Group Consistency (`180` nhóm) |
+| Điều kiện / Ensemble | Accuracy tổng (`720` ảnh) | Present (`360` ảnh) | Absent (`360` ảnh) | Chênh lệch `Present - Absent` | Group Consistency (`360` nhóm) |
 | --- | ---: | ---: | ---: | ---: | ---: |
 | **`with_without` (Single tốt nhất)** | `91.39%` | `87.50%` | `95.28%` | `-7.78` pp | `82.78%` |
 | **`contains_does_not` (Single thứ hai)** | `80.83%` | `80.83%` | `80.83%` | `+0.00` pp | `61.67%` |
 | **Logit Average Ensemble** | **`86.81%`** | `84.72%` | `88.89%` | `-4.17` pp | **`73.61%`** |
 | **Probability Average Ensemble** | **`86.81%`** | `84.72%` | `88.89%` | `-4.17` pp | **`73.61%`** |
 
-- **Kiểm định Ensemble trên COCO Confirmation 2×2 Assignment (`100` cặp):** `T0` đạt `52.00%`, `T1` đạt `55.00%`, `T2` đạt `53.00%`; khi gộp **Logit Ensemble (`T0+T1+T2`)** đạt `54.00%` (CI 95% `[44.00%, 63.00%]`) và `both_images_correct` vẫn chỉ đạt **`1.00%`**. Điều này chứng minh **ensembling nhiều mẫu câu không thể giải cứu được hạn chế kiến trúc bag-of-words trên quan hệ không gian (`RQ3`)**.
+- **Ensemble tiếp nối trên COCO đã mở (`100` cặp):** Logit Ensemble T0+T1+T2 đạt `54.00%`, cả hai ảnh đúng `1.00%`. Trong bộ template này chưa có cải thiện rõ về tính nhất quán. Kết quả không chứng minh giới hạn kiến trúc hoặc mọi ensemble đều vô hiệu.
 
 ---
 
@@ -100,5 +101,5 @@ Tài liệu này được sinh tự động và tất định bởi `python -m v
 | **`vi_en_bilingual` (Song ngữ Việt–Anh)** | `10.24 ± 2.89` | `29.24 ± 2.89` | `3.03` | `9.28x` | `0` |
 
 > **Phát hiện định lượng (`RQ4` & `P4.5`):**
-> 1. **Phân mảnh BPE (`SimpleTokenizer` thực tế):** Một tên lớp tiếng Việt có dấu bị bẻ thành trung bình **`7.05` subword tokens** (Fertility = **`3.09` tokens/từ**), gấp **`6.44` lần** tên lớp tiếng Anh (`1.19` tokens); cả câu prompt tiếng Việt có dấu dài **`27.05` tokens** so với `6.19` tokens tiếng Anh (`4.39x`).
-> 2. **Bóc tách nhân quả Khung câu vs. Tên lớp (`P4.5`):** Khi giữ khung tiếng Anh nhưng thay nhãn tiếng Việt (`en_frame_vi_label`: `"a photo of a cá heo."`), độ chính xác sụp đổ xuống **`5.44%`** (tương đương `vi_diacritics` `5.10%`). Ngược lại, khi dùng khung tiếng Việt với nhãn tiếng Anh (`vi_frame_en_label`: `"một bức ảnh chụp dolphin."`), độ chính xác phục hồi vọt lên **`55.10%`** (`+50.00` pp so với tiếng Việt thuần, tương đương song ngữ `vi_en_bilingual` `54.95%`). Điều này chứng minh **hơn 84% mức suy giảm chéo ngôn ngữ (`-50.00` pp trên tổng `-59.38` pp) xuất phát từ việc bộ mã hóa văn bản CLIP mù ngữ nghĩa danh từ tên lớp tiếng Việt bị phân mảnh BPE, trong khi khung cú pháp tiếng Việt chỉ gây nhiễu nhẹ (`-9.38` pp)**.
+> 1. Tên lớp Việt có dấu có trung bình `7.05` token, so với `1.19` token Anh. Tỷ số hai trung bình là `5.92x`; trung bình tỷ số theo từng lớp là `6.44x`. Hai cách tổng hợp khác nhau.
+> 2. Các điều kiện lai khung câu/tên lớp cho thấy hiệu năng phụ thuộc mạnh vào cách biểu diễn tên lớp. Chưa thể quy phần trăm suy giảm cho BPE: bản dịch, mức quen thuộc từ vựng và căn chỉnh embedding cùng thay đổi. Không dấu giảm số token nhưng accuracy thấp hơn có dấu, nên số token không giải thích đầy đủ kết quả.

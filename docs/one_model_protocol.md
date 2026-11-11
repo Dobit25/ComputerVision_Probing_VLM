@@ -22,7 +22,7 @@ Pet/DTD/Food có mirror archive trên Hugging Face, revision cố định trong 
 
 Hoàn tất ba classification mới → tổng hợp baseline → chạy giao thức trong `probing_protocol.md`. Các bài probing kiểm tra một checkpoint, không so sánh điểm yếu giữa model. Thí nghiệm hình học tự tạo được báo cáo là kiểm tra có kiểm soát; không gọi đó là benchmark ảnh tự nhiên hoặc bằng chứng về mọi tình huống thực tế. Phân tích fine-grained bổ sung ảnh tự nhiên từ CIFAR-100 và nhóm nhầm lẫn trên Flowers/Pet/Food.
 
-Chưa thực hiện prompt ensembling, tiếng Việt/văn hóa Việt Nam hoặc fine-tuning. Đây là các extensions riêng sau core task.
+Ở thời điểm đóng gói core, prompt ensembling và tiếng Việt/văn hóa Việt Nam là các extensions tiếp theo. Trạng thái hiện hành xem [báo cáo review v2](../reports/research_review_v2/README.md) và [giao thức tích hợp](integration_protocol_v2.md); fine-tuning vẫn ngoài phạm vi.
 
 ## Trạng thái mốc thí nghiệm
 

@@ -112,7 +112,7 @@ def run():
                 'delta_ci_high':e['delta_vs_baseline_ci95_pp'][1]})
         else:multidomain.append((label,number(acc),'---','---','Chưa chạy'))
     domain_table=table(['Dataset','Base T / M','Ens. T / M',r'CI của $\Delta$','Trạng thái'],multidomain,'lrrll','Embedding ensemble đa miền: T là top-1, M là macro theo lớp, đơn vị phần trăm; CI cho delta top-1 (điểm phần trăm).')
-    regional=[];natural_details=[];natural_finished=0
+    regional=[];natural_details=[];region_abstract=[];natural_finished=0
     for ds,label in [('exploratory','COCO 200 nguồn'),('confirmation','COCO 100 nguồn')]:
         name=f'full_natural_regions_{ds}_review_v2'
         if (REVIEW/name/'audit.json').exists():
@@ -122,6 +122,7 @@ def run():
             sec=m['secondary_padded_half']
             regional.append((label+' pad',str(sec['primary_choices']),number(sec['primary_accuracy_percent'])+' '+interval(sec['primary_ci95_percent']),number(sec['paired_delta_pp'])+' '+interval(sec['paired_delta_ci95_pp'])))
             natural_details.append(label+': holistic '+number(m['holistic_accuracy_percent'])+r'\%; cả hai ảnh đúng '+number(m['both_images_correct_percent'])+r'\% ở cách gốc và '+number(sec['both_images_correct_percent'])+r'\% ở padding, so '+number(m['holistic_both_images_correct_percent'])+r'\% holistic.')
+            region_abstract.append(label+' ('+str(m['primary_choices'])+' lựa chọn): '+number(m['primary_accuracy_percent'])+r'\% so '+number(m['holistic_accuracy_percent'])+r'\% holistic.')
         else:regional.append((label,'4' if ds=='exploratory' else '2','Chưa chạy','---'))
     region_table=table(['Bộ ảnh','Lựa chọn',r'Chia vùng (\%), CI',r'$\Delta$ so holistic, CI'],regional,'llll','Chia vùng COCO và CI bootstrap theo source; delta paired cùng ảnh.')
     psr_rows=[]
@@ -138,7 +139,7 @@ def run():
     available=f'Đã có {finished}/5 bộ dữ liệu với kết quả prompt được audit; {natural_finished}/2 bộ COCO có kết quả chia vùng mới.'
     status=('Các thí nghiệm bổ sung đang chờ khôi phục môi trường: Windows Application Control chặn PyTorch (WinError 4551).'
             if execution['status']=='blocked_environment' else r'Trạng thái thực thi được ghi trong execution\_status.json.')
-    completed=finished==5 and natural_finished==2
+    completed=finished==5 and natural_finished==2 and execution['status']=='completed_and_audited'
     test_text=(f"Toàn bộ {tests['run']} tests đạt." if not tests['errors'] and not tests['failures'] else
                f"Chạy {tests['run']} tests: {tests['passed']} đạt, {len(tests['errors'])} lỗi và {len(tests['failures'])} failure; xem tests.json để phân biệt lỗi môi trường với lỗi code.")
     domain_text=('Các CI trong bảng là CI riêng từng dataset, chưa hiệu chỉnh familywise. Không cộng tất cả ảnh các miền thành một phép so độc lập. '+
@@ -181,12 +182,14 @@ def run():
 \begin{center}{\Large\bfseries Thăm dò CLIP ViT-B/32: độ nhất quán không gian,\\ độ nhạy prompt và chuyển ngữ tiếng Việt}\\[5pt]
 {\small Topic 14 — Computer Vision\quad |\quad Bản rà soát: 11/11/2026}
 \end{center}
-\textbf{Tóm tắt.} Nghiên cứu đánh giá một checkpoint CLIP cố định qua năm bộ dữ liệu phân loại và các phép thăm dò có đối chứng. Baseline trên 46.948 ảnh cho thấy khả năng nhận dạng thay đổi theo miền; các can thiệp vị trí cho thấy accuracy từng ảnh không phản ánh đầy đủ độ nhất quán cả cặp. Trên 100 nguồn ảnh tự nhiên đã cố định, ghép cặp đúng 53\%, CI Wilson 95\% @NCI@\%, nhưng chỉ 4\% cặp có cả hai ảnh được dự đoán đúng riêng rẽ. Trên CIFAR-100, ensemble bảy prompt đạt 64,97\%, tăng 0,49 điểm phần trăm so với baseline; prompt Việt có dấu đạt 5,10\%. Việc thay tên lớp và khung câu cho thấy sự phụ thuộc đáng kể vào cách biểu diễn tên lớp. Phân mảnh tokenizer đồng xuất hiện với mức giảm này, song chưa chứng minh quan hệ nhân quả. Bài viết phân biệt kết quả được tính lại từ scores, phân tích tiếp nối và các hạng mục chưa có phép đo.
+\textbf{Tóm tắt.} Nghiên cứu đánh giá một checkpoint CLIP cố định qua năm bộ dữ liệu phân loại và các phép thăm dò có đối chứng. Baseline trên 46.948 ảnh cho thấy khả năng nhận dạng thay đổi theo miền; các can thiệp vị trí cho thấy accuracy từng ảnh không phản ánh đầy đủ độ nhất quán cả cặp. Trong nghiên cứu tiếp nối dùng quy tắc chia vùng, @REGION_ABSTRACT@ Các bộ COCO đã mở kết quả và chưa có reviewer người độc lập, nên chưa gọi đây là xác nhận ngoài mẫu mới. Trên CIFAR-100, ensemble bảy prompt đạt 64,97\%, tăng 0,49 điểm phần trăm so baseline; prompt Việt có dấu đạt 5,10\%. Chênh lệch ngôn ngữ đồng xuất hiện với phân mảnh tokenizer, song chưa chứng minh quan hệ nhân quả. Bài viết phân biệt kết quả được tính lại từ scores, phân tích tiếp nối và các giới hạn phương pháp.
 
 \textbf{Trạng thái bằng chứng.} @AVAILABLE@ @STATUS@ Rà soát độc lập bởi người và kiểm bản dịch chưa có phiếu hoàn thành; các bảng không điền kết quả dự kiến cho các run đang chờ.
 
 \section{Bài toán và câu hỏi nghiên cứu}
 CLIP học biểu diễn ảnh và văn bản để so khớp bằng điểm tương đồng~\cite{clip}. Trong phân loại zero-shot, tên lớp được đưa vào prompt; lớp có điểm cao nhất được chọn. Hiệu năng nhận dạng tốt chưa đủ để suy ra mô hình nhạy đúng với số lượng, thứ tự mô tả hay quan hệ giữa vật thể. ARO và Winoground đã đặt ra các phép kiểm tính kết hợp ảnh--text~\cite{aro,winoground}; nghiên cứu phủ định cũng cho thấy cần đánh giá theo thiết kế nhiệm vụ~\cite{negbench}.
+
+Hướng tiếng Việt đã có các nghiên cứu như ViCLIP-OT về truy hồi ảnh--text~\cite{viclip}. Ở đây nhóm giữ checkpoint CLIP gốc và đo classification trên cùng ảnh khi đổi prompt; không tuyên bố đây là nghiên cứu đầu tiên về VLM tiếng Việt.
 
 Bốn câu hỏi được xét: (RQ1) hiệu năng phân loại và các nhóm lỗi thay đổi thế nào theo miền; (RQ2) dự đoán có nhất quán khi quan hệ đổi; (RQ3) prompt và ensemble ảnh hưởng ra sao; (RQ4) thay ngôn ngữ prompt trên cùng ảnh làm thay đổi kết quả thế nào. Đóng góp của nhóm là chuỗi kiểm tra hành vi có metadata và đối chứng trên một checkpoint, không phải kết luận về mọi VLM hoặc cơ chế neuron.
 
@@ -279,18 +282,19 @@ Kết quả đã kiểm cho thấy nhận dạng lớp, tính nhất quán khôn
 
 @FOLLOWUP@
 
-\begingroup\small\begin{thebibliography}{5}
+\begingroup\small\begin{thebibliography}{6}
 \bibitem{clip} A. Radford và cs., \href{https://proceedings.mlr.press/v139/radford21a.html}{Learning Transferable Visual Models From Natural Language Supervision}, ICML, 2021.
 \bibitem{aro} M. Yuksekgonul và cs., \href{https://arxiv.org/abs/2210.01936}{When and Why Vision-Language Models Behave Like Bags-of-Words, and What to Do About It?}, ICLR, 2023.
 \bibitem{winoground} T. Thrush và cs., \href{https://arxiv.org/abs/2204.03162}{Winoground: Probing Vision and Language Models for Visio-Linguistic Compositionality}, CVPR, 2022.
 \bibitem{negbench} K. Alhamoud và cs., \href{https://arxiv.org/abs/2501.09425}{Vision-Language Models Do Not Understand Negation}, CVPR, 2025.
 \bibitem{coco} T.-Y. Lin và cs., \href{https://arxiv.org/abs/1405.0312}{Microsoft COCO: Common Objects in Context}, ECCV, 2014.
+\bibitem{viclip} Q.-K. Tran và cs., \href{https://arxiv.org/abs/2602.22678}{ViCLIP-OT: The First Foundation Vision-Language Model for Vietnamese Image-Text Retrieval with Optimal Transport}, preprint, 2026.
 \end{thebibliography}\endgroup
 \end{document}
 '''
     replaces={'NCI':nci,'NACC':number(natural['accuracy_percent']),'NP':npval,'NBOTH':number(natural['both_images_correct_percent']),
               'OLDCLEAN':oldclean,'AVAILABLE':available,'STATUS':final_status,'BASE_TABLE':base_table,'CORE_TABLE':core_table,'PROMPT_TABLE':prompt_table,'FOLLOWUP':followup,
-              'DOMAIN_TABLE':domain_table,'DOMAIN_TEXT':domain_text,'PROBING_TEXT':probing_text,
+              'DOMAIN_TABLE':domain_table,'DOMAIN_TEXT':domain_text,'PROBING_TEXT':probing_text,'REGION_ABSTRACT':' '.join(region_abstract) if region_abstract else 'các phép đo COCO đang chờ chạy.',
               'REGION_TABLE':region_table,'REGION_TEXT':region_text,'PSR_TABLE':psr_table,'VI_TABLE':vi_table,
               'TOKEN_TABLE':token_table,'RATIOMEAN':number(token['vi_diacritics']['mean_subword_tokens']/token['en_baseline']['mean_subword_tokens']),
               'MEANRATIO':number(token['vi_diacritics']['mean_ratio_vs_en_baseline']),
