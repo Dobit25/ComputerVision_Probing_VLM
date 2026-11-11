@@ -1,0 +1,118 @@
+python.exe : test_all_100_candidates_and_tie_rule 
+(test_category_study.CategoryStudyTests.test_all_100_candidates_and_tie_rule) ... ok
+At line:3 char:1
++ & D:\Coding\Anaconda\envs\gen\python.exe -m unittest discover -s test ...
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (test_all_100_ca...ie_rule) ... ok:String) [], RemoteException
+    + FullyQualifiedErrorId : NativeCommandError
+ 
+test_complete_train_taxonomy_and_shared_vehicle_text 
+(test_category_study.CategoryStudyTests.test_complete_train_taxonomy_and_shared_vehicle_text) ... ok
+test_paired_counts_and_error_destinations 
+(test_category_study.CategoryStudyTests.test_paired_counts_and_error_destinations) ... ok
+test_assignment_survives_caption_bias_but_individual_predictions_do_not 
+(test_confirmation.ConfirmationTests.test_assignment_survives_caption_bias_but_individual_predictions_do_not) ... ok
+test_frozen_holdout_excludes_all_previously_screened_sources 
+(test_confirmation.ConfirmationTests.test_frozen_holdout_excludes_all_previously_screened_sources) ... ok
+test_missing_or_duplicate_relation_in_pair_rejected 
+(test_confirmation.ConfirmationTests.test_missing_or_duplicate_relation_in_pair_rejected) ... ok
+test_old_saved_scores_reproduce_exploratory_point_estimates 
+(test_confirmation.ConfirmationTests.test_old_saved_scores_reproduce_exploratory_point_estimates) ... ok
+test_tie_rule_and_exact_binomial (test_confirmation.ConfirmationTests.test_tie_rule_and_exact_binomial) ... ok
+test_wilson_intervals_and_invalid_counts 
+(test_confirmation.ConfirmationTests.test_wilson_intervals_and_invalid_counts) ... ok
+test_appearance_changes_preserve_geometry (test_depth.DepthTests.test_appearance_changes_preserve_geometry) ... ok
+test_assignment_gap_removes_additive_bias_without_erasing_interaction 
+(test_depth.DepthTests.test_assignment_gap_removes_additive_bias_without_erasing_interaction) ... ok
+test_audit_rejects_modified_scores_and_labels (test_depth.DepthTests.test_audit_rejects_modified_scores_and_labels) 
+... ok
+test_cluster_bootstrap_does_not_treat_repeated_captions_as_independent 
+(test_depth.DepthTests.test_cluster_bootstrap_does_not_treat_repeated_captions_as_independent) ... ok
+test_constant_predictions_are_consistent_but_not_counterfactually_correct 
+(test_depth.DepthTests.test_constant_predictions_are_consistent_but_not_counterfactually_correct) ... ok
+test_derangement_preserves_category_multiset_including_vehicles 
+(test_depth.DepthTests.test_derangement_preserves_category_multiset_including_vehicles) ... ok
+test_natural_geometry_rejects_diagonal_and_cropped_targets 
+(test_depth.DepthTests.test_natural_geometry_rejects_diagonal_and_cropped_targets) ... ok
+test_neutral_selection_is_token_based_and_preserves_all_classes 
+(test_depth.DepthTests.test_neutral_selection_is_token_based_and_preserves_all_classes) ... ok
+test_reverse_order_keeps_canonical_semantics (test_depth.DepthTests.test_reverse_order_keeps_canonical_semantics) ... 
+ok
+test_spatial_labels_bounds_and_counterfactual_positions 
+(test_depth.DepthTests.test_spatial_labels_bounds_and_counterfactual_positions) ... ok
+test_dynamic_dimensions_and_final_partial_batch 
+(test_evaluator.EvaluatorTests.test_dynamic_dimensions_and_final_partial_batch) ... ok
+test_p0_and_p1_reference_ledgers_exist_and_match_frozen_metrics 
+(test_extensions_p1_to_p5.ExtensionsP0ToP5Tests.test_p0_and_p1_reference_ledgers_exist_and_match_frozen_metrics) ... ok
+test_p1_2_blinded_review_export_and_full_retention_parity 
+(test_extensions_p1_to_p5.ExtensionsP0ToP5Tests.test_p1_2_blinded_review_export_and_full_retention_parity) ... ok
+test_p1_2_cohens_kappa_and_decision_branches 
+(test_extensions_p1_to_p5.ExtensionsP0ToP5Tests.test_p1_2_cohens_kappa_and_decision_branches) ... ok
+test_p2_1_prior_to_signal_decomposition_identities 
+(test_extensions_p1_to_p5.ExtensionsP0ToP5Tests.test_p2_1_prior_to_signal_decomposition_identities) ... ok
+test_p2_2_region_mitigation_antisymmetry_and_geometry_bound 
+(test_extensions_p1_to_p5.ExtensionsP0ToP5Tests.test_p2_2_region_mitigation_antisymmetry_and_geometry_bound) ... ok
+test_p3_templates_baseline_parity_and_ensembling 
+(test_extensions_p1_to_p5.ExtensionsP0ToP5Tests.test_p3_templates_baseline_parity_and_ensembling) ... ok
+test_p4_vietnamese_lexicon_and_bpe_diagnostics 
+(test_extensions_p1_to_p5.ExtensionsP0ToP5Tests.test_p4_vietnamese_lexicon_and_bpe_diagnostics) ... ok
+test_extracted_image_must_match_archive_bytes 
+(test_flowers.FlowersTests.test_extracted_image_must_match_archive_bytes) ... ok
+test_flowers_requires_new_protocol_and_own_limit 
+(test_flowers.FlowersTests.test_flowers_requires_new_protocol_and_own_limit) ... ok
+test_baseline_canvas_uses_center_and_preserves_square 
+(test_integration_review.IntegrationReviewTests.test_baseline_canvas_uses_center_and_preserves_square) ... ok
+test_blank_translation_review_cannot_be_marked_complete 
+(test_integration_review.IntegrationReviewTests.test_blank_translation_review_cannot_be_marked_complete) ... ok
+test_dtd_baseline_keeps_texture_and_domain_does_not_duplicate_it 
+(test_integration_review.IntegrationReviewTests.test_dtd_baseline_keeps_texture_and_domain_does_not_duplicate_it) ... 
+ok
+test_macro_and_image_transition_counts_are_distinct 
+(test_integration_review.IntegrationReviewTests.test_macro_and_image_transition_counts_are_distinct) ... ok
+test_manifest_rejects_changed_artifact_and_changed_input 
+(test_integration_review.IntegrationReviewTests.test_manifest_rejects_changed_artifact_and_changed_input) ... ok
+test_region_primary_delta_is_paired_and_uses_source_groups 
+(test_integration_review.IntegrationReviewTests.test_region_primary_delta_is_paired_and_uses_source_groups) ... ok
+test_region_rejects_incomplete_pairs_and_wrong_axis_labels 
+(test_integration_review.IntegrationReviewTests.test_region_rejects_incomplete_pairs_and_wrong_axis_labels) ... ok
+Checking 2 extracted files against original.tar.gz...
+Checking 2 extracted files against original.tar.gz...
+test_streaming_archive_verification_preserves_digest_and_rejects_tampering (test_integration_review.IntegrationReviewTe
+sts.test_streaming_archive_verification_preserves_digest_and_rejects_tampering) ... ok
+test_imbalanced_classes_and_absent_class (test_metrics.MetricsTests.test_imbalanced_classes_and_absent_class) ... ok
+test_invalid_predictions_are_rejected (test_metrics.MetricsTests.test_invalid_predictions_are_rejected) ... ok
+test_perfect_predictions (test_metrics.MetricsTests.test_perfect_predictions) ... ok
+test_dtd_hyphenated_category_is_valid 
+(test_new_datasets.NewDatasetProtocolTests.test_dtd_hyphenated_category_is_valid) ... ok
+test_new_configs_keep_official_split_and_frozen_model 
+(test_new_datasets.NewDatasetProtocolTests.test_new_configs_keep_official_split_and_frozen_model) ... ok
+test_counterfactual_negation_changes_only_target_color 
+(test_probing.ProbeTests.test_counterfactual_negation_changes_only_target_color) ... ok
+test_counts_and_balanced_targets (test_probing.ProbeTests.test_counts_and_balanced_targets) ... ok
+test_full_and_smoke_input_order_matches_evaluation_task_order 
+(test_probing.ProbeTests.test_full_and_smoke_input_order_matches_evaluation_task_order) ... ok
+test_geometry_and_area_controls (test_probing.ProbeTests.test_geometry_and_area_controls) ... ok
+test_render_size_and_determinism (test_probing.ProbeTests.test_render_size_and_determinism) ... ok
+test_ties_invalid_scores_and_conditioned_metrics 
+(test_probing.ProbeTests.test_ties_invalid_scores_and_conditioned_metrics) ... ok
+test_artifact_hash_change_rejected (test_protocol.GenericVerifierTests.test_artifact_hash_change_rejected) ... ok
+test_bad_embedding_dimensions_rejected (test_protocol.GenericVerifierTests.test_bad_embedding_dimensions_rejected) ... 
+ok
+test_changed_input_label_rejected_even_with_refreshed_hash 
+(test_protocol.GenericVerifierTests.test_changed_input_label_rejected_even_with_refreshed_hash) ... ok
+test_missing_prediction_rejected_even_with_refreshed_hash 
+(test_protocol.GenericVerifierTests.test_missing_prediction_rejected_even_with_refreshed_hash) ... ok
+test_non_cifar_shapes_and_unequal_class_support 
+(test_protocol.GenericVerifierTests.test_non_cifar_shapes_and_unequal_class_support) ... ok
+test_smoke_with_absent_classes (test_protocol.GenericVerifierTests.test_smoke_with_absent_classes) ... ok
+test_wrong_full_split_support_rejected (test_protocol.GenericVerifierTests.test_wrong_full_split_support_rejected) ... 
+ok
+test_bundle_rejects_duplicate_ids_and_invalid_labels 
+(test_protocol.ProtocolTests.test_bundle_rejects_duplicate_ids_and_invalid_labels) ... ok
+test_invalid_protocol_and_limits (test_protocol.ProtocolTests.test_invalid_protocol_and_limits) ... ok
+test_legacy_baselines_remain_readable (test_protocol.ProtocolTests.test_legacy_baselines_remain_readable) ... ok
+
+----------------------------------------------------------------------
+Ran 58 tests in 42.384s
+
+OK
