@@ -165,10 +165,12 @@ def evaluate_geometric_upper_bound():
 def run_live_mitigation(smoke=False, run_name=None):
     """Run live CLIP ViT-B/32 half-canvas zero-shot mitigation on synthetic spatial stimuli."""
     from PIL import Image
+    from ..extension_artifacts import begin_extension
 
     depth_cfg = read_json(ROOT / "configs/probing_depth_v1.json")
     diag_cfg = read_json(CONFIG_PATH)
-    out, _, manifest = begin("spatial_mitigation", smoke=smoke, inputs=[CONFIG_PATH, PROTOCOL_PATH], run_name=run_name)
+    out, _, manifest = begin_extension("spatial_mitigation", CONFIG_PATH, smoke=smoke,
+                                      inputs=[PROTOCOL_PATH], run_name=run_name)
     images = spatial_images(depth_cfg, materialize=True)
     if smoke:
         images = images[:12 * diag_cfg["mitigation"]["smoke_groups"]]
@@ -184,33 +186,35 @@ def run_live_mitigation(smoke=False, run_name=None):
     text_features = engine.texts(prompts)
 
     region_names = ("left", "right", "top", "bottom")
-    region_tensors = {k: [] for k in region_names}
-    for im in images:
-        path = ROOT / im["image_path"]
-        if sha256(path) != im["image_sha256"]:
-            raise ValueError(f"Checksum mismatch for {path}")
-        with Image.open(path) as pil_im:
-            crops = crop_half_canvases(pil_im)
-            for k in region_names:
-                region_tensors[k].append(engine.adapter.preprocess(crops[k]))
+    from torch.utils.data import Dataset, DataLoader
+    class RegionImages(Dataset):
+        def __init__(self, region): self.region=region
+        def __len__(self): return len(images)
+        def __getitem__(self, index):
+            im=images[index];path=ROOT/im['image_path']
+            if sha256(path)!=im['image_sha256']:raise ValueError(f'Checksum mismatch: {path}')
+            with Image.open(path) as pil_im:crop=crop_half_canvases(pil_im)[self.region]
+            return engine.adapter.preprocess(crop)
 
     region_scores_all = {}
     for k in region_names:
-        batch_tensor = engine.torch.stack(region_tensors[k])
         feats = []
         with engine.torch.inference_mode():
-            for i in range(0, len(batch_tensor), 32):
-                feats.append(engine.norm(engine.adapter.encode_images(batch_tensor[i:i + 32].to("cuda"))).cpu())
+            for batch_tensor in DataLoader(RegionImages(k),batch_size=32,shuffle=False,num_workers=0):
+                feats.append(engine.norm(engine.adapter.encode_images(batch_tensor.to("cuda"))).cpu())
         feats_cat = engine.torch.cat(feats)
         region_scores_all[k] = engine.scores(feats_cat, text_features)
 
     records = []
     rel_matrix = np.zeros((len(images), 4), dtype=np.float32)
+    regional = np.zeros((len(images), 4, 2), dtype=np.float32)
     for idx, im in enumerate(images):
         pa = prompt_idx[template.format(medium="drawing", object=im["a"])]
         pb = prompt_idx[template.format(medium="drawing", object=im["b"])]
         sa = {k: region_scores_all[k][idx, pa] for k in region_names}
         sb = {k: region_scores_all[k][idx, pb] for k in region_names}
+        regional[idx,:,0] = [sa[k] for k in region_names]
+        regional[idx,:,1] = [sb[k] for k in region_names]
         r_scores = relational_scores_from_regions(sa, sb)
         rel_matrix[idx] = r_scores.astype(np.float32)
         pred4 = int(r_scores.argmax())
@@ -261,6 +265,9 @@ def run_live_mitigation(smoke=False, run_name=None):
     }
 
     np.savez_compressed(out / "relational_scores.npz", scores=rel_matrix)
+    np.savez_compressed(out / 'region_scores.npz', scores=regional)
+    write_json(out / 'samples.json', images)
+    write_json(out / 'prompts.json', prompts)
     write_csv(out / "predictions.csv", records)
     write_json(out / "metrics.json", summary)
     manifest.update(num_images=len(images), unique_single_object_prompts=len(prompts))

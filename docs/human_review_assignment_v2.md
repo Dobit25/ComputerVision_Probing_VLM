@@ -6,6 +6,8 @@ Mục tiêu: kiểm 100 nguồn ảnh COCO và 100 tên lớp Việt. Hai đầu
 
 Trong conda gen, chạy `python -m vlm_probe.human_review export`. Gói local `data/human_review_v2/reviewer_package.zip` có HTML xem offline, 100 ảnh nguồn có box A/B, 100 crop thật, hai CSV trắng, hướng dẫn và nguồn/giấy phép. Ảnh không đưa vào Git. Chỉ gửi gói này cho reviewer, không gửi `coordinator_private`, reports/scores/predictions hoặc phiếu AI. Mã reviewer có thể dùng R1/R2 để hạn chế dữ liệu cá nhân.
 
+Trên clone mới chưa có ảnh, chạy `python -m vlm_probe.depth.confirmation prepare-new` để khôi phục các ảnh ứng viên từ URL/checksum đã lưu trước khi export. Giữ nguyên các JSON lựa chọn và review đã commit; không tạo lại tập nhãn theo scores. Export không cần nạp model hoặc chạy GPU, nhưng cần đủ ảnh local khớp hash.
+
 Đề xuất giao việc: một người đọc hướng dẫn và chấm 100 ảnh (dự trù 2–4 giờ, nghỉ giữa các nhóm 20 ảnh); một người kiểm 100 nhãn EN–VI (2–3 giờ, thêm thời gian tra tên sinh học). Đây là dự trù, không phải deadline bắt buộc. Nếu hai người chấm, gửi bản trắng riêng và không trao đổi quyết định trước phân xử.
 
 ## Chấm ảnh

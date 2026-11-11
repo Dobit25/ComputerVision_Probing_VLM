@@ -226,9 +226,19 @@ def audit_run(name):
                             ((2, 3), 'vertical_pair_both_correct_percent'),
                             ((0, 1, 2, 3), 'all_four_relations_correct_percent')]:
             close_enough(stats[field], 100 * float(np.mean([all(t == p for t, p in g if t in axis) for g in grouped.values()])))
+        regional_verified = False
+        if (directory/'region_scores.npz').exists():
+            from .spatial_diagnostics.quadrant_mitigation import relational_scores_from_regions
+            with np.load(directory/'region_scores.npz',allow_pickle=False) as z:regional=z['scores']
+            if regional.shape != (len(rows),4,2):raise ValueError('Synthetic region shape')
+            if not np.array_equal(scores,relational_scores_from_regions(regional[:,:,0],regional[:,:,1])):
+                raise ValueError('Synthetic region arithmetic')
+            reference = read_json(ROOT/'results/full_depth_spatial_v1/images.json')[:len(rows)]
+            close_enough(read_json(directory/'samples.json'),reference)
+            regional_verified=True
         details = {'metrics_recomputed': True, 'n': len(rows),
-                   'region_to_relational_scores_recomputed': False,
-                   'limitation': 'Legacy run saved final relational scores, not per-region scores.'}
+                   'region_to_relational_scores_recomputed': regional_verified,
+                   'limitation': None if regional_verified else 'Legacy run saved final relational scores, not per-region scores.'}
     elif stage == 'prompt_probing':
         if not (directory / 'counting_scores.npz').exists():
             details = {'metrics_recomputed': False, 'artifact_integrity_verified': True,

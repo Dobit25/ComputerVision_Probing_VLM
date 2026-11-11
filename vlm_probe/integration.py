@@ -23,6 +23,11 @@ def jobs():
         args = ['-m','vlm_probe.prompt_study','probing','--run-name',name]
         if smoke: args.append('--smoke')
         result.append((name, args))
+    for smoke in [True, False]:
+        name=f'{"smoke" if smoke else "full"}_spatial_mitigation_review_v2'
+        args=['-m','vlm_probe.spatial_diagnostics','mitigate','--run-name',name]
+        if smoke:args.append('--smoke')
+        result.append((name,args))
     for set_name in ['exploratory','confirmation']:
         for smoke in [True, False]:
             name = f'{"smoke" if smoke else "full"}_natural_regions_{set_name}_review_v2'
@@ -61,8 +66,12 @@ def main():
         check = subprocess.run([sys.executable,'-m','vlm_probe.extension_artifacts',row['run_name']],cwd=ROOT)
         row['status']='audited' if check.returncode==0 else 'audit_failed'
         if check.returncode: state['status']='stopped'; break
+        completed=read_json(out/'manifest.json')
+        row['started_at_utc']=completed['started_at_utc']
+        row['finished_at_utc']=completed['finished_at_utc']
         write_json(STATUS,state)
     else: state['status']='completed_and_audited'
+    state['updated_at_utc']=datetime.now(timezone.utc).isoformat()
     write_json(STATUS,state); print(state['status'],flush=True)
 
 

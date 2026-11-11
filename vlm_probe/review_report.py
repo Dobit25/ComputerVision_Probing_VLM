@@ -43,6 +43,12 @@ def run():
     sensitivity=read('reports/natural_confirmation_v1/metrics.json')
     psr=read('reports/synthesis_v1/spatial_mechanism_psr.json')
     spatial=read('results/full_spatial_mitigation_v1/metrics.json')
+    synthetic_trace='Run hình học cũ thiếu scores từng vùng; audit chỉ tính lại từ relational scores cuối.'
+    if (REVIEW/'full_spatial_mitigation_review_v2/audit.json').exists():
+        synaudit=read('results/review_hieu_v2/full_spatial_mitigation_review_v2/audit.json')
+        if not synaudit['region_to_relational_scores_recomputed']:raise ValueError('Synthetic regional trace required')
+        spatial=read('results/full_spatial_mitigation_review_v2/metrics.json')
+        synthetic_trace='Run hình học mới lưu đủ scores từng vùng và relational scores; audit kiểm lại phép kết hợp vùng, dự đoán và metrics. Kết quả giữ nguyên 100\\% so với run cũ.'
     execution=read('results/integration_v2/execution_status.json')
     execution.setdefault('status','running')
     tests=read('results/integration_v2/tests.json')
@@ -112,7 +118,7 @@ def run():
         if (REVIEW/name/'audit.json').exists():
             a=read(f'results/review_hieu_v2/{name}/audit.json')
             if not a['metrics_recomputed']:raise ValueError('Unaudited natural region result')
-            m=read(f'results/{name}/metrics.json');regional.append((label+' gốc',str(m['primary_choices']),number(m['primary_accuracy_percent'])+' '+interval(m['primary_ci95_percent']),number(m['paired_delta_pp'])+' '+interval(m['paired_delta_ci95_pp'])));natural_finished+=1
+            m=read(f'results/{name}/metrics.json');regional.append((label+' native',str(m['primary_choices']),number(m['primary_accuracy_percent'])+' '+interval(m['primary_ci95_percent']),number(m['paired_delta_pp'])+' '+interval(m['paired_delta_ci95_pp'])));natural_finished+=1
             sec=m['secondary_padded_half']
             regional.append((label+' pad',str(sec['primary_choices']),number(sec['primary_accuracy_percent'])+' '+interval(sec['primary_ci95_percent']),number(sec['paired_delta_pp'])+' '+interval(sec['paired_delta_ci95_pp'])))
             natural_details.append(label+': holistic '+number(m['holistic_accuracy_percent'])+r'\%; cả hai ảnh đúng '+number(m['both_images_correct_percent'])+r'\% ở cách gốc và '+number(sec['both_images_correct_percent'])+r'\% ở padding, so '+number(m['holistic_both_images_correct_percent'])+r'\% holistic.')
@@ -133,6 +139,8 @@ def run():
     status=('Các thí nghiệm bổ sung đang chờ khôi phục môi trường: Windows Application Control chặn PyTorch (WinError 4551).'
             if execution['status']=='blocked_environment' else r'Trạng thái thực thi được ghi trong execution\_status.json.')
     completed=finished==5 and natural_finished==2
+    test_text=(f"Toàn bộ {tests['run']} tests đạt." if not tests['errors'] and not tests['failures'] else
+               f"Chạy {tests['run']} tests: {tests['passed']} đạt, {len(tests['errors'])} lỗi và {len(tests['failures'])} failure; xem tests.json để phân biệt lỗi môi trường với lỗi code.")
     domain_text=('Các CI trong bảng là CI riêng từng dataset, chưa hiệu chỉnh familywise. Không cộng tất cả ảnh các miền thành một phép so độc lập. '+
         ' '.join(label+': '+number(v['delta_pp'])+' điểm phần trăm, CI '+interval([v['delta_ci_low'],v['delta_ci_high']])+'.'
                  for v in domain_values for ds,label,_ in datasets if ds==v['dataset']))
@@ -234,7 +242,7 @@ PSR là tỷ số trung bình $|B|$ và trung bình $|\delta|$. Nó mô tả c�
 
 Sau tự rà soát nhãn cũ, giữ 176/200 nguồn và accuracy 4-way là @OLDCLEAN@\% thay vì 28,00\%; đây là sensitivity hậu nghiệm do cùng AI reviewer, chưa là xác nhận bởi người. Tập lọc không còn cân bằng hoàn toàn bốn nhãn.
 
-Phương pháp chia vùng dùng bốn nửa ảnh và prompt nhận dạng A/B. Điểm trái là $h=(s_L(A)-s_R(A))-(s_L(B)-s_R(B))$, điểm phải là $-h$; trên/dưới tương tự. Pipeline có cấu trúc vùng khác holistic CLIP. Run hình học đã lưu đạt @SYNREG@\% trên 1.440 ảnh, nhưng chưa lưu scores từng vùng; audit chỉ tính lại từ relational scores cuối. CI bootstrap [100;100] trên bộ này không loại trừ sai số ngoài phân phối.
+Phương pháp chia vùng dùng bốn nửa ảnh và prompt nhận dạng A/B. Điểm trái là $h=(s_L(A)-s_R(A))-(s_L(B)-s_R(B))$, điểm phải là $-h$; trên/dưới tương tự. Mỗi điều kiện dùng bốn lượt mã hóa vùng cho một ảnh, so với một lượt holistic; chi phí suy luận và quy tắc kết hợp khác nhau. Run hình học đạt @SYNREG@\% trên 1.440 ảnh. @SYNTRACE@ CI bootstrap [100;100] trên bộ này không loại trừ sai số ngoài phân phối.
 
 @REGION_TABLE@
 
@@ -248,7 +256,7 @@ Giữ nguyên 10.000 ảnh và 100 lớp; thay ngôn ngữ tên lớp và khung 
 
 @VI_TABLE@
 
-Prompt Việt có dấu đạt 5,10\%, giảm 59,38 điểm phần trăm so EN. Dùng khung Việt với tên lớp Anh đạt 55,10\%, trong khi khung Anh với tên lớp Việt chỉ đạt 5,44\%. Các thay đổi hỗ trợ nhận định hiệu năng phụ thuộc mạnh vào cách biểu diễn tên lớp trong các điều kiện này. Chúng chưa lượng hóa tác động riêng của tokenizer, mức quen thuộc từ vựng và bản dịch.
+Prompt Việt có dấu đạt 5,10\%, giảm 59,38 điểm phần trăm so EN. Mốc chọn đều ngẫu nhiên giữa 100 lớp là 1\%; kết quả thấp hơn EN không đồng nghĩa biểu diễn hoàn toàn không có thông tin. Dùng khung Việt với tên lớp Anh đạt 55,10\%, trong khi khung Anh với tên lớp Việt chỉ đạt 5,44\%. Các thay đổi hỗ trợ nhận định hiệu năng phụ thuộc mạnh vào cách biểu diễn tên lớp trong các điều kiện này. Chúng chưa lượng hóa tác động riêng của tokenizer, mức quen thuộc từ vựng và bản dịch.
 
 @TOKEN_TABLE@
 
@@ -262,9 +270,9 @@ Audit mới kiểm inventory/hash artifact, source ZIP và đầu vào; tính l�
 
 Các run cũ có config/protocol mặc định depth do dùng chung hàm khởi tạo; extension config/protocol thực được định danh bởi input hashes. Run mới lưu riêng study config/evaluation config, đúng protocol và source snapshot chứa các tệp này. Manifest lịch sử giữ nguyên git\_head, timestamp và checksum; source ZIP xác định code thực thi nếu Git HEAD cũ không có trên remote hiện tại.
 
-Bộ tests hiện chạy @TESTN@ tests: @TESTPASS@ đạt, @TESTERROR@ lỗi import/environment; không ghi toàn bộ tests đạt. Gói review có 100 ảnh nguồn có box A/B, 100 crop thật và hai phiếu trống cho ảnh/bản dịch. Reviewer không thấy scores hoặc quyết định AI. Chỉ sau khi nhận phiếu đầy đủ mới báo kết quả review; một reviewer không cho phép tính inter-annotator agreement. Nếu hai người cùng nhận tất cả ảnh, raw agreement là 100\% nhưng κ có thể không xác định.
+@TESTTEXT@ Gói review có 100 ảnh nguồn có box A/B, 100 crop thật và hai phiếu trống cho ảnh/bản dịch. Reviewer không thấy scores hoặc quyết định AI. Chỉ sau khi nhận phiếu đầy đủ mới báo kết quả review; một reviewer không cho phép tính inter-annotator agreement. Nếu hai người cùng nhận tất cả ảnh, raw agreement là 100\% nhưng κ có thể không xác định.
 
-Giới hạn chính gồm: một checkpoint; miền hình học; corpus COCO đã mở cho các phân tích tiếp nối; chưa biết trùng pretraining; phụ thuộc cách đặt caption/foil; nhãn và bản dịch chưa được người xác nhận; CI trên 100 nguồn còn rộng. Các phép so phụ và per-class được coi mô tả. Không suy từ $p>0,05$ sang tương đương, không suy từ hành vi sang cơ chế neuron, không suy từ một tập template sang mọi prompt.
+Giới hạn chính gồm: một checkpoint; miền hình học; corpus COCO đã mở cho các phân tích tiếp nối; chưa biết trùng pretraining; phụ thuộc cách đặt caption/foil; nhãn và bản dịch chưa được người xác nhận; CI trên 100 nguồn còn rộng. Điểm nhận dạng A/B trên nửa ảnh chưa thay thế được một control nhận dạng độc lập có foil hợp lệ trên COCO. Các phép so phụ và per-class được coi mô tả. Không suy từ $p>0,05$ sang tương đương, không suy từ hành vi sang cơ chế neuron, không suy từ một tập template sang mọi prompt.
 
 \section{Kết luận và hạng mục tiếp tục}
 Kết quả đã kiểm cho thấy nhận dạng lớp, tính nhất quán không gian và đáp ứng ngôn ngữ là các khía cạnh khác nhau. Category có thể tăng cosine của lớp thật nhưng tăng đối thủ mạnh hơn; ensemble có thể cải thiện nhỏ classification mà chưa giải quyết consistency quan hệ; chuyển tên lớp sang tiếng Việt có thể làm giảm mạnh accuracy trong checkpoint đang xét. Những nhận định này có giá trị trong phạm vi thiết kế và artifact được báo, kể cả khi không ủng hộ kỳ vọng cải thiện.
@@ -287,8 +295,8 @@ Kết quả đã kiểm cho thấy nhận dạng lớp, tính nhất quán khôn
               'TOKEN_TABLE':token_table,'RATIOMEAN':number(token['vi_diacritics']['mean_subword_tokens']/token['en_baseline']['mean_subword_tokens']),
               'MEANRATIO':number(token['vi_diacritics']['mean_ratio_vs_en_baseline']),
               'VIENS':number(vi['ensembles']['en_vi_bilingual_embedding_ensemble']['accuracy_percent']),
-              'SYNREG':number(spatial['four_way_accuracy_percent']), 'TESTN':str(tests['run']),
-              'TESTPASS':str(tests['passed']), 'TESTERROR':str(len(tests['errors']))}
+              'SYNREG':number(spatial['four_way_accuracy_percent']), 'SYNTRACE':synthetic_trace, 'TESTN':str(tests['run']),
+              'TESTPASS':str(tests['passed']), 'TESTERROR':str(len(tests['errors'])),'TESTTEXT':test_text}
     for key,value in replaces.items():body=body.replace('@'+key+'@',value)
     if '@' in body.replace('@{}',''):raise ValueError('Unresolved report placeholder')
     tex=OUT/'bao_cao_nghien_cuu.tex';tex.write_text(body,encoding='utf-8')
