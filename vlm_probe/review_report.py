@@ -2,7 +2,7 @@
 import csv
 from pathlib import Path
 
-from .depth.common import ROOT, read_json
+from .depth.common import ROOT, read_json, write_csv
 from .extension_artifacts import REVIEW, verify_manifest
 from .io_utils import sha256, write_json
 
@@ -34,6 +34,9 @@ def run():
         audits[name]=read(f'results/review_hieu_v2/{name}/audit.json')
     for name in ['full_prompt_cifar100_v1','full_vietnamese_cifar100_v1','full_spatial_mitigation_v1']:
         if not audits[name]['metrics_recomputed']:raise ValueError('Report requires numerical audit')
+        if audits[name]['manifest_sha256'] != sha256(ROOT/f'results/{name}/manifest.json'):raise ValueError('Stale audit')
+        for filename,h in audits[name]['derived_sha256'].items():
+            if sha256(REVIEW/name/filename)!=h:raise ValueError('Changed audit derivative')
     prompt=read('results/full_prompt_cifar100_v1/metrics.json')
     vi=read('results/full_vietnamese_cifar100_v1/metrics.json')
     natural=read('results/full_natural_confirmation_v1/metrics.json')['t2_o0']
@@ -43,6 +46,8 @@ def run():
     execution=read('results/integration_v2/execution_status.json')
     execution.setdefault('status','running')
     tests=read('results/integration_v2/tests.json')
+    read('results/integration_v2/historical_audits.json')
+    read('results/full_depth_category_v1/metrics.json')
     core=read('results/full_probing_clip_b32_v1/metrics.json')
     datasets=[('cifar100','CIFAR-100','full_cifar100_clip_b32_v1'),
               ('flowers102','Flowers102','full_flowers102_clip_b32_v2'),
@@ -64,9 +69,9 @@ def run():
             with (ROOT/f'results/{name}/predictions.csv').open(encoding='utf-8') as f:rows=list(csv.DictReader(f))
             inputs.add(ROOT/f'results/{name}/predictions.csv')
             base_acc.append(100*sum(int(r['target_id'])==int(r['prediction_id']) for r in rows)/len(rows))
-    base_table=table(['Dataset','Lớp','Ảnh test','Top-1 (\%)'],
+    base_table=table(['Dataset','Lớp','Ảnh test',r'Top-1 (\%)'],
         [(label,c,n,number(a)) for (_,label,_),c,n,a in zip(datasets,classcounts,sizes,base_acc)],'lrrr','Baseline zero-shot trên split test gốc.')
-    core_table=table(['Core probe','Accuracy (\%)','Nhận dạng control (\%)','Giới hạn chính'],
+    core_table=table(['Core probe',r'Accuracy (\%)',r'Nhận dạng control (\%)','Giới hạn chính'],
         [(label,number(core[k]['accuracy_percent']),number(100*core[k]['control_accuracy']) if 'control_accuracy' in core[k] else '---',limit)
          for k,label,limit in [('counting','Counting (6-way)','Hình học; còn lỗi nhận dạng'),
             ('spatial','Spatial (4-way)','Nhạy với cấu trúc/cảnh'),('negation','Negation (2-way)','Hình học đơn giản'),
@@ -79,24 +84,38 @@ def run():
     for k,v in vi['single_templates'].items():
         vi_rows.append((esc(k),number(v['accuracy_percent']),number(v['delta_vs_baseline_pp']),interval(v['delta_vs_baseline_ci95_pp'])))
     vi_table=table(['Ngôn ngữ',r'Top-1 (\%)',r'$\Delta$ so EN',r'CI 95\% của $\Delta$'],vi_rows,'lrrl','So sánh ngôn ngữ trên cùng 10.000 ảnh CIFAR-100.')
-    multidomain=[];finished=0
+    multidomain=[];domain_values=[];finished=0
     for (ds,label,_),acc in zip(datasets,base_acc):
         name='full_prompt_cifar100_v1' if ds=='cifar100' else f'full_prompt_{ds}_review_v2'
         p=ROOT/'results'/name
         if (p/'manifest.json').exists() and (REVIEW/name/'audit.json').exists():
             a=read(f'results/review_hieu_v2/{name}/audit.json')
             if not a['metrics_recomputed']:raise ValueError('Unreviewed prompt result')
+            verify_manifest(p)
+            if a['manifest_sha256'] != sha256(p/'manifest.json'):raise ValueError('Stale prompt audit')
             met=read(f'results/{name}/metrics.json');e=met['ensembles']['text_embedding_ensemble']
-            multidomain.append((label,number(acc),number(e['accuracy_percent']),interval(e['delta_vs_baseline_ci95_pp']),'Đã audit'));finished+=1
+            diag=read(f'results/review_hieu_v2/{name}/diagnostics.json')
+            if sha256(REVIEW/name/'diagnostics.json')!=a['derived_sha256']['diagnostics.json']:raise ValueError('Changed diagnostics')
+            multidomain.append((label,number(acc)+' / '+number(diag['T0_baseline']['macro_accuracy_percent']),
+                number(e['accuracy_percent'])+' / '+number(diag['text_embedding_ensemble']['macro_accuracy_percent']),
+                interval(e['delta_vs_baseline_ci95_pp']),'Đã audit'));finished+=1
+            domain_values.append({'dataset':ds,'n':met['evaluated_samples'],'baseline_top1':acc,
+                'baseline_macro':diag['T0_baseline']['macro_accuracy_percent'],
+                'ensemble_top1':e['accuracy_percent'],'ensemble_macro':diag['text_embedding_ensemble']['macro_accuracy_percent'],
+                'delta_pp':e['delta_vs_baseline_pp'],'delta_ci_low':e['delta_vs_baseline_ci95_pp'][0],
+                'delta_ci_high':e['delta_vs_baseline_ci95_pp'][1]})
         else:multidomain.append((label,number(acc),'---','---','Chưa chạy'))
-    domain_table=table(['Dataset','Baseline','Emb. ens.',r'CI của $\Delta$','Trạng thái'],multidomain,'lrrll','Embedding ensemble đa miền; accuracy và chênh lệch tính bằng phần trăm/điểm phần trăm.')
-    regional=[];natural_finished=0
+    domain_table=table(['Dataset','Base T / M','Ens. T / M',r'CI của $\Delta$','Trạng thái'],multidomain,'lrrll','Embedding ensemble đa miền: T là top-1, M là macro theo lớp, đơn vị phần trăm; CI cho delta top-1 (điểm phần trăm).')
+    regional=[];natural_details=[];natural_finished=0
     for ds,label in [('exploratory','COCO 200 nguồn'),('confirmation','COCO 100 nguồn')]:
         name=f'full_natural_regions_{ds}_review_v2'
         if (REVIEW/name/'audit.json').exists():
             a=read(f'results/review_hieu_v2/{name}/audit.json')
             if not a['metrics_recomputed']:raise ValueError('Unaudited natural region result')
-            m=read(f'results/{name}/metrics.json');regional.append((label,str(m['primary_choices']),number(m['primary_accuracy_percent'])+' '+interval(m['primary_ci95_percent']),number(m['paired_delta_pp'])+' '+interval(m['paired_delta_ci95_pp'])));natural_finished+=1
+            m=read(f'results/{name}/metrics.json');regional.append((label+' gốc',str(m['primary_choices']),number(m['primary_accuracy_percent'])+' '+interval(m['primary_ci95_percent']),number(m['paired_delta_pp'])+' '+interval(m['paired_delta_ci95_pp'])));natural_finished+=1
+            sec=m['secondary_padded_half']
+            regional.append((label+' pad',str(sec['primary_choices']),number(sec['primary_accuracy_percent'])+' '+interval(sec['primary_ci95_percent']),number(sec['paired_delta_pp'])+' '+interval(sec['paired_delta_ci95_pp'])))
+            natural_details.append(label+': holistic '+number(m['holistic_accuracy_percent'])+r'\%; cả hai ảnh đúng '+number(m['both_images_correct_percent'])+r'\% ở cách gốc và '+number(sec['both_images_correct_percent'])+r'\% ở padding, so '+number(m['holistic_both_images_correct_percent'])+r'\% holistic.')
         else:regional.append((label,'4' if ds=='exploratory' else '2','Chưa chạy','---'))
     region_table=table(['Bộ ảnh','Lựa chọn',r'Chia vùng (\%), CI',r'$\Delta$ so holistic, CI'],regional,'llll','Chia vùng COCO và CI bootstrap theo source; delta paired cùng ảnh.')
     psr_rows=[]
@@ -112,8 +131,28 @@ def run():
     oldclean=number(sensitivity['old_four_way_original']['reviewed']['accuracy_percent'])
     available=f'Đã có {finished}/5 bộ dữ liệu với kết quả prompt được audit; {natural_finished}/2 bộ COCO có kết quả chia vùng mới.'
     status=('Các thí nghiệm bổ sung đang chờ khôi phục môi trường: Windows Application Control chặn PyTorch (WinError 4551).'
-            if execution['status']=='blocked_environment' else 'Trạng thái thực thi được ghi trong execution\_status.json.')
+            if execution['status']=='blocked_environment' else r'Trạng thái thực thi được ghi trong execution\_status.json.')
     completed=finished==5 and natural_finished==2
+    domain_text=('Các CI trong bảng là CI riêng từng dataset, chưa hiệu chỉnh familywise. Không cộng tất cả ảnh các miền thành một phép so độc lập. '+
+        ' '.join(label+': '+number(v['delta_pp'])+' điểm phần trăm, CI '+interval([v['delta_ci_low'],v['delta_ci_high']])+'.'
+                 for v in domain_values for ds,label,_ in datasets if ds==v['dataset']))
+    region_text=(' '.join(natural_details)+' Nửa ảnh chữ nhật qua preprocessing chuẩn sẽ bị center crop thêm. '
+        'Control padding đặt nửa ảnh giữa canvas vuông với nền gần mean checkpoint, được cố định trước inference COCO. '
+        'Đây là điều kiện phụ; không thay primary sau khi xem kết quả. Padding cũng thay nền và kích thước tương đối.')
+    probing_name='full_prompt_probing_review_v2'
+    probing_text=('Run counting/negation cũ thiếu scores nên giữ nguyên và chạy lại thành run mới. ')
+    if (REVIEW/probing_name/'audit.json').exists():
+        a=read(f'results/review_hieu_v2/{probing_name}/audit.json')
+        if not a['metrics_recomputed']:raise ValueError('Probe audit required')
+        met=read(f'results/{probing_name}/metrics.json');old=read('results/full_prompt_probing_v1/metrics.json')
+        from .extension_artifacts import close_enough
+        close_enough(met,old,'probe_reproduction')
+        probing_text+='Run mới lưu đủ scores, caption, nhãn và dự đoán; metrics và CI khớp run cũ. '
+        for key,label in [('counting','Counting'),('negation','Negation')]:
+            v=met[key];probing_text+=label+': single dao động '+number(v['worst_single_accuracy_percent'])+'--'+number(v['best_single_accuracy_percent'])+r'\%; embedding ensemble '+number(v['ensembles']['text_embedding_ensemble']['accuracy_percent'])+r'\%. '
+        probing_text+='Ensemble không mặc nhiên tốt hơn baseline. '
+    else:probing_text+='Run mới chưa xong nên không dùng các CI tổng hợp cũ như bằng chứng đã tái kiểm. '
+    probing_text+='Các bộ ảnh này đã mở; phân tích tiếp nối không biến chúng thành holdout mới.'
     final_status=('Các run bổ sung đã hoàn thành và được audit; ảnh và bản dịch vẫn chờ reviewer người.' if completed else status)
     followup=('Đã hoàn thành ma trận prompt năm miền và hai phép chia vùng COCO theo giao thức; còn nhận review nhãn/bản dịch, phân xử và cập nhật phân tích độ nhạy nếu có. '
               'Kết quả đi ngược kỳ vọng được giữ trong báo cáo. Tích hợp code qua review và lưu checklist tái lập.' if completed else
@@ -123,7 +162,7 @@ def run():
     body=r'''\documentclass[11pt,a4paper]{article}
 \usepackage[margin=18mm,top=16mm,bottom=16mm]{geometry}
 \usepackage{fontspec,amsmath,booktabs,graphicx,titlesec,caption}
-\setmainfont{Times New Roman}
+\IfFontExistsTF{Times New Roman}{\setmainfont{Times New Roman}}{\setmainfont{TeX Gyre Termes}}
 \usepackage[unicode,hidelinks]{hyperref}
 \renewcommand{\tablename}{Bảng}\renewcommand{\refname}{Tài liệu tham khảo}
 \titleformat{\section}{\normalsize\bfseries}{\thesection.}{0.5em}{}
@@ -181,9 +220,9 @@ Không single template mới nào vượt T0 trong bộ này. Embedding ensemble
 
 @DOMAIN_TABLE@
 
-Các ô chưa chạy không có ước lượng. Giao thức tiếp nối giữ nguyên bộ bảy template khi mở bốn dataset còn lại, không điều chỉnh theo CIFAR. Riêng DTD, T0 giữ suffix texture; T4 dùng đúng một cụm mô tả texture. Bộ N4/D4 là một phương án khác trong kế hoạch và chưa được tính vào kết quả này.
+Giao thức tiếp nối giữ nguyên bộ bảy template khi mở bốn dataset còn lại, không điều chỉnh theo CIFAR. Riêng DTD, T0 giữ suffix texture; T4 dùng đúng một cụm mô tả texture. Bộ N4/D4 là một phương án khác và chưa được tính vào kết quả này. @DOMAIN_TEXT@
 
-Run counting/negation nhiều template trên nhánh hieu chỉ lưu metrics tổng hợp. Checksum xác nhận file nguyên vẹn nhưng chưa đủ tính lại từ scores; báo cáo này không dùng các CI mới đó như bằng chứng đã tái kiểm. Pipeline sửa đã chuẩn bị run mới để lưu toàn bộ caption, nhãn, scores và dự đoán. Phân tích offline trên scores core/depth hiện có là phân tích tiếp nối; nhóm không biến các bộ ảnh đã mở thành holdout chưa xem.
+@PROBING_TEXT@
 
 \newpage
 \section{Độ nhất quán không gian và phương pháp chia vùng}
@@ -198,6 +237,8 @@ Sau tự rà soát nhãn cũ, giữ 176/200 nguồn và accuracy 4-way là @OLDC
 Phương pháp chia vùng dùng bốn nửa ảnh và prompt nhận dạng A/B. Điểm trái là $h=(s_L(A)-s_R(A))-(s_L(B)-s_R(B))$, điểm phải là $-h$; trên/dưới tương tự. Pipeline có cấu trúc vùng khác holistic CLIP. Run hình học đã lưu đạt @SYNREG@\% trên 1.440 ảnh, nhưng chưa lưu scores từng vùng; audit chỉ tính lại từ relational scores cuối. CI bootstrap [100;100] trên bộ này không loại trừ sai số ngoài phân phối.
 
 @REGION_TABLE@
+
+@REGION_TEXT@
 
 Mô phỏng dựa trên bbox COCO trước đây không phải accuracy thực đo của CLIP chia vùng và không bảo đảm là trần của mọi phương pháp. Giao thức run mới crop cùng vùng nhìn baseline trước khi chia nửa, lưu cả scores vùng, so cùng ảnh với T2 holistic và bootstrap theo nguồn. Hai bộ COCO đều đã mở, nên kết quả phương pháp mới sẽ là nghiên cứu tiếp nối.
 
@@ -241,7 +282,8 @@ Kết quả đã kiểm cho thấy nhận dạng lớp, tính nhất quán khôn
 '''
     replaces={'NCI':nci,'NACC':number(natural['accuracy_percent']),'NP':npval,'NBOTH':number(natural['both_images_correct_percent']),
               'OLDCLEAN':oldclean,'AVAILABLE':available,'STATUS':final_status,'BASE_TABLE':base_table,'CORE_TABLE':core_table,'PROMPT_TABLE':prompt_table,'FOLLOWUP':followup,
-              'DOMAIN_TABLE':domain_table,'REGION_TABLE':region_table,'PSR_TABLE':psr_table,'VI_TABLE':vi_table,
+              'DOMAIN_TABLE':domain_table,'DOMAIN_TEXT':domain_text,'PROBING_TEXT':probing_text,
+              'REGION_TABLE':region_table,'REGION_TEXT':region_text,'PSR_TABLE':psr_table,'VI_TABLE':vi_table,
               'TOKEN_TABLE':token_table,'RATIOMEAN':number(token['vi_diacritics']['mean_subword_tokens']/token['en_baseline']['mean_subword_tokens']),
               'MEANRATIO':number(token['vi_diacritics']['mean_ratio_vs_en_baseline']),
               'VIENS':number(vi['ensembles']['en_vi_bilingual_embedding_ensemble']['accuracy_percent']),
@@ -250,6 +292,7 @@ Kết quả đã kiểm cho thấy nhận dạng lớp, tính nhất quán khôn
     for key,value in replaces.items():body=body.replace('@'+key+'@',value)
     if '@' in body.replace('@{}',''):raise ValueError('Unresolved report placeholder')
     tex=OUT/'bao_cao_nghien_cuu.tex';tex.write_text(body,encoding='utf-8')
+    if domain_values:write_csv(OUT/'multidomain_summary.csv',domain_values)
     inputs.update([PROTOCOL_FILE for PROTOCOL_FILE in [ROOT/'docs/integration_protocol_v2.md',Path(__file__)]])
     write_json(OUT/'sources.json', {'input_sha256':{p.relative_to(ROOT).as_posix():sha256(p) for p in sorted(inputs)},
         'tex_sha256':sha256(tex),'prompt_datasets_audited':finished,'natural_region_sets_audited':natural_finished,

@@ -89,14 +89,18 @@ def verify_manifest(directory):
     if files != set(m['artifact_sha256']): raise ValueError('Artifact inventory differs')
     for name, h in m['artifact_sha256'].items():
         if sha256(directory / name) != h: raise ValueError(f'Artifact hash: {name}')
-    for name, h in m.get('input_sha256', {}).items():
-        if sha256(ROOT / name) != h: raise ValueError(f'Input hash: {name}')
     snap = m['source_snapshot']
     if sha256(ROOT / snap['path']) != snap['sha256']: raise ValueError('Snapshot hash')
     with zipfile.ZipFile(ROOT / snap['path']) as z:
         if set(z.namelist()) != set(m['source_sha256']): raise ValueError('Snapshot inventory')
         for name, h in m['source_sha256'].items():
             if hashlib.sha256(z.read(name)).hexdigest() != h: raise ValueError('Archived source hash')
+        for name, h in m.get('input_sha256', {}).items():
+            # A later amendment may change the working protocol. Audit the bytes
+            # actually frozen with this run; data not archived must still match.
+            if name in z.namelist():
+                if hashlib.sha256(z.read(name)).hexdigest() != h: raise ValueError(f'Archived input hash: {name}')
+            elif sha256(ROOT / name) != h: raise ValueError(f'Input hash: {name}')
     return m
 
 
@@ -124,7 +128,10 @@ def audit_classification(directory, manifest, output):
     from .prompt_study.design import load_study_config, build_dataset_templates
     run = load_study_config()['datasets'][dataset]['baseline_run']
     base = baseline_rows(run)
-    n = manifest['evaluated_samples']; base = base[:n]
+    n = manifest['evaluated_samples']
+    expected_n = min(200, len(base)) if manifest['mode'] == 'smoke' else len(base)
+    if n != expected_n: raise ValueError('Wrong sample count for full/smoke mode')
+    base = base[:n]
     samples = [{'sample_id': r['sample_id'], 'target_id': int(r['target_id'])} for r in base]
     classes_raw = read_json(ROOT / run / 'classes.json')
     classes = [r['dataset_name'] if isinstance(r, dict) else r for r in classes_raw]
@@ -232,7 +239,10 @@ def audit_run(name):
                 rows = read_json(directory / f'{task}_samples.json')
                 frozen = read_json(ROOT / 'results/full_probing_clip_b32_v1/samples.json')
                 expected = [r for r in frozen if r['task'] == task and
-                            (task == 'counting' or r['condition'] == 'with_without')][:len(rows)]
+                            (task == 'counting' or r['condition'] == 'with_without')]
+                expected_n = min(60,len(expected)) if manifest['mode']=='smoke' else len(expected)
+                if len(rows) != expected_n: raise ValueError('Wrong probing sample count')
+                expected = expected[:expected_n]
                 close_enough(rows, expected, 'probe_samples')
                 from .prompt_study.design import build_counting_prompts, build_negation_prompts
                 templates = [(build_counting_prompts(r['color'], r['shape'], cfg) if task == 'counting' else

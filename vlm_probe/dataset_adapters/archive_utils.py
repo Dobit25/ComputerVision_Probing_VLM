@@ -23,7 +23,9 @@ def verify_members(archive_path, extraction_root, paths):
         raise ValueError("Duplicate paths in dataset input.")
     actual = {}
     print(f"Checking {len(paths)} extracted files against {archive_path.name}...", flush=True)
-    with tarfile.open(archive_path, "r:gz") as archive:
+    # Stream the archive first, then read extracted files in filename order.
+    # Alternating archive and image reads causes excessive seeks on slower disks.
+    with tarfile.open(archive_path, "r|gz") as archive:
         for member in archive:
             name = member.name.removeprefix("./")
             if name not in expected:
@@ -32,11 +34,16 @@ def verify_members(archive_path, extraction_root, paths):
                 raise ValueError(f"Invalid archive entry: {name}")
             with archive.extractfile(member) as stream:
                 digest = hashlib.file_digest(stream, "sha256").hexdigest()
-            if sha256(expected[name]) != digest:
-                raise ValueError(f"Extracted file differs from verified archive: {name}")
             actual[name] = digest
+            if len(actual) % 5000 == 0:
+                print(f"Archive members hashed: {len(actual)}/{len(expected)}", flush=True)
     if set(expected) != set(actual):
         raise ValueError("Missing dataset files in archive.")
+    for i, name in enumerate(sorted(expected), 1):
+        if sha256(expected[name]) != actual[name]:
+            raise ValueError(f"Extracted file differs from verified archive: {name}")
+        if i % 5000 == 0:
+            print(f"Extracted files verified: {i}/{len(expected)}", flush=True)
     canonical = "".join(f"{name}\t{actual[name]}\n" for name in sorted(actual))
     return hashlib.sha256(canonical.encode()).hexdigest()
 

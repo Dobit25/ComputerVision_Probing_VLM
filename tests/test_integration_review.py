@@ -4,6 +4,7 @@ import json
 import tempfile
 import unittest
 import zipfile
+import tarfile
 from pathlib import Path
 from unittest.mock import patch
 
@@ -11,9 +12,10 @@ import numpy as np
 
 from vlm_probe.extension_artifacts import prediction_tables, verify_manifest
 from vlm_probe.prompt_study.design import build_dataset_templates
-from vlm_probe.spatial_diagnostics.natural_regions import summarize, baseline_canvas
+from vlm_probe.spatial_diagnostics.natural_regions import summarize, baseline_canvas, pad_half
 from vlm_probe.human_review import validate, META
 from PIL import Image
+from vlm_probe.dataset_adapters.archive_utils import verify_members
 
 
 class IntegrationReviewTests(unittest.TestCase):
@@ -49,6 +51,11 @@ class IntegrationReviewTests(unittest.TestCase):
         self.assertEqual(crop.size,(224,224))
         self.assertEqual(crop.getpixel((0,100)),(0,0,255))
         self.assertEqual(crop.getpixel((223,100)),(0,0,255))
+        padded=pad_half(Image.new('RGB',(112,224),(0,0,255)))
+        self.assertEqual(padded.getpixel((0,100)),(123,117,104))
+        self.assertEqual(padded.getpixel((56,100)),(0,0,255))
+        self.assertEqual(padded.getpixel((167,100)),(0,0,255))
+        self.assertEqual(padded.getpixel((168,100)),(123,117,104))
 
     def test_macro_and_image_transition_counts_are_distinct(self):
         samples=[{'sample_id':str(i),'target_id':y} for i,y in enumerate([0,0,0,1])]
@@ -80,6 +87,18 @@ class IntegrationReviewTests(unittest.TestCase):
 
     def test_blank_translation_review_cannot_be_marked_complete(self):
         with self.assertRaises(ValueError):validate(META/'vietnamese_100_blank.csv','translations')
+
+    def test_streaming_archive_verification_preserves_digest_and_rejects_tampering(self):
+        with tempfile.TemporaryDirectory() as tmp:
+            root=Path(tmp);a=root/'a.txt';b=root/'b.txt';a.write_bytes(b'aaa');b.write_bytes(b'bbb')
+            archive=root/'original.tar.gz'
+            with tarfile.open(archive,'w:gz') as t:
+                t.add(b,arcname='b.txt');t.add(a,arcname='a.txt')
+            digest=verify_members(archive,root,[a,b])
+            canonical=''.join(f'{p.name}\t{hashlib.sha256(p.read_bytes()).hexdigest()}\n' for p in [a,b])
+            self.assertEqual(digest,hashlib.sha256(canonical.encode()).hexdigest())
+            a.write_bytes(b'changed')
+            with self.assertRaises(ValueError):verify_members(archive,root,[a,b])
 
 
 if __name__=='__main__':unittest.main()

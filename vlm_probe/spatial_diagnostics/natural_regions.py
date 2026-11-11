@@ -147,7 +147,10 @@ def run(set_name, smoke=False, run_name=None):
 def audit(directory):
     cfg = read_json(directory / 'study_config.json'); m = read_json(directory / 'manifest.json')
     entry = cfg['sets'][m['set_name']]
-    rows = make_images(read_json(ROOT / entry['selection'])[:m['num_sources']])
+    selection = read_json(ROOT / entry['selection'])
+    expected_n = min(8,len(selection)) if m['mode']=='smoke' else len(selection)
+    if m['num_sources'] != expected_n: raise ValueError('Wrong natural full/smoke source count')
+    rows = make_images(selection[:m['num_sources']])
     close_enough(read_json(directory / 'samples.json'), rows)
     with np.load(directory / 'scores.npz', allow_pickle=False) as z:
         regional, relational, base = z['regions'], z['relational'], z['holistic']

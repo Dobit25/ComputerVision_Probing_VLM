@@ -55,9 +55,10 @@ def build_synthesis_markdown(blinded, spatial_psr, spatial_geom, prompt_ens, bpe
     geom_conf = spatial_geom["natural_confirmation_100"]
 
     lines = [
-        "# Báo Cáo Tổng Hợp Chẩn Đoán Cơ Chế, Độ Nhạy Prompt & Phân Mảnh BPE Tiếng Việt (`synthesis_v1`)",
+        "# Báo cáo tổng hợp hành vi điểm số, prompt và tiếng Việt (`synthesis_v1`, đã review)",
         "",
         "Tài liệu này được sinh tự động và tất định bởi `python -m vlm_probe.synthesis` từ các artifact trong `results/`.",
+        "Bản hiện hành đầy đủ hơn nằm ở `reports/research_review_v2/`. Mẫu review được xuất không đồng nghĩa người đã chấm. Giao thức v1 được giữ như hồ sơ lịch sử; sửa đổi hiện hành ở `docs/integration_protocol_v2.md`.",
         "",
         "---",
         "",
@@ -86,7 +87,7 @@ def build_synthesis_markdown(blinded, spatial_psr, spatial_geom, prompt_ens, bpe
         "",
         "### 2.2. Kết quả Thực nghiệm GPU & Giới hạn hình học của Half-Canvas Zero-Shot Mitigation (`P2.2/P2.3`)",
         "",
-        "| Tập dữ liệu | Số nguồn ảnh | Tỷ lệ 2 vật thể nằm khác phía đường chia tâm | Giới hạn hình học lý tưởng | Kết quả CLIP `ViT-B/32` Holistic (Baseline) | Kết quả CLIP `ViT-B/32` Half-Canvas (`full_spatial_mitigation_v1`) |",
+        "| Tập dữ liệu | Số nguồn ảnh | Tỷ lệ 2 vật thể khác phía tâm | Mô phỏng từ bbox | Holistic tham chiếu | Half-Canvas thực đo |",
         "| --- | ---: | ---: | ---: | ---: | ---: |",
     ]
 
@@ -96,9 +97,9 @@ def build_synthesis_markdown(blinded, spatial_psr, spatial_geom, prompt_ens, bpe
         else "Chưa chạy"
     )
     lines.extend([
-        f"| **Synthetic Depth (`1.440` ảnh)** | `{geom_syn['n_images']}` | **`{geom_syn['straddles_midline_rate_percent']:.2f}%`** | **`{geom_syn['four_way_accuracy_percent']:.2f}%`** | `25.49%` (`0.00%` 4-relation) | {mit_str} |",
-        f"| **COCO Exploratory (`200` nguồn)** | `{geom_exp['n_sources']}` | `{geom_exp['objects_straddle_image_midline_percent']:.2f}%` | `{geom_exp['ideal_half_canvas_four_way_accuracy_percent']:.2f}%` (`13.50%` cùng nửa) | `28.50%` | Giới hạn trần `92.50%` |",
-        f"| **COCO Confirmation (`100` nguồn ngang)** | `{geom_conf['n_sources']}` | `{geom_conf['objects_straddle_image_midline_percent']:.2f}%` | `{geom_conf['ideal_half_canvas_horizontal_two_way_accuracy_percent']:.2f}%` (2-way, `7.00%` cùng nửa) | `49.00%` (`4.00%` both correct) | Giới hạn trần `93.00%`–`99.00%` |",
+        f"| **Synthetic Depth (`1.440` ảnh)** | `{geom_syn['n_images']}` | `{geom_syn['straddles_midline_rate_percent']:.2f}%` | `{geom_syn['four_way_accuracy_percent']:.2f}%` | T0 thuận: `27.36%` (4-way) | {mit_str} |",
+        f"| **COCO Exploratory (`200` nguồn)** | `{geom_exp['n_sources']}` | `{geom_exp['objects_straddle_image_midline_percent']:.2f}%` | `{geom_exp['ideal_half_canvas_four_way_accuracy_percent']:.2f}%` | T2 gốc: `28.00%` (4-way) | Xem run COCO review v2; không dùng bbox làm accuracy CLIP |",
+        f"| **COCO Confirmation (`100` nguồn ngang)** | `{geom_conf['n_sources']}` | `{geom_conf['objects_straddle_image_midline_percent']:.2f}%` | `{geom_conf['ideal_half_canvas_horizontal_two_way_accuracy_percent']:.2f}%` (2-way) | T2 gốc+lật: `51.50%` (2-way) | Xem run COCO review v2; không dùng bbox làm accuracy CLIP |",
         "",
         "---",
         "",
@@ -150,7 +151,7 @@ def build_synthesis_markdown(blinded, spatial_psr, spatial_geom, prompt_ens, bpe
     lines.extend([
         "### 3.3. Phân tích cơ chế cân bằng thiên kiến Present vs Absent trên Negation (`with_without` + `contains_does_not`)",
         "",
-        "| Điều kiện / Ensemble | Accuracy tổng (`720` cảnh) | Present (`360` cảnh) | Absent (`360` cảnh) | Chênh lệch `Present - Absent` | Group Consistency (`180` nhóm) |",
+        "| Điều kiện / Ensemble | Accuracy tổng (`720` ảnh) | Present (`360` ảnh) | Absent (`360` ảnh) | Chênh lệch `Present - Absent` | Group Consistency (`360` nhóm) |",
         "| --- | ---: | ---: | ---: | ---: | ---: |",
         f"| **`with_without` (Single tốt nhất)** | `{neg_mech['with_without']['overall_accuracy_percent']:.2f}%` | `{neg_mech['with_without']['present_accuracy_percent']:.2f}%` | `{neg_mech['with_without']['absent_accuracy_percent']:.2f}%` | `{neg_mech['with_without']['present_minus_absent_gap_pp']:+.2f}` pp | `{neg_mech['with_without']['scene_pair_group_consistency_percent']:.2f}%` |",
         f"| **`contains_does_not` (Single thứ hai)** | `{neg_mech['contains_does_not']['overall_accuracy_percent']:.2f}%` | `{neg_mech['contains_does_not']['present_accuracy_percent']:.2f}%` | `{neg_mech['contains_does_not']['absent_accuracy_percent']:.2f}%` | `{neg_mech['contains_does_not']['present_minus_absent_gap_pp']:+.2f}` pp | `{neg_mech['contains_does_not']['scene_pair_group_consistency_percent']:.2f}%` |",
