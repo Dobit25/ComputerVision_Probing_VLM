@@ -1,0 +1,30 @@
+{
+  "torchvision": "0.29.1+cu126",
+  "cases": [
+    {
+      "width": 641,
+      "height": 427,
+      "pixel_identical": true
+    },
+    {
+      "width": 427,
+      "height": 641,
+      "pixel_identical": true
+    },
+    {
+      "width": 448,
+      "height": 224,
+      "pixel_identical": true
+    },
+    {
+      "width": 224,
+      "height": 224,
+      "pixel_identical": true
+    },
+    {
+      "width": 319,
+      "height": 240,
+      "pixel_identical": true
+    }
+  ]
+}

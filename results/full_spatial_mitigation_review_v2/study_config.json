@@ -1,0 +1,16 @@
+{
+  "protocol_version": "spatial_diagnostics_v1",
+  "model_config": "configs/clip_b32_cifar100.json",
+  "bootstrap_draws": 2000,
+  "bootstrap_seed": 1402,
+  "frozen_runs": {
+    "synthetic_depth": "results/full_depth_spatial_v1",
+    "natural_exploratory": "results/full_depth_natural_v1",
+    "natural_confirmation": "results/full_natural_confirmation_v1"
+  },
+  "mitigation": {
+    "crop_mode": "half_canvas",
+    "single_object_template": "a {medium} of {object}.",
+    "smoke_groups": 3
+  }
+}

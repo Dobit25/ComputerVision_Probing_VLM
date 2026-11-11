@@ -1,0 +1,2522 @@
+[
+  {
+    "C0_baseline": [
+      "a drawing of one red circle.",
+      "a drawing of two red circles.",
+      "a drawing of three red circles.",
+      "a drawing of four red circles.",
+      "a drawing of five red circles.",
+      "a drawing of six red circles."
+    ],
+    "C1_showing": [
+      "an image showing one red circle.",
+      "an image showing two red circles.",
+      "an image showing three red circles.",
+      "an image showing four red circles.",
+      "an image showing five red circles.",
+      "an image showing six red circles."
+    ],
+    "C2_there_are": [
+      "there are one red circle in this drawing.",
+      "there are two red circles in this drawing.",
+      "there are three red circles in this drawing.",
+      "there are four red circles in this drawing.",
+      "there are five red circles in this drawing.",
+      "there are six red circles in this drawing."
+    ],
+    "C3_minimal": [
+      "one red circle.",
+      "two red circles.",
+      "three red circles.",
+      "four red circles.",
+      "five red circles.",
+      "six red circles."
+    ],
+    "C4_exactly": [
+      "a picture with exactly one red circle.",
+      "a picture with exactly two red circles.",
+      "a picture with exactly three red circles.",
+      "a picture with exactly four red circles.",
+      "a picture with exactly five red circles.",
+      "a picture with exactly six red circles."
+    ]
+  },
+  {
+    "C0_baseline": [
+      "a drawing of one red circle.",
+      "a drawing of two red circles.",
+      "a drawing of three red circles.",
+      "a drawing of four red circles.",
+      "a drawing of five red circles.",
+      "a drawing of six red circles."
+    ],
+    "C1_showing": [
+      "an image showing one red circle.",
+      "an image showing two red circles.",
+      "an image showing three red circles.",
+      "an image showing four red circles.",
+      "an image showing five red circles.",
+      "an image showing six red circles."
+    ],
+    "C2_there_are": [
+      "there are one red circle in this drawing.",
+      "there are two red circles in this drawing.",
+      "there are three red circles in this drawing.",
+      "there are four red circles in this drawing.",
+      "there are five red circles in this drawing.",
+      "there are six red circles in this drawing."
+    ],
+    "C3_minimal": [
+      "one red circle.",
+      "two red circles.",
+      "three red circles.",
+      "four red circles.",
+      "five red circles.",
+      "six red circles."
+    ],
+    "C4_exactly": [
+      "a picture with exactly one red circle.",
+      "a picture with exactly two red circles.",
+      "a picture with exactly three red circles.",
+      "a picture with exactly four red circles.",
+      "a picture with exactly five red circles.",
+      "a picture with exactly six red circles."
+    ]
+  },
+  {
+    "C0_baseline": [
+      "a drawing of one red circle.",
+      "a drawing of two red circles.",
+      "a drawing of three red circles.",
+      "a drawing of four red circles.",
+      "a drawing of five red circles.",
+      "a drawing of six red circles."
+    ],
+    "C1_showing": [
+      "an image showing one red circle.",
+      "an image showing two red circles.",
+      "an image showing three red circles.",
+      "an image showing four red circles.",
+      "an image showing five red circles.",
+      "an image showing six red circles."
+    ],
+    "C2_there_are": [
+      "there are one red circle in this drawing.",
+      "there are two red circles in this drawing.",
+      "there are three red circles in this drawing.",
+      "there are four red circles in this drawing.",
+      "there are five red circles in this drawing.",
+      "there are six red circles in this drawing."
+    ],
+    "C3_minimal": [
+      "one red circle.",
+      "two red circles.",
+      "three red circles.",
+      "four red circles.",
+      "five red circles.",
+      "six red circles."
+    ],
+    "C4_exactly": [
+      "a picture with exactly one red circle.",
+      "a picture with exactly two red circles.",
+      "a picture with exactly three red circles.",
+      "a picture with exactly four red circles.",
+      "a picture with exactly five red circles.",
+      "a picture with exactly six red circles."
+    ]
+  },
+  {
+    "C0_baseline": [
+      "a drawing of one red circle.",
+      "a drawing of two red circles.",
+      "a drawing of three red circles.",
+      "a drawing of four red circles.",
+      "a drawing of five red circles.",
+      "a drawing of six red circles."
+    ],
+    "C1_showing": [
+      "an image showing one red circle.",
+      "an image showing two red circles.",
+      "an image showing three red circles.",
+      "an image showing four red circles.",
+      "an image showing five red circles.",
+      "an image showing six red circles."
+    ],
+    "C2_there_are": [
+      "there are one red circle in this drawing.",
+      "there are two red circles in this drawing.",
+      "there are three red circles in this drawing.",
+      "there are four red circles in this drawing.",
+      "there are five red circles in this drawing.",
+      "there are six red circles in this drawing."
+    ],
+    "C3_minimal": [
+      "one red circle.",
+      "two red circles.",
+      "three red circles.",
+      "four red circles.",
+      "five red circles.",
+      "six red circles."
+    ],
+    "C4_exactly": [
+      "a picture with exactly one red circle.",
+      "a picture with exactly two red circles.",
+      "a picture with exactly three red circles.",
+      "a picture with exactly four red circles.",
+      "a picture with exactly five red circles.",
+      "a picture with exactly six red circles."
+    ]
+  },
+  {
+    "C0_baseline": [
+      "a drawing of one red circle.",
+      "a drawing of two red circles.",
+      "a drawing of three red circles.",
+      "a drawing of four red circles.",
+      "a drawing of five red circles.",
+      "a drawing of six red circles."
+    ],
+    "C1_showing": [
+      "an image showing one red circle.",
+      "an image showing two red circles.",
+      "an image showing three red circles.",
+      "an image showing four red circles.",
+      "an image showing five red circles.",
+      "an image showing six red circles."
+    ],
+    "C2_there_are": [
+      "there are one red circle in this drawing.",
+      "there are two red circles in this drawing.",
+      "there are three red circles in this drawing.",
+      "there are four red circles in this drawing.",
+      "there are five red circles in this drawing.",
+      "there are six red circles in this drawing."
+    ],
+    "C3_minimal": [
+      "one red circle.",
+      "two red circles.",
+      "three red circles.",
+      "four red circles.",
+      "five red circles.",
+      "six red circles."
+    ],
+    "C4_exactly": [
+      "a picture with exactly one red circle.",
+      "a picture with exactly two red circles.",
+      "a picture with exactly three red circles.",
+      "a picture with exactly four red circles.",
+      "a picture with exactly five red circles.",
+      "a picture with exactly six red circles."
+    ]
+  },
+  {
+    "C0_baseline": [
+      "a drawing of one red circle.",
+      "a drawing of two red circles.",
+      "a drawing of three red circles.",
+      "a drawing of four red circles.",
+      "a drawing of five red circles.",
+      "a drawing of six red circles."
+    ],
+    "C1_showing": [
+      "an image showing one red circle.",
+      "an image showing two red circles.",
+      "an image showing three red circles.",
+      "an image showing four red circles.",
+      "an image showing five red circles.",
+      "an image showing six red circles."
+    ],
+    "C2_there_are": [
+      "there are one red circle in this drawing.",
+      "there are two red circles in this drawing.",
+      "there are three red circles in this drawing.",
+      "there are four red circles in this drawing.",
+      "there are five red circles in this drawing.",
+      "there are six red circles in this drawing."
+    ],
+    "C3_minimal": [
+      "one red circle.",
+      "two red circles.",
+      "three red circles.",
+      "four red circles.",
+      "five red circles.",
+      "six red circles."
+    ],
+    "C4_exactly": [
+      "a picture with exactly one red circle.",
+      "a picture with exactly two red circles.",
+      "a picture with exactly three red circles.",
+      "a picture with exactly four red circles.",
+      "a picture with exactly five red circles.",
+      "a picture with exactly six red circles."
+    ]
+  },
+  {
+    "C0_baseline": [
+      "a drawing of one red circle.",
+      "a drawing of two red circles.",
+      "a drawing of three red circles.",
+      "a drawing of four red circles.",
+      "a drawing of five red circles.",
+      "a drawing of six red circles."
+    ],
+    "C1_showing": [
+      "an image showing one red circle.",
+      "an image showing two red circles.",
+      "an image showing three red circles.",
+      "an image showing four red circles.",
+      "an image showing five red circles.",
+      "an image showing six red circles."
+    ],
+    "C2_there_are": [
+      "there are one red circle in this drawing.",
+      "there are two red circles in this drawing.",
+      "there are three red circles in this drawing.",
+      "there are four red circles in this drawing.",
+      "there are five red circles in this drawing.",
+      "there are six red circles in this drawing."
+    ],
+    "C3_minimal": [
+      "one red circle.",
+      "two red circles.",
+      "three red circles.",
+      "four red circles.",
+      "five red circles.",
+      "six red circles."
+    ],
+    "C4_exactly": [
+      "a picture with exactly one red circle.",
+      "a picture with exactly two red circles.",
+      "a picture with exactly three red circles.",
+      "a picture with exactly four red circles.",
+      "a picture with exactly five red circles.",
+      "a picture with exactly six red circles."
+    ]
+  },
+  {
+    "C0_baseline": [
+      "a drawing of one red circle.",
+      "a drawing of two red circles.",
+      "a drawing of three red circles.",
+      "a drawing of four red circles.",
+      "a drawing of five red circles.",
+      "a drawing of six red circles."
+    ],
+    "C1_showing": [
+      "an image showing one red circle.",
+      "an image showing two red circles.",
+      "an image showing three red circles.",
+      "an image showing four red circles.",
+      "an image showing five red circles.",
+      "an image showing six red circles."
+    ],
+    "C2_there_are": [
+      "there are one red circle in this drawing.",
+      "there are two red circles in this drawing.",
+      "there are three red circles in this drawing.",
+      "there are four red circles in this drawing.",
+      "there are five red circles in this drawing.",
+      "there are six red circles in this drawing."
+    ],
+    "C3_minimal": [
+      "one red circle.",
+      "two red circles.",
+      "three red circles.",
+      "four red circles.",
+      "five red circles.",
+      "six red circles."
+    ],
+    "C4_exactly": [
+      "a picture with exactly one red circle.",
+      "a picture with exactly two red circles.",
+      "a picture with exactly three red circles.",
+      "a picture with exactly four red circles.",
+      "a picture with exactly five red circles.",
+      "a picture with exactly six red circles."
+    ]
+  },
+  {
+    "C0_baseline": [
+      "a drawing of one red circle.",
+      "a drawing of two red circles.",
+      "a drawing of three red circles.",
+      "a drawing of four red circles.",
+      "a drawing of five red circles.",
+      "a drawing of six red circles."
+    ],
+    "C1_showing": [
+      "an image showing one red circle.",
+      "an image showing two red circles.",
+      "an image showing three red circles.",
+      "an image showing four red circles.",
+      "an image showing five red circles.",
+      "an image showing six red circles."
+    ],
+    "C2_there_are": [
+      "there are one red circle in this drawing.",
+      "there are two red circles in this drawing.",
+      "there are three red circles in this drawing.",
+      "there are four red circles in this drawing.",
+      "there are five red circles in this drawing.",
+      "there are six red circles in this drawing."
+    ],
+    "C3_minimal": [
+      "one red circle.",
+      "two red circles.",
+      "three red circles.",
+      "four red circles.",
+      "five red circles.",
+      "six red circles."
+    ],
+    "C4_exactly": [
+      "a picture with exactly one red circle.",
+      "a picture with exactly two red circles.",
+      "a picture with exactly three red circles.",
+      "a picture with exactly four red circles.",
+      "a picture with exactly five red circles.",
+      "a picture with exactly six red circles."
+    ]
+  },
+  {
+    "C0_baseline": [
+      "a drawing of one red circle.",
+      "a drawing of two red circles.",
+      "a drawing of three red circles.",
+      "a drawing of four red circles.",
+      "a drawing of five red circles.",
+      "a drawing of six red circles."
+    ],
+    "C1_showing": [
+      "an image showing one red circle.",
+      "an image showing two red circles.",
+      "an image showing three red circles.",
+      "an image showing four red circles.",
+      "an image showing five red circles.",
+      "an image showing six red circles."
+    ],
+    "C2_there_are": [
+      "there are one red circle in this drawing.",
+      "there are two red circles in this drawing.",
+      "there are three red circles in this drawing.",
+      "there are four red circles in this drawing.",
+      "there are five red circles in this drawing.",
+      "there are six red circles in this drawing."
+    ],
+    "C3_minimal": [
+      "one red circle.",
+      "two red circles.",
+      "three red circles.",
+      "four red circles.",
+      "five red circles.",
+      "six red circles."
+    ],
+    "C4_exactly": [
+      "a picture with exactly one red circle.",
+      "a picture with exactly two red circles.",
+      "a picture with exactly three red circles.",
+      "a picture with exactly four red circles.",
+      "a picture with exactly five red circles.",
+      "a picture with exactly six red circles."
+    ]
+  },
+  {
+    "C0_baseline": [
+      "a drawing of one red circle.",
+      "a drawing of two red circles.",
+      "a drawing of three red circles.",
+      "a drawing of four red circles.",
+      "a drawing of five red circles.",
+      "a drawing of six red circles."
+    ],
+    "C1_showing": [
+      "an image showing one red circle.",
+      "an image showing two red circles.",
+      "an image showing three red circles.",
+      "an image showing four red circles.",
+      "an image showing five red circles.",
+      "an image showing six red circles."
+    ],
+    "C2_there_are": [
+      "there are one red circle in this drawing.",
+      "there are two red circles in this drawing.",
+      "there are three red circles in this drawing.",
+      "there are four red circles in this drawing.",
+      "there are five red circles in this drawing.",
+      "there are six red circles in this drawing."
+    ],
+    "C3_minimal": [
+      "one red circle.",
+      "two red circles.",
+      "three red circles.",
+      "four red circles.",
+      "five red circles.",
+      "six red circles."
+    ],
+    "C4_exactly": [
+      "a picture with exactly one red circle.",
+      "a picture with exactly two red circles.",
+      "a picture with exactly three red circles.",
+      "a picture with exactly four red circles.",
+      "a picture with exactly five red circles.",
+      "a picture with exactly six red circles."
+    ]
+  },
+  {
+    "C0_baseline": [
+      "a drawing of one red circle.",
+      "a drawing of two red circles.",
+      "a drawing of three red circles.",
+      "a drawing of four red circles.",
+      "a drawing of five red circles.",
+      "a drawing of six red circles."
+    ],
+    "C1_showing": [
+      "an image showing one red circle.",
+      "an image showing two red circles.",
+      "an image showing three red circles.",
+      "an image showing four red circles.",
+      "an image showing five red circles.",
+      "an image showing six red circles."
+    ],
+    "C2_there_are": [
+      "there are one red circle in this drawing.",
+      "there are two red circles in this drawing.",
+      "there are three red circles in this drawing.",
+      "there are four red circles in this drawing.",
+      "there are five red circles in this drawing.",
+      "there are six red circles in this drawing."
+    ],
+    "C3_minimal": [
+      "one red circle.",
+      "two red circles.",
+      "three red circles.",
+      "four red circles.",
+      "five red circles.",
+      "six red circles."
+    ],
+    "C4_exactly": [
+      "a picture with exactly one red circle.",
+      "a picture with exactly two red circles.",
+      "a picture with exactly three red circles.",
+      "a picture with exactly four red circles.",
+      "a picture with exactly five red circles.",
+      "a picture with exactly six red circles."
+    ]
+  },
+  {
+    "C0_baseline": [
+      "a drawing of one red circle.",
+      "a drawing of two red circles.",
+      "a drawing of three red circles.",
+      "a drawing of four red circles.",
+      "a drawing of five red circles.",
+      "a drawing of six red circles."
+    ],
+    "C1_showing": [
+      "an image showing one red circle.",
+      "an image showing two red circles.",
+      "an image showing three red circles.",
+      "an image showing four red circles.",
+      "an image showing five red circles.",
+      "an image showing six red circles."
+    ],
+    "C2_there_are": [
+      "there are one red circle in this drawing.",
+      "there are two red circles in this drawing.",
+      "there are three red circles in this drawing.",
+      "there are four red circles in this drawing.",
+      "there are five red circles in this drawing.",
+      "there are six red circles in this drawing."
+    ],
+    "C3_minimal": [
+      "one red circle.",
+      "two red circles.",
+      "three red circles.",
+      "four red circles.",
+      "five red circles.",
+      "six red circles."
+    ],
+    "C4_exactly": [
+      "a picture with exactly one red circle.",
+      "a picture with exactly two red circles.",
+      "a picture with exactly three red circles.",
+      "a picture with exactly four red circles.",
+      "a picture with exactly five red circles.",
+      "a picture with exactly six red circles."
+    ]
+  },
+  {
+    "C0_baseline": [
+      "a drawing of one red circle.",
+      "a drawing of two red circles.",
+      "a drawing of three red circles.",
+      "a drawing of four red circles.",
+      "a drawing of five red circles.",
+      "a drawing of six red circles."
+    ],
+    "C1_showing": [
+      "an image showing one red circle.",
+      "an image showing two red circles.",
+      "an image showing three red circles.",
+      "an image showing four red circles.",
+      "an image showing five red circles.",
+      "an image showing six red circles."
+    ],
+    "C2_there_are": [
+      "there are one red circle in this drawing.",
+      "there are two red circles in this drawing.",
+      "there are three red circles in this drawing.",
+      "there are four red circles in this drawing.",
+      "there are five red circles in this drawing.",
+      "there are six red circles in this drawing."
+    ],
+    "C3_minimal": [
+      "one red circle.",
+      "two red circles.",
+      "three red circles.",
+      "four red circles.",
+      "five red circles.",
+      "six red circles."
+    ],
+    "C4_exactly": [
+      "a picture with exactly one red circle.",
+      "a picture with exactly two red circles.",
+      "a picture with exactly three red circles.",
+      "a picture with exactly four red circles.",
+      "a picture with exactly five red circles.",
+      "a picture with exactly six red circles."
+    ]
+  },
+  {
+    "C0_baseline": [
+      "a drawing of one red circle.",
+      "a drawing of two red circles.",
+      "a drawing of three red circles.",
+      "a drawing of four red circles.",
+      "a drawing of five red circles.",
+      "a drawing of six red circles."
+    ],
+    "C1_showing": [
+      "an image showing one red circle.",
+      "an image showing two red circles.",
+      "an image showing three red circles.",
+      "an image showing four red circles.",
+      "an image showing five red circles.",
+      "an image showing six red circles."
+    ],
+    "C2_there_are": [
+      "there are one red circle in this drawing.",
+      "there are two red circles in this drawing.",
+      "there are three red circles in this drawing.",
+      "there are four red circles in this drawing.",
+      "there are five red circles in this drawing.",
+      "there are six red circles in this drawing."
+    ],
+    "C3_minimal": [
+      "one red circle.",
+      "two red circles.",
+      "three red circles.",
+      "four red circles.",
+      "five red circles.",
+      "six red circles."
+    ],
+    "C4_exactly": [
+      "a picture with exactly one red circle.",
+      "a picture with exactly two red circles.",
+      "a picture with exactly three red circles.",
+      "a picture with exactly four red circles.",
+      "a picture with exactly five red circles.",
+      "a picture with exactly six red circles."
+    ]
+  },
+  {
+    "C0_baseline": [
+      "a drawing of one red circle.",
+      "a drawing of two red circles.",
+      "a drawing of three red circles.",
+      "a drawing of four red circles.",
+      "a drawing of five red circles.",
+      "a drawing of six red circles."
+    ],
+    "C1_showing": [
+      "an image showing one red circle.",
+      "an image showing two red circles.",
+      "an image showing three red circles.",
+      "an image showing four red circles.",
+      "an image showing five red circles.",
+      "an image showing six red circles."
+    ],
+    "C2_there_are": [
+      "there are one red circle in this drawing.",
+      "there are two red circles in this drawing.",
+      "there are three red circles in this drawing.",
+      "there are four red circles in this drawing.",
+      "there are five red circles in this drawing.",
+      "there are six red circles in this drawing."
+    ],
+    "C3_minimal": [
+      "one red circle.",
+      "two red circles.",
+      "three red circles.",
+      "four red circles.",
+      "five red circles.",
+      "six red circles."
+    ],
+    "C4_exactly": [
+      "a picture with exactly one red circle.",
+      "a picture with exactly two red circles.",
+      "a picture with exactly three red circles.",
+      "a picture with exactly four red circles.",
+      "a picture with exactly five red circles.",
+      "a picture with exactly six red circles."
+    ]
+  },
+  {
+    "C0_baseline": [
+      "a drawing of one red circle.",
+      "a drawing of two red circles.",
+      "a drawing of three red circles.",
+      "a drawing of four red circles.",
+      "a drawing of five red circles.",
+      "a drawing of six red circles."
+    ],
+    "C1_showing": [
+      "an image showing one red circle.",
+      "an image showing two red circles.",
+      "an image showing three red circles.",
+      "an image showing four red circles.",
+      "an image showing five red circles.",
+      "an image showing six red circles."
+    ],
+    "C2_there_are": [
+      "there are one red circle in this drawing.",
+      "there are two red circles in this drawing.",
+      "there are three red circles in this drawing.",
+      "there are four red circles in this drawing.",
+      "there are five red circles in this drawing.",
+      "there are six red circles in this drawing."
+    ],
+    "C3_minimal": [
+      "one red circle.",
+      "two red circles.",
+      "three red circles.",
+      "four red circles.",
+      "five red circles.",
+      "six red circles."
+    ],
+    "C4_exactly": [
+      "a picture with exactly one red circle.",
+      "a picture with exactly two red circles.",
+      "a picture with exactly three red circles.",
+      "a picture with exactly four red circles.",
+      "a picture with exactly five red circles.",
+      "a picture with exactly six red circles."
+    ]
+  },
+  {
+    "C0_baseline": [
+      "a drawing of one red circle.",
+      "a drawing of two red circles.",
+      "a drawing of three red circles.",
+      "a drawing of four red circles.",
+      "a drawing of five red circles.",
+      "a drawing of six red circles."
+    ],
+    "C1_showing": [
+      "an image showing one red circle.",
+      "an image showing two red circles.",
+      "an image showing three red circles.",
+      "an image showing four red circles.",
+      "an image showing five red circles.",
+      "an image showing six red circles."
+    ],
+    "C2_there_are": [
+      "there are one red circle in this drawing.",
+      "there are two red circles in this drawing.",
+      "there are three red circles in this drawing.",
+      "there are four red circles in this drawing.",
+      "there are five red circles in this drawing.",
+      "there are six red circles in this drawing."
+    ],
+    "C3_minimal": [
+      "one red circle.",
+      "two red circles.",
+      "three red circles.",
+      "four red circles.",
+      "five red circles.",
+      "six red circles."
+    ],
+    "C4_exactly": [
+      "a picture with exactly one red circle.",
+      "a picture with exactly two red circles.",
+      "a picture with exactly three red circles.",
+      "a picture with exactly four red circles.",
+      "a picture with exactly five red circles.",
+      "a picture with exactly six red circles."
+    ]
+  },
+  {
+    "C0_baseline": [
+      "a drawing of one red circle.",
+      "a drawing of two red circles.",
+      "a drawing of three red circles.",
+      "a drawing of four red circles.",
+      "a drawing of five red circles.",
+      "a drawing of six red circles."
+    ],
+    "C1_showing": [
+      "an image showing one red circle.",
+      "an image showing two red circles.",
+      "an image showing three red circles.",
+      "an image showing four red circles.",
+      "an image showing five red circles.",
+      "an image showing six red circles."
+    ],
+    "C2_there_are": [
+      "there are one red circle in this drawing.",
+      "there are two red circles in this drawing.",
+      "there are three red circles in this drawing.",
+      "there are four red circles in this drawing.",
+      "there are five red circles in this drawing.",
+      "there are six red circles in this drawing."
+    ],
+    "C3_minimal": [
+      "one red circle.",
+      "two red circles.",
+      "three red circles.",
+      "four red circles.",
+      "five red circles.",
+      "six red circles."
+    ],
+    "C4_exactly": [
+      "a picture with exactly one red circle.",
+      "a picture with exactly two red circles.",
+      "a picture with exactly three red circles.",
+      "a picture with exactly four red circles.",
+      "a picture with exactly five red circles.",
+      "a picture with exactly six red circles."
+    ]
+  },
+  {
+    "C0_baseline": [
+      "a drawing of one red circle.",
+      "a drawing of two red circles.",
+      "a drawing of three red circles.",
+      "a drawing of four red circles.",
+      "a drawing of five red circles.",
+      "a drawing of six red circles."
+    ],
+    "C1_showing": [
+      "an image showing one red circle.",
+      "an image showing two red circles.",
+      "an image showing three red circles.",
+      "an image showing four red circles.",
+      "an image showing five red circles.",
+      "an image showing six red circles."
+    ],
+    "C2_there_are": [
+      "there are one red circle in this drawing.",
+      "there are two red circles in this drawing.",
+      "there are three red circles in this drawing.",
+      "there are four red circles in this drawing.",
+      "there are five red circles in this drawing.",
+      "there are six red circles in this drawing."
+    ],
+    "C3_minimal": [
+      "one red circle.",
+      "two red circles.",
+      "three red circles.",
+      "four red circles.",
+      "five red circles.",
+      "six red circles."
+    ],
+    "C4_exactly": [
+      "a picture with exactly one red circle.",
+      "a picture with exactly two red circles.",
+      "a picture with exactly three red circles.",
+      "a picture with exactly four red circles.",
+      "a picture with exactly five red circles.",
+      "a picture with exactly six red circles."
+    ]
+  },
+  {
+    "C0_baseline": [
+      "a drawing of one red circle.",
+      "a drawing of two red circles.",
+      "a drawing of three red circles.",
+      "a drawing of four red circles.",
+      "a drawing of five red circles.",
+      "a drawing of six red circles."
+    ],
+    "C1_showing": [
+      "an image showing one red circle.",
+      "an image showing two red circles.",
+      "an image showing three red circles.",
+      "an image showing four red circles.",
+      "an image showing five red circles.",
+      "an image showing six red circles."
+    ],
+    "C2_there_are": [
+      "there are one red circle in this drawing.",
+      "there are two red circles in this drawing.",
+      "there are three red circles in this drawing.",
+      "there are four red circles in this drawing.",
+      "there are five red circles in this drawing.",
+      "there are six red circles in this drawing."
+    ],
+    "C3_minimal": [
+      "one red circle.",
+      "two red circles.",
+      "three red circles.",
+      "four red circles.",
+      "five red circles.",
+      "six red circles."
+    ],
+    "C4_exactly": [
+      "a picture with exactly one red circle.",
+      "a picture with exactly two red circles.",
+      "a picture with exactly three red circles.",
+      "a picture with exactly four red circles.",
+      "a picture with exactly five red circles.",
+      "a picture with exactly six red circles."
+    ]
+  },
+  {
+    "C0_baseline": [
+      "a drawing of one red circle.",
+      "a drawing of two red circles.",
+      "a drawing of three red circles.",
+      "a drawing of four red circles.",
+      "a drawing of five red circles.",
+      "a drawing of six red circles."
+    ],
+    "C1_showing": [
+      "an image showing one red circle.",
+      "an image showing two red circles.",
+      "an image showing three red circles.",
+      "an image showing four red circles.",
+      "an image showing five red circles.",
+      "an image showing six red circles."
+    ],
+    "C2_there_are": [
+      "there are one red circle in this drawing.",
+      "there are two red circles in this drawing.",
+      "there are three red circles in this drawing.",
+      "there are four red circles in this drawing.",
+      "there are five red circles in this drawing.",
+      "there are six red circles in this drawing."
+    ],
+    "C3_minimal": [
+      "one red circle.",
+      "two red circles.",
+      "three red circles.",
+      "four red circles.",
+      "five red circles.",
+      "six red circles."
+    ],
+    "C4_exactly": [
+      "a picture with exactly one red circle.",
+      "a picture with exactly two red circles.",
+      "a picture with exactly three red circles.",
+      "a picture with exactly four red circles.",
+      "a picture with exactly five red circles.",
+      "a picture with exactly six red circles."
+    ]
+  },
+  {
+    "C0_baseline": [
+      "a drawing of one red circle.",
+      "a drawing of two red circles.",
+      "a drawing of three red circles.",
+      "a drawing of four red circles.",
+      "a drawing of five red circles.",
+      "a drawing of six red circles."
+    ],
+    "C1_showing": [
+      "an image showing one red circle.",
+      "an image showing two red circles.",
+      "an image showing three red circles.",
+      "an image showing four red circles.",
+      "an image showing five red circles.",
+      "an image showing six red circles."
+    ],
+    "C2_there_are": [
+      "there are one red circle in this drawing.",
+      "there are two red circles in this drawing.",
+      "there are three red circles in this drawing.",
+      "there are four red circles in this drawing.",
+      "there are five red circles in this drawing.",
+      "there are six red circles in this drawing."
+    ],
+    "C3_minimal": [
+      "one red circle.",
+      "two red circles.",
+      "three red circles.",
+      "four red circles.",
+      "five red circles.",
+      "six red circles."
+    ],
+    "C4_exactly": [
+      "a picture with exactly one red circle.",
+      "a picture with exactly two red circles.",
+      "a picture with exactly three red circles.",
+      "a picture with exactly four red circles.",
+      "a picture with exactly five red circles.",
+      "a picture with exactly six red circles."
+    ]
+  },
+  {
+    "C0_baseline": [
+      "a drawing of one red circle.",
+      "a drawing of two red circles.",
+      "a drawing of three red circles.",
+      "a drawing of four red circles.",
+      "a drawing of five red circles.",
+      "a drawing of six red circles."
+    ],
+    "C1_showing": [
+      "an image showing one red circle.",
+      "an image showing two red circles.",
+      "an image showing three red circles.",
+      "an image showing four red circles.",
+      "an image showing five red circles.",
+      "an image showing six red circles."
+    ],
+    "C2_there_are": [
+      "there are one red circle in this drawing.",
+      "there are two red circles in this drawing.",
+      "there are three red circles in this drawing.",
+      "there are four red circles in this drawing.",
+      "there are five red circles in this drawing.",
+      "there are six red circles in this drawing."
+    ],
+    "C3_minimal": [
+      "one red circle.",
+      "two red circles.",
+      "three red circles.",
+      "four red circles.",
+      "five red circles.",
+      "six red circles."
+    ],
+    "C4_exactly": [
+      "a picture with exactly one red circle.",
+      "a picture with exactly two red circles.",
+      "a picture with exactly three red circles.",
+      "a picture with exactly four red circles.",
+      "a picture with exactly five red circles.",
+      "a picture with exactly six red circles."
+    ]
+  },
+  {
+    "C0_baseline": [
+      "a drawing of one red circle.",
+      "a drawing of two red circles.",
+      "a drawing of three red circles.",
+      "a drawing of four red circles.",
+      "a drawing of five red circles.",
+      "a drawing of six red circles."
+    ],
+    "C1_showing": [
+      "an image showing one red circle.",
+      "an image showing two red circles.",
+      "an image showing three red circles.",
+      "an image showing four red circles.",
+      "an image showing five red circles.",
+      "an image showing six red circles."
+    ],
+    "C2_there_are": [
+      "there are one red circle in this drawing.",
+      "there are two red circles in this drawing.",
+      "there are three red circles in this drawing.",
+      "there are four red circles in this drawing.",
+      "there are five red circles in this drawing.",
+      "there are six red circles in this drawing."
+    ],
+    "C3_minimal": [
+      "one red circle.",
+      "two red circles.",
+      "three red circles.",
+      "four red circles.",
+      "five red circles.",
+      "six red circles."
+    ],
+    "C4_exactly": [
+      "a picture with exactly one red circle.",
+      "a picture with exactly two red circles.",
+      "a picture with exactly three red circles.",
+      "a picture with exactly four red circles.",
+      "a picture with exactly five red circles.",
+      "a picture with exactly six red circles."
+    ]
+  },
+  {
+    "C0_baseline": [
+      "a drawing of one red circle.",
+      "a drawing of two red circles.",
+      "a drawing of three red circles.",
+      "a drawing of four red circles.",
+      "a drawing of five red circles.",
+      "a drawing of six red circles."
+    ],
+    "C1_showing": [
+      "an image showing one red circle.",
+      "an image showing two red circles.",
+      "an image showing three red circles.",
+      "an image showing four red circles.",
+      "an image showing five red circles.",
+      "an image showing six red circles."
+    ],
+    "C2_there_are": [
+      "there are one red circle in this drawing.",
+      "there are two red circles in this drawing.",
+      "there are three red circles in this drawing.",
+      "there are four red circles in this drawing.",
+      "there are five red circles in this drawing.",
+      "there are six red circles in this drawing."
+    ],
+    "C3_minimal": [
+      "one red circle.",
+      "two red circles.",
+      "three red circles.",
+      "four red circles.",
+      "five red circles.",
+      "six red circles."
+    ],
+    "C4_exactly": [
+      "a picture with exactly one red circle.",
+      "a picture with exactly two red circles.",
+      "a picture with exactly three red circles.",
+      "a picture with exactly four red circles.",
+      "a picture with exactly five red circles.",
+      "a picture with exactly six red circles."
+    ]
+  },
+  {
+    "C0_baseline": [
+      "a drawing of one red circle.",
+      "a drawing of two red circles.",
+      "a drawing of three red circles.",
+      "a drawing of four red circles.",
+      "a drawing of five red circles.",
+      "a drawing of six red circles."
+    ],
+    "C1_showing": [
+      "an image showing one red circle.",
+      "an image showing two red circles.",
+      "an image showing three red circles.",
+      "an image showing four red circles.",
+      "an image showing five red circles.",
+      "an image showing six red circles."
+    ],
+    "C2_there_are": [
+      "there are one red circle in this drawing.",
+      "there are two red circles in this drawing.",
+      "there are three red circles in this drawing.",
+      "there are four red circles in this drawing.",
+      "there are five red circles in this drawing.",
+      "there are six red circles in this drawing."
+    ],
+    "C3_minimal": [
+      "one red circle.",
+      "two red circles.",
+      "three red circles.",
+      "four red circles.",
+      "five red circles.",
+      "six red circles."
+    ],
+    "C4_exactly": [
+      "a picture with exactly one red circle.",
+      "a picture with exactly two red circles.",
+      "a picture with exactly three red circles.",
+      "a picture with exactly four red circles.",
+      "a picture with exactly five red circles.",
+      "a picture with exactly six red circles."
+    ]
+  },
+  {
+    "C0_baseline": [
+      "a drawing of one red circle.",
+      "a drawing of two red circles.",
+      "a drawing of three red circles.",
+      "a drawing of four red circles.",
+      "a drawing of five red circles.",
+      "a drawing of six red circles."
+    ],
+    "C1_showing": [
+      "an image showing one red circle.",
+      "an image showing two red circles.",
+      "an image showing three red circles.",
+      "an image showing four red circles.",
+      "an image showing five red circles.",
+      "an image showing six red circles."
+    ],
+    "C2_there_are": [
+      "there are one red circle in this drawing.",
+      "there are two red circles in this drawing.",
+      "there are three red circles in this drawing.",
+      "there are four red circles in this drawing.",
+      "there are five red circles in this drawing.",
+      "there are six red circles in this drawing."
+    ],
+    "C3_minimal": [
+      "one red circle.",
+      "two red circles.",
+      "three red circles.",
+      "four red circles.",
+      "five red circles.",
+      "six red circles."
+    ],
+    "C4_exactly": [
+      "a picture with exactly one red circle.",
+      "a picture with exactly two red circles.",
+      "a picture with exactly three red circles.",
+      "a picture with exactly four red circles.",
+      "a picture with exactly five red circles.",
+      "a picture with exactly six red circles."
+    ]
+  },
+  {
+    "C0_baseline": [
+      "a drawing of one red circle.",
+      "a drawing of two red circles.",
+      "a drawing of three red circles.",
+      "a drawing of four red circles.",
+      "a drawing of five red circles.",
+      "a drawing of six red circles."
+    ],
+    "C1_showing": [
+      "an image showing one red circle.",
+      "an image showing two red circles.",
+      "an image showing three red circles.",
+      "an image showing four red circles.",
+      "an image showing five red circles.",
+      "an image showing six red circles."
+    ],
+    "C2_there_are": [
+      "there are one red circle in this drawing.",
+      "there are two red circles in this drawing.",
+      "there are three red circles in this drawing.",
+      "there are four red circles in this drawing.",
+      "there are five red circles in this drawing.",
+      "there are six red circles in this drawing."
+    ],
+    "C3_minimal": [
+      "one red circle.",
+      "two red circles.",
+      "three red circles.",
+      "four red circles.",
+      "five red circles.",
+      "six red circles."
+    ],
+    "C4_exactly": [
+      "a picture with exactly one red circle.",
+      "a picture with exactly two red circles.",
+      "a picture with exactly three red circles.",
+      "a picture with exactly four red circles.",
+      "a picture with exactly five red circles.",
+      "a picture with exactly six red circles."
+    ]
+  },
+  {
+    "C0_baseline": [
+      "a drawing of one red circle.",
+      "a drawing of two red circles.",
+      "a drawing of three red circles.",
+      "a drawing of four red circles.",
+      "a drawing of five red circles.",
+      "a drawing of six red circles."
+    ],
+    "C1_showing": [
+      "an image showing one red circle.",
+      "an image showing two red circles.",
+      "an image showing three red circles.",
+      "an image showing four red circles.",
+      "an image showing five red circles.",
+      "an image showing six red circles."
+    ],
+    "C2_there_are": [
+      "there are one red circle in this drawing.",
+      "there are two red circles in this drawing.",
+      "there are three red circles in this drawing.",
+      "there are four red circles in this drawing.",
+      "there are five red circles in this drawing.",
+      "there are six red circles in this drawing."
+    ],
+    "C3_minimal": [
+      "one red circle.",
+      "two red circles.",
+      "three red circles.",
+      "four red circles.",
+      "five red circles.",
+      "six red circles."
+    ],
+    "C4_exactly": [
+      "a picture with exactly one red circle.",
+      "a picture with exactly two red circles.",
+      "a picture with exactly three red circles.",
+      "a picture with exactly four red circles.",
+      "a picture with exactly five red circles.",
+      "a picture with exactly six red circles."
+    ]
+  },
+  {
+    "C0_baseline": [
+      "a drawing of one red circle.",
+      "a drawing of two red circles.",
+      "a drawing of three red circles.",
+      "a drawing of four red circles.",
+      "a drawing of five red circles.",
+      "a drawing of six red circles."
+    ],
+    "C1_showing": [
+      "an image showing one red circle.",
+      "an image showing two red circles.",
+      "an image showing three red circles.",
+      "an image showing four red circles.",
+      "an image showing five red circles.",
+      "an image showing six red circles."
+    ],
+    "C2_there_are": [
+      "there are one red circle in this drawing.",
+      "there are two red circles in this drawing.",
+      "there are three red circles in this drawing.",
+      "there are four red circles in this drawing.",
+      "there are five red circles in this drawing.",
+      "there are six red circles in this drawing."
+    ],
+    "C3_minimal": [
+      "one red circle.",
+      "two red circles.",
+      "three red circles.",
+      "four red circles.",
+      "five red circles.",
+      "six red circles."
+    ],
+    "C4_exactly": [
+      "a picture with exactly one red circle.",
+      "a picture with exactly two red circles.",
+      "a picture with exactly three red circles.",
+      "a picture with exactly four red circles.",
+      "a picture with exactly five red circles.",
+      "a picture with exactly six red circles."
+    ]
+  },
+  {
+    "C0_baseline": [
+      "a drawing of one red circle.",
+      "a drawing of two red circles.",
+      "a drawing of three red circles.",
+      "a drawing of four red circles.",
+      "a drawing of five red circles.",
+      "a drawing of six red circles."
+    ],
+    "C1_showing": [
+      "an image showing one red circle.",
+      "an image showing two red circles.",
+      "an image showing three red circles.",
+      "an image showing four red circles.",
+      "an image showing five red circles.",
+      "an image showing six red circles."
+    ],
+    "C2_there_are": [
+      "there are one red circle in this drawing.",
+      "there are two red circles in this drawing.",
+      "there are three red circles in this drawing.",
+      "there are four red circles in this drawing.",
+      "there are five red circles in this drawing.",
+      "there are six red circles in this drawing."
+    ],
+    "C3_minimal": [
+      "one red circle.",
+      "two red circles.",
+      "three red circles.",
+      "four red circles.",
+      "five red circles.",
+      "six red circles."
+    ],
+    "C4_exactly": [
+      "a picture with exactly one red circle.",
+      "a picture with exactly two red circles.",
+      "a picture with exactly three red circles.",
+      "a picture with exactly four red circles.",
+      "a picture with exactly five red circles.",
+      "a picture with exactly six red circles."
+    ]
+  },
+  {
+    "C0_baseline": [
+      "a drawing of one red circle.",
+      "a drawing of two red circles.",
+      "a drawing of three red circles.",
+      "a drawing of four red circles.",
+      "a drawing of five red circles.",
+      "a drawing of six red circles."
+    ],
+    "C1_showing": [
+      "an image showing one red circle.",
+      "an image showing two red circles.",
+      "an image showing three red circles.",
+      "an image showing four red circles.",
+      "an image showing five red circles.",
+      "an image showing six red circles."
+    ],
+    "C2_there_are": [
+      "there are one red circle in this drawing.",
+      "there are two red circles in this drawing.",
+      "there are three red circles in this drawing.",
+      "there are four red circles in this drawing.",
+      "there are five red circles in this drawing.",
+      "there are six red circles in this drawing."
+    ],
+    "C3_minimal": [
+      "one red circle.",
+      "two red circles.",
+      "three red circles.",
+      "four red circles.",
+      "five red circles.",
+      "six red circles."
+    ],
+    "C4_exactly": [
+      "a picture with exactly one red circle.",
+      "a picture with exactly two red circles.",
+      "a picture with exactly three red circles.",
+      "a picture with exactly four red circles.",
+      "a picture with exactly five red circles.",
+      "a picture with exactly six red circles."
+    ]
+  },
+  {
+    "C0_baseline": [
+      "a drawing of one red circle.",
+      "a drawing of two red circles.",
+      "a drawing of three red circles.",
+      "a drawing of four red circles.",
+      "a drawing of five red circles.",
+      "a drawing of six red circles."
+    ],
+    "C1_showing": [
+      "an image showing one red circle.",
+      "an image showing two red circles.",
+      "an image showing three red circles.",
+      "an image showing four red circles.",
+      "an image showing five red circles.",
+      "an image showing six red circles."
+    ],
+    "C2_there_are": [
+      "there are one red circle in this drawing.",
+      "there are two red circles in this drawing.",
+      "there are three red circles in this drawing.",
+      "there are four red circles in this drawing.",
+      "there are five red circles in this drawing.",
+      "there are six red circles in this drawing."
+    ],
+    "C3_minimal": [
+      "one red circle.",
+      "two red circles.",
+      "three red circles.",
+      "four red circles.",
+      "five red circles.",
+      "six red circles."
+    ],
+    "C4_exactly": [
+      "a picture with exactly one red circle.",
+      "a picture with exactly two red circles.",
+      "a picture with exactly three red circles.",
+      "a picture with exactly four red circles.",
+      "a picture with exactly five red circles.",
+      "a picture with exactly six red circles."
+    ]
+  },
+  {
+    "C0_baseline": [
+      "a drawing of one red circle.",
+      "a drawing of two red circles.",
+      "a drawing of three red circles.",
+      "a drawing of four red circles.",
+      "a drawing of five red circles.",
+      "a drawing of six red circles."
+    ],
+    "C1_showing": [
+      "an image showing one red circle.",
+      "an image showing two red circles.",
+      "an image showing three red circles.",
+      "an image showing four red circles.",
+      "an image showing five red circles.",
+      "an image showing six red circles."
+    ],
+    "C2_there_are": [
+      "there are one red circle in this drawing.",
+      "there are two red circles in this drawing.",
+      "there are three red circles in this drawing.",
+      "there are four red circles in this drawing.",
+      "there are five red circles in this drawing.",
+      "there are six red circles in this drawing."
+    ],
+    "C3_minimal": [
+      "one red circle.",
+      "two red circles.",
+      "three red circles.",
+      "four red circles.",
+      "five red circles.",
+      "six red circles."
+    ],
+    "C4_exactly": [
+      "a picture with exactly one red circle.",
+      "a picture with exactly two red circles.",
+      "a picture with exactly three red circles.",
+      "a picture with exactly four red circles.",
+      "a picture with exactly five red circles.",
+      "a picture with exactly six red circles."
+    ]
+  },
+  {
+    "C0_baseline": [
+      "a drawing of one red circle.",
+      "a drawing of two red circles.",
+      "a drawing of three red circles.",
+      "a drawing of four red circles.",
+      "a drawing of five red circles.",
+      "a drawing of six red circles."
+    ],
+    "C1_showing": [
+      "an image showing one red circle.",
+      "an image showing two red circles.",
+      "an image showing three red circles.",
+      "an image showing four red circles.",
+      "an image showing five red circles.",
+      "an image showing six red circles."
+    ],
+    "C2_there_are": [
+      "there are one red circle in this drawing.",
+      "there are two red circles in this drawing.",
+      "there are three red circles in this drawing.",
+      "there are four red circles in this drawing.",
+      "there are five red circles in this drawing.",
+      "there are six red circles in this drawing."
+    ],
+    "C3_minimal": [
+      "one red circle.",
+      "two red circles.",
+      "three red circles.",
+      "four red circles.",
+      "five red circles.",
+      "six red circles."
+    ],
+    "C4_exactly": [
+      "a picture with exactly one red circle.",
+      "a picture with exactly two red circles.",
+      "a picture with exactly three red circles.",
+      "a picture with exactly four red circles.",
+      "a picture with exactly five red circles.",
+      "a picture with exactly six red circles."
+    ]
+  },
+  {
+    "C0_baseline": [
+      "a drawing of one red circle.",
+      "a drawing of two red circles.",
+      "a drawing of three red circles.",
+      "a drawing of four red circles.",
+      "a drawing of five red circles.",
+      "a drawing of six red circles."
+    ],
+    "C1_showing": [
+      "an image showing one red circle.",
+      "an image showing two red circles.",
+      "an image showing three red circles.",
+      "an image showing four red circles.",
+      "an image showing five red circles.",
+      "an image showing six red circles."
+    ],
+    "C2_there_are": [
+      "there are one red circle in this drawing.",
+      "there are two red circles in this drawing.",
+      "there are three red circles in this drawing.",
+      "there are four red circles in this drawing.",
+      "there are five red circles in this drawing.",
+      "there are six red circles in this drawing."
+    ],
+    "C3_minimal": [
+      "one red circle.",
+      "two red circles.",
+      "three red circles.",
+      "four red circles.",
+      "five red circles.",
+      "six red circles."
+    ],
+    "C4_exactly": [
+      "a picture with exactly one red circle.",
+      "a picture with exactly two red circles.",
+      "a picture with exactly three red circles.",
+      "a picture with exactly four red circles.",
+      "a picture with exactly five red circles.",
+      "a picture with exactly six red circles."
+    ]
+  },
+  {
+    "C0_baseline": [
+      "a drawing of one red circle.",
+      "a drawing of two red circles.",
+      "a drawing of three red circles.",
+      "a drawing of four red circles.",
+      "a drawing of five red circles.",
+      "a drawing of six red circles."
+    ],
+    "C1_showing": [
+      "an image showing one red circle.",
+      "an image showing two red circles.",
+      "an image showing three red circles.",
+      "an image showing four red circles.",
+      "an image showing five red circles.",
+      "an image showing six red circles."
+    ],
+    "C2_there_are": [
+      "there are one red circle in this drawing.",
+      "there are two red circles in this drawing.",
+      "there are three red circles in this drawing.",
+      "there are four red circles in this drawing.",
+      "there are five red circles in this drawing.",
+      "there are six red circles in this drawing."
+    ],
+    "C3_minimal": [
+      "one red circle.",
+      "two red circles.",
+      "three red circles.",
+      "four red circles.",
+      "five red circles.",
+      "six red circles."
+    ],
+    "C4_exactly": [
+      "a picture with exactly one red circle.",
+      "a picture with exactly two red circles.",
+      "a picture with exactly three red circles.",
+      "a picture with exactly four red circles.",
+      "a picture with exactly five red circles.",
+      "a picture with exactly six red circles."
+    ]
+  },
+  {
+    "C0_baseline": [
+      "a drawing of one red circle.",
+      "a drawing of two red circles.",
+      "a drawing of three red circles.",
+      "a drawing of four red circles.",
+      "a drawing of five red circles.",
+      "a drawing of six red circles."
+    ],
+    "C1_showing": [
+      "an image showing one red circle.",
+      "an image showing two red circles.",
+      "an image showing three red circles.",
+      "an image showing four red circles.",
+      "an image showing five red circles.",
+      "an image showing six red circles."
+    ],
+    "C2_there_are": [
+      "there are one red circle in this drawing.",
+      "there are two red circles in this drawing.",
+      "there are three red circles in this drawing.",
+      "there are four red circles in this drawing.",
+      "there are five red circles in this drawing.",
+      "there are six red circles in this drawing."
+    ],
+    "C3_minimal": [
+      "one red circle.",
+      "two red circles.",
+      "three red circles.",
+      "four red circles.",
+      "five red circles.",
+      "six red circles."
+    ],
+    "C4_exactly": [
+      "a picture with exactly one red circle.",
+      "a picture with exactly two red circles.",
+      "a picture with exactly three red circles.",
+      "a picture with exactly four red circles.",
+      "a picture with exactly five red circles.",
+      "a picture with exactly six red circles."
+    ]
+  },
+  {
+    "C0_baseline": [
+      "a drawing of one red circle.",
+      "a drawing of two red circles.",
+      "a drawing of three red circles.",
+      "a drawing of four red circles.",
+      "a drawing of five red circles.",
+      "a drawing of six red circles."
+    ],
+    "C1_showing": [
+      "an image showing one red circle.",
+      "an image showing two red circles.",
+      "an image showing three red circles.",
+      "an image showing four red circles.",
+      "an image showing five red circles.",
+      "an image showing six red circles."
+    ],
+    "C2_there_are": [
+      "there are one red circle in this drawing.",
+      "there are two red circles in this drawing.",
+      "there are three red circles in this drawing.",
+      "there are four red circles in this drawing.",
+      "there are five red circles in this drawing.",
+      "there are six red circles in this drawing."
+    ],
+    "C3_minimal": [
+      "one red circle.",
+      "two red circles.",
+      "three red circles.",
+      "four red circles.",
+      "five red circles.",
+      "six red circles."
+    ],
+    "C4_exactly": [
+      "a picture with exactly one red circle.",
+      "a picture with exactly two red circles.",
+      "a picture with exactly three red circles.",
+      "a picture with exactly four red circles.",
+      "a picture with exactly five red circles.",
+      "a picture with exactly six red circles."
+    ]
+  },
+  {
+    "C0_baseline": [
+      "a drawing of one red circle.",
+      "a drawing of two red circles.",
+      "a drawing of three red circles.",
+      "a drawing of four red circles.",
+      "a drawing of five red circles.",
+      "a drawing of six red circles."
+    ],
+    "C1_showing": [
+      "an image showing one red circle.",
+      "an image showing two red circles.",
+      "an image showing three red circles.",
+      "an image showing four red circles.",
+      "an image showing five red circles.",
+      "an image showing six red circles."
+    ],
+    "C2_there_are": [
+      "there are one red circle in this drawing.",
+      "there are two red circles in this drawing.",
+      "there are three red circles in this drawing.",
+      "there are four red circles in this drawing.",
+      "there are five red circles in this drawing.",
+      "there are six red circles in this drawing."
+    ],
+    "C3_minimal": [
+      "one red circle.",
+      "two red circles.",
+      "three red circles.",
+      "four red circles.",
+      "five red circles.",
+      "six red circles."
+    ],
+    "C4_exactly": [
+      "a picture with exactly one red circle.",
+      "a picture with exactly two red circles.",
+      "a picture with exactly three red circles.",
+      "a picture with exactly four red circles.",
+      "a picture with exactly five red circles.",
+      "a picture with exactly six red circles."
+    ]
+  },
+  {
+    "C0_baseline": [
+      "a drawing of one red circle.",
+      "a drawing of two red circles.",
+      "a drawing of three red circles.",
+      "a drawing of four red circles.",
+      "a drawing of five red circles.",
+      "a drawing of six red circles."
+    ],
+    "C1_showing": [
+      "an image showing one red circle.",
+      "an image showing two red circles.",
+      "an image showing three red circles.",
+      "an image showing four red circles.",
+      "an image showing five red circles.",
+      "an image showing six red circles."
+    ],
+    "C2_there_are": [
+      "there are one red circle in this drawing.",
+      "there are two red circles in this drawing.",
+      "there are three red circles in this drawing.",
+      "there are four red circles in this drawing.",
+      "there are five red circles in this drawing.",
+      "there are six red circles in this drawing."
+    ],
+    "C3_minimal": [
+      "one red circle.",
+      "two red circles.",
+      "three red circles.",
+      "four red circles.",
+      "five red circles.",
+      "six red circles."
+    ],
+    "C4_exactly": [
+      "a picture with exactly one red circle.",
+      "a picture with exactly two red circles.",
+      "a picture with exactly three red circles.",
+      "a picture with exactly four red circles.",
+      "a picture with exactly five red circles.",
+      "a picture with exactly six red circles."
+    ]
+  },
+  {
+    "C0_baseline": [
+      "a drawing of one red circle.",
+      "a drawing of two red circles.",
+      "a drawing of three red circles.",
+      "a drawing of four red circles.",
+      "a drawing of five red circles.",
+      "a drawing of six red circles."
+    ],
+    "C1_showing": [
+      "an image showing one red circle.",
+      "an image showing two red circles.",
+      "an image showing three red circles.",
+      "an image showing four red circles.",
+      "an image showing five red circles.",
+      "an image showing six red circles."
+    ],
+    "C2_there_are": [
+      "there are one red circle in this drawing.",
+      "there are two red circles in this drawing.",
+      "there are three red circles in this drawing.",
+      "there are four red circles in this drawing.",
+      "there are five red circles in this drawing.",
+      "there are six red circles in this drawing."
+    ],
+    "C3_minimal": [
+      "one red circle.",
+      "two red circles.",
+      "three red circles.",
+      "four red circles.",
+      "five red circles.",
+      "six red circles."
+    ],
+    "C4_exactly": [
+      "a picture with exactly one red circle.",
+      "a picture with exactly two red circles.",
+      "a picture with exactly three red circles.",
+      "a picture with exactly four red circles.",
+      "a picture with exactly five red circles.",
+      "a picture with exactly six red circles."
+    ]
+  },
+  {
+    "C0_baseline": [
+      "a drawing of one red circle.",
+      "a drawing of two red circles.",
+      "a drawing of three red circles.",
+      "a drawing of four red circles.",
+      "a drawing of five red circles.",
+      "a drawing of six red circles."
+    ],
+    "C1_showing": [
+      "an image showing one red circle.",
+      "an image showing two red circles.",
+      "an image showing three red circles.",
+      "an image showing four red circles.",
+      "an image showing five red circles.",
+      "an image showing six red circles."
+    ],
+    "C2_there_are": [
+      "there are one red circle in this drawing.",
+      "there are two red circles in this drawing.",
+      "there are three red circles in this drawing.",
+      "there are four red circles in this drawing.",
+      "there are five red circles in this drawing.",
+      "there are six red circles in this drawing."
+    ],
+    "C3_minimal": [
+      "one red circle.",
+      "two red circles.",
+      "three red circles.",
+      "four red circles.",
+      "five red circles.",
+      "six red circles."
+    ],
+    "C4_exactly": [
+      "a picture with exactly one red circle.",
+      "a picture with exactly two red circles.",
+      "a picture with exactly three red circles.",
+      "a picture with exactly four red circles.",
+      "a picture with exactly five red circles.",
+      "a picture with exactly six red circles."
+    ]
+  },
+  {
+    "C0_baseline": [
+      "a drawing of one red circle.",
+      "a drawing of two red circles.",
+      "a drawing of three red circles.",
+      "a drawing of four red circles.",
+      "a drawing of five red circles.",
+      "a drawing of six red circles."
+    ],
+    "C1_showing": [
+      "an image showing one red circle.",
+      "an image showing two red circles.",
+      "an image showing three red circles.",
+      "an image showing four red circles.",
+      "an image showing five red circles.",
+      "an image showing six red circles."
+    ],
+    "C2_there_are": [
+      "there are one red circle in this drawing.",
+      "there are two red circles in this drawing.",
+      "there are three red circles in this drawing.",
+      "there are four red circles in this drawing.",
+      "there are five red circles in this drawing.",
+      "there are six red circles in this drawing."
+    ],
+    "C3_minimal": [
+      "one red circle.",
+      "two red circles.",
+      "three red circles.",
+      "four red circles.",
+      "five red circles.",
+      "six red circles."
+    ],
+    "C4_exactly": [
+      "a picture with exactly one red circle.",
+      "a picture with exactly two red circles.",
+      "a picture with exactly three red circles.",
+      "a picture with exactly four red circles.",
+      "a picture with exactly five red circles.",
+      "a picture with exactly six red circles."
+    ]
+  },
+  {
+    "C0_baseline": [
+      "a drawing of one red circle.",
+      "a drawing of two red circles.",
+      "a drawing of three red circles.",
+      "a drawing of four red circles.",
+      "a drawing of five red circles.",
+      "a drawing of six red circles."
+    ],
+    "C1_showing": [
+      "an image showing one red circle.",
+      "an image showing two red circles.",
+      "an image showing three red circles.",
+      "an image showing four red circles.",
+      "an image showing five red circles.",
+      "an image showing six red circles."
+    ],
+    "C2_there_are": [
+      "there are one red circle in this drawing.",
+      "there are two red circles in this drawing.",
+      "there are three red circles in this drawing.",
+      "there are four red circles in this drawing.",
+      "there are five red circles in this drawing.",
+      "there are six red circles in this drawing."
+    ],
+    "C3_minimal": [
+      "one red circle.",
+      "two red circles.",
+      "three red circles.",
+      "four red circles.",
+      "five red circles.",
+      "six red circles."
+    ],
+    "C4_exactly": [
+      "a picture with exactly one red circle.",
+      "a picture with exactly two red circles.",
+      "a picture with exactly three red circles.",
+      "a picture with exactly four red circles.",
+      "a picture with exactly five red circles.",
+      "a picture with exactly six red circles."
+    ]
+  },
+  {
+    "C0_baseline": [
+      "a drawing of one red circle.",
+      "a drawing of two red circles.",
+      "a drawing of three red circles.",
+      "a drawing of four red circles.",
+      "a drawing of five red circles.",
+      "a drawing of six red circles."
+    ],
+    "C1_showing": [
+      "an image showing one red circle.",
+      "an image showing two red circles.",
+      "an image showing three red circles.",
+      "an image showing four red circles.",
+      "an image showing five red circles.",
+      "an image showing six red circles."
+    ],
+    "C2_there_are": [
+      "there are one red circle in this drawing.",
+      "there are two red circles in this drawing.",
+      "there are three red circles in this drawing.",
+      "there are four red circles in this drawing.",
+      "there are five red circles in this drawing.",
+      "there are six red circles in this drawing."
+    ],
+    "C3_minimal": [
+      "one red circle.",
+      "two red circles.",
+      "three red circles.",
+      "four red circles.",
+      "five red circles.",
+      "six red circles."
+    ],
+    "C4_exactly": [
+      "a picture with exactly one red circle.",
+      "a picture with exactly two red circles.",
+      "a picture with exactly three red circles.",
+      "a picture with exactly four red circles.",
+      "a picture with exactly five red circles.",
+      "a picture with exactly six red circles."
+    ]
+  },
+  {
+    "C0_baseline": [
+      "a drawing of one red circle.",
+      "a drawing of two red circles.",
+      "a drawing of three red circles.",
+      "a drawing of four red circles.",
+      "a drawing of five red circles.",
+      "a drawing of six red circles."
+    ],
+    "C1_showing": [
+      "an image showing one red circle.",
+      "an image showing two red circles.",
+      "an image showing three red circles.",
+      "an image showing four red circles.",
+      "an image showing five red circles.",
+      "an image showing six red circles."
+    ],
+    "C2_there_are": [
+      "there are one red circle in this drawing.",
+      "there are two red circles in this drawing.",
+      "there are three red circles in this drawing.",
+      "there are four red circles in this drawing.",
+      "there are five red circles in this drawing.",
+      "there are six red circles in this drawing."
+    ],
+    "C3_minimal": [
+      "one red circle.",
+      "two red circles.",
+      "three red circles.",
+      "four red circles.",
+      "five red circles.",
+      "six red circles."
+    ],
+    "C4_exactly": [
+      "a picture with exactly one red circle.",
+      "a picture with exactly two red circles.",
+      "a picture with exactly three red circles.",
+      "a picture with exactly four red circles.",
+      "a picture with exactly five red circles.",
+      "a picture with exactly six red circles."
+    ]
+  },
+  {
+    "C0_baseline": [
+      "a drawing of one red circle.",
+      "a drawing of two red circles.",
+      "a drawing of three red circles.",
+      "a drawing of four red circles.",
+      "a drawing of five red circles.",
+      "a drawing of six red circles."
+    ],
+    "C1_showing": [
+      "an image showing one red circle.",
+      "an image showing two red circles.",
+      "an image showing three red circles.",
+      "an image showing four red circles.",
+      "an image showing five red circles.",
+      "an image showing six red circles."
+    ],
+    "C2_there_are": [
+      "there are one red circle in this drawing.",
+      "there are two red circles in this drawing.",
+      "there are three red circles in this drawing.",
+      "there are four red circles in this drawing.",
+      "there are five red circles in this drawing.",
+      "there are six red circles in this drawing."
+    ],
+    "C3_minimal": [
+      "one red circle.",
+      "two red circles.",
+      "three red circles.",
+      "four red circles.",
+      "five red circles.",
+      "six red circles."
+    ],
+    "C4_exactly": [
+      "a picture with exactly one red circle.",
+      "a picture with exactly two red circles.",
+      "a picture with exactly three red circles.",
+      "a picture with exactly four red circles.",
+      "a picture with exactly five red circles.",
+      "a picture with exactly six red circles."
+    ]
+  },
+  {
+    "C0_baseline": [
+      "a drawing of one red circle.",
+      "a drawing of two red circles.",
+      "a drawing of three red circles.",
+      "a drawing of four red circles.",
+      "a drawing of five red circles.",
+      "a drawing of six red circles."
+    ],
+    "C1_showing": [
+      "an image showing one red circle.",
+      "an image showing two red circles.",
+      "an image showing three red circles.",
+      "an image showing four red circles.",
+      "an image showing five red circles.",
+      "an image showing six red circles."
+    ],
+    "C2_there_are": [
+      "there are one red circle in this drawing.",
+      "there are two red circles in this drawing.",
+      "there are three red circles in this drawing.",
+      "there are four red circles in this drawing.",
+      "there are five red circles in this drawing.",
+      "there are six red circles in this drawing."
+    ],
+    "C3_minimal": [
+      "one red circle.",
+      "two red circles.",
+      "three red circles.",
+      "four red circles.",
+      "five red circles.",
+      "six red circles."
+    ],
+    "C4_exactly": [
+      "a picture with exactly one red circle.",
+      "a picture with exactly two red circles.",
+      "a picture with exactly three red circles.",
+      "a picture with exactly four red circles.",
+      "a picture with exactly five red circles.",
+      "a picture with exactly six red circles."
+    ]
+  },
+  {
+    "C0_baseline": [
+      "a drawing of one red circle.",
+      "a drawing of two red circles.",
+      "a drawing of three red circles.",
+      "a drawing of four red circles.",
+      "a drawing of five red circles.",
+      "a drawing of six red circles."
+    ],
+    "C1_showing": [
+      "an image showing one red circle.",
+      "an image showing two red circles.",
+      "an image showing three red circles.",
+      "an image showing four red circles.",
+      "an image showing five red circles.",
+      "an image showing six red circles."
+    ],
+    "C2_there_are": [
+      "there are one red circle in this drawing.",
+      "there are two red circles in this drawing.",
+      "there are three red circles in this drawing.",
+      "there are four red circles in this drawing.",
+      "there are five red circles in this drawing.",
+      "there are six red circles in this drawing."
+    ],
+    "C3_minimal": [
+      "one red circle.",
+      "two red circles.",
+      "three red circles.",
+      "four red circles.",
+      "five red circles.",
+      "six red circles."
+    ],
+    "C4_exactly": [
+      "a picture with exactly one red circle.",
+      "a picture with exactly two red circles.",
+      "a picture with exactly three red circles.",
+      "a picture with exactly four red circles.",
+      "a picture with exactly five red circles.",
+      "a picture with exactly six red circles."
+    ]
+  },
+  {
+    "C0_baseline": [
+      "a drawing of one red circle.",
+      "a drawing of two red circles.",
+      "a drawing of three red circles.",
+      "a drawing of four red circles.",
+      "a drawing of five red circles.",
+      "a drawing of six red circles."
+    ],
+    "C1_showing": [
+      "an image showing one red circle.",
+      "an image showing two red circles.",
+      "an image showing three red circles.",
+      "an image showing four red circles.",
+      "an image showing five red circles.",
+      "an image showing six red circles."
+    ],
+    "C2_there_are": [
+      "there are one red circle in this drawing.",
+      "there are two red circles in this drawing.",
+      "there are three red circles in this drawing.",
+      "there are four red circles in this drawing.",
+      "there are five red circles in this drawing.",
+      "there are six red circles in this drawing."
+    ],
+    "C3_minimal": [
+      "one red circle.",
+      "two red circles.",
+      "three red circles.",
+      "four red circles.",
+      "five red circles.",
+      "six red circles."
+    ],
+    "C4_exactly": [
+      "a picture with exactly one red circle.",
+      "a picture with exactly two red circles.",
+      "a picture with exactly three red circles.",
+      "a picture with exactly four red circles.",
+      "a picture with exactly five red circles.",
+      "a picture with exactly six red circles."
+    ]
+  },
+  {
+    "C0_baseline": [
+      "a drawing of one red circle.",
+      "a drawing of two red circles.",
+      "a drawing of three red circles.",
+      "a drawing of four red circles.",
+      "a drawing of five red circles.",
+      "a drawing of six red circles."
+    ],
+    "C1_showing": [
+      "an image showing one red circle.",
+      "an image showing two red circles.",
+      "an image showing three red circles.",
+      "an image showing four red circles.",
+      "an image showing five red circles.",
+      "an image showing six red circles."
+    ],
+    "C2_there_are": [
+      "there are one red circle in this drawing.",
+      "there are two red circles in this drawing.",
+      "there are three red circles in this drawing.",
+      "there are four red circles in this drawing.",
+      "there are five red circles in this drawing.",
+      "there are six red circles in this drawing."
+    ],
+    "C3_minimal": [
+      "one red circle.",
+      "two red circles.",
+      "three red circles.",
+      "four red circles.",
+      "five red circles.",
+      "six red circles."
+    ],
+    "C4_exactly": [
+      "a picture with exactly one red circle.",
+      "a picture with exactly two red circles.",
+      "a picture with exactly three red circles.",
+      "a picture with exactly four red circles.",
+      "a picture with exactly five red circles.",
+      "a picture with exactly six red circles."
+    ]
+  },
+  {
+    "C0_baseline": [
+      "a drawing of one red circle.",
+      "a drawing of two red circles.",
+      "a drawing of three red circles.",
+      "a drawing of four red circles.",
+      "a drawing of five red circles.",
+      "a drawing of six red circles."
+    ],
+    "C1_showing": [
+      "an image showing one red circle.",
+      "an image showing two red circles.",
+      "an image showing three red circles.",
+      "an image showing four red circles.",
+      "an image showing five red circles.",
+      "an image showing six red circles."
+    ],
+    "C2_there_are": [
+      "there are one red circle in this drawing.",
+      "there are two red circles in this drawing.",
+      "there are three red circles in this drawing.",
+      "there are four red circles in this drawing.",
+      "there are five red circles in this drawing.",
+      "there are six red circles in this drawing."
+    ],
+    "C3_minimal": [
+      "one red circle.",
+      "two red circles.",
+      "three red circles.",
+      "four red circles.",
+      "five red circles.",
+      "six red circles."
+    ],
+    "C4_exactly": [
+      "a picture with exactly one red circle.",
+      "a picture with exactly two red circles.",
+      "a picture with exactly three red circles.",
+      "a picture with exactly four red circles.",
+      "a picture with exactly five red circles.",
+      "a picture with exactly six red circles."
+    ]
+  },
+  {
+    "C0_baseline": [
+      "a drawing of one red circle.",
+      "a drawing of two red circles.",
+      "a drawing of three red circles.",
+      "a drawing of four red circles.",
+      "a drawing of five red circles.",
+      "a drawing of six red circles."
+    ],
+    "C1_showing": [
+      "an image showing one red circle.",
+      "an image showing two red circles.",
+      "an image showing three red circles.",
+      "an image showing four red circles.",
+      "an image showing five red circles.",
+      "an image showing six red circles."
+    ],
+    "C2_there_are": [
+      "there are one red circle in this drawing.",
+      "there are two red circles in this drawing.",
+      "there are three red circles in this drawing.",
+      "there are four red circles in this drawing.",
+      "there are five red circles in this drawing.",
+      "there are six red circles in this drawing."
+    ],
+    "C3_minimal": [
+      "one red circle.",
+      "two red circles.",
+      "three red circles.",
+      "four red circles.",
+      "five red circles.",
+      "six red circles."
+    ],
+    "C4_exactly": [
+      "a picture with exactly one red circle.",
+      "a picture with exactly two red circles.",
+      "a picture with exactly three red circles.",
+      "a picture with exactly four red circles.",
+      "a picture with exactly five red circles.",
+      "a picture with exactly six red circles."
+    ]
+  },
+  {
+    "C0_baseline": [
+      "a drawing of one red circle.",
+      "a drawing of two red circles.",
+      "a drawing of three red circles.",
+      "a drawing of four red circles.",
+      "a drawing of five red circles.",
+      "a drawing of six red circles."
+    ],
+    "C1_showing": [
+      "an image showing one red circle.",
+      "an image showing two red circles.",
+      "an image showing three red circles.",
+      "an image showing four red circles.",
+      "an image showing five red circles.",
+      "an image showing six red circles."
+    ],
+    "C2_there_are": [
+      "there are one red circle in this drawing.",
+      "there are two red circles in this drawing.",
+      "there are three red circles in this drawing.",
+      "there are four red circles in this drawing.",
+      "there are five red circles in this drawing.",
+      "there are six red circles in this drawing."
+    ],
+    "C3_minimal": [
+      "one red circle.",
+      "two red circles.",
+      "three red circles.",
+      "four red circles.",
+      "five red circles.",
+      "six red circles."
+    ],
+    "C4_exactly": [
+      "a picture with exactly one red circle.",
+      "a picture with exactly two red circles.",
+      "a picture with exactly three red circles.",
+      "a picture with exactly four red circles.",
+      "a picture with exactly five red circles.",
+      "a picture with exactly six red circles."
+    ]
+  },
+  {
+    "C0_baseline": [
+      "a drawing of one red circle.",
+      "a drawing of two red circles.",
+      "a drawing of three red circles.",
+      "a drawing of four red circles.",
+      "a drawing of five red circles.",
+      "a drawing of six red circles."
+    ],
+    "C1_showing": [
+      "an image showing one red circle.",
+      "an image showing two red circles.",
+      "an image showing three red circles.",
+      "an image showing four red circles.",
+      "an image showing five red circles.",
+      "an image showing six red circles."
+    ],
+    "C2_there_are": [
+      "there are one red circle in this drawing.",
+      "there are two red circles in this drawing.",
+      "there are three red circles in this drawing.",
+      "there are four red circles in this drawing.",
+      "there are five red circles in this drawing.",
+      "there are six red circles in this drawing."
+    ],
+    "C3_minimal": [
+      "one red circle.",
+      "two red circles.",
+      "three red circles.",
+      "four red circles.",
+      "five red circles.",
+      "six red circles."
+    ],
+    "C4_exactly": [
+      "a picture with exactly one red circle.",
+      "a picture with exactly two red circles.",
+      "a picture with exactly three red circles.",
+      "a picture with exactly four red circles.",
+      "a picture with exactly five red circles.",
+      "a picture with exactly six red circles."
+    ]
+  },
+  {
+    "C0_baseline": [
+      "a drawing of one red circle.",
+      "a drawing of two red circles.",
+      "a drawing of three red circles.",
+      "a drawing of four red circles.",
+      "a drawing of five red circles.",
+      "a drawing of six red circles."
+    ],
+    "C1_showing": [
+      "an image showing one red circle.",
+      "an image showing two red circles.",
+      "an image showing three red circles.",
+      "an image showing four red circles.",
+      "an image showing five red circles.",
+      "an image showing six red circles."
+    ],
+    "C2_there_are": [
+      "there are one red circle in this drawing.",
+      "there are two red circles in this drawing.",
+      "there are three red circles in this drawing.",
+      "there are four red circles in this drawing.",
+      "there are five red circles in this drawing.",
+      "there are six red circles in this drawing."
+    ],
+    "C3_minimal": [
+      "one red circle.",
+      "two red circles.",
+      "three red circles.",
+      "four red circles.",
+      "five red circles.",
+      "six red circles."
+    ],
+    "C4_exactly": [
+      "a picture with exactly one red circle.",
+      "a picture with exactly two red circles.",
+      "a picture with exactly three red circles.",
+      "a picture with exactly four red circles.",
+      "a picture with exactly five red circles.",
+      "a picture with exactly six red circles."
+    ]
+  },
+  {
+    "C0_baseline": [
+      "a drawing of one red circle.",
+      "a drawing of two red circles.",
+      "a drawing of three red circles.",
+      "a drawing of four red circles.",
+      "a drawing of five red circles.",
+      "a drawing of six red circles."
+    ],
+    "C1_showing": [
+      "an image showing one red circle.",
+      "an image showing two red circles.",
+      "an image showing three red circles.",
+      "an image showing four red circles.",
+      "an image showing five red circles.",
+      "an image showing six red circles."
+    ],
+    "C2_there_are": [
+      "there are one red circle in this drawing.",
+      "there are two red circles in this drawing.",
+      "there are three red circles in this drawing.",
+      "there are four red circles in this drawing.",
+      "there are five red circles in this drawing.",
+      "there are six red circles in this drawing."
+    ],
+    "C3_minimal": [
+      "one red circle.",
+      "two red circles.",
+      "three red circles.",
+      "four red circles.",
+      "five red circles.",
+      "six red circles."
+    ],
+    "C4_exactly": [
+      "a picture with exactly one red circle.",
+      "a picture with exactly two red circles.",
+      "a picture with exactly three red circles.",
+      "a picture with exactly four red circles.",
+      "a picture with exactly five red circles.",
+      "a picture with exactly six red circles."
+    ]
+  },
+  {
+    "C0_baseline": [
+      "a drawing of one red circle.",
+      "a drawing of two red circles.",
+      "a drawing of three red circles.",
+      "a drawing of four red circles.",
+      "a drawing of five red circles.",
+      "a drawing of six red circles."
+    ],
+    "C1_showing": [
+      "an image showing one red circle.",
+      "an image showing two red circles.",
+      "an image showing three red circles.",
+      "an image showing four red circles.",
+      "an image showing five red circles.",
+      "an image showing six red circles."
+    ],
+    "C2_there_are": [
+      "there are one red circle in this drawing.",
+      "there are two red circles in this drawing.",
+      "there are three red circles in this drawing.",
+      "there are four red circles in this drawing.",
+      "there are five red circles in this drawing.",
+      "there are six red circles in this drawing."
+    ],
+    "C3_minimal": [
+      "one red circle.",
+      "two red circles.",
+      "three red circles.",
+      "four red circles.",
+      "five red circles.",
+      "six red circles."
+    ],
+    "C4_exactly": [
+      "a picture with exactly one red circle.",
+      "a picture with exactly two red circles.",
+      "a picture with exactly three red circles.",
+      "a picture with exactly four red circles.",
+      "a picture with exactly five red circles.",
+      "a picture with exactly six red circles."
+    ]
+  }
+]

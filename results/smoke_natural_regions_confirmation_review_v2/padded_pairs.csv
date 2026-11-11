@@ -1,0 +1,9 @@
+group_id,gap,correct,exact_tie,both_images_correct
+coco/410576,0.1152830719947815,True,False,True
+coco/59225,0.6340770721435547,True,False,True
+coco/469471,0.14570266008377075,True,False,True
+coco/318174,0.0826258659362793,True,False,True
+coco/19916,0.1797720193862915,True,False,True
+coco/364444,0.08504888415336609,True,False,True
+coco/273002,0.3967965543270111,True,False,True
+coco/185614,0.2045983076095581,True,False,True

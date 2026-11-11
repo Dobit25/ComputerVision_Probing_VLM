@@ -1,0 +1,2462 @@
+[
+  {
+    "sample_id": "negation/0/0/1/with_without",
+    "group_id": "negation/0/0",
+    "task": "negation",
+    "condition": "with_without",
+    "stratum": "present",
+    "target": 0,
+    "captions": [
+      "a drawing with a red circle.",
+      "a drawing without a red circle."
+    ],
+    "objects": [
+      {
+        "color": "red",
+        "shape": "circle",
+        "x": 51.22602166328356,
+        "y": 108.38521432056223,
+        "radius": 20.416643710947337
+      },
+      {
+        "color": "blue",
+        "shape": "square",
+        "x": 163.22602166328355,
+        "y": 108.38521432056223,
+        "radius": 20.416643710947337
+      }
+    ],
+    "background": 255,
+    "control_captions": [
+      "a drawing of a red circle and a blue square.",
+      "a drawing of a green circle and a blue square."
+    ],
+    "control_target": 0,
+    "present": true,
+    "target_color": "red",
+    "target_shape": "circle",
+    "pair_index": 0,
+    "layout": 0,
+    "image_path": "data/probing_v1/450ff08c4a3432f1d6b30c44d8477b81b11d1e184e86737a419ccf4dd8df2910.png",
+    "image_sha256": "d4a5d7f1565beeceb23490adda056874eb0effa983afb552392f287698cb68e1"
+  },
+  {
+    "sample_id": "negation/0/0/0/with_without",
+    "group_id": "negation/0/0",
+    "task": "negation",
+    "condition": "with_without",
+    "stratum": "absent",
+    "target": 1,
+    "captions": [
+      "a drawing with a red circle.",
+      "a drawing without a red circle."
+    ],
+    "objects": [
+      {
+        "color": "green",
+        "shape": "circle",
+        "x": 51.22602166328356,
+        "y": 108.38521432056223,
+        "radius": 20.416643710947337
+      },
+      {
+        "color": "blue",
+        "shape": "square",
+        "x": 163.22602166328355,
+        "y": 108.38521432056223,
+        "radius": 20.416643710947337
+      }
+    ],
+    "background": 255,
+    "control_captions": [
+      "a drawing of a red circle and a blue square.",
+      "a drawing of a green circle and a blue square."
+    ],
+    "control_target": 1,
+    "present": false,
+    "target_color": "red",
+    "target_shape": "circle",
+    "pair_index": 0,
+    "layout": 0,
+    "image_path": "data/probing_v1/7bb3dc69e7a0865a41d1cb36ae17a20acfe3b55eaff14ad53341471d75edfcb2.png",
+    "image_sha256": "b6f6e13bdb6060d32a1980e1191a425dd6fc22d143d2485a4d3ce0926ebf4a04"
+  },
+  {
+    "sample_id": "negation/0/1/1/with_without",
+    "group_id": "negation/0/1",
+    "task": "negation",
+    "condition": "with_without",
+    "stratum": "present",
+    "target": 0,
+    "captions": [
+      "a drawing with a red circle.",
+      "a drawing without a red circle."
+    ],
+    "objects": [
+      {
+        "color": "red",
+        "shape": "circle",
+        "x": 164.62904554783088,
+        "y": 114.23600081090491,
+        "radius": 19.221298418325638
+      },
+      {
+        "color": "blue",
+        "shape": "square",
+        "x": 52.62904554783089,
+        "y": 114.23600081090491,
+        "radius": 19.221298418325638
+      }
+    ],
+    "background": 245,
+    "control_captions": [
+      "a drawing of a red circle and a blue square.",
+      "a drawing of a green circle and a blue square."
+    ],
+    "control_target": 0,
+    "present": true,
+    "target_color": "red",
+    "target_shape": "circle",
+    "pair_index": 0,
+    "layout": 1,
+    "image_path": "data/probing_v1/d6d2d788f465a8ea0ae7bc4fc466fc37d168d2a40bcf8e5efdd29e2cdc4ce144.png",
+    "image_sha256": "37d2eed7f632fafacea48b060e31e9ea53e721b6ce563bc214ca658ffa0d591b"
+  },
+  {
+    "sample_id": "negation/0/1/0/with_without",
+    "group_id": "negation/0/1",
+    "task": "negation",
+    "condition": "with_without",
+    "stratum": "absent",
+    "target": 1,
+    "captions": [
+      "a drawing with a red circle.",
+      "a drawing without a red circle."
+    ],
+    "objects": [
+      {
+        "color": "green",
+        "shape": "circle",
+        "x": 164.62904554783088,
+        "y": 114.23600081090491,
+        "radius": 19.221298418325638
+      },
+      {
+        "color": "blue",
+        "shape": "square",
+        "x": 52.62904554783089,
+        "y": 114.23600081090491,
+        "radius": 19.221298418325638
+      }
+    ],
+    "background": 245,
+    "control_captions": [
+      "a drawing of a red circle and a blue square.",
+      "a drawing of a green circle and a blue square."
+    ],
+    "control_target": 1,
+    "present": false,
+    "target_color": "red",
+    "target_shape": "circle",
+    "pair_index": 0,
+    "layout": 1,
+    "image_path": "data/probing_v1/95fc28a17e2a1730129234212eceed7c23073661dc2b5ef3f730aad8ee1718fd.png",
+    "image_sha256": "77ed50f038ec543c2a05ac36e60e490cc26680311c8baf50060244582295660a"
+  },
+  {
+    "sample_id": "negation/0/2/1/with_without",
+    "group_id": "negation/0/2",
+    "task": "negation",
+    "condition": "with_without",
+    "stratum": "present",
+    "target": 0,
+    "captions": [
+      "a drawing with a red circle.",
+      "a drawing without a red circle."
+    ],
+    "objects": [
+      {
+        "color": "red",
+        "shape": "circle",
+        "x": 112.64431245810239,
+        "y": 60.78944450876406,
+        "radius": 21.360989902962345
+      },
+      {
+        "color": "blue",
+        "shape": "square",
+        "x": 112.64431245810239,
+        "y": 172.78944450876406,
+        "radius": 21.360989902962345
+      }
+    ],
+    "background": 255,
+    "control_captions": [
+      "a drawing of a red circle and a blue square.",
+      "a drawing of a green circle and a blue square."
+    ],
+    "control_target": 0,
+    "present": true,
+    "target_color": "red",
+    "target_shape": "circle",
+    "pair_index": 0,
+    "layout": 2,
+    "image_path": "data/probing_v1/28ddec5c6791591dbfa51e0cce056211053aa3c1dcf692fddacb396a05a881e1.png",
+    "image_sha256": "576f699085cf94311c12b9db17f5859880a926ac33c217b72961e7fd8bd04253"
+  },
+  {
+    "sample_id": "negation/0/2/0/with_without",
+    "group_id": "negation/0/2",
+    "task": "negation",
+    "condition": "with_without",
+    "stratum": "absent",
+    "target": 1,
+    "captions": [
+      "a drawing with a red circle.",
+      "a drawing without a red circle."
+    ],
+    "objects": [
+      {
+        "color": "green",
+        "shape": "circle",
+        "x": 112.64431245810239,
+        "y": 60.78944450876406,
+        "radius": 21.360989902962345
+      },
+      {
+        "color": "blue",
+        "shape": "square",
+        "x": 112.64431245810239,
+        "y": 172.78944450876406,
+        "radius": 21.360989902962345
+      }
+    ],
+    "background": 255,
+    "control_captions": [
+      "a drawing of a red circle and a blue square.",
+      "a drawing of a green circle and a blue square."
+    ],
+    "control_target": 1,
+    "present": false,
+    "target_color": "red",
+    "target_shape": "circle",
+    "pair_index": 0,
+    "layout": 2,
+    "image_path": "data/probing_v1/21c91a27b9b8bb76f07f6576d34a0e7568abc5abac182991653c630fe04e4f8f.png",
+    "image_sha256": "80ee54d962a4aac00dc3c690ea38659be36c07a1f52542b60a92aad802eb2242"
+  },
+  {
+    "sample_id": "negation/0/3/1/with_without",
+    "group_id": "negation/0/3",
+    "task": "negation",
+    "condition": "with_without",
+    "stratum": "present",
+    "target": 0,
+    "captions": [
+      "a drawing with a red circle.",
+      "a drawing without a red circle."
+    ],
+    "objects": [
+      {
+        "color": "red",
+        "shape": "circle",
+        "x": 110.38602446067041,
+        "y": 164.20859935225388,
+        "radius": 20.8868589191899
+      },
+      {
+        "color": "blue",
+        "shape": "square",
+        "x": 110.38602446067041,
+        "y": 52.20859935225388,
+        "radius": 20.8868589191899
+      }
+    ],
+    "background": 245,
+    "control_captions": [
+      "a drawing of a red circle and a blue square.",
+      "a drawing of a green circle and a blue square."
+    ],
+    "control_target": 0,
+    "present": true,
+    "target_color": "red",
+    "target_shape": "circle",
+    "pair_index": 0,
+    "layout": 3,
+    "image_path": "data/probing_v1/4c64092e6a24e557dee128c2bcf7aaa65776ec78f18403fc3cf7e53de17f3ef7.png",
+    "image_sha256": "805779c8d554aaa198a774a6de46f06d20ed901d94642e584221f5d757a76a25"
+  },
+  {
+    "sample_id": "negation/0/3/0/with_without",
+    "group_id": "negation/0/3",
+    "task": "negation",
+    "condition": "with_without",
+    "stratum": "absent",
+    "target": 1,
+    "captions": [
+      "a drawing with a red circle.",
+      "a drawing without a red circle."
+    ],
+    "objects": [
+      {
+        "color": "green",
+        "shape": "circle",
+        "x": 110.38602446067041,
+        "y": 164.20859935225388,
+        "radius": 20.8868589191899
+      },
+      {
+        "color": "blue",
+        "shape": "square",
+        "x": 110.38602446067041,
+        "y": 52.20859935225388,
+        "radius": 20.8868589191899
+      }
+    ],
+    "background": 245,
+    "control_captions": [
+      "a drawing of a red circle and a blue square.",
+      "a drawing of a green circle and a blue square."
+    ],
+    "control_target": 1,
+    "present": false,
+    "target_color": "red",
+    "target_shape": "circle",
+    "pair_index": 0,
+    "layout": 3,
+    "image_path": "data/probing_v1/84b9414824f2efe06076099a3b190b510b11855c39ce4df101a628eb23e1afab.png",
+    "image_sha256": "6ff17509e179401ca55abd846f6fdeb75e2b9cd8297795432290af077f52d22c"
+  },
+  {
+    "sample_id": "negation/0/4/1/with_without",
+    "group_id": "negation/0/4",
+    "task": "negation",
+    "condition": "with_without",
+    "stratum": "present",
+    "target": 0,
+    "captions": [
+      "a drawing with a red circle.",
+      "a drawing without a red circle."
+    ],
+    "objects": [
+      {
+        "color": "red",
+        "shape": "circle",
+        "x": 51.92543959504712,
+        "y": 111.25094791936124,
+        "radius": 18.752914921195284
+      },
+      {
+        "color": "blue",
+        "shape": "square",
+        "x": 163.92543959504712,
+        "y": 111.25094791936124,
+        "radius": 18.752914921195284
+      }
+    ],
+    "background": 255,
+    "control_captions": [
+      "a drawing of a red circle and a blue square.",
+      "a drawing of a green circle and a blue square."
+    ],
+    "control_target": 0,
+    "present": true,
+    "target_color": "red",
+    "target_shape": "circle",
+    "pair_index": 0,
+    "layout": 4,
+    "image_path": "data/probing_v1/5f75bb9d6c3831b566cc6a4077256e2f4fa2abfc4bb407dbe3b668fbcf0739f2.png",
+    "image_sha256": "5247462007ca4c93ad400234f8907b6445667d8131366f8fb05a41110f78ebcc"
+  },
+  {
+    "sample_id": "negation/0/4/0/with_without",
+    "group_id": "negation/0/4",
+    "task": "negation",
+    "condition": "with_without",
+    "stratum": "absent",
+    "target": 1,
+    "captions": [
+      "a drawing with a red circle.",
+      "a drawing without a red circle."
+    ],
+    "objects": [
+      {
+        "color": "green",
+        "shape": "circle",
+        "x": 51.92543959504712,
+        "y": 111.25094791936124,
+        "radius": 18.752914921195284
+      },
+      {
+        "color": "blue",
+        "shape": "square",
+        "x": 163.92543959504712,
+        "y": 111.25094791936124,
+        "radius": 18.752914921195284
+      }
+    ],
+    "background": 255,
+    "control_captions": [
+      "a drawing of a red circle and a blue square.",
+      "a drawing of a green circle and a blue square."
+    ],
+    "control_target": 1,
+    "present": false,
+    "target_color": "red",
+    "target_shape": "circle",
+    "pair_index": 0,
+    "layout": 4,
+    "image_path": "data/probing_v1/0586e96299f99b0ef989cab78bf91f26ab8dd225c02f9f4b00fab518d38378d4.png",
+    "image_sha256": "15fb49294d1c3a51dee0e12b0ea56d2aeb1a2ba1249e484199744a5f0d1543ca"
+  },
+  {
+    "sample_id": "negation/0/5/1/with_without",
+    "group_id": "negation/0/5",
+    "task": "negation",
+    "condition": "with_without",
+    "stratum": "present",
+    "target": 0,
+    "captions": [
+      "a drawing with a red circle.",
+      "a drawing without a red circle."
+    ],
+    "objects": [
+      {
+        "color": "red",
+        "shape": "circle",
+        "x": 172.1747545100077,
+        "y": 107.68280418247721,
+        "radius": 19.150757105701267
+      },
+      {
+        "color": "blue",
+        "shape": "square",
+        "x": 60.1747545100077,
+        "y": 107.68280418247721,
+        "radius": 19.150757105701267
+      }
+    ],
+    "background": 245,
+    "control_captions": [
+      "a drawing of a red circle and a blue square.",
+      "a drawing of a green circle and a blue square."
+    ],
+    "control_target": 0,
+    "present": true,
+    "target_color": "red",
+    "target_shape": "circle",
+    "pair_index": 0,
+    "layout": 5,
+    "image_path": "data/probing_v1/1a0358e46f5cae8ac6f253ab3fbd60c06e6d058a1db64b524d8518c081e100d7.png",
+    "image_sha256": "2f88c730d7d1dd75ff3ef6568b45020d8a121c8163f36f354630646f7c0c62fe"
+  },
+  {
+    "sample_id": "negation/0/5/0/with_without",
+    "group_id": "negation/0/5",
+    "task": "negation",
+    "condition": "with_without",
+    "stratum": "absent",
+    "target": 1,
+    "captions": [
+      "a drawing with a red circle.",
+      "a drawing without a red circle."
+    ],
+    "objects": [
+      {
+        "color": "green",
+        "shape": "circle",
+        "x": 172.1747545100077,
+        "y": 107.68280418247721,
+        "radius": 19.150757105701267
+      },
+      {
+        "color": "blue",
+        "shape": "square",
+        "x": 60.1747545100077,
+        "y": 107.68280418247721,
+        "radius": 19.150757105701267
+      }
+    ],
+    "background": 245,
+    "control_captions": [
+      "a drawing of a red circle and a blue square.",
+      "a drawing of a green circle and a blue square."
+    ],
+    "control_target": 1,
+    "present": false,
+    "target_color": "red",
+    "target_shape": "circle",
+    "pair_index": 0,
+    "layout": 5,
+    "image_path": "data/probing_v1/7f7813f3c4e0f7b1323f78eaf38105fefc7d56e2f286dd55513f1eae3db62b74.png",
+    "image_sha256": "52b98e857281cdb41dbbb18d216d33b6238082a7e8f7257b5f319e1e1053afc1"
+  },
+  {
+    "sample_id": "negation/0/6/1/with_without",
+    "group_id": "negation/0/6",
+    "task": "negation",
+    "condition": "with_without",
+    "stratum": "present",
+    "target": 0,
+    "captions": [
+      "a drawing with a red circle.",
+      "a drawing without a red circle."
+    ],
+    "objects": [
+      {
+        "color": "red",
+        "shape": "circle",
+        "x": 111.91802796431682,
+        "y": 51.38241148122012,
+        "radius": 19.569086265474148
+      },
+      {
+        "color": "blue",
+        "shape": "square",
+        "x": 111.91802796431682,
+        "y": 163.38241148122012,
+        "radius": 19.569086265474148
+      }
+    ],
+    "background": 255,
+    "control_captions": [
+      "a drawing of a red circle and a blue square.",
+      "a drawing of a green circle and a blue square."
+    ],
+    "control_target": 0,
+    "present": true,
+    "target_color": "red",
+    "target_shape": "circle",
+    "pair_index": 0,
+    "layout": 6,
+    "image_path": "data/probing_v1/8ff2d98f72c909f747099d99b43ec146bfc37216c22b615312bdf0c65f72cfd5.png",
+    "image_sha256": "31cdc4641df883ea3ddd3a1616b4ca5e0a41598c7b66fc8b5655b7c84e9129e2"
+  },
+  {
+    "sample_id": "negation/0/6/0/with_without",
+    "group_id": "negation/0/6",
+    "task": "negation",
+    "condition": "with_without",
+    "stratum": "absent",
+    "target": 1,
+    "captions": [
+      "a drawing with a red circle.",
+      "a drawing without a red circle."
+    ],
+    "objects": [
+      {
+        "color": "green",
+        "shape": "circle",
+        "x": 111.91802796431682,
+        "y": 51.38241148122012,
+        "radius": 19.569086265474148
+      },
+      {
+        "color": "blue",
+        "shape": "square",
+        "x": 111.91802796431682,
+        "y": 163.38241148122012,
+        "radius": 19.569086265474148
+      }
+    ],
+    "background": 255,
+    "control_captions": [
+      "a drawing of a red circle and a blue square.",
+      "a drawing of a green circle and a blue square."
+    ],
+    "control_target": 1,
+    "present": false,
+    "target_color": "red",
+    "target_shape": "circle",
+    "pair_index": 0,
+    "layout": 6,
+    "image_path": "data/probing_v1/212a54a7e3ea11561d6d54081304f3a8b2dcfa292492ac5da00a56cc53a84cb4.png",
+    "image_sha256": "4837ceb9ef20b594dbf1170a2ae18379b95ae1de117ddb12d0b50394a923c3e1"
+  },
+  {
+    "sample_id": "negation/0/7/1/with_without",
+    "group_id": "negation/0/7",
+    "task": "negation",
+    "condition": "with_without",
+    "stratum": "present",
+    "target": 0,
+    "captions": [
+      "a drawing with a red circle.",
+      "a drawing without a red circle."
+    ],
+    "objects": [
+      {
+        "color": "red",
+        "shape": "circle",
+        "x": 114.7902117286439,
+        "y": 171.27795846215432,
+        "radius": 19.16273946079925
+      },
+      {
+        "color": "blue",
+        "shape": "square",
+        "x": 114.7902117286439,
+        "y": 59.277958462154324,
+        "radius": 19.16273946079925
+      }
+    ],
+    "background": 245,
+    "control_captions": [
+      "a drawing of a red circle and a blue square.",
+      "a drawing of a green circle and a blue square."
+    ],
+    "control_target": 0,
+    "present": true,
+    "target_color": "red",
+    "target_shape": "circle",
+    "pair_index": 0,
+    "layout": 7,
+    "image_path": "data/probing_v1/cb98e68548f205b9a278dfdb3464663e9cceb9e2f5808e2b2751fe5da28c2f2e.png",
+    "image_sha256": "d59edf4332274351c53b2e78933b21f50c81fdf9650c3a7fefcbef1906bfd202"
+  },
+  {
+    "sample_id": "negation/0/7/0/with_without",
+    "group_id": "negation/0/7",
+    "task": "negation",
+    "condition": "with_without",
+    "stratum": "absent",
+    "target": 1,
+    "captions": [
+      "a drawing with a red circle.",
+      "a drawing without a red circle."
+    ],
+    "objects": [
+      {
+        "color": "green",
+        "shape": "circle",
+        "x": 114.7902117286439,
+        "y": 171.27795846215432,
+        "radius": 19.16273946079925
+      },
+      {
+        "color": "blue",
+        "shape": "square",
+        "x": 114.7902117286439,
+        "y": 59.277958462154324,
+        "radius": 19.16273946079925
+      }
+    ],
+    "background": 245,
+    "control_captions": [
+      "a drawing of a red circle and a blue square.",
+      "a drawing of a green circle and a blue square."
+    ],
+    "control_target": 1,
+    "present": false,
+    "target_color": "red",
+    "target_shape": "circle",
+    "pair_index": 0,
+    "layout": 7,
+    "image_path": "data/probing_v1/88f0ccdbbdebd6849a8411c9073fc83e0e0793d7e63b15b90e8a42fb6b3e317b.png",
+    "image_sha256": "c2c5740c6d4da77df93324236dffcea6e115ddfdd3794bd38786e8248f059450"
+  },
+  {
+    "sample_id": "negation/0/8/1/with_without",
+    "group_id": "negation/0/8",
+    "task": "negation",
+    "condition": "with_without",
+    "stratum": "present",
+    "target": 0,
+    "captions": [
+      "a drawing with a red circle.",
+      "a drawing without a red circle."
+    ],
+    "objects": [
+      {
+        "color": "red",
+        "shape": "circle",
+        "x": 53.216487340554636,
+        "y": 113.26873594305299,
+        "radius": 18.158206595978665
+      },
+      {
+        "color": "blue",
+        "shape": "square",
+        "x": 165.21648734055464,
+        "y": 113.26873594305299,
+        "radius": 18.158206595978665
+      }
+    ],
+    "background": 255,
+    "control_captions": [
+      "a drawing of a red circle and a blue square.",
+      "a drawing of a green circle and a blue square."
+    ],
+    "control_target": 0,
+    "present": true,
+    "target_color": "red",
+    "target_shape": "circle",
+    "pair_index": 0,
+    "layout": 8,
+    "image_path": "data/probing_v1/d75b6e26190ef9c79c4eeab38b1d743af0c31d942096ce69402cb2e8f1b23013.png",
+    "image_sha256": "bbd490873b29acb3e29ccaad0f81c669dc437dbfc930c5c3770e18491a9fe7a6"
+  },
+  {
+    "sample_id": "negation/0/8/0/with_without",
+    "group_id": "negation/0/8",
+    "task": "negation",
+    "condition": "with_without",
+    "stratum": "absent",
+    "target": 1,
+    "captions": [
+      "a drawing with a red circle.",
+      "a drawing without a red circle."
+    ],
+    "objects": [
+      {
+        "color": "green",
+        "shape": "circle",
+        "x": 53.216487340554636,
+        "y": 113.26873594305299,
+        "radius": 18.158206595978665
+      },
+      {
+        "color": "blue",
+        "shape": "square",
+        "x": 165.21648734055464,
+        "y": 113.26873594305299,
+        "radius": 18.158206595978665
+      }
+    ],
+    "background": 255,
+    "control_captions": [
+      "a drawing of a red circle and a blue square.",
+      "a drawing of a green circle and a blue square."
+    ],
+    "control_target": 1,
+    "present": false,
+    "target_color": "red",
+    "target_shape": "circle",
+    "pair_index": 0,
+    "layout": 8,
+    "image_path": "data/probing_v1/6de4e98319dccb0f4544b9d117f746e234c24f36e470bcf5d8ec536b414636f7.png",
+    "image_sha256": "7ac8369e1550c76125b87ee8ac5310dd39985533bad8f969b64c5d9c109402f5"
+  },
+  {
+    "sample_id": "negation/0/9/1/with_without",
+    "group_id": "negation/0/9",
+    "task": "negation",
+    "condition": "with_without",
+    "stratum": "present",
+    "target": 0,
+    "captions": [
+      "a drawing with a red circle.",
+      "a drawing without a red circle."
+    ],
+    "objects": [
+      {
+        "color": "red",
+        "shape": "circle",
+        "x": 170.8341780488025,
+        "y": 109.52802901396205,
+        "radius": 21.40839603970745
+      },
+      {
+        "color": "blue",
+        "shape": "square",
+        "x": 58.834178048802514,
+        "y": 109.52802901396205,
+        "radius": 21.40839603970745
+      }
+    ],
+    "background": 245,
+    "control_captions": [
+      "a drawing of a red circle and a blue square.",
+      "a drawing of a green circle and a blue square."
+    ],
+    "control_target": 0,
+    "present": true,
+    "target_color": "red",
+    "target_shape": "circle",
+    "pair_index": 0,
+    "layout": 9,
+    "image_path": "data/probing_v1/1099ec31b36a48585dfbb75f31f2952cc71511271b58f1fe8549b592d357c9e1.png",
+    "image_sha256": "dd65f070c3ef066d6cc8ea280ecd7d0f58603eaeabe4b59ab01ecfec14db4e90"
+  },
+  {
+    "sample_id": "negation/0/9/0/with_without",
+    "group_id": "negation/0/9",
+    "task": "negation",
+    "condition": "with_without",
+    "stratum": "absent",
+    "target": 1,
+    "captions": [
+      "a drawing with a red circle.",
+      "a drawing without a red circle."
+    ],
+    "objects": [
+      {
+        "color": "green",
+        "shape": "circle",
+        "x": 170.8341780488025,
+        "y": 109.52802901396205,
+        "radius": 21.40839603970745
+      },
+      {
+        "color": "blue",
+        "shape": "square",
+        "x": 58.834178048802514,
+        "y": 109.52802901396205,
+        "radius": 21.40839603970745
+      }
+    ],
+    "background": 245,
+    "control_captions": [
+      "a drawing of a red circle and a blue square.",
+      "a drawing of a green circle and a blue square."
+    ],
+    "control_target": 1,
+    "present": false,
+    "target_color": "red",
+    "target_shape": "circle",
+    "pair_index": 0,
+    "layout": 9,
+    "image_path": "data/probing_v1/fda6871ef3fbf675484c8afcadef048d4b9a84cf84be27cc69f033bc0496b591.png",
+    "image_sha256": "e1a62ee194629123b6e549980997b553b10acefaea3c01f88b3e3845dd8c4bd3"
+  },
+  {
+    "sample_id": "negation/1/0/1/with_without",
+    "group_id": "negation/1/0",
+    "task": "negation",
+    "condition": "with_without",
+    "stratum": "present",
+    "target": 0,
+    "captions": [
+      "a drawing with a red circle.",
+      "a drawing without a red circle."
+    ],
+    "objects": [
+      {
+        "color": "red",
+        "shape": "circle",
+        "x": 59.15170137848378,
+        "y": 108.2447628659686,
+        "radius": 19.084147907842286
+      },
+      {
+        "color": "blue",
+        "shape": "triangle",
+        "x": 171.15170137848378,
+        "y": 108.2447628659686,
+        "radius": 19.084147907842286
+      }
+    ],
+    "background": 255,
+    "control_captions": [
+      "a drawing of a red circle and a blue triangle.",
+      "a drawing of a green circle and a blue triangle."
+    ],
+    "control_target": 0,
+    "present": true,
+    "target_color": "red",
+    "target_shape": "circle",
+    "pair_index": 1,
+    "layout": 0,
+    "image_path": "data/probing_v1/421a1d23bb7b964c304882bec86ffcc325f0cc9544e59f34db8b61f9a2f8841f.png",
+    "image_sha256": "7f7137f70df2f1f0cea24ce4bff6b88314f087e7b5dda69461a6752bf1a4abdb"
+  },
+  {
+    "sample_id": "negation/1/0/0/with_without",
+    "group_id": "negation/1/0",
+    "task": "negation",
+    "condition": "with_without",
+    "stratum": "absent",
+    "target": 1,
+    "captions": [
+      "a drawing with a red circle.",
+      "a drawing without a red circle."
+    ],
+    "objects": [
+      {
+        "color": "green",
+        "shape": "circle",
+        "x": 59.15170137848378,
+        "y": 108.2447628659686,
+        "radius": 19.084147907842286
+      },
+      {
+        "color": "blue",
+        "shape": "triangle",
+        "x": 171.15170137848378,
+        "y": 108.2447628659686,
+        "radius": 19.084147907842286
+      }
+    ],
+    "background": 255,
+    "control_captions": [
+      "a drawing of a red circle and a blue triangle.",
+      "a drawing of a green circle and a blue triangle."
+    ],
+    "control_target": 1,
+    "present": false,
+    "target_color": "red",
+    "target_shape": "circle",
+    "pair_index": 1,
+    "layout": 0,
+    "image_path": "data/probing_v1/da1efee0740e7f12ee45ed338debf37f4914a9a791d49dcb334cc8f972466ec4.png",
+    "image_sha256": "5577b682c98d0cd436154ed95f96111b07a2abe5f03f4c4cc99fb1f36b68e2c0"
+  },
+  {
+    "sample_id": "negation/1/1/1/with_without",
+    "group_id": "negation/1/1",
+    "task": "negation",
+    "condition": "with_without",
+    "stratum": "present",
+    "target": 0,
+    "captions": [
+      "a drawing with a red circle.",
+      "a drawing without a red circle."
+    ],
+    "objects": [
+      {
+        "color": "red",
+        "shape": "circle",
+        "x": 168.7581987383514,
+        "y": 114.36870029388747,
+        "radius": 21.332516701476745
+      },
+      {
+        "color": "blue",
+        "shape": "triangle",
+        "x": 56.758198738351396,
+        "y": 114.36870029388747,
+        "radius": 21.332516701476745
+      }
+    ],
+    "background": 245,
+    "control_captions": [
+      "a drawing of a red circle and a blue triangle.",
+      "a drawing of a green circle and a blue triangle."
+    ],
+    "control_target": 0,
+    "present": true,
+    "target_color": "red",
+    "target_shape": "circle",
+    "pair_index": 1,
+    "layout": 1,
+    "image_path": "data/probing_v1/c556d85396e8fca2c7094e61001aa0087561618a1442b71271c0ed9733558ca3.png",
+    "image_sha256": "88d9bf7308b69bfd4ad436efe1a179bea44047c561c535e5b6ddd73cd359a6ed"
+  },
+  {
+    "sample_id": "negation/1/1/0/with_without",
+    "group_id": "negation/1/1",
+    "task": "negation",
+    "condition": "with_without",
+    "stratum": "absent",
+    "target": 1,
+    "captions": [
+      "a drawing with a red circle.",
+      "a drawing without a red circle."
+    ],
+    "objects": [
+      {
+        "color": "green",
+        "shape": "circle",
+        "x": 168.7581987383514,
+        "y": 114.36870029388747,
+        "radius": 21.332516701476745
+      },
+      {
+        "color": "blue",
+        "shape": "triangle",
+        "x": 56.758198738351396,
+        "y": 114.36870029388747,
+        "radius": 21.332516701476745
+      }
+    ],
+    "background": 245,
+    "control_captions": [
+      "a drawing of a red circle and a blue triangle.",
+      "a drawing of a green circle and a blue triangle."
+    ],
+    "control_target": 1,
+    "present": false,
+    "target_color": "red",
+    "target_shape": "circle",
+    "pair_index": 1,
+    "layout": 1,
+    "image_path": "data/probing_v1/0c8ea325bf4af032634d88c0528edd1c1dfe015417cbe76db37ebb74093c0bdd.png",
+    "image_sha256": "45704720a330b13b25a94f146c2f2dc2963a247f7c3d7a25ccee56e26fb7d4a9"
+  },
+  {
+    "sample_id": "negation/1/2/1/with_without",
+    "group_id": "negation/1/2",
+    "task": "negation",
+    "condition": "with_without",
+    "stratum": "present",
+    "target": 0,
+    "captions": [
+      "a drawing with a red circle.",
+      "a drawing without a red circle."
+    ],
+    "objects": [
+      {
+        "color": "red",
+        "shape": "circle",
+        "x": 112.81036605717675,
+        "y": 52.09606959895895,
+        "radius": 18.75967949436142
+      },
+      {
+        "color": "blue",
+        "shape": "triangle",
+        "x": 112.81036605717675,
+        "y": 164.09606959895893,
+        "radius": 18.75967949436142
+      }
+    ],
+    "background": 255,
+    "control_captions": [
+      "a drawing of a red circle and a blue triangle.",
+      "a drawing of a green circle and a blue triangle."
+    ],
+    "control_target": 0,
+    "present": true,
+    "target_color": "red",
+    "target_shape": "circle",
+    "pair_index": 1,
+    "layout": 2,
+    "image_path": "data/probing_v1/63c30dae3e02f8282538ff0e1f296d5cc4477e9a04678f73e7a4ef4c1c7e87c9.png",
+    "image_sha256": "3140dd7fe3de0b1c6a529e1e5003f0bcbbd6d5ce5cb0a9289c93605924c7b41c"
+  },
+  {
+    "sample_id": "negation/1/2/0/with_without",
+    "group_id": "negation/1/2",
+    "task": "negation",
+    "condition": "with_without",
+    "stratum": "absent",
+    "target": 1,
+    "captions": [
+      "a drawing with a red circle.",
+      "a drawing without a red circle."
+    ],
+    "objects": [
+      {
+        "color": "green",
+        "shape": "circle",
+        "x": 112.81036605717675,
+        "y": 52.09606959895895,
+        "radius": 18.75967949436142
+      },
+      {
+        "color": "blue",
+        "shape": "triangle",
+        "x": 112.81036605717675,
+        "y": 164.09606959895893,
+        "radius": 18.75967949436142
+      }
+    ],
+    "background": 255,
+    "control_captions": [
+      "a drawing of a red circle and a blue triangle.",
+      "a drawing of a green circle and a blue triangle."
+    ],
+    "control_target": 1,
+    "present": false,
+    "target_color": "red",
+    "target_shape": "circle",
+    "pair_index": 1,
+    "layout": 2,
+    "image_path": "data/probing_v1/e76e5b0cc1db02749061dde2e665bfc65fcc5ad912f2c6a3d9e20603ef4b6e94.png",
+    "image_sha256": "1d3175d9e33689785b92372371b428ffd69c717437ecdb114a4598167eef91b9"
+  },
+  {
+    "sample_id": "negation/1/3/1/with_without",
+    "group_id": "negation/1/3",
+    "task": "negation",
+    "condition": "with_without",
+    "stratum": "present",
+    "target": 0,
+    "captions": [
+      "a drawing with a red circle.",
+      "a drawing without a red circle."
+    ],
+    "objects": [
+      {
+        "color": "red",
+        "shape": "circle",
+        "x": 112.61645483347239,
+        "y": 172.00729848277302,
+        "radius": 18.33492722666941
+      },
+      {
+        "color": "blue",
+        "shape": "triangle",
+        "x": 112.61645483347239,
+        "y": 60.00729848277302,
+        "radius": 18.33492722666941
+      }
+    ],
+    "background": 245,
+    "control_captions": [
+      "a drawing of a red circle and a blue triangle.",
+      "a drawing of a green circle and a blue triangle."
+    ],
+    "control_target": 0,
+    "present": true,
+    "target_color": "red",
+    "target_shape": "circle",
+    "pair_index": 1,
+    "layout": 3,
+    "image_path": "data/probing_v1/6382918ad9b544ccbac2142a68debc858bb01db2a9428878d5e994c5c0b2609f.png",
+    "image_sha256": "004e91c66b88c307c00cde7ba4873b5bc545ffaa61a56c556a5ca095af7b406b"
+  },
+  {
+    "sample_id": "negation/1/3/0/with_without",
+    "group_id": "negation/1/3",
+    "task": "negation",
+    "condition": "with_without",
+    "stratum": "absent",
+    "target": 1,
+    "captions": [
+      "a drawing with a red circle.",
+      "a drawing without a red circle."
+    ],
+    "objects": [
+      {
+        "color": "green",
+        "shape": "circle",
+        "x": 112.61645483347239,
+        "y": 172.00729848277302,
+        "radius": 18.33492722666941
+      },
+      {
+        "color": "blue",
+        "shape": "triangle",
+        "x": 112.61645483347239,
+        "y": 60.00729848277302,
+        "radius": 18.33492722666941
+      }
+    ],
+    "background": 245,
+    "control_captions": [
+      "a drawing of a red circle and a blue triangle.",
+      "a drawing of a green circle and a blue triangle."
+    ],
+    "control_target": 1,
+    "present": false,
+    "target_color": "red",
+    "target_shape": "circle",
+    "pair_index": 1,
+    "layout": 3,
+    "image_path": "data/probing_v1/d79fb977e8e2b18be1e811edbde302972cac0eb28931904e36d2d517a7febe3d.png",
+    "image_sha256": "737d49337e6f3ed7b644891c7375f21af96cc3aacb054ae93448d9aeed546c58"
+  },
+  {
+    "sample_id": "negation/1/4/1/with_without",
+    "group_id": "negation/1/4",
+    "task": "negation",
+    "condition": "with_without",
+    "stratum": "present",
+    "target": 0,
+    "captions": [
+      "a drawing with a red circle.",
+      "a drawing without a red circle."
+    ],
+    "objects": [
+      {
+        "color": "red",
+        "shape": "circle",
+        "x": 54.069346550497656,
+        "y": 109.90528595172623,
+        "radius": 19.813040519664224
+      },
+      {
+        "color": "blue",
+        "shape": "triangle",
+        "x": 166.06934655049764,
+        "y": 109.90528595172623,
+        "radius": 19.813040519664224
+      }
+    ],
+    "background": 255,
+    "control_captions": [
+      "a drawing of a red circle and a blue triangle.",
+      "a drawing of a green circle and a blue triangle."
+    ],
+    "control_target": 0,
+    "present": true,
+    "target_color": "red",
+    "target_shape": "circle",
+    "pair_index": 1,
+    "layout": 4,
+    "image_path": "data/probing_v1/ea92028b8bea82036c4e21e7018ac59b9cfa1a6a6d116cef61940d1150ebbbed.png",
+    "image_sha256": "b1eeccaf2bffb1525c3b7adeec2ed7b6a51ef465aadbce0c90e8a346cebeaa86"
+  },
+  {
+    "sample_id": "negation/1/4/0/with_without",
+    "group_id": "negation/1/4",
+    "task": "negation",
+    "condition": "with_without",
+    "stratum": "absent",
+    "target": 1,
+    "captions": [
+      "a drawing with a red circle.",
+      "a drawing without a red circle."
+    ],
+    "objects": [
+      {
+        "color": "green",
+        "shape": "circle",
+        "x": 54.069346550497656,
+        "y": 109.90528595172623,
+        "radius": 19.813040519664224
+      },
+      {
+        "color": "blue",
+        "shape": "triangle",
+        "x": 166.06934655049764,
+        "y": 109.90528595172623,
+        "radius": 19.813040519664224
+      }
+    ],
+    "background": 255,
+    "control_captions": [
+      "a drawing of a red circle and a blue triangle.",
+      "a drawing of a green circle and a blue triangle."
+    ],
+    "control_target": 1,
+    "present": false,
+    "target_color": "red",
+    "target_shape": "circle",
+    "pair_index": 1,
+    "layout": 4,
+    "image_path": "data/probing_v1/984c0cda0f15d0c23d2f18e3e91f74c4cfd069956f57ea29d649535e87e872b2.png",
+    "image_sha256": "8fcf39bdcb8833b0f8a463ff473b3c8a224cddff01103f16ebb350f873ddd562"
+  },
+  {
+    "sample_id": "negation/1/5/1/with_without",
+    "group_id": "negation/1/5",
+    "task": "negation",
+    "condition": "with_without",
+    "stratum": "present",
+    "target": 0,
+    "captions": [
+      "a drawing with a red circle.",
+      "a drawing without a red circle."
+    ],
+    "objects": [
+      {
+        "color": "red",
+        "shape": "circle",
+        "x": 167.55950723464292,
+        "y": 116.52154738564664,
+        "radius": 20.779043842818727
+      },
+      {
+        "color": "blue",
+        "shape": "triangle",
+        "x": 55.55950723464291,
+        "y": 116.52154738564664,
+        "radius": 20.779043842818727
+      }
+    ],
+    "background": 245,
+    "control_captions": [
+      "a drawing of a red circle and a blue triangle.",
+      "a drawing of a green circle and a blue triangle."
+    ],
+    "control_target": 0,
+    "present": true,
+    "target_color": "red",
+    "target_shape": "circle",
+    "pair_index": 1,
+    "layout": 5,
+    "image_path": "data/probing_v1/12400e18c72a5fdf9fd284e88378b9f1405f74a535edb3fc44008dcb28d0808b.png",
+    "image_sha256": "187dc3a22fe5cc8b075ce777d9f623d49fb07a776fd04f8ee73fa8437739cf0d"
+  },
+  {
+    "sample_id": "negation/1/5/0/with_without",
+    "group_id": "negation/1/5",
+    "task": "negation",
+    "condition": "with_without",
+    "stratum": "absent",
+    "target": 1,
+    "captions": [
+      "a drawing with a red circle.",
+      "a drawing without a red circle."
+    ],
+    "objects": [
+      {
+        "color": "green",
+        "shape": "circle",
+        "x": 167.55950723464292,
+        "y": 116.52154738564664,
+        "radius": 20.779043842818727
+      },
+      {
+        "color": "blue",
+        "shape": "triangle",
+        "x": 55.55950723464291,
+        "y": 116.52154738564664,
+        "radius": 20.779043842818727
+      }
+    ],
+    "background": 245,
+    "control_captions": [
+      "a drawing of a red circle and a blue triangle.",
+      "a drawing of a green circle and a blue triangle."
+    ],
+    "control_target": 1,
+    "present": false,
+    "target_color": "red",
+    "target_shape": "circle",
+    "pair_index": 1,
+    "layout": 5,
+    "image_path": "data/probing_v1/2758487076c23973abc1477ae1bc2f0f5301c95dc478cb1a7b1e38c52f13c253.png",
+    "image_sha256": "3798d8833da35ec57681a1bc48e0c9c7d9f7bafe2a9f6bbfba02c050af43e71b"
+  },
+  {
+    "sample_id": "negation/1/6/1/with_without",
+    "group_id": "negation/1/6",
+    "task": "negation",
+    "condition": "with_without",
+    "stratum": "present",
+    "target": 0,
+    "captions": [
+      "a drawing with a red circle.",
+      "a drawing without a red circle."
+    ],
+    "objects": [
+      {
+        "color": "red",
+        "shape": "circle",
+        "x": 110.4621005470629,
+        "y": 51.401331698027654,
+        "radius": 18.56167852511168
+      },
+      {
+        "color": "blue",
+        "shape": "triangle",
+        "x": 110.4621005470629,
+        "y": 163.40133169802766,
+        "radius": 18.56167852511168
+      }
+    ],
+    "background": 255,
+    "control_captions": [
+      "a drawing of a red circle and a blue triangle.",
+      "a drawing of a green circle and a blue triangle."
+    ],
+    "control_target": 0,
+    "present": true,
+    "target_color": "red",
+    "target_shape": "circle",
+    "pair_index": 1,
+    "layout": 6,
+    "image_path": "data/probing_v1/09cda025177614cd6c9df9cadd90e0f9f940ef680ca27a833ac4797f1f4f16f3.png",
+    "image_sha256": "9f245dce85f9889d848b927194ddc4b27c5b2bdb9353c2ee6820ba915f185123"
+  },
+  {
+    "sample_id": "negation/1/6/0/with_without",
+    "group_id": "negation/1/6",
+    "task": "negation",
+    "condition": "with_without",
+    "stratum": "absent",
+    "target": 1,
+    "captions": [
+      "a drawing with a red circle.",
+      "a drawing without a red circle."
+    ],
+    "objects": [
+      {
+        "color": "green",
+        "shape": "circle",
+        "x": 110.4621005470629,
+        "y": 51.401331698027654,
+        "radius": 18.56167852511168
+      },
+      {
+        "color": "blue",
+        "shape": "triangle",
+        "x": 110.4621005470629,
+        "y": 163.40133169802766,
+        "radius": 18.56167852511168
+      }
+    ],
+    "background": 255,
+    "control_captions": [
+      "a drawing of a red circle and a blue triangle.",
+      "a drawing of a green circle and a blue triangle."
+    ],
+    "control_target": 1,
+    "present": false,
+    "target_color": "red",
+    "target_shape": "circle",
+    "pair_index": 1,
+    "layout": 6,
+    "image_path": "data/probing_v1/87f6b9ee90d754ec707b6ff71eaa940329c9155aff276033905097e1e9eab2db.png",
+    "image_sha256": "56f389d5e9375d404d9d49bf3cc6a2d1fce5d39799bc96b693dd6228628b8088"
+  },
+  {
+    "sample_id": "negation/1/7/1/with_without",
+    "group_id": "negation/1/7",
+    "task": "negation",
+    "condition": "with_without",
+    "stratum": "present",
+    "target": 0,
+    "captions": [
+      "a drawing with a red circle.",
+      "a drawing without a red circle."
+    ],
+    "objects": [
+      {
+        "color": "red",
+        "shape": "circle",
+        "x": 108.38951933509212,
+        "y": 171.31439972407816,
+        "radius": 21.645760025056013
+      },
+      {
+        "color": "blue",
+        "shape": "triangle",
+        "x": 108.38951933509212,
+        "y": 59.314399724078164,
+        "radius": 21.645760025056013
+      }
+    ],
+    "background": 245,
+    "control_captions": [
+      "a drawing of a red circle and a blue triangle.",
+      "a drawing of a green circle and a blue triangle."
+    ],
+    "control_target": 0,
+    "present": true,
+    "target_color": "red",
+    "target_shape": "circle",
+    "pair_index": 1,
+    "layout": 7,
+    "image_path": "data/probing_v1/e5349e8e82fde2854edcf0ccc6a4402a8f9139056ae3da4c78fc94c6720055cf.png",
+    "image_sha256": "294d11ab363d9e26ae3d095b2322579498218fa994ab563b65deb50399682eef"
+  },
+  {
+    "sample_id": "negation/1/7/0/with_without",
+    "group_id": "negation/1/7",
+    "task": "negation",
+    "condition": "with_without",
+    "stratum": "absent",
+    "target": 1,
+    "captions": [
+      "a drawing with a red circle.",
+      "a drawing without a red circle."
+    ],
+    "objects": [
+      {
+        "color": "green",
+        "shape": "circle",
+        "x": 108.38951933509212,
+        "y": 171.31439972407816,
+        "radius": 21.645760025056013
+      },
+      {
+        "color": "blue",
+        "shape": "triangle",
+        "x": 108.38951933509212,
+        "y": 59.314399724078164,
+        "radius": 21.645760025056013
+      }
+    ],
+    "background": 245,
+    "control_captions": [
+      "a drawing of a red circle and a blue triangle.",
+      "a drawing of a green circle and a blue triangle."
+    ],
+    "control_target": 1,
+    "present": false,
+    "target_color": "red",
+    "target_shape": "circle",
+    "pair_index": 1,
+    "layout": 7,
+    "image_path": "data/probing_v1/a74802b47ca16b1e838245a6cc98f38e2f55f9ec5c0c38f5be19d451c9da071a.png",
+    "image_sha256": "01bbecf45a76e83ff2f259808cf7c442bc8bfd29b145d3761542fc5e32a250c0"
+  },
+  {
+    "sample_id": "negation/1/8/1/with_without",
+    "group_id": "negation/1/8",
+    "task": "negation",
+    "condition": "with_without",
+    "stratum": "present",
+    "target": 0,
+    "captions": [
+      "a drawing with a red circle.",
+      "a drawing without a red circle."
+    ],
+    "objects": [
+      {
+        "color": "red",
+        "shape": "circle",
+        "x": 54.13395113791877,
+        "y": 107.80313277171084,
+        "radius": 19.69768211690917
+      },
+      {
+        "color": "blue",
+        "shape": "triangle",
+        "x": 166.13395113791876,
+        "y": 107.80313277171084,
+        "radius": 19.69768211690917
+      }
+    ],
+    "background": 255,
+    "control_captions": [
+      "a drawing of a red circle and a blue triangle.",
+      "a drawing of a green circle and a blue triangle."
+    ],
+    "control_target": 0,
+    "present": true,
+    "target_color": "red",
+    "target_shape": "circle",
+    "pair_index": 1,
+    "layout": 8,
+    "image_path": "data/probing_v1/c42ac0c75d55c0c50a4cf6fbc2c00044716b1f9f31e4b5d33ce4cc4c12f46700.png",
+    "image_sha256": "605125c9a347cfe64ae4a5c2c0c6ccbd66d2747047176b8f0a728c1b100680bf"
+  },
+  {
+    "sample_id": "negation/1/8/0/with_without",
+    "group_id": "negation/1/8",
+    "task": "negation",
+    "condition": "with_without",
+    "stratum": "absent",
+    "target": 1,
+    "captions": [
+      "a drawing with a red circle.",
+      "a drawing without a red circle."
+    ],
+    "objects": [
+      {
+        "color": "green",
+        "shape": "circle",
+        "x": 54.13395113791877,
+        "y": 107.80313277171084,
+        "radius": 19.69768211690917
+      },
+      {
+        "color": "blue",
+        "shape": "triangle",
+        "x": 166.13395113791876,
+        "y": 107.80313277171084,
+        "radius": 19.69768211690917
+      }
+    ],
+    "background": 255,
+    "control_captions": [
+      "a drawing of a red circle and a blue triangle.",
+      "a drawing of a green circle and a blue triangle."
+    ],
+    "control_target": 1,
+    "present": false,
+    "target_color": "red",
+    "target_shape": "circle",
+    "pair_index": 1,
+    "layout": 8,
+    "image_path": "data/probing_v1/30ed4d432b29c1be05e6b7e67f8da8fe16e844375d536fd544e9d4b7fc4d7790.png",
+    "image_sha256": "01528ae7f1874c82c2c92585a8d91c7bbbf58365b766900eb1b9681a41955b24"
+  },
+  {
+    "sample_id": "negation/1/9/1/with_without",
+    "group_id": "negation/1/9",
+    "task": "negation",
+    "condition": "with_without",
+    "stratum": "present",
+    "target": 0,
+    "captions": [
+      "a drawing with a red circle.",
+      "a drawing without a red circle."
+    ],
+    "objects": [
+      {
+        "color": "red",
+        "shape": "circle",
+        "x": 165.42636681392153,
+        "y": 113.11506186717227,
+        "radius": 18.638740754419917
+      },
+      {
+        "color": "blue",
+        "shape": "triangle",
+        "x": 53.42636681392155,
+        "y": 113.11506186717227,
+        "radius": 18.638740754419917
+      }
+    ],
+    "background": 245,
+    "control_captions": [
+      "a drawing of a red circle and a blue triangle.",
+      "a drawing of a green circle and a blue triangle."
+    ],
+    "control_target": 0,
+    "present": true,
+    "target_color": "red",
+    "target_shape": "circle",
+    "pair_index": 1,
+    "layout": 9,
+    "image_path": "data/probing_v1/6f132b236029bbbaeadbf7f3a7fb07d95df6d8f996808c4f4e541e489a6f28ab.png",
+    "image_sha256": "e87f49bdc663cb63348d15a26a3ded8031231f993f1d8e5db026c209444c74f5"
+  },
+  {
+    "sample_id": "negation/1/9/0/with_without",
+    "group_id": "negation/1/9",
+    "task": "negation",
+    "condition": "with_without",
+    "stratum": "absent",
+    "target": 1,
+    "captions": [
+      "a drawing with a red circle.",
+      "a drawing without a red circle."
+    ],
+    "objects": [
+      {
+        "color": "green",
+        "shape": "circle",
+        "x": 165.42636681392153,
+        "y": 113.11506186717227,
+        "radius": 18.638740754419917
+      },
+      {
+        "color": "blue",
+        "shape": "triangle",
+        "x": 53.42636681392155,
+        "y": 113.11506186717227,
+        "radius": 18.638740754419917
+      }
+    ],
+    "background": 245,
+    "control_captions": [
+      "a drawing of a red circle and a blue triangle.",
+      "a drawing of a green circle and a blue triangle."
+    ],
+    "control_target": 1,
+    "present": false,
+    "target_color": "red",
+    "target_shape": "circle",
+    "pair_index": 1,
+    "layout": 9,
+    "image_path": "data/probing_v1/e9860ddd074eb26e8ce993fccc5d7acbbfd588a68deda7501f734cd7354fe39d.png",
+    "image_sha256": "35109045fcc9c5a2bc901e1de727764f9bfb4b9e331302808fb657bb707897b8"
+  },
+  {
+    "sample_id": "negation/2/0/1/with_without",
+    "group_id": "negation/2/0",
+    "task": "negation",
+    "condition": "with_without",
+    "stratum": "present",
+    "target": 0,
+    "captions": [
+      "a drawing with a red square.",
+      "a drawing without a red square."
+    ],
+    "objects": [
+      {
+        "color": "red",
+        "shape": "square",
+        "x": 56.20797633959592,
+        "y": 114.96549298880183,
+        "radius": 19.58124562067245
+      },
+      {
+        "color": "blue",
+        "shape": "circle",
+        "x": 168.20797633959592,
+        "y": 114.96549298880183,
+        "radius": 19.58124562067245
+      }
+    ],
+    "background": 255,
+    "control_captions": [
+      "a drawing of a red square and a blue circle.",
+      "a drawing of a green square and a blue circle."
+    ],
+    "control_target": 0,
+    "present": true,
+    "target_color": "red",
+    "target_shape": "square",
+    "pair_index": 2,
+    "layout": 0,
+    "image_path": "data/probing_v1/22299066bd8583624ddf28bf4c6df5d66f87943749c6a6b96cef33350963bd83.png",
+    "image_sha256": "77755cd4486aa7d40a21599b1a6734380919d3310b25d93a8cb206ae07edc22f"
+  },
+  {
+    "sample_id": "negation/2/0/0/with_without",
+    "group_id": "negation/2/0",
+    "task": "negation",
+    "condition": "with_without",
+    "stratum": "absent",
+    "target": 1,
+    "captions": [
+      "a drawing with a red square.",
+      "a drawing without a red square."
+    ],
+    "objects": [
+      {
+        "color": "green",
+        "shape": "square",
+        "x": 56.20797633959592,
+        "y": 114.96549298880183,
+        "radius": 19.58124562067245
+      },
+      {
+        "color": "blue",
+        "shape": "circle",
+        "x": 168.20797633959592,
+        "y": 114.96549298880183,
+        "radius": 19.58124562067245
+      }
+    ],
+    "background": 255,
+    "control_captions": [
+      "a drawing of a red square and a blue circle.",
+      "a drawing of a green square and a blue circle."
+    ],
+    "control_target": 1,
+    "present": false,
+    "target_color": "red",
+    "target_shape": "square",
+    "pair_index": 2,
+    "layout": 0,
+    "image_path": "data/probing_v1/6b456666f803eab8cb6a117f41ff697f86d0a1aa7fa5112dee789fb0ea8308d5.png",
+    "image_sha256": "a8947ab6a6628d3bab7608416fe82e5ccfc8666f14e7a9270f698b9c6afb6cf1"
+  },
+  {
+    "sample_id": "negation/2/1/1/with_without",
+    "group_id": "negation/2/1",
+    "task": "negation",
+    "condition": "with_without",
+    "stratum": "present",
+    "target": 0,
+    "captions": [
+      "a drawing with a red square.",
+      "a drawing without a red square."
+    ],
+    "objects": [
+      {
+        "color": "red",
+        "shape": "square",
+        "x": 164.97597383862038,
+        "y": 110.0716752027649,
+        "radius": 19.494832511712737
+      },
+      {
+        "color": "blue",
+        "shape": "circle",
+        "x": 52.97597383862038,
+        "y": 110.0716752027649,
+        "radius": 19.494832511712737
+      }
+    ],
+    "background": 245,
+    "control_captions": [
+      "a drawing of a red square and a blue circle.",
+      "a drawing of a green square and a blue circle."
+    ],
+    "control_target": 0,
+    "present": true,
+    "target_color": "red",
+    "target_shape": "square",
+    "pair_index": 2,
+    "layout": 1,
+    "image_path": "data/probing_v1/3d90c804eb25b2abad03d31998a31772a3b05410212d82021bdb38d52f4a8d7d.png",
+    "image_sha256": "c9ab2dc2b3410a5ea8eb2e463b5b7eea16bdf7d2169157aab1ebeca3156ef543"
+  },
+  {
+    "sample_id": "negation/2/1/0/with_without",
+    "group_id": "negation/2/1",
+    "task": "negation",
+    "condition": "with_without",
+    "stratum": "absent",
+    "target": 1,
+    "captions": [
+      "a drawing with a red square.",
+      "a drawing without a red square."
+    ],
+    "objects": [
+      {
+        "color": "green",
+        "shape": "square",
+        "x": 164.97597383862038,
+        "y": 110.0716752027649,
+        "radius": 19.494832511712737
+      },
+      {
+        "color": "blue",
+        "shape": "circle",
+        "x": 52.97597383862038,
+        "y": 110.0716752027649,
+        "radius": 19.494832511712737
+      }
+    ],
+    "background": 245,
+    "control_captions": [
+      "a drawing of a red square and a blue circle.",
+      "a drawing of a green square and a blue circle."
+    ],
+    "control_target": 1,
+    "present": false,
+    "target_color": "red",
+    "target_shape": "square",
+    "pair_index": 2,
+    "layout": 1,
+    "image_path": "data/probing_v1/701f1cef38c097696dd9b95aef2e268e9d28933bd22cc3850e04c022f4a11d53.png",
+    "image_sha256": "dd433c6f192bc5a19a3bc278a9fcc1cec99e7acdf00cdb3088353d33379fd87f"
+  },
+  {
+    "sample_id": "negation/2/2/1/with_without",
+    "group_id": "negation/2/2",
+    "task": "negation",
+    "condition": "with_without",
+    "stratum": "present",
+    "target": 0,
+    "captions": [
+      "a drawing with a red square.",
+      "a drawing without a red square."
+    ],
+    "objects": [
+      {
+        "color": "red",
+        "shape": "square",
+        "x": 108.15669354436714,
+        "y": 53.70013497547409,
+        "radius": 18.65103654442016
+      },
+      {
+        "color": "blue",
+        "shape": "circle",
+        "x": 108.15669354436714,
+        "y": 165.7001349754741,
+        "radius": 18.65103654442016
+      }
+    ],
+    "background": 255,
+    "control_captions": [
+      "a drawing of a red square and a blue circle.",
+      "a drawing of a green square and a blue circle."
+    ],
+    "control_target": 0,
+    "present": true,
+    "target_color": "red",
+    "target_shape": "square",
+    "pair_index": 2,
+    "layout": 2,
+    "image_path": "data/probing_v1/17226fd672fccdb917d15dd993d681b9f3761a9baefa15e961e2ffb550575993.png",
+    "image_sha256": "a521700826c991eaca109cc3bb6d0ca834dfe863eecc16760878ad19081667c1"
+  },
+  {
+    "sample_id": "negation/2/2/0/with_without",
+    "group_id": "negation/2/2",
+    "task": "negation",
+    "condition": "with_without",
+    "stratum": "absent",
+    "target": 1,
+    "captions": [
+      "a drawing with a red square.",
+      "a drawing without a red square."
+    ],
+    "objects": [
+      {
+        "color": "green",
+        "shape": "square",
+        "x": 108.15669354436714,
+        "y": 53.70013497547409,
+        "radius": 18.65103654442016
+      },
+      {
+        "color": "blue",
+        "shape": "circle",
+        "x": 108.15669354436714,
+        "y": 165.7001349754741,
+        "radius": 18.65103654442016
+      }
+    ],
+    "background": 255,
+    "control_captions": [
+      "a drawing of a red square and a blue circle.",
+      "a drawing of a green square and a blue circle."
+    ],
+    "control_target": 1,
+    "present": false,
+    "target_color": "red",
+    "target_shape": "square",
+    "pair_index": 2,
+    "layout": 2,
+    "image_path": "data/probing_v1/0abbd47e820d29dc2bd80557967c8f8ceecf1f625a257dd0ac3975f39e3cc355.png",
+    "image_sha256": "d9bee58db5161e5a4d3cd2ce4463f27c1139518473bc1ddefdee85b7634b6927"
+  },
+  {
+    "sample_id": "negation/2/3/1/with_without",
+    "group_id": "negation/2/3",
+    "task": "negation",
+    "condition": "with_without",
+    "stratum": "present",
+    "target": 0,
+    "captions": [
+      "a drawing with a red square.",
+      "a drawing without a red square."
+    ],
+    "objects": [
+      {
+        "color": "red",
+        "shape": "square",
+        "x": 116.9936247873749,
+        "y": 166.06851223697066,
+        "radius": 21.544754158745143
+      },
+      {
+        "color": "blue",
+        "shape": "circle",
+        "x": 116.9936247873749,
+        "y": 54.068512236970655,
+        "radius": 21.544754158745143
+      }
+    ],
+    "background": 245,
+    "control_captions": [
+      "a drawing of a red square and a blue circle.",
+      "a drawing of a green square and a blue circle."
+    ],
+    "control_target": 0,
+    "present": true,
+    "target_color": "red",
+    "target_shape": "square",
+    "pair_index": 2,
+    "layout": 3,
+    "image_path": "data/probing_v1/c515aa099b2cbd2487da1d19e9f997f5e0a75a5b3c7735de8481415e6fae8c84.png",
+    "image_sha256": "f9b568aa1376d5c47235e67d088ef26b3abc892cc23abfbaf0cd4cdadb0ce6e9"
+  },
+  {
+    "sample_id": "negation/2/3/0/with_without",
+    "group_id": "negation/2/3",
+    "task": "negation",
+    "condition": "with_without",
+    "stratum": "absent",
+    "target": 1,
+    "captions": [
+      "a drawing with a red square.",
+      "a drawing without a red square."
+    ],
+    "objects": [
+      {
+        "color": "green",
+        "shape": "square",
+        "x": 116.9936247873749,
+        "y": 166.06851223697066,
+        "radius": 21.544754158745143
+      },
+      {
+        "color": "blue",
+        "shape": "circle",
+        "x": 116.9936247873749,
+        "y": 54.068512236970655,
+        "radius": 21.544754158745143
+      }
+    ],
+    "background": 245,
+    "control_captions": [
+      "a drawing of a red square and a blue circle.",
+      "a drawing of a green square and a blue circle."
+    ],
+    "control_target": 1,
+    "present": false,
+    "target_color": "red",
+    "target_shape": "square",
+    "pair_index": 2,
+    "layout": 3,
+    "image_path": "data/probing_v1/2c8c6bdd63ce9ed41f9365e0f1ff0637e75f32fda12fc000aab89f34c8b82096.png",
+    "image_sha256": "566d972390d9eb99229e8a02fd4ca1e8568dd4b82f8603e7060ba8e0e07d3929"
+  },
+  {
+    "sample_id": "negation/2/4/1/with_without",
+    "group_id": "negation/2/4",
+    "task": "negation",
+    "condition": "with_without",
+    "stratum": "present",
+    "target": 0,
+    "captions": [
+      "a drawing with a red square.",
+      "a drawing without a red square."
+    ],
+    "objects": [
+      {
+        "color": "red",
+        "shape": "square",
+        "x": 56.05118601421662,
+        "y": 111.9651059641478,
+        "radius": 18.92084453790374
+      },
+      {
+        "color": "blue",
+        "shape": "circle",
+        "x": 168.05118601421663,
+        "y": 111.9651059641478,
+        "radius": 18.92084453790374
+      }
+    ],
+    "background": 255,
+    "control_captions": [
+      "a drawing of a red square and a blue circle.",
+      "a drawing of a green square and a blue circle."
+    ],
+    "control_target": 0,
+    "present": true,
+    "target_color": "red",
+    "target_shape": "square",
+    "pair_index": 2,
+    "layout": 4,
+    "image_path": "data/probing_v1/6fc0240008a72abdd54e8bc738ad3a53913eb8b3934f367ed502335abf172382.png",
+    "image_sha256": "60a36e7e94e46457100c7da2579567f657840c6b87208412cb40ca49e2c8a1ae"
+  },
+  {
+    "sample_id": "negation/2/4/0/with_without",
+    "group_id": "negation/2/4",
+    "task": "negation",
+    "condition": "with_without",
+    "stratum": "absent",
+    "target": 1,
+    "captions": [
+      "a drawing with a red square.",
+      "a drawing without a red square."
+    ],
+    "objects": [
+      {
+        "color": "green",
+        "shape": "square",
+        "x": 56.05118601421662,
+        "y": 111.9651059641478,
+        "radius": 18.92084453790374
+      },
+      {
+        "color": "blue",
+        "shape": "circle",
+        "x": 168.05118601421663,
+        "y": 111.9651059641478,
+        "radius": 18.92084453790374
+      }
+    ],
+    "background": 255,
+    "control_captions": [
+      "a drawing of a red square and a blue circle.",
+      "a drawing of a green square and a blue circle."
+    ],
+    "control_target": 1,
+    "present": false,
+    "target_color": "red",
+    "target_shape": "square",
+    "pair_index": 2,
+    "layout": 4,
+    "image_path": "data/probing_v1/9b0bafd3e595cf46c76a4aafc8b677c3712e0889af0a6ac9e781729c4e84fc9e.png",
+    "image_sha256": "7004d443c66b5c9a08cfe5e189ee4ac7d69a327243f8975f3a3d77cfb8afbb59"
+  },
+  {
+    "sample_id": "negation/2/5/1/with_without",
+    "group_id": "negation/2/5",
+    "task": "negation",
+    "condition": "with_without",
+    "stratum": "present",
+    "target": 0,
+    "captions": [
+      "a drawing with a red square.",
+      "a drawing without a red square."
+    ],
+    "objects": [
+      {
+        "color": "red",
+        "shape": "square",
+        "x": 171.32198949126007,
+        "y": 116.46992533198181,
+        "radius": 21.06281334175442
+      },
+      {
+        "color": "blue",
+        "shape": "circle",
+        "x": 59.321989491260055,
+        "y": 116.46992533198181,
+        "radius": 21.06281334175442
+      }
+    ],
+    "background": 245,
+    "control_captions": [
+      "a drawing of a red square and a blue circle.",
+      "a drawing of a green square and a blue circle."
+    ],
+    "control_target": 0,
+    "present": true,
+    "target_color": "red",
+    "target_shape": "square",
+    "pair_index": 2,
+    "layout": 5,
+    "image_path": "data/probing_v1/d5e38381e0eb7cd4b85f9b515382ae8150bd65f9fa2f5f0f434c2218289b9250.png",
+    "image_sha256": "7f876d79893a0a0f1abaecef9a93ff492d2f9707d978bf6a89c4561ee3493849"
+  },
+  {
+    "sample_id": "negation/2/5/0/with_without",
+    "group_id": "negation/2/5",
+    "task": "negation",
+    "condition": "with_without",
+    "stratum": "absent",
+    "target": 1,
+    "captions": [
+      "a drawing with a red square.",
+      "a drawing without a red square."
+    ],
+    "objects": [
+      {
+        "color": "green",
+        "shape": "square",
+        "x": 171.32198949126007,
+        "y": 116.46992533198181,
+        "radius": 21.06281334175442
+      },
+      {
+        "color": "blue",
+        "shape": "circle",
+        "x": 59.321989491260055,
+        "y": 116.46992533198181,
+        "radius": 21.06281334175442
+      }
+    ],
+    "background": 245,
+    "control_captions": [
+      "a drawing of a red square and a blue circle.",
+      "a drawing of a green square and a blue circle."
+    ],
+    "control_target": 1,
+    "present": false,
+    "target_color": "red",
+    "target_shape": "square",
+    "pair_index": 2,
+    "layout": 5,
+    "image_path": "data/probing_v1/f2d23050e414fbad31898904648aef329a6a0e499f49cb85fedfdcf6d74ffa5d.png",
+    "image_sha256": "4a24bab03c5063fc2d73a4c5aa293e009207b54e39cc9829903761106e672982"
+  },
+  {
+    "sample_id": "negation/2/6/1/with_without",
+    "group_id": "negation/2/6",
+    "task": "negation",
+    "condition": "with_without",
+    "stratum": "present",
+    "target": 0,
+    "captions": [
+      "a drawing with a red square.",
+      "a drawing without a red square."
+    ],
+    "objects": [
+      {
+        "color": "red",
+        "shape": "square",
+        "x": 107.91769104144315,
+        "y": 53.454936151799664,
+        "radius": 18.017323047394086
+      },
+      {
+        "color": "blue",
+        "shape": "circle",
+        "x": 107.91769104144315,
+        "y": 165.45493615179967,
+        "radius": 18.017323047394086
+      }
+    ],
+    "background": 255,
+    "control_captions": [
+      "a drawing of a red square and a blue circle.",
+      "a drawing of a green square and a blue circle."
+    ],
+    "control_target": 0,
+    "present": true,
+    "target_color": "red",
+    "target_shape": "square",
+    "pair_index": 2,
+    "layout": 6,
+    "image_path": "data/probing_v1/f44f857778d470a939ff97c6b815e83488f0d892dc5b4fd7f20bcc6b386c9f32.png",
+    "image_sha256": "3727bbc8c39fe677fd686463cea0d6cfe70242a5aaef090253626f4aec087d25"
+  },
+  {
+    "sample_id": "negation/2/6/0/with_without",
+    "group_id": "negation/2/6",
+    "task": "negation",
+    "condition": "with_without",
+    "stratum": "absent",
+    "target": 1,
+    "captions": [
+      "a drawing with a red square.",
+      "a drawing without a red square."
+    ],
+    "objects": [
+      {
+        "color": "green",
+        "shape": "square",
+        "x": 107.91769104144315,
+        "y": 53.454936151799664,
+        "radius": 18.017323047394086
+      },
+      {
+        "color": "blue",
+        "shape": "circle",
+        "x": 107.91769104144315,
+        "y": 165.45493615179967,
+        "radius": 18.017323047394086
+      }
+    ],
+    "background": 255,
+    "control_captions": [
+      "a drawing of a red square and a blue circle.",
+      "a drawing of a green square and a blue circle."
+    ],
+    "control_target": 1,
+    "present": false,
+    "target_color": "red",
+    "target_shape": "square",
+    "pair_index": 2,
+    "layout": 6,
+    "image_path": "data/probing_v1/5097430faca212ef55ccfe360d22c2e5af977451a13e8a5ba06c507d14deb2bf.png",
+    "image_sha256": "562588ceb5ec1202bb39c6e262aa096f671167503b1137592a875f904f730e2e"
+  },
+  {
+    "sample_id": "negation/2/7/1/with_without",
+    "group_id": "negation/2/7",
+    "task": "negation",
+    "condition": "with_without",
+    "stratum": "present",
+    "target": 0,
+    "captions": [
+      "a drawing with a red square.",
+      "a drawing without a red square."
+    ],
+    "objects": [
+      {
+        "color": "red",
+        "shape": "square",
+        "x": 111.86854516243297,
+        "y": 165.39946004809258,
+        "radius": 20.017884141420573
+      },
+      {
+        "color": "blue",
+        "shape": "circle",
+        "x": 111.86854516243297,
+        "y": 53.39946004809259,
+        "radius": 20.017884141420573
+      }
+    ],
+    "background": 245,
+    "control_captions": [
+      "a drawing of a red square and a blue circle.",
+      "a drawing of a green square and a blue circle."
+    ],
+    "control_target": 0,
+    "present": true,
+    "target_color": "red",
+    "target_shape": "square",
+    "pair_index": 2,
+    "layout": 7,
+    "image_path": "data/probing_v1/04a09919c98c4490fb55c4cc4987297cbdeac7d9a46783e93873f605c665c915.png",
+    "image_sha256": "002bd26929e32a7d136898ec411b0cb91dec9c8169d863963250ca86715bdbc9"
+  },
+  {
+    "sample_id": "negation/2/7/0/with_without",
+    "group_id": "negation/2/7",
+    "task": "negation",
+    "condition": "with_without",
+    "stratum": "absent",
+    "target": 1,
+    "captions": [
+      "a drawing with a red square.",
+      "a drawing without a red square."
+    ],
+    "objects": [
+      {
+        "color": "green",
+        "shape": "square",
+        "x": 111.86854516243297,
+        "y": 165.39946004809258,
+        "radius": 20.017884141420573
+      },
+      {
+        "color": "blue",
+        "shape": "circle",
+        "x": 111.86854516243297,
+        "y": 53.39946004809259,
+        "radius": 20.017884141420573
+      }
+    ],
+    "background": 245,
+    "control_captions": [
+      "a drawing of a red square and a blue circle.",
+      "a drawing of a green square and a blue circle."
+    ],
+    "control_target": 1,
+    "present": false,
+    "target_color": "red",
+    "target_shape": "square",
+    "pair_index": 2,
+    "layout": 7,
+    "image_path": "data/probing_v1/5f1b5fc3346bda7f45a941665f9d5c0fccc7c411a9f1622afd35b621d4fe31cb.png",
+    "image_sha256": "70d9eb65c22984fad23e15ce8e082c507d6b542c69fe06c8dc7786c41df17dd2"
+  },
+  {
+    "sample_id": "negation/2/8/1/with_without",
+    "group_id": "negation/2/8",
+    "task": "negation",
+    "condition": "with_without",
+    "stratum": "present",
+    "target": 0,
+    "captions": [
+      "a drawing with a red square.",
+      "a drawing without a red square."
+    ],
+    "objects": [
+      {
+        "color": "red",
+        "shape": "square",
+        "x": 55.76758167424903,
+        "y": 112.11720141848895,
+        "radius": 21.48444266249009
+      },
+      {
+        "color": "blue",
+        "shape": "circle",
+        "x": 167.76758167424902,
+        "y": 112.11720141848895,
+        "radius": 21.48444266249009
+      }
+    ],
+    "background": 255,
+    "control_captions": [
+      "a drawing of a red square and a blue circle.",
+      "a drawing of a green square and a blue circle."
+    ],
+    "control_target": 0,
+    "present": true,
+    "target_color": "red",
+    "target_shape": "square",
+    "pair_index": 2,
+    "layout": 8,
+    "image_path": "data/probing_v1/f521368324388c3a1685c4505c827592e37607aee3759ce4c322c866f54b445f.png",
+    "image_sha256": "351f788273d99884310f521ae6388dbe5e5fcd22d0f766b31ed98b0783708747"
+  },
+  {
+    "sample_id": "negation/2/8/0/with_without",
+    "group_id": "negation/2/8",
+    "task": "negation",
+    "condition": "with_without",
+    "stratum": "absent",
+    "target": 1,
+    "captions": [
+      "a drawing with a red square.",
+      "a drawing without a red square."
+    ],
+    "objects": [
+      {
+        "color": "green",
+        "shape": "square",
+        "x": 55.76758167424903,
+        "y": 112.11720141848895,
+        "radius": 21.48444266249009
+      },
+      {
+        "color": "blue",
+        "shape": "circle",
+        "x": 167.76758167424902,
+        "y": 112.11720141848895,
+        "radius": 21.48444266249009
+      }
+    ],
+    "background": 255,
+    "control_captions": [
+      "a drawing of a red square and a blue circle.",
+      "a drawing of a green square and a blue circle."
+    ],
+    "control_target": 1,
+    "present": false,
+    "target_color": "red",
+    "target_shape": "square",
+    "pair_index": 2,
+    "layout": 8,
+    "image_path": "data/probing_v1/42d9d4b72529aca1ae6aff31492addaa9a3209c20c81dde7e3dbc3447dfad544.png",
+    "image_sha256": "b9baba0b86f134c8a1d5cf9e57b29be00df83730867319a90ebe70047f5eadea"
+  },
+  {
+    "sample_id": "negation/2/9/1/with_without",
+    "group_id": "negation/2/9",
+    "task": "negation",
+    "condition": "with_without",
+    "stratum": "present",
+    "target": 0,
+    "captions": [
+      "a drawing with a red square.",
+      "a drawing without a red square."
+    ],
+    "objects": [
+      {
+        "color": "red",
+        "shape": "square",
+        "x": 169.34296941165604,
+        "y": 108.34672282023294,
+        "radius": 20.826805554978165
+      },
+      {
+        "color": "blue",
+        "shape": "circle",
+        "x": 57.34296941165606,
+        "y": 108.34672282023294,
+        "radius": 20.826805554978165
+      }
+    ],
+    "background": 245,
+    "control_captions": [
+      "a drawing of a red square and a blue circle.",
+      "a drawing of a green square and a blue circle."
+    ],
+    "control_target": 0,
+    "present": true,
+    "target_color": "red",
+    "target_shape": "square",
+    "pair_index": 2,
+    "layout": 9,
+    "image_path": "data/probing_v1/fed2f842e0390c453a22875a727d8abff25c1480d34eb3212790870e43f0196b.png",
+    "image_sha256": "3f1ebcf6598e64f7f9c9a027cbe2142f0d31e68a5c57908fd054453bc86493ca"
+  },
+  {
+    "sample_id": "negation/2/9/0/with_without",
+    "group_id": "negation/2/9",
+    "task": "negation",
+    "condition": "with_without",
+    "stratum": "absent",
+    "target": 1,
+    "captions": [
+      "a drawing with a red square.",
+      "a drawing without a red square."
+    ],
+    "objects": [
+      {
+        "color": "green",
+        "shape": "square",
+        "x": 169.34296941165604,
+        "y": 108.34672282023294,
+        "radius": 20.826805554978165
+      },
+      {
+        "color": "blue",
+        "shape": "circle",
+        "x": 57.34296941165606,
+        "y": 108.34672282023294,
+        "radius": 20.826805554978165
+      }
+    ],
+    "background": 245,
+    "control_captions": [
+      "a drawing of a red square and a blue circle.",
+      "a drawing of a green square and a blue circle."
+    ],
+    "control_target": 1,
+    "present": false,
+    "target_color": "red",
+    "target_shape": "square",
+    "pair_index": 2,
+    "layout": 9,
+    "image_path": "data/probing_v1/f727c34e9f4544724b8a50071859c38156a7bbc7c034960e413bbf54d0072cfa.png",
+    "image_sha256": "98cc554a51f8d5283c999c77a15599b65ea1ddbcc263f978e1941a7d11fe46f4"
+  }
+]

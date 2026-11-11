@@ -1,0 +1,11 @@
+{
+  "run": "results/full_spatial_mitigation_v1",
+  "artifact_integrity_verified": true,
+  "manifest_sha256": "31fdb3b7da6cd8a702cdd8a9ac76d179c0568c138b1b661baf29651bab8a20f1",
+  "metrics_recomputed": true,
+  "n": 1440,
+  "region_to_relational_scores_recomputed": false,
+  "limitation": "Legacy run saved final relational scores, not per-region scores.",
+  "legacy_config_protocol_note": "Legacy config.json/protocol.md contain depth defaults; extension configs/protocols are identified by input_sha256. New runs use study_config.json and the actual protocol.",
+  "derived_sha256": {}
+}

@@ -1,0 +1,195 @@
+\documentclass[11pt,a4paper]{article}
+\usepackage[margin=18mm,top=16mm,bottom=16mm]{geometry}
+\usepackage{fontspec,amsmath,booktabs,graphicx,titlesec,caption}
+\IfFontExistsTF{Times New Roman}{\setmainfont{Times New Roman}}{\setmainfont{TeX Gyre Termes}}
+\usepackage[unicode,hidelinks]{hyperref}
+\renewcommand{\tablename}{Bảng}\renewcommand{\refname}{Tài liệu tham khảo}
+\titleformat{\section}{\normalsize\bfseries}{\thesection.}{0.5em}{}
+\titlespacing*{\section}{0pt}{7pt}{3pt}
+\setlength{\parindent}{0pt}\setlength{\parskip}{5pt}\setlength{\tabcolsep}{5pt}
+\renewcommand{\arraystretch}{1.12}\emergencystretch=2em
+\begin{document}
+\begin{center}{\Large\bfseries Thăm dò CLIP ViT-B/32: độ nhất quán không gian,\\ độ nhạy prompt và chuyển ngữ tiếng Việt}\\[5pt]
+{\small Topic 14 — Computer Vision\quad |\quad Bản rà soát: 11/11/2026}
+\end{center}
+\textbf{Tóm tắt.} Nghiên cứu đánh giá một checkpoint CLIP cố định qua năm bộ dữ liệu phân loại và các phép thăm dò có đối chứng. Baseline trên 46.948 ảnh cho thấy khả năng nhận dạng thay đổi theo miền; các can thiệp vị trí cho thấy accuracy từng ảnh không phản ánh đầy đủ độ nhất quán cả cặp. Trong nghiên cứu tiếp nối dùng quy tắc chia vùng, COCO 200 nguồn (4 lựa chọn): 72,25\% so 29,00\% holistic. COCO 100 nguồn (2 lựa chọn): 92,50\% so 51,50\% holistic. Các bộ COCO đã mở kết quả và chưa có reviewer người độc lập, nên chưa gọi đây là xác nhận ngoài mẫu mới. Trên CIFAR-100, ensemble bảy prompt đạt 64,97\%, tăng 0,49 điểm phần trăm so baseline; prompt Việt có dấu đạt 5,10\%. Chênh lệch ngôn ngữ đồng xuất hiện với phân mảnh tokenizer, song chưa chứng minh quan hệ nhân quả. Bài viết phân biệt kết quả được tính lại từ scores, phân tích tiếp nối và các giới hạn phương pháp.
+
+\textbf{Trạng thái bằng chứng.} Đã có 5/5 bộ dữ liệu với kết quả prompt được audit; 2/2 bộ COCO có kết quả chia vùng mới. Các run bổ sung đã hoàn thành và được audit; ảnh và bản dịch vẫn chờ reviewer người. Rà soát độc lập bởi người và kiểm bản dịch chưa có phiếu hoàn thành; các bảng không điền kết quả dự kiến cho các run đang chờ.
+
+\section{Bài toán và câu hỏi nghiên cứu}
+CLIP học biểu diễn ảnh và văn bản để so khớp bằng điểm tương đồng~\cite{clip}. Trong phân loại zero-shot, tên lớp được đưa vào prompt; lớp có điểm cao nhất được chọn. Hiệu năng nhận dạng tốt chưa đủ để suy ra mô hình nhạy đúng với số lượng, thứ tự mô tả hay quan hệ giữa vật thể. ARO và Winoground đã đặt ra các phép kiểm tính kết hợp ảnh--text~\cite{aro,winoground}; nghiên cứu phủ định cũng cho thấy cần đánh giá theo thiết kế nhiệm vụ~\cite{negbench}.
+
+Hướng tiếng Việt đã có các nghiên cứu như ViCLIP-OT về truy hồi ảnh--text~\cite{viclip}. Ở đây nhóm giữ checkpoint CLIP gốc và đo classification trên cùng ảnh khi đổi prompt; không tuyên bố đây là nghiên cứu đầu tiên về VLM tiếng Việt.
+
+Bốn câu hỏi được xét: (RQ1) hiệu năng phân loại và các nhóm lỗi thay đổi thế nào theo miền; (RQ2) dự đoán có nhất quán khi quan hệ đổi; (RQ3) prompt và ensemble ảnh hưởng ra sao; (RQ4) thay ngôn ngữ prompt trên cùng ảnh làm thay đổi kết quả thế nào. Đóng góp của nhóm là chuỗi kiểm tra hành vi có metadata và đối chứng trên một checkpoint, không phải kết luận về mọi VLM hoặc cơ chế neuron.
+
+\newpage
+\section{Dữ liệu, mô hình và giao thức}
+Dùng OpenAI CLIP ViT-B/32 pretrained, giữ trọng số, QuickGELU, FP32, preprocessing checkpoint và batch 32. Ảnh và text được mã hóa, chuẩn hóa L2; $s(I,c)=\hat v(I)^\top\hat t(c)$. Phân loại bằng argmax trên toàn bộ lớp của dataset. Không huấn luyện lại. Nguồn dữ liệu, checksum, split, class order và environment được lưu trong manifest.
+
+\begin{center}\small
+\captionof{table}{Baseline zero-shot trên split test gốc.}
+\begin{tabular}{@{}lrrr@{}}\toprule
+Dataset & Lớp & Ảnh test & Top-1 (\%)\\\midrule
+CIFAR-100 & 100 & 10000 & 64,48\\
+Flowers102 & 102 & 6149 & 63,77\\
+Oxford-IIIT Pet & 37 & 3669 & 85,06\\
+DTD partition 1 & 47 & 1880 & 42,45\\
+Food-101 & 101 & 25250 & 82,31\\
+\bottomrule\end{tabular}\end{center}
+
+Counting gồm 1.080 ảnh hình học, sáu lựa chọn số lượng 1--6 và hai chế độ kích thước; spatial core có 720 ảnh, bốn quan hệ; negation có 720 ảnh và hai cặp diễn đạt, thành 1.440 lượt chấm. Fine-grained CIFAR dùng coarse label thật để giới hạn còn năm lớp; đây là chẩn đoán oracle, không phải cải thiện bài 100 lớp. DTD chỉ xét partition 1. Các dataset có số lớp và độ khó khác nhau nên không dùng chênh accuracy giữa dataset làm hiệu ứng thay model.
+
+Spatial depth có 120 nhóm bố cục, ba ngoại hình và bốn quan hệ, tổng 1.440 ảnh/8.640 lượt chấm. Ảnh COCO cũ có 200 nguồn; tập ghép cặp tiếp theo có 100 nguồn không trùng 400 ứng viên từng được xem. Mỗi nguồn có mirror; phiên bản lật không là nguồn ảnh độc lập. Tập 100 nguồn đã được mở kết quả trước các phân tích ensemble/chia vùng hiện nay.
+
+Metric chính gồm top-1, mean per-class và chênh lệch ghép cặp khi so hai điều kiện trên cùng ảnh. CI bootstrap giữ mọi biến thể cùng nguồn/cảnh trong một nhóm. Classification dùng bootstrap phân tầng theo nhãn; hai tập nguồn khác nhau dùng lấy mẫu độc lập. Cụ thể số bootstrap/seed được lưu theo phiên bản giao thức, không thay âm thầm. Không gộp accuracy 2-way, 4-way, 6-way và oracle thành một điểm tổng.
+
+Với template ensemble, chuẩn hóa từng vector text, lấy trung bình đều và chuẩn hóa lại theo lớp. Logit ensemble lấy trung bình cosine; probability ensemble lấy trung bình softmax với scale 100 cố định. Ensemble embedding được chọn làm so sánh chính trong phần mở rộng đa miền; các phép còn lại là phân tích phụ. Prompt tốt nhất trên test chỉ được gọi là best observed.
+
+\newpage
+\section{Baseline, core probing và đối chứng category}
+Năm baseline bao phủ 46.948 ảnh. Độ chính xác tổng cao vẫn có thể đi cùng lớp yếu: Oxford Pet đạt 85,06\% nhưng Bombay đúng 0/88; CIFAR-100 đạt 64,48\% nhưng ray đúng 5/100. Phân tích theo lớp vì vậy cần đi cùng support và confusion, không chỉ accuracy trung bình.
+
+\begin{center}\small
+\captionof{table}{Core probing và đối chứng nhận dạng.}
+\begin{tabular}{@{}lrrl@{}}\toprule
+Core probe & Accuracy (\%) & Nhận dạng control (\%) & Giới hạn chính\\\midrule
+Counting (6-way) & 32,87 & 74,44 & Hình học; còn lỗi nhận dạng\\
+Spatial (4-way) & 29,58 & 97,50 & Nhạy với cấu trúc/cảnh\\
+Negation (2-way) & 86,11 & 97,64 & Hình học đơn giản\\
+Fine-grained (5-way) & 77,95 & --- & Có coarse label thật\\
+\bottomrule\end{tabular}\end{center}
+
+Counting có MAE 1,0157 vật thể; bán kính cố định và diện tích tổng gần cố định đạt lần lượt 32,41\% và 33,33\%. Control nhận dạng chưa hoàn hảo, nên khó khăn đếm không được quy hoàn toàn cho biểu diễn số lượng. Ngược lại, spatial giữ control cao nhưng chỉ 0\% nhóm core đúng cả bốn quan hệ, hỗ trợ phân biệt nhận dạng thuộc tính với tính nhất quán quan hệ trong bộ cảnh.
+
+Negation đạt 91,39\% với with/without và 80,83\% với contains/does not contain. Kết quả tương đối tốt trong nhiệm vụ này không hỗ trợ phát biểu CLIP luôn thất bại về phủ định. Chỉ 58,61\% nhóm đúng đồng thời các biến thể present/absent và hai template; accuracy từng lượt và consistency cả nhóm là hai đại lượng khác nhau.
+
+Trên CIFAR-100 đủ 100 ứng viên, thêm category thật làm accuracy giảm từ 64,48\% xuống 62,92\%, tức $-1,56$ điểm phần trăm (CI paired depth [$-2,14$; $-0,98$]). Neutral suffix đạt 64,09\%; trung bình năm category shuffle đạt 54,19\%. Điểm lớp thật tăng trung bình 0,001628, trong khi đối thủ mạnh nhất tăng 0,002908, khiến margin giảm 0,001280. Category phù hợp tốt hơn category sai nhưng chưa tốt hơn baseline với suffix đã dùng. Hai phiên bản bootstrap category v1 và depth có số draws/seed khác nhau; báo cáo dùng CI depth và không sửa artifact v1.
+
+Các cặp nhầm Flowers/Pet/Food là quan sát hậu nghiệm, còn CIFAR oracle 5-way là chẩn đoán trong nhóm. Mức tăng từ 64,48\% lên 77,95\% khi thu hẹp ứng viên không được trình bày như một cải tiến zero-shot có thể triển khai khi chưa biết coarse label.
+
+\newpage
+\section{Độ nhạy prompt và ensemble}
+Bảy template CIFAR gồm baseline, nhãn trần và mô tả clear/centered/low-resolution/bright/cropped. Một số biến thể bổ sung thông tin hình ảnh, nên spread phản ánh độ nhạy với bộ prompt được định nghĩa, không chỉ đổi cách diễn đạt gần nghĩa. Cùng 10.000 ảnh, class order và checkpoint được giữ cố định. Baseline run mới khớp 10.000/10.000 dự đoán cũ; sai khác cosine lớp thật tối đa $3,28\times10^{-7}$.
+
+\begin{center}\small
+\captionof{table}{CIFAR-100: bảy template và ba ensemble; CI paired theo ảnh, phân tầng lớp.}
+\begin{tabular}{@{}lrrl@{}}\toprule
+Điều kiện & Top-1 (\%) & $\Delta$ (điểm \%) & CI 95\% của $\Delta$\\\midrule
+T0\_baseline & 64,48 & 0,00 & [0,00; 0,00]\\
+T1\_minimal & 60,39 & -4,09 & [-4,78; -3,43]\\
+T2\_clear & 62,88 & -1,60 & [-2,10; -1,14]\\
+T3\_centered & 64,26 & -0,22 & [-0,74; 0,28]\\
+T4\_domain & 64,02 & -0,46 & [-0,96; 0,01]\\
+T5\_bright & 63,04 & -1,44 & [-1,96; -0,90]\\
+T6\_cropped & 64,30 & -0,18 & [-0,67; 0,29]\\
+logit\_average\_ensemble & 64,95 & 0,47 & [0,09; 0,83]\\
+probability\_average\_ensemble & 65,00 & 0,52 & [0,16; 0,88]\\
+text\_embedding\_ensemble & 64,97 & 0,49 & [0,10; 0,89]\\
+\bottomrule\end{tabular}\end{center}
+
+Không single template mới nào vượt T0 trong bộ này. Embedding ensemble tăng 0,49 điểm phần trăm, CI paired [0,10; 0,89]. Đây là cải thiện nhỏ trong một dataset và bộ template cụ thể. Các CI là CI biên của từng so sánh; không diễn giải ba ensemble như ba lần xác nhận độc lập, không chọn probability ensemble vì nó có điểm cao nhất rồi gọi là primary định trước.
+
+\begin{center}\small
+\captionof{table}{Embedding ensemble đa miền: T là top-1, M là macro theo lớp, đơn vị phần trăm; CI cho delta top-1 (điểm phần trăm).}
+\begin{tabular}{@{}lrrll@{}}\toprule
+Dataset & Base T / M & Ens. T / M & CI của $\Delta$ & Trạng thái\\\midrule
+CIFAR-100 & 64,48 / 64,48 & 64,97 / 64,97 & [0,10; 0,89] & Đã audit\\
+Flowers102 & 63,77 / 64,23 & 65,46 / 65,76 & [1,19; 2,20] & Đã audit\\
+Oxford-IIIT Pet & 85,06 / 84,72 & 85,61 / 85,30 & [0,05; 1,04] & Đã audit\\
+DTD partition 1 & 42,45 / 42,45 & 41,91 / 41,91 & [-1,49; 0,32] & Đã audit\\
+Food-101 & 82,31 / 82,31 & 83,52 / 83,52 & [1,02; 1,40] & Đã audit\\
+\bottomrule\end{tabular}\end{center}
+
+Giao thức tiếp nối giữ nguyên bộ bảy template khi mở bốn dataset còn lại, không điều chỉnh theo CIFAR. Riêng DTD, T0 giữ suffix texture; T4 dùng đúng một cụm mô tả texture. Bộ N4/D4 là một phương án khác và chưa được tính vào kết quả này. Các CI trong bảng là CI riêng từng dataset, chưa hiệu chỉnh familywise. Không cộng tất cả ảnh các miền thành một phép so độc lập. CIFAR-100: 0,49 điểm phần trăm, CI [0,10; 0,89]. Flowers102: 1,69 điểm phần trăm, CI [1,19; 2,20]. Oxford-IIIT Pet: 0,55 điểm phần trăm, CI [0,05; 1,04]. DTD partition 1: -0,53 điểm phần trăm, CI [-1,49; 0,32]. Food-101: 1,21 điểm phần trăm, CI [1,02; 1,40].
+
+Run counting/negation cũ thiếu scores nên giữ nguyên và chạy lại thành run mới. Run mới lưu đủ scores, caption, nhãn và dự đoán; metrics và CI khớp run cũ. Counting: single dao động 20,83--32,87\%; embedding ensemble 28,52\%. Negation: single dao động 62,78--91,39\%; embedding ensemble 84,17\%. Ensemble không mặc nhiên tốt hơn baseline. Các bộ ảnh này đã mở; phân tích tiếp nối không biến chúng thành holdout mới.
+
+\newpage
+\section{Độ nhất quán không gian và phương pháp chia vùng}
+Với hai ảnh đã sắp theo quan hệ trái/phải và hai caption tương ứng, đặt $d_0=S_{00}-S_{01}$, $d_1=S_{10}-S_{11}$; $B=(d_0+d_1)/2$, $\delta=(d_0-d_1)/2$. Đây là phép phân rã đại số: cả hai ảnh đúng khi $\delta>|B|$ (bỏ trường hợp hòa), còn ghép cặp đúng khi $2\delta>0$. Thành phần trung bình trong cặp có thể lớn trong khi hiệu thay đổi rất nhỏ.
+
+\begin{center}\small
+\captionof{table}{Phân rã mô tả các cặp ngang; mọi tỷ lệ trong bảng này dùng hai lựa chọn.}
+\begin{tabular}{@{}lrrrrr@{}}\toprule
+Bộ ảnh & Cặp & PSR & Cùng nhãn (\%) & Ghép đúng (\%) & Cả hai đúng (\%)\\\midrule
+Hình học & 360 & 11,32 & 98,61 & 45,00 & 1,11\\
+COCO cũ & 100 & 11,18 & 93,00 & 54,00 & 4,00\\
+COCO mới & 100 & 16,69 & 95,00 & 53,00 & 4,00\\
+\bottomrule\end{tabular}\end{center}
+
+PSR là tỷ số trung bình $|B|$ và trung bình $|\delta|$. Nó mô tả cấu trúc điểm trên cặp, không định vị một bias trong text encoder hoặc chứng minh nguyên nhân ở kiến trúc. Trên tập 100 nguồn, kết quả chính cũ là 53,00\%, CI Wilson [43,29; 62,49]\%, $p=0,3086$. Không bác bỏ giả thuyết $p_{\rm correct}\leq0,5$ không chứng minh xác suất thật bằng 0,5. Cùng tập chỉ 4,00\% cặp đúng cả hai ảnh riêng rẽ, phù hợp việc một caption thường thắng trên cả hai ảnh.
+
+Sau tự rà soát nhãn cũ, giữ 176/200 nguồn và accuracy 4-way là 28,41\% thay vì 28,00\%; đây là sensitivity hậu nghiệm do cùng AI reviewer, chưa là xác nhận bởi người. Tập lọc không còn cân bằng hoàn toàn bốn nhãn.
+
+Phương pháp chia vùng dùng bốn nửa ảnh và prompt nhận dạng A/B. Điểm trái là $h=(s_L(A)-s_R(A))-(s_L(B)-s_R(B))$, điểm phải là $-h$; trên/dưới tương tự. Mỗi điều kiện dùng bốn lượt mã hóa vùng cho một ảnh, so với một lượt holistic; chi phí suy luận và quy tắc kết hợp khác nhau. Run hình học đạt 100,00\% trên 1.440 ảnh. Run hình học mới lưu đủ scores từng vùng và relational scores; audit kiểm lại phép kết hợp vùng, dự đoán và metrics. Kết quả giữ nguyên 100\% so với run cũ. CI bootstrap [100;100] trên bộ này không loại trừ sai số ngoài phân phối.
+
+\begin{center}\small
+\captionof{table}{Chia vùng COCO và CI bootstrap theo source; delta paired cùng ảnh.}
+\begin{tabular}{@{}llll@{}}\toprule
+Bộ ảnh & Lựa chọn & Chia vùng (\%), CI & $\Delta$ so holistic, CI\\\midrule
+COCO 200 nguồn native & 4 & 72,25 [66,25; 78,25] & 43,25 [35,50; 50,75]\\
+COCO 200 nguồn pad & 4 & 68,75 [62,75; 74,25] & 39,75 [32,25; 47,25]\\
+COCO 100 nguồn native & 2 & 92,50 [87,50; 97,00] & 41,00 [36,00; 45,50]\\
+COCO 100 nguồn pad & 2 & 91,50 [86,50; 96,00] & 40,00 [34,50; 45,00]\\
+\bottomrule\end{tabular}\end{center}
+
+COCO 200 nguồn: holistic 29,00\%; cả hai ảnh đúng 69,50\% ở cách gốc và 62,50\% ở padding, so 10,50\% holistic. COCO 100 nguồn: holistic 51,50\%; cả hai ảnh đúng 91,00\% ở cách gốc và 88,00\% ở padding, so 4,00\% holistic. Nửa ảnh chữ nhật qua preprocessing chuẩn sẽ bị center crop thêm. Control padding đặt nửa ảnh giữa canvas vuông với nền gần mean checkpoint, được cố định trước inference COCO. Đây là điều kiện phụ; không thay primary sau khi xem kết quả. Padding cũng thay nền và kích thước tương đối.
+
+Mô phỏng dựa trên bbox COCO trước đây không phải accuracy thực đo của CLIP chia vùng và không bảo đảm là trần của mọi phương pháp. Giao thức run mới crop cùng vùng nhìn baseline trước khi chia nửa, lưu cả scores vùng, so cùng ảnh với T2 holistic và bootstrap theo nguồn. Hai bộ COCO đều đã mở, nên kết quả phương pháp mới sẽ là nghiên cứu tiếp nối.
+
+\newpage
+\section{Chuyển prompt sang tiếng Việt}
+Giữ nguyên 10.000 ảnh và 100 lớp; thay ngôn ngữ tên lớp và khung câu. Bộ từ điển hiện là bản dịch trong code, chưa có phiếu review người độc lập. Những câu lai là control chẩn đoán, không đại diện cách nói tự nhiên chuẩn.
+
+\begin{center}\small
+\captionof{table}{So sánh ngôn ngữ trên cùng 10.000 ảnh CIFAR-100.}
+\begin{tabular}{@{}lrrl@{}}\toprule
+Ngôn ngữ & Top-1 (\%) & $\Delta$ so EN & CI 95\% của $\Delta$\\\midrule
+en\_baseline & 64,48 & 0,00 & [0,00; 0,00]\\
+vi\_diacritics & 5,10 & -59,38 & [-60,24; -58,53]\\
+vi\_no\_diacritics & 4,05 & -60,43 & [-61,28; -59,57]\\
+en\_frame\_vi\_label & 5,44 & -59,04 & [-59,91; -58,16]\\
+vi\_frame\_en\_label & 55,10 & -9,38 & [-10,15; -8,62]\\
+vi\_en\_bilingual & 54,95 & -9,53 & [-10,30; -8,77]\\
+\bottomrule\end{tabular}\end{center}
+
+Prompt Việt có dấu đạt 5,10\%, giảm 59,38 điểm phần trăm so EN. Mốc chọn đều ngẫu nhiên giữa 100 lớp là 1\%; kết quả thấp hơn EN không đồng nghĩa biểu diễn hoàn toàn không có thông tin. Dùng khung Việt với tên lớp Anh đạt 55,10\%, trong khi khung Anh với tên lớp Việt chỉ đạt 5,44\%. Các thay đổi hỗ trợ nhận định hiệu năng phụ thuộc mạnh vào cách biểu diễn tên lớp trong các điều kiện này. Chúng chưa lượng hóa tác động riêng của tokenizer, mức quen thuộc từ vựng và bản dịch.
+
+\begin{center}\small
+\captionof{table}{Số token BPE trung bình; không tính token bắt đầu/kết thúc.}
+\begin{tabular}{@{}lrrr@{}}\toprule
+Điều kiện & Token/tên lớp & Token/câu & Vượt context\\\midrule
+Anh & 1,19 & 6,19 & 0\\
+Việt có dấu & 7,05 & 27,05 & 0\\
+Việt không dấu & 2,88 & 10,88 & 0\\
+\bottomrule\end{tabular}\end{center}
+
+Tỷ số của hai trung bình token tên lớp có dấu/Anh là 5,92 lần; trung bình tỷ số ghép theo từng lớp là 6,44 lần. Đây là hai thống kê khác nhau, tránh viết 7,05 bằng 6,44 lần 1,19. Không có câu vượt context trong bộ đã đo. Lược dấu giảm token nhưng accuracy còn 4,05\%, thấp hơn có dấu; vì thế số token đơn thuần không giải thích đầy đủ hiệu năng.
+
+Ensemble embedding của EN, VI và câu song ngữ đạt 60,42\%, thấp hơn baseline Anh. Có tên lớp Anh trong prompt là thêm một biểu diễn từ vựng có lợi trong thí nghiệm này; không gọi đó là phục hồi khả năng hiểu tiếng Việt. Các nhãn mơ hồ hoặc mức độ bao quát của bản dịch cần được người trong nhóm kiểm tra trước khi củng cố kết luận. Nếu sửa bản dịch theo ngữ nghĩa, phải giữ bản cũ và đánh giá bằng run/version mới.
+
+\newpage
+\section{Tái lập, rà soát và giới hạn}
+Audit mới kiểm inventory/hash artifact, source ZIP và đầu vào; tính lại argmax, accuracy, CI paired, predictions và per-class từ scores. Hai baseline CIFAR mới khớp mọi dự đoán cũ. Bản prompt có alignment norms nên kiểm được đồng nhất thức ensemble chuẩn hóa; bản VI cũ thiếu raw text vectors nên chỉ kiểm được kết quả từ ensemble scores đã lưu. Không gán một cờ verified chung để che các mức kiểm khác nhau.
+
+Các run cũ có config/protocol mặc định depth do dùng chung hàm khởi tạo; extension config/protocol thực được định danh bởi input hashes. Run mới lưu riêng study config/evaluation config, đúng protocol và source snapshot chứa các tệp này. Manifest lịch sử giữ nguyên git\_head, timestamp và checksum; source ZIP xác định code thực thi nếu Git HEAD cũ không có trên remote hiện tại.
+
+Toàn bộ 58 tests đạt. Gói review có 100 ảnh nguồn có box A/B, 100 crop thật và hai phiếu trống cho ảnh/bản dịch. Reviewer không thấy scores hoặc quyết định AI. Chỉ sau khi nhận phiếu đầy đủ mới báo kết quả review; một reviewer không cho phép tính inter-annotator agreement. Nếu hai người cùng nhận tất cả ảnh, raw agreement là 100\% nhưng κ có thể không xác định.
+
+Giới hạn chính gồm: một checkpoint; miền hình học; corpus COCO đã mở cho các phân tích tiếp nối; chưa biết trùng pretraining; phụ thuộc cách đặt caption/foil; nhãn và bản dịch chưa được người xác nhận; CI trên 100 nguồn còn rộng. Điểm nhận dạng A/B trên nửa ảnh chưa thay thế được một control nhận dạng độc lập có foil hợp lệ trên COCO. Các phép so phụ và per-class được coi mô tả. Không suy từ $p>0,05$ sang tương đương, không suy từ hành vi sang cơ chế neuron, không suy từ một tập template sang mọi prompt.
+
+\section{Kết luận và hạng mục tiếp tục}
+Kết quả đã kiểm cho thấy nhận dạng lớp, tính nhất quán không gian và đáp ứng ngôn ngữ là các khía cạnh khác nhau. Category có thể tăng cosine của lớp thật nhưng tăng đối thủ mạnh hơn; ensemble có thể cải thiện nhỏ classification mà chưa giải quyết consistency quan hệ; chuyển tên lớp sang tiếng Việt có thể làm giảm mạnh accuracy trong checkpoint đang xét. Những nhận định này có giá trị trong phạm vi thiết kế và artifact được báo, kể cả khi không ủng hộ kỳ vọng cải thiện.
+
+Đã hoàn thành ma trận prompt năm miền và hai phép chia vùng COCO theo giao thức; còn nhận review nhãn/bản dịch, phân xử và cập nhật phân tích độ nhạy nếu có. Kết quả đi ngược kỳ vọng được giữ trong báo cáo. Tích hợp code qua review và lưu checklist tái lập.
+
+\begingroup\small\begin{thebibliography}{6}
+\bibitem{clip} A. Radford và cs., \href{https://proceedings.mlr.press/v139/radford21a.html}{Learning Transferable Visual Models From Natural Language Supervision}, ICML, 2021.
+\bibitem{aro} M. Yuksekgonul và cs., \href{https://arxiv.org/abs/2210.01936}{When and Why Vision-Language Models Behave Like Bags-of-Words, and What to Do About It?}, ICLR, 2023.
+\bibitem{winoground} T. Thrush và cs., \href{https://arxiv.org/abs/2204.03162}{Winoground: Probing Vision and Language Models for Visio-Linguistic Compositionality}, CVPR, 2022.
+\bibitem{negbench} K. Alhamoud và cs., \href{https://arxiv.org/abs/2501.09425}{Vision-Language Models Do Not Understand Negation}, CVPR, 2025.
+\bibitem{coco} T.-Y. Lin và cs., \href{https://arxiv.org/abs/1405.0312}{Microsoft COCO: Common Objects in Context}, ECCV, 2014.
+\bibitem{viclip} Q.-K. Tran và cs., \href{https://arxiv.org/abs/2602.22678}{ViCLIP-OT: The First Foundation Vision-Language Model for Vietnamese Image-Text Retrieval with Optimal Transport}, preprint, 2026.
+\end{thebibliography}\endgroup
+\end{document}

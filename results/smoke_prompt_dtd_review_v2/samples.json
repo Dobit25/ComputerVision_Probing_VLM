@@ -1,0 +1,802 @@
+[
+  {
+    "sample_id": "dtd/test/p1/banded/banded_0002.jpg",
+    "target_id": 0
+  },
+  {
+    "sample_id": "dtd/test/p1/banded/banded_0004.jpg",
+    "target_id": 0
+  },
+  {
+    "sample_id": "dtd/test/p1/banded/banded_0008.jpg",
+    "target_id": 0
+  },
+  {
+    "sample_id": "dtd/test/p1/banded/banded_0034.jpg",
+    "target_id": 0
+  },
+  {
+    "sample_id": "dtd/test/p1/banded/banded_0036.jpg",
+    "target_id": 0
+  },
+  {
+    "sample_id": "dtd/test/p1/banded/banded_0042.jpg",
+    "target_id": 0
+  },
+  {
+    "sample_id": "dtd/test/p1/banded/banded_0044.jpg",
+    "target_id": 0
+  },
+  {
+    "sample_id": "dtd/test/p1/banded/banded_0047.jpg",
+    "target_id": 0
+  },
+  {
+    "sample_id": "dtd/test/p1/banded/banded_0053.jpg",
+    "target_id": 0
+  },
+  {
+    "sample_id": "dtd/test/p1/banded/banded_0058.jpg",
+    "target_id": 0
+  },
+  {
+    "sample_id": "dtd/test/p1/banded/banded_0062.jpg",
+    "target_id": 0
+  },
+  {
+    "sample_id": "dtd/test/p1/banded/banded_0072.jpg",
+    "target_id": 0
+  },
+  {
+    "sample_id": "dtd/test/p1/banded/banded_0077.jpg",
+    "target_id": 0
+  },
+  {
+    "sample_id": "dtd/test/p1/banded/banded_0078.jpg",
+    "target_id": 0
+  },
+  {
+    "sample_id": "dtd/test/p1/banded/banded_0082.jpg",
+    "target_id": 0
+  },
+  {
+    "sample_id": "dtd/test/p1/banded/banded_0083.jpg",
+    "target_id": 0
+  },
+  {
+    "sample_id": "dtd/test/p1/banded/banded_0088.jpg",
+    "target_id": 0
+  },
+  {
+    "sample_id": "dtd/test/p1/banded/banded_0089.jpg",
+    "target_id": 0
+  },
+  {
+    "sample_id": "dtd/test/p1/banded/banded_0099.jpg",
+    "target_id": 0
+  },
+  {
+    "sample_id": "dtd/test/p1/banded/banded_0100.jpg",
+    "target_id": 0
+  },
+  {
+    "sample_id": "dtd/test/p1/banded/banded_0101.jpg",
+    "target_id": 0
+  },
+  {
+    "sample_id": "dtd/test/p1/banded/banded_0105.jpg",
+    "target_id": 0
+  },
+  {
+    "sample_id": "dtd/test/p1/banded/banded_0107.jpg",
+    "target_id": 0
+  },
+  {
+    "sample_id": "dtd/test/p1/banded/banded_0113.jpg",
+    "target_id": 0
+  },
+  {
+    "sample_id": "dtd/test/p1/banded/banded_0119.jpg",
+    "target_id": 0
+  },
+  {
+    "sample_id": "dtd/test/p1/banded/banded_0121.jpg",
+    "target_id": 0
+  },
+  {
+    "sample_id": "dtd/test/p1/banded/banded_0128.jpg",
+    "target_id": 0
+  },
+  {
+    "sample_id": "dtd/test/p1/banded/banded_0130.jpg",
+    "target_id": 0
+  },
+  {
+    "sample_id": "dtd/test/p1/banded/banded_0131.jpg",
+    "target_id": 0
+  },
+  {
+    "sample_id": "dtd/test/p1/banded/banded_0133.jpg",
+    "target_id": 0
+  },
+  {
+    "sample_id": "dtd/test/p1/banded/banded_0137.jpg",
+    "target_id": 0
+  },
+  {
+    "sample_id": "dtd/test/p1/banded/banded_0138.jpg",
+    "target_id": 0
+  },
+  {
+    "sample_id": "dtd/test/p1/banded/banded_0139.jpg",
+    "target_id": 0
+  },
+  {
+    "sample_id": "dtd/test/p1/banded/banded_0144.jpg",
+    "target_id": 0
+  },
+  {
+    "sample_id": "dtd/test/p1/banded/banded_0145.jpg",
+    "target_id": 0
+  },
+  {
+    "sample_id": "dtd/test/p1/banded/banded_0146.jpg",
+    "target_id": 0
+  },
+  {
+    "sample_id": "dtd/test/p1/banded/banded_0147.jpg",
+    "target_id": 0
+  },
+  {
+    "sample_id": "dtd/test/p1/banded/banded_0150.jpg",
+    "target_id": 0
+  },
+  {
+    "sample_id": "dtd/test/p1/banded/banded_0152.jpg",
+    "target_id": 0
+  },
+  {
+    "sample_id": "dtd/test/p1/banded/banded_0153.jpg",
+    "target_id": 0
+  },
+  {
+    "sample_id": "dtd/test/p1/blotchy/blotchy_0003.jpg",
+    "target_id": 1
+  },
+  {
+    "sample_id": "dtd/test/p1/blotchy/blotchy_0006.jpg",
+    "target_id": 1
+  },
+  {
+    "sample_id": "dtd/test/p1/blotchy/blotchy_0016.jpg",
+    "target_id": 1
+  },
+  {
+    "sample_id": "dtd/test/p1/blotchy/blotchy_0036.jpg",
+    "target_id": 1
+  },
+  {
+    "sample_id": "dtd/test/p1/blotchy/blotchy_0037.jpg",
+    "target_id": 1
+  },
+  {
+    "sample_id": "dtd/test/p1/blotchy/blotchy_0041.jpg",
+    "target_id": 1
+  },
+  {
+    "sample_id": "dtd/test/p1/blotchy/blotchy_0044.jpg",
+    "target_id": 1
+  },
+  {
+    "sample_id": "dtd/test/p1/blotchy/blotchy_0047.jpg",
+    "target_id": 1
+  },
+  {
+    "sample_id": "dtd/test/p1/blotchy/blotchy_0051.jpg",
+    "target_id": 1
+  },
+  {
+    "sample_id": "dtd/test/p1/blotchy/blotchy_0054.jpg",
+    "target_id": 1
+  },
+  {
+    "sample_id": "dtd/test/p1/blotchy/blotchy_0058.jpg",
+    "target_id": 1
+  },
+  {
+    "sample_id": "dtd/test/p1/blotchy/blotchy_0065.jpg",
+    "target_id": 1
+  },
+  {
+    "sample_id": "dtd/test/p1/blotchy/blotchy_0070.jpg",
+    "target_id": 1
+  },
+  {
+    "sample_id": "dtd/test/p1/blotchy/blotchy_0071.jpg",
+    "target_id": 1
+  },
+  {
+    "sample_id": "dtd/test/p1/blotchy/blotchy_0074.jpg",
+    "target_id": 1
+  },
+  {
+    "sample_id": "dtd/test/p1/blotchy/blotchy_0075.jpg",
+    "target_id": 1
+  },
+  {
+    "sample_id": "dtd/test/p1/blotchy/blotchy_0081.jpg",
+    "target_id": 1
+  },
+  {
+    "sample_id": "dtd/test/p1/blotchy/blotchy_0082.jpg",
+    "target_id": 1
+  },
+  {
+    "sample_id": "dtd/test/p1/blotchy/blotchy_0090.jpg",
+    "target_id": 1
+  },
+  {
+    "sample_id": "dtd/test/p1/blotchy/blotchy_0091.jpg",
+    "target_id": 1
+  },
+  {
+    "sample_id": "dtd/test/p1/blotchy/blotchy_0092.jpg",
+    "target_id": 1
+  },
+  {
+    "sample_id": "dtd/test/p1/blotchy/blotchy_0097.jpg",
+    "target_id": 1
+  },
+  {
+    "sample_id": "dtd/test/p1/blotchy/blotchy_0099.jpg",
+    "target_id": 1
+  },
+  {
+    "sample_id": "dtd/test/p1/blotchy/blotchy_0105.jpg",
+    "target_id": 1
+  },
+  {
+    "sample_id": "dtd/test/p1/blotchy/blotchy_0111.jpg",
+    "target_id": 1
+  },
+  {
+    "sample_id": "dtd/test/p1/blotchy/blotchy_0113.jpg",
+    "target_id": 1
+  },
+  {
+    "sample_id": "dtd/test/p1/blotchy/blotchy_0118.jpg",
+    "target_id": 1
+  },
+  {
+    "sample_id": "dtd/test/p1/blotchy/blotchy_0120.jpg",
+    "target_id": 1
+  },
+  {
+    "sample_id": "dtd/test/p1/blotchy/blotchy_0121.jpg",
+    "target_id": 1
+  },
+  {
+    "sample_id": "dtd/test/p1/blotchy/blotchy_0123.jpg",
+    "target_id": 1
+  },
+  {
+    "sample_id": "dtd/test/p1/blotchy/blotchy_0126.jpg",
+    "target_id": 1
+  },
+  {
+    "sample_id": "dtd/test/p1/blotchy/blotchy_0127.jpg",
+    "target_id": 1
+  },
+  {
+    "sample_id": "dtd/test/p1/blotchy/blotchy_0128.jpg",
+    "target_id": 1
+  },
+  {
+    "sample_id": "dtd/test/p1/blotchy/blotchy_0133.jpg",
+    "target_id": 1
+  },
+  {
+    "sample_id": "dtd/test/p1/blotchy/blotchy_0134.jpg",
+    "target_id": 1
+  },
+  {
+    "sample_id": "dtd/test/p1/blotchy/blotchy_0135.jpg",
+    "target_id": 1
+  },
+  {
+    "sample_id": "dtd/test/p1/blotchy/blotchy_0136.jpg",
+    "target_id": 1
+  },
+  {
+    "sample_id": "dtd/test/p1/blotchy/blotchy_0137.jpg",
+    "target_id": 1
+  },
+  {
+    "sample_id": "dtd/test/p1/blotchy/blotchy_0139.jpg",
+    "target_id": 1
+  },
+  {
+    "sample_id": "dtd/test/p1/blotchy/blotchy_0140.jpg",
+    "target_id": 1
+  },
+  {
+    "sample_id": "dtd/test/p1/braided/braided_0002.jpg",
+    "target_id": 2
+  },
+  {
+    "sample_id": "dtd/test/p1/braided/braided_0006.jpg",
+    "target_id": 2
+  },
+  {
+    "sample_id": "dtd/test/p1/braided/braided_0009.jpg",
+    "target_id": 2
+  },
+  {
+    "sample_id": "dtd/test/p1/braided/braided_0078.jpg",
+    "target_id": 2
+  },
+  {
+    "sample_id": "dtd/test/p1/braided/braided_0080.jpg",
+    "target_id": 2
+  },
+  {
+    "sample_id": "dtd/test/p1/braided/braided_0101.jpg",
+    "target_id": 2
+  },
+  {
+    "sample_id": "dtd/test/p1/braided/braided_0103.jpg",
+    "target_id": 2
+  },
+  {
+    "sample_id": "dtd/test/p1/braided/braided_0107.jpg",
+    "target_id": 2
+  },
+  {
+    "sample_id": "dtd/test/p1/braided/braided_0110.jpg",
+    "target_id": 2
+  },
+  {
+    "sample_id": "dtd/test/p1/braided/braided_0113.jpg",
+    "target_id": 2
+  },
+  {
+    "sample_id": "dtd/test/p1/braided/braided_0117.jpg",
+    "target_id": 2
+  },
+  {
+    "sample_id": "dtd/test/p1/braided/braided_0124.jpg",
+    "target_id": 2
+  },
+  {
+    "sample_id": "dtd/test/p1/braided/braided_0129.jpg",
+    "target_id": 2
+  },
+  {
+    "sample_id": "dtd/test/p1/braided/braided_0130.jpg",
+    "target_id": 2
+  },
+  {
+    "sample_id": "dtd/test/p1/braided/braided_0133.jpg",
+    "target_id": 2
+  },
+  {
+    "sample_id": "dtd/test/p1/braided/braided_0134.jpg",
+    "target_id": 2
+  },
+  {
+    "sample_id": "dtd/test/p1/braided/braided_0138.jpg",
+    "target_id": 2
+  },
+  {
+    "sample_id": "dtd/test/p1/braided/braided_0139.jpg",
+    "target_id": 2
+  },
+  {
+    "sample_id": "dtd/test/p1/braided/braided_0147.jpg",
+    "target_id": 2
+  },
+  {
+    "sample_id": "dtd/test/p1/braided/braided_0148.jpg",
+    "target_id": 2
+  },
+  {
+    "sample_id": "dtd/test/p1/braided/braided_0149.jpg",
+    "target_id": 2
+  },
+  {
+    "sample_id": "dtd/test/p1/braided/braided_0153.jpg",
+    "target_id": 2
+  },
+  {
+    "sample_id": "dtd/test/p1/braided/braided_0155.jpg",
+    "target_id": 2
+  },
+  {
+    "sample_id": "dtd/test/p1/braided/braided_0161.jpg",
+    "target_id": 2
+  },
+  {
+    "sample_id": "dtd/test/p1/braided/braided_0167.jpg",
+    "target_id": 2
+  },
+  {
+    "sample_id": "dtd/test/p1/braided/braided_0169.jpg",
+    "target_id": 2
+  },
+  {
+    "sample_id": "dtd/test/p1/braided/braided_0174.jpg",
+    "target_id": 2
+  },
+  {
+    "sample_id": "dtd/test/p1/braided/braided_0176.jpg",
+    "target_id": 2
+  },
+  {
+    "sample_id": "dtd/test/p1/braided/braided_0177.jpg",
+    "target_id": 2
+  },
+  {
+    "sample_id": "dtd/test/p1/braided/braided_0179.jpg",
+    "target_id": 2
+  },
+  {
+    "sample_id": "dtd/test/p1/braided/braided_0182.jpg",
+    "target_id": 2
+  },
+  {
+    "sample_id": "dtd/test/p1/braided/braided_0183.jpg",
+    "target_id": 2
+  },
+  {
+    "sample_id": "dtd/test/p1/braided/braided_0184.jpg",
+    "target_id": 2
+  },
+  {
+    "sample_id": "dtd/test/p1/braided/braided_0189.jpg",
+    "target_id": 2
+  },
+  {
+    "sample_id": "dtd/test/p1/braided/braided_0190.jpg",
+    "target_id": 2
+  },
+  {
+    "sample_id": "dtd/test/p1/braided/braided_0191.jpg",
+    "target_id": 2
+  },
+  {
+    "sample_id": "dtd/test/p1/braided/braided_0192.jpg",
+    "target_id": 2
+  },
+  {
+    "sample_id": "dtd/test/p1/braided/braided_0193.jpg",
+    "target_id": 2
+  },
+  {
+    "sample_id": "dtd/test/p1/braided/braided_0195.jpg",
+    "target_id": 2
+  },
+  {
+    "sample_id": "dtd/test/p1/braided/braided_0196.jpg",
+    "target_id": 2
+  },
+  {
+    "sample_id": "dtd/test/p1/bubbly/bubbly_0038.jpg",
+    "target_id": 3
+  },
+  {
+    "sample_id": "dtd/test/p1/bubbly/bubbly_0042.jpg",
+    "target_id": 3
+  },
+  {
+    "sample_id": "dtd/test/p1/bubbly/bubbly_0045.jpg",
+    "target_id": 3
+  },
+  {
+    "sample_id": "dtd/test/p1/bubbly/bubbly_0064.jpg",
+    "target_id": 3
+  },
+  {
+    "sample_id": "dtd/test/p1/bubbly/bubbly_0066.jpg",
+    "target_id": 3
+  },
+  {
+    "sample_id": "dtd/test/p1/bubbly/bubbly_0071.jpg",
+    "target_id": 3
+  },
+  {
+    "sample_id": "dtd/test/p1/bubbly/bubbly_0074.jpg",
+    "target_id": 3
+  },
+  {
+    "sample_id": "dtd/test/p1/bubbly/bubbly_0077.jpg",
+    "target_id": 3
+  },
+  {
+    "sample_id": "dtd/test/p1/bubbly/bubbly_0080.jpg",
+    "target_id": 3
+  },
+  {
+    "sample_id": "dtd/test/p1/bubbly/bubbly_0084.jpg",
+    "target_id": 3
+  },
+  {
+    "sample_id": "dtd/test/p1/bubbly/bubbly_0090.jpg",
+    "target_id": 3
+  },
+  {
+    "sample_id": "dtd/test/p1/bubbly/bubbly_0100.jpg",
+    "target_id": 3
+  },
+  {
+    "sample_id": "dtd/test/p1/bubbly/bubbly_0105.jpg",
+    "target_id": 3
+  },
+  {
+    "sample_id": "dtd/test/p1/bubbly/bubbly_0106.jpg",
+    "target_id": 3
+  },
+  {
+    "sample_id": "dtd/test/p1/bubbly/bubbly_0109.jpg",
+    "target_id": 3
+  },
+  {
+    "sample_id": "dtd/test/p1/bubbly/bubbly_0110.jpg",
+    "target_id": 3
+  },
+  {
+    "sample_id": "dtd/test/p1/bubbly/bubbly_0114.jpg",
+    "target_id": 3
+  },
+  {
+    "sample_id": "dtd/test/p1/bubbly/bubbly_0115.jpg",
+    "target_id": 3
+  },
+  {
+    "sample_id": "dtd/test/p1/bubbly/bubbly_0123.jpg",
+    "target_id": 3
+  },
+  {
+    "sample_id": "dtd/test/p1/bubbly/bubbly_0124.jpg",
+    "target_id": 3
+  },
+  {
+    "sample_id": "dtd/test/p1/bubbly/bubbly_0125.jpg",
+    "target_id": 3
+  },
+  {
+    "sample_id": "dtd/test/p1/bubbly/bubbly_0129.jpg",
+    "target_id": 3
+  },
+  {
+    "sample_id": "dtd/test/p1/bubbly/bubbly_0131.jpg",
+    "target_id": 3
+  },
+  {
+    "sample_id": "dtd/test/p1/bubbly/bubbly_0137.jpg",
+    "target_id": 3
+  },
+  {
+    "sample_id": "dtd/test/p1/bubbly/bubbly_0143.jpg",
+    "target_id": 3
+  },
+  {
+    "sample_id": "dtd/test/p1/bubbly/bubbly_0145.jpg",
+    "target_id": 3
+  },
+  {
+    "sample_id": "dtd/test/p1/bubbly/bubbly_0150.jpg",
+    "target_id": 3
+  },
+  {
+    "sample_id": "dtd/test/p1/bubbly/bubbly_0152.jpg",
+    "target_id": 3
+  },
+  {
+    "sample_id": "dtd/test/p1/bubbly/bubbly_0153.jpg",
+    "target_id": 3
+  },
+  {
+    "sample_id": "dtd/test/p1/bubbly/bubbly_0155.jpg",
+    "target_id": 3
+  },
+  {
+    "sample_id": "dtd/test/p1/bubbly/bubbly_0158.jpg",
+    "target_id": 3
+  },
+  {
+    "sample_id": "dtd/test/p1/bubbly/bubbly_0159.jpg",
+    "target_id": 3
+  },
+  {
+    "sample_id": "dtd/test/p1/bubbly/bubbly_0160.jpg",
+    "target_id": 3
+  },
+  {
+    "sample_id": "dtd/test/p1/bubbly/bubbly_0165.jpg",
+    "target_id": 3
+  },
+  {
+    "sample_id": "dtd/test/p1/bubbly/bubbly_0166.jpg",
+    "target_id": 3
+  },
+  {
+    "sample_id": "dtd/test/p1/bubbly/bubbly_0167.jpg",
+    "target_id": 3
+  },
+  {
+    "sample_id": "dtd/test/p1/bubbly/bubbly_0168.jpg",
+    "target_id": 3
+  },
+  {
+    "sample_id": "dtd/test/p1/bubbly/bubbly_0169.jpg",
+    "target_id": 3
+  },
+  {
+    "sample_id": "dtd/test/p1/bubbly/bubbly_0171.jpg",
+    "target_id": 3
+  },
+  {
+    "sample_id": "dtd/test/p1/bubbly/bubbly_0172.jpg",
+    "target_id": 3
+  },
+  {
+    "sample_id": "dtd/test/p1/bumpy/bumpy_0014.jpg",
+    "target_id": 4
+  },
+  {
+    "sample_id": "dtd/test/p1/bumpy/bumpy_0021.jpg",
+    "target_id": 4
+  },
+  {
+    "sample_id": "dtd/test/p1/bumpy/bumpy_0062.jpg",
+    "target_id": 4
+  },
+  {
+    "sample_id": "dtd/test/p1/bumpy/bumpy_0103.jpg",
+    "target_id": 4
+  },
+  {
+    "sample_id": "dtd/test/p1/bumpy/bumpy_0104.jpg",
+    "target_id": 4
+  },
+  {
+    "sample_id": "dtd/test/p1/bumpy/bumpy_0108.jpg",
+    "target_id": 4
+  },
+  {
+    "sample_id": "dtd/test/p1/bumpy/bumpy_0110.jpg",
+    "target_id": 4
+  },
+  {
+    "sample_id": "dtd/test/p1/bumpy/bumpy_0113.jpg",
+    "target_id": 4
+  },
+  {
+    "sample_id": "dtd/test/p1/bumpy/bumpy_0116.jpg",
+    "target_id": 4
+  },
+  {
+    "sample_id": "dtd/test/p1/bumpy/bumpy_0119.jpg",
+    "target_id": 4
+  },
+  {
+    "sample_id": "dtd/test/p1/bumpy/bumpy_0123.jpg",
+    "target_id": 4
+  },
+  {
+    "sample_id": "dtd/test/p1/bumpy/bumpy_0130.jpg",
+    "target_id": 4
+  },
+  {
+    "sample_id": "dtd/test/p1/bumpy/bumpy_0135.jpg",
+    "target_id": 4
+  },
+  {
+    "sample_id": "dtd/test/p1/bumpy/bumpy_0136.jpg",
+    "target_id": 4
+  },
+  {
+    "sample_id": "dtd/test/p1/bumpy/bumpy_0139.jpg",
+    "target_id": 4
+  },
+  {
+    "sample_id": "dtd/test/p1/bumpy/bumpy_0140.jpg",
+    "target_id": 4
+  },
+  {
+    "sample_id": "dtd/test/p1/bumpy/bumpy_0144.jpg",
+    "target_id": 4
+  },
+  {
+    "sample_id": "dtd/test/p1/bumpy/bumpy_0145.jpg",
+    "target_id": 4
+  },
+  {
+    "sample_id": "dtd/test/p1/bumpy/bumpy_0153.jpg",
+    "target_id": 4
+  },
+  {
+    "sample_id": "dtd/test/p1/bumpy/bumpy_0154.jpg",
+    "target_id": 4
+  },
+  {
+    "sample_id": "dtd/test/p1/bumpy/bumpy_0155.jpg",
+    "target_id": 4
+  },
+  {
+    "sample_id": "dtd/test/p1/bumpy/bumpy_0159.jpg",
+    "target_id": 4
+  },
+  {
+    "sample_id": "dtd/test/p1/bumpy/bumpy_0161.jpg",
+    "target_id": 4
+  },
+  {
+    "sample_id": "dtd/test/p1/bumpy/bumpy_0167.jpg",
+    "target_id": 4
+  },
+  {
+    "sample_id": "dtd/test/p1/bumpy/bumpy_0173.jpg",
+    "target_id": 4
+  },
+  {
+    "sample_id": "dtd/test/p1/bumpy/bumpy_0175.jpg",
+    "target_id": 4
+  },
+  {
+    "sample_id": "dtd/test/p1/bumpy/bumpy_0180.jpg",
+    "target_id": 4
+  },
+  {
+    "sample_id": "dtd/test/p1/bumpy/bumpy_0182.jpg",
+    "target_id": 4
+  },
+  {
+    "sample_id": "dtd/test/p1/bumpy/bumpy_0183.jpg",
+    "target_id": 4
+  },
+  {
+    "sample_id": "dtd/test/p1/bumpy/bumpy_0185.jpg",
+    "target_id": 4
+  },
+  {
+    "sample_id": "dtd/test/p1/bumpy/bumpy_0188.jpg",
+    "target_id": 4
+  },
+  {
+    "sample_id": "dtd/test/p1/bumpy/bumpy_0189.jpg",
+    "target_id": 4
+  },
+  {
+    "sample_id": "dtd/test/p1/bumpy/bumpy_0190.jpg",
+    "target_id": 4
+  },
+  {
+    "sample_id": "dtd/test/p1/bumpy/bumpy_0195.jpg",
+    "target_id": 4
+  },
+  {
+    "sample_id": "dtd/test/p1/bumpy/bumpy_0196.jpg",
+    "target_id": 4
+  },
+  {
+    "sample_id": "dtd/test/p1/bumpy/bumpy_0197.jpg",
+    "target_id": 4
+  },
+  {
+    "sample_id": "dtd/test/p1/bumpy/bumpy_0198.jpg",
+    "target_id": 4
+  },
+  {
+    "sample_id": "dtd/test/p1/bumpy/bumpy_0199.jpg",
+    "target_id": 4
+  },
+  {
+    "sample_id": "dtd/test/p1/bumpy/bumpy_0201.jpg",
+    "target_id": 4
+  },
+  {
+    "sample_id": "dtd/test/p1/bumpy/bumpy_0202.jpg",
+    "target_id": 4
+  }
+]

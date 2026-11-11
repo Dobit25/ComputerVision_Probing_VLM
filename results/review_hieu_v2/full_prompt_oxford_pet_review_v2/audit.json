@@ -1,0 +1,19 @@
+{
+  "run": "results/full_prompt_oxford_pet_review_v2",
+  "artifact_integrity_verified": true,
+  "manifest_sha256": "69e8f3f48c9d8875dfe46faa897f6aede64ebbc7353ce47645cde2173bead664",
+  "metrics_recomputed": true,
+  "n": 3669,
+  "baseline_predictions_identical": true,
+  "baseline_target_cosine_max_abs_difference": 2.086162567138672e-07,
+  "text_embedding_ensemble_construction_recomputed": true,
+  "limitation": null,
+  "legacy_config_protocol_note": null,
+  "derived_sha256": {
+    "classes.json": "da3c55c19db70eef23b9a9d53d5853dd29db2076b0e66165582e8df67e7007d6",
+    "diagnostics.json": "36d1dbd7c446c5ec7754156cd9ee32dcdfc55e003f29dc421036c7dada0f7288",
+    "per_class.csv": "4c6718f43e953e58a49103311446a0a4ea424d0ae124b75c9d4580fc7539fdc1",
+    "predictions.csv": "d916be3a0f4cbe316cf3d33186efca1a5b4498660a9ddd54c5168808e7a76ff1",
+    "samples.json": "66cc82f3d7d01cdccc28b3a94418de565f080e8ebe50b34428d70cc8a72ba8f2"
+  }
+}

@@ -1,0 +1,177 @@
+{
+  "num_templates": 7,
+  "baseline_template": "T0_baseline",
+  "baseline_accuracy_percent": 85.0640501499046,
+  "best_single_template": "T4_domain",
+  "best_single_accuracy_percent": 86.89016080675933,
+  "worst_single_template": "T1_minimal",
+  "worst_single_accuracy_percent": 80.07631507222676,
+  "mean_single_accuracy_percent": 84.14904800841023,
+  "sd_single_accuracy_percent": 2.17376884698233,
+  "spread_max_minus_min_pp": 6.813845734532563,
+  "single_templates": {
+    "T0_baseline": {
+      "n": 3669,
+      "correct": 3121,
+      "accuracy_percent": 85.0640501499046,
+      "ci95_percent": [
+        84.08285636413191,
+        86.01798855273917
+      ],
+      "delta_vs_baseline_pp": 0.0,
+      "delta_vs_baseline_ci95_pp": [
+        0.0,
+        0.0
+      ]
+    },
+    "T1_minimal": {
+      "n": 3669,
+      "correct": 2938,
+      "accuracy_percent": 80.07631507222676,
+      "ci95_percent": [
+        79.14963205233033,
+        80.97574270918506
+      ],
+      "delta_vs_baseline_pp": -4.987735077677842,
+      "delta_vs_baseline_ci95_pp": [
+        -5.80539656582175,
+        -4.170073589533932
+      ]
+    },
+    "T2_clear": {
+      "n": 3669,
+      "correct": 3087,
+      "accuracy_percent": 84.13736713000817,
+      "ci95_percent": [
+        83.12891796129736,
+        85.145816298719
+      ],
+      "delta_vs_baseline_pp": -0.9266830198964295,
+      "delta_vs_baseline_ci95_pp": [
+        -1.5263014445352958,
+        -0.3270645952575634
+      ]
+    },
+    "T3_centered": {
+      "n": 3669,
+      "correct": 3093,
+      "accuracy_percent": 84.30089942763695,
+      "ci95_percent": [
+        83.265194875988,
+        85.2275824475334
+      ],
+      "delta_vs_baseline_pp": -0.7631507222676479,
+      "delta_vs_baseline_ci95_pp": [
+        -1.4172799127827747,
+        -0.1362769146906514
+      ]
+    },
+    "T4_domain": {
+      "n": 3669,
+      "correct": 3188,
+      "accuracy_percent": 86.89016080675933,
+      "ci95_percent": [
+        85.93622240392477,
+        87.81684382665577
+      ],
+      "delta_vs_baseline_pp": 1.8261106568547287,
+      "delta_vs_baseline_ci95_pp": [
+        1.089533932951758,
+        2.5620059961842463
+      ]
+    },
+    "T5_bright": {
+      "n": 3669,
+      "correct": 3045,
+      "accuracy_percent": 82.9926410466067,
+      "ci95_percent": [
+        81.95693649495776,
+        83.94657944944126
+      ],
+      "delta_vs_baseline_pp": -2.0714091032979014,
+      "delta_vs_baseline_ci95_pp": [
+        -2.7800490596892886,
+        -1.3355137639683836
+      ]
+    },
+    "T6_cropped": {
+      "n": 3669,
+      "correct": 3140,
+      "accuracy_percent": 85.58190242572908,
+      "ci95_percent": [
+        84.6007086399564,
+        86.50858544562551
+      ],
+      "delta_vs_baseline_pp": 0.5178522758244753,
+      "delta_vs_baseline_ci95_pp": [
+        0.0,
+        1.0357045516489507
+      ]
+    }
+  },
+  "ensembles": {
+    "logit_average_ensemble": {
+      "n": 3669,
+      "correct": 3118,
+      "accuracy_percent": 84.9822840010902,
+      "ci95_percent": [
+        83.9738348323794,
+        85.90896702098665
+      ],
+      "delta_vs_baseline_pp": -0.08176614881439084,
+      "delta_vs_baseline_ci95_pp": [
+        -0.5723630417007358,
+        0.4088307440719542
+      ],
+      "delta_vs_best_single_pp": -1.9078768056691195,
+      "delta_vs_best_single_ci95_pp": [
+        -2.6710275279367672,
+        -1.1174707004633415
+      ]
+    },
+    "probability_average_ensemble": {
+      "n": 3669,
+      "correct": 3127,
+      "accuracy_percent": 85.2275824475334,
+      "ci95_percent": [
+        84.24638866176069,
+        86.18152085036795
+      ],
+      "delta_vs_baseline_pp": 0.1635322976287817,
+      "delta_vs_baseline_ci95_pp": [
+        -0.2725538293813028,
+        0.6541291905151267
+      ],
+      "delta_vs_best_single_pp": -1.6625783592259473,
+      "delta_vs_best_single_ci95_pp": [
+        -2.425729081493595,
+        -0.8987462523848497
+      ]
+    },
+    "text_embedding_ensemble": {
+      "n": 3669,
+      "correct": 3141,
+      "accuracy_percent": 85.60915780866722,
+      "ci95_percent": [
+        84.60002725538294,
+        86.56309621150177
+      ],
+      "delta_vs_baseline_pp": 0.5451076587626056,
+      "delta_vs_baseline_ci95_pp": [
+        0.05382938130280735,
+        1.0357045516489507
+      ],
+      "delta_vs_best_single_pp": -1.2810029980921231,
+      "delta_vs_best_single_ci95_pp": [
+        -1.9896429544835104,
+        -0.5723630417007358
+      ]
+    }
+  },
+  "dataset": "oxford_pet",
+  "evaluated_samples": 3669,
+  "num_classes": 37,
+  "mean_class_template_alignment_norm": 0.9669123873853783,
+  "min_class_template_alignment_norm": 0.948382783500755,
+  "evaluation_seconds": 40.144034300000385
+}

@@ -1,0 +1,92 @@
+{
+  "protocol_version": "prompt_study_v1",
+  "model_config": "configs/clip_b32_cifar100.json",
+  "bootstrap_draws": 2000,
+  "bootstrap_seed": 1402,
+  "clip_logit_scale": 100.0,
+  "datasets": {
+    "cifar100": {
+      "config_path": "configs/clip_b32_cifar100.json",
+      "baseline_run": "results/full_cifar100_clip_b32_v1",
+      "has_category_d_templates": true,
+      "domain_template": "a low-resolution photo of a {class}."
+    },
+    "flowers102": {
+      "config_path": "configs/clip_b32_flowers102.json",
+      "baseline_run": "results/full_flowers102_clip_b32_v2",
+      "has_category_d_templates": false,
+      "domain_template": "a close-up photo of a {class}, a type of flower."
+    },
+    "oxford_pet": {
+      "config_path": "configs/clip_b32_oxford_pet.json",
+      "baseline_run": "results/full_oxford_pet_clip_b32_v3",
+      "has_category_d_templates": false,
+      "domain_template": "a centered photo of a {class}, a domestic pet."
+    },
+    "dtd": {
+      "config_path": "configs/clip_b32_dtd.json",
+      "baseline_run": "results/full_dtd_clip_b32_v3",
+      "has_category_d_templates": false,
+      "label_suffix": " texture",
+      "domain_template": "a close-up surface texture of {class}."
+    },
+    "food101": {
+      "config_path": "configs/clip_b32_food101.json",
+      "baseline_run": "results/full_food101_clip_b32_v3",
+      "has_category_d_templates": false,
+      "domain_template": "a dish of {class}, a type of food."
+    }
+  },
+  "n_templates": {
+    "N1_photo": "a photo of a {class}.",
+    "N2_picture": "a picture of a {class}.",
+    "N3_image": "an image of a {class}.",
+    "N4_this_is": "this is a photo of a {class}."
+  },
+  "d_templates_cifar100": {
+    "D1_photo_type": "a photo of a {class}, a type of {category}.",
+    "D2_picture_type": "a picture of a {class}, a type of {category}.",
+    "D3_image_type": "an image of a {class}, a type of {category}.",
+    "D4_this_is_type": "this is a photo of a {class}, a type of {category}."
+  },
+  "common_templates": {
+    "T0_baseline": "a photo of a {class}.",
+    "T1_minimal": "{class}.",
+    "T2_clear": "a clear photo of a {class}.",
+    "T3_centered": "a centered photo of a {class}.",
+    "T5_bright": "a bright photo of a {class}.",
+    "T6_cropped": "a cropped photo of a {class}."
+  },
+  "probing_templates": {
+    "counting": {
+      "C0_baseline": "a drawing of {word} {color} {shape_plural}.",
+      "C1_showing": "an image showing {word} {color} {shape_plural}.",
+      "C2_there_are": "there are {word} {color} {shape_plural} in this drawing.",
+      "C3_minimal": "{word} {color} {shape_plural}.",
+      "C4_exactly": "a picture with exactly {word} {color} {shape_plural}."
+    },
+    "spatial": {
+      "T0_of": "a {medium} of {a} {relation} {b}.",
+      "T1_where": "a {medium} where {a} is {relation} {b}.",
+      "T2_showing": "a {medium} showing {a} {relation} {b}."
+    },
+    "negation": {
+      "N0_with_without": [
+        "a drawing with a {target}.",
+        "a drawing without a {target}."
+      ],
+      "N1_contains": [
+        "a drawing that contains a {target}.",
+        "a drawing that does not contain a {target}."
+      ],
+      "N2_showing": [
+        "a drawing showing a {target}.",
+        "a drawing not showing a {target}."
+      ],
+      "N3_present_absent": [
+        "an image where a {target} is present.",
+        "an image where a {target} is absent."
+      ]
+    }
+  }
+}
