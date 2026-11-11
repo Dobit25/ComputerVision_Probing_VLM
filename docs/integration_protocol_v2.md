@@ -20,7 +20,7 @@ Không thay `full_prompt_probing_v1`. Chạy lại counting/negation thành `ful
 
 Hai bộ đã mở: exploratory 200 nguồn và confirmation 100 nguồn; mỗi nguồn có ảnh gốc và mirror. Tên `confirmation` chỉ định danh bộ dữ liệu của nghiên cứu trước. Phương pháp mới là phân tích tiếp nối trên bộ đã xem.
 
-Pipeline chốt: mở ảnh RGB → center crop vuông cùng vùng nhìn baseline → flip nếu cần → chia bốn nửa trái/phải/trên/dưới → preprocessing checkpoint riêng cho mỗi nửa. Chấm `a photo of {A}.` và `a photo of {B}.`, trong đó A/B đã gồm mạo từ từ metadata; không dùng ground-truth box để tạo crop hoặc dự đoán. Box chỉ dùng đánh giá nhóm hình học và reviewer.
+Pipeline chốt (làm rõ trước mọi inference COCO mới): mở ảnh RGB → flip nếu cần → resize cạnh ngắn về 224 bằng bicubic và center crop vuông đúng thứ tự baseline → chia bốn nửa trái/phải/trên/dưới → preprocessing checkpoint riêng cho mỗi nửa. Flip phải ở trước crop vì làm tròn tọa độ trên ảnh có kích thước lẻ có thể khiến hai thứ tự khác một pixel. Chấm `a photo of {A}.` và `a photo of {B}.`, trong đó A/B đã gồm mạo từ từ metadata; không dùng ground-truth box để tạo crop hoặc dự đoán. Box chỉ dùng đánh giá nhóm hình học và reviewer.
 
 Đặt h=(s_left(A)-s_right(A))-(s_left(B)-s_right(B)); v tương tự top-bottom. Bốn điểm là [h,-h,v,-v]. Exploratory: primary top-1 4-way; confirmation: primary 2-way trái/phải (chỉ tập này có ground truth ngang). Phụ: 4-way, pair both correct, 2×2 assignment trên cặp ngang và margin. Tie chọn index nhỏ nhất, báo tie riêng; assignment D=0 tính sai. CI 95% bootstrap 2.000 lần theo source image, seed 1402. Delta so holistic T2 thuận trên cùng ảnh phải bootstrap ghép cặp theo source.
 

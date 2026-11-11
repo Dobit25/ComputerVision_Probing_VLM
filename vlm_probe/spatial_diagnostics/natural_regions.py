@@ -104,8 +104,9 @@ def run(set_name, smoke=False, run_name=None):
         def __getitem__(self, i):
             row = rows[i // 4]; path = ROOT / row['image_path']
             if sha256(path) != row['image_sha256']: raise ValueError('Changed source image')
-            with Image.open(path) as im: image = baseline_canvas(im, cfg['canvas_size'])
+            with Image.open(path) as im: image = im.convert('RGB')
             if row['transform'] == 'horizontal_flip': image = ImageOps.mirror(image)
+            image = baseline_canvas(image, cfg['canvas_size'])
             return engine.adapter.preprocess(crop_half_canvases(image)[REGIONS[i % 4]])
 
     feats = []
