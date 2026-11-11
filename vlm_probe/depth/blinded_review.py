@@ -125,7 +125,7 @@ def cohens_kappa(decisions_a, decisions_b):
     p_b1 = sum(b) / n
     p_e = p_a1 * p_b1 + (1.0 - p_a1) * (1.0 - p_b1)
     if abs(1.0 - p_e) <= 1e-12:
-        kappa = 1.0 if abs(1.0 - p_o) <= 1e-12 else 0.0
+        kappa = None
     else:
         kappa = (p_o - p_e) / (1.0 - p_e)
     return {
@@ -133,7 +133,8 @@ def cohens_kappa(decisions_a, decisions_b):
         "raw_agreement_count": agree,
         "raw_agreement_percent": 100.0 * p_o,
         "expected_agreement_percent": 100.0 * p_e,
-        "cohens_kappa": float(kappa),
+        "cohens_kappa": float(kappa) if kappa is not None else None,
+        "kappa_defined": kappa is not None,
         "positive_rate_a_percent": 100.0 * p_a1,
         "positive_rate_b_percent": 100.0 * p_b1,
     }
@@ -157,8 +158,12 @@ def load_completed_sheet(csv_path, key_path):
     if len(rows) != len(key_by_blind):
         raise ValueError(f"Row count mismatch: sheet has {len(rows)}, key has {len(key_by_blind)}.")
     mapped = {}
+    seen_blind_ids = set()
     for row in rows:
         bid = row["blind_id"]
+        if bid in seen_blind_ids:
+            raise ValueError(f"Duplicate blind_id in sheet: {bid}")
+        seen_blind_ids.add(bid)
         if bid not in key_by_blind:
             raise ValueError(f"Unknown blind_id in sheet: {bid}")
         item = key_by_blind[bid]
@@ -182,14 +187,14 @@ def load_completed_sheet(csv_path, key_path):
 
 
 def classify_decision_branch(n_clean, p_greater_0_5, ci_low, ci_high):
-    """Apply the pre-registered P1.2 decision tree (Branches A/B/C/D)."""
+    """Descriptive legacy routing rules; not an independent confirmatory test."""
     if n_clean < 80:
         return {
             "branch": "D",
             "label": "underpowered_high_rejection_rate",
             "interpretation": (
                 f"Clean retained sample size N_clean = {n_clean} < 80 (>20% rejected). "
-                "Report bounding-box heuristic noise and statistical underpowering."
+                "Report low retention, exclusion reasons, full-set and subset results; power is not inferred from N alone."
             ),
         }
     if p_greater_0_5 >= 0.05 and ci_high < 65.0:
@@ -205,12 +210,12 @@ def classify_decision_branch(n_clean, p_greater_0_5, ci_low, ci_high):
     if p_greater_0_5 < 0.05 and ci_low > 50.0:
         return {
             "branch": "B",
-            "label": "weak_signal_dominated_by_prior",
+            "label": "above_threshold_on_reviewed_subset",
             "interpretation": (
                 f"Retained N_clean = {n_clean}; one-sided p = {p_greater_0_5:.4f} < 0.05 and "
                 f"95% CI [{ci_low:.2f}%, {ci_high:.2f}%] > 50%. "
-                "Weak directional signal exists after removing prior bias in 2x2 assignment, "
-                "but remains practically weak on single-image classification."
+                "The reviewed subset is above the null threshold under this test. "
+                "This post-hoc subset does not independently establish mechanism or single-image performance."
             ),
         }
     return {

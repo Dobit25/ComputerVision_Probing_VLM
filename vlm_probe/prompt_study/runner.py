@@ -8,6 +8,7 @@ import numpy as np
 from ..dataset_adapters import load_dataset
 from ..depth.common import ROOT, Engine, begin, finish, read_json, write_csv
 from ..io_utils import sha256, write_json
+from ..extension_artifacts import begin_extension, save_classification
 from ..probing.stimuli import materialize
 from .design import (
     CONFIG_PATH,
@@ -35,8 +36,9 @@ def run_dataset_prompt_study(dataset_name, smoke=False, run_name=None):
     ds_config_path = ROOT / ds_entry["config_path"]
     ds_cfg = read_json(ds_config_path)
 
-    out, _, manifest = begin(
+    out, _, manifest = begin_extension(
         f"prompt_{dataset_name}",
+        CONFIG_PATH,
         smoke=smoke,
         inputs=[CONFIG_PATH, PROTOCOL_PATH, ds_config_path],
         run_name=run_name,
@@ -92,6 +94,11 @@ def run_dataset_prompt_study(dataset_name, smoke=False, run_name=None):
         class_alignment_norms=alignment_norms,
     )
     write_json(out / "metrics.json", suite_summary)
+    np.savez_compressed(out / 'text_embeddings.npz', **text_embeddings)
+    write_json(out / "dataset.json", bundle.metadata)
+    save_classification(out, {**scores_by_template, 'text_embedding_ensemble': emb_ens_scores},
+        [{'sample_id': sid, 'target_id': int(y)} for sid, y in zip(bundle.sample_ids[:count], targets)],
+        bundle.classes, 'T0_baseline', study_cfg['clip_logit_scale'])
     manifest.update(
         dataset=dataset_name,
         evaluated_samples=count,
@@ -113,8 +120,9 @@ def run_probing_prompt_study(smoke=False, run_name=None):
     from ..depth.common import ImageFiles
 
     study_cfg = load_study_config()
-    out, _, manifest = begin(
+    out, _, manifest = begin_extension(
         "prompt_probing",
+        CONFIG_PATH,
         smoke=smoke,
         inputs=[CONFIG_PATH, PROTOCOL_PATH],
         run_name=run_name,
@@ -184,6 +192,17 @@ def run_probing_prompt_study(smoke=False, run_name=None):
             bootstrap_draws=study_cfg["bootstrap_draws"],
             bootstrap_seed=study_cfg["bootstrap_seed"],
         )
+        write_json(out / f'{task_name}_samples.json', rows)
+        write_json(out / f'{task_name}_templates.json', per_sample_templates)
+        np.savez_compressed(out / f'{task_name}_scores.npz', **scores_dict,
+                            text_embedding_ensemble=emb_ens_scores)
+        from ..extension_artifacts import expanded_scores
+        _, conditions = expanded_scores({**scores_dict, 'text_embedding_ensemble': emb_ens_scores},
+                                         study_cfg['clip_logit_scale'])
+        write_csv(out / f'{task_name}_predictions.csv', [
+            {'sample_id': r['sample_id'], 'group_id': r['group_id'], 'condition': name,
+             'target': r['target'], 'prediction': int(mat[i].argmax())}
+            for name, mat in conditions.items() for i, r in enumerate(rows)])
 
     write_json(out / "metrics.json", results)
     finish(out, manifest)

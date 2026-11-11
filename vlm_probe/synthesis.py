@@ -80,9 +80,9 @@ def build_synthesis_markdown(blinded, spatial_psr, spatial_geom, prompt_ens, bpe
         f"| **COCO Exploratory (`T2` thuận, ngang)** | `{nat_exp_t2['n_pairs']}` | `{nat_exp_t2['mean_abs_prior_bias_B']:.5f}` | `{nat_exp_t2['mean_abs_spatial_signal_delta']:.5f}` | **`{nat_exp_t2['aggregate_prior_to_signal_ratio']:.2f}x`** | `{nat_exp_t2['same_prediction_collapse_percent']:.2f}%` | `{nat_exp_t2['assignment_accuracy_percent']:.2f}%` | **`{nat_exp_t2['both_images_correct_percent']:.2f}%`** |",
         f"| **COCO Confirmation (`T2` thuận, ngang)** | `{nat_conf_t2['n_pairs']}` | `{nat_conf_t2['mean_abs_prior_bias_B']:.5f}` | `{nat_conf_t2['mean_abs_spatial_signal_delta']:.5f}` | **`{nat_conf_t2['aggregate_prior_to_signal_ratio']:.2f}x`** | `{nat_conf_t2['same_prediction_collapse_percent']:.2f}%` | `{nat_conf_t2['assignment_accuracy_percent']:.2f}%` | **`{nat_conf_t2['both_images_correct_percent']:.2f}%`** |",
         "",
-        "> **Kết luận cơ chế (`RQ2`):** Trên cả ảnh hình học tổng hợp lẫn ảnh tự nhiên COCO, độ lớn tuyệt đối của thiên kiến bất biến vị trí $\\mathbb{E}[\\lvert B \\rvert]$ lớn gấp **`"
+        "> **Diễn giải hành vi (`RQ2`):** Trên các cặp ảnh đã xét, thành phần hiệu điểm trung bình trong cặp $\\mathbb{E}[\\lvert B \\rvert]$ lớn gấp **`"
         f"{nat_exp_t2['aggregate_prior_to_signal_ratio']:.1f}`–`{nat_conf_t2['aggregate_prior_to_signal_ratio']:.1f}` lần** tín hiệu đổi chỗ không gian $\\mathbb{{E}}[\\lvert \\Delta_{{\\text{{spatial}}}} \\rvert]$. "
-        "Do $\\lvert B \\rvert > \\lvert \\Delta_{\\text{spatial}} \\rvert$ trên hơn `93%–98,6%` số cặp, hai ảnh đối xứng bị đẩy về cùng một nhãn dự đoán, giải thích chính xác tại sao `both_images_correct` chỉ đạt `1,11%–4,00%` dù 2×2 assignment đạt `45%–54%`.",
+        "Do $\\lvert B \\rvert > \\lvert \\Delta_{\\text{spatial}} \\rvert$ trên phần lớn số cặp, hai ảnh thường có cùng nhãn dự đoán. Đây là mô tả đại số của điểm số, chưa chứng minh nguồn gốc bias ở encoder hoặc cơ chế neuron.",
         "",
         "### 2.2. Kết quả Thực nghiệm GPU & Giới hạn hình học của Half-Canvas Zero-Shot Mitigation (`P2.2/P2.3`)",
         "",
@@ -157,7 +157,7 @@ def build_synthesis_markdown(blinded, spatial_psr, spatial_geom, prompt_ens, bpe
         f"| **Logit Average Ensemble** | **`{neg_mech['logit_average_ensemble']['overall_accuracy_percent']:.2f}%`** | `{neg_mech['logit_average_ensemble']['present_accuracy_percent']:.2f}%` | `{neg_mech['logit_average_ensemble']['absent_accuracy_percent']:.2f}%` | `{neg_mech['logit_average_ensemble']['present_minus_absent_gap_pp']:+.2f}` pp | **`{neg_mech['logit_average_ensemble']['scene_pair_group_consistency_percent']:.2f}%`** |",
         f"| **Probability Average Ensemble** | **`{neg_mech['probability_average_ensemble']['overall_accuracy_percent']:.2f}%`** | `{neg_mech['probability_average_ensemble']['present_accuracy_percent']:.2f}%` | `{neg_mech['probability_average_ensemble']['absent_accuracy_percent']:.2f}%` | `{neg_mech['probability_average_ensemble']['present_minus_absent_gap_pp']:+.2f}` pp | **`{neg_mech['probability_average_ensemble']['scene_pair_group_consistency_percent']:.2f}%`** |",
         "",
-        f"- **Kiểm định Ensemble trên COCO Confirmation 2×2 Assignment (`100` cặp):** `T0` đạt `{sp_conf_ens['T0_forward']['assignment_accuracy_percent']:.2f}%`, `T1` đạt `{sp_conf_ens['T1_forward']['assignment_accuracy_percent']:.2f}%`, `T2` đạt `{sp_conf_ens['T2_forward']['assignment_accuracy_percent']:.2f}%`; khi gộp **Logit Ensemble (`T0+T1+T2`)** đạt `{sp_conf_ens['T0_T1_T2_forward_logit_ensemble']['assignment_accuracy_percent']:.2f}%` (CI 95% `[{sp_conf_ens['T0_T1_T2_forward_logit_ensemble']['assignment_ci95_percent'][0]:.2f}%, {sp_conf_ens['T0_T1_T2_forward_logit_ensemble']['assignment_ci95_percent'][1]:.2f}%]`) và `both_images_correct` vẫn chỉ đạt **`{sp_conf_ens['T0_T1_T2_forward_logit_ensemble']['both_images_correct_percent']:.2f}%`**. Điều này chứng minh **ensembling nhiều mẫu câu không thể giải cứu được hạn chế kiến trúc bag-of-words trên quan hệ không gian (`RQ3`)**.",
+        f"- **Ensemble tiếp nối trên COCO đã mở (`100` cặp):** Logit Ensemble T0+T1+T2 đạt `{sp_conf_ens['T0_T1_T2_forward_logit_ensemble']['assignment_accuracy_percent']:.2f}%`, cả hai ảnh đúng `{sp_conf_ens['T0_T1_T2_forward_logit_ensemble']['both_images_correct_percent']:.2f}%`. Trong bộ template này chưa có cải thiện rõ về tính nhất quán. Kết quả không chứng minh giới hạn kiến trúc hoặc mọi ensemble đều vô hiệu.",
         "",
         "---",
         "",
@@ -198,8 +198,8 @@ def build_synthesis_markdown(blinded, spatial_psr, spatial_geom, prompt_ens, bpe
         f"| **`vi_en_bilingual` (Song ngữ Việt–Anh)** | `{bpe_l['vi_en_bilingual']['mean_subword_tokens']:.2f} ± {bpe_l['vi_en_bilingual']['sd_subword_tokens']:.2f}` | `{bpe_p['vi_en_bilingual']['mean_subword_tokens']:.2f} ± {bpe_p['vi_en_bilingual']['sd_subword_tokens']:.2f}` | `{bpe_l['vi_en_bilingual']['mean_token_fertility_per_word']:.2f}` | `{bpe_l['vi_en_bilingual']['mean_ratio_vs_en_baseline']:.2f}x` | `{bpe_p['vi_en_bilingual']['exceeds_77_context_window_count']}` |",
         "",
         "> **Phát hiện định lượng (`RQ4` & `P4.5`):**",
-        f"> 1. **Phân mảnh BPE (`SimpleTokenizer` thực tế):** Một tên lớp tiếng Việt có dấu bị bẻ thành trung bình **`{bpe_l['vi_diacritics']['mean_subword_tokens']:.2f}` subword tokens** (Fertility = **`{bpe_l['vi_diacritics']['mean_token_fertility_per_word']:.2f}` tokens/từ**), gấp **`{bpe_l['vi_diacritics']['mean_ratio_vs_en_baseline']:.2f}` lần** tên lớp tiếng Anh (`{bpe_l['en_baseline']['mean_subword_tokens']:.2f}` tokens); cả câu prompt tiếng Việt có dấu dài **`{bpe_p['vi_diacritics']['mean_subword_tokens']:.2f}` tokens** so với `{bpe_p['en_baseline']['mean_subword_tokens']:.2f}` tokens tiếng Anh (`4.39x`).",
-        "> 2. **Bóc tách nhân quả Khung câu vs. Tên lớp (`P4.5`):** Khi giữ khung tiếng Anh nhưng thay nhãn tiếng Việt (`en_frame_vi_label`: `\"a photo of a cá heo.\"`), độ chính xác sụp đổ xuống **`5.44%`** (tương đương `vi_diacritics` `5.10%`). Ngược lại, khi dùng khung tiếng Việt với nhãn tiếng Anh (`vi_frame_en_label`: `\"một bức ảnh chụp dolphin.\"`), độ chính xác phục hồi vọt lên **`55.10%`** (`+50.00` pp so với tiếng Việt thuần, tương đương song ngữ `vi_en_bilingual` `54.95%`). Điều này chứng minh **hơn 84% mức suy giảm chéo ngôn ngữ (`-50.00` pp trên tổng `-59.38` pp) xuất phát từ việc bộ mã hóa văn bản CLIP mù ngữ nghĩa danh từ tên lớp tiếng Việt bị phân mảnh BPE, trong khi khung cú pháp tiếng Việt chỉ gây nhiễu nhẹ (`-9.38` pp)**.",
+        f"> 1. Tên lớp Việt có dấu có trung bình `{bpe_l['vi_diacritics']['mean_subword_tokens']:.2f}` token, so với `{bpe_l['en_baseline']['mean_subword_tokens']:.2f}` token Anh. Tỷ số hai trung bình là `{bpe_l['vi_diacritics']['mean_subword_tokens']/bpe_l['en_baseline']['mean_subword_tokens']:.2f}x`; trung bình tỷ số theo từng lớp là `{bpe_l['vi_diacritics']['mean_ratio_vs_en_baseline']:.2f}x`. Hai cách tổng hợp khác nhau.",
+        "> 2. Các điều kiện lai khung câu/tên lớp cho thấy hiệu năng phụ thuộc mạnh vào cách biểu diễn tên lớp. Chưa thể quy phần trăm suy giảm cho BPE: bản dịch, mức quen thuộc từ vựng và căn chỉnh embedding cùng thay đổi. Không dấu giảm số token nhưng accuracy thấp hơn có dấu, nên số token không giải thích đầy đủ kết quả.",
         "",
     ])
     return "\n".join(lines)
@@ -218,7 +218,9 @@ def run_all_synthesis():
     prompt_ens = analyze_saved_probing_ensembles(
         output_path=SYNTHESIS_DIR / "prompt_sensitivity_and_ensembles.json"
     )
-    bpe_diag = analyze_bpe_tokenization(output_path=SYNTHESIS_DIR / "vietnamese_bpe_diagnostics.json")
+    bpe_source = ROOT / "results/full_vietnamese_cifar100_v1/bpe_diagnostics.json"
+    bpe_diag = read_json(bpe_source)
+    write_json(SYNTHESIS_DIR / "vietnamese_bpe_diagnostics.json", bpe_diag)
     live_gpu = load_live_gpu_results()
     write_json(SYNTHESIS_DIR / "live_gpu_experiments_summary.json", live_gpu)
 

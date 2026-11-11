@@ -8,6 +8,7 @@ import numpy as np
 from ..dataset_adapters import load_dataset
 from ..depth.common import ROOT, Engine, begin, finish, read_json, write_csv
 from ..io_utils import write_json
+from ..extension_artifacts import begin_extension, save_classification
 from ..prompt_study.metrics import summarize_template_suite, text_embedding_ensemble
 from ..prompt_study.runner import sha256_of_list
 from .bpe_diagnostics import analyze_bpe_tokenization
@@ -25,8 +26,9 @@ def run_cifar100_vietnamese_study(smoke=False, run_name=None):
     model_cfg_path = ROOT / cfg["model_config"]
     model_cfg = read_json(model_cfg_path)
 
-    out, _, manifest = begin(
+    out, _, manifest = begin_extension(
         "vietnamese_cifar100",
+        CONFIG_PATH,
         smoke=smoke,
         inputs=[CONFIG_PATH, PROTOCOL_PATH, model_cfg_path],
         run_name=run_name,
@@ -99,6 +101,10 @@ def run_cifar100_vietnamese_study(smoke=False, run_name=None):
         en_vi_bilingual_embedding_ensemble=en_vi_ens_scores,
     )
     write_json(out / "metrics.json", suite_summary)
+    np.savez_compressed(out / 'text_embeddings.npz', **text_embeddings)
+    save_classification(out, {**scores_dict, 'en_vi_bilingual_embedding_ensemble': en_vi_ens_scores},
+        [{'sample_id': sid, 'target_id': int(y)} for sid, y in zip(bundle.sample_ids[:count], targets)],
+        bundle.classes, 'en_baseline')
     manifest.update(evaluated_samples=count, conditions=list(conditions.keys()))
     finish(out, manifest)
     print(

@@ -1,7 +1,7 @@
 # P1.2: Giao thức kiểm nhãn ảnh tự nhiên độc lập bởi người (Independent Human Review Protocol)
 
 Ngày lập: **09/11/2026** (Asia/Saigon).
-Tài liệu này quy định quy trình thực hiện **P1.2** trong [long_term_project_plan.md](../long_term_project_plan.md#L91-L102) nhằm kiểm tra độ nhạy của kết quả không gian trên ảnh tự nhiên đối với chất lượng nhãn, đồng thời quy định phương án dự phòng nếu không có thành viên rà soát độc lập.
+Tài liệu này quy định quy trình thực hiện **P1.2** trong [long_term_project_plan.md](long_term_project_plan.md#5-p1--ho?n-thi?n-ch?t-l??ng-b?ng-ch?ng-core) nhằm kiểm tra độ nhạy của kết quả không gian trên ảnh tự nhiên đối với chất lượng nhãn, đồng thời quy định phương án dự phòng nếu không có thành viên rà soát độc lập.
 
 ---
 

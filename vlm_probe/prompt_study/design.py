@@ -69,7 +69,8 @@ def build_dataset_templates(dataset_name, class_names, study_cfg=None):
     clean_names = [name.replace("_", " ") + suffix for name in class_names]
     prompts_by_template = OrderedDict()
     for tid, pattern in ordered_specs.items():
-        prompts_by_template[tid] = [pattern.format(**{"class": cname}) for cname in clean_names]
+        rendered_names = [name.replace("_", " ") for name in class_names] if dataset_name == "dtd" and tid == "T4_domain" else clean_names
+        prompts_by_template[tid] = [pattern.format(**{"class": cname}) for cname in rendered_names]
     return prompts_by_template
 
 

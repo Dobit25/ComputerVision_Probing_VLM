@@ -1,7 +1,7 @@
 # P0: Ma trận yêu cầu, câu hỏi nghiên cứu, tài liệu nền và khung lịch trình
 
 Ngày lập: **09/11/2026** (Asia/Saigon). Điểm xuất phát: nhánh `dev`, sau mốc `v1.1.0-probing-depth` (`dcc2184`).
-Tài liệu này hiện thực hóa giai đoạn **P0 (`P0.1`–`P0.5`)** trong [kế hoạch toàn dự án](../long_term_project_plan.md) mà không thay đổi bất kỳ artifact hay kết quả thực nghiệm nào đã đóng băng.
+Tài liệu này hiện thực hóa giai đoạn **P0 (`P0.1`–`P0.5`)** trong [kế hoạch toàn dự án](long_term_project_plan.md) mà không thay đổi bất kỳ artifact hay kết quả thực nghiệm nào đã đóng băng.
 
 ---
 

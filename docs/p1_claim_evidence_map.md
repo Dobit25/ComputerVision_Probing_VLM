@@ -3,7 +3,7 @@
 Ngày lập: **09/11/2026** (Asia/Saigon).
 Bản dữ liệu máy đọc được: [docs/references/claim_evidence_map.json](references/claim_evidence_map.json).
 
-Tài liệu này thực thi mục 5 (`P1.1`, `P1.3`, `P1.4`) của [long_term_project_plan.md](../long_term_project_plan.md):
+Tài liệu này thực thi mục 5 (`P1.1`, `P1.3`, `P1.4`) của [long_term_project_plan.md](long_term_project_plan.md):
 - Mọi kết luận xuất hiện trong Abstract, Main Text và Conclusion của báo cáo phải ánh xạ trực tiếp tới `claim → metric → run → controls → uncertainty → limitation`.
 - Không còn kết luận sai vì nhầm mẫu số, nhầm oracle 5-way với 100-way, nhầm độ nhạy mẫu câu với "không hiểu phủ định", hoặc suy diễn $p > 0,05$ thành "tương đương đoán ngẫu nhiên".
 

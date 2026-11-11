@@ -94,7 +94,8 @@ class ExtensionsP0ToP5Tests(unittest.TestCase):
             scored = score_confirmation_consensus(sheet_a, key_path=key_path, sheet_b_path=sheet_b)
             self.assertEqual(scored["n_retained_consensus"], 100)
             self.assertAlmostEqual(scored["primary_t2_o0"]["accuracy_percent"], 53.0, places=5)
-            self.assertAlmostEqual(scored["inter_annotator_agreement"]["cohens_kappa"], 1.0, places=5)
+            self.assertIsNone(scored["inter_annotator_agreement"]["cohens_kappa"])
+            self.assertEqual(scored["inter_annotator_agreement"]["raw_agreement_percent"], 100.0)
             self.assertEqual(scored["decision_branch"]["branch"], "A")
 
     def test_p1_2_cohens_kappa_and_decision_branches(self):

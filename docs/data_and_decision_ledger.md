@@ -3,7 +3,7 @@
 Ngày cập nhật: **09/11/2026** (Asia/Saigon).
 Bản dữ liệu máy đọc được tương ứng: [docs/references/data_ledger.json](references/data_ledger.json).
 
-Tài liệu này thực thi quy tắc thống kê trong mục 3 và mục 4 (`P0.4`) của [long_term_project_plan.md](../long_term_project_plan.md):
+Tài liệu này thực thi quy tắc thống kê trong mục 3 và mục 4 (`P0.4`) của [long_term_project_plan.md](long_term_project_plan.md):
 - **Các tập dữ liệu đã xem kết quả suy luận không bao giờ trở lại thành tập xác nhận độc lập (holdout) mới** chỉ bằng cách đổi seed hay chọn lại tập con.
 - Nếu chạy bộ prompt cố định mới (ví dụ P3 hoặc P4) trên các tập test chuẩn đã dùng ở baseline, báo cáo phải gắn nhãn rõ là **"phân tích tiếp nối có điều kiện cố định trước trên tập test chuẩn" (fixed-protocol follow-up on standard test split)** — tuyệt đối không dùng điểm số trên các tập test này để chọn ra prompt "tốt nhất" rồi tuyên bố đó là hiệu năng tổng quát ngoài mẫu.
 
