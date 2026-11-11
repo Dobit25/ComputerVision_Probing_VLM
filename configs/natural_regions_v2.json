@@ -1,0 +1,23 @@
+{
+  "protocol_version": "natural_regions_review_v2",
+  "model_config": "configs/clip_b32_cifar100.json",
+  "bootstrap_draws": 2000,
+  "bootstrap_seed": 1402,
+  "canvas_size": 224,
+  "crop_mode": "baseline_center_canvas_then_four_halves",
+  "object_template": "a photo of {object}.",
+  "holistic_template": 2,
+  "holistic_order": 0,
+  "sets": {
+    "exploratory": {
+      "selection": "results/depth_natural_selection_v1/selected.json",
+      "baseline": "results/full_depth_natural_v1",
+      "primary_choices": 4
+    },
+    "confirmation": {
+      "selection": "results/natural_confirmation_selection_v1/selected.json",
+      "baseline": "results/full_natural_confirmation_v1",
+      "primary_choices": 2
+    }
+  }
+}
