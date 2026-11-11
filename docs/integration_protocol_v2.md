@@ -26,6 +26,8 @@ Pipeline chốt (làm rõ trước mọi inference COCO mới): mở ảnh RGB �
 
 Lưu đủ scores nhận dạng từng đối tượng ở từng nửa (N×4×2), relational scores (N×4), ảnh/sample metadata, caption pool và predictions. Tính lại toàn bộ bằng audit mà không inference. Không gọi mô phỏng bbox cũ là trần chính xác của CLIP. Kết quả synthetic 100% chỉ áp dụng bộ cảnh đã tạo; pipeline chia vùng là phương pháp suy luận có cấu trúc riêng.
 
+Làm rõ trước inference COCO: nửa ảnh 112×224 qua preprocessing chuẩn sẽ bị center crop thêm, có thể mất nội dung. Giữ cách gốc `native_half` làm primary để đối chiếu hieu; thêm đúng một control `padded_half` làm secondary: đặt nửa ảnh giữa canvas 224×224, nền RGB [123,117,104] gần mean checkpoint, rồi preprocessing. Không đổi primary theo kết quả. Lưu đủ scores/predictions của cả hai. Padding cũng thay nền/kích thước tương đối, không cô lập hoàn toàn một nguyên nhân.
+
 ## Review người và báo cáo
 
 Xuất gói 100 ảnh đã cố định với ảnh gốc/crop, box A/B, tên lớp và quan hệ; không scores hoặc quyết định AI. Xuất 100 nhãn EN–VI với ô review trống, không accuracy từng lớp. Không điền thay người review. Review sau suy luận là kiểm nhãn/sensitivity; bản dịch sửa theo ngữ nghĩa phải tạo version mới và study mới nếu đánh giá lại.

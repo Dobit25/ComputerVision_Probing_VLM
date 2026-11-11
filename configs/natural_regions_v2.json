@@ -6,6 +6,9 @@
   "canvas_size": 224,
   "crop_mode": "optional_raw_flip_then_baseline_center_canvas_then_four_halves",
   "object_template": "a photo of {object}.",
+  "primary_view_mode": "native_half",
+  "secondary_view_mode": "padded_half",
+  "pad_rgb": [123, 117, 104],
   "holistic_template": 2,
   "holistic_order": 0,
   "sets": {

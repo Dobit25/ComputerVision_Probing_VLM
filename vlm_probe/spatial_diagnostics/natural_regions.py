@@ -25,6 +25,12 @@ def baseline_canvas(image, size=224):
     return image.crop((x, y, x + size, y + size))
 
 
+def pad_half(image, size=224, rgb=(123,117,104)):
+    canvas = Image.new('RGB', (size, size), tuple(rgb))
+    canvas.paste(image, ((size-image.width)//2, (size-image.height)//2))
+    return canvas
+
+
 def holistic_scores(rows, entry):
     old = ROOT / entry['baseline']; images = read_json(old / 'images.json')
     by_id = {r['image_id']: i for i, r in enumerate(images)}
@@ -100,31 +106,40 @@ def run(set_name, smoke=False, run_name=None):
     text = engine.texts(prompts)
 
     class Crops(Dataset):
-        def __len__(self): return 4 * len(rows)
+        def __len__(self): return 8 * len(rows)
         def __getitem__(self, i):
-            row = rows[i // 4]; path = ROOT / row['image_path']
+            row = rows[i // 8]; path = ROOT / row['image_path']
             if sha256(path) != row['image_sha256']: raise ValueError('Changed source image')
             with Image.open(path) as im: image = im.convert('RGB')
             if row['transform'] == 'horizontal_flip': image = ImageOps.mirror(image)
             image = baseline_canvas(image, cfg['canvas_size'])
-            return engine.adapter.preprocess(crop_half_canvases(image)[REGIONS[i % 4]])
+            crop = crop_half_canvases(image)[REGIONS[i % 4]]
+            if i % 8 >= 4: crop = pad_half(crop, cfg['canvas_size'], cfg['pad_rgb'])
+            return engine.adapter.preprocess(crop)
 
     feats = []
     for batch in DataLoader(Crops(), batch_size=32, shuffle=False, num_workers=0):
         with torch.inference_mode(): feats.append(engine.norm(engine.adapter.encode_images(batch.to('cuda'))).cpu())
-    all_scores = engine.scores(torch.cat(feats), text).reshape(len(rows), 4, len(prompts))
-    regional = np.empty((len(rows), 4, 2), dtype=np.float32)
+    all_scores = engine.scores(torch.cat(feats), text).reshape(len(rows), 2, 4, len(prompts))
+    regional = np.empty((len(rows), 2, 4, 2), dtype=np.float32)
     for i, r in enumerate(rows):
         for j, side in enumerate(('a', 'b')):
-            regional[i, :, j] = all_scores[i, :, pool[cfg['object_template'].format(object=r[side])]]
-    relational = relational_scores_from_regions(regional[:, :, 0], regional[:, :, 1]).astype(np.float32)
+            regional[i, :, :, j] = all_scores[i, :, :, pool[cfg['object_template'].format(object=r[side])]]
+    direct, padded = regional[:,0], regional[:,1]
+    relational = relational_scores_from_regions(direct[:, :, 0], direct[:, :, 1]).astype(np.float32)
+    padded_relational = relational_scores_from_regions(padded[:, :, 0], padded[:, :, 1]).astype(np.float32)
     base = holistic_scores(rows, entry)
     metrics, predictions, pairs = summarize(rows, relational, base, entry['primary_choices'], cfg)
+    secondary, padded_predictions, padded_pairs = summarize(rows, padded_relational, base, entry['primary_choices'], cfg)
+    metrics['secondary_padded_half'] = secondary
     write_json(out / 'samples.json', rows); write_json(out / 'prompts.json', prompts)
     write_json(out / 'metrics.json', metrics)
     write_csv(out / 'predictions.csv', predictions)
+    write_csv(out / 'padded_predictions.csv', padded_predictions)
     if pairs: write_csv(out / 'pairs.csv', pairs)
-    np.savez_compressed(out / 'scores.npz', regions=regional, relational=relational, holistic=base)
+    if padded_pairs: write_csv(out / 'padded_pairs.csv', padded_pairs)
+    np.savez_compressed(out / 'scores.npz', regions=direct, relational=relational, holistic=base,
+                        padded_regions=padded, padded_relational=padded_relational)
     manifest.update(set_name=set_name, num_sources=len(selected), num_images=len(rows))
     finish(out, manifest); print(metrics, flush=True)
 
@@ -136,16 +151,25 @@ def audit(directory):
     close_enough(read_json(directory / 'samples.json'), rows)
     with np.load(directory / 'scores.npz', allow_pickle=False) as z:
         regional, relational, base = z['regions'], z['relational'], z['holistic']
+        padded, padded_relational = z['padded_regions'], z['padded_relational']
     if regional.shape != (len(rows), 4, 2): raise ValueError('Wrong region shape')
     close_enough(relational.tolist(), relational_scores_from_regions(regional[:, :, 0], regional[:, :, 1]).astype(np.float32).tolist())
     if not np.array_equal(base, holistic_scores(rows, entry)): raise ValueError('Holistic reference changed')
     metrics, predictions, pairs = summarize(rows, relational, base, entry['primary_choices'], cfg)
+    secondary, padded_predictions, padded_pairs = summarize(rows, padded_relational, base, entry['primary_choices'], cfg)
+    if not np.array_equal(padded_relational, relational_scores_from_regions(padded[:,:,0], padded[:,:,1]).astype(np.float32)):
+        raise ValueError('Padded region arithmetic')
+    metrics['secondary_padded_half'] = secondary
     close_enough(read_json(directory / 'metrics.json'), metrics)
     from ..depth.common import csv_rows
     if [{k: str(v) for k, v in r.items()} for r in predictions] != csv_rows(directory / 'predictions.csv'):
         raise ValueError('Prediction mismatch')
     if pairs and [{k: str(v) for k, v in r.items()} for r in pairs] != csv_rows(directory / 'pairs.csv'):
         raise ValueError('Pair mismatch')
+    if [{k: str(v) for k, v in r.items()} for r in padded_predictions] != csv_rows(directory / 'padded_predictions.csv'):
+        raise ValueError('Padded predictions mismatch')
+    if padded_pairs and [{k: str(v) for k,v in r.items()} for r in padded_pairs] != csv_rows(directory/'padded_pairs.csv'):
+        raise ValueError('Padded pairs mismatch')
     return {'metrics_recomputed': True, 'region_to_relational_scores_recomputed': True,
             'n': len(rows), 'metrics': metrics}
 
