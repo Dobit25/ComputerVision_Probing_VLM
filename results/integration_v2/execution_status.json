@@ -1,0 +1,258 @@
+{
+  "updated_at_utc": "2026-11-11T03:27:33.897863+00:00",
+  "jobs": [
+    {
+      "run_name": "smoke_prompt_flowers102_review_v2",
+      "command": [
+        "D:\\Coding\\Anaconda\\envs\\gen\\python.exe",
+        "-m",
+        "vlm_probe.prompt_study",
+        "dataset",
+        "--dataset",
+        "flowers102",
+        "--run-name",
+        "smoke_prompt_flowers102_review_v2",
+        "--smoke"
+      ],
+      "status": "audited",
+      "started_at_utc": "2026-11-11T02:42:09.224939+00:00",
+      "finished_at_utc": "2026-11-11T02:45:15.877144+00:00"
+    },
+    {
+      "run_name": "full_prompt_flowers102_review_v2",
+      "command": [
+        "D:\\Coding\\Anaconda\\envs\\gen\\python.exe",
+        "-m",
+        "vlm_probe.prompt_study",
+        "dataset",
+        "--dataset",
+        "flowers102",
+        "--run-name",
+        "full_prompt_flowers102_review_v2"
+      ],
+      "status": "audited",
+      "started_at_utc": "2026-11-11T02:45:20.965815+00:00",
+      "finished_at_utc": "2026-11-11T02:47:23.628526+00:00"
+    },
+    {
+      "run_name": "smoke_prompt_oxford_pet_review_v2",
+      "command": [
+        "D:\\Coding\\Anaconda\\envs\\gen\\python.exe",
+        "-m",
+        "vlm_probe.prompt_study",
+        "dataset",
+        "--dataset",
+        "oxford_pet",
+        "--run-name",
+        "smoke_prompt_oxford_pet_review_v2",
+        "--smoke"
+      ],
+      "status": "audited",
+      "started_at_utc": "2026-11-11T02:47:31.210897+00:00",
+      "finished_at_utc": "2026-11-11T02:49:09.134672+00:00"
+    },
+    {
+      "run_name": "full_prompt_oxford_pet_review_v2",
+      "command": [
+        "D:\\Coding\\Anaconda\\envs\\gen\\python.exe",
+        "-m",
+        "vlm_probe.prompt_study",
+        "dataset",
+        "--dataset",
+        "oxford_pet",
+        "--run-name",
+        "full_prompt_oxford_pet_review_v2"
+      ],
+      "status": "audited",
+      "started_at_utc": "2026-11-11T02:49:14.798934+00:00",
+      "finished_at_utc": "2026-11-11T02:50:34.711840+00:00"
+    },
+    {
+      "run_name": "smoke_prompt_dtd_review_v2",
+      "command": [
+        "D:\\Coding\\Anaconda\\envs\\gen\\python.exe",
+        "-m",
+        "vlm_probe.prompt_study",
+        "dataset",
+        "--dataset",
+        "dtd",
+        "--run-name",
+        "smoke_prompt_dtd_review_v2",
+        "--smoke"
+      ],
+      "status": "audited",
+      "started_at_utc": "2026-11-11T02:50:40.985128+00:00",
+      "finished_at_utc": "2026-11-11T02:51:30.074299+00:00"
+    },
+    {
+      "run_name": "full_prompt_dtd_review_v2",
+      "command": [
+        "D:\\Coding\\Anaconda\\envs\\gen\\python.exe",
+        "-m",
+        "vlm_probe.prompt_study",
+        "dataset",
+        "--dataset",
+        "dtd",
+        "--run-name",
+        "full_prompt_dtd_review_v2"
+      ],
+      "status": "audited",
+      "started_at_utc": "2026-11-11T02:51:34.097518+00:00",
+      "finished_at_utc": "2026-11-11T02:52:17.247157+00:00"
+    },
+    {
+      "run_name": "smoke_prompt_food101_review_v2",
+      "command": [
+        "D:\\Coding\\Anaconda\\envs\\gen\\python.exe",
+        "-m",
+        "vlm_probe.prompt_study",
+        "dataset",
+        "--dataset",
+        "food101",
+        "--run-name",
+        "smoke_prompt_food101_review_v2",
+        "--smoke"
+      ],
+      "status": "audited",
+      "started_at_utc": "2026-11-11T02:52:23.321471+00:00",
+      "finished_at_utc": "2026-11-11T03:00:14.235377+00:00"
+    },
+    {
+      "run_name": "full_prompt_food101_review_v2",
+      "command": [
+        "D:\\Coding\\Anaconda\\envs\\gen\\python.exe",
+        "-m",
+        "vlm_probe.prompt_study",
+        "dataset",
+        "--dataset",
+        "food101",
+        "--run-name",
+        "full_prompt_food101_review_v2"
+      ],
+      "status": "audited",
+      "started_at_utc": "2026-11-11T03:00:22.609098+00:00",
+      "finished_at_utc": "2026-11-11T03:13:30.698797+00:00"
+    },
+    {
+      "run_name": "smoke_prompt_probing_review_v2",
+      "command": [
+        "D:\\Coding\\Anaconda\\envs\\gen\\python.exe",
+        "-m",
+        "vlm_probe.prompt_study",
+        "probing",
+        "--run-name",
+        "smoke_prompt_probing_review_v2",
+        "--smoke"
+      ],
+      "status": "audited",
+      "started_at_utc": "2026-11-11T03:13:56.720968+00:00",
+      "finished_at_utc": "2026-11-11T03:16:55.305302+00:00"
+    },
+    {
+      "run_name": "full_prompt_probing_review_v2",
+      "command": [
+        "D:\\Coding\\Anaconda\\envs\\gen\\python.exe",
+        "-m",
+        "vlm_probe.prompt_study",
+        "probing",
+        "--run-name",
+        "full_prompt_probing_review_v2"
+      ],
+      "status": "audited",
+      "started_at_utc": "2026-11-11T03:16:58.156348+00:00",
+      "finished_at_utc": "2026-11-11T03:18:56.504852+00:00"
+    },
+    {
+      "run_name": "smoke_spatial_mitigation_review_v2",
+      "command": [
+        "D:\\Coding\\Anaconda\\envs\\gen\\python.exe",
+        "-m",
+        "vlm_probe.spatial_diagnostics",
+        "mitigate",
+        "--run-name",
+        "smoke_spatial_mitigation_review_v2",
+        "--smoke"
+      ],
+      "status": "audited",
+      "started_at_utc": "2026-11-11T03:24:19.903655+00:00",
+      "finished_at_utc": "2026-11-11T03:25:39.891773+00:00"
+    },
+    {
+      "run_name": "full_spatial_mitigation_review_v2",
+      "command": [
+        "D:\\Coding\\Anaconda\\envs\\gen\\python.exe",
+        "-m",
+        "vlm_probe.spatial_diagnostics",
+        "mitigate",
+        "--run-name",
+        "full_spatial_mitigation_review_v2"
+      ],
+      "status": "audited",
+      "started_at_utc": "2026-11-11T03:25:42.239475+00:00",
+      "finished_at_utc": "2026-11-11T03:27:29.513094+00:00"
+    },
+    {
+      "run_name": "smoke_natural_regions_exploratory_review_v2",
+      "command": [
+        "D:\\Coding\\Anaconda\\envs\\gen\\python.exe",
+        "-m",
+        "vlm_probe.spatial_diagnostics.natural_regions",
+        "--set",
+        "exploratory",
+        "--run-name",
+        "smoke_natural_regions_exploratory_review_v2",
+        "--smoke"
+      ],
+      "status": "audited",
+      "started_at_utc": "2026-11-11T03:19:02.151981+00:00",
+      "finished_at_utc": "2026-11-11T03:19:25.544968+00:00"
+    },
+    {
+      "run_name": "full_natural_regions_exploratory_review_v2",
+      "command": [
+        "D:\\Coding\\Anaconda\\envs\\gen\\python.exe",
+        "-m",
+        "vlm_probe.spatial_diagnostics.natural_regions",
+        "--set",
+        "exploratory",
+        "--run-name",
+        "full_natural_regions_exploratory_review_v2"
+      ],
+      "status": "audited",
+      "started_at_utc": "2026-11-11T03:19:30.977208+00:00",
+      "finished_at_utc": "2026-11-11T03:20:44.318353+00:00"
+    },
+    {
+      "run_name": "smoke_natural_regions_confirmation_review_v2",
+      "command": [
+        "D:\\Coding\\Anaconda\\envs\\gen\\python.exe",
+        "-m",
+        "vlm_probe.spatial_diagnostics.natural_regions",
+        "--set",
+        "confirmation",
+        "--run-name",
+        "smoke_natural_regions_confirmation_review_v2",
+        "--smoke"
+      ],
+      "status": "audited",
+      "started_at_utc": "2026-11-11T03:20:49.864678+00:00",
+      "finished_at_utc": "2026-11-11T03:21:13.397100+00:00"
+    },
+    {
+      "run_name": "full_natural_regions_confirmation_review_v2",
+      "command": [
+        "D:\\Coding\\Anaconda\\envs\\gen\\python.exe",
+        "-m",
+        "vlm_probe.spatial_diagnostics.natural_regions",
+        "--set",
+        "confirmation",
+        "--run-name",
+        "full_natural_regions_confirmation_review_v2"
+      ],
+      "status": "audited",
+      "started_at_utc": "2026-11-11T03:21:18.548693+00:00",
+      "finished_at_utc": "2026-11-11T03:22:06.328773+00:00"
+    }
+  ],
+  "status": "completed_and_audited"
+}

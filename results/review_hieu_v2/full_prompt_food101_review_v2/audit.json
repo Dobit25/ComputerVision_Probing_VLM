@@ -1,0 +1,19 @@
+{
+  "run": "results/full_prompt_food101_review_v2",
+  "artifact_integrity_verified": true,
+  "manifest_sha256": "394031c63ac260c9a1e6ab8ca47402ce3089e81c8d8e672b4bf1874ff031b162",
+  "metrics_recomputed": true,
+  "n": 25250,
+  "baseline_predictions_identical": true,
+  "baseline_target_cosine_max_abs_difference": 2.682209014892578e-07,
+  "text_embedding_ensemble_construction_recomputed": true,
+  "limitation": null,
+  "legacy_config_protocol_note": null,
+  "derived_sha256": {
+    "classes.json": "162af7bd2f359390c027bc157514d645641fb139ab02ec6e219de39fc66871c7",
+    "diagnostics.json": "a7a3fe6d85dd51290a4bbd683eef65143a95f08649c22839a6533c487954b66b",
+    "per_class.csv": "a8fa7bc3725c89f6a617958f6bfe9b072bb3f82b670a5fda5c7e663e2e29f248",
+    "predictions.csv": "eefecc52a83cb7d5cb825ae20fc2c9a842657f47a2be4dafe7b0798782f82511",
+    "samples.json": "11c4e82abefda3905a95d4e78532fbec60a2222d44e38f189fb38fcb6e94c6a7"
+  }
+}

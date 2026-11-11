@@ -1,0 +1,1021 @@
+condition,class_id,class_name,support,correct,accuracy_percent
+T0_baseline,0,pink primrose,20,9,45.0
+T0_baseline,1,hard-leaved pocket orchid,40,19,47.5
+T0_baseline,2,canterbury bells,20,7,35.0
+T0_baseline,3,sweet pea,36,18,50.0
+T0_baseline,4,english marigold,45,23,51.11111111111111
+T0_baseline,5,tiger lily,25,25,100.0
+T0_baseline,6,moon orchid,20,10,50.0
+T0_baseline,7,bird of paradise,65,63,96.92307692307692
+T0_baseline,8,monkshood,26,25,96.15384615384616
+T0_baseline,9,globe thistle,25,25,100.0
+T0_baseline,10,snapdragon,67,53,79.1044776119403
+T0_baseline,11,colt's foot,67,59,88.05970149253731
+T0_baseline,12,king protea,29,29,100.0
+T0_baseline,13,spear thistle,28,28,100.0
+T0_baseline,14,yellow iris,29,29,100.0
+T0_baseline,15,globe-flower,21,1,4.761904761904762
+T0_baseline,16,purple coneflower,65,62,95.38461538461539
+T0_baseline,17,peruvian lily,62,58,93.54838709677419
+T0_baseline,18,balloon flower,29,23,79.3103448275862
+T0_baseline,19,giant white arum lily,36,34,94.44444444444444
+T0_baseline,20,fire lily,20,11,55.00000000000001
+T0_baseline,21,pincushion flower,39,28,71.7948717948718
+T0_baseline,22,fritillary,71,56,78.87323943661971
+T0_baseline,23,red ginger,22,4,18.181818181818183
+T0_baseline,24,grape hyacinth,21,21,100.0
+T0_baseline,25,corn poppy,21,19,90.47619047619048
+T0_baseline,26,prince of wales feathers,20,0,0.0
+T0_baseline,27,stemless gentian,46,45,97.82608695652173
+T0_baseline,28,artichoke,58,35,60.3448275862069
+T0_baseline,29,sweet william,65,42,64.61538461538461
+T0_baseline,30,carnation,32,31,96.875
+T0_baseline,31,garden phlox,25,19,76.0
+T0_baseline,32,love in the mist,26,0,0.0
+T0_baseline,33,mexican aster,20,11,55.00000000000001
+T0_baseline,34,alpine sea holly,23,15,65.21739130434783
+T0_baseline,35,ruby-lipped cattleya,55,51,92.72727272727272
+T0_baseline,36,cape flower,88,0,0.0
+T0_baseline,37,great masterwort,36,0,0.0
+T0_baseline,38,siam tulip,21,10,47.61904761904761
+T0_baseline,39,lenten rose,47,46,97.87234042553192
+T0_baseline,40,barbeton daisy,107,47,43.925233644859816
+T0_baseline,41,daffodil,39,38,97.43589743589743
+T0_baseline,42,sword lily,110,2,1.8181818181818181
+T0_baseline,43,poinsettia,73,72,98.63013698630137
+T0_baseline,44,bolero deep blue,20,0,0.0
+T0_baseline,45,wallflower,176,70,39.77272727272727
+T0_baseline,46,marigold,47,0,0.0
+T0_baseline,47,buttercup,51,51,100.0
+T0_baseline,48,oxeye daisy,29,10,34.48275862068966
+T0_baseline,49,common dandelion,72,41,56.94444444444444
+T0_baseline,50,petunia,238,9,3.7815126050420167
+T0_baseline,51,wild pansy,65,16,24.615384615384617
+T0_baseline,52,primula,73,55,75.34246575342466
+T0_baseline,53,sunflower,41,41,100.0
+T0_baseline,54,pelargonium,51,0,0.0
+T0_baseline,55,bishop of llandaff,89,0,0.0
+T0_baseline,56,gaura,47,45,95.74468085106383
+T0_baseline,57,geranium,94,5,5.319148936170213
+T0_baseline,58,orange dahlia,47,37,78.72340425531915
+T0_baseline,59,pink-yellow dahlia?,89,85,95.50561797752809
+T0_baseline,60,cautleya spicata,30,30,100.0
+T0_baseline,61,japanese anemone,35,29,82.85714285714286
+T0_baseline,62,black-eyed susan,34,34,100.0
+T0_baseline,63,silverbush,32,0,0.0
+T0_baseline,64,californian poppy,82,64,78.04878048780488
+T0_baseline,65,osteospermum,41,34,82.92682926829268
+T0_baseline,66,spring crocus,22,22,100.0
+T0_baseline,67,bearded iris,34,24,70.58823529411765
+T0_baseline,68,windflower,34,4,11.76470588235294
+T0_baseline,69,tree poppy,42,4,9.523809523809524
+T0_baseline,70,gazania,58,53,91.37931034482759
+T0_baseline,71,azalea,76,53,69.73684210526315
+T0_baseline,72,water lily,174,148,85.0574712643678
+T0_baseline,73,rose,151,144,95.36423841059603
+T0_baseline,74,thorn apple,100,0,0.0
+T0_baseline,75,morning glory,87,43,49.42528735632184
+T0_baseline,76,passion flower,231,216,93.5064935064935
+T0_baseline,77,lotus,117,94,80.34188034188034
+T0_baseline,78,toad lily,21,21,100.0
+T0_baseline,79,anthurium,85,84,98.82352941176471
+T0_baseline,80,frangipani,146,146,100.0
+T0_baseline,81,clematis,92,89,96.73913043478261
+T0_baseline,82,hibiscus,111,102,91.8918918918919
+T0_baseline,83,columbine,66,57,86.36363636363636
+T0_baseline,84,desert-rose,43,28,65.11627906976744
+T0_baseline,85,tree mallow,38,7,18.421052631578945
+T0_baseline,86,magnolia,43,38,88.37209302325581
+T0_baseline,87,cyclamen,134,122,91.04477611940298
+T0_baseline,88,watercress,164,0,0.0
+T0_baseline,89,canna lily,62,46,74.19354838709677
+T0_baseline,90,hippeastrum,56,56,100.0
+T0_baseline,91,bee balm,46,44,95.65217391304348
+T0_baseline,92,ball moss,26,0,0.0
+T0_baseline,93,foxglove,142,131,92.25352112676056
+T0_baseline,94,bougainvillea,108,81,75.0
+T0_baseline,95,camellia,71,60,84.50704225352112
+T0_baseline,96,mallow,46,1,2.1739130434782608
+T0_baseline,97,mexican petunia,62,46,74.19354838709677
+T0_baseline,98,bromelia,43,38,88.37209302325581
+T0_baseline,99,blanket flower,29,28,96.55172413793103
+T0_baseline,100,trumpet creeper,38,10,26.31578947368421
+T0_baseline,101,blackberry lily,28,22,78.57142857142857
+T1_minimal,0,pink primrose,20,12,60.0
+T1_minimal,1,hard-leaved pocket orchid,40,9,22.5
+T1_minimal,2,canterbury bells,20,1,5.0
+T1_minimal,3,sweet pea,36,1,2.7777777777777777
+T1_minimal,4,english marigold,45,35,77.77777777777779
+T1_minimal,5,tiger lily,25,20,80.0
+T1_minimal,6,moon orchid,20,14,70.0
+T1_minimal,7,bird of paradise,65,64,98.46153846153847
+T1_minimal,8,monkshood,26,26,100.0
+T1_minimal,9,globe thistle,25,25,100.0
+T1_minimal,10,snapdragon,67,53,79.1044776119403
+T1_minimal,11,colt's foot,67,45,67.16417910447761
+T1_minimal,12,king protea,29,29,100.0
+T1_minimal,13,spear thistle,28,28,100.0
+T1_minimal,14,yellow iris,29,29,100.0
+T1_minimal,15,globe-flower,21,1,4.761904761904762
+T1_minimal,16,purple coneflower,65,64,98.46153846153847
+T1_minimal,17,peruvian lily,62,58,93.54838709677419
+T1_minimal,18,balloon flower,29,24,82.75862068965517
+T1_minimal,19,giant white arum lily,36,36,100.0
+T1_minimal,20,fire lily,20,2,10.0
+T1_minimal,21,pincushion flower,39,27,69.23076923076923
+T1_minimal,22,fritillary,71,65,91.54929577464789
+T1_minimal,23,red ginger,22,0,0.0
+T1_minimal,24,grape hyacinth,21,21,100.0
+T1_minimal,25,corn poppy,21,14,66.66666666666666
+T1_minimal,26,prince of wales feathers,20,0,0.0
+T1_minimal,27,stemless gentian,46,33,71.73913043478261
+T1_minimal,28,artichoke,58,32,55.172413793103445
+T1_minimal,29,sweet william,65,18,27.692307692307693
+T1_minimal,30,carnation,32,29,90.625
+T1_minimal,31,garden phlox,25,15,60.0
+T1_minimal,32,love in the mist,26,0,0.0
+T1_minimal,33,mexican aster,20,13,65.0
+T1_minimal,34,alpine sea holly,23,16,69.56521739130434
+T1_minimal,35,ruby-lipped cattleya,55,51,92.72727272727272
+T1_minimal,36,cape flower,88,0,0.0
+T1_minimal,37,great masterwort,36,0,0.0
+T1_minimal,38,siam tulip,21,10,47.61904761904761
+T1_minimal,39,lenten rose,47,47,100.0
+T1_minimal,40,barbeton daisy,107,0,0.0
+T1_minimal,41,daffodil,39,38,97.43589743589743
+T1_minimal,42,sword lily,110,0,0.0
+T1_minimal,43,poinsettia,73,72,98.63013698630137
+T1_minimal,44,bolero deep blue,20,0,0.0
+T1_minimal,45,wallflower,176,0,0.0
+T1_minimal,46,marigold,47,0,0.0
+T1_minimal,47,buttercup,51,22,43.13725490196079
+T1_minimal,48,oxeye daisy,29,29,100.0
+T1_minimal,49,common dandelion,72,70,97.22222222222221
+T1_minimal,50,petunia,238,0,0.0
+T1_minimal,51,wild pansy,65,60,92.3076923076923
+T1_minimal,52,primula,73,51,69.86301369863014
+T1_minimal,53,sunflower,41,41,100.0
+T1_minimal,54,pelargonium,51,0,0.0
+T1_minimal,55,bishop of llandaff,89,0,0.0
+T1_minimal,56,gaura,47,44,93.61702127659575
+T1_minimal,57,geranium,94,0,0.0
+T1_minimal,58,orange dahlia,47,41,87.2340425531915
+T1_minimal,59,pink-yellow dahlia?,89,86,96.62921348314607
+T1_minimal,60,cautleya spicata,30,30,100.0
+T1_minimal,61,japanese anemone,35,31,88.57142857142857
+T1_minimal,62,black-eyed susan,34,34,100.0
+T1_minimal,63,silverbush,32,0,0.0
+T1_minimal,64,californian poppy,82,71,86.58536585365853
+T1_minimal,65,osteospermum,41,28,68.29268292682927
+T1_minimal,66,spring crocus,22,21,95.45454545454545
+T1_minimal,67,bearded iris,34,26,76.47058823529412
+T1_minimal,68,windflower,34,0,0.0
+T1_minimal,69,tree poppy,42,12,28.57142857142857
+T1_minimal,70,gazania,58,53,91.37931034482759
+T1_minimal,71,azalea,76,40,52.63157894736842
+T1_minimal,72,water lily,174,168,96.55172413793103
+T1_minimal,73,rose,151,121,80.13245033112582
+T1_minimal,74,thorn apple,100,0,0.0
+T1_minimal,75,morning glory,87,0,0.0
+T1_minimal,76,passion flower,231,227,98.26839826839827
+T1_minimal,77,lotus,117,64,54.700854700854705
+T1_minimal,78,toad lily,21,21,100.0
+T1_minimal,79,anthurium,85,84,98.82352941176471
+T1_minimal,80,frangipani,146,145,99.31506849315068
+T1_minimal,81,clematis,92,89,96.73913043478261
+T1_minimal,82,hibiscus,111,101,90.990990990991
+T1_minimal,83,columbine,66,54,81.81818181818183
+T1_minimal,84,desert-rose,43,27,62.7906976744186
+T1_minimal,85,tree mallow,38,15,39.473684210526315
+T1_minimal,86,magnolia,43,35,81.3953488372093
+T1_minimal,87,cyclamen,134,119,88.80597014925374
+T1_minimal,88,watercress,164,0,0.0
+T1_minimal,89,canna lily,62,50,80.64516129032258
+T1_minimal,90,hippeastrum,56,55,98.21428571428571
+T1_minimal,91,bee balm,46,44,95.65217391304348
+T1_minimal,92,ball moss,26,0,0.0
+T1_minimal,93,foxglove,142,133,93.66197183098592
+T1_minimal,94,bougainvillea,108,76,70.37037037037037
+T1_minimal,95,camellia,71,58,81.69014084507043
+T1_minimal,96,mallow,46,0,0.0
+T1_minimal,97,mexican petunia,62,49,79.03225806451613
+T1_minimal,98,bromelia,43,41,95.34883720930233
+T1_minimal,99,blanket flower,29,28,96.55172413793103
+T1_minimal,100,trumpet creeper,38,15,39.473684210526315
+T1_minimal,101,blackberry lily,28,24,85.71428571428571
+T2_clear,0,pink primrose,20,10,50.0
+T2_clear,1,hard-leaved pocket orchid,40,12,30.0
+T2_clear,2,canterbury bells,20,7,35.0
+T2_clear,3,sweet pea,36,18,50.0
+T2_clear,4,english marigold,45,20,44.44444444444444
+T2_clear,5,tiger lily,25,25,100.0
+T2_clear,6,moon orchid,20,10,50.0
+T2_clear,7,bird of paradise,65,63,96.92307692307692
+T2_clear,8,monkshood,26,25,96.15384615384616
+T2_clear,9,globe thistle,25,25,100.0
+T2_clear,10,snapdragon,67,51,76.11940298507463
+T2_clear,11,colt's foot,67,58,86.56716417910447
+T2_clear,12,king protea,29,29,100.0
+T2_clear,13,spear thistle,28,27,96.42857142857143
+T2_clear,14,yellow iris,29,29,100.0
+T2_clear,15,globe-flower,21,0,0.0
+T2_clear,16,purple coneflower,65,63,96.92307692307692
+T2_clear,17,peruvian lily,62,57,91.93548387096774
+T2_clear,18,balloon flower,29,22,75.86206896551724
+T2_clear,19,giant white arum lily,36,32,88.88888888888889
+T2_clear,20,fire lily,20,12,60.0
+T2_clear,21,pincushion flower,39,28,71.7948717948718
+T2_clear,22,fritillary,71,47,66.19718309859155
+T2_clear,23,red ginger,22,3,13.636363636363635
+T2_clear,24,grape hyacinth,21,21,100.0
+T2_clear,25,corn poppy,21,14,66.66666666666666
+T2_clear,26,prince of wales feathers,20,0,0.0
+T2_clear,27,stemless gentian,46,43,93.47826086956522
+T2_clear,28,artichoke,58,34,58.620689655172406
+T2_clear,29,sweet william,65,44,67.6923076923077
+T2_clear,30,carnation,32,31,96.875
+T2_clear,31,garden phlox,25,18,72.0
+T2_clear,32,love in the mist,26,0,0.0
+T2_clear,33,mexican aster,20,12,60.0
+T2_clear,34,alpine sea holly,23,13,56.52173913043478
+T2_clear,35,ruby-lipped cattleya,55,53,96.36363636363636
+T2_clear,36,cape flower,88,0,0.0
+T2_clear,37,great masterwort,36,0,0.0
+T2_clear,38,siam tulip,21,12,57.14285714285714
+T2_clear,39,lenten rose,47,46,97.87234042553192
+T2_clear,40,barbeton daisy,107,38,35.51401869158878
+T2_clear,41,daffodil,39,38,97.43589743589743
+T2_clear,42,sword lily,110,0,0.0
+T2_clear,43,poinsettia,73,72,98.63013698630137
+T2_clear,44,bolero deep blue,20,0,0.0
+T2_clear,45,wallflower,176,128,72.72727272727273
+T2_clear,46,marigold,47,0,0.0
+T2_clear,47,buttercup,51,50,98.0392156862745
+T2_clear,48,oxeye daisy,29,2,6.896551724137931
+T2_clear,49,common dandelion,72,46,63.888888888888886
+T2_clear,50,petunia,238,4,1.680672268907563
+T2_clear,51,wild pansy,65,16,24.615384615384617
+T2_clear,52,primula,73,57,78.08219178082192
+T2_clear,53,sunflower,41,40,97.5609756097561
+T2_clear,54,pelargonium,51,0,0.0
+T2_clear,55,bishop of llandaff,89,0,0.0
+T2_clear,56,gaura,47,47,100.0
+T2_clear,57,geranium,94,6,6.382978723404255
+T2_clear,58,orange dahlia,47,32,68.08510638297872
+T2_clear,59,pink-yellow dahlia?,89,85,95.50561797752809
+T2_clear,60,cautleya spicata,30,29,96.66666666666667
+T2_clear,61,japanese anemone,35,27,77.14285714285715
+T2_clear,62,black-eyed susan,34,34,100.0
+T2_clear,63,silverbush,32,0,0.0
+T2_clear,64,californian poppy,82,73,89.02439024390245
+T2_clear,65,osteospermum,41,32,78.04878048780488
+T2_clear,66,spring crocus,22,21,95.45454545454545
+T2_clear,67,bearded iris,34,26,76.47058823529412
+T2_clear,68,windflower,34,4,11.76470588235294
+T2_clear,69,tree poppy,42,6,14.285714285714285
+T2_clear,70,gazania,58,53,91.37931034482759
+T2_clear,71,azalea,76,55,72.36842105263158
+T2_clear,72,water lily,174,120,68.96551724137932
+T2_clear,73,rose,151,146,96.68874172185431
+T2_clear,74,thorn apple,100,0,0.0
+T2_clear,75,morning glory,87,45,51.724137931034484
+T2_clear,76,passion flower,231,216,93.5064935064935
+T2_clear,77,lotus,117,87,74.35897435897436
+T2_clear,78,toad lily,21,21,100.0
+T2_clear,79,anthurium,85,83,97.6470588235294
+T2_clear,80,frangipani,146,146,100.0
+T2_clear,81,clematis,92,88,95.65217391304348
+T2_clear,82,hibiscus,111,93,83.78378378378379
+T2_clear,83,columbine,66,55,83.33333333333334
+T2_clear,84,desert-rose,43,26,60.46511627906976
+T2_clear,85,tree mallow,38,9,23.684210526315788
+T2_clear,86,magnolia,43,38,88.37209302325581
+T2_clear,87,cyclamen,134,125,93.28358208955224
+T2_clear,88,watercress,164,0,0.0
+T2_clear,89,canna lily,62,43,69.35483870967742
+T2_clear,90,hippeastrum,56,54,96.42857142857143
+T2_clear,91,bee balm,46,44,95.65217391304348
+T2_clear,92,ball moss,26,0,0.0
+T2_clear,93,foxglove,142,128,90.14084507042254
+T2_clear,94,bougainvillea,108,91,84.25925925925925
+T2_clear,95,camellia,71,58,81.69014084507043
+T2_clear,96,mallow,46,0,0.0
+T2_clear,97,mexican petunia,62,49,79.03225806451613
+T2_clear,98,bromelia,43,37,86.04651162790698
+T2_clear,99,blanket flower,29,26,89.65517241379311
+T2_clear,100,trumpet creeper,38,11,28.947368421052634
+T2_clear,101,blackberry lily,28,13,46.42857142857143
+T3_centered,0,pink primrose,20,11,55.00000000000001
+T3_centered,1,hard-leaved pocket orchid,40,19,47.5
+T3_centered,2,canterbury bells,20,11,55.00000000000001
+T3_centered,3,sweet pea,36,21,58.333333333333336
+T3_centered,4,english marigold,45,22,48.888888888888886
+T3_centered,5,tiger lily,25,25,100.0
+T3_centered,6,moon orchid,20,11,55.00000000000001
+T3_centered,7,bird of paradise,65,64,98.46153846153847
+T3_centered,8,monkshood,26,25,96.15384615384616
+T3_centered,9,globe thistle,25,25,100.0
+T3_centered,10,snapdragon,67,45,67.16417910447761
+T3_centered,11,colt's foot,67,60,89.55223880597015
+T3_centered,12,king protea,29,29,100.0
+T3_centered,13,spear thistle,28,28,100.0
+T3_centered,14,yellow iris,29,29,100.0
+T3_centered,15,globe-flower,21,1,4.761904761904762
+T3_centered,16,purple coneflower,65,63,96.92307692307692
+T3_centered,17,peruvian lily,62,58,93.54838709677419
+T3_centered,18,balloon flower,29,18,62.06896551724138
+T3_centered,19,giant white arum lily,36,35,97.22222222222221
+T3_centered,20,fire lily,20,9,45.0
+T3_centered,21,pincushion flower,39,28,71.7948717948718
+T3_centered,22,fritillary,71,58,81.69014084507043
+T3_centered,23,red ginger,22,5,22.727272727272727
+T3_centered,24,grape hyacinth,21,21,100.0
+T3_centered,25,corn poppy,21,18,85.71428571428571
+T3_centered,26,prince of wales feathers,20,0,0.0
+T3_centered,27,stemless gentian,46,43,93.47826086956522
+T3_centered,28,artichoke,58,33,56.896551724137936
+T3_centered,29,sweet william,65,46,70.76923076923077
+T3_centered,30,carnation,32,31,96.875
+T3_centered,31,garden phlox,25,15,60.0
+T3_centered,32,love in the mist,26,0,0.0
+T3_centered,33,mexican aster,20,10,50.0
+T3_centered,34,alpine sea holly,23,16,69.56521739130434
+T3_centered,35,ruby-lipped cattleya,55,49,89.0909090909091
+T3_centered,36,cape flower,88,0,0.0
+T3_centered,37,great masterwort,36,0,0.0
+T3_centered,38,siam tulip,21,9,42.857142857142854
+T3_centered,39,lenten rose,47,47,100.0
+T3_centered,40,barbeton daisy,107,44,41.1214953271028
+T3_centered,41,daffodil,39,38,97.43589743589743
+T3_centered,42,sword lily,110,1,0.9090909090909091
+T3_centered,43,poinsettia,73,72,98.63013698630137
+T3_centered,44,bolero deep blue,20,0,0.0
+T3_centered,45,wallflower,176,68,38.63636363636363
+T3_centered,46,marigold,47,0,0.0
+T3_centered,47,buttercup,51,51,100.0
+T3_centered,48,oxeye daisy,29,10,34.48275862068966
+T3_centered,49,common dandelion,72,36,50.0
+T3_centered,50,petunia,238,17,7.142857142857142
+T3_centered,51,wild pansy,65,54,83.07692307692308
+T3_centered,52,primula,73,58,79.45205479452055
+T3_centered,53,sunflower,41,41,100.0
+T3_centered,54,pelargonium,51,0,0.0
+T3_centered,55,bishop of llandaff,89,0,0.0
+T3_centered,56,gaura,47,46,97.87234042553192
+T3_centered,57,geranium,94,7,7.446808510638298
+T3_centered,58,orange dahlia,47,40,85.1063829787234
+T3_centered,59,pink-yellow dahlia?,89,80,89.8876404494382
+T3_centered,60,cautleya spicata,30,30,100.0
+T3_centered,61,japanese anemone,35,30,85.71428571428571
+T3_centered,62,black-eyed susan,34,34,100.0
+T3_centered,63,silverbush,32,0,0.0
+T3_centered,64,californian poppy,82,63,76.82926829268293
+T3_centered,65,osteospermum,41,34,82.92682926829268
+T3_centered,66,spring crocus,22,22,100.0
+T3_centered,67,bearded iris,34,24,70.58823529411765
+T3_centered,68,windflower,34,5,14.705882352941178
+T3_centered,69,tree poppy,42,8,19.047619047619047
+T3_centered,70,gazania,58,52,89.65517241379311
+T3_centered,71,azalea,76,57,75.0
+T3_centered,72,water lily,174,118,67.81609195402298
+T3_centered,73,rose,151,139,92.05298013245033
+T3_centered,74,thorn apple,100,0,0.0
+T3_centered,75,morning glory,87,52,59.77011494252874
+T3_centered,76,passion flower,231,223,96.53679653679653
+T3_centered,77,lotus,117,97,82.90598290598291
+T3_centered,78,toad lily,21,21,100.0
+T3_centered,79,anthurium,85,84,98.82352941176471
+T3_centered,80,frangipani,146,145,99.31506849315068
+T3_centered,81,clematis,92,89,96.73913043478261
+T3_centered,82,hibiscus,111,101,90.990990990991
+T3_centered,83,columbine,66,59,89.39393939393939
+T3_centered,84,desert-rose,43,26,60.46511627906976
+T3_centered,85,tree mallow,38,12,31.57894736842105
+T3_centered,86,magnolia,43,36,83.72093023255815
+T3_centered,87,cyclamen,134,126,94.02985074626866
+T3_centered,88,watercress,164,0,0.0
+T3_centered,89,canna lily,62,47,75.80645161290323
+T3_centered,90,hippeastrum,56,55,98.21428571428571
+T3_centered,91,bee balm,46,44,95.65217391304348
+T3_centered,92,ball moss,26,0,0.0
+T3_centered,93,foxglove,142,132,92.95774647887323
+T3_centered,94,bougainvillea,108,79,73.14814814814815
+T3_centered,95,camellia,71,59,83.09859154929578
+T3_centered,96,mallow,46,0,0.0
+T3_centered,97,mexican petunia,62,47,75.80645161290323
+T3_centered,98,bromelia,43,38,88.37209302325581
+T3_centered,99,blanket flower,29,29,100.0
+T3_centered,100,trumpet creeper,38,14,36.84210526315789
+T3_centered,101,blackberry lily,28,24,85.71428571428571
+T4_domain,0,pink primrose,20,5,25.0
+T4_domain,1,hard-leaved pocket orchid,40,8,20.0
+T4_domain,2,canterbury bells,20,4,20.0
+T4_domain,3,sweet pea,36,31,86.11111111111111
+T4_domain,4,english marigold,45,17,37.77777777777778
+T4_domain,5,tiger lily,25,25,100.0
+T4_domain,6,moon orchid,20,16,80.0
+T4_domain,7,bird of paradise,65,65,100.0
+T4_domain,8,monkshood,26,24,92.3076923076923
+T4_domain,9,globe thistle,25,25,100.0
+T4_domain,10,snapdragon,67,52,77.61194029850746
+T4_domain,11,colt's foot,67,62,92.53731343283582
+T4_domain,12,king protea,29,29,100.0
+T4_domain,13,spear thistle,28,28,100.0
+T4_domain,14,yellow iris,29,29,100.0
+T4_domain,15,globe-flower,21,1,4.761904761904762
+T4_domain,16,purple coneflower,65,63,96.92307692307692
+T4_domain,17,peruvian lily,62,54,87.09677419354838
+T4_domain,18,balloon flower,29,24,82.75862068965517
+T4_domain,19,giant white arum lily,36,34,94.44444444444444
+T4_domain,20,fire lily,20,11,55.00000000000001
+T4_domain,21,pincushion flower,39,30,76.92307692307693
+T4_domain,22,fritillary,71,60,84.50704225352112
+T4_domain,23,red ginger,22,16,72.72727272727273
+T4_domain,24,grape hyacinth,21,21,100.0
+T4_domain,25,corn poppy,21,13,61.904761904761905
+T4_domain,26,prince of wales feathers,20,0,0.0
+T4_domain,27,stemless gentian,46,40,86.95652173913044
+T4_domain,28,artichoke,58,45,77.58620689655173
+T4_domain,29,sweet william,65,47,72.3076923076923
+T4_domain,30,carnation,32,32,100.0
+T4_domain,31,garden phlox,25,18,72.0
+T4_domain,32,love in the mist,26,0,0.0
+T4_domain,33,mexican aster,20,9,45.0
+T4_domain,34,alpine sea holly,23,16,69.56521739130434
+T4_domain,35,ruby-lipped cattleya,55,43,78.18181818181819
+T4_domain,36,cape flower,88,0,0.0
+T4_domain,37,great masterwort,36,7,19.444444444444446
+T4_domain,38,siam tulip,21,4,19.047619047619047
+T4_domain,39,lenten rose,47,46,97.87234042553192
+T4_domain,40,barbeton daisy,107,29,27.102803738317753
+T4_domain,41,daffodil,39,36,92.3076923076923
+T4_domain,42,sword lily,110,0,0.0
+T4_domain,43,poinsettia,73,72,98.63013698630137
+T4_domain,44,bolero deep blue,20,2,10.0
+T4_domain,45,wallflower,176,143,81.25
+T4_domain,46,marigold,47,0,0.0
+T4_domain,47,buttercup,51,51,100.0
+T4_domain,48,oxeye daisy,29,5,17.24137931034483
+T4_domain,49,common dandelion,72,45,62.5
+T4_domain,50,petunia,238,30,12.605042016806722
+T4_domain,51,wild pansy,65,61,93.84615384615384
+T4_domain,52,primula,73,50,68.4931506849315
+T4_domain,53,sunflower,41,41,100.0
+T4_domain,54,pelargonium,51,0,0.0
+T4_domain,55,bishop of llandaff,89,0,0.0
+T4_domain,56,gaura,47,46,97.87234042553192
+T4_domain,57,geranium,94,6,6.382978723404255
+T4_domain,58,orange dahlia,47,43,91.48936170212765
+T4_domain,59,pink-yellow dahlia?,89,69,77.52808988764045
+T4_domain,60,cautleya spicata,30,30,100.0
+T4_domain,61,japanese anemone,35,29,82.85714285714286
+T4_domain,62,black-eyed susan,34,34,100.0
+T4_domain,63,silverbush,32,1,3.125
+T4_domain,64,californian poppy,82,54,65.85365853658537
+T4_domain,65,osteospermum,41,31,75.60975609756098
+T4_domain,66,spring crocus,22,22,100.0
+T4_domain,67,bearded iris,34,23,67.64705882352942
+T4_domain,68,windflower,34,5,14.705882352941178
+T4_domain,69,tree poppy,42,12,28.57142857142857
+T4_domain,70,gazania,58,48,82.75862068965517
+T4_domain,71,azalea,76,60,78.94736842105263
+T4_domain,72,water lily,174,60,34.48275862068966
+T4_domain,73,rose,151,147,97.35099337748345
+T4_domain,74,thorn apple,100,0,0.0
+T4_domain,75,morning glory,87,80,91.95402298850574
+T4_domain,76,passion flower,231,207,89.6103896103896
+T4_domain,77,lotus,117,112,95.72649572649573
+T4_domain,78,toad lily,21,21,100.0
+T4_domain,79,anthurium,85,82,96.47058823529412
+T4_domain,80,frangipani,146,146,100.0
+T4_domain,81,clematis,92,81,88.04347826086956
+T4_domain,82,hibiscus,111,101,90.990990990991
+T4_domain,83,columbine,66,56,84.84848484848484
+T4_domain,84,desert-rose,43,20,46.51162790697674
+T4_domain,85,tree mallow,38,26,68.42105263157895
+T4_domain,86,magnolia,43,40,93.02325581395348
+T4_domain,87,cyclamen,134,124,92.53731343283582
+T4_domain,88,watercress,164,0,0.0
+T4_domain,89,canna lily,62,47,75.80645161290323
+T4_domain,90,hippeastrum,56,55,98.21428571428571
+T4_domain,91,bee balm,46,44,95.65217391304348
+T4_domain,92,ball moss,26,0,0.0
+T4_domain,93,foxglove,142,130,91.54929577464789
+T4_domain,94,bougainvillea,108,97,89.81481481481481
+T4_domain,95,camellia,71,60,84.50704225352112
+T4_domain,96,mallow,46,1,2.1739130434782608
+T4_domain,97,mexican petunia,62,28,45.16129032258064
+T4_domain,98,bromelia,43,37,86.04651162790698
+T4_domain,99,blanket flower,29,29,100.0
+T4_domain,100,trumpet creeper,38,18,47.368421052631575
+T4_domain,101,blackberry lily,28,21,75.0
+T5_bright,0,pink primrose,20,6,30.0
+T5_bright,1,hard-leaved pocket orchid,40,19,47.5
+T5_bright,2,canterbury bells,20,4,20.0
+T5_bright,3,sweet pea,36,18,50.0
+T5_bright,4,english marigold,45,20,44.44444444444444
+T5_bright,5,tiger lily,25,25,100.0
+T5_bright,6,moon orchid,20,14,70.0
+T5_bright,7,bird of paradise,65,64,98.46153846153847
+T5_bright,8,monkshood,26,25,96.15384615384616
+T5_bright,9,globe thistle,25,25,100.0
+T5_bright,10,snapdragon,67,55,82.08955223880598
+T5_bright,11,colt's foot,67,60,89.55223880597015
+T5_bright,12,king protea,29,29,100.0
+T5_bright,13,spear thistle,28,28,100.0
+T5_bright,14,yellow iris,29,29,100.0
+T5_bright,15,globe-flower,21,1,4.761904761904762
+T5_bright,16,purple coneflower,65,64,98.46153846153847
+T5_bright,17,peruvian lily,62,58,93.54838709677419
+T5_bright,18,balloon flower,29,25,86.20689655172413
+T5_bright,19,giant white arum lily,36,36,100.0
+T5_bright,20,fire lily,20,9,45.0
+T5_bright,21,pincushion flower,39,33,84.61538461538461
+T5_bright,22,fritillary,71,60,84.50704225352112
+T5_bright,23,red ginger,22,4,18.181818181818183
+T5_bright,24,grape hyacinth,21,21,100.0
+T5_bright,25,corn poppy,21,16,76.19047619047619
+T5_bright,26,prince of wales feathers,20,0,0.0
+T5_bright,27,stemless gentian,46,45,97.82608695652173
+T5_bright,28,artichoke,58,41,70.6896551724138
+T5_bright,29,sweet william,65,47,72.3076923076923
+T5_bright,30,carnation,32,32,100.0
+T5_bright,31,garden phlox,25,18,72.0
+T5_bright,32,love in the mist,26,0,0.0
+T5_bright,33,mexican aster,20,8,40.0
+T5_bright,34,alpine sea holly,23,14,60.86956521739131
+T5_bright,35,ruby-lipped cattleya,55,42,76.36363636363637
+T5_bright,36,cape flower,88,0,0.0
+T5_bright,37,great masterwort,36,7,19.444444444444446
+T5_bright,38,siam tulip,21,6,28.57142857142857
+T5_bright,39,lenten rose,47,47,100.0
+T5_bright,40,barbeton daisy,107,34,31.775700934579437
+T5_bright,41,daffodil,39,38,97.43589743589743
+T5_bright,42,sword lily,110,0,0.0
+T5_bright,43,poinsettia,73,72,98.63013698630137
+T5_bright,44,bolero deep blue,20,0,0.0
+T5_bright,45,wallflower,176,92,52.27272727272727
+T5_bright,46,marigold,47,1,2.127659574468085
+T5_bright,47,buttercup,51,50,98.0392156862745
+T5_bright,48,oxeye daisy,29,22,75.86206896551724
+T5_bright,49,common dandelion,72,36,50.0
+T5_bright,50,petunia,238,7,2.941176470588235
+T5_bright,51,wild pansy,65,50,76.92307692307693
+T5_bright,52,primula,73,58,79.45205479452055
+T5_bright,53,sunflower,41,41,100.0
+T5_bright,54,pelargonium,51,0,0.0
+T5_bright,55,bishop of llandaff,89,0,0.0
+T5_bright,56,gaura,47,45,95.74468085106383
+T5_bright,57,geranium,94,5,5.319148936170213
+T5_bright,58,orange dahlia,47,38,80.85106382978722
+T5_bright,59,pink-yellow dahlia?,89,84,94.3820224719101
+T5_bright,60,cautleya spicata,30,30,100.0
+T5_bright,61,japanese anemone,35,27,77.14285714285715
+T5_bright,62,black-eyed susan,34,34,100.0
+T5_bright,63,silverbush,32,4,12.5
+T5_bright,64,californian poppy,82,66,80.48780487804879
+T5_bright,65,osteospermum,41,33,80.48780487804879
+T5_bright,66,spring crocus,22,22,100.0
+T5_bright,67,bearded iris,34,27,79.41176470588235
+T5_bright,68,windflower,34,4,11.76470588235294
+T5_bright,69,tree poppy,42,0,0.0
+T5_bright,70,gazania,58,53,91.37931034482759
+T5_bright,71,azalea,76,42,55.26315789473685
+T5_bright,72,water lily,174,169,97.12643678160919
+T5_bright,73,rose,151,144,95.36423841059603
+T5_bright,74,thorn apple,100,0,0.0
+T5_bright,75,morning glory,87,61,70.11494252873564
+T5_bright,76,passion flower,231,220,95.23809523809523
+T5_bright,77,lotus,117,82,70.08547008547008
+T5_bright,78,toad lily,21,21,100.0
+T5_bright,79,anthurium,85,84,98.82352941176471
+T5_bright,80,frangipani,146,146,100.0
+T5_bright,81,clematis,92,90,97.82608695652173
+T5_bright,82,hibiscus,111,101,90.990990990991
+T5_bright,83,columbine,66,54,81.81818181818183
+T5_bright,84,desert-rose,43,36,83.72093023255815
+T5_bright,85,tree mallow,38,11,28.947368421052634
+T5_bright,86,magnolia,43,38,88.37209302325581
+T5_bright,87,cyclamen,134,127,94.77611940298507
+T5_bright,88,watercress,164,0,0.0
+T5_bright,89,canna lily,62,41,66.12903225806451
+T5_bright,90,hippeastrum,56,56,100.0
+T5_bright,91,bee balm,46,44,95.65217391304348
+T5_bright,92,ball moss,26,0,0.0
+T5_bright,93,foxglove,142,135,95.07042253521126
+T5_bright,94,bougainvillea,108,76,70.37037037037037
+T5_bright,95,camellia,71,58,81.69014084507043
+T5_bright,96,mallow,46,2,4.3478260869565215
+T5_bright,97,mexican petunia,62,28,45.16129032258064
+T5_bright,98,bromelia,43,38,88.37209302325581
+T5_bright,99,blanket flower,29,27,93.10344827586206
+T5_bright,100,trumpet creeper,38,15,39.473684210526315
+T5_bright,101,blackberry lily,28,23,82.14285714285714
+T6_cropped,0,pink primrose,20,5,25.0
+T6_cropped,1,hard-leaved pocket orchid,40,1,2.5
+T6_cropped,2,canterbury bells,20,6,30.0
+T6_cropped,3,sweet pea,36,23,63.888888888888886
+T6_cropped,4,english marigold,45,24,53.333333333333336
+T6_cropped,5,tiger lily,25,25,100.0
+T6_cropped,6,moon orchid,20,19,95.0
+T6_cropped,7,bird of paradise,65,63,96.92307692307692
+T6_cropped,8,monkshood,26,23,88.46153846153845
+T6_cropped,9,globe thistle,25,23,92.0
+T6_cropped,10,snapdragon,67,56,83.5820895522388
+T6_cropped,11,colt's foot,67,59,88.05970149253731
+T6_cropped,12,king protea,29,29,100.0
+T6_cropped,13,spear thistle,28,28,100.0
+T6_cropped,14,yellow iris,29,29,100.0
+T6_cropped,15,globe-flower,21,1,4.761904761904762
+T6_cropped,16,purple coneflower,65,63,96.92307692307692
+T6_cropped,17,peruvian lily,62,57,91.93548387096774
+T6_cropped,18,balloon flower,29,25,86.20689655172413
+T6_cropped,19,giant white arum lily,36,35,97.22222222222221
+T6_cropped,20,fire lily,20,12,60.0
+T6_cropped,21,pincushion flower,39,26,66.66666666666666
+T6_cropped,22,fritillary,71,49,69.01408450704226
+T6_cropped,23,red ginger,22,6,27.27272727272727
+T6_cropped,24,grape hyacinth,21,21,100.0
+T6_cropped,25,corn poppy,21,10,47.61904761904761
+T6_cropped,26,prince of wales feathers,20,0,0.0
+T6_cropped,27,stemless gentian,46,44,95.65217391304348
+T6_cropped,28,artichoke,58,47,81.03448275862068
+T6_cropped,29,sweet william,65,46,70.76923076923077
+T6_cropped,30,carnation,32,31,96.875
+T6_cropped,31,garden phlox,25,17,68.0
+T6_cropped,32,love in the mist,26,0,0.0
+T6_cropped,33,mexican aster,20,12,60.0
+T6_cropped,34,alpine sea holly,23,17,73.91304347826086
+T6_cropped,35,ruby-lipped cattleya,55,46,83.63636363636363
+T6_cropped,36,cape flower,88,0,0.0
+T6_cropped,37,great masterwort,36,5,13.88888888888889
+T6_cropped,38,siam tulip,21,11,52.38095238095239
+T6_cropped,39,lenten rose,47,47,100.0
+T6_cropped,40,barbeton daisy,107,41,38.31775700934579
+T6_cropped,41,daffodil,39,38,97.43589743589743
+T6_cropped,42,sword lily,110,0,0.0
+T6_cropped,43,poinsettia,73,72,98.63013698630137
+T6_cropped,44,bolero deep blue,20,0,0.0
+T6_cropped,45,wallflower,176,113,64.20454545454545
+T6_cropped,46,marigold,47,0,0.0
+T6_cropped,47,buttercup,51,51,100.0
+T6_cropped,48,oxeye daisy,29,8,27.586206896551722
+T6_cropped,49,common dandelion,72,56,77.77777777777779
+T6_cropped,50,petunia,238,15,6.302521008403361
+T6_cropped,51,wild pansy,65,55,84.61538461538461
+T6_cropped,52,primula,73,55,75.34246575342466
+T6_cropped,53,sunflower,41,41,100.0
+T6_cropped,54,pelargonium,51,0,0.0
+T6_cropped,55,bishop of llandaff,89,0,0.0
+T6_cropped,56,gaura,47,44,93.61702127659575
+T6_cropped,57,geranium,94,1,1.0638297872340425
+T6_cropped,58,orange dahlia,47,39,82.97872340425532
+T6_cropped,59,pink-yellow dahlia?,89,76,85.39325842696628
+T6_cropped,60,cautleya spicata,30,28,93.33333333333333
+T6_cropped,61,japanese anemone,35,31,88.57142857142857
+T6_cropped,62,black-eyed susan,34,34,100.0
+T6_cropped,63,silverbush,32,2,6.25
+T6_cropped,64,californian poppy,82,54,65.85365853658537
+T6_cropped,65,osteospermum,41,34,82.92682926829268
+T6_cropped,66,spring crocus,22,22,100.0
+T6_cropped,67,bearded iris,34,26,76.47058823529412
+T6_cropped,68,windflower,34,3,8.823529411764707
+T6_cropped,69,tree poppy,42,8,19.047619047619047
+T6_cropped,70,gazania,58,52,89.65517241379311
+T6_cropped,71,azalea,76,58,76.31578947368422
+T6_cropped,72,water lily,174,107,61.49425287356321
+T6_cropped,73,rose,151,144,95.36423841059603
+T6_cropped,74,thorn apple,100,0,0.0
+T6_cropped,75,morning glory,87,72,82.75862068965517
+T6_cropped,76,passion flower,231,220,95.23809523809523
+T6_cropped,77,lotus,117,104,88.88888888888889
+T6_cropped,78,toad lily,21,21,100.0
+T6_cropped,79,anthurium,85,84,98.82352941176471
+T6_cropped,80,frangipani,146,146,100.0
+T6_cropped,81,clematis,92,88,95.65217391304348
+T6_cropped,82,hibiscus,111,103,92.7927927927928
+T6_cropped,83,columbine,66,58,87.87878787878788
+T6_cropped,84,desert-rose,43,29,67.44186046511628
+T6_cropped,85,tree mallow,38,6,15.789473684210526
+T6_cropped,86,magnolia,43,38,88.37209302325581
+T6_cropped,87,cyclamen,134,123,91.7910447761194
+T6_cropped,88,watercress,164,0,0.0
+T6_cropped,89,canna lily,62,44,70.96774193548387
+T6_cropped,90,hippeastrum,56,54,96.42857142857143
+T6_cropped,91,bee balm,46,44,95.65217391304348
+T6_cropped,92,ball moss,26,0,0.0
+T6_cropped,93,foxglove,142,125,88.02816901408451
+T6_cropped,94,bougainvillea,108,88,81.48148148148148
+T6_cropped,95,camellia,71,57,80.28169014084507
+T6_cropped,96,mallow,46,2,4.3478260869565215
+T6_cropped,97,mexican petunia,62,44,70.96774193548387
+T6_cropped,98,bromelia,43,37,86.04651162790698
+T6_cropped,99,blanket flower,29,28,96.55172413793103
+T6_cropped,100,trumpet creeper,38,11,28.947368421052634
+T6_cropped,101,blackberry lily,28,25,89.28571428571429
+logit_average_ensemble,0,pink primrose,20,11,55.00000000000001
+logit_average_ensemble,1,hard-leaved pocket orchid,40,12,30.0
+logit_average_ensemble,2,canterbury bells,20,6,30.0
+logit_average_ensemble,3,sweet pea,36,18,50.0
+logit_average_ensemble,4,english marigold,45,20,44.44444444444444
+logit_average_ensemble,5,tiger lily,25,25,100.0
+logit_average_ensemble,6,moon orchid,20,15,75.0
+logit_average_ensemble,7,bird of paradise,65,64,98.46153846153847
+logit_average_ensemble,8,monkshood,26,25,96.15384615384616
+logit_average_ensemble,9,globe thistle,25,25,100.0
+logit_average_ensemble,10,snapdragon,67,55,82.08955223880598
+logit_average_ensemble,11,colt's foot,67,59,88.05970149253731
+logit_average_ensemble,12,king protea,29,29,100.0
+logit_average_ensemble,13,spear thistle,28,28,100.0
+logit_average_ensemble,14,yellow iris,29,29,100.0
+logit_average_ensemble,15,globe-flower,21,1,4.761904761904762
+logit_average_ensemble,16,purple coneflower,65,63,96.92307692307692
+logit_average_ensemble,17,peruvian lily,62,58,93.54838709677419
+logit_average_ensemble,18,balloon flower,29,25,86.20689655172413
+logit_average_ensemble,19,giant white arum lily,36,36,100.0
+logit_average_ensemble,20,fire lily,20,9,45.0
+logit_average_ensemble,21,pincushion flower,39,31,79.48717948717949
+logit_average_ensemble,22,fritillary,71,61,85.91549295774648
+logit_average_ensemble,23,red ginger,22,4,18.181818181818183
+logit_average_ensemble,24,grape hyacinth,21,21,100.0
+logit_average_ensemble,25,corn poppy,21,16,76.19047619047619
+logit_average_ensemble,26,prince of wales feathers,20,0,0.0
+logit_average_ensemble,27,stemless gentian,46,45,97.82608695652173
+logit_average_ensemble,28,artichoke,58,40,68.96551724137932
+logit_average_ensemble,29,sweet william,65,44,67.6923076923077
+logit_average_ensemble,30,carnation,32,31,96.875
+logit_average_ensemble,31,garden phlox,25,20,80.0
+logit_average_ensemble,32,love in the mist,26,0,0.0
+logit_average_ensemble,33,mexican aster,20,12,60.0
+logit_average_ensemble,34,alpine sea holly,23,15,65.21739130434783
+logit_average_ensemble,35,ruby-lipped cattleya,55,51,92.72727272727272
+logit_average_ensemble,36,cape flower,88,0,0.0
+logit_average_ensemble,37,great masterwort,36,2,5.555555555555555
+logit_average_ensemble,38,siam tulip,21,9,42.857142857142854
+logit_average_ensemble,39,lenten rose,47,47,100.0
+logit_average_ensemble,40,barbeton daisy,107,33,30.8411214953271
+logit_average_ensemble,41,daffodil,39,38,97.43589743589743
+logit_average_ensemble,42,sword lily,110,0,0.0
+logit_average_ensemble,43,poinsettia,73,72,98.63013698630137
+logit_average_ensemble,44,bolero deep blue,20,0,0.0
+logit_average_ensemble,45,wallflower,176,81,46.02272727272727
+logit_average_ensemble,46,marigold,47,0,0.0
+logit_average_ensemble,47,buttercup,51,51,100.0
+logit_average_ensemble,48,oxeye daisy,29,20,68.96551724137932
+logit_average_ensemble,49,common dandelion,72,54,75.0
+logit_average_ensemble,50,petunia,238,0,0.0
+logit_average_ensemble,51,wild pansy,65,55,84.61538461538461
+logit_average_ensemble,52,primula,73,55,75.34246575342466
+logit_average_ensemble,53,sunflower,41,41,100.0
+logit_average_ensemble,54,pelargonium,51,0,0.0
+logit_average_ensemble,55,bishop of llandaff,89,0,0.0
+logit_average_ensemble,56,gaura,47,46,97.87234042553192
+logit_average_ensemble,57,geranium,94,5,5.319148936170213
+logit_average_ensemble,58,orange dahlia,47,42,89.36170212765957
+logit_average_ensemble,59,pink-yellow dahlia?,89,83,93.25842696629213
+logit_average_ensemble,60,cautleya spicata,30,30,100.0
+logit_average_ensemble,61,japanese anemone,35,30,85.71428571428571
+logit_average_ensemble,62,black-eyed susan,34,34,100.0
+logit_average_ensemble,63,silverbush,32,0,0.0
+logit_average_ensemble,64,californian poppy,82,67,81.70731707317073
+logit_average_ensemble,65,osteospermum,41,34,82.92682926829268
+logit_average_ensemble,66,spring crocus,22,22,100.0
+logit_average_ensemble,67,bearded iris,34,25,73.52941176470588
+logit_average_ensemble,68,windflower,34,4,11.76470588235294
+logit_average_ensemble,69,tree poppy,42,7,16.666666666666664
+logit_average_ensemble,70,gazania,58,53,91.37931034482759
+logit_average_ensemble,71,azalea,76,55,72.36842105263158
+logit_average_ensemble,72,water lily,174,147,84.48275862068965
+logit_average_ensemble,73,rose,151,144,95.36423841059603
+logit_average_ensemble,74,thorn apple,100,0,0.0
+logit_average_ensemble,75,morning glory,87,56,64.36781609195403
+logit_average_ensemble,76,passion flower,231,225,97.40259740259741
+logit_average_ensemble,77,lotus,117,95,81.19658119658119
+logit_average_ensemble,78,toad lily,21,21,100.0
+logit_average_ensemble,79,anthurium,85,84,98.82352941176471
+logit_average_ensemble,80,frangipani,146,146,100.0
+logit_average_ensemble,81,clematis,92,88,95.65217391304348
+logit_average_ensemble,82,hibiscus,111,102,91.8918918918919
+logit_average_ensemble,83,columbine,66,57,86.36363636363636
+logit_average_ensemble,84,desert-rose,43,28,65.11627906976744
+logit_average_ensemble,85,tree mallow,38,15,39.473684210526315
+logit_average_ensemble,86,magnolia,43,38,88.37209302325581
+logit_average_ensemble,87,cyclamen,134,126,94.02985074626866
+logit_average_ensemble,88,watercress,164,0,0.0
+logit_average_ensemble,89,canna lily,62,47,75.80645161290323
+logit_average_ensemble,90,hippeastrum,56,56,100.0
+logit_average_ensemble,91,bee balm,46,44,95.65217391304348
+logit_average_ensemble,92,ball moss,26,0,0.0
+logit_average_ensemble,93,foxglove,142,134,94.36619718309859
+logit_average_ensemble,94,bougainvillea,108,83,76.85185185185185
+logit_average_ensemble,95,camellia,71,59,83.09859154929578
+logit_average_ensemble,96,mallow,46,1,2.1739130434782608
+logit_average_ensemble,97,mexican petunia,62,46,74.19354838709677
+logit_average_ensemble,98,bromelia,43,38,88.37209302325581
+logit_average_ensemble,99,blanket flower,29,29,100.0
+logit_average_ensemble,100,trumpet creeper,38,13,34.21052631578947
+logit_average_ensemble,101,blackberry lily,28,24,85.71428571428571
+probability_average_ensemble,0,pink primrose,20,10,50.0
+probability_average_ensemble,1,hard-leaved pocket orchid,40,14,35.0
+probability_average_ensemble,2,canterbury bells,20,6,30.0
+probability_average_ensemble,3,sweet pea,36,22,61.111111111111114
+probability_average_ensemble,4,english marigold,45,20,44.44444444444444
+probability_average_ensemble,5,tiger lily,25,25,100.0
+probability_average_ensemble,6,moon orchid,20,14,70.0
+probability_average_ensemble,7,bird of paradise,65,64,98.46153846153847
+probability_average_ensemble,8,monkshood,26,25,96.15384615384616
+probability_average_ensemble,9,globe thistle,25,25,100.0
+probability_average_ensemble,10,snapdragon,67,54,80.59701492537313
+probability_average_ensemble,11,colt's foot,67,60,89.55223880597015
+probability_average_ensemble,12,king protea,29,29,100.0
+probability_average_ensemble,13,spear thistle,28,28,100.0
+probability_average_ensemble,14,yellow iris,29,29,100.0
+probability_average_ensemble,15,globe-flower,21,1,4.761904761904762
+probability_average_ensemble,16,purple coneflower,65,63,96.92307692307692
+probability_average_ensemble,17,peruvian lily,62,58,93.54838709677419
+probability_average_ensemble,18,balloon flower,29,24,82.75862068965517
+probability_average_ensemble,19,giant white arum lily,36,36,100.0
+probability_average_ensemble,20,fire lily,20,10,50.0
+probability_average_ensemble,21,pincushion flower,39,29,74.35897435897436
+probability_average_ensemble,22,fritillary,71,60,84.50704225352112
+probability_average_ensemble,23,red ginger,22,4,18.181818181818183
+probability_average_ensemble,24,grape hyacinth,21,21,100.0
+probability_average_ensemble,25,corn poppy,21,16,76.19047619047619
+probability_average_ensemble,26,prince of wales feathers,20,0,0.0
+probability_average_ensemble,27,stemless gentian,46,45,97.82608695652173
+probability_average_ensemble,28,artichoke,58,40,68.96551724137932
+probability_average_ensemble,29,sweet william,65,45,69.23076923076923
+probability_average_ensemble,30,carnation,32,31,96.875
+probability_average_ensemble,31,garden phlox,25,20,80.0
+probability_average_ensemble,32,love in the mist,26,0,0.0
+probability_average_ensemble,33,mexican aster,20,12,60.0
+probability_average_ensemble,34,alpine sea holly,23,15,65.21739130434783
+probability_average_ensemble,35,ruby-lipped cattleya,55,51,92.72727272727272
+probability_average_ensemble,36,cape flower,88,0,0.0
+probability_average_ensemble,37,great masterwort,36,2,5.555555555555555
+probability_average_ensemble,38,siam tulip,21,9,42.857142857142854
+probability_average_ensemble,39,lenten rose,47,47,100.0
+probability_average_ensemble,40,barbeton daisy,107,36,33.64485981308411
+probability_average_ensemble,41,daffodil,39,38,97.43589743589743
+probability_average_ensemble,42,sword lily,110,0,0.0
+probability_average_ensemble,43,poinsettia,73,72,98.63013698630137
+probability_average_ensemble,44,bolero deep blue,20,0,0.0
+probability_average_ensemble,45,wallflower,176,99,56.25
+probability_average_ensemble,46,marigold,47,0,0.0
+probability_average_ensemble,47,buttercup,51,51,100.0
+probability_average_ensemble,48,oxeye daisy,29,13,44.827586206896555
+probability_average_ensemble,49,common dandelion,72,52,72.22222222222221
+probability_average_ensemble,50,petunia,238,2,0.8403361344537815
+probability_average_ensemble,51,wild pansy,65,56,86.15384615384616
+probability_average_ensemble,52,primula,73,55,75.34246575342466
+probability_average_ensemble,53,sunflower,41,41,100.0
+probability_average_ensemble,54,pelargonium,51,0,0.0
+probability_average_ensemble,55,bishop of llandaff,89,0,0.0
+probability_average_ensemble,56,gaura,47,46,97.87234042553192
+probability_average_ensemble,57,geranium,94,5,5.319148936170213
+probability_average_ensemble,58,orange dahlia,47,40,85.1063829787234
+probability_average_ensemble,59,pink-yellow dahlia?,89,83,93.25842696629213
+probability_average_ensemble,60,cautleya spicata,30,30,100.0
+probability_average_ensemble,61,japanese anemone,35,30,85.71428571428571
+probability_average_ensemble,62,black-eyed susan,34,34,100.0
+probability_average_ensemble,63,silverbush,32,0,0.0
+probability_average_ensemble,64,californian poppy,82,65,79.26829268292683
+probability_average_ensemble,65,osteospermum,41,34,82.92682926829268
+probability_average_ensemble,66,spring crocus,22,22,100.0
+probability_average_ensemble,67,bearded iris,34,25,73.52941176470588
+probability_average_ensemble,68,windflower,34,4,11.76470588235294
+probability_average_ensemble,69,tree poppy,42,7,16.666666666666664
+probability_average_ensemble,70,gazania,58,53,91.37931034482759
+probability_average_ensemble,71,azalea,76,55,72.36842105263158
+probability_average_ensemble,72,water lily,174,146,83.9080459770115
+probability_average_ensemble,73,rose,151,144,95.36423841059603
+probability_average_ensemble,74,thorn apple,100,0,0.0
+probability_average_ensemble,75,morning glory,87,60,68.96551724137932
+probability_average_ensemble,76,passion flower,231,225,97.40259740259741
+probability_average_ensemble,77,lotus,117,96,82.05128205128204
+probability_average_ensemble,78,toad lily,21,21,100.0
+probability_average_ensemble,79,anthurium,85,84,98.82352941176471
+probability_average_ensemble,80,frangipani,146,146,100.0
+probability_average_ensemble,81,clematis,92,88,95.65217391304348
+probability_average_ensemble,82,hibiscus,111,102,91.8918918918919
+probability_average_ensemble,83,columbine,66,57,86.36363636363636
+probability_average_ensemble,84,desert-rose,43,28,65.11627906976744
+probability_average_ensemble,85,tree mallow,38,14,36.84210526315789
+probability_average_ensemble,86,magnolia,43,38,88.37209302325581
+probability_average_ensemble,87,cyclamen,134,126,94.02985074626866
+probability_average_ensemble,88,watercress,164,0,0.0
+probability_average_ensemble,89,canna lily,62,47,75.80645161290323
+probability_average_ensemble,90,hippeastrum,56,56,100.0
+probability_average_ensemble,91,bee balm,46,44,95.65217391304348
+probability_average_ensemble,92,ball moss,26,0,0.0
+probability_average_ensemble,93,foxglove,142,133,93.66197183098592
+probability_average_ensemble,94,bougainvillea,108,83,76.85185185185185
+probability_average_ensemble,95,camellia,71,59,83.09859154929578
+probability_average_ensemble,96,mallow,46,2,4.3478260869565215
+probability_average_ensemble,97,mexican petunia,62,46,74.19354838709677
+probability_average_ensemble,98,bromelia,43,38,88.37209302325581
+probability_average_ensemble,99,blanket flower,29,29,100.0
+probability_average_ensemble,100,trumpet creeper,38,13,34.21052631578947
+probability_average_ensemble,101,blackberry lily,28,23,82.14285714285714
+text_embedding_ensemble,0,pink primrose,20,7,35.0
+text_embedding_ensemble,1,hard-leaved pocket orchid,40,11,27.500000000000004
+text_embedding_ensemble,2,canterbury bells,20,6,30.0
+text_embedding_ensemble,3,sweet pea,36,24,66.66666666666666
+text_embedding_ensemble,4,english marigold,45,22,48.888888888888886
+text_embedding_ensemble,5,tiger lily,25,25,100.0
+text_embedding_ensemble,6,moon orchid,20,15,75.0
+text_embedding_ensemble,7,bird of paradise,65,64,98.46153846153847
+text_embedding_ensemble,8,monkshood,26,25,96.15384615384616
+text_embedding_ensemble,9,globe thistle,25,25,100.0
+text_embedding_ensemble,10,snapdragon,67,55,82.08955223880598
+text_embedding_ensemble,11,colt's foot,67,61,91.04477611940298
+text_embedding_ensemble,12,king protea,29,29,100.0
+text_embedding_ensemble,13,spear thistle,28,28,100.0
+text_embedding_ensemble,14,yellow iris,29,29,100.0
+text_embedding_ensemble,15,globe-flower,21,1,4.761904761904762
+text_embedding_ensemble,16,purple coneflower,65,63,96.92307692307692
+text_embedding_ensemble,17,peruvian lily,62,58,93.54838709677419
+text_embedding_ensemble,18,balloon flower,29,23,79.3103448275862
+text_embedding_ensemble,19,giant white arum lily,36,34,94.44444444444444
+text_embedding_ensemble,20,fire lily,20,9,45.0
+text_embedding_ensemble,21,pincushion flower,39,28,71.7948717948718
+text_embedding_ensemble,22,fritillary,71,59,83.09859154929578
+text_embedding_ensemble,23,red ginger,22,6,27.27272727272727
+text_embedding_ensemble,24,grape hyacinth,21,21,100.0
+text_embedding_ensemble,25,corn poppy,21,17,80.95238095238095
+text_embedding_ensemble,26,prince of wales feathers,20,0,0.0
+text_embedding_ensemble,27,stemless gentian,46,44,95.65217391304348
+text_embedding_ensemble,28,artichoke,58,43,74.13793103448276
+text_embedding_ensemble,29,sweet william,65,45,69.23076923076923
+text_embedding_ensemble,30,carnation,32,31,96.875
+text_embedding_ensemble,31,garden phlox,25,15,60.0
+text_embedding_ensemble,32,love in the mist,26,0,0.0
+text_embedding_ensemble,33,mexican aster,20,13,65.0
+text_embedding_ensemble,34,alpine sea holly,23,16,69.56521739130434
+text_embedding_ensemble,35,ruby-lipped cattleya,55,51,92.72727272727272
+text_embedding_ensemble,36,cape flower,88,0,0.0
+text_embedding_ensemble,37,great masterwort,36,2,5.555555555555555
+text_embedding_ensemble,38,siam tulip,21,10,47.61904761904761
+text_embedding_ensemble,39,lenten rose,47,46,97.87234042553192
+text_embedding_ensemble,40,barbeton daisy,107,51,47.66355140186916
+text_embedding_ensemble,41,daffodil,39,38,97.43589743589743
+text_embedding_ensemble,42,sword lily,110,1,0.9090909090909091
+text_embedding_ensemble,43,poinsettia,73,72,98.63013698630137
+text_embedding_ensemble,44,bolero deep blue,20,0,0.0
+text_embedding_ensemble,45,wallflower,176,100,56.81818181818182
+text_embedding_ensemble,46,marigold,47,0,0.0
+text_embedding_ensemble,47,buttercup,51,51,100.0
+text_embedding_ensemble,48,oxeye daisy,29,9,31.03448275862069
+text_embedding_ensemble,49,common dandelion,72,41,56.94444444444444
+text_embedding_ensemble,50,petunia,238,20,8.403361344537815
+text_embedding_ensemble,51,wild pansy,65,57,87.6923076923077
+text_embedding_ensemble,52,primula,73,56,76.71232876712328
+text_embedding_ensemble,53,sunflower,41,41,100.0
+text_embedding_ensemble,54,pelargonium,51,0,0.0
+text_embedding_ensemble,55,bishop of llandaff,89,0,0.0
+text_embedding_ensemble,56,gaura,47,46,97.87234042553192
+text_embedding_ensemble,57,geranium,94,5,5.319148936170213
+text_embedding_ensemble,58,orange dahlia,47,37,78.72340425531915
+text_embedding_ensemble,59,pink-yellow dahlia?,89,82,92.13483146067416
+text_embedding_ensemble,60,cautleya spicata,30,30,100.0
+text_embedding_ensemble,61,japanese anemone,35,30,85.71428571428571
+text_embedding_ensemble,62,black-eyed susan,34,34,100.0
+text_embedding_ensemble,63,silverbush,32,1,3.125
+text_embedding_ensemble,64,californian poppy,82,59,71.95121951219512
+text_embedding_ensemble,65,osteospermum,41,29,70.73170731707317
+text_embedding_ensemble,66,spring crocus,22,22,100.0
+text_embedding_ensemble,67,bearded iris,34,25,73.52941176470588
+text_embedding_ensemble,68,windflower,34,4,11.76470588235294
+text_embedding_ensemble,69,tree poppy,42,7,16.666666666666664
+text_embedding_ensemble,70,gazania,58,52,89.65517241379311
+text_embedding_ensemble,71,azalea,76,59,77.63157894736842
+text_embedding_ensemble,72,water lily,174,108,62.06896551724138
+text_embedding_ensemble,73,rose,151,144,95.36423841059603
+text_embedding_ensemble,74,thorn apple,100,0,0.0
+text_embedding_ensemble,75,morning glory,87,63,72.41379310344827
+text_embedding_ensemble,76,passion flower,231,219,94.8051948051948
+text_embedding_ensemble,77,lotus,117,98,83.76068376068376
+text_embedding_ensemble,78,toad lily,21,21,100.0
+text_embedding_ensemble,79,anthurium,85,84,98.82352941176471
+text_embedding_ensemble,80,frangipani,146,146,100.0
+text_embedding_ensemble,81,clematis,92,88,95.65217391304348
+text_embedding_ensemble,82,hibiscus,111,103,92.7927927927928
+text_embedding_ensemble,83,columbine,66,59,89.39393939393939
+text_embedding_ensemble,84,desert-rose,43,30,69.76744186046511
+text_embedding_ensemble,85,tree mallow,38,10,26.31578947368421
+text_embedding_ensemble,86,magnolia,43,38,88.37209302325581
+text_embedding_ensemble,87,cyclamen,134,125,93.28358208955224
+text_embedding_ensemble,88,watercress,164,0,0.0
+text_embedding_ensemble,89,canna lily,62,47,75.80645161290323
+text_embedding_ensemble,90,hippeastrum,56,56,100.0
+text_embedding_ensemble,91,bee balm,46,44,95.65217391304348
+text_embedding_ensemble,92,ball moss,26,0,0.0
+text_embedding_ensemble,93,foxglove,142,132,92.95774647887323
+text_embedding_ensemble,94,bougainvillea,108,80,74.07407407407408
+text_embedding_ensemble,95,camellia,71,59,83.09859154929578
+text_embedding_ensemble,96,mallow,46,2,4.3478260869565215
+text_embedding_ensemble,97,mexican petunia,62,45,72.58064516129032
+text_embedding_ensemble,98,bromelia,43,38,88.37209302325581
+text_embedding_ensemble,99,blanket flower,29,29,100.0
+text_embedding_ensemble,100,trumpet creeper,38,14,36.84210526315789
+text_embedding_ensemble,101,blackberry lily,28,23,82.14285714285714

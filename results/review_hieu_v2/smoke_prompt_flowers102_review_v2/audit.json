@@ -1,0 +1,19 @@
+{
+  "run": "results/smoke_prompt_flowers102_review_v2",
+  "artifact_integrity_verified": true,
+  "manifest_sha256": "1a0c2ccd37b6dada96a62921e2d58fb486edeeb4d7d2adbc79658a247a6b1e45",
+  "metrics_recomputed": true,
+  "n": 200,
+  "baseline_predictions_identical": true,
+  "baseline_target_cosine_max_abs_difference": 1.4901161193847656e-07,
+  "text_embedding_ensemble_construction_recomputed": true,
+  "limitation": null,
+  "legacy_config_protocol_note": null,
+  "derived_sha256": {
+    "classes.json": "06989e04603f8864b5ee018c72b83b19e38d68cf0dec009d22cfede2b354cef7",
+    "diagnostics.json": "b3339c11df8f9f5c57ff15b4a33ffd87180a14d1aad18d1f25318962bcc3a077",
+    "per_class.csv": "22e4dd5e13b1668c3b00a3eb05d155f60235fb52e437a7eedfb52c999307c76e",
+    "predictions.csv": "2b062f9700116c14cc7736e223d3ee551092420c4dc035f26eed8068d1271853",
+    "samples.json": "ba469c5134c59d9d81ae63e698eb57946e5fc897656327357a7a3c681e2c0e50"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "run": "results/full_vietnamese_cifar100_v1",
+  "artifact_integrity_verified": true,
+  "manifest_sha256": "e5740561cb5a86daa145c1229ce31ce2110fd7788da57d1e89d59eb527e245f0",
+  "metrics_recomputed": true,
+  "n": 10000,
+  "baseline_predictions_identical": true,
+  "baseline_target_cosine_max_abs_difference": 3.2782554626464844e-07,
+  "text_embedding_ensemble_construction_recomputed": false,
+  "limitation": "Stored embedding-ensemble scores are audited; legacy raw text vectors were not saved.",
+  "legacy_config_protocol_note": "Legacy config.json/protocol.md contain depth defaults; extension configs/protocols are identified by input_sha256. New runs use study_config.json and the actual protocol.",
+  "derived_sha256": {
+    "classes.json": "b292d51bb46990f7eba42884317b8f34f2d276f650cc0134ab2301411adc8737",
+    "diagnostics.json": "6a49c0b20c394ee97ec2d946e204963c7e0cda3219e35498cd0ac6e5323dd16c",
+    "per_class.csv": "a0df6b601e5172c5592ad7d7c791b46b2f4583af5e717597c24d50a1d1fa6411",
+    "predictions.csv": "2b700aee3a08cafaf3ebb36ee017f0c5d7d7797b641e7c619a8243312afe34cc",
+    "samples.json": "267aa64ab2df22c860121d6b03f8f78e32f5ec6f15822e232950bea62bb7213b"
+  }
+}

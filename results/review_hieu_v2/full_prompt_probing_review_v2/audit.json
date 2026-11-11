@@ -1,0 +1,8 @@
+{
+  "run": "results/full_prompt_probing_review_v2",
+  "artifact_integrity_verified": true,
+  "manifest_sha256": "ce1be8908065b8622e1faca44bc0b7169110b133fda7f3e32b20b532ea541d92",
+  "metrics_recomputed": true,
+  "legacy_config_protocol_note": null,
+  "derived_sha256": {}
+}

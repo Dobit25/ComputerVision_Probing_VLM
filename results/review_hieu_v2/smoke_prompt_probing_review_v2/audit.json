@@ -1,0 +1,8 @@
+{
+  "run": "results/smoke_prompt_probing_review_v2",
+  "artifact_integrity_verified": true,
+  "manifest_sha256": "63daeab7be6d96c099442e42f44e459e323cb4cc86a539e8ee6c6b4ff1ebad93",
+  "metrics_recomputed": true,
+  "legacy_config_protocol_note": null,
+  "derived_sha256": {}
+}

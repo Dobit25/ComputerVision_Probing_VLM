@@ -1,0 +1,84 @@
+{
+  "study_version": 1,
+  "model_config": "configs/clip_b32_cifar100.json",
+  "historical_probing": "results/full_probing_clip_b32_v1",
+  "historical_category": "results/full_cifar100_category_v1",
+  "bootstrap_draws": 2000,
+  "bootstrap_seed": 1402,
+  "inference_seed": 0,
+  "spatial": {
+    "renderer_seed": 14020,
+    "base_groups": 120,
+    "appearance_variants": [
+      "original",
+      "color_cycle",
+      "shape_cycle"
+    ],
+    "relations": [
+      "to the left of",
+      "to the right of",
+      "above",
+      "below"
+    ],
+    "templates": [
+      "a {medium} of {a} {relation} {b}.",
+      "{a} is {relation} {b}.",
+      "an image of {a} {relation} {b}."
+    ],
+    "orders": [
+      "forward",
+      "reversed_equivalent"
+    ],
+    "expected_images": 1440,
+    "expected_trials": 8640
+  },
+  "category": {
+    "shuffle_seeds": [
+      271,
+      272,
+      273,
+      274,
+      275
+    ],
+    "neutral_suffix_pool": [
+      "in this image",
+      "shown in this image",
+      "as seen in this image",
+      "as it appears in this image",
+      "shown here in this particular image",
+      "as it can be seen in this particular image",
+      "as it can be clearly seen here in this particular image"
+    ],
+    "neutral_selection": "minimum_absolute_CLIP_token_count_difference_then_pool_order",
+    "baseline_template": "a photo of a {class}.",
+    "category_template": "a photo of a {class}, a type of {category}.",
+    "neutral_template": "a photo of a {class}, {suffix}.",
+    "expected_conditions": 8,
+    "expected_images": 10000
+  },
+  "natural": {
+    "source": "COCO val2014 instances (pre-inference feasibility amendment A1)",
+    "image_split": "val2014",
+    "annotation_url": "https://s3.amazonaws.com/images.cocodataset.org/annotations/annotations_trainval2014.zip",
+    "annotation_member": "annotations/instances_val2014.json",
+    "selection_seed": 14021,
+    "target_original_images": 200,
+    "target_per_relation": 50,
+    "candidate_reserve_per_relation": 100,
+    "min_box_area_fraction": 0.015,
+    "min_box_side_fraction": 0.06,
+    "min_separation_fraction": 0.02,
+    "min_orthogonal_overlap_fraction": 0.5,
+    "crop_border_fraction": 0.01,
+    "require_unique_category_instances": true,
+    "exclude_crowd": true,
+    "selection": "SHA256-ranked one directed object pair per source image, balanced relation quotas, before CLIP inference",
+    "review": "assistant visual review blinded to CLIP outputs; not independent human annotation",
+    "transforms": [
+      "original",
+      "horizontal_flip"
+    ],
+    "templates": "same three spatial templates; medium=photo",
+    "primary_template": 2
+  }
+}

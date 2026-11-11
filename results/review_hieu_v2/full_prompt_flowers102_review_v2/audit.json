@@ -1,0 +1,19 @@
+{
+  "run": "results/full_prompt_flowers102_review_v2",
+  "artifact_integrity_verified": true,
+  "manifest_sha256": "13246ae89affe574c1bb93e041e36bd696d68bf0b39be60c06d4cdcc19ff5e23",
+  "metrics_recomputed": true,
+  "n": 6149,
+  "baseline_predictions_identical": true,
+  "baseline_target_cosine_max_abs_difference": 1.7881393432617188e-07,
+  "text_embedding_ensemble_construction_recomputed": true,
+  "limitation": null,
+  "legacy_config_protocol_note": null,
+  "derived_sha256": {
+    "classes.json": "06989e04603f8864b5ee018c72b83b19e38d68cf0dec009d22cfede2b354cef7",
+    "diagnostics.json": "6bb97498a2f9d0b1376348f5a258d124c98006726fd8ace8c3fd411fc84ac890",
+    "per_class.csv": "26eee1b956388a9aa4cf33eb8af7c9f465249efaf7178244c4043bab61e26d92",
+    "predictions.csv": "77736cf6d876ad748286b2e8547029472cf3c30cc7c446170132c92c8ba40fd4",
+    "samples.json": "6d61552cc9cf989ea0f087eba3899be5fa5e8efac90c65a26791cf3cfd4ce19f"
+  }
+}

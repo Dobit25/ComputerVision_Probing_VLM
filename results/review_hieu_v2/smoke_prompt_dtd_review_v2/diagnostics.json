@@ -1,0 +1,62 @@
+{
+  "T0_baseline": {
+    "macro_accuracy_percent": 33.5,
+    "prediction_changed": 0,
+    "wrong_to_correct": 0,
+    "correct_to_wrong": 0
+  },
+  "T1_minimal": {
+    "macro_accuracy_percent": 33.5,
+    "prediction_changed": 48,
+    "wrong_to_correct": 9,
+    "correct_to_wrong": 9
+  },
+  "T2_clear": {
+    "macro_accuracy_percent": 34.0,
+    "prediction_changed": 33,
+    "wrong_to_correct": 4,
+    "correct_to_wrong": 3
+  },
+  "T3_centered": {
+    "macro_accuracy_percent": 35.0,
+    "prediction_changed": 28,
+    "wrong_to_correct": 5,
+    "correct_to_wrong": 2
+  },
+  "T4_domain": {
+    "macro_accuracy_percent": 33.0,
+    "prediction_changed": 47,
+    "wrong_to_correct": 4,
+    "correct_to_wrong": 5
+  },
+  "T5_bright": {
+    "macro_accuracy_percent": 35.0,
+    "prediction_changed": 35,
+    "wrong_to_correct": 8,
+    "correct_to_wrong": 5
+  },
+  "T6_cropped": {
+    "macro_accuracy_percent": 32.5,
+    "prediction_changed": 28,
+    "wrong_to_correct": 2,
+    "correct_to_wrong": 4
+  },
+  "logit_average_ensemble": {
+    "macro_accuracy_percent": 34.5,
+    "prediction_changed": 18,
+    "wrong_to_correct": 4,
+    "correct_to_wrong": 2
+  },
+  "probability_average_ensemble": {
+    "macro_accuracy_percent": 34.0,
+    "prediction_changed": 18,
+    "wrong_to_correct": 3,
+    "correct_to_wrong": 2
+  },
+  "text_embedding_ensemble": {
+    "macro_accuracy_percent": 34.5,
+    "prediction_changed": 16,
+    "wrong_to_correct": 3,
+    "correct_to_wrong": 1
+  }
+}

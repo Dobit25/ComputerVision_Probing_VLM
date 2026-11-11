@@ -128,6 +128,12 @@ conda run --no-capture-output -n gen python -m unittest discover -s tests -v
 
 ## Probing chuyên sâu: quan hệ không gian và category
 
+**Bản tích hợp nghiên cứu ngày 11/11/2026:** [báo cáo tiếng Việt tối đa 10 trang](reports/research_review_v2/bao_cao_nghien_cuu.pdf), [bảng đa miền](reports/research_review_v2/multidomain_summary.csv), [review tích hợp](docs/review_hieu_integration_v2.md). Giao thức và các hạng mục thực thi được ghi ở [integration protocol v2](docs/integration_protocol_v2.md) và `results/integration_v2/execution_status.json`. Bản này bổ sung audit từ scores, prompt đa miền và chia vùng COCO; các run lịch sử được giữ nguyên.
+
+Để giao thành viên kiểm nhãn và bản dịch: [hướng dẫn đầy đủ](docs/human_review_assignment_v2.md), [phiếu trắng và trạng thái](reviews/human_review_v2/). `python -m vlm_probe.human_review export` tạo gói ảnh/crop offline trong `data/human_review_v2/reviewer_package.zip`; gói ảnh không đưa vào Git. Chưa có phiếu người thì không gọi dữ liệu là human-validated.
+
+Trong `gen`, `python -m vlm_probe.integration --execute` chạy hàng đợi smoke → full → audit với run name cố định; run đã hoàn thành được audit lại và không ghi đè. `python -m vlm_probe.review_report` sinh LaTeX và bảng từ artifact đã kiểm. Biên dịch theo README trong thư mục báo cáo.
+
 **Cập nhật mới nhất — xác nhận trên ảnh chưa dùng:** đã tự rà soát lại 200 ảnh cũ (giữ 176), rà soát 178 ứng viên mới và cố định 100 nguồn không trùng 400 ảnh từng xem trước suy luận. Ghép cặp T2 thuận đạt 53/100, CI Wilson 95% [43,29%; 62,49%], p một phía = 0,3086. [PDF cập nhật](reports/natural_confirmation_v1/bao_cao_cap_nhat.pdf), [kết quả/giới hạn/tái lập](reports/natural_confirmation_v1/README.md), [giao thức](docs/natural_confirmation_protocol.md). Chưa có annotator người độc lập; không diễn giải kết quả như bằng chứng tương đương đoán ngẫu nhiên.
 
 Đã hoàn thành phần bổ sung với cùng checkpoint CLIP ViT-B/32: 1.440 ảnh hình học/8.640 phép thử; tám điều kiện trên 10.000 ảnh CIFAR-100; 200 ảnh COCO gốc và bản lật/2.400 phép thử. Có giao thức, scores từng mẫu, audit và báo cáo tiếng Việt.

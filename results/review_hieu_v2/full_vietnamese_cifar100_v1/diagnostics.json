@@ -1,0 +1,56 @@
+{
+  "en_baseline": {
+    "macro_accuracy_percent": 64.48,
+    "prediction_changed": 0,
+    "wrong_to_correct": 0,
+    "correct_to_wrong": 0
+  },
+  "vi_diacritics": {
+    "macro_accuracy_percent": 5.1,
+    "prediction_changed": 9371,
+    "wrong_to_correct": 135,
+    "correct_to_wrong": 6073
+  },
+  "vi_no_diacritics": {
+    "macro_accuracy_percent": 4.05,
+    "prediction_changed": 9458,
+    "wrong_to_correct": 85,
+    "correct_to_wrong": 6128
+  },
+  "en_frame_vi_label": {
+    "macro_accuracy_percent": 5.44,
+    "prediction_changed": 9341,
+    "wrong_to_correct": 131,
+    "correct_to_wrong": 6035
+  },
+  "vi_frame_en_label": {
+    "macro_accuracy_percent": 55.1,
+    "prediction_changed": 3418,
+    "wrong_to_correct": 511,
+    "correct_to_wrong": 1449
+  },
+  "vi_en_bilingual": {
+    "macro_accuracy_percent": 54.95,
+    "prediction_changed": 3463,
+    "wrong_to_correct": 525,
+    "correct_to_wrong": 1478
+  },
+  "logit_average_ensemble": {
+    "macro_accuracy_percent": 54.27,
+    "prediction_changed": 3322,
+    "wrong_to_correct": 435,
+    "correct_to_wrong": 1456
+  },
+  "probability_average_ensemble": {
+    "macro_accuracy_percent": 61.54,
+    "prediction_changed": 2016,
+    "wrong_to_correct": 372,
+    "correct_to_wrong": 666
+  },
+  "en_vi_bilingual_embedding_ensemble": {
+    "macro_accuracy_percent": 60.42,
+    "prediction_changed": 2270,
+    "wrong_to_correct": 425,
+    "correct_to_wrong": 831
+  }
+}

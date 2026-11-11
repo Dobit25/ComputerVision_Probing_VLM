@@ -1,0 +1,802 @@
+[
+  {
+    "sample_id": "flowers102/test/image_06734.jpg",
+    "target_id": 0
+  },
+  {
+    "sample_id": "flowers102/test/image_06735.jpg",
+    "target_id": 0
+  },
+  {
+    "sample_id": "flowers102/test/image_06737.jpg",
+    "target_id": 0
+  },
+  {
+    "sample_id": "flowers102/test/image_06742.jpg",
+    "target_id": 0
+  },
+  {
+    "sample_id": "flowers102/test/image_06743.jpg",
+    "target_id": 0
+  },
+  {
+    "sample_id": "flowers102/test/image_06745.jpg",
+    "target_id": 0
+  },
+  {
+    "sample_id": "flowers102/test/image_06746.jpg",
+    "target_id": 0
+  },
+  {
+    "sample_id": "flowers102/test/image_06748.jpg",
+    "target_id": 0
+  },
+  {
+    "sample_id": "flowers102/test/image_06751.jpg",
+    "target_id": 0
+  },
+  {
+    "sample_id": "flowers102/test/image_06752.jpg",
+    "target_id": 0
+  },
+  {
+    "sample_id": "flowers102/test/image_06753.jpg",
+    "target_id": 0
+  },
+  {
+    "sample_id": "flowers102/test/image_06756.jpg",
+    "target_id": 0
+  },
+  {
+    "sample_id": "flowers102/test/image_06757.jpg",
+    "target_id": 0
+  },
+  {
+    "sample_id": "flowers102/test/image_06758.jpg",
+    "target_id": 0
+  },
+  {
+    "sample_id": "flowers102/test/image_06759.jpg",
+    "target_id": 0
+  },
+  {
+    "sample_id": "flowers102/test/image_06760.jpg",
+    "target_id": 0
+  },
+  {
+    "sample_id": "flowers102/test/image_06764.jpg",
+    "target_id": 0
+  },
+  {
+    "sample_id": "flowers102/test/image_06769.jpg",
+    "target_id": 0
+  },
+  {
+    "sample_id": "flowers102/test/image_06770.jpg",
+    "target_id": 0
+  },
+  {
+    "sample_id": "flowers102/test/image_06772.jpg",
+    "target_id": 0
+  },
+  {
+    "sample_id": "flowers102/test/image_05087.jpg",
+    "target_id": 1
+  },
+  {
+    "sample_id": "flowers102/test/image_05088.jpg",
+    "target_id": 1
+  },
+  {
+    "sample_id": "flowers102/test/image_05089.jpg",
+    "target_id": 1
+  },
+  {
+    "sample_id": "flowers102/test/image_05090.jpg",
+    "target_id": 1
+  },
+  {
+    "sample_id": "flowers102/test/image_05092.jpg",
+    "target_id": 1
+  },
+  {
+    "sample_id": "flowers102/test/image_05093.jpg",
+    "target_id": 1
+  },
+  {
+    "sample_id": "flowers102/test/image_05094.jpg",
+    "target_id": 1
+  },
+  {
+    "sample_id": "flowers102/test/image_05095.jpg",
+    "target_id": 1
+  },
+  {
+    "sample_id": "flowers102/test/image_05096.jpg",
+    "target_id": 1
+  },
+  {
+    "sample_id": "flowers102/test/image_05098.jpg",
+    "target_id": 1
+  },
+  {
+    "sample_id": "flowers102/test/image_05099.jpg",
+    "target_id": 1
+  },
+  {
+    "sample_id": "flowers102/test/image_05102.jpg",
+    "target_id": 1
+  },
+  {
+    "sample_id": "flowers102/test/image_05103.jpg",
+    "target_id": 1
+  },
+  {
+    "sample_id": "flowers102/test/image_05105.jpg",
+    "target_id": 1
+  },
+  {
+    "sample_id": "flowers102/test/image_05107.jpg",
+    "target_id": 1
+  },
+  {
+    "sample_id": "flowers102/test/image_05109.jpg",
+    "target_id": 1
+  },
+  {
+    "sample_id": "flowers102/test/image_05110.jpg",
+    "target_id": 1
+  },
+  {
+    "sample_id": "flowers102/test/image_05111.jpg",
+    "target_id": 1
+  },
+  {
+    "sample_id": "flowers102/test/image_05112.jpg",
+    "target_id": 1
+  },
+  {
+    "sample_id": "flowers102/test/image_05113.jpg",
+    "target_id": 1
+  },
+  {
+    "sample_id": "flowers102/test/image_05117.jpg",
+    "target_id": 1
+  },
+  {
+    "sample_id": "flowers102/test/image_05119.jpg",
+    "target_id": 1
+  },
+  {
+    "sample_id": "flowers102/test/image_05121.jpg",
+    "target_id": 1
+  },
+  {
+    "sample_id": "flowers102/test/image_05122.jpg",
+    "target_id": 1
+  },
+  {
+    "sample_id": "flowers102/test/image_05125.jpg",
+    "target_id": 1
+  },
+  {
+    "sample_id": "flowers102/test/image_05126.jpg",
+    "target_id": 1
+  },
+  {
+    "sample_id": "flowers102/test/image_05127.jpg",
+    "target_id": 1
+  },
+  {
+    "sample_id": "flowers102/test/image_05128.jpg",
+    "target_id": 1
+  },
+  {
+    "sample_id": "flowers102/test/image_05129.jpg",
+    "target_id": 1
+  },
+  {
+    "sample_id": "flowers102/test/image_05130.jpg",
+    "target_id": 1
+  },
+  {
+    "sample_id": "flowers102/test/image_05131.jpg",
+    "target_id": 1
+  },
+  {
+    "sample_id": "flowers102/test/image_05133.jpg",
+    "target_id": 1
+  },
+  {
+    "sample_id": "flowers102/test/image_05134.jpg",
+    "target_id": 1
+  },
+  {
+    "sample_id": "flowers102/test/image_05135.jpg",
+    "target_id": 1
+  },
+  {
+    "sample_id": "flowers102/test/image_05136.jpg",
+    "target_id": 1
+  },
+  {
+    "sample_id": "flowers102/test/image_05139.jpg",
+    "target_id": 1
+  },
+  {
+    "sample_id": "flowers102/test/image_05140.jpg",
+    "target_id": 1
+  },
+  {
+    "sample_id": "flowers102/test/image_05141.jpg",
+    "target_id": 1
+  },
+  {
+    "sample_id": "flowers102/test/image_05143.jpg",
+    "target_id": 1
+  },
+  {
+    "sample_id": "flowers102/test/image_05144.jpg",
+    "target_id": 1
+  },
+  {
+    "sample_id": "flowers102/test/image_06613.jpg",
+    "target_id": 2
+  },
+  {
+    "sample_id": "flowers102/test/image_06615.jpg",
+    "target_id": 2
+  },
+  {
+    "sample_id": "flowers102/test/image_06617.jpg",
+    "target_id": 2
+  },
+  {
+    "sample_id": "flowers102/test/image_06619.jpg",
+    "target_id": 2
+  },
+  {
+    "sample_id": "flowers102/test/image_06620.jpg",
+    "target_id": 2
+  },
+  {
+    "sample_id": "flowers102/test/image_06621.jpg",
+    "target_id": 2
+  },
+  {
+    "sample_id": "flowers102/test/image_06622.jpg",
+    "target_id": 2
+  },
+  {
+    "sample_id": "flowers102/test/image_06625.jpg",
+    "target_id": 2
+  },
+  {
+    "sample_id": "flowers102/test/image_06627.jpg",
+    "target_id": 2
+  },
+  {
+    "sample_id": "flowers102/test/image_06628.jpg",
+    "target_id": 2
+  },
+  {
+    "sample_id": "flowers102/test/image_06629.jpg",
+    "target_id": 2
+  },
+  {
+    "sample_id": "flowers102/test/image_06633.jpg",
+    "target_id": 2
+  },
+  {
+    "sample_id": "flowers102/test/image_06635.jpg",
+    "target_id": 2
+  },
+  {
+    "sample_id": "flowers102/test/image_06636.jpg",
+    "target_id": 2
+  },
+  {
+    "sample_id": "flowers102/test/image_06637.jpg",
+    "target_id": 2
+  },
+  {
+    "sample_id": "flowers102/test/image_06641.jpg",
+    "target_id": 2
+  },
+  {
+    "sample_id": "flowers102/test/image_06643.jpg",
+    "target_id": 2
+  },
+  {
+    "sample_id": "flowers102/test/image_06648.jpg",
+    "target_id": 2
+  },
+  {
+    "sample_id": "flowers102/test/image_06649.jpg",
+    "target_id": 2
+  },
+  {
+    "sample_id": "flowers102/test/image_06650.jpg",
+    "target_id": 2
+  },
+  {
+    "sample_id": "flowers102/test/image_05629.jpg",
+    "target_id": 3
+  },
+  {
+    "sample_id": "flowers102/test/image_05630.jpg",
+    "target_id": 3
+  },
+  {
+    "sample_id": "flowers102/test/image_05631.jpg",
+    "target_id": 3
+  },
+  {
+    "sample_id": "flowers102/test/image_05632.jpg",
+    "target_id": 3
+  },
+  {
+    "sample_id": "flowers102/test/image_05633.jpg",
+    "target_id": 3
+  },
+  {
+    "sample_id": "flowers102/test/image_05639.jpg",
+    "target_id": 3
+  },
+  {
+    "sample_id": "flowers102/test/image_05641.jpg",
+    "target_id": 3
+  },
+  {
+    "sample_id": "flowers102/test/image_05642.jpg",
+    "target_id": 3
+  },
+  {
+    "sample_id": "flowers102/test/image_05643.jpg",
+    "target_id": 3
+  },
+  {
+    "sample_id": "flowers102/test/image_05644.jpg",
+    "target_id": 3
+  },
+  {
+    "sample_id": "flowers102/test/image_05645.jpg",
+    "target_id": 3
+  },
+  {
+    "sample_id": "flowers102/test/image_05646.jpg",
+    "target_id": 3
+  },
+  {
+    "sample_id": "flowers102/test/image_05647.jpg",
+    "target_id": 3
+  },
+  {
+    "sample_id": "flowers102/test/image_05649.jpg",
+    "target_id": 3
+  },
+  {
+    "sample_id": "flowers102/test/image_05650.jpg",
+    "target_id": 3
+  },
+  {
+    "sample_id": "flowers102/test/image_05652.jpg",
+    "target_id": 3
+  },
+  {
+    "sample_id": "flowers102/test/image_05655.jpg",
+    "target_id": 3
+  },
+  {
+    "sample_id": "flowers102/test/image_05656.jpg",
+    "target_id": 3
+  },
+  {
+    "sample_id": "flowers102/test/image_05657.jpg",
+    "target_id": 3
+  },
+  {
+    "sample_id": "flowers102/test/image_05660.jpg",
+    "target_id": 3
+  },
+  {
+    "sample_id": "flowers102/test/image_05661.jpg",
+    "target_id": 3
+  },
+  {
+    "sample_id": "flowers102/test/image_05665.jpg",
+    "target_id": 3
+  },
+  {
+    "sample_id": "flowers102/test/image_05666.jpg",
+    "target_id": 3
+  },
+  {
+    "sample_id": "flowers102/test/image_05667.jpg",
+    "target_id": 3
+  },
+  {
+    "sample_id": "flowers102/test/image_05668.jpg",
+    "target_id": 3
+  },
+  {
+    "sample_id": "flowers102/test/image_05669.jpg",
+    "target_id": 3
+  },
+  {
+    "sample_id": "flowers102/test/image_05671.jpg",
+    "target_id": 3
+  },
+  {
+    "sample_id": "flowers102/test/image_05673.jpg",
+    "target_id": 3
+  },
+  {
+    "sample_id": "flowers102/test/image_05675.jpg",
+    "target_id": 3
+  },
+  {
+    "sample_id": "flowers102/test/image_05676.jpg",
+    "target_id": 3
+  },
+  {
+    "sample_id": "flowers102/test/image_05677.jpg",
+    "target_id": 3
+  },
+  {
+    "sample_id": "flowers102/test/image_05679.jpg",
+    "target_id": 3
+  },
+  {
+    "sample_id": "flowers102/test/image_05680.jpg",
+    "target_id": 3
+  },
+  {
+    "sample_id": "flowers102/test/image_05681.jpg",
+    "target_id": 3
+  },
+  {
+    "sample_id": "flowers102/test/image_05682.jpg",
+    "target_id": 3
+  },
+  {
+    "sample_id": "flowers102/test/image_05683.jpg",
+    "target_id": 3
+  },
+  {
+    "sample_id": "flowers102/test/image_05147.jpg",
+    "target_id": 4
+  },
+  {
+    "sample_id": "flowers102/test/image_05148.jpg",
+    "target_id": 4
+  },
+  {
+    "sample_id": "flowers102/test/image_05149.jpg",
+    "target_id": 4
+  },
+  {
+    "sample_id": "flowers102/test/image_05150.jpg",
+    "target_id": 4
+  },
+  {
+    "sample_id": "flowers102/test/image_05151.jpg",
+    "target_id": 4
+  },
+  {
+    "sample_id": "flowers102/test/image_05152.jpg",
+    "target_id": 4
+  },
+  {
+    "sample_id": "flowers102/test/image_05153.jpg",
+    "target_id": 4
+  },
+  {
+    "sample_id": "flowers102/test/image_05154.jpg",
+    "target_id": 4
+  },
+  {
+    "sample_id": "flowers102/test/image_05155.jpg",
+    "target_id": 4
+  },
+  {
+    "sample_id": "flowers102/test/image_05156.jpg",
+    "target_id": 4
+  },
+  {
+    "sample_id": "flowers102/test/image_05157.jpg",
+    "target_id": 4
+  },
+  {
+    "sample_id": "flowers102/test/image_05158.jpg",
+    "target_id": 4
+  },
+  {
+    "sample_id": "flowers102/test/image_05159.jpg",
+    "target_id": 4
+  },
+  {
+    "sample_id": "flowers102/test/image_05160.jpg",
+    "target_id": 4
+  },
+  {
+    "sample_id": "flowers102/test/image_05163.jpg",
+    "target_id": 4
+  },
+  {
+    "sample_id": "flowers102/test/image_05165.jpg",
+    "target_id": 4
+  },
+  {
+    "sample_id": "flowers102/test/image_05170.jpg",
+    "target_id": 4
+  },
+  {
+    "sample_id": "flowers102/test/image_05171.jpg",
+    "target_id": 4
+  },
+  {
+    "sample_id": "flowers102/test/image_05172.jpg",
+    "target_id": 4
+  },
+  {
+    "sample_id": "flowers102/test/image_05173.jpg",
+    "target_id": 4
+  },
+  {
+    "sample_id": "flowers102/test/image_05175.jpg",
+    "target_id": 4
+  },
+  {
+    "sample_id": "flowers102/test/image_05176.jpg",
+    "target_id": 4
+  },
+  {
+    "sample_id": "flowers102/test/image_05177.jpg",
+    "target_id": 4
+  },
+  {
+    "sample_id": "flowers102/test/image_05180.jpg",
+    "target_id": 4
+  },
+  {
+    "sample_id": "flowers102/test/image_05181.jpg",
+    "target_id": 4
+  },
+  {
+    "sample_id": "flowers102/test/image_05183.jpg",
+    "target_id": 4
+  },
+  {
+    "sample_id": "flowers102/test/image_05184.jpg",
+    "target_id": 4
+  },
+  {
+    "sample_id": "flowers102/test/image_05188.jpg",
+    "target_id": 4
+  },
+  {
+    "sample_id": "flowers102/test/image_05189.jpg",
+    "target_id": 4
+  },
+  {
+    "sample_id": "flowers102/test/image_05190.jpg",
+    "target_id": 4
+  },
+  {
+    "sample_id": "flowers102/test/image_05193.jpg",
+    "target_id": 4
+  },
+  {
+    "sample_id": "flowers102/test/image_05195.jpg",
+    "target_id": 4
+  },
+  {
+    "sample_id": "flowers102/test/image_05196.jpg",
+    "target_id": 4
+  },
+  {
+    "sample_id": "flowers102/test/image_05197.jpg",
+    "target_id": 4
+  },
+  {
+    "sample_id": "flowers102/test/image_05198.jpg",
+    "target_id": 4
+  },
+  {
+    "sample_id": "flowers102/test/image_05200.jpg",
+    "target_id": 4
+  },
+  {
+    "sample_id": "flowers102/test/image_05201.jpg",
+    "target_id": 4
+  },
+  {
+    "sample_id": "flowers102/test/image_05202.jpg",
+    "target_id": 4
+  },
+  {
+    "sample_id": "flowers102/test/image_05203.jpg",
+    "target_id": 4
+  },
+  {
+    "sample_id": "flowers102/test/image_05205.jpg",
+    "target_id": 4
+  },
+  {
+    "sample_id": "flowers102/test/image_05206.jpg",
+    "target_id": 4
+  },
+  {
+    "sample_id": "flowers102/test/image_05207.jpg",
+    "target_id": 4
+  },
+  {
+    "sample_id": "flowers102/test/image_05208.jpg",
+    "target_id": 4
+  },
+  {
+    "sample_id": "flowers102/test/image_05209.jpg",
+    "target_id": 4
+  },
+  {
+    "sample_id": "flowers102/test/image_05210.jpg",
+    "target_id": 4
+  },
+  {
+    "sample_id": "flowers102/test/image_07162.jpg",
+    "target_id": 5
+  },
+  {
+    "sample_id": "flowers102/test/image_07163.jpg",
+    "target_id": 5
+  },
+  {
+    "sample_id": "flowers102/test/image_07164.jpg",
+    "target_id": 5
+  },
+  {
+    "sample_id": "flowers102/test/image_07168.jpg",
+    "target_id": 5
+  },
+  {
+    "sample_id": "flowers102/test/image_07170.jpg",
+    "target_id": 5
+  },
+  {
+    "sample_id": "flowers102/test/image_07172.jpg",
+    "target_id": 5
+  },
+  {
+    "sample_id": "flowers102/test/image_07174.jpg",
+    "target_id": 5
+  },
+  {
+    "sample_id": "flowers102/test/image_07175.jpg",
+    "target_id": 5
+  },
+  {
+    "sample_id": "flowers102/test/image_07176.jpg",
+    "target_id": 5
+  },
+  {
+    "sample_id": "flowers102/test/image_07177.jpg",
+    "target_id": 5
+  },
+  {
+    "sample_id": "flowers102/test/image_07179.jpg",
+    "target_id": 5
+  },
+  {
+    "sample_id": "flowers102/test/image_07182.jpg",
+    "target_id": 5
+  },
+  {
+    "sample_id": "flowers102/test/image_07183.jpg",
+    "target_id": 5
+  },
+  {
+    "sample_id": "flowers102/test/image_07185.jpg",
+    "target_id": 5
+  },
+  {
+    "sample_id": "flowers102/test/image_07186.jpg",
+    "target_id": 5
+  },
+  {
+    "sample_id": "flowers102/test/image_07187.jpg",
+    "target_id": 5
+  },
+  {
+    "sample_id": "flowers102/test/image_07188.jpg",
+    "target_id": 5
+  },
+  {
+    "sample_id": "flowers102/test/image_07189.jpg",
+    "target_id": 5
+  },
+  {
+    "sample_id": "flowers102/test/image_07190.jpg",
+    "target_id": 5
+  },
+  {
+    "sample_id": "flowers102/test/image_07193.jpg",
+    "target_id": 5
+  },
+  {
+    "sample_id": "flowers102/test/image_07197.jpg",
+    "target_id": 5
+  },
+  {
+    "sample_id": "flowers102/test/image_07198.jpg",
+    "target_id": 5
+  },
+  {
+    "sample_id": "flowers102/test/image_07199.jpg",
+    "target_id": 5
+  },
+  {
+    "sample_id": "flowers102/test/image_08107.jpg",
+    "target_id": 5
+  },
+  {
+    "sample_id": "flowers102/test/image_08110.jpg",
+    "target_id": 5
+  },
+  {
+    "sample_id": "flowers102/test/image_07200.jpg",
+    "target_id": 6
+  },
+  {
+    "sample_id": "flowers102/test/image_07201.jpg",
+    "target_id": 6
+  },
+  {
+    "sample_id": "flowers102/test/image_07202.jpg",
+    "target_id": 6
+  },
+  {
+    "sample_id": "flowers102/test/image_07204.jpg",
+    "target_id": 6
+  },
+  {
+    "sample_id": "flowers102/test/image_07205.jpg",
+    "target_id": 6
+  },
+  {
+    "sample_id": "flowers102/test/image_07206.jpg",
+    "target_id": 6
+  },
+  {
+    "sample_id": "flowers102/test/image_07207.jpg",
+    "target_id": 6
+  },
+  {
+    "sample_id": "flowers102/test/image_07208.jpg",
+    "target_id": 6
+  },
+  {
+    "sample_id": "flowers102/test/image_07209.jpg",
+    "target_id": 6
+  },
+  {
+    "sample_id": "flowers102/test/image_07211.jpg",
+    "target_id": 6
+  },
+  {
+    "sample_id": "flowers102/test/image_07216.jpg",
+    "target_id": 6
+  },
+  {
+    "sample_id": "flowers102/test/image_07217.jpg",
+    "target_id": 6
+  },
+  {
+    "sample_id": "flowers102/test/image_07220.jpg",
+    "target_id": 6
+  },
+  {
+    "sample_id": "flowers102/test/image_07222.jpg",
+    "target_id": 6
+  }
+]

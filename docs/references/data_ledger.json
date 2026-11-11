@@ -1,0 +1,279 @@
+{
+  "ledger_version": 1,
+  "updated_at": "2026-11-11",
+  "timezone": "Asia/Saigon",
+  "datasets": [
+    {
+      "id": "cifar100_test",
+      "dataset": "CIFAR100",
+      "split": "test",
+      "num_samples": 10000,
+      "independent_units": 10000,
+      "unit_type": "image",
+      "exposure_status": "analyzed_test",
+      "runs_used": [
+        "results/smoke_cifar100_clip_b32_v1",
+        "results/full_cifar100_clip_b32_v1",
+        "results/full_cifar100_clip_b32_refactor",
+        "results/full_probing_clip_b32_v1",
+        "results/full_cifar100_category_v1",
+        "results/full_depth_category_v1"
+      ],
+      "allowed_future_use": "Fixed-protocol follow-up evaluation only (P3 prompt sensitivity/ensembling, P4 Vietnamese prompts). Must not be used to tune or select best prompts/weights."
+    },
+    {
+      "id": "cifar100_train_meta",
+      "dataset": "CIFAR100",
+      "split": "train_and_meta",
+      "num_samples": 50000,
+      "independent_units": 50000,
+      "unit_type": "image",
+      "exposure_status": "metadata_only_unseen_images",
+      "runs_used": [],
+      "allowed_future_use": "Official fine-to-coarse label mapping; can be partitioned into a frozen development subset if outcome-informed prompt selection is ever required."
+    },
+    {
+      "id": "flowers102_test",
+      "dataset": "Flowers102",
+      "split": "test (setid.mat:tstid)",
+      "num_samples": 6149,
+      "independent_units": 6149,
+      "unit_type": "image",
+      "exposure_status": "analyzed_test",
+      "runs_used": [
+        "results/smoke_flowers102_clip_b32_v2",
+        "results/full_flowers102_clip_b32_v2"
+      ],
+      "allowed_future_use": "Fixed-protocol P3 evaluation and P1.4 fine-grained error analysis only."
+    },
+    {
+      "id": "flowers102_trn_val",
+      "dataset": "Flowers102",
+      "split": "trnid (1020) + valid (1020)",
+      "num_samples": 2040,
+      "independent_units": 2040,
+      "unit_type": "image",
+      "exposure_status": "unseen",
+      "runs_used": [],
+      "allowed_future_use": "Available as development split if needed before freezing future protocols."
+    },
+    {
+      "id": "oxford_pet_test",
+      "dataset": "OxfordIIITPet",
+      "split": "test",
+      "num_samples": 3669,
+      "independent_units": 3669,
+      "unit_type": "image",
+      "exposure_status": "analyzed_test",
+      "runs_used": [
+        "results/smoke_oxford_pet_clip_b32_v3",
+        "results/full_oxford_pet_clip_b32_v3"
+      ],
+      "allowed_future_use": "Fixed-protocol P3 evaluation and P1.4 fine-grained breed confusion analysis only."
+    },
+    {
+      "id": "oxford_pet_trainval",
+      "dataset": "OxfordIIITPet",
+      "split": "trainval",
+      "num_samples": 3680,
+      "independent_units": 3680,
+      "unit_type": "image",
+      "exposure_status": "unseen",
+      "runs_used": [],
+      "allowed_future_use": "Available as development split if needed."
+    },
+    {
+      "id": "dtd_test_p1",
+      "dataset": "DTD",
+      "split": "test (partition 1)",
+      "num_samples": 1880,
+      "independent_units": 1880,
+      "unit_type": "image",
+      "exposure_status": "analyzed_test",
+      "runs_used": [
+        "results/smoke_dtd_clip_b32_v3",
+        "results/full_dtd_clip_b32_v3"
+      ],
+      "allowed_future_use": "Fixed-protocol P3 evaluation and P1.4 texture confusion analysis only."
+    },
+    {
+      "id": "food101_test",
+      "dataset": "Food101",
+      "split": "test",
+      "num_samples": 25250,
+      "independent_units": 25250,
+      "unit_type": "image",
+      "exposure_status": "analyzed_test",
+      "runs_used": [
+        "results/smoke_food101_clip_b32_v3",
+        "results/full_food101_clip_b32_v3"
+      ],
+      "allowed_future_use": "Fixed-protocol P3 evaluation (and optional P4 Vietnamese food evaluation) only."
+    },
+    {
+      "id": "synthetic_core_v1",
+      "dataset": "SyntheticGeometricCoreV1",
+      "split": "renderer_seed_14",
+      "num_samples": 3240,
+      "unique_images": 2520,
+      "independent_units": 720,
+      "unit_type": "scene_group (180 counting + 180 spatial + 360 negation)",
+      "exposure_status": "analyzed_synthetic",
+      "runs_used": [
+        "results/smoke_probing_clip_b32_v1",
+        "results/full_probing_clip_b32_v1",
+        "results/full_depth_historical_v1"
+      ],
+      "allowed_future_use": "Immutable historical core benchmark (v1.0.0-core)."
+    },
+    {
+      "id": "synthetic_depth_spatial_v1",
+      "dataset": "SyntheticGeometricDepthSpatialV1",
+      "split": "renderer_seed_14020",
+      "num_samples": 8640,
+      "unique_images": 1440,
+      "independent_units": 120,
+      "unit_type": "base_layout_group",
+      "exposure_status": "analyzed_synthetic",
+      "runs_used": [
+        "results/smoke_depth_spatial_v1",
+        "results/full_depth_spatial_v1"
+      ],
+      "allowed_future_use": "Immutable controlled spatial intervention benchmark (v1.1.0-probing-depth)."
+    },
+    {
+      "id": "coco_val2014_depth_pool",
+      "dataset": "COCO_val2014",
+      "split": "depth_natural_selection_v1 (400 screened, 200 selected, 176 retained after second review)",
+      "num_samples": 2400,
+      "unique_images": 400,
+      "independent_units": 200,
+      "unit_type": "source_image_id",
+      "exposure_status": "analyzed_exploratory_natural",
+      "runs_used": [
+        "results/smoke_depth_natural_v1",
+        "results/full_depth_natural_v1"
+      ],
+      "allowed_future_use": "Diagnostic follow-up only (e.g., P1.2 independent human label review, P2.1 object recognition control, P2.2 crop sensitivity). Cannot be treated as a fresh confirmation holdout."
+    },
+    {
+      "id": "coco_val2014_confirmation_pool",
+      "dataset": "COCO_val2014",
+      "split": "natural_confirmation_selection_v1 (178 screened disjoint from prior 400, 100 selected horizontal sources)",
+      "num_samples": 1200,
+      "unique_images": 200,
+      "independent_units": 100,
+      "unit_type": "source_image_id",
+      "exposure_status": "opened_confirmation",
+      "runs_used": [
+        "results/full_natural_confirmation_v1"
+      ],
+      "allowed_future_use": "Completed confirmation set (53/100). Can undergo P1.2 independent human label review or P2 diagnostic controls, but must never be reused as an unopened holdout for new hypotheses."
+    }
+  ],
+  "extension_followup": {
+    "protocol": "docs/integration_protocol_v2.md",
+    "status": "completed_and_audited",
+    "runs": [
+      {
+        "run_name": "smoke_prompt_flowers102_review_v2",
+        "status": "audited",
+        "started_at_utc": "2026-11-11T02:42:09.224939+00:00",
+        "finished_at_utc": "2026-11-11T02:45:15.877144+00:00"
+      },
+      {
+        "run_name": "full_prompt_flowers102_review_v2",
+        "status": "audited",
+        "started_at_utc": "2026-11-11T02:45:20.965815+00:00",
+        "finished_at_utc": "2026-11-11T02:47:23.628526+00:00"
+      },
+      {
+        "run_name": "smoke_prompt_oxford_pet_review_v2",
+        "status": "audited",
+        "started_at_utc": "2026-11-11T02:47:31.210897+00:00",
+        "finished_at_utc": "2026-11-11T02:49:09.134672+00:00"
+      },
+      {
+        "run_name": "full_prompt_oxford_pet_review_v2",
+        "status": "audited",
+        "started_at_utc": "2026-11-11T02:49:14.798934+00:00",
+        "finished_at_utc": "2026-11-11T02:50:34.711840+00:00"
+      },
+      {
+        "run_name": "smoke_prompt_dtd_review_v2",
+        "status": "audited",
+        "started_at_utc": "2026-11-11T02:50:40.985128+00:00",
+        "finished_at_utc": "2026-11-11T02:51:30.074299+00:00"
+      },
+      {
+        "run_name": "full_prompt_dtd_review_v2",
+        "status": "audited",
+        "started_at_utc": "2026-11-11T02:51:34.097518+00:00",
+        "finished_at_utc": "2026-11-11T02:52:17.247157+00:00"
+      },
+      {
+        "run_name": "smoke_prompt_food101_review_v2",
+        "status": "audited",
+        "started_at_utc": "2026-11-11T02:52:23.321471+00:00",
+        "finished_at_utc": "2026-11-11T03:00:14.235377+00:00"
+      },
+      {
+        "run_name": "full_prompt_food101_review_v2",
+        "status": "audited",
+        "started_at_utc": "2026-11-11T03:00:22.609098+00:00",
+        "finished_at_utc": "2026-11-11T03:13:30.698797+00:00"
+      },
+      {
+        "run_name": "smoke_prompt_probing_review_v2",
+        "status": "audited",
+        "started_at_utc": "2026-11-11T03:13:56.720968+00:00",
+        "finished_at_utc": "2026-11-11T03:16:55.305302+00:00"
+      },
+      {
+        "run_name": "full_prompt_probing_review_v2",
+        "status": "audited",
+        "started_at_utc": "2026-11-11T03:16:58.156348+00:00",
+        "finished_at_utc": "2026-11-11T03:18:56.504852+00:00"
+      },
+      {
+        "run_name": "smoke_spatial_mitigation_review_v2",
+        "status": "audited",
+        "started_at_utc": "2026-11-11T03:24:19.903655+00:00",
+        "finished_at_utc": "2026-11-11T03:25:39.891773+00:00"
+      },
+      {
+        "run_name": "full_spatial_mitigation_review_v2",
+        "status": "audited",
+        "started_at_utc": "2026-11-11T03:25:42.239475+00:00",
+        "finished_at_utc": "2026-11-11T03:27:29.513094+00:00"
+      },
+      {
+        "run_name": "smoke_natural_regions_exploratory_review_v2",
+        "status": "audited",
+        "started_at_utc": "2026-11-11T03:19:02.151981+00:00",
+        "finished_at_utc": "2026-11-11T03:19:25.544968+00:00"
+      },
+      {
+        "run_name": "full_natural_regions_exploratory_review_v2",
+        "status": "audited",
+        "started_at_utc": "2026-11-11T03:19:30.977208+00:00",
+        "finished_at_utc": "2026-11-11T03:20:44.318353+00:00"
+      },
+      {
+        "run_name": "smoke_natural_regions_confirmation_review_v2",
+        "status": "audited",
+        "started_at_utc": "2026-11-11T03:20:49.864678+00:00",
+        "finished_at_utc": "2026-11-11T03:21:13.397100+00:00"
+      },
+      {
+        "run_name": "full_natural_regions_confirmation_review_v2",
+        "status": "audited",
+        "started_at_utc": "2026-11-11T03:21:18.548693+00:00",
+        "finished_at_utc": "2026-11-11T03:22:06.328773+00:00"
+      }
+    ],
+    "exposure_status": "opened_followup",
+    "human_image_and_translation_review": "pending",
+    "note": "The COCO confirmation cohort was already opened before these region studies. No new independent holdout is claimed."
+  }
+}

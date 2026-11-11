@@ -1,0 +1,14 @@
+{
+  "confirmation_100": {
+    "num_items": 100,
+    "sheet_csv": "data/blinded_review_v1/blinded_sheet_confirmation_100.csv",
+    "answer_key_json": "data/blinded_review_v1/answer_key_confirmation_100.json",
+    "sheet_sha256": "df1e19c0c36b6e44c8af5006c2a84e6ced48dad8980da9ac37878215524f4727"
+  },
+  "exploratory_200": {
+    "num_items": 200,
+    "sheet_csv": "data/blinded_review_v1/blinded_sheet_exploratory_200.csv",
+    "answer_key_json": "data/blinded_review_v1/answer_key_exploratory_200.json",
+    "sheet_sha256": "4594d65b97f956c4a054d7bd8c1814b6e476fb881b1de720f60431d0f14293f4"
+  }
+}

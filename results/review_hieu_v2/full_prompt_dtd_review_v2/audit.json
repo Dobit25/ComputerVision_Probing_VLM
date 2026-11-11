@@ -1,0 +1,19 @@
+{
+  "run": "results/full_prompt_dtd_review_v2",
+  "artifact_integrity_verified": true,
+  "manifest_sha256": "ee0614a42a35aa2b4365cedcb82ec785047c980dc671fe89236173511fb8139a",
+  "metrics_recomputed": true,
+  "n": 1880,
+  "baseline_predictions_identical": true,
+  "baseline_target_cosine_max_abs_difference": 1.4901161193847656e-07,
+  "text_embedding_ensemble_construction_recomputed": true,
+  "limitation": null,
+  "legacy_config_protocol_note": null,
+  "derived_sha256": {
+    "classes.json": "defd819ed9f1d388a61e719eaea51aa885ac66446bcde2b36facf05f53b5a390",
+    "diagnostics.json": "ab51cd50f8bc7f416f4618a8d7671257c6a5aa393859bfe6f98744c542e4f691",
+    "per_class.csv": "263ad126e08cdcb3cfbc0c386cd69d491d46b82b6de741b0f754c87d3f7153bd",
+    "predictions.csv": "4deaa61ce1d6f9fcb6f07639d5f9ed2096664539c61d44f218907658b267f422",
+    "samples.json": "84ef03131553fa9f5a74a081d87450dd254f704602bd16653eb1208cccce183c"
+  }
+}
