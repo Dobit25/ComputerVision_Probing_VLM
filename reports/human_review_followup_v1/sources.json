@@ -1,0 +1,14 @@
+{
+  "input_sha256": {
+    "results/human_review_followup_v1/manifest.json": "46382ec7ea1ecb9227a668cbb643eb539e6ebbf36dd17ed007afcd687d8374dd",
+    "results/human_review_followup_v1/metrics.json": "338fa320a729763afb132bb3b887267a788a28fc62cc44efba41b6756976adca",
+    "results/human_review_followup_v1/source_membership.csv": "b94d531f4f6494e1b6266e8004340b163197a9f10bb13d4b508aceb3819f3db0",
+    "reviews/human_review_final_v1/freeze.json": "039b093dc46372e495f83b0a46b504e30c2900fe159f6586e7f6979fc8e0c4e1",
+    "vlm_probe/human_review_followup_report.py": "a73a3b310aac3a1538ffc79ddea12b63937c889fdd562690abc676ac6dd56d15"
+  },
+  "derived_sha256": {
+    "comparison.csv": "97a8ccbfe44b7b59bede4fc9322c7ca2633c7985ca2589cfb768d6ece7ba3896",
+    "README.md": "b0acedc3106e435e7be99db044ba4502d9b094a22d1c72e56841c3006bac0fa1",
+    "translation_review.json": "8b81d256935622f812518a39ffbd3fbf95c960e8eda2c5301cc032443db81ab1"
+  }
+}

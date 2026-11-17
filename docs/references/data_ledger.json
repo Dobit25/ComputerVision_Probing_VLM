@@ -275,5 +275,27 @@
     "exposure_status": "opened_followup",
     "human_image_and_translation_review": "pending",
     "note": "The COCO confirmation cohort was already opened before these region studies. No new independent holdout is claimed."
+  },
+  "human_review_followup_v1": {
+    "date_local": "2026-11-17",
+    "reviewer": "R1",
+    "image_review": {
+      "total": 100,
+      "retained": 98,
+      "excluded_ids": [
+        "CONFIRMATION_100_006",
+        "CONFIRMATION_100_092"
+      ]
+    },
+    "translation_review": {
+      "accepted": 100,
+      "lexicon_changed": false
+    },
+    "frozen_reviews": "reviews/human_review_final_v1/freeze.json",
+    "results": "results/human_review_followup_v1/manifest.json",
+    "report": "reports/human_review_followup_v1/README.md",
+    "exposure_status": "opened_posthoc_sensitivity_after_human_agent_discussion",
+    "new_inference": false,
+    "historical_records": "Earlier pending statuses describe their original publication date; this entry is current."
   }
 }

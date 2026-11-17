@@ -1,0 +1,18 @@
+{
+  "human_review": "100 accepted by R1; user confirmation, assistant entered authorized statuses.",
+  "review_sha256": "80043001f6053182ecfb0d7b4988b6f7bd4889238cbcd32696cd9540ef685f80",
+  "lexicon_path": "results\\full_vietnamese_cifar100_v1\\multilingual_classes.json",
+  "lexicon_sha256": "0d58ab3697f89dd552e492988dbff5a90ac11a621eb85f140ec59819d963155a",
+  "metrics_path": "results\\full_vietnamese_cifar100_v1\\metrics.json",
+  "metrics_sha256": "c1827475843b43af48a3349dc797c663c1df683d8c3300252ec607ca5ae3854a",
+  "translations_unchanged": true,
+  "new_inference": false,
+  "accuracy_percent": {
+    "en_baseline": 64.48,
+    "vi_diacritics": 5.1,
+    "vi_no_diacritics": 4.05,
+    "en_frame_vi_label": 5.4399999999999995,
+    "vi_frame_en_label": 55.1,
+    "vi_en_bilingual": 54.949999999999996
+  }
+}
