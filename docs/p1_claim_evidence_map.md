@@ -1,6 +1,8 @@
 # P1: Bản đồ kết luận – bằng chứng (Claim–Evidence Map) và Tổng hợp P1.3 / P1.4
 
 Ngày lập: **09/11/2026** (Asia/Saigon).
+> **Đính chính 17/11/2026 (thêm sau, nội dung gốc giữ nguyên):** số counting theo màu/hình ở mục 2.1 bên dưới sai so với scores. Số đúng: red 136, green 121, blue 98; triangle 135, circle 121, square 99 (mỗi nhóm /360) — xem [evidence_matrix_1117.md](evidence_matrix_1117.md) mục 3 và `reports/probing/breakdown.csv`. Ma trận bằng chứng hiện hành là [evidence_matrix_1117.md](evidence_matrix_1117.md).
+
 Bản dữ liệu máy đọc được: [docs/references/claim_evidence_map.json](references/claim_evidence_map.json).
 
 Tài liệu này thực thi mục 5 (`P1.1`, `P1.3`, `P1.4`) của [long_term_project_plan.md](long_term_project_plan.md):

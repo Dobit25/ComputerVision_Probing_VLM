@@ -16,6 +16,8 @@ Chi tiết về nguồn đề bài, yêu cầu bắt buộc và các lựa chọ
 
 **Cập nhật 17/11/2026:** đã đóng băng review người R1 cho 100 nguồn COCO (**98 nhận, 2 loại**) và 100 bản dịch (**100 accepted**). Đã tính lại từ scores trên 98 nguồn/196 ảnh: holistic **51,53%**, chia vùng native **93,37%**, padding **92,86%**. Xem [báo cáo trước–sau review](reports/human_review_followup_v1/README.md), [hai phiếu và lịch sử](reviews/human_review_final_v1/), [trạng thái review](reviews/human_review_v2/status.json). Đây là sensitivity hậu nghiệm có một reviewer người và thảo luận với agent; không phải tập xác nhận độc lập mới. Không có inference mới. PDF/slides cũ được giữ nguyên; các đoạn dưới mô tả các mốc lịch sử.
 
+**Ma trận bằng chứng hiện hành (T0, 17/11/2026):** [docs/evidence_matrix_1117.md](docs/evidence_matrix_1117.md) theo [kế hoạch 1117](1117.md); số tính lại ở `results/evidence_matrix_1117_v1/` (`python -m vlm_probe.evidence_1117 audit`). Bản đồ P1 cũ có một lỗi số counting theo màu/hình, đã ghi đính chính.
+
 Kiểm lại mốc này trong `gen`: `python -m vlm_probe.human_review_followup audit`. Cách tạo và giới hạn nằm ở [giao thức](docs/human_review_followup_v1.md) và [đính chính](docs/human_review_followup_v1_amendment.md).
 
 Pipeline dùng chung evaluator cho **một model CLIP ViT-B/32 (trọng số OpenAI) → năm dataset**: CIFAR-100, Flowers102, Oxford-IIIT Pet, DTD partition 1 và Food-101, chọn bằng config. Phần nạp model/dataset đã tách thành adapter; xem [kiến trúc và cách mở rộng](docs/architecture.md), [giao thức hiện hành](docs/one_model_protocol.md) và [ma trận một model](docs/one_model_matrix.json).
