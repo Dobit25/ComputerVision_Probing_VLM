@@ -1,0 +1,47 @@
+{
+  "n": 100,
+  "unique_ids": 100,
+  "unchanged_fixed_fields": true,
+  "whitespace_cells": 302,
+  "whitespace_rows": 85,
+  "pending_ids": [
+    "CONFIRMATION_100_000",
+    "CONFIRMATION_100_003",
+    "CONFIRMATION_100_006",
+    "CONFIRMATION_100_012",
+    "CONFIRMATION_100_013",
+    "CONFIRMATION_100_018",
+    "CONFIRMATION_100_024",
+    "CONFIRMATION_100_033",
+    "CONFIRMATION_100_034",
+    "CONFIRMATION_100_054",
+    "CONFIRMATION_100_068",
+    "CONFIRMATION_100_077",
+    "CONFIRMATION_100_087",
+    "CONFIRMATION_100_092",
+    "CONFIRMATION_100_096"
+  ],
+  "contradictory_ids": [],
+  "human_accept_counts": {
+    "blank": 15,
+    "yes": 85
+  },
+  "agent_accept_counts": {
+    "True": 100
+  },
+  "initial_snapshot_sha256": "99eb663af45d272afd3ce6f8d9a4649a9e34fbb15b7e24ddd4665da7d82d70ad",
+  "source_sha256": "37a6b9aedd34047e907785859b427093883388fcd92d7129f7590c23444eae36",
+  "latest_snapshot": "human_latest_received.csv",
+  "human_updates_during_assessment": {
+    "005": "perceived_relation changed left -> right",
+    "040": "perceived_relation changed right -> left"
+  },
+  "complete_consistent_after_whitespace_only": 85,
+  "all_100_source_hashes_verified": true,
+  "all_100_exported_crops_pixel_identical_to_baseline": true,
+  "visually_screened_crops": 100,
+  "source_box_pairs_inspected": 22,
+  "human_review_status": "incomplete_pending_human_decisions",
+  "no_model_metrics_recomputed": true,
+  "source_file_edited_by_assistant": false
+}
