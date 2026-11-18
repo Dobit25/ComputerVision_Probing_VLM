@@ -2,7 +2,7 @@
 
 Stages are kept separate so that no CLIP score exists before foils are frozen:
 
-    prepare   rank score-blind foil candidates, write a review round (CSV + HTML packet)
+    prepare   rank score-blind foil candidates, write a review round (blank CSV + canvas images)
     validate  check a filled review CSV against the round it answers (schema, IDs, logic)
     freeze    freeze all filled rounds once every source/role is resolved
     run       CLIP inference (requires config status 'frozen' and a frozen review)
@@ -319,37 +319,17 @@ def write_review_csv(path, rows):
 
 
 def write_packet(n, rows, sources_by_id, canvases):
-    """HTML review packet with the exact model canvas; pixels stay outside Git (data/)."""
+    """Review images: the exact model canvas with A/B boxes, img/<source_id>.png; pixels stay outside Git (data/)."""
     from PIL import ImageDraw
-    import html
     folder = PACKETS / f'review_round_{n:02d}'
     (folder / 'img').mkdir(parents=True, exist_ok=True)
-    by_source = defaultdict(list)
-    for r in rows:
-        by_source[r['source_image_id']].append(r)
-    cards = []
-    for sid, items in by_source.items():
+    for sid in dict.fromkeys(r['source_image_id'] for r in rows):
         src = sources_by_id[sid]
         canvas = canvases[sid].copy(); draw = ImageDraw.Draw(canvas)
         for box, color, label in ((src['bbox_a'], '#0072B2', 'A'), (src['bbox_b'], '#E69F00', 'B')):
             rect = canvas_box(box, src['width'], src['height'])
             draw.rectangle(rect, outline=color, width=2); draw.text((rect[0] + 3, rect[1] + 2), label, fill=color)
         canvas.resize((448, 448)).save(folder / 'img' / f'{sid}.png')
-        lis = ''.join(
-            f"<li><code>{html.escape(x['review_id'])}</code>: thay <b>{html.escape(x['replaced_object'])}</b> "
-            f"→ foil <b>{html.escape(x['foil'])}</b> (tầng {x['foil_tier']}, v{x['candidate_version']}); "
-            f"giữ {html.escape(x['kept_object'])}</li>" for x in items)
-        cards.append(f"<section id='card-{sid}'><img src='img/{sid}.png' width='448' height='448' alt='COCO {sid}'>"
-                     f"<p>COCO {sid} — A: {html.escape(src['category_a'])}, B: {html.escape(src['category_b'])}</p>"
-                     f"<ul>{lis}</ul></section>")
-    page = ("<!doctype html><meta charset='utf-8'><title>T1 foil review round %02d</title>"
-            "<style>body{font-family:sans-serif;max-width:960px;margin:auto;padding:16px}"
-            "section{border-top:1px solid #ccc;padding:12px 0}img{image-rendering:auto;max-width:100%%;height:auto}</style>"
-            "<h1>T1 — review foil, vòng %02d</h1><p>Ảnh là đúng vùng 224×224 mô hình thấy (phóng 2×). "
-            "Với mỗi dòng: foil có <b>vắng mặt</b> trong vùng ảnh không (foil_absent), và có chắc người xem "
-            "<b>không thể gọi</b> vật bị thay bằng tên foil không (unambiguous). Điền vào CSV đi kèm. "
-            "Không có điểm mô hình nào trong gói này.</p>%s") % (n, n, ''.join(cards))
-    (folder / 'index.html').write_text(page, encoding='utf-8')
     return folder
 
 
@@ -410,7 +390,7 @@ def prepare(cfg):
     write_review_csv(round_path(n, 'blank'), rows)
     folder = write_packet(n, rows, by_id, canvases)
     print(f'Round {n}: {len(rows)} rows for {len({r["source_image_id"] for r in rows})} sources. '
-          f'Blank CSV: {round_path(n, "blank").relative_to(ROOT)}; packet: {folder.relative_to(ROOT)}/index.html '
+          f'Blank CSV: {round_path(n, "blank").relative_to(ROOT)}; images: {folder.relative_to(ROOT)}/img/ '
           '(status: pending_review)', flush=True)
 
 
