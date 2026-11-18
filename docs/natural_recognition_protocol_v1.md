@@ -1,6 +1,6 @@
 # Protocol T1 — đối chứng nhận dạng trên ảnh COCO (`natural_recognition_v1`)
 
-**Trạng thái: BẢN NHÁP, chờ nhóm duyệt.** Soạn ngày 18/11/2026 theo mục 4–6 của [1118.md](../1118.md). Chưa có inference T1 nào. Code từ chối chạy model khi `configs/natural_recognition_v1.json` chưa có `"status": "frozen"` hoặc khi phiếu foil chưa được đóng băng. Các mục đánh dấu **[NHÓM CHỐT]** là quyết định của nhóm; giá trị hiện tại chỉ là đề xuất.
+**Trạng thái: ĐÃ CHỐT (18/11/2026), trước khi có bất kỳ score T1 nào.** Soạn theo mục 4–6 của [1118.md](../1118.md). Nhóm đã xác nhận mọi mục **[ĐÃ CHỐT]** bên dưới sau hai vòng review foil; `configs/natural_recognition_v1.json` có `"status": "frozen"`. Mọi thay đổi sau thời điểm này cần một phiên bản config/protocol mới. Code từ chối chạy model khi config chưa `frozen` hoặc phiếu foil chưa đóng băng.
 
 Phạm vi: một checkpoint OpenAI CLIP ViT-B/32 (`configs/clip_b32_cifar100.json`), không fine-tuning, không thêm model hay dataset.
 
@@ -24,7 +24,7 @@ Trên cùng vùng ảnh COCO mà holistic T2/o0 đã dùng, CLIP có phân biệ
 | Đơn vị độc lập | **98 nguồn**; bootstrap resample theo nguồn, giữ mọi trial của nguồn |
 | Preprocessing | Giống hệt holistic: `adapter.preprocess` của checkpoint (resize cạnh ngắn bicubic + centre crop 224). Dùng lại đúng *identity* cache đặc trưng ảnh của `full_natural_confirmation_v1` |
 
-Nguồn thiếu foil hợp lệ ở một vai trò **không bị bỏ âm thầm**: ghi lý do, báo coverage so với 98. **[NHÓM CHỐT]** đề xuất: phân tích chính chỉ gồm nguồn có foil được chấp nhận ở cả hai vai trò; nếu dưới **80** nguồn thì không chạy inference và báo T1 chưa khả thi.
+Nguồn thiếu foil hợp lệ ở một vai trò **không bị bỏ âm thầm**: ghi lý do, báo coverage so với 98. **[ĐÃ CHỐT]** phân tích chính chỉ gồm nguồn có foil được chấp nhận ở cả hai vai trò; nếu dưới **80** nguồn thì không chạy inference và báo T1 chưa khả thi. Sau review: 98/98 nguồn có foil được chấp nhận ở cả hai vai trò.
 
 ## 3. Caption
 
@@ -39,7 +39,7 @@ Tên lớp giữ nguyên tên COCO (ví dụ `dining table`, `tv`), mạo từ a
 ## 4. Chọn foil (không dùng CLIP scores)
 
 1. Pool: 80 lớp COCO trong `instances_val2014.json` đã đóng băng (sha256 trong `natural_confirmation_selection_v1/preparation.json`).
-2. Loại: A và B; **mọi lớp có annotation ở bất kỳ đâu trong ảnh nguồn** (chặt hơn chỉ trong crop); các lớp nằm trong `contested_pairs` cùng vật bị thay (gần đồng nghĩa, kiểu con, bộ phận–toàn thể). **[NHÓM CHỐT]** danh sách này trước khi đóng băng.
+2. Loại: A và B; **mọi lớp có annotation ở bất kỳ đâu trong ảnh nguồn** (chặt hơn chỉ trong crop); các lớp nằm trong `contested_pairs` cùng vật bị thay (gần đồng nghĩa, kiểu con, bộ phận–toàn thể). **[ĐÃ CHỐT]** danh sách trong config, giữ nguyên như khi sinh foil vòng 1.
 3. Tầng 1: cùng supercategory COCO với vật bị thay (foil hợp lý, khó hơn). Tầng 2: lớp hợp lệ khác, chỉ khi tầng 1 rỗng (ví dụ `person` là supercategory một lớp).
 4. Thứ tự trong tầng: `sha256("{seed}/{source_id}/{role}/{name}")` tăng dần, seed 1118. Hoàn toàn xác định, không nhìn scores.
 5. `revise` → ứng viên kế tiếp trong danh sách, ở vòng review mới; tối đa 3 phiên bản mỗi nguồn/vai trò. Mọi phiên bản được giữ lại.
@@ -48,7 +48,7 @@ Giới hạn đã biết: tầng 2 có thể quá dễ; kết quả báo riêng 
 
 ## 5. Review người (Task D)
 
-- Reviewer: **[NHÓM CHỐT]** (`reviewer_id`). Agent không ký thay; khi chưa có người, trạng thái là `pending_review`.
+- Reviewer **[ĐÃ CHỐT]**: `tuan_dat`, một người chấm toàn bộ (vòng 1: 196 dòng; vòng 2: 13 dòng gồm 5 foil mới và 8 phân xử). Không có inter-annotator agreement. Agent không ký thay.
 - Mỗi dòng phiếu: `review_id, source_image_id, crop_sha256, role, replaced_object, kept_object, foil, foil_tier, candidate_version, reviewer_id, foil_absent, unambiguous, decision, reason, notes`.
 - Reviewer xem **đúng vùng 224×224 mô hình thấy** (centre canvas), có khung A/B. Bản lật là ảnh gương của cùng vùng nên một quyết định áp dụng cho cả hai biến thể.
 - `foil_absent` (yes/no/unsure): foil không xuất hiện trong vùng ảnh. `unambiguous` (yes/no/unsure): người xem không thể gọi vật bị thay bằng tên foil.
@@ -65,7 +65,7 @@ Giới hạn đã biết: tầng 2 có thể quá dễ; kết quả báo riêng 
 
 ## 7. Diễn giải
 
-**[NHÓM CHỐT trước khi xem scores]** Ngưỡng đề xuất (chỉ là chỗ giữ, không từ phân tích power): nhận dạng “rõ ràng tốt” nếu cận dưới CI ≥ 80%; “yếu” nếu cận trên < 70%; còn lại “chưa rõ”. Bảng kết luận dùng nguyên mục 5 của 1118.md:
+**[ĐÃ CHỐT trước khi có scores]** Ngưỡng (nhóm chọn, không từ phân tích power; mức ngẫu nhiên là 50%): nhận dạng “rõ ràng tốt” nếu cận dưới CI 95% ≥ 80%; “yếu” nếu cận trên < 70%; còn lại “chưa rõ”. Bảng kết luận dùng nguyên mục 5 của 1118.md:
 
 | Kết quả | Kết luận được hỗ trợ |
 |---|---|
@@ -76,14 +76,16 @@ Giới hạn đã biết: tầng 2 có thể quá dễ; kết quả báo riêng 
 | CI rộng hoặc A/B trái chiều | Chưa rõ; không lấy thêm mẫu tới khi p nhỏ |
 | Thiếu review foil tin cậy | Chưa đủ dữ liệu T1; hoãn inference |
 
-Quy tắc dừng **[NHÓM CHỐT]**: một lượt chính và tối đa một follow-up có protocol riêng; không chỉnh foil sau khi thấy scores.
+Quy tắc dừng **[ĐÃ CHỐT]**: một lượt chính và tối đa một follow-up có protocol riêng; không chỉnh foil sau khi thấy scores.
+
+Ngân sách **[ĐÃ CHỐT]**: một smoke run và một full run với checkpoint CLIP ViT-B/32 hiện có, tối đa 1 GPU-giờ, không fine-tuning.
 
 ## 8. Quy trình và lệnh
 
 ```powershell
 python -m vlm_probe.spatial_diagnostics.natural_recognition prepare        # Task C: foil + gói review, không scores
 python -m vlm_probe.spatial_diagnostics.natural_recognition validate --review reviews/natural_recognition_v1/round_01_filled.csv
-python -m vlm_probe.spatial_diagnostics.natural_recognition freeze --review reviews/natural_recognition_v1/round_01_filled.csv
+python -m vlm_probe.spatial_diagnostics.natural_recognition freeze
 python -m vlm_probe.spatial_diagnostics.natural_recognition run --smoke --run-name smoke_natural_recognition_v1
 python -m vlm_probe.spatial_diagnostics.natural_recognition run --run-name full_natural_recognition_v1
 python -m vlm_probe.spatial_diagnostics.natural_recognition audit --run-name full_natural_recognition_v1

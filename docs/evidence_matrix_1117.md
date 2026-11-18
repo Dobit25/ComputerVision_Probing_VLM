@@ -97,9 +97,9 @@ Gap T1 ở mục 2 **vẫn mở**: chưa có inference, review foil chưa đóng
 | Task 1118 | Trạng thái | Artifact |
 |---|---|---|
 | A — kiểm nền | Xong: audit kiểm predictions so với raw scores (probing) và tính nhất quán (Pet); amendment C07 máy đọc được | `vlm_probe/evidence_1117.py`, `docs/references/claim_evidence_amendments.json` |
-| B — thiết kế | **Bản nháp**, chờ nhóm chốt reviewer, ngưỡng diễn giải, ngân sách, quy tắc thiếu foil, `contested_pairs` | `docs/natural_recognition_protocol_v1.md`, `configs/natural_recognition_v1.json` (`status: draft_pending_team_signoff`) |
+| B — thiết kế | **Đã chốt** 18/11/2026, trước mọi score T1: reviewer `tuan_dat`, ngưỡng 80%/70% (cận CI 95%), tối thiểu 80 nguồn, quy tắc thiếu foil, `contested_pairs`, ngân sách ≤ 1 GPU-giờ, quy tắc dừng | `docs/natural_recognition_protocol_v1.md`, `configs/natural_recognition_v1.json` (`status: frozen`) |
 | C — chuẩn bị | Xong vòng 1: annotation và 98 ảnh khớp sha256 đã đóng băng; 196 dòng (98 nguồn × 2 vai trò), mọi vai trò có foil; 173 foil tầng 1, 23 tầng 2 (chủ yếu khi thay `person`). Không dùng scores | `reviews/natural_recognition_v1/` (`candidates.json`, `round_01_blank.csv`, README); ảnh review ở `data/` ngoài Git |
-| D — review người | **Vòng 1 xong** (6 người chấm, mỗi người một khối ảnh): 183 accepted, 5 revise, 8 uncertain; hợp lệ theo `validate`. Còn 13 dòng chưa giải quyết nên chưa `freeze` | `reviews/natural_recognition_v1/round_01_filled.csv`, README |
+| D — review người | **Xong, đã đóng băng**: một reviewer (`tuan_dat`), không có IAA. Vòng 1: 183 accepted, 5 revise, 8 uncertain; vòng 2 chấp nhận cả 13 dòng còn lại (5 foil mới, 8 phân xử). 196/196 foil accepted, 98/98 nguồn vào phân tích | `reviews/natural_recognition_v1/round_0{1,2}_filled.csv`, README |
 | E — triển khai | Code xong; từ chối chạy khi config chưa `frozen` hoặc review chưa đóng băng; kiểm parity với điểm holistic T2/o0 đã đóng băng trước khi tính | `natural_recognition.py run` |
 | F — audit | Code xong (tính lại từ `scores.npz`, không cần pixels/model); chưa có run để audit | `natural_recognition.py audit` |
 | G — quyết định | Chưa thể: phụ thuộc kết quả T1 | — |

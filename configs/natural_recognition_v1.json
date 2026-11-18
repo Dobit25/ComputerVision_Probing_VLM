@@ -1,7 +1,7 @@
 {
   "study": "natural_recognition_v1",
-  "status": "draft_pending_team_signoff",
-  "status_note": "Inference is refused unless status is 'frozen'. The team must fill or confirm every field under 'team_decisions' and set status to 'frozen' in a reviewed commit before any CLIP inference.",
+  "status": "frozen",
+  "status_note": "Frozen 2026-11-18 on team sign-off (all 'team_decisions' confirmed), after foil review rounds 1-2 and before any CLIP score was computed. Any change needs a new config version.",
   "protocol": "docs/natural_recognition_protocol_v1.md",
   "base_config": "configs/probing_depth_v1.json",
   "model_config": "configs/clip_b32_cifar100.json",
@@ -50,7 +50,7 @@
     "region_shown": "baseline 224x224 centre canvas (shorter-edge bicubic resize + centre crop), exactly what the model sees",
     "decisions": ["accepted", "revise", "uncertain"],
     "scores_shown_to_reviewer": false,
-    "reviewer_id": "TEAM_TO_ASSIGN",
+    "reviewer_id": "tuan_dat",
     "adjudication": "uncertain or revise rows go to a new round; disagreements adjudicated with history kept"
   },
   "metrics": {
@@ -68,11 +68,19 @@
     "bootstrap_seed": 1402
   },
   "team_decisions": {
-    "reviewer": null,
-    "missing_foil_rule": "PROPOSED: a source enters the primary analysis only if both roles have an accepted foil; excluded sources are listed with reasons and coverage is reported against all 98",
-    "minimum_sources_for_inference": "PROPOSED: 80 (same floor as natural_confirmation_v1); below this T1 is reported as not feasible and no inference is run",
-    "interpretation_thresholds": "PROPOSED for team decision before scores: recognition 'clearly good' if the lower 95% CI bound >= 80%; 'weak' if the upper bound < 70%; otherwise 'unclear'. These numbers are placeholders, not derived from any power analysis.",
-    "budget": null,
-    "stop_rule": "PROPOSED: one main run plus at most one pre-registered follow-up; no extra sampling to reach significance"
+    "signed_off": "2026-11-18, before any T1 score existed",
+    "reviewer": "tuan_dat",
+    "reviewer_note": "One human reviewer (tuan_dat) reviewed all 196 round-1 rows and the 13 round-2 rows; no inter-annotator agreement is available.",
+    "missing_foil_rule": "A source enters the primary analysis only if both roles have an accepted foil; excluded sources are listed with reasons and coverage is reported against all 98",
+    "minimum_sources_for_inference": 80,
+    "minimum_sources_note": "Same floor as natural_confirmation_v1; below this T1 is reported as not feasible and no inference is run",
+    "interpretation_thresholds": {
+      "clearly_good": "lower bound of the 95% source-bootstrap CI of recognition_accuracy >= 80%",
+      "weak": "upper bound of that CI < 70%",
+      "unclear": "otherwise",
+      "note": "Chance is 50% (two captions). Thresholds were fixed by the team before scores; they are not derived from a power analysis."
+    },
+    "budget": "One smoke run and one full run with the existing CLIP ViT-B/32 checkpoint (encode 196 images and the true/foil captions); at most 1 GPU-hour, no fine-tuning",
+    "stop_rule": "One main run plus at most one pre-registered follow-up; no extra sampling to reach significance"
   }
 }

@@ -1,45 +1,37 @@
 # Review foil T1
 
-Trạng thái: **vòng 1 đã chấm xong** (18/11/2026, 6 người chấm). Còn 13 dòng `revise`/`uncertain` chưa giải quyết, nên chưa `freeze` được. Protocol: [natural_recognition_protocol_v1.md](../../docs/natural_recognition_protocol_v1.md) mục 4–5.
+Trạng thái: **đã chấm xong, mọi dòng đã giải quyết** (vòng 1 và 2, ngày 18/11/2026): 98 nguồn × 2 vai trò = 196 foil được chấp nhận. **Đã đóng băng** (`freeze.json`) sau khi nhóm chốt config (`status: frozen`). Protocol: [natural_recognition_protocol_v1.md](../../docs/natural_recognition_protocol_v1.md) mục 4–5.
 
 ## Tệp
 
 | Tệp | Vai trò |
 |---|---|
 | `candidates.json` | Danh sách foil xếp hạng cho mỗi nguồn/vai trò, lớp có annotation trong ảnh, hash ảnh và canvas. Sinh không dùng CLIP scores |
-| `round_01_blank.csv` | Phiếu trắng vòng 1: 196 dòng = 98 nguồn × 2 vai trò. Giữ nguyên, là mốc để `validate` so |
-| `round_01_filled.csv` | Kết quả vòng 1 do nhóm chấm. Hợp lệ theo `validate` |
+| `round_01_blank.csv`, `round_02_blank.csv` | Phiếu trắng mỗi vòng. Giữ nguyên, là mốc để `validate` so |
+| `round_01_filled.csv`, `round_02_filled.csv` | Kết quả do nhóm chấm. Cả hai hợp lệ theo `validate` |
 | `freeze.json` | (sinh bởi lệnh `freeze`) checksum mọi vòng và foil cuối cùng |
 
-Ảnh review (vùng 224×224 mô hình thấy, khung A/B) nằm ngoài Git ở `data/natural_recognition_v1/review_round_01/img/`.
+Ảnh review (vùng 224×224 mô hình thấy, khung A/B) nằm ngoài Git ở `data/natural_recognition_v1/review_round_NN/img/`.
 
-## Kết quả vòng 1
+Reviewer: **`tuan_dat`**, một người chấm toàn bộ hai vòng. Không có inter-annotator agreement.
 
-`python -m vlm_probe.spatial_diagnostics.natural_recognition validate --review reviews/natural_recognition_v1/round_01_filled.csv` → `Round 1 valid: {'accepted': 183, 'uncertain': 8, 'revise': 5}`.
+Ghi chú lịch sử: bản `round_01_filled.csv` commit đầu tiên ghi 6 `reviewer_id` theo kế hoạch chia việc (tuan_dat, duong_hieu, phong, quan, trinh, tung). Thực tế Tuấn Đạt chấm cả 196 dòng, nên `reviewer_id` được sửa thành `tuan_dat` trong một commit riêng; các cột khác giữ nguyên từng ký tự. Git giữ bản cũ.
 
-| `reviewer_id` | Ảnh số | Dòng |
-|---|---|---|
-| `tuan_dat` | 1–17 | 34 |
-| `duong_hieu` | 18–34 | 34 |
-| `phong` | 35–50 | 32 |
-| `quan` | 51–66 | 32 |
-| `trinh` | 67–82 | 32 |
-| `tung` | 83–98 | 32 |
+## Vòng 1: 196 dòng
 
-Sáu người chấm sáu khối ảnh khác nhau, mỗi dòng một người: không tính được inter-annotator agreement.
+`validate` → `{'accepted': 183, 'uncertain': 8, 'revise': 5}`.
 
-Dòng chưa giải quyết:
+## Vòng 2: 13 dòng
 
-| Quyết định | `review_id` |
-|---|---|
-| `revise` (foil có trong ảnh) | NR1_185614_replace_b_v1, NR1_455937_replace_b_v1, NR1_277289_replace_a_v1, NR1_355325_replace_a_v1, NR1_375232_replace_a_v1 |
-| `uncertain` (không xác định được từ crop) | NR1_364444_replace_a_v1, NR1_257198_replace_b_v1, NR1_448795_replace_a_v1, NR1_436273_replace_a_v1, NR1_436273_replace_b_v1, NR1_490701_replace_b_v1, NR1_554348_replace_b_v1, NR1_294475_replace_b_v1 |
+`validate` → `{'accepted': 13}`.
+
+- 5 dòng `revise` ở vòng 1 (foil có trong ảnh) được đổi sang foil kế tiếp (`_v2`) và đều được chấp nhận: 185614 knife, 455937 mouse, 277289 bed, 355325 knife, 375232 bed.
+- 8 dòng `uncertain` ở vòng 1 được phân xử (`_adj`, cùng foil, xem thêm ảnh COCO gốc) và đều được chấp nhận: 364444 cell phone, 257198 cake, 448795 microwave, 436273 toaster và scissors, 490701 wine glass, 554348 suitcase, 294475 wine glass.
+
+Phân xử do chính người chấm vòng 1 thực hiện (xem lại cùng foil, có thêm ảnh COCO gốc), không phải người thứ hai độc lập.
+
+Tổng hợp hai vòng (`resolve`): 196/196 `accepted`, không nguồn nào bị loại vì thiếu foil.
 
 ## Bước tiếp
 
-`freeze` từ chối khi còn dòng chưa giải quyết. Nhóm cần chọn một trong hai:
-
-- chạy `prepare` để sinh `round_02_blank.csv` (13 dòng: `revise` lấy foil kế tiếp, `uncertain` đưa ra phân xử) rồi chấm vòng 2; hoặc
-- chốt trong config quy tắc thiếu foil (hiện là `PROPOSED`) để loại các nguồn này khỏi phân tích.
-
-Sau đó: nhóm chốt config (`status: frozen`), chạy `freeze`, rồi `run`.
+Review và config đã đóng băng; không sửa các tệp trong thư mục này nữa (checksum trong `freeze.json`). Tiếp theo: `run --smoke`, rồi `run`, rồi `audit` (cần máy có `open_clip` và CUDA).
