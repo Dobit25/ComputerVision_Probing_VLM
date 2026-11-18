@@ -1,0 +1,118 @@
+{
+  "run": "results/smoke_natural_regions_confirmation_review_v2",
+  "artifact_integrity_verified": true,
+  "manifest_sha256": "b063f13456c6f29f16591227c0a03fff4dd4940c1a3ffaf9ba34e99b879536d9",
+  "metrics_recomputed": true,
+  "region_to_relational_scores_recomputed": true,
+  "n": 16,
+  "metrics": {
+    "n_images": 16,
+    "n_sources": 8,
+    "primary_choices": 2,
+    "primary_accuracy_percent": 100.0,
+    "primary_ci95_percent": [
+      100.0,
+      100.0
+    ],
+    "holistic_accuracy_percent": 50.0,
+    "paired_delta_pp": 50.0,
+    "paired_delta_ci95_pp": [
+      50.0,
+      50.0
+    ],
+    "four_way_accuracy_percent": 75.0,
+    "exact_top_ties": 0,
+    "both_images_correct_percent": 100.0,
+    "holistic_both_images_correct_percent": 0.0,
+    "both_correct_paired_delta_pp": 100.0,
+    "both_correct_paired_delta_ci95_pp": [
+      100.0,
+      100.0
+    ],
+    "primary_confusion": [
+      [
+        8,
+        0
+      ],
+      [
+        0,
+        8
+      ]
+    ],
+    "by_relation": {
+      "0": {
+        "n": 8,
+        "accuracy_percent": 100.0
+      },
+      "1": {
+        "n": 8,
+        "accuracy_percent": 100.0
+      }
+    },
+    "horizontal_assignment": {
+      "n_sources": 8,
+      "accuracy_percent": 100.0,
+      "ci95_percent": [
+        100.0,
+        100.0
+      ],
+      "exact_ties": 0
+    },
+    "secondary_padded_half": {
+      "n_images": 16,
+      "n_sources": 8,
+      "primary_choices": 2,
+      "primary_accuracy_percent": 100.0,
+      "primary_ci95_percent": [
+        100.0,
+        100.0
+      ],
+      "holistic_accuracy_percent": 50.0,
+      "paired_delta_pp": 50.0,
+      "paired_delta_ci95_pp": [
+        50.0,
+        50.0
+      ],
+      "four_way_accuracy_percent": 75.0,
+      "exact_top_ties": 0,
+      "both_images_correct_percent": 100.0,
+      "holistic_both_images_correct_percent": 0.0,
+      "both_correct_paired_delta_pp": 100.0,
+      "both_correct_paired_delta_ci95_pp": [
+        100.0,
+        100.0
+      ],
+      "primary_confusion": [
+        [
+          8,
+          0
+        ],
+        [
+          0,
+          8
+        ]
+      ],
+      "by_relation": {
+        "0": {
+          "n": 8,
+          "accuracy_percent": 100.0
+        },
+        "1": {
+          "n": 8,
+          "accuracy_percent": 100.0
+        }
+      },
+      "horizontal_assignment": {
+        "n_sources": 8,
+        "accuracy_percent": 100.0,
+        "ci95_percent": [
+          100.0,
+          100.0
+        ],
+        "exact_ties": 0
+      }
+    }
+  },
+  "legacy_config_protocol_note": null,
+  "derived_sha256": {}
+}

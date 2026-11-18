@@ -1,0 +1,2146 @@
+{
+  "status": "completed",
+  "stage": "natural",
+  "mode": "full",
+  "started_at_utc": "2026-11-04T09:16:55.937601+00:00",
+  "git_head": "9a8aac619d7307d052b5376d76cca6e62d0f7b13",
+  "source_sha256": {
+    "configs/clip_b32_cifar100.json": "c67340dde83213b7138991c90d2f41f793ee06eb15a82482cfb06017e93010c4",
+    "configs/probing_depth_v1.json": "da06fb96f9da7292d07e70713b1c6c1908f3f91fd2303d87b7ccdd76bf2fcee2",
+    "docs/probing_depth_protocol.md": "1c04bf2720d291049b04fa4f59e70de652f7a5e1b7a285b65c58a3c8bf6fe2ca",
+    "requirements.txt": "823189c5e900e5a5fd5b612017f0a282abc249a42d432dfd6ba096db16bd0168",
+    "vlm_probe/__init__.py": "a67e12125e012495d84256bfcf67041abcda07dfaf49722bdfafd58566aa637d",
+    "vlm_probe/__main__.py": "db422f547f341e29abd6589f232935674ebeb83ad8793a293ad5bf6f609ef54c",
+    "vlm_probe/assets.py": "18c3f5b444f4e0325d72348689b37e0b74e6530f4e2aaa698c7dd7afef608bad",
+    "vlm_probe/category_study/__init__.py": "8740dace9dc0b1bac7e45ec138aefc4107d8bb0e6554d4e1a86ccbc838c7b182",
+    "vlm_probe/category_study/__main__.py": "b3ec98b15db318fb0169c86ec5cefe961be4386506443d2433f85ddced6c1c18",
+    "vlm_probe/category_study/audit.py": "eb31b6e31138a18f18494332f1cc121a9a6626935f3dea54e9ab217dd65b2742",
+    "vlm_probe/category_study/metrics.py": "e3c926b4699b7066579c297c329fffa40bfdc281a30b33d48f063bfdea1b834e",
+    "vlm_probe/category_study/report.py": "4ca42bd08f6ba1bafd3b2f18e95914f4fbe9282589e5549b22548c3a81eed8d3",
+    "vlm_probe/category_study/runner.py": "b8ae6d0d8c9b767f235dc08f434336a5dd82c83520f6507219d6eafcb4ed554c",
+    "vlm_probe/category_study/taxonomy.py": "b6f3408ecc3318a2ac3d6afd9948d6bc01a9615685dff875027178bf2a633acb",
+    "vlm_probe/compare.py": "b88003cdbf06947317b7738b38887e4def427981e183a99d95aec2bd3a41a90d",
+    "vlm_probe/configuration.py": "295f0ea83f45d6b79d23d60bbff8083aaabaca427026905a1ccd0ae143368cc6",
+    "vlm_probe/dataset_adapters/__init__.py": "c279148c8304811dacdac1c1fee2fba5248cb81459a784fb0e8f46d9450ae17c",
+    "vlm_probe/dataset_adapters/archive_utils.py": "65f74c803c2ad93e331a1828ba54862f719493281720caf69cf4d0cff3d44ab2",
+    "vlm_probe/dataset_adapters/cifar100.py": "84dafd1265ae1f1a0d4bdaf96dcac2697aeba29fac16ca5e33951d6cbb09d096",
+    "vlm_probe/dataset_adapters/dtd.py": "8ae4883afdedecd3ab5db39de140aa1c7979011707d6daab5be62676fa2ecbae",
+    "vlm_probe/dataset_adapters/flowers102.py": "2298e0e0f810f6b8094dab6d1ab7799277781a42bff0000799cdd721fbee0709",
+    "vlm_probe/dataset_adapters/food101.py": "04188b6d48b58c0cee30ae47d2035c0ba2c410b6aac0f10c2b56f2bd9011f7fc",
+    "vlm_probe/dataset_adapters/oxford_pet.py": "c903d1bfe1778129796145076586f9731665eed67ae696b44a4c332501fc39fd",
+    "vlm_probe/depth/__init__.py": "d9aaa8af70f1828e9ab117e783ddb1ba115efc2112a622abaac96df275dbd2de",
+    "vlm_probe/depth/__main__.py": "3fed4e93d925207f9461a8e01e9a2deb5a04602607574e4c39b12514a408da03",
+    "vlm_probe/depth/analysis.py": "1fc7c3193e242ae35b6f0ecef58dd144508b0fe09f913b608c0efc4dafbd0dc9",
+    "vlm_probe/depth/audit.py": "5555d4b2f6a73c79b44662aa385f18ec78c1df6774b7e74d723cddc273c7e34f",
+    "vlm_probe/depth/category.py": "0a9e7ca8834f2a2025866d6254466923b3d8a902221dd14819cca7658232859b",
+    "vlm_probe/depth/common.py": "71f6722b4500871ef0e22d3c7f2144ddea2854d34f94b7e70ee6b5ccba26a06e",
+    "vlm_probe/depth/design.py": "acad5d4c22e742fb3942991ce7733575307578c9f31fe7bf7f89c404080a7cd1",
+    "vlm_probe/depth/natural.py": "3996d025e1395b6a68c0025aaa8b736013225a611b70e14c55dd7d5beb4a8b30",
+    "vlm_probe/depth/pairs.py": "3d0a49abdbfdc8c16fce5a270b60d80527c4573901481654e418a63aff5bc355",
+    "vlm_probe/depth/spatial.py": "d1271bc07c30432ccacb706fd4e079406deed38fe37026ca2311fbdb7403e746",
+    "vlm_probe/evaluate.py": "1fb8cc1792cf30ada2a06146440c18e7db5c018a7845e855f9c52c0fcfd975a7",
+    "vlm_probe/io_utils.py": "17d915b400b7f58f257c9dd8a2c140616f8562b25e6025341f5547b2f376aae7",
+    "vlm_probe/metrics.py": "98abd6be72af818db8da015a5659142e75e1d2983436a782a114e3b06d1a50b3",
+    "vlm_probe/model_adapters/__init__.py": "c879117fa9f8e4f304e0ac14c215d4944edb7133d395cb70f2121e1a8c7772e3",
+    "vlm_probe/model_adapters/openai_clip.py": "613d66e151f0b831d398c7fe21144439942b3a0142e6e78c547afcf5cd84f06a",
+    "vlm_probe/probing/__init__.py": "a6f62afadd7fed643476da34bdf6d2675fc3fb2d51e0288d01c995571e2121f2",
+    "vlm_probe/probing/__main__.py": "db414e71974fc6ff6a99173d54441a7c37e24f3fb632c32bd81c48f136863249",
+    "vlm_probe/probing/audit.py": "6c58833ad144491f32ac22bddd3ea68f28c67b9d2504ed560bc05726e28bb90a",
+    "vlm_probe/probing/evaluate.py": "067b316db4d726a74db291fe93a3be2606c0d3a36b8fe9bfccccaecdf9890080",
+    "vlm_probe/probing/metrics.py": "28566bec94fe4bd0ec1ed35ed9f28e060cb105fb43807d6336f194941d725da9",
+    "vlm_probe/probing/stimuli.py": "77287a02cec6d2c2278254acff37d56c4d2640744bfc204a73c5f455660f52c2",
+    "vlm_probe/report.py": "7a2637410d9b796fb60ad42610d3aef403391647f59b008f85c2672ba829030f",
+    "vlm_probe/verify.py": "6431327b1ec124c309c896e1dcc3ba73f3cfdef0b513e41fbd49458bf3eba081"
+  },
+  "source_snapshot": {
+    "path": "results/source_snapshots/source_af31ce826638cd70e9f1.zip",
+    "sha256": "da4d391b414616e61f68ab62309ca2f26c6d653ce7897e32cbc54c6e0db3b1b1"
+  },
+  "input_sha256": {
+    "results/depth_natural_selection_v1/selected.json": "1f843f11a779800e12b60878ae683373e3286da41e432b5f7fa82e976001c3ff",
+    "results/depth_natural_selection_v1/review.json": "0a079e56ccad6bdfcd3dd253f3770606dd37d6e2c756f8092f232233ba19e4b7",
+    "results/depth_natural_selection_v1/source.json": "126e1769d3c2b38f37c643f889a3e7f956ebe93eaeb96c6d8506fa5271c74261"
+  },
+  "annotation_source": {
+    "url": "https://s3.amazonaws.com/images.cocodataset.org/annotations/annotations_trainval2014.zip",
+    "member": "annotations/instances_val2014.json",
+    "archive_bytes": 252872794,
+    "member_crc32": 642745279,
+    "sha256": "e1b4d1bc54906827b1a029981b1c77f2088bd4462569b7615db7929070c3ab47",
+    "config_sha256": "da06fb96f9da7292d07e70713b1c6c1908f3f91fd2303d87b7ccdd76bf2fcee2",
+    "protocol_sha256": "1c04bf2720d291049b04fa4f59e70de652f7a5e1b7a285b65c58a3c8bf6fe2ca",
+    "terms": "https://cocodataset.org/#termsofuse",
+    "annotation_license": "CC BY 4.0",
+    "image_licenses": "per image metadata; original photos not redistributed in Git"
+  },
+  "review": {
+    "method": "assistant visual review before CLIP inference; independent geometric validator",
+    "independent_human_annotators": 0,
+    "selected_original_images": 200
+  },
+  "model_adapter": "openai_clip",
+  "model_embedding_dim": 512,
+  "checkpoint": {
+    "url": "https://openaipublic.azureedge.net/clip/models/40d365715913c9da98579312b702a82c18be219cc2a73407c4526f58eba950af/ViT-B-32.pt",
+    "sha256": "40d365715913c9da98579312b702a82c18be219cc2a73407c4526f58eba950af",
+    "path": "models/ViT-B-32.pt",
+    "quick_gelu": true
+  },
+  "preprocessing": "Compose(\n    Resize(size=224, interpolation=bicubic, max_size=None, antialias=True)\n    CenterCrop(size=(224, 224))\n    MaybeConvertMode()\n    MaybeToTensor()\n    Normalize(mean=(0.48145466, 0.4578275, 0.40821073), std=(0.26862954, 0.26130258, 0.27577711))\n)",
+  "pretrained_config": {
+    "url": "https://openaipublic.azureedge.net/clip/models/40d365715913c9da98579312b702a82c18be219cc2a73407c4526f58eba950af/ViT-B-32.pt",
+    "hf_hub": "timm/vit_base_patch32_clip_224.openai/",
+    "mean": [
+      0.48145466,
+      0.4578275,
+      0.40821073
+    ],
+    "std": [
+      0.26862954,
+      0.26130258,
+      0.27577711
+    ],
+    "interpolation": "bicubic",
+    "resize_mode": "shortest",
+    "quick_gelu": true
+  },
+  "tokenizer": "SimpleTokenizer",
+  "context_length": 77,
+  "feature_caches": [
+    {
+      "path": ".cache/depth_features/ebc2832d833d92a7dab7c62f159bc0cf2a8e70f76bd88e945a1f4828cc18a756.npy",
+      "sha256": "7d3865379ec1d2a75ebb8bcedfb3221cbe8054a739f172f228e6be947dcf6c4e",
+      "identity": {
+        "input": {
+          "images": [
+            {
+              "image_id": "coco/409247/original",
+              "image_sha256": "0f26b415d0ad6a91cf146d69d572826a271697871901fad14e57e6aaab7e68a1",
+              "transform": "original"
+            },
+            {
+              "image_id": "coco/409247/horizontal_flip",
+              "image_sha256": "0f26b415d0ad6a91cf146d69d572826a271697871901fad14e57e6aaab7e68a1",
+              "transform": "horizontal_flip"
+            },
+            {
+              "image_id": "coco/407225/original",
+              "image_sha256": "0e75c17979325f6234204e8a182e1297989716a9456716f560adaa6b461ac09e",
+              "transform": "original"
+            },
+            {
+              "image_id": "coco/407225/horizontal_flip",
+              "image_sha256": "0e75c17979325f6234204e8a182e1297989716a9456716f560adaa6b461ac09e",
+              "transform": "horizontal_flip"
+            },
+            {
+              "image_id": "coco/368242/original",
+              "image_sha256": "4f420dc2eb3d0574904e3027ad029cc9db079a03d2390003cdc69be2b49ad6b1",
+              "transform": "original"
+            },
+            {
+              "image_id": "coco/368242/horizontal_flip",
+              "image_sha256": "4f420dc2eb3d0574904e3027ad029cc9db079a03d2390003cdc69be2b49ad6b1",
+              "transform": "horizontal_flip"
+            },
+            {
+              "image_id": "coco/133515/original",
+              "image_sha256": "eb578a16c0b12f85633d7a6477b03e53f366736ca4ca385e2dca7052bacfb0b9",
+              "transform": "original"
+            },
+            {
+              "image_id": "coco/133515/horizontal_flip",
+              "image_sha256": "eb578a16c0b12f85633d7a6477b03e53f366736ca4ca385e2dca7052bacfb0b9",
+              "transform": "horizontal_flip"
+            },
+            {
+              "image_id": "coco/578324/original",
+              "image_sha256": "89305d376c56d1aeb3f337e4d15d7aaddd2d5d38f76ff2c0d1efdc7c52c3a067",
+              "transform": "original"
+            },
+            {
+              "image_id": "coco/578324/horizontal_flip",
+              "image_sha256": "89305d376c56d1aeb3f337e4d15d7aaddd2d5d38f76ff2c0d1efdc7c52c3a067",
+              "transform": "horizontal_flip"
+            },
+            {
+              "image_id": "coco/521359/original",
+              "image_sha256": "02f454a497e36185f66637f492e95e036257234d175af8cf10943991abc8cec9",
+              "transform": "original"
+            },
+            {
+              "image_id": "coco/521359/horizontal_flip",
+              "image_sha256": "02f454a497e36185f66637f492e95e036257234d175af8cf10943991abc8cec9",
+              "transform": "horizontal_flip"
+            },
+            {
+              "image_id": "coco/491851/original",
+              "image_sha256": "550bf526bc3cb74f22efb1d96e9b41486fed4c4a577c89b087cc41256a400e6a",
+              "transform": "original"
+            },
+            {
+              "image_id": "coco/491851/horizontal_flip",
+              "image_sha256": "550bf526bc3cb74f22efb1d96e9b41486fed4c4a577c89b087cc41256a400e6a",
+              "transform": "horizontal_flip"
+            },
+            {
+              "image_id": "coco/433505/original",
+              "image_sha256": "46563bcb283efa94bef8583ea5787187779e70cadb1171cb43ffdc42e9f8a66f",
+              "transform": "original"
+            },
+            {
+              "image_id": "coco/433505/horizontal_flip",
+              "image_sha256": "46563bcb283efa94bef8583ea5787187779e70cadb1171cb43ffdc42e9f8a66f",
+              "transform": "horizontal_flip"
+            },
+            {
+              "image_id": "coco/506441/original",
+              "image_sha256": "1a8cf7eff107f21b983cf9c27d9bba36a74fc9b4ca2b499e112beee481b9721b",
+              "transform": "original"
+            },
+            {
+              "image_id": "coco/506441/horizontal_flip",
+              "image_sha256": "1a8cf7eff107f21b983cf9c27d9bba36a74fc9b4ca2b499e112beee481b9721b",
+              "transform": "horizontal_flip"
+            },
+            {
+              "image_id": "coco/446005/original",
+              "image_sha256": "7aaa88f6a47ede127a123ab83f8c01564ea7368f65d848914f2fff6788ac4d56",
+              "transform": "original"
+            },
+            {
+              "image_id": "coco/446005/horizontal_flip",
+              "image_sha256": "7aaa88f6a47ede127a123ab83f8c01564ea7368f65d848914f2fff6788ac4d56",
+              "transform": "horizontal_flip"
+            },
+            {
+              "image_id": "coco/512982/original",
+              "image_sha256": "618dc059d64b82d50527ce040920b57eef882b204f0138067a401c6b8659e923",
+              "transform": "original"
+            },
+            {
+              "image_id": "coco/512982/horizontal_flip",
+              "image_sha256": "618dc059d64b82d50527ce040920b57eef882b204f0138067a401c6b8659e923",
+              "transform": "horizontal_flip"
+            },
+            {
+              "image_id": "coco/352480/original",
+              "image_sha256": "ace411baabacaac704ff56d9ec3cfeb0b4d01a00034dc67cf98d08ac1b1f0835",
+              "transform": "original"
+            },
+            {
+              "image_id": "coco/352480/horizontal_flip",
+              "image_sha256": "ace411baabacaac704ff56d9ec3cfeb0b4d01a00034dc67cf98d08ac1b1f0835",
+              "transform": "horizontal_flip"
+            },
+            {
+              "image_id": "coco/219063/original",
+              "image_sha256": "6d53ba09cd1d14d10ff2c5fe527d31ce0b79f92fc3cafbd58939be2c71897064",
+              "transform": "original"
+            },
+            {
+              "image_id": "coco/219063/horizontal_flip",
+              "image_sha256": "6d53ba09cd1d14d10ff2c5fe527d31ce0b79f92fc3cafbd58939be2c71897064",
+              "transform": "horizontal_flip"
+            },
+            {
+              "image_id": "coco/61897/original",
+              "image_sha256": "6444c6f5fa9cbfe008b0289c7b809df832f26742f7d51f9657472aea0c94c319",
+              "transform": "original"
+            },
+            {
+              "image_id": "coco/61897/horizontal_flip",
+              "image_sha256": "6444c6f5fa9cbfe008b0289c7b809df832f26742f7d51f9657472aea0c94c319",
+              "transform": "horizontal_flip"
+            },
+            {
+              "image_id": "coco/61735/original",
+              "image_sha256": "4e52d33d74f1d1af969fdd350a8461c67d6fddd3687995a456721aaaa73d1255",
+              "transform": "original"
+            },
+            {
+              "image_id": "coco/61735/horizontal_flip",
+              "image_sha256": "4e52d33d74f1d1af969fdd350a8461c67d6fddd3687995a456721aaaa73d1255",
+              "transform": "horizontal_flip"
+            },
+            {
+              "image_id": "coco/537954/original",
+              "image_sha256": "5f5ae2296c918e909898ff623dc4d1ab0cca166cd838a18b801957e973069870",
+              "transform": "original"
+            },
+            {
+              "image_id": "coco/537954/horizontal_flip",
+              "image_sha256": "5f5ae2296c918e909898ff623dc4d1ab0cca166cd838a18b801957e973069870",
+              "transform": "horizontal_flip"
+            },
+            {
+              "image_id": "coco/196789/original",
+              "image_sha256": "6beca8ca7ce902525f059ef14d4d4541e0eefd7c6534f0a15ae85e9b45615f34",
+              "transform": "original"
+            },
+            {
+              "image_id": "coco/196789/horizontal_flip",
+              "image_sha256": "6beca8ca7ce902525f059ef14d4d4541e0eefd7c6534f0a15ae85e9b45615f34",
+              "transform": "horizontal_flip"
+            },
+            {
+              "image_id": "coco/346560/original",
+              "image_sha256": "8601564161c39796f381a694aab70270de645cd6d8fd4789bdf5fa49f97ebfb5",
+              "transform": "original"
+            },
+            {
+              "image_id": "coco/346560/horizontal_flip",
+              "image_sha256": "8601564161c39796f381a694aab70270de645cd6d8fd4789bdf5fa49f97ebfb5",
+              "transform": "horizontal_flip"
+            },
+            {
+              "image_id": "coco/539439/original",
+              "image_sha256": "6fa517c96b98bc02266efaa7f1f91b572261c88e8a046bc4d5015d0e066b957a",
+              "transform": "original"
+            },
+            {
+              "image_id": "coco/539439/horizontal_flip",
+              "image_sha256": "6fa517c96b98bc02266efaa7f1f91b572261c88e8a046bc4d5015d0e066b957a",
+              "transform": "horizontal_flip"
+            },
+            {
+              "image_id": "coco/572665/original",
+              "image_sha256": "5fb059c4bb35e3663321c137e13436534b6a38c17b65ea95f1b307e17a1995bc",
+              "transform": "original"
+            },
+            {
+              "image_id": "coco/572665/horizontal_flip",
+              "image_sha256": "5fb059c4bb35e3663321c137e13436534b6a38c17b65ea95f1b307e17a1995bc",
+              "transform": "horizontal_flip"
+            },
+            {
+              "image_id": "coco/302789/original",
+              "image_sha256": "687795b5855e2bb317f9af8a5ce820ebdbc32fad7bc0218c618788ee96f1f05a",
+              "transform": "original"
+            },
+            {
+              "image_id": "coco/302789/horizontal_flip",
+              "image_sha256": "687795b5855e2bb317f9af8a5ce820ebdbc32fad7bc0218c618788ee96f1f05a",
+              "transform": "horizontal_flip"
+            },
+            {
+              "image_id": "coco/290355/original",
+              "image_sha256": "c0bb1a2a8702d13c693342dda7f9996a6837d43e6335347ff67def47818b1e32",
+              "transform": "original"
+            },
+            {
+              "image_id": "coco/290355/horizontal_flip",
+              "image_sha256": "c0bb1a2a8702d13c693342dda7f9996a6837d43e6335347ff67def47818b1e32",
+              "transform": "horizontal_flip"
+            },
+            {
+              "image_id": "coco/560218/original",
+              "image_sha256": "f816d5ce2228e3fe5f4f1023690fd304233bdb2a6f01f5e2bd7811be23a541eb",
+              "transform": "original"
+            },
+            {
+              "image_id": "coco/560218/horizontal_flip",
+              "image_sha256": "f816d5ce2228e3fe5f4f1023690fd304233bdb2a6f01f5e2bd7811be23a541eb",
+              "transform": "horizontal_flip"
+            },
+            {
+              "image_id": "coco/487698/original",
+              "image_sha256": "0b9075ededd06f4ff808a3f2b336170cc649f046bd4648c93b07276eb28851fb",
+              "transform": "original"
+            },
+            {
+              "image_id": "coco/487698/horizontal_flip",
+              "image_sha256": "0b9075ededd06f4ff808a3f2b336170cc649f046bd4648c93b07276eb28851fb",
+              "transform": "horizontal_flip"
+            },
+            {
+              "image_id": "coco/199962/original",
+              "image_sha256": "86821c4d6ec7dfdab65b6170b572add80bc41d482ae8e60ffe46a7aed0c41efa",
+              "transform": "original"
+            },
+            {
+              "image_id": "coco/199962/horizontal_flip",
+              "image_sha256": "86821c4d6ec7dfdab65b6170b572add80bc41d482ae8e60ffe46a7aed0c41efa",
+              "transform": "horizontal_flip"
+            },
+            {
+              "image_id": "coco/511430/original",
+              "image_sha256": "efdcdc1bff13d08060bbd8ff5eb07eaf899924627a620441c4ba7ace25ba4c94",
+              "transform": "original"
+            },
+            {
+              "image_id": "coco/511430/horizontal_flip",
+              "image_sha256": "efdcdc1bff13d08060bbd8ff5eb07eaf899924627a620441c4ba7ace25ba4c94",
+              "transform": "horizontal_flip"
+            },
+            {
+              "image_id": "coco/437432/original",
+              "image_sha256": "683e259f7b852a1c8220fed1db330d36cd694e358cfcce6bed0cce046ed69e87",
+              "transform": "original"
+            },
+            {
+              "image_id": "coco/437432/horizontal_flip",
+              "image_sha256": "683e259f7b852a1c8220fed1db330d36cd694e358cfcce6bed0cce046ed69e87",
+              "transform": "horizontal_flip"
+            },
+            {
+              "image_id": "coco/336324/original",
+              "image_sha256": "d21b6ae791e241a963ab6fad071b1699d0d7ca118646097332c10de0737a1331",
+              "transform": "original"
+            },
+            {
+              "image_id": "coco/336324/horizontal_flip",
+              "image_sha256": "d21b6ae791e241a963ab6fad071b1699d0d7ca118646097332c10de0737a1331",
+              "transform": "horizontal_flip"
+            },
+            {
+              "image_id": "coco/292741/original",
+              "image_sha256": "daca12c337e0c730f27b7cb5d1f29e779e2b0d30ee51b5b4473f0d6cd6221970",
+              "transform": "original"
+            },
+            {
+              "image_id": "coco/292741/horizontal_flip",
+              "image_sha256": "daca12c337e0c730f27b7cb5d1f29e779e2b0d30ee51b5b4473f0d6cd6221970",
+              "transform": "horizontal_flip"
+            },
+            {
+              "image_id": "coco/90839/original",
+              "image_sha256": "6d4dc6ca33e548cc979abd3d48f05f6c3460970d923ebfb8a281e81dd934138e",
+              "transform": "original"
+            },
+            {
+              "image_id": "coco/90839/horizontal_flip",
+              "image_sha256": "6d4dc6ca33e548cc979abd3d48f05f6c3460970d923ebfb8a281e81dd934138e",
+              "transform": "horizontal_flip"
+            },
+            {
+              "image_id": "coco/458255/original",
+              "image_sha256": "a736cbd407d124923301403a399ec841193221775b4cd9671776b8bafe9b29c1",
+              "transform": "original"
+            },
+            {
+              "image_id": "coco/458255/horizontal_flip",
+              "image_sha256": "a736cbd407d124923301403a399ec841193221775b4cd9671776b8bafe9b29c1",
+              "transform": "horizontal_flip"
+            },
+            {
+              "image_id": "coco/490871/original",
+              "image_sha256": "e7af3de67e5e8e2cbcdf1616d2549138b9bf5de3992982984efec270192ea749",
+              "transform": "original"
+            },
+            {
+              "image_id": "coco/490871/horizontal_flip",
+              "image_sha256": "e7af3de67e5e8e2cbcdf1616d2549138b9bf5de3992982984efec270192ea749",
+              "transform": "horizontal_flip"
+            },
+            {
+              "image_id": "coco/532747/original",
+              "image_sha256": "e06af5600f398bb51df9b0abc2129b0c444974b3f7b23fcebe5de6ae3234a198",
+              "transform": "original"
+            },
+            {
+              "image_id": "coco/532747/horizontal_flip",
+              "image_sha256": "e06af5600f398bb51df9b0abc2129b0c444974b3f7b23fcebe5de6ae3234a198",
+              "transform": "horizontal_flip"
+            },
+            {
+              "image_id": "coco/74030/original",
+              "image_sha256": "b9c92dfcc38188dc39edecc4a01d9accc6583ec70393284fed791f2f20ac03da",
+              "transform": "original"
+            },
+            {
+              "image_id": "coco/74030/horizontal_flip",
+              "image_sha256": "b9c92dfcc38188dc39edecc4a01d9accc6583ec70393284fed791f2f20ac03da",
+              "transform": "horizontal_flip"
+            },
+            {
+              "image_id": "coco/7394/original",
+              "image_sha256": "bd986b32818eb9a103afe3de465e4bfd8e8ab4d371548f01871f7f7e001e0903",
+              "transform": "original"
+            },
+            {
+              "image_id": "coco/7394/horizontal_flip",
+              "image_sha256": "bd986b32818eb9a103afe3de465e4bfd8e8ab4d371548f01871f7f7e001e0903",
+              "transform": "horizontal_flip"
+            },
+            {
+              "image_id": "coco/51355/original",
+              "image_sha256": "8d2d07216f6b5540502f3c25ca274b9e1b031654ec4f2edda2fa80ae13c23d8d",
+              "transform": "original"
+            },
+            {
+              "image_id": "coco/51355/horizontal_flip",
+              "image_sha256": "8d2d07216f6b5540502f3c25ca274b9e1b031654ec4f2edda2fa80ae13c23d8d",
+              "transform": "horizontal_flip"
+            },
+            {
+              "image_id": "coco/62491/original",
+              "image_sha256": "6a40452bb8ff5d2bcb867e3e615c7114078e6575b5a6b6bc2ff1d8480e76b8c9",
+              "transform": "original"
+            },
+            {
+              "image_id": "coco/62491/horizontal_flip",
+              "image_sha256": "6a40452bb8ff5d2bcb867e3e615c7114078e6575b5a6b6bc2ff1d8480e76b8c9",
+              "transform": "horizontal_flip"
+            },
+            {
+              "image_id": "coco/232488/original",
+              "image_sha256": "46ed7f291d021660653c24d69f9ce26ce414f3c9e907ee2c60787b9577ffb653",
+              "transform": "original"
+            },
+            {
+              "image_id": "coco/232488/horizontal_flip",
+              "image_sha256": "46ed7f291d021660653c24d69f9ce26ce414f3c9e907ee2c60787b9577ffb653",
+              "transform": "horizontal_flip"
+            },
+            {
+              "image_id": "coco/237772/original",
+              "image_sha256": "722e17747b7211b4fb88ee991be79407aa7c9f8d28691250e1728a9b95c7c48a",
+              "transform": "original"
+            },
+            {
+              "image_id": "coco/237772/horizontal_flip",
+              "image_sha256": "722e17747b7211b4fb88ee991be79407aa7c9f8d28691250e1728a9b95c7c48a",
+              "transform": "horizontal_flip"
+            },
+            {
+              "image_id": "coco/293554/original",
+              "image_sha256": "ed38b4ca0f52c421a0cc996c0b0f0e38bcb038cbebdd534e97e1fea0deb2330b",
+              "transform": "original"
+            },
+            {
+              "image_id": "coco/293554/horizontal_flip",
+              "image_sha256": "ed38b4ca0f52c421a0cc996c0b0f0e38bcb038cbebdd534e97e1fea0deb2330b",
+              "transform": "horizontal_flip"
+            },
+            {
+              "image_id": "coco/139518/original",
+              "image_sha256": "f415cd7d708fcd26b2103584bd15f3c6dc9e6f1959667cf3e9124c473b5a55d7",
+              "transform": "original"
+            },
+            {
+              "image_id": "coco/139518/horizontal_flip",
+              "image_sha256": "f415cd7d708fcd26b2103584bd15f3c6dc9e6f1959667cf3e9124c473b5a55d7",
+              "transform": "horizontal_flip"
+            },
+            {
+              "image_id": "coco/551791/original",
+              "image_sha256": "7fdba22d5be99ab427f4023356ee04d14717b5e78fa8cb56cb4676cfd3016e8d",
+              "transform": "original"
+            },
+            {
+              "image_id": "coco/551791/horizontal_flip",
+              "image_sha256": "7fdba22d5be99ab427f4023356ee04d14717b5e78fa8cb56cb4676cfd3016e8d",
+              "transform": "horizontal_flip"
+            },
+            {
+              "image_id": "coco/295693/original",
+              "image_sha256": "670f3c722fcb9cd7760bcd7432e9b945b701f364e73adb9c39b97ef856bcf19b",
+              "transform": "original"
+            },
+            {
+              "image_id": "coco/295693/horizontal_flip",
+              "image_sha256": "670f3c722fcb9cd7760bcd7432e9b945b701f364e73adb9c39b97ef856bcf19b",
+              "transform": "horizontal_flip"
+            },
+            {
+              "image_id": "coco/287335/original",
+              "image_sha256": "cfdb5b22f65df754a64d34067fa265b138b19855948db5a76514e4be9a945fc8",
+              "transform": "original"
+            },
+            {
+              "image_id": "coco/287335/horizontal_flip",
+              "image_sha256": "cfdb5b22f65df754a64d34067fa265b138b19855948db5a76514e4be9a945fc8",
+              "transform": "horizontal_flip"
+            },
+            {
+              "image_id": "coco/488201/original",
+              "image_sha256": "a6c823247da3f2bd7afd9f3921aac6392e7acfcc26b790b2365dca986eb2de81",
+              "transform": "original"
+            },
+            {
+              "image_id": "coco/488201/horizontal_flip",
+              "image_sha256": "a6c823247da3f2bd7afd9f3921aac6392e7acfcc26b790b2365dca986eb2de81",
+              "transform": "horizontal_flip"
+            },
+            {
+              "image_id": "coco/313246/original",
+              "image_sha256": "4625168b39f01b0a2fc2dac8c0627e48ce966561f08801b384868b8486949f8f",
+              "transform": "original"
+            },
+            {
+              "image_id": "coco/313246/horizontal_flip",
+              "image_sha256": "4625168b39f01b0a2fc2dac8c0627e48ce966561f08801b384868b8486949f8f",
+              "transform": "horizontal_flip"
+            },
+            {
+              "image_id": "coco/222430/original",
+              "image_sha256": "f6227745aa39cbd8a150dae52e8679cfcc9bb8c3f560568e228793291a62d860",
+              "transform": "original"
+            },
+            {
+              "image_id": "coco/222430/horizontal_flip",
+              "image_sha256": "f6227745aa39cbd8a150dae52e8679cfcc9bb8c3f560568e228793291a62d860",
+              "transform": "horizontal_flip"
+            },
+            {
+              "image_id": "coco/503294/original",
+              "image_sha256": "5335be3f48350007c11736fa9df4ee26683dd05a17359f82c8ed4ad8035476d1",
+              "transform": "original"
+            },
+            {
+              "image_id": "coco/503294/horizontal_flip",
+              "image_sha256": "5335be3f48350007c11736fa9df4ee26683dd05a17359f82c8ed4ad8035476d1",
+              "transform": "horizontal_flip"
+            },
+            {
+              "image_id": "coco/570848/original",
+              "image_sha256": "b9cbf995a9ae5cd787255b29006e2438bcef6c7c64803eed8a78383644840162",
+              "transform": "original"
+            },
+            {
+              "image_id": "coco/570848/horizontal_flip",
+              "image_sha256": "b9cbf995a9ae5cd787255b29006e2438bcef6c7c64803eed8a78383644840162",
+              "transform": "horizontal_flip"
+            },
+            {
+              "image_id": "coco/248314/original",
+              "image_sha256": "b6b1cf5511ed5a690b596376813360b46b180c3fa8c3c3ef9cead9b5647f87e1",
+              "transform": "original"
+            },
+            {
+              "image_id": "coco/248314/horizontal_flip",
+              "image_sha256": "b6b1cf5511ed5a690b596376813360b46b180c3fa8c3c3ef9cead9b5647f87e1",
+              "transform": "horizontal_flip"
+            },
+            {
+              "image_id": "coco/260486/original",
+              "image_sha256": "86c71c2d26dee990c7c4d3df0b3396f70234a8f62ed66bfd6fa7f46e7b4b6558",
+              "transform": "original"
+            },
+            {
+              "image_id": "coco/260486/horizontal_flip",
+              "image_sha256": "86c71c2d26dee990c7c4d3df0b3396f70234a8f62ed66bfd6fa7f46e7b4b6558",
+              "transform": "horizontal_flip"
+            },
+            {
+              "image_id": "coco/462213/original",
+              "image_sha256": "104a8fe7b40accb463681a9d5bb13f9570244330b1d6ae1b6b96560768f0bbf1",
+              "transform": "original"
+            },
+            {
+              "image_id": "coco/462213/horizontal_flip",
+              "image_sha256": "104a8fe7b40accb463681a9d5bb13f9570244330b1d6ae1b6b96560768f0bbf1",
+              "transform": "horizontal_flip"
+            },
+            {
+              "image_id": "coco/253485/original",
+              "image_sha256": "3735a13faaade4b3f40676e6833b73298287bba6a1d55d95f748087e08e1b26b",
+              "transform": "original"
+            },
+            {
+              "image_id": "coco/253485/horizontal_flip",
+              "image_sha256": "3735a13faaade4b3f40676e6833b73298287bba6a1d55d95f748087e08e1b26b",
+              "transform": "horizontal_flip"
+            },
+            {
+              "image_id": "coco/357604/original",
+              "image_sha256": "9e086a27c672b8aa06e06d227df9e01d0b0f345de3b4891f08643a51c11a9c5c",
+              "transform": "original"
+            },
+            {
+              "image_id": "coco/357604/horizontal_flip",
+              "image_sha256": "9e086a27c672b8aa06e06d227df9e01d0b0f345de3b4891f08643a51c11a9c5c",
+              "transform": "horizontal_flip"
+            },
+            {
+              "image_id": "coco/426205/original",
+              "image_sha256": "980d8723cfa08f651f38b0450601df0797023b3c671c1461279e199855e96f4f",
+              "transform": "original"
+            },
+            {
+              "image_id": "coco/426205/horizontal_flip",
+              "image_sha256": "980d8723cfa08f651f38b0450601df0797023b3c671c1461279e199855e96f4f",
+              "transform": "horizontal_flip"
+            },
+            {
+              "image_id": "coco/445371/original",
+              "image_sha256": "9993e45411c02ebc364d286062075e6807d2f957536c49f08de161910d158c62",
+              "transform": "original"
+            },
+            {
+              "image_id": "coco/445371/horizontal_flip",
+              "image_sha256": "9993e45411c02ebc364d286062075e6807d2f957536c49f08de161910d158c62",
+              "transform": "horizontal_flip"
+            },
+            {
+              "image_id": "coco/151938/original",
+              "image_sha256": "4400e146316c97048244f429dc0e75979e5d992a9a2586631c8f78345381e433",
+              "transform": "original"
+            },
+            {
+              "image_id": "coco/151938/horizontal_flip",
+              "image_sha256": "4400e146316c97048244f429dc0e75979e5d992a9a2586631c8f78345381e433",
+              "transform": "horizontal_flip"
+            },
+            {
+              "image_id": "coco/391656/original",
+              "image_sha256": "8b3176df3599d62c0eda723447df3da22eb065273bb72d5e1a4bc2b0fc7155be",
+              "transform": "original"
+            },
+            {
+              "image_id": "coco/391656/horizontal_flip",
+              "image_sha256": "8b3176df3599d62c0eda723447df3da22eb065273bb72d5e1a4bc2b0fc7155be",
+              "transform": "horizontal_flip"
+            },
+            {
+              "image_id": "coco/160811/original",
+              "image_sha256": "243953ce46c9e701b0cb7c845afa09676b8266887f93c7070e624370f7372ee3",
+              "transform": "original"
+            },
+            {
+              "image_id": "coco/160811/horizontal_flip",
+              "image_sha256": "243953ce46c9e701b0cb7c845afa09676b8266887f93c7070e624370f7372ee3",
+              "transform": "horizontal_flip"
+            },
+            {
+              "image_id": "coco/45406/original",
+              "image_sha256": "8fa07f5720cbf963b201a5ad92b888bb3aef7efc63dc97c1b6668fbacdbe819a",
+              "transform": "original"
+            },
+            {
+              "image_id": "coco/45406/horizontal_flip",
+              "image_sha256": "8fa07f5720cbf963b201a5ad92b888bb3aef7efc63dc97c1b6668fbacdbe819a",
+              "transform": "horizontal_flip"
+            },
+            {
+              "image_id": "coco/4296/original",
+              "image_sha256": "b87f186d4d54c3ef2431a1fbcc9aff5b289fcbb59150da75c28bfdeb696f8560",
+              "transform": "original"
+            },
+            {
+              "image_id": "coco/4296/horizontal_flip",
+              "image_sha256": "b87f186d4d54c3ef2431a1fbcc9aff5b289fcbb59150da75c28bfdeb696f8560",
+              "transform": "horizontal_flip"
+            },
+            {
+              "image_id": "coco/478155/original",
+              "image_sha256": "f582521754a9a5f5f9db1352c02de25b7046305df824294c74a9617a8da467d0",
+              "transform": "original"
+            },
+            {
+              "image_id": "coco/478155/horizontal_flip",
+              "image_sha256": "f582521754a9a5f5f9db1352c02de25b7046305df824294c74a9617a8da467d0",
+              "transform": "horizontal_flip"
+            },
+            {
+              "image_id": "coco/378831/original",
+              "image_sha256": "50a848f1be7c00ef41d7e57019eddb00fb58ef9adbd64db2cf3a9b63a3d110ca",
+              "transform": "original"
+            },
+            {
+              "image_id": "coco/378831/horizontal_flip",
+              "image_sha256": "50a848f1be7c00ef41d7e57019eddb00fb58ef9adbd64db2cf3a9b63a3d110ca",
+              "transform": "horizontal_flip"
+            },
+            {
+              "image_id": "coco/172595/original",
+              "image_sha256": "faa06206531e26d29bed2d1ecca535d5496a017e1e88a7329f19bf4a5574a83b",
+              "transform": "original"
+            },
+            {
+              "image_id": "coco/172595/horizontal_flip",
+              "image_sha256": "faa06206531e26d29bed2d1ecca535d5496a017e1e88a7329f19bf4a5574a83b",
+              "transform": "horizontal_flip"
+            },
+            {
+              "image_id": "coco/177496/original",
+              "image_sha256": "1496381ad47e03924857e497c93d23f5f5bbc97e5ac22b90b0e031c2deed9c17",
+              "transform": "original"
+            },
+            {
+              "image_id": "coco/177496/horizontal_flip",
+              "image_sha256": "1496381ad47e03924857e497c93d23f5f5bbc97e5ac22b90b0e031c2deed9c17",
+              "transform": "horizontal_flip"
+            },
+            {
+              "image_id": "coco/225603/original",
+              "image_sha256": "6e5fe6aced07d2841d75c6dc4925e9ce56c69cee846b697b9355365abeb707d9",
+              "transform": "original"
+            },
+            {
+              "image_id": "coco/225603/horizontal_flip",
+              "image_sha256": "6e5fe6aced07d2841d75c6dc4925e9ce56c69cee846b697b9355365abeb707d9",
+              "transform": "horizontal_flip"
+            },
+            {
+              "image_id": "coco/69021/original",
+              "image_sha256": "9677fe83e273625ba8e0103c7ba0d39ee9d7c1a7cca551c6ed5f7fda994a7ff1",
+              "transform": "original"
+            },
+            {
+              "image_id": "coco/69021/horizontal_flip",
+              "image_sha256": "9677fe83e273625ba8e0103c7ba0d39ee9d7c1a7cca551c6ed5f7fda994a7ff1",
+              "transform": "horizontal_flip"
+            },
+            {
+              "image_id": "coco/156832/original",
+              "image_sha256": "bae9eb441783ed87aa8876de4dba5d9c44d2f5688b94144c1f186a17e8de16a8",
+              "transform": "original"
+            },
+            {
+              "image_id": "coco/156832/horizontal_flip",
+              "image_sha256": "bae9eb441783ed87aa8876de4dba5d9c44d2f5688b94144c1f186a17e8de16a8",
+              "transform": "horizontal_flip"
+            },
+            {
+              "image_id": "coco/323552/original",
+              "image_sha256": "20e10432e94124ac1243fb4b2802d536d21a0f32f98b18ef8356caf11fa5f8af",
+              "transform": "original"
+            },
+            {
+              "image_id": "coco/323552/horizontal_flip",
+              "image_sha256": "20e10432e94124ac1243fb4b2802d536d21a0f32f98b18ef8356caf11fa5f8af",
+              "transform": "horizontal_flip"
+            },
+            {
+              "image_id": "coco/501855/original",
+              "image_sha256": "7ddb043cb0b5175937846b6b886519666084c90ad2bdffc77a1d22dd989c3131",
+              "transform": "original"
+            },
+            {
+              "image_id": "coco/501855/horizontal_flip",
+              "image_sha256": "7ddb043cb0b5175937846b6b886519666084c90ad2bdffc77a1d22dd989c3131",
+              "transform": "horizontal_flip"
+            },
+            {
+              "image_id": "coco/190292/original",
+              "image_sha256": "157976b09f26a528ab89f28c7259dff63c823db21269b35dfafb8192a40e7fcd",
+              "transform": "original"
+            },
+            {
+              "image_id": "coco/190292/horizontal_flip",
+              "image_sha256": "157976b09f26a528ab89f28c7259dff63c823db21269b35dfafb8192a40e7fcd",
+              "transform": "horizontal_flip"
+            },
+            {
+              "image_id": "coco/468917/original",
+              "image_sha256": "8b22b148c7646583b9579365c46336cec942ff89445738b8580eab6f0b7339e4",
+              "transform": "original"
+            },
+            {
+              "image_id": "coco/468917/horizontal_flip",
+              "image_sha256": "8b22b148c7646583b9579365c46336cec942ff89445738b8580eab6f0b7339e4",
+              "transform": "horizontal_flip"
+            },
+            {
+              "image_id": "coco/66635/original",
+              "image_sha256": "0969fb5fb163065ac5f0a8ee922db3339a3e099086a40f6d4da4b3254fc1a422",
+              "transform": "original"
+            },
+            {
+              "image_id": "coco/66635/horizontal_flip",
+              "image_sha256": "0969fb5fb163065ac5f0a8ee922db3339a3e099086a40f6d4da4b3254fc1a422",
+              "transform": "horizontal_flip"
+            },
+            {
+              "image_id": "coco/220915/original",
+              "image_sha256": "6fa746653acbf2c4e3345708bbbec57c81d6ffaad0ddc6bddff76b8bd2852311",
+              "transform": "original"
+            },
+            {
+              "image_id": "coco/220915/horizontal_flip",
+              "image_sha256": "6fa746653acbf2c4e3345708bbbec57c81d6ffaad0ddc6bddff76b8bd2852311",
+              "transform": "horizontal_flip"
+            },
+            {
+              "image_id": "coco/291816/original",
+              "image_sha256": "ba6f2d6aa87ea83ee5c3e01ed7672b7f67d2448d0aba3fecba0ce21c7cb6b3f5",
+              "transform": "original"
+            },
+            {
+              "image_id": "coco/291816/horizontal_flip",
+              "image_sha256": "ba6f2d6aa87ea83ee5c3e01ed7672b7f67d2448d0aba3fecba0ce21c7cb6b3f5",
+              "transform": "horizontal_flip"
+            },
+            {
+              "image_id": "coco/507081/original",
+              "image_sha256": "b8e13828ed5a8b34552854684bd8fb1f2b4f621a0a8729fa5693a20e4d166dde",
+              "transform": "original"
+            },
+            {
+              "image_id": "coco/507081/horizontal_flip",
+              "image_sha256": "b8e13828ed5a8b34552854684bd8fb1f2b4f621a0a8729fa5693a20e4d166dde",
+              "transform": "horizontal_flip"
+            },
+            {
+              "image_id": "coco/25986/original",
+              "image_sha256": "721b718fe15a4f3739c0673acde4fa224ae7839f9317e7e66d256653551ea23b",
+              "transform": "original"
+            },
+            {
+              "image_id": "coco/25986/horizontal_flip",
+              "image_sha256": "721b718fe15a4f3739c0673acde4fa224ae7839f9317e7e66d256653551ea23b",
+              "transform": "horizontal_flip"
+            },
+            {
+              "image_id": "coco/470935/original",
+              "image_sha256": "e85cced333e0307b53aba5182cd818acb1f5b12dfdb6d66e5456986990e87260",
+              "transform": "original"
+            },
+            {
+              "image_id": "coco/470935/horizontal_flip",
+              "image_sha256": "e85cced333e0307b53aba5182cd818acb1f5b12dfdb6d66e5456986990e87260",
+              "transform": "horizontal_flip"
+            },
+            {
+              "image_id": "coco/215787/original",
+              "image_sha256": "a481681d7d8360aa844c829bccb83307246da1d85e48f7ec7fc778463fb981ec",
+              "transform": "original"
+            },
+            {
+              "image_id": "coco/215787/horizontal_flip",
+              "image_sha256": "a481681d7d8360aa844c829bccb83307246da1d85e48f7ec7fc778463fb981ec",
+              "transform": "horizontal_flip"
+            },
+            {
+              "image_id": "coco/434098/original",
+              "image_sha256": "882db9644c017ad7d8a5a238e096242c190d5c4fe24b7690895e4026ece6d691",
+              "transform": "original"
+            },
+            {
+              "image_id": "coco/434098/horizontal_flip",
+              "image_sha256": "882db9644c017ad7d8a5a238e096242c190d5c4fe24b7690895e4026ece6d691",
+              "transform": "horizontal_flip"
+            },
+            {
+              "image_id": "coco/548201/original",
+              "image_sha256": "16aa1953ce6e463586a8a859a07b46006a7d099220f73ae512a98477be234ee5",
+              "transform": "original"
+            },
+            {
+              "image_id": "coco/548201/horizontal_flip",
+              "image_sha256": "16aa1953ce6e463586a8a859a07b46006a7d099220f73ae512a98477be234ee5",
+              "transform": "horizontal_flip"
+            },
+            {
+              "image_id": "coco/279265/original",
+              "image_sha256": "71b356b476fc18b7c7b12e98e097f546a762e3dd5d4d1d099c70a6a1281a803a",
+              "transform": "original"
+            },
+            {
+              "image_id": "coco/279265/horizontal_flip",
+              "image_sha256": "71b356b476fc18b7c7b12e98e097f546a762e3dd5d4d1d099c70a6a1281a803a",
+              "transform": "horizontal_flip"
+            },
+            {
+              "image_id": "coco/150320/original",
+              "image_sha256": "62dd03bbcef90a86d8e2684d5e261bce659ba660cf930096a63f783b0203ee2c",
+              "transform": "original"
+            },
+            {
+              "image_id": "coco/150320/horizontal_flip",
+              "image_sha256": "62dd03bbcef90a86d8e2684d5e261bce659ba660cf930096a63f783b0203ee2c",
+              "transform": "horizontal_flip"
+            },
+            {
+              "image_id": "coco/543393/original",
+              "image_sha256": "987dc4d6f52bd818aa809380cd076a4a8e19876e3aba1890c4a0142396104491",
+              "transform": "original"
+            },
+            {
+              "image_id": "coco/543393/horizontal_flip",
+              "image_sha256": "987dc4d6f52bd818aa809380cd076a4a8e19876e3aba1890c4a0142396104491",
+              "transform": "horizontal_flip"
+            },
+            {
+              "image_id": "coco/355214/original",
+              "image_sha256": "36e499aa3f579c9c924ef0e5ca4ae099be545ea899e0e50b6c4508230f615339",
+              "transform": "original"
+            },
+            {
+              "image_id": "coco/355214/horizontal_flip",
+              "image_sha256": "36e499aa3f579c9c924ef0e5ca4ae099be545ea899e0e50b6c4508230f615339",
+              "transform": "horizontal_flip"
+            },
+            {
+              "image_id": "coco/534081/original",
+              "image_sha256": "ce69b5b80a9a25a3e72cf1396752de14cf31782f1b329411665efe1435db7c3b",
+              "transform": "original"
+            },
+            {
+              "image_id": "coco/534081/horizontal_flip",
+              "image_sha256": "ce69b5b80a9a25a3e72cf1396752de14cf31782f1b329411665efe1435db7c3b",
+              "transform": "horizontal_flip"
+            },
+            {
+              "image_id": "coco/514773/original",
+              "image_sha256": "b7616c66c2a172ac2e19b3e488d18ad2a9d8e88c97340ff4ec1b0f10a3818b5b",
+              "transform": "original"
+            },
+            {
+              "image_id": "coco/514773/horizontal_flip",
+              "image_sha256": "b7616c66c2a172ac2e19b3e488d18ad2a9d8e88c97340ff4ec1b0f10a3818b5b",
+              "transform": "horizontal_flip"
+            },
+            {
+              "image_id": "coco/141017/original",
+              "image_sha256": "12b5dc1e8b8359bd98f425d858f612e1b38c273e53111eca059628745c93a22d",
+              "transform": "original"
+            },
+            {
+              "image_id": "coco/141017/horizontal_flip",
+              "image_sha256": "12b5dc1e8b8359bd98f425d858f612e1b38c273e53111eca059628745c93a22d",
+              "transform": "horizontal_flip"
+            },
+            {
+              "image_id": "coco/179563/original",
+              "image_sha256": "e70d7c7a766bec0c49b99480bf8a319d76ea835aefccf827788103014e1080aa",
+              "transform": "original"
+            },
+            {
+              "image_id": "coco/179563/horizontal_flip",
+              "image_sha256": "e70d7c7a766bec0c49b99480bf8a319d76ea835aefccf827788103014e1080aa",
+              "transform": "horizontal_flip"
+            },
+            {
+              "image_id": "coco/359659/original",
+              "image_sha256": "c868ae3179086eab69d2bc5e575d3cc11ac3e1598c610d3cbd39dccfbfe30520",
+              "transform": "original"
+            },
+            {
+              "image_id": "coco/359659/horizontal_flip",
+              "image_sha256": "c868ae3179086eab69d2bc5e575d3cc11ac3e1598c610d3cbd39dccfbfe30520",
+              "transform": "horizontal_flip"
+            },
+            {
+              "image_id": "coco/76518/original",
+              "image_sha256": "1f125b89a3cc6d9e2029baba9992ebbeafc6e5483a306435ab9e42c6490f6d3c",
+              "transform": "original"
+            },
+            {
+              "image_id": "coco/76518/horizontal_flip",
+              "image_sha256": "1f125b89a3cc6d9e2029baba9992ebbeafc6e5483a306435ab9e42c6490f6d3c",
+              "transform": "horizontal_flip"
+            },
+            {
+              "image_id": "coco/476787/original",
+              "image_sha256": "e349a7e122f8e2804bdcb3b959edc9acdc0a915949a7e4e986096d4d2398d195",
+              "transform": "original"
+            },
+            {
+              "image_id": "coco/476787/horizontal_flip",
+              "image_sha256": "e349a7e122f8e2804bdcb3b959edc9acdc0a915949a7e4e986096d4d2398d195",
+              "transform": "horizontal_flip"
+            },
+            {
+              "image_id": "coco/235621/original",
+              "image_sha256": "77475f728e3230b75c4d86d7fa1c195c6d75d2eb40326dff9f3cc173fa94b877",
+              "transform": "original"
+            },
+            {
+              "image_id": "coco/235621/horizontal_flip",
+              "image_sha256": "77475f728e3230b75c4d86d7fa1c195c6d75d2eb40326dff9f3cc173fa94b877",
+              "transform": "horizontal_flip"
+            },
+            {
+              "image_id": "coco/253441/original",
+              "image_sha256": "d8c68e15e613b5f7e17a5f21af376b0de2f7e40151a715aa75ff8fad532b83b6",
+              "transform": "original"
+            },
+            {
+              "image_id": "coco/253441/horizontal_flip",
+              "image_sha256": "d8c68e15e613b5f7e17a5f21af376b0de2f7e40151a715aa75ff8fad532b83b6",
+              "transform": "horizontal_flip"
+            },
+            {
+              "image_id": "coco/56426/original",
+              "image_sha256": "c32b68ebae4e5a808fd977ae9b901c7ed12c74f124b4e7f28d074354da6f287f",
+              "transform": "original"
+            },
+            {
+              "image_id": "coco/56426/horizontal_flip",
+              "image_sha256": "c32b68ebae4e5a808fd977ae9b901c7ed12c74f124b4e7f28d074354da6f287f",
+              "transform": "horizontal_flip"
+            },
+            {
+              "image_id": "coco/449675/original",
+              "image_sha256": "a09f8e07e05e6d87652060a823dea45a022a57b229165510f05ca00e60a1e1c6",
+              "transform": "original"
+            },
+            {
+              "image_id": "coco/449675/horizontal_flip",
+              "image_sha256": "a09f8e07e05e6d87652060a823dea45a022a57b229165510f05ca00e60a1e1c6",
+              "transform": "horizontal_flip"
+            },
+            {
+              "image_id": "coco/201727/original",
+              "image_sha256": "80c43373bf062ef6f830e91c5f0a2ae053c59a0e905bf030933b366f3c601ad6",
+              "transform": "original"
+            },
+            {
+              "image_id": "coco/201727/horizontal_flip",
+              "image_sha256": "80c43373bf062ef6f830e91c5f0a2ae053c59a0e905bf030933b366f3c601ad6",
+              "transform": "horizontal_flip"
+            },
+            {
+              "image_id": "coco/37367/original",
+              "image_sha256": "bf4aff524aeec5679841dc035dccbb433cd8a3965961f7e2f2e6befb9d9f8bc1",
+              "transform": "original"
+            },
+            {
+              "image_id": "coco/37367/horizontal_flip",
+              "image_sha256": "bf4aff524aeec5679841dc035dccbb433cd8a3965961f7e2f2e6befb9d9f8bc1",
+              "transform": "horizontal_flip"
+            },
+            {
+              "image_id": "coco/260655/original",
+              "image_sha256": "aa33d811278499ead37112aa1a0b25bf3fd28ba79fa23b5ec52ea9be90051fe6",
+              "transform": "original"
+            },
+            {
+              "image_id": "coco/260655/horizontal_flip",
+              "image_sha256": "aa33d811278499ead37112aa1a0b25bf3fd28ba79fa23b5ec52ea9be90051fe6",
+              "transform": "horizontal_flip"
+            },
+            {
+              "image_id": "coco/171548/original",
+              "image_sha256": "9817266df81867c7a6f57034f17d16b6664ad359971bedfda106443d4fb01c0f",
+              "transform": "original"
+            },
+            {
+              "image_id": "coco/171548/horizontal_flip",
+              "image_sha256": "9817266df81867c7a6f57034f17d16b6664ad359971bedfda106443d4fb01c0f",
+              "transform": "horizontal_flip"
+            },
+            {
+              "image_id": "coco/209299/original",
+              "image_sha256": "8f3f525c5fd72bce1bb5148a51b085d52eca29ed24cc5efaefa292ff9af5aee6",
+              "transform": "original"
+            },
+            {
+              "image_id": "coco/209299/horizontal_flip",
+              "image_sha256": "8f3f525c5fd72bce1bb5148a51b085d52eca29ed24cc5efaefa292ff9af5aee6",
+              "transform": "horizontal_flip"
+            },
+            {
+              "image_id": "coco/139684/original",
+              "image_sha256": "f667a657676aa38ef258dc184c33c1ed36a1b27f3e96b8eb49d9fb5599f1e103",
+              "transform": "original"
+            },
+            {
+              "image_id": "coco/139684/horizontal_flip",
+              "image_sha256": "f667a657676aa38ef258dc184c33c1ed36a1b27f3e96b8eb49d9fb5599f1e103",
+              "transform": "horizontal_flip"
+            },
+            {
+              "image_id": "coco/436963/original",
+              "image_sha256": "0c83a731cb904696bcad5cde090e98926b1ba3cf78fb0412b12dce26e859bca6",
+              "transform": "original"
+            },
+            {
+              "image_id": "coco/436963/horizontal_flip",
+              "image_sha256": "0c83a731cb904696bcad5cde090e98926b1ba3cf78fb0412b12dce26e859bca6",
+              "transform": "horizontal_flip"
+            },
+            {
+              "image_id": "coco/451468/original",
+              "image_sha256": "558fa326f5a4ee566afec88dc0b3c2fa52f726bc1450dc3040ebd41cddf13976",
+              "transform": "original"
+            },
+            {
+              "image_id": "coco/451468/horizontal_flip",
+              "image_sha256": "558fa326f5a4ee566afec88dc0b3c2fa52f726bc1450dc3040ebd41cddf13976",
+              "transform": "horizontal_flip"
+            },
+            {
+              "image_id": "coco/348400/original",
+              "image_sha256": "4a180c4a8aece2e1b8aa281a059a5b9b8729e0989d576c9c0d8fffe0ea75e633",
+              "transform": "original"
+            },
+            {
+              "image_id": "coco/348400/horizontal_flip",
+              "image_sha256": "4a180c4a8aece2e1b8aa281a059a5b9b8729e0989d576c9c0d8fffe0ea75e633",
+              "transform": "horizontal_flip"
+            },
+            {
+              "image_id": "coco/75285/original",
+              "image_sha256": "e6b478e84be8cb4c15068196a72555da2f4c82f2235dd88da12a0a5c35ade686",
+              "transform": "original"
+            },
+            {
+              "image_id": "coco/75285/horizontal_flip",
+              "image_sha256": "e6b478e84be8cb4c15068196a72555da2f4c82f2235dd88da12a0a5c35ade686",
+              "transform": "horizontal_flip"
+            },
+            {
+              "image_id": "coco/281534/original",
+              "image_sha256": "40446198fcb850f257dfe8a6c969906bd0bbe8d5f323f35245fd9c2cbf9b29c1",
+              "transform": "original"
+            },
+            {
+              "image_id": "coco/281534/horizontal_flip",
+              "image_sha256": "40446198fcb850f257dfe8a6c969906bd0bbe8d5f323f35245fd9c2cbf9b29c1",
+              "transform": "horizontal_flip"
+            },
+            {
+              "image_id": "coco/43092/original",
+              "image_sha256": "dbf68d197170853d3adefb6e8f71087b87cd6bf889f57a5e8d30ab1a452b5af2",
+              "transform": "original"
+            },
+            {
+              "image_id": "coco/43092/horizontal_flip",
+              "image_sha256": "dbf68d197170853d3adefb6e8f71087b87cd6bf889f57a5e8d30ab1a452b5af2",
+              "transform": "horizontal_flip"
+            },
+            {
+              "image_id": "coco/541538/original",
+              "image_sha256": "a4ffc5a2678d108d1f1149e9c9328fc8658b4b57f2b2b5f6c1210cd77cd05440",
+              "transform": "original"
+            },
+            {
+              "image_id": "coco/541538/horizontal_flip",
+              "image_sha256": "a4ffc5a2678d108d1f1149e9c9328fc8658b4b57f2b2b5f6c1210cd77cd05440",
+              "transform": "horizontal_flip"
+            },
+            {
+              "image_id": "coco/411564/original",
+              "image_sha256": "cb82a4cf1b09a8c34c648d4a6808d07ffacd16c418c782b3fe5ede9f0062f5f6",
+              "transform": "original"
+            },
+            {
+              "image_id": "coco/411564/horizontal_flip",
+              "image_sha256": "cb82a4cf1b09a8c34c648d4a6808d07ffacd16c418c782b3fe5ede9f0062f5f6",
+              "transform": "horizontal_flip"
+            },
+            {
+              "image_id": "coco/239395/original",
+              "image_sha256": "07fda03a05b9a442c342aaeef12de153647adddf3cb11b3fc762b54107028321",
+              "transform": "original"
+            },
+            {
+              "image_id": "coco/239395/horizontal_flip",
+              "image_sha256": "07fda03a05b9a442c342aaeef12de153647adddf3cb11b3fc762b54107028321",
+              "transform": "horizontal_flip"
+            },
+            {
+              "image_id": "coco/36460/original",
+              "image_sha256": "fc4fda51f2df67979a5b3242ca8c3f0331ffacfc0bea0497526b9de447f952b0",
+              "transform": "original"
+            },
+            {
+              "image_id": "coco/36460/horizontal_flip",
+              "image_sha256": "fc4fda51f2df67979a5b3242ca8c3f0331ffacfc0bea0497526b9de447f952b0",
+              "transform": "horizontal_flip"
+            },
+            {
+              "image_id": "coco/138549/original",
+              "image_sha256": "48d92f8fea43dd1243421908085b2a4e8335d5a8fbdc1ba3d5414eed1b43f4a6",
+              "transform": "original"
+            },
+            {
+              "image_id": "coco/138549/horizontal_flip",
+              "image_sha256": "48d92f8fea43dd1243421908085b2a4e8335d5a8fbdc1ba3d5414eed1b43f4a6",
+              "transform": "horizontal_flip"
+            },
+            {
+              "image_id": "coco/259136/original",
+              "image_sha256": "15418fb13c1b612deddcf8aba7fe64a58d184717600fbd9d2c76182ef52e0972",
+              "transform": "original"
+            },
+            {
+              "image_id": "coco/259136/horizontal_flip",
+              "image_sha256": "15418fb13c1b612deddcf8aba7fe64a58d184717600fbd9d2c76182ef52e0972",
+              "transform": "horizontal_flip"
+            },
+            {
+              "image_id": "coco/405188/original",
+              "image_sha256": "89927b920cde03a9e5022b686eee00da82f9e40dd15839a687620b0b0719bf32",
+              "transform": "original"
+            },
+            {
+              "image_id": "coco/405188/horizontal_flip",
+              "image_sha256": "89927b920cde03a9e5022b686eee00da82f9e40dd15839a687620b0b0719bf32",
+              "transform": "horizontal_flip"
+            },
+            {
+              "image_id": "coco/528866/original",
+              "image_sha256": "1b089093d925b697131fad846aeaa6fa41c500060a744306fd5850f205ef5c1c",
+              "transform": "original"
+            },
+            {
+              "image_id": "coco/528866/horizontal_flip",
+              "image_sha256": "1b089093d925b697131fad846aeaa6fa41c500060a744306fd5850f205ef5c1c",
+              "transform": "horizontal_flip"
+            },
+            {
+              "image_id": "coco/269429/original",
+              "image_sha256": "d3347d25a346df974c8954961dbef573d8ff048b6d79747f565cfd675d22eb7c",
+              "transform": "original"
+            },
+            {
+              "image_id": "coco/269429/horizontal_flip",
+              "image_sha256": "d3347d25a346df974c8954961dbef573d8ff048b6d79747f565cfd675d22eb7c",
+              "transform": "horizontal_flip"
+            },
+            {
+              "image_id": "coco/318361/original",
+              "image_sha256": "ebc0f1444a4aafa56b0df60fd602a72b4b4920573f28c6105bf5d8ef9a6e839b",
+              "transform": "original"
+            },
+            {
+              "image_id": "coco/318361/horizontal_flip",
+              "image_sha256": "ebc0f1444a4aafa56b0df60fd602a72b4b4920573f28c6105bf5d8ef9a6e839b",
+              "transform": "horizontal_flip"
+            },
+            {
+              "image_id": "coco/264222/original",
+              "image_sha256": "96a607466a499a3017bac9aa22f2aa39008262f734b2ff0524b3125c9be8c2cb",
+              "transform": "original"
+            },
+            {
+              "image_id": "coco/264222/horizontal_flip",
+              "image_sha256": "96a607466a499a3017bac9aa22f2aa39008262f734b2ff0524b3125c9be8c2cb",
+              "transform": "horizontal_flip"
+            },
+            {
+              "image_id": "coco/357860/original",
+              "image_sha256": "6898f470eb7a6b237c42e91e36cb87da15d66c979458b5f02dbd07eb19c5f09c",
+              "transform": "original"
+            },
+            {
+              "image_id": "coco/357860/horizontal_flip",
+              "image_sha256": "6898f470eb7a6b237c42e91e36cb87da15d66c979458b5f02dbd07eb19c5f09c",
+              "transform": "horizontal_flip"
+            },
+            {
+              "image_id": "coco/43344/original",
+              "image_sha256": "9a8bec7a2b1862dfb89d441e6c0acc407dab28bc79c8665547662e716b33b9bb",
+              "transform": "original"
+            },
+            {
+              "image_id": "coco/43344/horizontal_flip",
+              "image_sha256": "9a8bec7a2b1862dfb89d441e6c0acc407dab28bc79c8665547662e716b33b9bb",
+              "transform": "horizontal_flip"
+            },
+            {
+              "image_id": "coco/160556/original",
+              "image_sha256": "864231b70723ca0112be41dd13c67442eb700e8803da3becb5019637aff3e0e9",
+              "transform": "original"
+            },
+            {
+              "image_id": "coco/160556/horizontal_flip",
+              "image_sha256": "864231b70723ca0112be41dd13c67442eb700e8803da3becb5019637aff3e0e9",
+              "transform": "horizontal_flip"
+            },
+            {
+              "image_id": "coco/513129/original",
+              "image_sha256": "d261174da80643115e16415298d1665fa751950d478c7fda8ffd6b3bc7b6458e",
+              "transform": "original"
+            },
+            {
+              "image_id": "coco/513129/horizontal_flip",
+              "image_sha256": "d261174da80643115e16415298d1665fa751950d478c7fda8ffd6b3bc7b6458e",
+              "transform": "horizontal_flip"
+            },
+            {
+              "image_id": "coco/556178/original",
+              "image_sha256": "a1d754915433251ac24dd99a69ce103fc12901824a3be1a141a0ad36276c20a9",
+              "transform": "original"
+            },
+            {
+              "image_id": "coco/556178/horizontal_flip",
+              "image_sha256": "a1d754915433251ac24dd99a69ce103fc12901824a3be1a141a0ad36276c20a9",
+              "transform": "horizontal_flip"
+            },
+            {
+              "image_id": "coco/43957/original",
+              "image_sha256": "a0f17a5be09918629f54ecc6b86b3e2f5086ad2bf384f450c929dac7a0b83bd0",
+              "transform": "original"
+            },
+            {
+              "image_id": "coco/43957/horizontal_flip",
+              "image_sha256": "a0f17a5be09918629f54ecc6b86b3e2f5086ad2bf384f450c929dac7a0b83bd0",
+              "transform": "horizontal_flip"
+            },
+            {
+              "image_id": "coco/214720/original",
+              "image_sha256": "cf4451b5d6da75e93529fb45b0cfd3a189d65ca52d25ec1afb7cf999d0232ccb",
+              "transform": "original"
+            },
+            {
+              "image_id": "coco/214720/horizontal_flip",
+              "image_sha256": "cf4451b5d6da75e93529fb45b0cfd3a189d65ca52d25ec1afb7cf999d0232ccb",
+              "transform": "horizontal_flip"
+            },
+            {
+              "image_id": "coco/233528/original",
+              "image_sha256": "73ea25f9bb92366e57c47c26753216b39a74f2450080589f22dd05f939583a90",
+              "transform": "original"
+            },
+            {
+              "image_id": "coco/233528/horizontal_flip",
+              "image_sha256": "73ea25f9bb92366e57c47c26753216b39a74f2450080589f22dd05f939583a90",
+              "transform": "horizontal_flip"
+            },
+            {
+              "image_id": "coco/389753/original",
+              "image_sha256": "a115e3b807f90aa77fce23222ded2b10495dad79a365693912ff715788c5459f",
+              "transform": "original"
+            },
+            {
+              "image_id": "coco/389753/horizontal_flip",
+              "image_sha256": "a115e3b807f90aa77fce23222ded2b10495dad79a365693912ff715788c5459f",
+              "transform": "horizontal_flip"
+            },
+            {
+              "image_id": "coco/114187/original",
+              "image_sha256": "2ebd1b87977f230f287e08ec631f99e40c131b7618e7b209938e5b3df04b3843",
+              "transform": "original"
+            },
+            {
+              "image_id": "coco/114187/horizontal_flip",
+              "image_sha256": "2ebd1b87977f230f287e08ec631f99e40c131b7618e7b209938e5b3df04b3843",
+              "transform": "horizontal_flip"
+            },
+            {
+              "image_id": "coco/288955/original",
+              "image_sha256": "1f6cacaac4241e8660250cfb32f6d67a2cb884a1deb45bfd0e293e6329dc1896",
+              "transform": "original"
+            },
+            {
+              "image_id": "coco/288955/horizontal_flip",
+              "image_sha256": "1f6cacaac4241e8660250cfb32f6d67a2cb884a1deb45bfd0e293e6329dc1896",
+              "transform": "horizontal_flip"
+            },
+            {
+              "image_id": "coco/9801/original",
+              "image_sha256": "1f59fe5feb83e6a5285a167018a7813550e21ba924cbf67bc221f3cab82f48c8",
+              "transform": "original"
+            },
+            {
+              "image_id": "coco/9801/horizontal_flip",
+              "image_sha256": "1f59fe5feb83e6a5285a167018a7813550e21ba924cbf67bc221f3cab82f48c8",
+              "transform": "horizontal_flip"
+            },
+            {
+              "image_id": "coco/526321/original",
+              "image_sha256": "74b038f445a49a7a76ca900eea35716f9667817acdde8ffb490205e7a7505e11",
+              "transform": "original"
+            },
+            {
+              "image_id": "coco/526321/horizontal_flip",
+              "image_sha256": "74b038f445a49a7a76ca900eea35716f9667817acdde8ffb490205e7a7505e11",
+              "transform": "horizontal_flip"
+            },
+            {
+              "image_id": "coco/193271/original",
+              "image_sha256": "454835e509211d58d75acc26756bfb72b5071b36c9056fc0d0e9b5bf5f9b4178",
+              "transform": "original"
+            },
+            {
+              "image_id": "coco/193271/horizontal_flip",
+              "image_sha256": "454835e509211d58d75acc26756bfb72b5071b36c9056fc0d0e9b5bf5f9b4178",
+              "transform": "horizontal_flip"
+            },
+            {
+              "image_id": "coco/219525/original",
+              "image_sha256": "8d0bbf66feef5da29e57537cf7c7be65645d297f06cd66e77cbc16f69be63e39",
+              "transform": "original"
+            },
+            {
+              "image_id": "coco/219525/horizontal_flip",
+              "image_sha256": "8d0bbf66feef5da29e57537cf7c7be65645d297f06cd66e77cbc16f69be63e39",
+              "transform": "horizontal_flip"
+            },
+            {
+              "image_id": "coco/496801/original",
+              "image_sha256": "1e1aebb3bc9ef4e71008ee45f61b1ff59e83588076e7c1556dba80c2cc974acc",
+              "transform": "original"
+            },
+            {
+              "image_id": "coco/496801/horizontal_flip",
+              "image_sha256": "1e1aebb3bc9ef4e71008ee45f61b1ff59e83588076e7c1556dba80c2cc974acc",
+              "transform": "horizontal_flip"
+            },
+            {
+              "image_id": "coco/539423/original",
+              "image_sha256": "501cc626ca87295ff8a297cc212205222042f6aec64c5630ef2484dd5251a075",
+              "transform": "original"
+            },
+            {
+              "image_id": "coco/539423/horizontal_flip",
+              "image_sha256": "501cc626ca87295ff8a297cc212205222042f6aec64c5630ef2484dd5251a075",
+              "transform": "horizontal_flip"
+            },
+            {
+              "image_id": "coco/264805/original",
+              "image_sha256": "494bf4c07daa0329bd0b80eddd8a20456cdedf05eecb4e62d826ee905924cc39",
+              "transform": "original"
+            },
+            {
+              "image_id": "coco/264805/horizontal_flip",
+              "image_sha256": "494bf4c07daa0329bd0b80eddd8a20456cdedf05eecb4e62d826ee905924cc39",
+              "transform": "horizontal_flip"
+            },
+            {
+              "image_id": "coco/246968/original",
+              "image_sha256": "5f7990e5edb8b8ab72faeef5ad6391976b24c2ab14d1c05d178fba70fadfd435",
+              "transform": "original"
+            },
+            {
+              "image_id": "coco/246968/horizontal_flip",
+              "image_sha256": "5f7990e5edb8b8ab72faeef5ad6391976b24c2ab14d1c05d178fba70fadfd435",
+              "transform": "horizontal_flip"
+            },
+            {
+              "image_id": "coco/567657/original",
+              "image_sha256": "4f8cf01b203eef15e8fcd283bef368fece096c554ba581228fbd3fe6c2d6c804",
+              "transform": "original"
+            },
+            {
+              "image_id": "coco/567657/horizontal_flip",
+              "image_sha256": "4f8cf01b203eef15e8fcd283bef368fece096c554ba581228fbd3fe6c2d6c804",
+              "transform": "horizontal_flip"
+            },
+            {
+              "image_id": "coco/366884/original",
+              "image_sha256": "7d41c97dc524e33c5005651a44c75e6629d9f7b05b48b9b430b76db77765e0a8",
+              "transform": "original"
+            },
+            {
+              "image_id": "coco/366884/horizontal_flip",
+              "image_sha256": "7d41c97dc524e33c5005651a44c75e6629d9f7b05b48b9b430b76db77765e0a8",
+              "transform": "horizontal_flip"
+            },
+            {
+              "image_id": "coco/545002/original",
+              "image_sha256": "bb2bb93c61ecf46b925b7a828deaaa4735c338cab6960e2113e9d824d3252d5e",
+              "transform": "original"
+            },
+            {
+              "image_id": "coco/545002/horizontal_flip",
+              "image_sha256": "bb2bb93c61ecf46b925b7a828deaaa4735c338cab6960e2113e9d824d3252d5e",
+              "transform": "horizontal_flip"
+            },
+            {
+              "image_id": "coco/301963/original",
+              "image_sha256": "32de342e8abd152fb9e1063d70c8bdd9104d916651ee44a6bea386e0f44450c4",
+              "transform": "original"
+            },
+            {
+              "image_id": "coco/301963/horizontal_flip",
+              "image_sha256": "32de342e8abd152fb9e1063d70c8bdd9104d916651ee44a6bea386e0f44450c4",
+              "transform": "horizontal_flip"
+            },
+            {
+              "image_id": "coco/97315/original",
+              "image_sha256": "e03e45b5072580300ae985690b6d065670948f4495a5dc32228e8a290959d72c",
+              "transform": "original"
+            },
+            {
+              "image_id": "coco/97315/horizontal_flip",
+              "image_sha256": "e03e45b5072580300ae985690b6d065670948f4495a5dc32228e8a290959d72c",
+              "transform": "horizontal_flip"
+            },
+            {
+              "image_id": "coco/260247/original",
+              "image_sha256": "50aa353d0616512e75f5729527439a715519c2c91d4570dd45c8884d56a31d6b",
+              "transform": "original"
+            },
+            {
+              "image_id": "coco/260247/horizontal_flip",
+              "image_sha256": "50aa353d0616512e75f5729527439a715519c2c91d4570dd45c8884d56a31d6b",
+              "transform": "horizontal_flip"
+            },
+            {
+              "image_id": "coco/134691/original",
+              "image_sha256": "07c05122db8856580d327e0b3955a2220e69e6a716d5fb02e364f58e95245d9b",
+              "transform": "original"
+            },
+            {
+              "image_id": "coco/134691/horizontal_flip",
+              "image_sha256": "07c05122db8856580d327e0b3955a2220e69e6a716d5fb02e364f58e95245d9b",
+              "transform": "horizontal_flip"
+            },
+            {
+              "image_id": "coco/173907/original",
+              "image_sha256": "82aedf36fea639bcfb6756ec4e0bc0ad53552c794d69bc7436a2a8962e1e264b",
+              "transform": "original"
+            },
+            {
+              "image_id": "coco/173907/horizontal_flip",
+              "image_sha256": "82aedf36fea639bcfb6756ec4e0bc0ad53552c794d69bc7436a2a8962e1e264b",
+              "transform": "horizontal_flip"
+            },
+            {
+              "image_id": "coco/576369/original",
+              "image_sha256": "0bed7edf6596a4f583b1972f953bf717404335f3ea9320592d9849e50894d9d9",
+              "transform": "original"
+            },
+            {
+              "image_id": "coco/576369/horizontal_flip",
+              "image_sha256": "0bed7edf6596a4f583b1972f953bf717404335f3ea9320592d9849e50894d9d9",
+              "transform": "horizontal_flip"
+            },
+            {
+              "image_id": "coco/331807/original",
+              "image_sha256": "53ac88c88dc5ec04652738cbd968f97d0399350034c6c5d17b8836bf5f1b7e2a",
+              "transform": "original"
+            },
+            {
+              "image_id": "coco/331807/horizontal_flip",
+              "image_sha256": "53ac88c88dc5ec04652738cbd968f97d0399350034c6c5d17b8836bf5f1b7e2a",
+              "transform": "horizontal_flip"
+            },
+            {
+              "image_id": "coco/492271/original",
+              "image_sha256": "5cd17119ffddacb3876b482155189ae011e676cd9dfa2c2b26a24ace55468e30",
+              "transform": "original"
+            },
+            {
+              "image_id": "coco/492271/horizontal_flip",
+              "image_sha256": "5cd17119ffddacb3876b482155189ae011e676cd9dfa2c2b26a24ace55468e30",
+              "transform": "horizontal_flip"
+            },
+            {
+              "image_id": "coco/271359/original",
+              "image_sha256": "90134d9762227e424690117ffd8e2da3fe179900c3bc4d3e88865a782d6d6bdb",
+              "transform": "original"
+            },
+            {
+              "image_id": "coco/271359/horizontal_flip",
+              "image_sha256": "90134d9762227e424690117ffd8e2da3fe179900c3bc4d3e88865a782d6d6bdb",
+              "transform": "horizontal_flip"
+            },
+            {
+              "image_id": "coco/454203/original",
+              "image_sha256": "363b91fe4e1c68f0838262db5ddf259e31df2e5f7016d5986a8cc46aa6a3ffb2",
+              "transform": "original"
+            },
+            {
+              "image_id": "coco/454203/horizontal_flip",
+              "image_sha256": "363b91fe4e1c68f0838262db5ddf259e31df2e5f7016d5986a8cc46aa6a3ffb2",
+              "transform": "horizontal_flip"
+            },
+            {
+              "image_id": "coco/569272/original",
+              "image_sha256": "c8704c61a9e5b1b936eeb42a7b94378036b326157d1e4ddd33e6790f2eb87d00",
+              "transform": "original"
+            },
+            {
+              "image_id": "coco/569272/horizontal_flip",
+              "image_sha256": "c8704c61a9e5b1b936eeb42a7b94378036b326157d1e4ddd33e6790f2eb87d00",
+              "transform": "horizontal_flip"
+            },
+            {
+              "image_id": "coco/479067/original",
+              "image_sha256": "274776c204edad1afbd0cf89da33fda2f6f9abba2cb286ae3f5021413525485e",
+              "transform": "original"
+            },
+            {
+              "image_id": "coco/479067/horizontal_flip",
+              "image_sha256": "274776c204edad1afbd0cf89da33fda2f6f9abba2cb286ae3f5021413525485e",
+              "transform": "horizontal_flip"
+            },
+            {
+              "image_id": "coco/321706/original",
+              "image_sha256": "4f8f53c44c93c3f4dd436d24f9d9e7eea2258ff875b9335a99e26d7d863c3389",
+              "transform": "original"
+            },
+            {
+              "image_id": "coco/321706/horizontal_flip",
+              "image_sha256": "4f8f53c44c93c3f4dd436d24f9d9e7eea2258ff875b9335a99e26d7d863c3389",
+              "transform": "horizontal_flip"
+            },
+            {
+              "image_id": "coco/313228/original",
+              "image_sha256": "06b6b9c69dfc282ff9c359eb570093fda09b87745de39af918536ac4b700ce42",
+              "transform": "original"
+            },
+            {
+              "image_id": "coco/313228/horizontal_flip",
+              "image_sha256": "06b6b9c69dfc282ff9c359eb570093fda09b87745de39af918536ac4b700ce42",
+              "transform": "horizontal_flip"
+            },
+            {
+              "image_id": "coco/113126/original",
+              "image_sha256": "17ffef8a9640c1fce12e0c0f7217c945d6983d69bc1e9173e8abe73fb4428ad2",
+              "transform": "original"
+            },
+            {
+              "image_id": "coco/113126/horizontal_flip",
+              "image_sha256": "17ffef8a9640c1fce12e0c0f7217c945d6983d69bc1e9173e8abe73fb4428ad2",
+              "transform": "horizontal_flip"
+            },
+            {
+              "image_id": "coco/189806/original",
+              "image_sha256": "95ad20d361c8ca796a19e3543c102e9eaa221b871492b6f0894ae9cef6e18fa6",
+              "transform": "original"
+            },
+            {
+              "image_id": "coco/189806/horizontal_flip",
+              "image_sha256": "95ad20d361c8ca796a19e3543c102e9eaa221b871492b6f0894ae9cef6e18fa6",
+              "transform": "horizontal_flip"
+            },
+            {
+              "image_id": "coco/398031/original",
+              "image_sha256": "9406b17e21f6842b2b23524e5b90458a79b5f2cf2311c3905d04907e553339d6",
+              "transform": "original"
+            },
+            {
+              "image_id": "coco/398031/horizontal_flip",
+              "image_sha256": "9406b17e21f6842b2b23524e5b90458a79b5f2cf2311c3905d04907e553339d6",
+              "transform": "horizontal_flip"
+            },
+            {
+              "image_id": "coco/210060/original",
+              "image_sha256": "b8cdeedd5c70015e65a503fab20c90b5ead3ae648b55f0796558cca05d105c4c",
+              "transform": "original"
+            },
+            {
+              "image_id": "coco/210060/horizontal_flip",
+              "image_sha256": "b8cdeedd5c70015e65a503fab20c90b5ead3ae648b55f0796558cca05d105c4c",
+              "transform": "horizontal_flip"
+            },
+            {
+              "image_id": "coco/549763/original",
+              "image_sha256": "1c1efc04d9bce6856f24f47428fc7ed9b2126a38b408e19ec356b265cbe1fcc9",
+              "transform": "original"
+            },
+            {
+              "image_id": "coco/549763/horizontal_flip",
+              "image_sha256": "1c1efc04d9bce6856f24f47428fc7ed9b2126a38b408e19ec356b265cbe1fcc9",
+              "transform": "horizontal_flip"
+            },
+            {
+              "image_id": "coco/106487/original",
+              "image_sha256": "8fd1c6af5ca16c3c74867eea555c8e1fc26839f0862273cd032a4f63091423ba",
+              "transform": "original"
+            },
+            {
+              "image_id": "coco/106487/horizontal_flip",
+              "image_sha256": "8fd1c6af5ca16c3c74867eea555c8e1fc26839f0862273cd032a4f63091423ba",
+              "transform": "horizontal_flip"
+            },
+            {
+              "image_id": "coco/433547/original",
+              "image_sha256": "0aa7a16073acc35cd1af442d970e03c10ba15f618de24ab40ca1e11eacf205d9",
+              "transform": "original"
+            },
+            {
+              "image_id": "coco/433547/horizontal_flip",
+              "image_sha256": "0aa7a16073acc35cd1af442d970e03c10ba15f618de24ab40ca1e11eacf205d9",
+              "transform": "horizontal_flip"
+            },
+            {
+              "image_id": "coco/568893/original",
+              "image_sha256": "f5a20ae27444aff0dfa85c1ff56e0ae264555e3cf7f15588aedde9e9776fdcb3",
+              "transform": "original"
+            },
+            {
+              "image_id": "coco/568893/horizontal_flip",
+              "image_sha256": "f5a20ae27444aff0dfa85c1ff56e0ae264555e3cf7f15588aedde9e9776fdcb3",
+              "transform": "horizontal_flip"
+            },
+            {
+              "image_id": "coco/290819/original",
+              "image_sha256": "4c088979fdd0cbe4345692c0f781c30453feae375c02bf62214411b21e4f07be",
+              "transform": "original"
+            },
+            {
+              "image_id": "coco/290819/horizontal_flip",
+              "image_sha256": "4c088979fdd0cbe4345692c0f781c30453feae375c02bf62214411b21e4f07be",
+              "transform": "horizontal_flip"
+            },
+            {
+              "image_id": "coco/48905/original",
+              "image_sha256": "00c417f6b122d999ff719fed6c7f35362884cc40f98bb4359a58918c963d9d08",
+              "transform": "original"
+            },
+            {
+              "image_id": "coco/48905/horizontal_flip",
+              "image_sha256": "00c417f6b122d999ff719fed6c7f35362884cc40f98bb4359a58918c963d9d08",
+              "transform": "horizontal_flip"
+            },
+            {
+              "image_id": "coco/500316/original",
+              "image_sha256": "cd36ba1da5cd90fe767318c92d0d7f2f2de0f3d3c4104a460d9dd0835bc6d55e",
+              "transform": "original"
+            },
+            {
+              "image_id": "coco/500316/horizontal_flip",
+              "image_sha256": "cd36ba1da5cd90fe767318c92d0d7f2f2de0f3d3c4104a460d9dd0835bc6d55e",
+              "transform": "horizontal_flip"
+            },
+            {
+              "image_id": "coco/575293/original",
+              "image_sha256": "2beb320a0e57a8216cda263c46d2618476117a2e32ae05c255c88bb1b40a59cd",
+              "transform": "original"
+            },
+            {
+              "image_id": "coco/575293/horizontal_flip",
+              "image_sha256": "2beb320a0e57a8216cda263c46d2618476117a2e32ae05c255c88bb1b40a59cd",
+              "transform": "horizontal_flip"
+            },
+            {
+              "image_id": "coco/219170/original",
+              "image_sha256": "b4e6a1839dc81d392e919a054f1e339f949e5c3ff49a385a0520f38d6aa22ad9",
+              "transform": "original"
+            },
+            {
+              "image_id": "coco/219170/horizontal_flip",
+              "image_sha256": "b4e6a1839dc81d392e919a054f1e339f949e5c3ff49a385a0520f38d6aa22ad9",
+              "transform": "horizontal_flip"
+            },
+            {
+              "image_id": "coco/48014/original",
+              "image_sha256": "8524f0cd31cb14cd987542b8e53e0fb5fd9883794cd4c3c80ceb37e8139510af",
+              "transform": "original"
+            },
+            {
+              "image_id": "coco/48014/horizontal_flip",
+              "image_sha256": "8524f0cd31cb14cd987542b8e53e0fb5fd9883794cd4c3c80ceb37e8139510af",
+              "transform": "horizontal_flip"
+            },
+            {
+              "image_id": "coco/285832/original",
+              "image_sha256": "9ef665fbf8eb618b37c2f3fc8a861bbf7019b234a6d38976f4f2449155b41228",
+              "transform": "original"
+            },
+            {
+              "image_id": "coco/285832/horizontal_flip",
+              "image_sha256": "9ef665fbf8eb618b37c2f3fc8a861bbf7019b234a6d38976f4f2449155b41228",
+              "transform": "horizontal_flip"
+            },
+            {
+              "image_id": "coco/235203/original",
+              "image_sha256": "7478f243560bafe53231f3b12114a2d063761f0b2e22fc5bc93faed938be2956",
+              "transform": "original"
+            },
+            {
+              "image_id": "coco/235203/horizontal_flip",
+              "image_sha256": "7478f243560bafe53231f3b12114a2d063761f0b2e22fc5bc93faed938be2956",
+              "transform": "horizontal_flip"
+            },
+            {
+              "image_id": "coco/400453/original",
+              "image_sha256": "05144f4c643d4e63cc80c7b87625eb1c506be6d2d7d1b83ed8e71f69d054be8d",
+              "transform": "original"
+            },
+            {
+              "image_id": "coco/400453/horizontal_flip",
+              "image_sha256": "05144f4c643d4e63cc80c7b87625eb1c506be6d2d7d1b83ed8e71f69d054be8d",
+              "transform": "horizontal_flip"
+            },
+            {
+              "image_id": "coco/131171/original",
+              "image_sha256": "80ef9c7498011627f9d7743dbec535986c4089bd3acf43f37a21208051904910",
+              "transform": "original"
+            },
+            {
+              "image_id": "coco/131171/horizontal_flip",
+              "image_sha256": "80ef9c7498011627f9d7743dbec535986c4089bd3acf43f37a21208051904910",
+              "transform": "horizontal_flip"
+            },
+            {
+              "image_id": "coco/65258/original",
+              "image_sha256": "61e6765bc89f9a993c55283a4532e89b7a5de663da81abdf31b2d268034d3986",
+              "transform": "original"
+            },
+            {
+              "image_id": "coco/65258/horizontal_flip",
+              "image_sha256": "61e6765bc89f9a993c55283a4532e89b7a5de663da81abdf31b2d268034d3986",
+              "transform": "horizontal_flip"
+            },
+            {
+              "image_id": "coco/127585/original",
+              "image_sha256": "b5ded0299182f25fe29f70a75797c42c07fc8edb089e1a436537257526d6cd51",
+              "transform": "original"
+            },
+            {
+              "image_id": "coco/127585/horizontal_flip",
+              "image_sha256": "b5ded0299182f25fe29f70a75797c42c07fc8edb089e1a436537257526d6cd51",
+              "transform": "horizontal_flip"
+            },
+            {
+              "image_id": "coco/288576/original",
+              "image_sha256": "07a32e564f881b20d00001e51ab38858dcfd198f6a93861c56b55043341c7047",
+              "transform": "original"
+            },
+            {
+              "image_id": "coco/288576/horizontal_flip",
+              "image_sha256": "07a32e564f881b20d00001e51ab38858dcfd198f6a93861c56b55043341c7047",
+              "transform": "horizontal_flip"
+            },
+            {
+              "image_id": "coco/82696/original",
+              "image_sha256": "ffb33316dedb78408fc1b7db2532b4df3b2e35d3ae76162d333e92ea17c0164c",
+              "transform": "original"
+            },
+            {
+              "image_id": "coco/82696/horizontal_flip",
+              "image_sha256": "ffb33316dedb78408fc1b7db2532b4df3b2e35d3ae76162d333e92ea17c0164c",
+              "transform": "horizontal_flip"
+            },
+            {
+              "image_id": "coco/274017/original",
+              "image_sha256": "b6bbdac962a02fe6bf9081c9f946e012c42ae7683337ecd8cc0ad86f02327c11",
+              "transform": "original"
+            },
+            {
+              "image_id": "coco/274017/horizontal_flip",
+              "image_sha256": "b6bbdac962a02fe6bf9081c9f946e012c42ae7683337ecd8cc0ad86f02327c11",
+              "transform": "horizontal_flip"
+            },
+            {
+              "image_id": "coco/212462/original",
+              "image_sha256": "0040ab2b58269e50c80f010bda55ab0e51a9c341c639ddea0e138a7d7ee6a778",
+              "transform": "original"
+            },
+            {
+              "image_id": "coco/212462/horizontal_flip",
+              "image_sha256": "0040ab2b58269e50c80f010bda55ab0e51a9c341c639ddea0e138a7d7ee6a778",
+              "transform": "horizontal_flip"
+            },
+            {
+              "image_id": "coco/455956/original",
+              "image_sha256": "df20fc71d32af119c7dc96b61ba934435ef4981b0529e3b6940991b66f1d297f",
+              "transform": "original"
+            },
+            {
+              "image_id": "coco/455956/horizontal_flip",
+              "image_sha256": "df20fc71d32af119c7dc96b61ba934435ef4981b0529e3b6940991b66f1d297f",
+              "transform": "horizontal_flip"
+            },
+            {
+              "image_id": "coco/33441/original",
+              "image_sha256": "b80f4edbb0dd91c28160199286d74263633c945cca2cb030abe737dab2ff51b6",
+              "transform": "original"
+            },
+            {
+              "image_id": "coco/33441/horizontal_flip",
+              "image_sha256": "b80f4edbb0dd91c28160199286d74263633c945cca2cb030abe737dab2ff51b6",
+              "transform": "horizontal_flip"
+            },
+            {
+              "image_id": "coco/208408/original",
+              "image_sha256": "27bbda2389e66fcafb1c1b80861370f9e8c17c3bb4d520bc7929ad54ec87d636",
+              "transform": "original"
+            },
+            {
+              "image_id": "coco/208408/horizontal_flip",
+              "image_sha256": "27bbda2389e66fcafb1c1b80861370f9e8c17c3bb4d520bc7929ad54ec87d636",
+              "transform": "horizontal_flip"
+            },
+            {
+              "image_id": "coco/562628/original",
+              "image_sha256": "9e99554036860e307cc1f2f8b76358c2834f2a0de7263a89ff1aac09daaec495",
+              "transform": "original"
+            },
+            {
+              "image_id": "coco/562628/horizontal_flip",
+              "image_sha256": "9e99554036860e307cc1f2f8b76358c2834f2a0de7263a89ff1aac09daaec495",
+              "transform": "horizontal_flip"
+            },
+            {
+              "image_id": "coco/241599/original",
+              "image_sha256": "b8aa96546cd17a9ff89bd3d4c7f1a810040f917b444204866c1b4697ad88acd1",
+              "transform": "original"
+            },
+            {
+              "image_id": "coco/241599/horizontal_flip",
+              "image_sha256": "b8aa96546cd17a9ff89bd3d4c7f1a810040f917b444204866c1b4697ad88acd1",
+              "transform": "horizontal_flip"
+            },
+            {
+              "image_id": "coco/13923/original",
+              "image_sha256": "91494500cd053f1c4e547edc53f62edce2b088588bf9b4dbc8ceaea86ad4d49e",
+              "transform": "original"
+            },
+            {
+              "image_id": "coco/13923/horizontal_flip",
+              "image_sha256": "91494500cd053f1c4e547edc53f62edce2b088588bf9b4dbc8ceaea86ad4d49e",
+              "transform": "horizontal_flip"
+            },
+            {
+              "image_id": "coco/527573/original",
+              "image_sha256": "c904eb3b9ce0b861e34777228af78354a999eaadb7bc66567d66b66b9baea9f1",
+              "transform": "original"
+            },
+            {
+              "image_id": "coco/527573/horizontal_flip",
+              "image_sha256": "c904eb3b9ce0b861e34777228af78354a999eaadb7bc66567d66b66b9baea9f1",
+              "transform": "horizontal_flip"
+            },
+            {
+              "image_id": "coco/460378/original",
+              "image_sha256": "c70e6bdc53f3765d5a7677f279d2a32d9e8fa01b11ccde1f137d092f8f7d8750",
+              "transform": "original"
+            },
+            {
+              "image_id": "coco/460378/horizontal_flip",
+              "image_sha256": "c70e6bdc53f3765d5a7677f279d2a32d9e8fa01b11ccde1f137d092f8f7d8750",
+              "transform": "horizontal_flip"
+            },
+            {
+              "image_id": "coco/77396/original",
+              "image_sha256": "58a4aa081452ad2930aba0d5c716615aaede8e43a6e80a456132877d318991af",
+              "transform": "original"
+            },
+            {
+              "image_id": "coco/77396/horizontal_flip",
+              "image_sha256": "58a4aa081452ad2930aba0d5c716615aaede8e43a6e80a456132877d318991af",
+              "transform": "horizontal_flip"
+            },
+            {
+              "image_id": "coco/396608/original",
+              "image_sha256": "ced7ffb9fefc83b43305bdb6af2c4ff975f2cad79d3f90cecc2c75de1ededef2",
+              "transform": "original"
+            },
+            {
+              "image_id": "coco/396608/horizontal_flip",
+              "image_sha256": "ced7ffb9fefc83b43305bdb6af2c4ff975f2cad79d3f90cecc2c75de1ededef2",
+              "transform": "horizontal_flip"
+            },
+            {
+              "image_id": "coco/295599/original",
+              "image_sha256": "b12a60dadf6c591e29a40c18d808cfdcce8ff016ea7aa50c920aea16aeeb402a",
+              "transform": "original"
+            },
+            {
+              "image_id": "coco/295599/horizontal_flip",
+              "image_sha256": "b12a60dadf6c591e29a40c18d808cfdcce8ff016ea7aa50c920aea16aeeb402a",
+              "transform": "horizontal_flip"
+            },
+            {
+              "image_id": "coco/561619/original",
+              "image_sha256": "b93061c849912b6ef0d907a3734c2187eafe24ffad45e74e9c4aa91ebd6b8879",
+              "transform": "original"
+            },
+            {
+              "image_id": "coco/561619/horizontal_flip",
+              "image_sha256": "b93061c849912b6ef0d907a3734c2187eafe24ffad45e74e9c4aa91ebd6b8879",
+              "transform": "horizontal_flip"
+            },
+            {
+              "image_id": "coco/265518/original",
+              "image_sha256": "65effd9cbf440739c171ef3b55b310fe9111b2d91c4edaa91a668c1d2046ab7a",
+              "transform": "original"
+            },
+            {
+              "image_id": "coco/265518/horizontal_flip",
+              "image_sha256": "65effd9cbf440739c171ef3b55b310fe9111b2d91c4edaa91a668c1d2046ab7a",
+              "transform": "horizontal_flip"
+            },
+            {
+              "image_id": "coco/106900/original",
+              "image_sha256": "99ecb7a533736231fcb8061421e72bc6eb76c466055e1239c4c926ccb6d00095",
+              "transform": "original"
+            },
+            {
+              "image_id": "coco/106900/horizontal_flip",
+              "image_sha256": "99ecb7a533736231fcb8061421e72bc6eb76c466055e1239c4c926ccb6d00095",
+              "transform": "horizontal_flip"
+            },
+            {
+              "image_id": "coco/455480/original",
+              "image_sha256": "42170db67bc89ef60a99a9b64c8021291c5cb6a3a919ebc1c9b60dcfb62c0c0d",
+              "transform": "original"
+            },
+            {
+              "image_id": "coco/455480/horizontal_flip",
+              "image_sha256": "42170db67bc89ef60a99a9b64c8021291c5cb6a3a919ebc1c9b60dcfb62c0c0d",
+              "transform": "horizontal_flip"
+            },
+            {
+              "image_id": "coco/300353/original",
+              "image_sha256": "fd1aef842afdaf78a176b5c403668c6f1e3afe4745af3c92586586231d1b1994",
+              "transform": "original"
+            },
+            {
+              "image_id": "coco/300353/horizontal_flip",
+              "image_sha256": "fd1aef842afdaf78a176b5c403668c6f1e3afe4745af3c92586586231d1b1994",
+              "transform": "horizontal_flip"
+            },
+            {
+              "image_id": "coco/326572/original",
+              "image_sha256": "c0dd2edc0c82e50380c0d516b6f6399f437ba5a974c638630351c7f638f4c281",
+              "transform": "original"
+            },
+            {
+              "image_id": "coco/326572/horizontal_flip",
+              "image_sha256": "c0dd2edc0c82e50380c0d516b6f6399f437ba5a974c638630351c7f638f4c281",
+              "transform": "horizontal_flip"
+            },
+            {
+              "image_id": "coco/269015/original",
+              "image_sha256": "3b784f23ad81102b8105ef87f4b008307615142e642872dc9faa05c15698fead",
+              "transform": "original"
+            },
+            {
+              "image_id": "coco/269015/horizontal_flip",
+              "image_sha256": "3b784f23ad81102b8105ef87f4b008307615142e642872dc9faa05c15698fead",
+              "transform": "horizontal_flip"
+            },
+            {
+              "image_id": "coco/322482/original",
+              "image_sha256": "dde6dd0cda16568003723f41c6da5bcf0864f4dcb0dd5418d11f6a93fd737532",
+              "transform": "original"
+            },
+            {
+              "image_id": "coco/322482/horizontal_flip",
+              "image_sha256": "dde6dd0cda16568003723f41c6da5bcf0864f4dcb0dd5418d11f6a93fd737532",
+              "transform": "horizontal_flip"
+            },
+            {
+              "image_id": "coco/265151/original",
+              "image_sha256": "eac24d6dcdc9123f655d868650046b2dbc1aaab924fbec3802a3ad6dd6abe4e1",
+              "transform": "original"
+            },
+            {
+              "image_id": "coco/265151/horizontal_flip",
+              "image_sha256": "eac24d6dcdc9123f655d868650046b2dbc1aaab924fbec3802a3ad6dd6abe4e1",
+              "transform": "horizontal_flip"
+            },
+            {
+              "image_id": "coco/124607/original",
+              "image_sha256": "f87f8c14838db313a0f6182e53d9b45457efa734873b2854884108cde6dfdeff",
+              "transform": "original"
+            },
+            {
+              "image_id": "coco/124607/horizontal_flip",
+              "image_sha256": "f87f8c14838db313a0f6182e53d9b45457efa734873b2854884108cde6dfdeff",
+              "transform": "horizontal_flip"
+            }
+          ]
+        },
+        "checkpoint": {
+          "url": "https://openaipublic.azureedge.net/clip/models/40d365715913c9da98579312b702a82c18be219cc2a73407c4526f58eba950af/ViT-B-32.pt",
+          "sha256": "40d365715913c9da98579312b702a82c18be219cc2a73407c4526f58eba950af",
+          "path": "models/ViT-B-32.pt",
+          "quick_gelu": true
+        },
+        "preprocessing": "Compose(\n    Resize(size=224, interpolation=bicubic, max_size=None, antialias=True)\n    CenterCrop(size=(224, 224))\n    MaybeConvertMode()\n    MaybeToTensor()\n    Normalize(mean=(0.48145466, 0.4578275, 0.40821073), std=(0.26862954, 0.26130258, 0.27577711))\n)",
+        "precision": "fp32",
+        "batch_size": 32,
+        "engine_source_sha256": "71f6722b4500871ef0e22d3c7f2144ddea2854d34f94b7e70ee6b5ccba26a06e"
+      }
+    }
+  ],
+  "num_images": 400,
+  "num_trials": 2400,
+  "unique_caption_count": 3264,
+  "finished_at_utc": "2026-11-04T09:17:47.466028+00:00",
+  "artifact_sha256": {
+    "config.json": "2975f2215b4b9f66039e0b9291edcc04a0d9c847086de81e64d38c60444859aa",
+    "environment.json": "e51ec032db8e97b5923a5b973ae265c8fccca932c2a2e4bc479ff63e04d07604",
+    "images.json": "9ed3730f2226b6a3c72520aa4e07a82a145114c0600459a726bbfd043e66fb87",
+    "metrics.json": "3b06440774057de060fb7c6b2c88ca0ed8ba0227744549d7399103eea2bf4299",
+    "predictions.csv": "277a2502f7c2332619e89537791a5fbf3226776400f7677999692225d5824d47",
+    "protocol.md": "1c04bf2720d291049b04fa4f59e70de652f7a5e1b7a285b65c58a3c8bf6fe2ca",
+    "scores.npz": "e25dfd2751b46f6ce1890b7ddbbfcde182f4b11cf6f0e1578e2772211faa9dab",
+    "text_pool.json": "22a27acffceceed0e48ca4f7deead935daf226a8d5784a2476037a083f601753",
+    "trials.json": "241b5ac583231564d9a897f715ed20173cf87ea73e9bb14b960e477cd6350398"
+  }
+}

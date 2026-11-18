@@ -1,0 +1,222 @@
+{
+  "spatial": {
+    "t0_o0_horizontal": {
+      "pairs": 360,
+      "assignment_accuracy_percent": 45.0,
+      "assignment_ci95_percent": [
+        40.0,
+        49.72222222222222
+      ],
+      "two_way_accuracy_percent": 50.416666666666664,
+      "two_way_both_correct_percent": 1.1111111111111112,
+      "mean_assignment_gap": -9.111637870470682e-05,
+      "near_tie_count": 0
+    },
+    "t0_o0_vertical": {
+      "pairs": 360,
+      "assignment_accuracy_percent": 42.5,
+      "assignment_ci95_percent": [
+        36.94444444444444,
+        47.50694444444441
+      ],
+      "two_way_accuracy_percent": 49.30555555555556,
+      "two_way_both_correct_percent": 2.7777777777777777,
+      "mean_assignment_gap": -0.00012448694970872666,
+      "near_tie_count": 0
+    },
+    "t0_o1_horizontal": {
+      "pairs": 360,
+      "assignment_accuracy_percent": 44.44444444444444,
+      "assignment_ci95_percent": [
+        39.166666666666664,
+        50.0
+      ],
+      "two_way_accuracy_percent": 49.861111111111114,
+      "two_way_both_correct_percent": 1.3888888888888888,
+      "mean_assignment_gap": -8.631729417377047e-05,
+      "near_tie_count": 1
+    },
+    "t0_o1_vertical": {
+      "pairs": 360,
+      "assignment_accuracy_percent": 45.55555555555556,
+      "assignment_ci95_percent": [
+        40.27777777777778,
+        50.83333333333333
+      ],
+      "two_way_accuracy_percent": 49.583333333333336,
+      "two_way_both_correct_percent": 3.3333333333333335,
+      "mean_assignment_gap": -3.7154389752282034e-05,
+      "near_tie_count": 2
+    },
+    "t1_o0_horizontal": {
+      "pairs": 360,
+      "assignment_accuracy_percent": 48.61111111111111,
+      "assignment_ci95_percent": [
+        42.77777777777778,
+        54.166666666666664
+      ],
+      "two_way_accuracy_percent": 49.583333333333336,
+      "two_way_both_correct_percent": 4.166666666666666,
+      "mean_assignment_gap": -3.622488843070136e-05,
+      "near_tie_count": 3
+    },
+    "t1_o0_vertical": {
+      "pairs": 360,
+      "assignment_accuracy_percent": 47.5,
+      "assignment_ci95_percent": [
+        42.22222222222222,
+        52.77777777777778
+      ],
+      "two_way_accuracy_percent": 49.861111111111114,
+      "two_way_both_correct_percent": 0.0,
+      "mean_assignment_gap": 1.5926692220899795e-05,
+      "near_tie_count": 0
+    },
+    "t1_o1_horizontal": {
+      "pairs": 360,
+      "assignment_accuracy_percent": 41.66666666666667,
+      "assignment_ci95_percent": [
+        36.388888888888886,
+        47.22222222222222
+      ],
+      "two_way_accuracy_percent": 49.02777777777778,
+      "two_way_both_correct_percent": 4.444444444444445,
+      "mean_assignment_gap": -8.227022157775031e-05,
+      "near_tie_count": 2
+    },
+    "t1_o1_vertical": {
+      "pairs": 360,
+      "assignment_accuracy_percent": 49.44444444444444,
+      "assignment_ci95_percent": [
+        44.44444444444444,
+        54.166666666666664
+      ],
+      "two_way_accuracy_percent": 49.861111111111114,
+      "two_way_both_correct_percent": 0.0,
+      "mean_assignment_gap": 0.00010343003604147169,
+      "near_tie_count": 0
+    },
+    "t2_o0_horizontal": {
+      "pairs": 360,
+      "assignment_accuracy_percent": 45.27777777777778,
+      "assignment_ci95_percent": [
+        40.27777777777778,
+        50.27777777777778
+      ],
+      "two_way_accuracy_percent": 48.61111111111111,
+      "two_way_both_correct_percent": 3.0555555555555554,
+      "mean_assignment_gap": -7.319690452681648e-05,
+      "near_tie_count": 0
+    },
+    "t2_o0_vertical": {
+      "pairs": 360,
+      "assignment_accuracy_percent": 41.11111111111111,
+      "assignment_ci95_percent": [
+        36.11111111111111,
+        45.83333333333333
+      ],
+      "two_way_accuracy_percent": 48.47222222222222,
+      "two_way_both_correct_percent": 0.8333333333333334,
+      "mean_assignment_gap": -0.00014568774236573115,
+      "near_tie_count": 0
+    },
+    "t2_o1_horizontal": {
+      "pairs": 360,
+      "assignment_accuracy_percent": 44.72222222222222,
+      "assignment_ci95_percent": [
+        40.0,
+        49.72916666666663
+      ],
+      "two_way_accuracy_percent": 48.47222222222222,
+      "two_way_both_correct_percent": 3.3333333333333335,
+      "mean_assignment_gap": -8.083383242289226e-05,
+      "near_tie_count": 0
+    },
+    "t2_o1_vertical": {
+      "pairs": 360,
+      "assignment_accuracy_percent": 43.888888888888886,
+      "assignment_ci95_percent": [
+        38.88888888888889,
+        48.888888888888886
+      ],
+      "two_way_accuracy_percent": 49.44444444444444,
+      "two_way_both_correct_percent": 1.3888888888888888,
+      "mean_assignment_gap": -2.7599847979015773e-05,
+      "near_tie_count": 0
+    }
+  },
+  "natural": {
+    "t0_o0_horizontal": {
+      "pairs": 100,
+      "assignment_accuracy_percent": 55.00000000000001,
+      "assignment_ci95_percent": [
+        46.0,
+        65.0
+      ],
+      "two_way_accuracy_percent": 51.0,
+      "two_way_both_correct_percent": 3.0,
+      "mean_assignment_gap": -2.3401975631713867e-05,
+      "near_tie_count": 0
+    },
+    "t0_o1_horizontal": {
+      "pairs": 100,
+      "assignment_accuracy_percent": 53.0,
+      "assignment_ci95_percent": [
+        44.0,
+        63.0
+      ],
+      "two_way_accuracy_percent": 50.5,
+      "two_way_both_correct_percent": 4.0,
+      "mean_assignment_gap": 1.226663589477539e-06,
+      "near_tie_count": 0
+    },
+    "t1_o0_horizontal": {
+      "pairs": 100,
+      "assignment_accuracy_percent": 52.0,
+      "assignment_ci95_percent": [
+        42.0,
+        62.0
+      ],
+      "two_way_accuracy_percent": 49.5,
+      "two_way_both_correct_percent": 2.0,
+      "mean_assignment_gap": 0.00010918095707893372,
+      "near_tie_count": 0
+    },
+    "t1_o1_horizontal": {
+      "pairs": 100,
+      "assignment_accuracy_percent": 46.0,
+      "assignment_ci95_percent": [
+        36.0,
+        56.00000000000001
+      ],
+      "two_way_accuracy_percent": 50.5,
+      "two_way_both_correct_percent": 2.0,
+      "mean_assignment_gap": -0.00010017707943916321,
+      "near_tie_count": 0
+    },
+    "t2_o0_horizontal": {
+      "pairs": 100,
+      "assignment_accuracy_percent": 54.0,
+      "assignment_ci95_percent": [
+        45.0,
+        64.0
+      ],
+      "two_way_accuracy_percent": 50.5,
+      "two_way_both_correct_percent": 4.0,
+      "mean_assignment_gap": -7.674694061279296e-06,
+      "near_tie_count": 0
+    },
+    "t2_o1_horizontal": {
+      "pairs": 100,
+      "assignment_accuracy_percent": 51.0,
+      "assignment_ci95_percent": [
+        41.0,
+        61.0
+      ],
+      "two_way_accuracy_percent": 51.5,
+      "two_way_both_correct_percent": 4.0,
+      "mean_assignment_gap": -2.194330096244812e-05,
+      "near_tie_count": 1
+    }
+  }
+}

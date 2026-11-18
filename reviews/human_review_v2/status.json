@@ -1,0 +1,20 @@
+{
+  "image_review": "completed_human_with_agent_discussion",
+  "translation_review": "completed_human_semantic_confirmation",
+  "image_items": 100,
+  "translation_items": 100,
+  "source_sha256": {
+    "natural_selection": "656ed246180ae78e57535a34665771d8e786318eda07819d2048acb813534dd5",
+    "translations": "0d58ab3697f89dd552e492988dbff5a90ac11a621eb85f140ec59819d963155a"
+  },
+  "reviewer": "R1",
+  "human_reviewers": 1,
+  "image_accepted": 98,
+  "image_rejected": 2,
+  "translations_accepted": 100,
+  "review_freeze": "reviews/human_review_final_v1/freeze.json",
+  "followup_report": "reports/human_review_followup_v1/README.md",
+  "updated_date_local": "2026-11-17",
+  "historical_pdf_updated": false,
+  "new_inference": false
+}

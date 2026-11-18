@@ -1,0 +1,26 @@
+{
+  "smoke_cifar100_clip_b32_v1": {
+    "verified": true,
+    "mode": "smoke_test",
+    "num_samples": 200,
+    "correct": 139,
+    "top1_accuracy_percent": 69.5,
+    "official_targets_match": true,
+    "official_class_order_match": true,
+    "source_hashes_match": true
+  },
+  "full_cifar100_clip_b32_v1": {
+    "verified": true,
+    "mode": "full_test",
+    "num_samples": 10000,
+    "correct": 6448,
+    "top1_accuracy_percent": 64.48,
+    "official_targets_match": true,
+    "official_class_order_match": true,
+    "source_hashes_match": true
+  },
+  "overlapping_200_images": {
+    "identical_predictions": true,
+    "max_predicted_cosine_difference": 8.940696716308594e-08
+  }
+}

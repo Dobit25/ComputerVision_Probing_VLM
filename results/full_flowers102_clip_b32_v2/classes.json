@@ -1,0 +1,614 @@
+[
+  {
+    "class_id": 0,
+    "dataset_name": "pink primrose",
+    "prompt_name": "pink primrose",
+    "prompt": "a photo of a pink primrose."
+  },
+  {
+    "class_id": 1,
+    "dataset_name": "hard-leaved pocket orchid",
+    "prompt_name": "hard-leaved pocket orchid",
+    "prompt": "a photo of a hard-leaved pocket orchid."
+  },
+  {
+    "class_id": 2,
+    "dataset_name": "canterbury bells",
+    "prompt_name": "canterbury bells",
+    "prompt": "a photo of a canterbury bells."
+  },
+  {
+    "class_id": 3,
+    "dataset_name": "sweet pea",
+    "prompt_name": "sweet pea",
+    "prompt": "a photo of a sweet pea."
+  },
+  {
+    "class_id": 4,
+    "dataset_name": "english marigold",
+    "prompt_name": "english marigold",
+    "prompt": "a photo of a english marigold."
+  },
+  {
+    "class_id": 5,
+    "dataset_name": "tiger lily",
+    "prompt_name": "tiger lily",
+    "prompt": "a photo of a tiger lily."
+  },
+  {
+    "class_id": 6,
+    "dataset_name": "moon orchid",
+    "prompt_name": "moon orchid",
+    "prompt": "a photo of a moon orchid."
+  },
+  {
+    "class_id": 7,
+    "dataset_name": "bird of paradise",
+    "prompt_name": "bird of paradise",
+    "prompt": "a photo of a bird of paradise."
+  },
+  {
+    "class_id": 8,
+    "dataset_name": "monkshood",
+    "prompt_name": "monkshood",
+    "prompt": "a photo of a monkshood."
+  },
+  {
+    "class_id": 9,
+    "dataset_name": "globe thistle",
+    "prompt_name": "globe thistle",
+    "prompt": "a photo of a globe thistle."
+  },
+  {
+    "class_id": 10,
+    "dataset_name": "snapdragon",
+    "prompt_name": "snapdragon",
+    "prompt": "a photo of a snapdragon."
+  },
+  {
+    "class_id": 11,
+    "dataset_name": "colt's foot",
+    "prompt_name": "colt's foot",
+    "prompt": "a photo of a colt's foot."
+  },
+  {
+    "class_id": 12,
+    "dataset_name": "king protea",
+    "prompt_name": "king protea",
+    "prompt": "a photo of a king protea."
+  },
+  {
+    "class_id": 13,
+    "dataset_name": "spear thistle",
+    "prompt_name": "spear thistle",
+    "prompt": "a photo of a spear thistle."
+  },
+  {
+    "class_id": 14,
+    "dataset_name": "yellow iris",
+    "prompt_name": "yellow iris",
+    "prompt": "a photo of a yellow iris."
+  },
+  {
+    "class_id": 15,
+    "dataset_name": "globe-flower",
+    "prompt_name": "globe-flower",
+    "prompt": "a photo of a globe-flower."
+  },
+  {
+    "class_id": 16,
+    "dataset_name": "purple coneflower",
+    "prompt_name": "purple coneflower",
+    "prompt": "a photo of a purple coneflower."
+  },
+  {
+    "class_id": 17,
+    "dataset_name": "peruvian lily",
+    "prompt_name": "peruvian lily",
+    "prompt": "a photo of a peruvian lily."
+  },
+  {
+    "class_id": 18,
+    "dataset_name": "balloon flower",
+    "prompt_name": "balloon flower",
+    "prompt": "a photo of a balloon flower."
+  },
+  {
+    "class_id": 19,
+    "dataset_name": "giant white arum lily",
+    "prompt_name": "giant white arum lily",
+    "prompt": "a photo of a giant white arum lily."
+  },
+  {
+    "class_id": 20,
+    "dataset_name": "fire lily",
+    "prompt_name": "fire lily",
+    "prompt": "a photo of a fire lily."
+  },
+  {
+    "class_id": 21,
+    "dataset_name": "pincushion flower",
+    "prompt_name": "pincushion flower",
+    "prompt": "a photo of a pincushion flower."
+  },
+  {
+    "class_id": 22,
+    "dataset_name": "fritillary",
+    "prompt_name": "fritillary",
+    "prompt": "a photo of a fritillary."
+  },
+  {
+    "class_id": 23,
+    "dataset_name": "red ginger",
+    "prompt_name": "red ginger",
+    "prompt": "a photo of a red ginger."
+  },
+  {
+    "class_id": 24,
+    "dataset_name": "grape hyacinth",
+    "prompt_name": "grape hyacinth",
+    "prompt": "a photo of a grape hyacinth."
+  },
+  {
+    "class_id": 25,
+    "dataset_name": "corn poppy",
+    "prompt_name": "corn poppy",
+    "prompt": "a photo of a corn poppy."
+  },
+  {
+    "class_id": 26,
+    "dataset_name": "prince of wales feathers",
+    "prompt_name": "prince of wales feathers",
+    "prompt": "a photo of a prince of wales feathers."
+  },
+  {
+    "class_id": 27,
+    "dataset_name": "stemless gentian",
+    "prompt_name": "stemless gentian",
+    "prompt": "a photo of a stemless gentian."
+  },
+  {
+    "class_id": 28,
+    "dataset_name": "artichoke",
+    "prompt_name": "artichoke",
+    "prompt": "a photo of a artichoke."
+  },
+  {
+    "class_id": 29,
+    "dataset_name": "sweet william",
+    "prompt_name": "sweet william",
+    "prompt": "a photo of a sweet william."
+  },
+  {
+    "class_id": 30,
+    "dataset_name": "carnation",
+    "prompt_name": "carnation",
+    "prompt": "a photo of a carnation."
+  },
+  {
+    "class_id": 31,
+    "dataset_name": "garden phlox",
+    "prompt_name": "garden phlox",
+    "prompt": "a photo of a garden phlox."
+  },
+  {
+    "class_id": 32,
+    "dataset_name": "love in the mist",
+    "prompt_name": "love in the mist",
+    "prompt": "a photo of a love in the mist."
+  },
+  {
+    "class_id": 33,
+    "dataset_name": "mexican aster",
+    "prompt_name": "mexican aster",
+    "prompt": "a photo of a mexican aster."
+  },
+  {
+    "class_id": 34,
+    "dataset_name": "alpine sea holly",
+    "prompt_name": "alpine sea holly",
+    "prompt": "a photo of a alpine sea holly."
+  },
+  {
+    "class_id": 35,
+    "dataset_name": "ruby-lipped cattleya",
+    "prompt_name": "ruby-lipped cattleya",
+    "prompt": "a photo of a ruby-lipped cattleya."
+  },
+  {
+    "class_id": 36,
+    "dataset_name": "cape flower",
+    "prompt_name": "cape flower",
+    "prompt": "a photo of a cape flower."
+  },
+  {
+    "class_id": 37,
+    "dataset_name": "great masterwort",
+    "prompt_name": "great masterwort",
+    "prompt": "a photo of a great masterwort."
+  },
+  {
+    "class_id": 38,
+    "dataset_name": "siam tulip",
+    "prompt_name": "siam tulip",
+    "prompt": "a photo of a siam tulip."
+  },
+  {
+    "class_id": 39,
+    "dataset_name": "lenten rose",
+    "prompt_name": "lenten rose",
+    "prompt": "a photo of a lenten rose."
+  },
+  {
+    "class_id": 40,
+    "dataset_name": "barbeton daisy",
+    "prompt_name": "barbeton daisy",
+    "prompt": "a photo of a barbeton daisy."
+  },
+  {
+    "class_id": 41,
+    "dataset_name": "daffodil",
+    "prompt_name": "daffodil",
+    "prompt": "a photo of a daffodil."
+  },
+  {
+    "class_id": 42,
+    "dataset_name": "sword lily",
+    "prompt_name": "sword lily",
+    "prompt": "a photo of a sword lily."
+  },
+  {
+    "class_id": 43,
+    "dataset_name": "poinsettia",
+    "prompt_name": "poinsettia",
+    "prompt": "a photo of a poinsettia."
+  },
+  {
+    "class_id": 44,
+    "dataset_name": "bolero deep blue",
+    "prompt_name": "bolero deep blue",
+    "prompt": "a photo of a bolero deep blue."
+  },
+  {
+    "class_id": 45,
+    "dataset_name": "wallflower",
+    "prompt_name": "wallflower",
+    "prompt": "a photo of a wallflower."
+  },
+  {
+    "class_id": 46,
+    "dataset_name": "marigold",
+    "prompt_name": "marigold",
+    "prompt": "a photo of a marigold."
+  },
+  {
+    "class_id": 47,
+    "dataset_name": "buttercup",
+    "prompt_name": "buttercup",
+    "prompt": "a photo of a buttercup."
+  },
+  {
+    "class_id": 48,
+    "dataset_name": "oxeye daisy",
+    "prompt_name": "oxeye daisy",
+    "prompt": "a photo of a oxeye daisy."
+  },
+  {
+    "class_id": 49,
+    "dataset_name": "common dandelion",
+    "prompt_name": "common dandelion",
+    "prompt": "a photo of a common dandelion."
+  },
+  {
+    "class_id": 50,
+    "dataset_name": "petunia",
+    "prompt_name": "petunia",
+    "prompt": "a photo of a petunia."
+  },
+  {
+    "class_id": 51,
+    "dataset_name": "wild pansy",
+    "prompt_name": "wild pansy",
+    "prompt": "a photo of a wild pansy."
+  },
+  {
+    "class_id": 52,
+    "dataset_name": "primula",
+    "prompt_name": "primula",
+    "prompt": "a photo of a primula."
+  },
+  {
+    "class_id": 53,
+    "dataset_name": "sunflower",
+    "prompt_name": "sunflower",
+    "prompt": "a photo of a sunflower."
+  },
+  {
+    "class_id": 54,
+    "dataset_name": "pelargonium",
+    "prompt_name": "pelargonium",
+    "prompt": "a photo of a pelargonium."
+  },
+  {
+    "class_id": 55,
+    "dataset_name": "bishop of llandaff",
+    "prompt_name": "bishop of llandaff",
+    "prompt": "a photo of a bishop of llandaff."
+  },
+  {
+    "class_id": 56,
+    "dataset_name": "gaura",
+    "prompt_name": "gaura",
+    "prompt": "a photo of a gaura."
+  },
+  {
+    "class_id": 57,
+    "dataset_name": "geranium",
+    "prompt_name": "geranium",
+    "prompt": "a photo of a geranium."
+  },
+  {
+    "class_id": 58,
+    "dataset_name": "orange dahlia",
+    "prompt_name": "orange dahlia",
+    "prompt": "a photo of a orange dahlia."
+  },
+  {
+    "class_id": 59,
+    "dataset_name": "pink-yellow dahlia?",
+    "prompt_name": "pink-yellow dahlia?",
+    "prompt": "a photo of a pink-yellow dahlia?."
+  },
+  {
+    "class_id": 60,
+    "dataset_name": "cautleya spicata",
+    "prompt_name": "cautleya spicata",
+    "prompt": "a photo of a cautleya spicata."
+  },
+  {
+    "class_id": 61,
+    "dataset_name": "japanese anemone",
+    "prompt_name": "japanese anemone",
+    "prompt": "a photo of a japanese anemone."
+  },
+  {
+    "class_id": 62,
+    "dataset_name": "black-eyed susan",
+    "prompt_name": "black-eyed susan",
+    "prompt": "a photo of a black-eyed susan."
+  },
+  {
+    "class_id": 63,
+    "dataset_name": "silverbush",
+    "prompt_name": "silverbush",
+    "prompt": "a photo of a silverbush."
+  },
+  {
+    "class_id": 64,
+    "dataset_name": "californian poppy",
+    "prompt_name": "californian poppy",
+    "prompt": "a photo of a californian poppy."
+  },
+  {
+    "class_id": 65,
+    "dataset_name": "osteospermum",
+    "prompt_name": "osteospermum",
+    "prompt": "a photo of a osteospermum."
+  },
+  {
+    "class_id": 66,
+    "dataset_name": "spring crocus",
+    "prompt_name": "spring crocus",
+    "prompt": "a photo of a spring crocus."
+  },
+  {
+    "class_id": 67,
+    "dataset_name": "bearded iris",
+    "prompt_name": "bearded iris",
+    "prompt": "a photo of a bearded iris."
+  },
+  {
+    "class_id": 68,
+    "dataset_name": "windflower",
+    "prompt_name": "windflower",
+    "prompt": "a photo of a windflower."
+  },
+  {
+    "class_id": 69,
+    "dataset_name": "tree poppy",
+    "prompt_name": "tree poppy",
+    "prompt": "a photo of a tree poppy."
+  },
+  {
+    "class_id": 70,
+    "dataset_name": "gazania",
+    "prompt_name": "gazania",
+    "prompt": "a photo of a gazania."
+  },
+  {
+    "class_id": 71,
+    "dataset_name": "azalea",
+    "prompt_name": "azalea",
+    "prompt": "a photo of a azalea."
+  },
+  {
+    "class_id": 72,
+    "dataset_name": "water lily",
+    "prompt_name": "water lily",
+    "prompt": "a photo of a water lily."
+  },
+  {
+    "class_id": 73,
+    "dataset_name": "rose",
+    "prompt_name": "rose",
+    "prompt": "a photo of a rose."
+  },
+  {
+    "class_id": 74,
+    "dataset_name": "thorn apple",
+    "prompt_name": "thorn apple",
+    "prompt": "a photo of a thorn apple."
+  },
+  {
+    "class_id": 75,
+    "dataset_name": "morning glory",
+    "prompt_name": "morning glory",
+    "prompt": "a photo of a morning glory."
+  },
+  {
+    "class_id": 76,
+    "dataset_name": "passion flower",
+    "prompt_name": "passion flower",
+    "prompt": "a photo of a passion flower."
+  },
+  {
+    "class_id": 77,
+    "dataset_name": "lotus",
+    "prompt_name": "lotus",
+    "prompt": "a photo of a lotus."
+  },
+  {
+    "class_id": 78,
+    "dataset_name": "toad lily",
+    "prompt_name": "toad lily",
+    "prompt": "a photo of a toad lily."
+  },
+  {
+    "class_id": 79,
+    "dataset_name": "anthurium",
+    "prompt_name": "anthurium",
+    "prompt": "a photo of a anthurium."
+  },
+  {
+    "class_id": 80,
+    "dataset_name": "frangipani",
+    "prompt_name": "frangipani",
+    "prompt": "a photo of a frangipani."
+  },
+  {
+    "class_id": 81,
+    "dataset_name": "clematis",
+    "prompt_name": "clematis",
+    "prompt": "a photo of a clematis."
+  },
+  {
+    "class_id": 82,
+    "dataset_name": "hibiscus",
+    "prompt_name": "hibiscus",
+    "prompt": "a photo of a hibiscus."
+  },
+  {
+    "class_id": 83,
+    "dataset_name": "columbine",
+    "prompt_name": "columbine",
+    "prompt": "a photo of a columbine."
+  },
+  {
+    "class_id": 84,
+    "dataset_name": "desert-rose",
+    "prompt_name": "desert-rose",
+    "prompt": "a photo of a desert-rose."
+  },
+  {
+    "class_id": 85,
+    "dataset_name": "tree mallow",
+    "prompt_name": "tree mallow",
+    "prompt": "a photo of a tree mallow."
+  },
+  {
+    "class_id": 86,
+    "dataset_name": "magnolia",
+    "prompt_name": "magnolia",
+    "prompt": "a photo of a magnolia."
+  },
+  {
+    "class_id": 87,
+    "dataset_name": "cyclamen",
+    "prompt_name": "cyclamen",
+    "prompt": "a photo of a cyclamen."
+  },
+  {
+    "class_id": 88,
+    "dataset_name": "watercress",
+    "prompt_name": "watercress",
+    "prompt": "a photo of a watercress."
+  },
+  {
+    "class_id": 89,
+    "dataset_name": "canna lily",
+    "prompt_name": "canna lily",
+    "prompt": "a photo of a canna lily."
+  },
+  {
+    "class_id": 90,
+    "dataset_name": "hippeastrum",
+    "prompt_name": "hippeastrum",
+    "prompt": "a photo of a hippeastrum."
+  },
+  {
+    "class_id": 91,
+    "dataset_name": "bee balm",
+    "prompt_name": "bee balm",
+    "prompt": "a photo of a bee balm."
+  },
+  {
+    "class_id": 92,
+    "dataset_name": "ball moss",
+    "prompt_name": "ball moss",
+    "prompt": "a photo of a ball moss."
+  },
+  {
+    "class_id": 93,
+    "dataset_name": "foxglove",
+    "prompt_name": "foxglove",
+    "prompt": "a photo of a foxglove."
+  },
+  {
+    "class_id": 94,
+    "dataset_name": "bougainvillea",
+    "prompt_name": "bougainvillea",
+    "prompt": "a photo of a bougainvillea."
+  },
+  {
+    "class_id": 95,
+    "dataset_name": "camellia",
+    "prompt_name": "camellia",
+    "prompt": "a photo of a camellia."
+  },
+  {
+    "class_id": 96,
+    "dataset_name": "mallow",
+    "prompt_name": "mallow",
+    "prompt": "a photo of a mallow."
+  },
+  {
+    "class_id": 97,
+    "dataset_name": "mexican petunia",
+    "prompt_name": "mexican petunia",
+    "prompt": "a photo of a mexican petunia."
+  },
+  {
+    "class_id": 98,
+    "dataset_name": "bromelia",
+    "prompt_name": "bromelia",
+    "prompt": "a photo of a bromelia."
+  },
+  {
+    "class_id": 99,
+    "dataset_name": "blanket flower",
+    "prompt_name": "blanket flower",
+    "prompt": "a photo of a blanket flower."
+  },
+  {
+    "class_id": 100,
+    "dataset_name": "trumpet creeper",
+    "prompt_name": "trumpet creeper",
+    "prompt": "a photo of a trumpet creeper."
+  },
+  {
+    "class_id": 101,
+    "dataset_name": "blackberry lily",
+    "prompt_name": "blackberry lily",
+    "prompt": "a photo of a blackberry lily."
+  }
+]

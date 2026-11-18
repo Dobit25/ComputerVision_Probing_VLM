@@ -1,0 +1,224 @@
+[
+  {
+    "class_id": 0,
+    "dataset_name": "Abyssinian",
+    "prompt_name": "Abyssinian",
+    "prompt": "a photo of a Abyssinian."
+  },
+  {
+    "class_id": 1,
+    "dataset_name": "American Bulldog",
+    "prompt_name": "American Bulldog",
+    "prompt": "a photo of a American Bulldog."
+  },
+  {
+    "class_id": 2,
+    "dataset_name": "American Pit Bull Terrier",
+    "prompt_name": "American Pit Bull Terrier",
+    "prompt": "a photo of a American Pit Bull Terrier."
+  },
+  {
+    "class_id": 3,
+    "dataset_name": "Basset Hound",
+    "prompt_name": "Basset Hound",
+    "prompt": "a photo of a Basset Hound."
+  },
+  {
+    "class_id": 4,
+    "dataset_name": "Beagle",
+    "prompt_name": "Beagle",
+    "prompt": "a photo of a Beagle."
+  },
+  {
+    "class_id": 5,
+    "dataset_name": "Bengal",
+    "prompt_name": "Bengal",
+    "prompt": "a photo of a Bengal."
+  },
+  {
+    "class_id": 6,
+    "dataset_name": "Birman",
+    "prompt_name": "Birman",
+    "prompt": "a photo of a Birman."
+  },
+  {
+    "class_id": 7,
+    "dataset_name": "Bombay",
+    "prompt_name": "Bombay",
+    "prompt": "a photo of a Bombay."
+  },
+  {
+    "class_id": 8,
+    "dataset_name": "Boxer",
+    "prompt_name": "Boxer",
+    "prompt": "a photo of a Boxer."
+  },
+  {
+    "class_id": 9,
+    "dataset_name": "British Shorthair",
+    "prompt_name": "British Shorthair",
+    "prompt": "a photo of a British Shorthair."
+  },
+  {
+    "class_id": 10,
+    "dataset_name": "Chihuahua",
+    "prompt_name": "Chihuahua",
+    "prompt": "a photo of a Chihuahua."
+  },
+  {
+    "class_id": 11,
+    "dataset_name": "Egyptian Mau",
+    "prompt_name": "Egyptian Mau",
+    "prompt": "a photo of a Egyptian Mau."
+  },
+  {
+    "class_id": 12,
+    "dataset_name": "English Cocker Spaniel",
+    "prompt_name": "English Cocker Spaniel",
+    "prompt": "a photo of a English Cocker Spaniel."
+  },
+  {
+    "class_id": 13,
+    "dataset_name": "English Setter",
+    "prompt_name": "English Setter",
+    "prompt": "a photo of a English Setter."
+  },
+  {
+    "class_id": 14,
+    "dataset_name": "German Shorthaired",
+    "prompt_name": "German Shorthaired",
+    "prompt": "a photo of a German Shorthaired."
+  },
+  {
+    "class_id": 15,
+    "dataset_name": "Great Pyrenees",
+    "prompt_name": "Great Pyrenees",
+    "prompt": "a photo of a Great Pyrenees."
+  },
+  {
+    "class_id": 16,
+    "dataset_name": "Havanese",
+    "prompt_name": "Havanese",
+    "prompt": "a photo of a Havanese."
+  },
+  {
+    "class_id": 17,
+    "dataset_name": "Japanese Chin",
+    "prompt_name": "Japanese Chin",
+    "prompt": "a photo of a Japanese Chin."
+  },
+  {
+    "class_id": 18,
+    "dataset_name": "Keeshond",
+    "prompt_name": "Keeshond",
+    "prompt": "a photo of a Keeshond."
+  },
+  {
+    "class_id": 19,
+    "dataset_name": "Leonberger",
+    "prompt_name": "Leonberger",
+    "prompt": "a photo of a Leonberger."
+  },
+  {
+    "class_id": 20,
+    "dataset_name": "Maine Coon",
+    "prompt_name": "Maine Coon",
+    "prompt": "a photo of a Maine Coon."
+  },
+  {
+    "class_id": 21,
+    "dataset_name": "Miniature Pinscher",
+    "prompt_name": "Miniature Pinscher",
+    "prompt": "a photo of a Miniature Pinscher."
+  },
+  {
+    "class_id": 22,
+    "dataset_name": "Newfoundland",
+    "prompt_name": "Newfoundland",
+    "prompt": "a photo of a Newfoundland."
+  },
+  {
+    "class_id": 23,
+    "dataset_name": "Persian",
+    "prompt_name": "Persian",
+    "prompt": "a photo of a Persian."
+  },
+  {
+    "class_id": 24,
+    "dataset_name": "Pomeranian",
+    "prompt_name": "Pomeranian",
+    "prompt": "a photo of a Pomeranian."
+  },
+  {
+    "class_id": 25,
+    "dataset_name": "Pug",
+    "prompt_name": "Pug",
+    "prompt": "a photo of a Pug."
+  },
+  {
+    "class_id": 26,
+    "dataset_name": "Ragdoll",
+    "prompt_name": "Ragdoll",
+    "prompt": "a photo of a Ragdoll."
+  },
+  {
+    "class_id": 27,
+    "dataset_name": "Russian Blue",
+    "prompt_name": "Russian Blue",
+    "prompt": "a photo of a Russian Blue."
+  },
+  {
+    "class_id": 28,
+    "dataset_name": "Saint Bernard",
+    "prompt_name": "Saint Bernard",
+    "prompt": "a photo of a Saint Bernard."
+  },
+  {
+    "class_id": 29,
+    "dataset_name": "Samoyed",
+    "prompt_name": "Samoyed",
+    "prompt": "a photo of a Samoyed."
+  },
+  {
+    "class_id": 30,
+    "dataset_name": "Scottish Terrier",
+    "prompt_name": "Scottish Terrier",
+    "prompt": "a photo of a Scottish Terrier."
+  },
+  {
+    "class_id": 31,
+    "dataset_name": "Shiba Inu",
+    "prompt_name": "Shiba Inu",
+    "prompt": "a photo of a Shiba Inu."
+  },
+  {
+    "class_id": 32,
+    "dataset_name": "Siamese",
+    "prompt_name": "Siamese",
+    "prompt": "a photo of a Siamese."
+  },
+  {
+    "class_id": 33,
+    "dataset_name": "Sphynx",
+    "prompt_name": "Sphynx",
+    "prompt": "a photo of a Sphynx."
+  },
+  {
+    "class_id": 34,
+    "dataset_name": "Staffordshire Bull Terrier",
+    "prompt_name": "Staffordshire Bull Terrier",
+    "prompt": "a photo of a Staffordshire Bull Terrier."
+  },
+  {
+    "class_id": 35,
+    "dataset_name": "Wheaten Terrier",
+    "prompt_name": "Wheaten Terrier",
+    "prompt": "a photo of a Wheaten Terrier."
+  },
+  {
+    "class_id": 36,
+    "dataset_name": "Yorkshire Terrier",
+    "prompt_name": "Yorkshire Terrier",
+    "prompt": "a photo of a Yorkshire Terrier."
+  }
+]

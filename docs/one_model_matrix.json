@@ -1,0 +1,144 @@
+{
+  "version": 2,
+  "scope": "one_model_five_datasets",
+  "supersedes": "experiment_matrix.json",
+  "model": "OpenAI CLIP ViT-B/32",
+  "classification": [
+    {
+      "dataset": "CIFAR-100",
+      "config": "configs/clip_b32_cifar100.json",
+      "full_run": "results/full_cifar100_clip_b32_v1",
+      "checkpoint_sha256": "40d365715913c9da98579312b702a82c18be219cc2a73407c4526f58eba950af",
+      "prompt": "a photo of a {class}.",
+      "status": "completed_verified",
+      "verified_result": {
+        "verified": true,
+        "dataset": "CIFAR100",
+        "num_classes": 100,
+        "mode": "full_test",
+        "num_samples": 10000,
+        "correct": 6448,
+        "top1_accuracy_percent": 64.48
+      }
+    },
+    {
+      "dataset": "Flowers102",
+      "config": "configs/clip_b32_flowers102.json",
+      "full_run": "results/full_flowers102_clip_b32_v2",
+      "checkpoint_sha256": "40d365715913c9da98579312b702a82c18be219cc2a73407c4526f58eba950af",
+      "prompt": "a photo of a {class}.",
+      "status": "completed_verified",
+      "verified_result": {
+        "verified": true,
+        "dataset": "Flowers102",
+        "num_classes": 102,
+        "mode": "full_test",
+        "num_samples": 6149,
+        "correct": 3921,
+        "top1_accuracy_percent": 63.76646609204749
+      }
+    },
+    {
+      "dataset": "Oxford-IIIT Pet",
+      "config": "configs/clip_b32_oxford_pet.json",
+      "full_run": "results/full_oxford_pet_clip_b32_v3",
+      "checkpoint_sha256": "40d365715913c9da98579312b702a82c18be219cc2a73407c4526f58eba950af",
+      "prompt": "a photo of a {class}.",
+      "status": "completed_verified",
+      "verified_result": {
+        "verified": true,
+        "dataset": "OxfordIIITPet",
+        "num_classes": 37,
+        "mode": "full_test",
+        "num_samples": 3669,
+        "correct": 3121,
+        "top1_accuracy_percent": 85.0640501499046
+      }
+    },
+    {
+      "dataset": "DTD partition 1",
+      "config": "configs/clip_b32_dtd.json",
+      "full_run": "results/full_dtd_clip_b32_v3",
+      "checkpoint_sha256": "40d365715913c9da98579312b702a82c18be219cc2a73407c4526f58eba950af",
+      "prompt": "a photo of a {class} texture.",
+      "status": "completed_verified",
+      "verified_result": {
+        "verified": true,
+        "dataset": "DTD",
+        "num_classes": 47,
+        "mode": "full_test",
+        "num_samples": 1880,
+        "correct": 798,
+        "top1_accuracy_percent": 42.4468085106383
+      }
+    },
+    {
+      "dataset": "Food-101",
+      "config": "configs/clip_b32_food101.json",
+      "full_run": "results/full_food101_clip_b32_v3",
+      "checkpoint_sha256": "40d365715913c9da98579312b702a82c18be219cc2a73407c4526f58eba950af",
+      "prompt": "a photo of a {class}.",
+      "status": "completed_verified",
+      "verified_result": {
+        "verified": true,
+        "dataset": "Food101",
+        "num_classes": 101,
+        "mode": "full_test",
+        "num_samples": 25250,
+        "correct": 20784,
+        "top1_accuracy_percent": 82.31287128712871
+      }
+    }
+  ],
+  "probing_config": "configs/probing_clip_b32_v1.json",
+  "protocol": "probing_protocol.md",
+  "probing": {
+    "status": "completed_verified",
+    "full_run": "results/full_probing_clip_b32_v1",
+    "audit": "results/full_probing_clip_b32_v1_audit.json",
+    "verified_result": {
+      "verified": true,
+      "mode": "full",
+      "num_samples": 13240,
+      "global_fine_grained_predictions_match_baseline": true,
+      "tasks": {
+        "counting": {
+          "num_samples": 1080,
+          "correct": 355,
+          "accuracy_percent": 32.870370370370374,
+          "accuracy_ci95_group_bootstrap": [
+            0.30648148148148147,
+            0.3500231481481481
+          ]
+        },
+        "spatial": {
+          "num_samples": 720,
+          "correct": 213,
+          "accuracy_percent": 29.583333333333332,
+          "accuracy_ci95_group_bootstrap": [
+            0.27774305555555556,
+            0.31527777777777777
+          ]
+        },
+        "negation": {
+          "num_samples": 1440,
+          "correct": 1240,
+          "accuracy_percent": 86.11111111111111,
+          "accuracy_ci95_group_bootstrap": [
+            0.8423437500000001,
+            0.8805555555555555
+          ]
+        },
+        "fine_grained": {
+          "num_samples": 10000,
+          "correct": 7795,
+          "accuracy_percent": 77.95,
+          "accuracy_ci95_group_bootstrap": [
+            0.7715974999999999,
+            0.7877025
+          ]
+        }
+      }
+    }
+  }
+}

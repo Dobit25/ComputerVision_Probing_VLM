@@ -1,0 +1,10 @@
+{
+  "eligible_directed_pairs": 1630,
+  "eligible_source_images": 704,
+  "reserve_by_relation": {
+    "2": 100,
+    "3": 100,
+    "0": 100,
+    "1": 100
+  }
+}

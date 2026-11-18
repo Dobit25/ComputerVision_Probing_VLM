@@ -1,0 +1,524 @@
+{
+  "synthetic_depth": {
+    "stage": "spatial",
+    "run_dir": "results/full_depth_spatial_v1",
+    "conditions": {
+      "t0_o0_horizontal": {
+        "n_pairs": 360,
+        "mean_abs_prior_bias_B": 0.0031375739723443984,
+        "mean_abs_spatial_signal_delta": 0.0002772858159409629,
+        "mean_signed_prior_bias_B": 0.003030154895451334,
+        "mean_signed_spatial_signal_delta": -4.555818935235341e-05,
+        "aggregate_prior_to_signal_ratio": 11.315306416583606,
+        "median_pair_psr": 12.508897790579939,
+        "prior_dominates_signal_percent": 98.61111111111111,
+        "same_prediction_collapse_percent": 98.61111111111111,
+        "assignment_accuracy_percent": 45.0,
+        "assignment_ci95_percent": [
+          40.0,
+          49.72222222222222
+        ],
+        "both_images_correct_percent": 1.1111111111111112,
+        "both_images_correct_ci95_percent": [
+          0.2777777777777778,
+          2.2222222222222223
+        ]
+      },
+      "t0_o0_vertical": {
+        "n_pairs": 360,
+        "mean_abs_prior_bias_B": 0.0059072778456740905,
+        "mean_abs_spatial_signal_delta": 0.0005054271883434719,
+        "mean_signed_prior_bias_B": 0.0008386201328701443,
+        "mean_signed_spatial_signal_delta": -6.224347485436333e-05,
+        "aggregate_prior_to_signal_ratio": 11.687693068184721,
+        "median_pair_psr": 10.56093910049982,
+        "prior_dominates_signal_percent": 93.05555555555556,
+        "same_prediction_collapse_percent": 93.05555555555556,
+        "assignment_accuracy_percent": 42.5,
+        "assignment_ci95_percent": [
+          36.94444444444444,
+          47.50694444444441
+        ],
+        "both_images_correct_percent": 2.7777777777777777,
+        "both_images_correct_ci95_percent": [
+          1.3819444444444449,
+          4.444444444444445
+        ]
+      },
+      "t0_o1_horizontal": {
+        "n_pairs": 360,
+        "mean_abs_prior_bias_B": 0.0031205575499269698,
+        "mean_abs_spatial_signal_delta": 0.00028207823634147645,
+        "mean_signed_prior_bias_B": -0.002996073497666253,
+        "mean_signed_spatial_signal_delta": -4.315864708688524e-05,
+        "aggregate_prior_to_signal_ratio": 11.06273773687845,
+        "median_pair_psr": 12.1585094259463,
+        "prior_dominates_signal_percent": 96.94444444444444,
+        "same_prediction_collapse_percent": 96.94444444444444,
+        "assignment_accuracy_percent": 44.44444444444444,
+        "assignment_ci95_percent": [
+          39.166666666666664,
+          50.0
+        ],
+        "both_images_correct_percent": 1.3888888888888888,
+        "both_images_correct_ci95_percent": [
+          0.2777777777777778,
+          2.7777777777777777
+        ]
+      },
+      "t0_o1_vertical": {
+        "n_pairs": 360,
+        "mean_abs_prior_bias_B": 0.005945094178120295,
+        "mean_abs_spatial_signal_delta": 0.0005324694017569224,
+        "mean_signed_prior_bias_B": -0.0010490778419706556,
+        "mean_signed_spatial_signal_delta": -1.8577194876141017e-05,
+        "aggregate_prior_to_signal_ratio": 11.165137674585647,
+        "median_pair_psr": 9.627049379845666,
+        "prior_dominates_signal_percent": 92.5,
+        "same_prediction_collapse_percent": 92.5,
+        "assignment_accuracy_percent": 45.55555555555556,
+        "assignment_ci95_percent": [
+          40.27777777777778,
+          50.83333333333333
+        ],
+        "both_images_correct_percent": 3.3333333333333335,
+        "both_images_correct_ci95_percent": [
+          1.1111111111111112,
+          5.833333333333333
+        ]
+      },
+      "t1_o0_horizontal": {
+        "n_pairs": 360,
+        "mean_abs_prior_bias_B": 0.0017504182954629262,
+        "mean_abs_spatial_signal_delta": 0.00021407488319608901,
+        "mean_signed_prior_bias_B": -0.0012441306478447383,
+        "mean_signed_spatial_signal_delta": -1.811244421535068e-05,
+        "aggregate_prior_to_signal_ratio": 8.176663554965355,
+        "median_pair_psr": 8.209891549539975,
+        "prior_dominates_signal_percent": 90.83333333333333,
+        "same_prediction_collapse_percent": 90.83333333333333,
+        "assignment_accuracy_percent": 48.61111111111111,
+        "assignment_ci95_percent": [
+          42.77777777777778,
+          54.166666666666664
+        ],
+        "both_images_correct_percent": 4.166666666666666,
+        "both_images_correct_ci95_percent": [
+          2.2222222222222223,
+          6.388888888888888
+        ]
+      },
+      "t1_o0_vertical": {
+        "n_pairs": 360,
+        "mean_abs_prior_bias_B": 0.007214404808150397,
+        "mean_abs_spatial_signal_delta": 0.0005085096591048771,
+        "mean_signed_prior_bias_B": 0.005752098560333252,
+        "mean_signed_spatial_signal_delta": 7.963346110449898e-06,
+        "aggregate_prior_to_signal_ratio": 14.187350582189175,
+        "median_pair_psr": 15.641255257334047,
+        "prior_dominates_signal_percent": 99.72222222222223,
+        "same_prediction_collapse_percent": 99.72222222222223,
+        "assignment_accuracy_percent": 47.5,
+        "assignment_ci95_percent": [
+          42.22222222222222,
+          52.77777777777778
+        ],
+        "both_images_correct_percent": 0.0,
+        "both_images_correct_ci95_percent": [
+          0.0,
+          0.0
+        ]
+      },
+      "t1_o1_horizontal": {
+        "n_pairs": 360,
+        "mean_abs_prior_bias_B": 0.0018300680236683952,
+        "mean_abs_spatial_signal_delta": 0.00023073806530899473,
+        "mean_signed_prior_bias_B": 0.0012103867613606984,
+        "mean_signed_spatial_signal_delta": -4.1135110788875156e-05,
+        "aggregate_prior_to_signal_ratio": 7.93136590279391,
+        "median_pair_psr": 7.855282412240889,
+        "prior_dominates_signal_percent": 89.16666666666667,
+        "same_prediction_collapse_percent": 89.16666666666667,
+        "assignment_accuracy_percent": 41.66666666666667,
+        "assignment_ci95_percent": [
+          36.388888888888886,
+          47.22222222222222
+        ],
+        "both_images_correct_percent": 4.444444444444445,
+        "both_images_correct_ci95_percent": [
+          2.2222222222222223,
+          6.944444444444445
+        ]
+      },
+      "t1_o1_vertical": {
+        "n_pairs": 360,
+        "mean_abs_prior_bias_B": 0.007175582440363037,
+        "mean_abs_spatial_signal_delta": 0.0004941892706685596,
+        "mean_signed_prior_bias_B": -0.005822091094321675,
+        "mean_signed_spatial_signal_delta": 5.1715018020735846e-05,
+        "aggregate_prior_to_signal_ratio": 14.51990738418018,
+        "median_pair_psr": 17.415676456391047,
+        "prior_dominates_signal_percent": 99.72222222222223,
+        "same_prediction_collapse_percent": 99.72222222222223,
+        "assignment_accuracy_percent": 49.44444444444444,
+        "assignment_ci95_percent": [
+          44.44444444444444,
+          54.166666666666664
+        ],
+        "both_images_correct_percent": 0.0,
+        "both_images_correct_ci95_percent": [
+          0.0,
+          0.0
+        ]
+      },
+      "t2_o0_horizontal": {
+        "n_pairs": 360,
+        "mean_abs_prior_bias_B": 0.0016875029024150637,
+        "mean_abs_spatial_signal_delta": 0.0002710000922282537,
+        "mean_signed_prior_bias_B": 0.0004126585606071684,
+        "mean_signed_spatial_signal_delta": -3.659845226340824e-05,
+        "aggregate_prior_to_signal_ratio": 6.226945860201923,
+        "median_pair_psr": 7.050975389720919,
+        "prior_dominates_signal_percent": 91.11111111111111,
+        "same_prediction_collapse_percent": 91.11111111111111,
+        "assignment_accuracy_percent": 45.27777777777778,
+        "assignment_ci95_percent": [
+          40.27777777777778,
+          50.27777777777778
+        ],
+        "both_images_correct_percent": 3.0555555555555554,
+        "both_images_correct_ci95_percent": [
+          1.3888888888888888,
+          4.722222222222222
+        ]
+      },
+      "t2_o0_vertical": {
+        "n_pairs": 360,
+        "mean_abs_prior_bias_B": 0.006540055862731404,
+        "mean_abs_spatial_signal_delta": 0.0005419672777255376,
+        "mean_signed_prior_bias_B": 0.001256511981288592,
+        "mean_signed_spatial_signal_delta": -7.284387118286557e-05,
+        "aggregate_prior_to_signal_ratio": 12.067252270612933,
+        "median_pair_psr": 9.939951392157642,
+        "prior_dominates_signal_percent": 95.27777777777777,
+        "same_prediction_collapse_percent": 95.27777777777777,
+        "assignment_accuracy_percent": 41.11111111111111,
+        "assignment_ci95_percent": [
+          36.11111111111111,
+          45.83333333333333
+        ],
+        "both_images_correct_percent": 0.8333333333333334,
+        "both_images_correct_ci95_percent": [
+          0.0,
+          2.2222222222222223
+        ]
+      },
+      "t2_o1_horizontal": {
+        "n_pairs": 360,
+        "mean_abs_prior_bias_B": 0.001669545140531328,
+        "mean_abs_spatial_signal_delta": 0.00027661845088005065,
+        "mean_signed_prior_bias_B": -0.0004747223522928026,
+        "mean_signed_spatial_signal_delta": -4.041691621144613e-05,
+        "aggregate_prior_to_signal_ratio": 6.035552347356933,
+        "median_pair_psr": 6.101544865138916,
+        "prior_dominates_signal_percent": 90.27777777777779,
+        "same_prediction_collapse_percent": 90.27777777777779,
+        "assignment_accuracy_percent": 44.72222222222222,
+        "assignment_ci95_percent": [
+          40.0,
+          49.72916666666663
+        ],
+        "both_images_correct_percent": 3.3333333333333335,
+        "both_images_correct_ci95_percent": [
+          1.6666666666666667,
+          5.277777777777778
+        ]
+      },
+      "t2_o1_vertical": {
+        "n_pairs": 360,
+        "mean_abs_prior_bias_B": 0.006670293170544836,
+        "mean_abs_spatial_signal_delta": 0.00058005481130547,
+        "mean_signed_prior_bias_B": -0.0016004794587691626,
+        "mean_signed_spatial_signal_delta": -1.3799923989507886e-05,
+        "aggregate_prior_to_signal_ratio": 11.499418745502155,
+        "median_pair_psr": 10.928182201020375,
+        "prior_dominates_signal_percent": 96.11111111111111,
+        "same_prediction_collapse_percent": 96.11111111111111,
+        "assignment_accuracy_percent": 43.888888888888886,
+        "assignment_ci95_percent": [
+          38.88888888888889,
+          48.888888888888886
+        ],
+        "both_images_correct_percent": 1.3888888888888888,
+        "both_images_correct_ci95_percent": [
+          0.2777777777777778,
+          2.7777777777777777
+        ]
+      }
+    }
+  },
+  "natural_exploratory": {
+    "stage": "natural",
+    "run_dir": "results/full_depth_natural_v1",
+    "conditions": {
+      "t0_o0_horizontal": {
+        "n_pairs": 100,
+        "mean_abs_prior_bias_B": 0.005844559669494629,
+        "mean_abs_spatial_signal_delta": 0.00040153414011001587,
+        "mean_signed_prior_bias_B": -0.005100348144769669,
+        "mean_signed_spatial_signal_delta": -1.1700987815856934e-05,
+        "aggregate_prior_to_signal_ratio": 14.555573451097546,
+        "median_pair_psr": 16.773655704247574,
+        "prior_dominates_signal_percent": 96.0,
+        "same_prediction_collapse_percent": 96.0,
+        "assignment_accuracy_percent": 55.00000000000001,
+        "assignment_ci95_percent": [
+          46.0,
+          65.0
+        ],
+        "both_images_correct_percent": 3.0,
+        "both_images_correct_ci95_percent": [
+          0.0,
+          7.000000000000001
+        ]
+      },
+      "t0_o1_horizontal": {
+        "n_pairs": 100,
+        "mean_abs_prior_bias_B": 0.005491064786911011,
+        "mean_abs_spatial_signal_delta": 0.0003530886769294739,
+        "mean_signed_prior_bias_B": 0.004957595616579056,
+        "mean_signed_spatial_signal_delta": 6.133317947387695e-07,
+        "aggregate_prior_to_signal_ratio": 15.551517637615433,
+        "median_pair_psr": 19.420479226902224,
+        "prior_dominates_signal_percent": 93.0,
+        "same_prediction_collapse_percent": 93.0,
+        "assignment_accuracy_percent": 53.0,
+        "assignment_ci95_percent": [
+          44.0,
+          63.0
+        ],
+        "both_images_correct_percent": 4.0,
+        "both_images_correct_ci95_percent": [
+          1.0,
+          8.0
+        ]
+      },
+      "t1_o0_horizontal": {
+        "n_pairs": 100,
+        "mean_abs_prior_bias_B": 0.005210899636149406,
+        "mean_abs_spatial_signal_delta": 0.0005024022608995437,
+        "mean_signed_prior_bias_B": 0.0012647119909524917,
+        "mean_signed_spatial_signal_delta": 5.459047853946686e-05,
+        "aggregate_prior_to_signal_ratio": 10.37196693107903,
+        "median_pair_psr": 9.459493325548014,
+        "prior_dominates_signal_percent": 95.0,
+        "same_prediction_collapse_percent": 95.0,
+        "assignment_accuracy_percent": 52.0,
+        "assignment_ci95_percent": [
+          42.0,
+          62.0
+        ],
+        "both_images_correct_percent": 2.0,
+        "both_images_correct_ci95_percent": [
+          0.0,
+          5.0
+        ]
+      },
+      "t1_o1_horizontal": {
+        "n_pairs": 100,
+        "mean_abs_prior_bias_B": 0.005283270105719566,
+        "mean_abs_spatial_signal_delta": 0.0004321209341287613,
+        "mean_signed_prior_bias_B": -0.0011875594407320022,
+        "mean_signed_spatial_signal_delta": -5.008853971958161e-05,
+        "aggregate_prior_to_signal_ratio": 12.226369260197155,
+        "median_pair_psr": 13.478147717644374,
+        "prior_dominates_signal_percent": 97.0,
+        "same_prediction_collapse_percent": 97.0,
+        "assignment_accuracy_percent": 46.0,
+        "assignment_ci95_percent": [
+          36.0,
+          56.00000000000001
+        ],
+        "both_images_correct_percent": 2.0,
+        "both_images_correct_ci95_percent": [
+          0.0,
+          5.0
+        ]
+      },
+      "t2_o0_horizontal": {
+        "n_pairs": 100,
+        "mean_abs_prior_bias_B": 0.0049486179649829865,
+        "mean_abs_spatial_signal_delta": 0.0004424586892127991,
+        "mean_signed_prior_bias_B": -0.003718126565217972,
+        "mean_signed_spatial_signal_delta": -3.837347030639648e-06,
+        "aggregate_prior_to_signal_ratio": 11.184361581388142,
+        "median_pair_psr": 11.715949670545061,
+        "prior_dominates_signal_percent": 93.0,
+        "same_prediction_collapse_percent": 93.0,
+        "assignment_accuracy_percent": 54.0,
+        "assignment_ci95_percent": [
+          45.0,
+          64.0
+        ],
+        "both_images_correct_percent": 4.0,
+        "both_images_correct_ci95_percent": [
+          1.0,
+          8.0
+        ]
+      },
+      "t2_o1_horizontal": {
+        "n_pairs": 100,
+        "mean_abs_prior_bias_B": 0.004771231636404991,
+        "mean_abs_spatial_signal_delta": 0.00034727968275547025,
+        "mean_signed_prior_bias_B": 0.003710903897881508,
+        "mean_signed_spatial_signal_delta": -1.097165048122406e-05,
+        "aggregate_prior_to_signal_ratio": 13.738873517010653,
+        "median_pair_psr": 14.776706492734782,
+        "prior_dominates_signal_percent": 95.0,
+        "same_prediction_collapse_percent": 95.0,
+        "assignment_accuracy_percent": 51.0,
+        "assignment_ci95_percent": [
+          41.0,
+          61.0
+        ],
+        "both_images_correct_percent": 4.0,
+        "both_images_correct_ci95_percent": [
+          1.0,
+          8.0
+        ]
+      }
+    }
+  },
+  "natural_confirmation": {
+    "stage": "natural_confirmation",
+    "run_dir": "results/full_natural_confirmation_v1",
+    "conditions": {
+      "t0_o0_horizontal": {
+        "n_pairs": 100,
+        "mean_abs_prior_bias_B": 0.006368444636464119,
+        "mean_abs_spatial_signal_delta": 0.0003461252897977829,
+        "mean_signed_prior_bias_B": -0.005640112236142159,
+        "mean_signed_spatial_signal_delta": 2.970211207866669e-05,
+        "aggregate_prior_to_signal_ratio": 18.399246816621698,
+        "median_pair_psr": 19.937469944870177,
+        "prior_dominates_signal_percent": 96.0,
+        "same_prediction_collapse_percent": 96.0,
+        "assignment_accuracy_percent": 52.0,
+        "assignment_ci95_percent": [
+          43.0,
+          62.0
+        ],
+        "both_images_correct_percent": 3.0,
+        "both_images_correct_ci95_percent": [
+          0.0,
+          7.000000000000001
+        ]
+      },
+      "t0_o1_horizontal": {
+        "n_pairs": 100,
+        "mean_abs_prior_bias_B": 0.006174114570021629,
+        "mean_abs_spatial_signal_delta": 0.0004177100211381912,
+        "mean_signed_prior_bias_B": 0.005432651862502098,
+        "mean_signed_spatial_signal_delta": 8.196331560611725e-05,
+        "aggregate_prior_to_signal_ratio": 14.780862937398966,
+        "median_pair_psr": 15.737952902811305,
+        "prior_dominates_signal_percent": 95.0,
+        "same_prediction_collapse_percent": 95.0,
+        "assignment_accuracy_percent": 54.0,
+        "assignment_ci95_percent": [
+          44.0,
+          64.0
+        ],
+        "both_images_correct_percent": 4.0,
+        "both_images_correct_ci95_percent": [
+          1.0,
+          9.0
+        ]
+      },
+      "t1_o0_horizontal": {
+        "n_pairs": 100,
+        "mean_abs_prior_bias_B": 0.004493061527609825,
+        "mean_abs_spatial_signal_delta": 0.00037812031805515287,
+        "mean_signed_prior_bias_B": 0.0006613460928201675,
+        "mean_signed_spatial_signal_delta": 3.8134083151817325e-05,
+        "aggregate_prior_to_signal_ratio": 11.882623897916178,
+        "median_pair_psr": 10.605954850540597,
+        "prior_dominates_signal_percent": 94.0,
+        "same_prediction_collapse_percent": 94.0,
+        "assignment_accuracy_percent": 55.00000000000001,
+        "assignment_ci95_percent": [
+          45.0,
+          65.0
+        ],
+        "both_images_correct_percent": 2.0,
+        "both_images_correct_ci95_percent": [
+          0.0,
+          5.0
+        ]
+      },
+      "t1_o1_horizontal": {
+        "n_pairs": 100,
+        "mean_abs_prior_bias_B": 0.004765997976064682,
+        "mean_abs_spatial_signal_delta": 0.0004479581117630005,
+        "mean_signed_prior_bias_B": -0.001151183396577835,
+        "mean_signed_spatial_signal_delta": 4.2082369327545165e-05,
+        "aggregate_prior_to_signal_ratio": 10.639383127380917,
+        "median_pair_psr": 11.519193834242607,
+        "prior_dominates_signal_percent": 95.0,
+        "same_prediction_collapse_percent": 95.0,
+        "assignment_accuracy_percent": 54.0,
+        "assignment_ci95_percent": [
+          44.0,
+          64.0
+        ],
+        "both_images_correct_percent": 1.0,
+        "both_images_correct_ci95_percent": [
+          0.0,
+          3.0
+        ]
+      },
+      "t2_o0_horizontal": {
+        "n_pairs": 100,
+        "mean_abs_prior_bias_B": 0.005459167957305908,
+        "mean_abs_spatial_signal_delta": 0.0003271786868572235,
+        "mean_signed_prior_bias_B": -0.004412037879228592,
+        "mean_signed_spatial_signal_delta": 8.335709571838379e-06,
+        "aggregate_prior_to_signal_ratio": 16.68558551214009,
+        "median_pair_psr": 17.166723347613363,
+        "prior_dominates_signal_percent": 95.0,
+        "same_prediction_collapse_percent": 95.0,
+        "assignment_accuracy_percent": 53.0,
+        "assignment_ci95_percent": [
+          43.0,
+          63.0
+        ],
+        "both_images_correct_percent": 4.0,
+        "both_images_correct_ci95_percent": [
+          1.0,
+          8.0
+        ]
+      },
+      "t2_o1_horizontal": {
+        "n_pairs": 100,
+        "mean_abs_prior_bias_B": 0.005580709651112557,
+        "mean_abs_spatial_signal_delta": 0.00042500264942646026,
+        "mean_signed_prior_bias_B": 0.004513773247599602,
+        "mean_signed_spatial_signal_delta": 0.00010516665875911712,
+        "aggregate_prior_to_signal_ratio": 13.130999674104872,
+        "median_pair_psr": 12.82176903938954,
+        "prior_dominates_signal_percent": 95.0,
+        "same_prediction_collapse_percent": 95.0,
+        "assignment_accuracy_percent": 50.0,
+        "assignment_ci95_percent": [
+          40.0,
+          60.0
+        ],
+        "both_images_correct_percent": 3.0,
+        "both_images_correct_ci95_percent": [
+          0.0,
+          7.000000000000001
+        ]
+      }
+    }
+  }
+}

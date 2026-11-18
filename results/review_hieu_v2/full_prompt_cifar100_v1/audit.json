@@ -1,0 +1,19 @@
+{
+  "run": "results/full_prompt_cifar100_v1",
+  "artifact_integrity_verified": true,
+  "manifest_sha256": "f945650a58c0042c5aa77407bfedd1e531a26af8bf9d5b5b34559c3fcf359359",
+  "metrics_recomputed": true,
+  "n": 10000,
+  "baseline_predictions_identical": true,
+  "baseline_target_cosine_max_abs_difference": 3.2782554626464844e-07,
+  "text_embedding_ensemble_construction_recomputed": true,
+  "limitation": null,
+  "legacy_config_protocol_note": "Legacy config.json/protocol.md contain depth defaults; extension configs/protocols are identified by input_sha256. New runs use study_config.json and the actual protocol.",
+  "derived_sha256": {
+    "classes.json": "b292d51bb46990f7eba42884317b8f34f2d276f650cc0134ab2301411adc8737",
+    "diagnostics.json": "9500e6086be2c27f292d01936a694d02ea2fcf877c2ecccccbc3fb570868d1e9",
+    "per_class.csv": "4b503f9bb56377a852e48cc9254938c7b84c4979726cdef8354c1ebc4967eb54",
+    "predictions.csv": "ebe7bf81f06b5b769ea9bcc5a9b0f19bf8254069495984933375cf8e85212c7c",
+    "samples.json": "267aa64ab2df22c860121d6b03f8f78e32f5ec6f15822e232950bea62bb7213b"
+  }
+}

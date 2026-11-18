@@ -1,0 +1,618 @@
+{
+  "region_comparison": {
+    "before_100": {
+      "holistic": {
+        "n_images": 200,
+        "n_sources": 100,
+        "primary_choices": 2,
+        "primary_accuracy_percent": 51.5,
+        "primary_ci95_percent": [
+          49.5,
+          54.0
+        ],
+        "holistic_accuracy_percent": 51.5,
+        "paired_delta_pp": 0.0,
+        "paired_delta_ci95_pp": [
+          0.0,
+          0.0
+        ],
+        "four_way_accuracy_percent": 33.5,
+        "exact_top_ties": 0,
+        "both_images_correct_percent": 4.0,
+        "holistic_both_images_correct_percent": 4.0,
+        "both_correct_paired_delta_pp": 0.0,
+        "both_correct_paired_delta_ci95_pp": [
+          0.0,
+          0.0
+        ],
+        "primary_confusion": [
+          [
+            19,
+            81
+          ],
+          [
+            16,
+            84
+          ]
+        ],
+        "by_relation": {
+          "0": {
+            "n": 100,
+            "accuracy_percent": 19.0
+          },
+          "1": {
+            "n": 100,
+            "accuracy_percent": 84.0
+          }
+        },
+        "horizontal_assignment": {
+          "n_sources": 100,
+          "accuracy_percent": 53.0,
+          "ci95_percent": [
+            43.0,
+            63.0
+          ],
+          "exact_ties": 0
+        },
+        "both_images_correct_ci95_percent": [
+          1.0,
+          8.0
+        ],
+        "correct_images": 103,
+        "assignment_correct_sources": 53
+      },
+      "native_half": {
+        "n_images": 200,
+        "n_sources": 100,
+        "primary_choices": 2,
+        "primary_accuracy_percent": 92.5,
+        "primary_ci95_percent": [
+          87.5,
+          97.0
+        ],
+        "holistic_accuracy_percent": 51.5,
+        "paired_delta_pp": 41.0,
+        "paired_delta_ci95_pp": [
+          36.0,
+          45.5
+        ],
+        "four_way_accuracy_percent": 64.0,
+        "exact_top_ties": 0,
+        "both_images_correct_percent": 91.0,
+        "holistic_both_images_correct_percent": 4.0,
+        "both_correct_paired_delta_pp": 87.0,
+        "both_correct_paired_delta_ci95_pp": [
+          80.0,
+          93.0
+        ],
+        "primary_confusion": [
+          [
+            91,
+            9
+          ],
+          [
+            6,
+            94
+          ]
+        ],
+        "by_relation": {
+          "0": {
+            "n": 100,
+            "accuracy_percent": 91.0
+          },
+          "1": {
+            "n": 100,
+            "accuracy_percent": 94.0
+          }
+        },
+        "horizontal_assignment": {
+          "n_sources": 100,
+          "accuracy_percent": 92.0,
+          "ci95_percent": [
+            86.0,
+            97.0
+          ],
+          "exact_ties": 0
+        },
+        "both_images_correct_ci95_percent": [
+          85.0,
+          96.0
+        ],
+        "correct_images": 185,
+        "assignment_correct_sources": 92
+      },
+      "padded_half": {
+        "n_images": 200,
+        "n_sources": 100,
+        "primary_choices": 2,
+        "primary_accuracy_percent": 91.5,
+        "primary_ci95_percent": [
+          86.5,
+          96.0
+        ],
+        "holistic_accuracy_percent": 51.5,
+        "paired_delta_pp": 40.0,
+        "paired_delta_ci95_pp": [
+          34.5,
+          45.0
+        ],
+        "four_way_accuracy_percent": 68.5,
+        "exact_top_ties": 0,
+        "both_images_correct_percent": 88.0,
+        "holistic_both_images_correct_percent": 4.0,
+        "both_correct_paired_delta_pp": 84.0,
+        "both_correct_paired_delta_ci95_pp": [
+          77.0,
+          91.0
+        ],
+        "primary_confusion": [
+          [
+            91,
+            9
+          ],
+          [
+            8,
+            92
+          ]
+        ],
+        "by_relation": {
+          "0": {
+            "n": 100,
+            "accuracy_percent": 91.0
+          },
+          "1": {
+            "n": 100,
+            "accuracy_percent": 92.0
+          }
+        },
+        "horizontal_assignment": {
+          "n_sources": 100,
+          "accuracy_percent": 89.0,
+          "ci95_percent": [
+            83.0,
+            94.0
+          ],
+          "exact_ties": 0
+        },
+        "both_images_correct_ci95_percent": [
+          82.0,
+          94.0
+        ],
+        "correct_images": 183,
+        "assignment_correct_sources": 89
+      }
+    },
+    "after_98": {
+      "holistic": {
+        "n_images": 196,
+        "n_sources": 98,
+        "primary_choices": 2,
+        "primary_accuracy_percent": 51.53061224489795,
+        "primary_ci95_percent": [
+          49.48979591836735,
+          53.57142857142857
+        ],
+        "holistic_accuracy_percent": 51.53061224489795,
+        "paired_delta_pp": 0.0,
+        "paired_delta_ci95_pp": [
+          0.0,
+          0.0
+        ],
+        "four_way_accuracy_percent": 33.6734693877551,
+        "exact_top_ties": 0,
+        "both_images_correct_percent": 4.081632653061225,
+        "holistic_both_images_correct_percent": 4.081632653061225,
+        "both_correct_paired_delta_pp": 0.0,
+        "both_correct_paired_delta_ci95_pp": [
+          0.0,
+          0.0
+        ],
+        "primary_confusion": [
+          [
+            18,
+            80
+          ],
+          [
+            15,
+            83
+          ]
+        ],
+        "by_relation": {
+          "0": {
+            "n": 98,
+            "accuracy_percent": 18.367346938775512
+          },
+          "1": {
+            "n": 98,
+            "accuracy_percent": 84.6938775510204
+          }
+        },
+        "horizontal_assignment": {
+          "n_sources": 98,
+          "accuracy_percent": 53.06122448979592,
+          "ci95_percent": [
+            43.87755102040816,
+            62.244897959183675
+          ],
+          "exact_ties": 0
+        },
+        "both_images_correct_ci95_percent": [
+          1.0204081632653061,
+          8.16326530612245
+        ],
+        "correct_images": 101,
+        "assignment_correct_sources": 52
+      },
+      "native_half": {
+        "n_images": 196,
+        "n_sources": 98,
+        "primary_choices": 2,
+        "primary_accuracy_percent": 93.36734693877551,
+        "primary_ci95_percent": [
+          88.26530612244898,
+          97.44897959183673
+        ],
+        "holistic_accuracy_percent": 51.53061224489795,
+        "paired_delta_pp": 41.83673469387755,
+        "paired_delta_ci95_pp": [
+          36.734693877551024,
+          46.42857142857143
+        ],
+        "four_way_accuracy_percent": 65.3061224489796,
+        "exact_top_ties": 0,
+        "both_images_correct_percent": 91.83673469387756,
+        "holistic_both_images_correct_percent": 4.081632653061225,
+        "both_correct_paired_delta_pp": 87.75510204081633,
+        "both_correct_paired_delta_ci95_pp": [
+          81.60714285714286,
+          93.87755102040816
+        ],
+        "primary_confusion": [
+          [
+            90,
+            8
+          ],
+          [
+            5,
+            93
+          ]
+        ],
+        "by_relation": {
+          "0": {
+            "n": 98,
+            "accuracy_percent": 91.83673469387756
+          },
+          "1": {
+            "n": 98,
+            "accuracy_percent": 94.89795918367348
+          }
+        },
+        "horizontal_assignment": {
+          "n_sources": 98,
+          "accuracy_percent": 92.85714285714286,
+          "ci95_percent": [
+            87.72959183673468,
+            97.95918367346938
+          ],
+          "exact_ties": 0
+        },
+        "both_images_correct_ci95_percent": [
+          85.71428571428571,
+          96.93877551020408
+        ],
+        "correct_images": 183,
+        "assignment_correct_sources": 91
+      },
+      "padded_half": {
+        "n_images": 196,
+        "n_sources": 98,
+        "primary_choices": 2,
+        "primary_accuracy_percent": 92.85714285714286,
+        "primary_ci95_percent": [
+          88.26530612244898,
+          96.93877551020408
+        ],
+        "holistic_accuracy_percent": 51.53061224489795,
+        "paired_delta_pp": 41.3265306122449,
+        "paired_delta_ci95_pp": [
+          36.224489795918366,
+          45.91836734693878
+        ],
+        "four_way_accuracy_percent": 69.38775510204081,
+        "exact_top_ties": 0,
+        "both_images_correct_percent": 89.79591836734694,
+        "holistic_both_images_correct_percent": 4.081632653061225,
+        "both_correct_paired_delta_pp": 85.71428571428571,
+        "both_correct_paired_delta_ci95_pp": [
+          78.57142857142857,
+          92.85714285714286
+        ],
+        "primary_confusion": [
+          [
+            91,
+            7
+          ],
+          [
+            7,
+            91
+          ]
+        ],
+        "by_relation": {
+          "0": {
+            "n": 98,
+            "accuracy_percent": 92.85714285714286
+          },
+          "1": {
+            "n": 98,
+            "accuracy_percent": 92.85714285714286
+          }
+        },
+        "horizontal_assignment": {
+          "n_sources": 98,
+          "accuracy_percent": 90.81632653061224,
+          "ci95_percent": [
+            84.6938775510204,
+            95.91836734693877
+          ],
+          "exact_ties": 0
+        },
+        "both_images_correct_ci95_percent": [
+          83.6734693877551,
+          95.91836734693877
+        ],
+        "correct_images": 182,
+        "assignment_correct_sources": 89
+      }
+    }
+  },
+  "holistic_all_conditions_before": {
+    "t0_o0": {
+      "n_sources": 100,
+      "correct": 52,
+      "accuracy_percent": 52.0,
+      "wilson_ci95_percent": [
+        42.316577765223975,
+        61.535448241948096
+      ],
+      "bootstrap_ci95_percent": [
+        42.0,
+        62.0
+      ],
+      "binomial_p_greater_0_5": 0.3821767172013334,
+      "two_way_accuracy_percent": 51.0,
+      "both_images_correct_percent": 3.0,
+      "mean_gap": 5.940422415733338e-05,
+      "exact_ties": 0,
+      "near_ties": 1
+    },
+    "t0_o1": {
+      "n_sources": 100,
+      "correct": 54,
+      "accuracy_percent": 54.0,
+      "wilson_ci95_percent": [
+        44.264860323368225,
+        63.439191690975896
+      ],
+      "bootstrap_ci95_percent": [
+        44.0,
+        64.0
+      ],
+      "binomial_p_greater_0_5": 0.24205920680364576,
+      "two_way_accuracy_percent": 51.5,
+      "both_images_correct_percent": 4.0,
+      "mean_gap": 0.0001639266312122345,
+      "exact_ties": 0,
+      "near_ties": 0
+    },
+    "t1_o0": {
+      "n_sources": 100,
+      "correct": 55,
+      "accuracy_percent": 55.0,
+      "wilson_ci95_percent": [
+        45.24460299744214,
+        64.38546202048802
+      ],
+      "bootstrap_ci95_percent": [
+        45.0,
+        65.0
+      ],
+      "binomial_p_greater_0_5": 0.18410080866334813,
+      "two_way_accuracy_percent": 49.0,
+      "both_images_correct_percent": 2.0,
+      "mean_gap": 7.626816630363465e-05,
+      "exact_ties": 0,
+      "near_ties": 0
+    },
+    "t1_o1": {
+      "n_sources": 100,
+      "correct": 54,
+      "accuracy_percent": 54.0,
+      "wilson_ci95_percent": [
+        44.264860323368225,
+        63.439191690975896
+      ],
+      "bootstrap_ci95_percent": [
+        44.0,
+        64.0
+      ],
+      "binomial_p_greater_0_5": 0.24205920680364576,
+      "two_way_accuracy_percent": 48.5,
+      "both_images_correct_percent": 1.0,
+      "mean_gap": 8.416473865509033e-05,
+      "exact_ties": 0,
+      "near_ties": 0
+    },
+    "t2_o0": {
+      "n_sources": 100,
+      "correct": 53,
+      "accuracy_percent": 53.0,
+      "wilson_ci95_percent": [
+        43.28885697009937,
+        62.48918204065872
+      ],
+      "bootstrap_ci95_percent": [
+        43.0,
+        63.0
+      ],
+      "binomial_p_greater_0_5": 0.308649706794626,
+      "two_way_accuracy_percent": 51.5,
+      "both_images_correct_percent": 4.0,
+      "mean_gap": 1.6671419143676757e-05,
+      "exact_ties": 0,
+      "near_ties": 0
+    },
+    "t2_o1": {
+      "n_sources": 100,
+      "correct": 50,
+      "accuracy_percent": 50.0,
+      "wilson_ci95_percent": [
+        40.383153036599566,
+        59.61684696340044
+      ],
+      "bootstrap_ci95_percent": [
+        40.0,
+        60.0
+      ],
+      "binomial_p_greater_0_5": 0.5397946186935894,
+      "two_way_accuracy_percent": 50.5,
+      "both_images_correct_percent": 3.0,
+      "mean_gap": 0.00021033331751823425,
+      "exact_ties": 0,
+      "near_ties": 0
+    }
+  },
+  "holistic_all_conditions_after": {
+    "t0_o0": {
+      "n_sources": 98,
+      "correct": 51,
+      "accuracy_percent": 52.04081632653061,
+      "wilson_ci95_percent": [
+        42.260806300816725,
+        61.66686720889072
+      ],
+      "bootstrap_ci95_percent": [
+        42.857142857142854,
+        61.224489795918366
+      ],
+      "binomial_p_greater_0_5": 0.38101810976462164,
+      "two_way_accuracy_percent": 51.02040816326531,
+      "both_images_correct_percent": 3.061224489795918,
+      "mean_gap": 7.99328696971037e-05,
+      "exact_ties": 0,
+      "near_ties": 1
+    },
+    "t0_o1": {
+      "n_sources": 98,
+      "correct": 53,
+      "accuracy_percent": 54.08163265306123,
+      "wilson_ci95_percent": [
+        44.24804159236297,
+        63.607305427051884
+      ],
+      "bootstrap_ci95_percent": [
+        44.89795918367347,
+        63.290816326530475
+      ],
+      "binomial_p_greater_0_5": 0.2398462497837435,
+      "two_way_accuracy_percent": 51.02040816326531,
+      "both_images_correct_percent": 3.061224489795918,
+      "mean_gap": 0.00014701972202378876,
+      "exact_ties": 0,
+      "near_ties": 0
+    },
+    "t1_o0": {
+      "n_sources": 98,
+      "correct": 54,
+      "accuracy_percent": 55.10204081632653,
+      "wilson_ci95_percent": [
+        45.24754605807967,
+        64.57163771618889
+      ],
+      "bootstrap_ci95_percent": [
+        44.89795918367347,
+        65.3061224489796
+      ],
+      "binomial_p_greater_0_5": 0.18167709383202657,
+      "two_way_accuracy_percent": 49.48979591836735,
+      "both_images_correct_percent": 2.0408163265306123,
+      "mean_gap": 7.941969195190741e-05,
+      "exact_ties": 0,
+      "near_ties": 0
+    },
+    "t1_o1": {
+      "n_sources": 98,
+      "correct": 53,
+      "accuracy_percent": 54.08163265306123,
+      "wilson_ci95_percent": [
+        44.24804159236297,
+        63.607305427051884
+      ],
+      "bootstrap_ci95_percent": [
+        44.89795918367347,
+        63.26530612244898
+      ],
+      "binomial_p_greater_0_5": 0.2398462497837435,
+      "two_way_accuracy_percent": 48.46938775510204,
+      "both_images_correct_percent": 1.0204081632653061,
+      "mean_gap": 7.495679417435004e-05,
+      "exact_ties": 0,
+      "near_ties": 0
+    },
+    "t2_o0": {
+      "n_sources": 98,
+      "correct": 52,
+      "accuracy_percent": 53.06122448979592,
+      "wilson_ci95_percent": [
+        43.25246720445755,
+        62.639043060103596
+      ],
+      "bootstrap_ci95_percent": [
+        42.857142857142854,
+        63.26530612244898
+      ],
+      "binomial_p_greater_0_5": 0.3068672338150695,
+      "two_way_accuracy_percent": 51.53061224489796,
+      "both_images_correct_percent": 4.081632653061225,
+      "mean_gap": 2.5616616618876554e-05,
+      "exact_ties": 0,
+      "near_ties": 0
+    },
+    "t2_o1": {
+      "n_sources": 98,
+      "correct": 49,
+      "accuracy_percent": 50.0,
+      "wilson_ci95_percent": [
+        40.289182562513005,
+        59.710817437486995
+      ],
+      "bootstrap_ci95_percent": [
+        40.816326530612244,
+        60.204081632653065
+      ],
+      "binomial_p_greater_0_5": 0.5401965845389791,
+      "two_way_accuracy_percent": 50.51020408163265,
+      "both_images_correct_percent": 3.061224489795918,
+      "mean_gap": 0.0001875996893765975,
+      "exact_ties": 0,
+      "near_ties": 0
+    }
+  },
+  "translation_review": {
+    "human_review": "100 accepted by R1; user confirmation, assistant entered authorized statuses.",
+    "review_sha256": "80043001f6053182ecfb0d7b4988b6f7bd4889238cbcd32696cd9540ef685f80",
+    "lexicon_path": "results\\full_vietnamese_cifar100_v1\\multilingual_classes.json",
+    "lexicon_sha256": "0d58ab3697f89dd552e492988dbff5a90ac11a621eb85f140ec59819d963155a",
+    "metrics_path": "results\\full_vietnamese_cifar100_v1\\metrics.json",
+    "metrics_sha256": "c1827475843b43af48a3349dc797c663c1df683d8c3300252ec607ca5ae3854a",
+    "translations_unchanged": true,
+    "new_inference": false,
+    "accuracy_percent": {
+      "en_baseline": 64.48,
+      "vi_diacritics": 5.1,
+      "vi_no_diacritics": 4.05,
+      "en_frame_vi_label": 5.4399999999999995,
+      "vi_frame_en_label": 55.1,
+      "vi_en_bilingual": 54.949999999999996
+    }
+  }
+}

@@ -1,0 +1,113 @@
+% Compile with XeLaTeX or Tectonic. All reported scores are measured project results.
+\documentclass[11pt,a4paper]{article}
+\usepackage[margin=18mm,top=16mm,bottom=16mm]{geometry}
+\usepackage{fontspec}
+\IfFontExistsTF{Times New Roman}{\setmainfont{Times New Roman}}{\setmainfont{TeX Gyre Termes}}
+\IfFontExistsTF{Consolas}{\setmonofont{Consolas}[Scale=0.88]}{\setmonofont{Latin Modern Mono}[Scale=0.88]}
+\usepackage{amsmath,booktabs,caption,titlesec}
+\usepackage[unicode,hidelinks]{hyperref}
+\hypersetup{pdftitle={Báo cáo tiến độ: Thăm dò mô hình thị giác–ngôn ngữ CLIP},
+ pdfsubject={Kết quả thực nghiệm Topic 14, cập nhật ngày 04/11/2026},pdfkeywords={CLIP, zero-shot, probing, CIFAR-100}}
+\renewcommand{\tablename}{Bảng}
+\renewcommand{\refname}{Tài liệu tham khảo}
+\renewcommand{\abstractname}{Tóm tắt}
+\titleformat{\section}{\normalsize\bfseries}{\thesection.}{0.5em}{}
+\titleformat{\subsection}{\normalsize\bfseries}{\thesubsection.}{0.5em}{}
+\titlespacing*{\section}{0pt}{7pt}{3pt}
+\titlespacing*{\subsection}{0pt}{5pt}{2pt}
+\captionsetup{font=small,labelfont=bf,skip=4pt}
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{3pt}
+\setlength{\tabcolsep}{7pt}
+\renewcommand{\arraystretch}{1.12}
+\linespread{1.02}
+\hyphenpenalty=10000
+\exhyphenpenalty=10000
+\emergencystretch=1.5em
+
+\begin{document}
+\begin{center}
+ {\large\bfseries BÁO CÁO TIẾN ĐỘ — ĐỀ TÀI 14}\\[3pt]
+ {\Large\bfseries Thăm dò mô hình thị giác–ngôn ngữ CLIP}\\[4pt]
+ {\small Học phần Computer Vision \quad|\quad Cập nhật: 04/11/2026}
+\end{center}
+\vspace{-7pt}
+\begin{abstract}
+\noindent Báo cáo đánh giá CLIP ViT-B/32 trên năm bộ dữ liệu và bốn phép thăm dò có kiểm soát. Kết quả cho thấy độ chính xác tổng thể che khuất nhiều lớp nhận dạng kém; nhận dạng vật thể tốt chưa bảo đảm xử lý đúng số lượng và quan hệ không gian. Một phép thử bổ sung thông tin nhóm cha vào mô tả lớp CIFAR-100 làm giảm độ chính xác 1,56 điểm phần trăm. Các kết luận được giới hạn theo checkpoint, dữ liệu và mẫu câu đã kiểm tra.
+\end{abstract}
+\vspace{-5pt}
+
+\section{Mục tiêu và phương pháp}
+Nghiên cứu khảo sát khả năng phân loại không huấn luyện trên tác vụ đích (\emph{zero-shot}) và các dạng lỗi của CLIP~\cite{clip}. Sử dụng duy nhất checkpoint OpenAI ViT-B/32, giữ nguyên trọng số, tính toán FP32/QuickGELU, batch 32 và seed 0. Với ảnh $x$ và các mô tả lớp $t_c$, dự đoán là
+\(\hat y=\arg\max_{c\in\mathcal C}\cos(f_I(x),f_T(t_c))\),
+trong đó $f_I,f_T$ là hai bộ mã hóa ảnh và văn bản. Không huấn luyện lại hoặc lựa chọn mẫu câu theo kết quả test.
+
+Đánh giá sử dụng test split gốc của CIFAR-100~\cite{cifar}, Flowers102~\cite{flowers}, Oxford-IIIT Pet~\cite{pet}, DTD~\cite{dtd} và Food-101~\cite{food}; riêng DTD chỉ dùng partition 1. Mô tả chuẩn là \texttt{a photo of a \{class\}.}; DTD dùng \texttt{a photo of a \{class\} texture.} Chỉ số chính là top-1 accuracy theo ảnh; bổ sung trung bình accuracy của các lớp (macro). Các phép thăm dò dùng khoảng tin cậy (CI) bootstrap 95\%, 1.000 lần, seed 0; đơn vị lấy mẫu là nhóm cảnh liên quan, riêng ảnh tự nhiên là từng ảnh.
+
+\section{Kết quả thực nghiệm}
+\subsection{Phân loại trên nhiều miền ảnh}
+\begin{center}
+\captionof{table}{Kết quả phân loại của cùng một checkpoint; đơn vị accuracy là \%.}
+\label{tab:classification}
+\begin{tabular}{@{}lrrrr@{}}
+\toprule
+Bộ dữ liệu & Số lớp & Ảnh test & Top-1 & Macro \\
+\midrule
+CIFAR-100 & 100 & 10.000 & 64,48 & 64,48 \\
+Flowers102 & 102 & 6.149 & 63,77 & 64,23 \\
+Oxford-IIIT Pet & 37 & 3.669 & 85,06 & 84,72 \\
+DTD (partition 1) & 47 & 1.880 & 42,45 & 42,45 \\
+Food-101 & 101 & 25.250 & 82,31 & 82,31 \\
+\bottomrule
+\end{tabular}
+\end{center}
+\vspace{-5pt}
+Tổng cộng 46.948 ảnh test đã được đánh giá. Accuracy thay đổi đáng kể giữa các miền (Bảng~\ref{tab:classification}). Phân tích theo lớp cho thấy Pet đạt 85,06\% nhưng \emph{Bombay} chỉ đúng 0/88 ảnh; Flowers102 đạt 63,77\% nhưng \emph{petunia} chỉ đúng 9/238 ảnh, trong đó 146 ảnh bị nhầm thành \emph{mexican petunia}. Ở DTD, 36/40 ảnh \emph{dotted} bị dự đoán là \emph{polka-dotted}. Các ví dụ này cho thấy cần báo cáo cả số mẫu và ma trận nhầm lẫn, thay vì chỉ accuracy tổng thể.
+
+\subsection{Thăm dò các dạng lỗi}
+Bộ kiểm tra hình học tự tạo gồm đếm 1--6 vật thể (1.080 ảnh, hai chế độ kích thước), bốn quan hệ trái/phải/trên/dưới (720 ảnh), và có/không có vật thể (720 ảnh, hai mẫu câu, tổng 1.440 phép thử). Các cảnh có nhãn xác định, không che khuất; bổ sung câu hỏi nhận dạng màu/hình làm đối chứng. Phân biệt tinh dùng 10.000 ảnh CIFAR-100, chọn giữa năm lớp thuộc \emph{nhóm lớn thật được cung cấp sẵn} (oracle).
+\begin{center}
+\captionof{table}{Kết quả thăm dò. $N$ là số phép thử, $K$ là số lựa chọn; các tỷ lệ và CI tính bằng \%.}
+\label{tab:probes}
+\begin{tabular}{@{}lrrrrl@{}}
+\toprule
+Phép thử & $N$ & $K$ & Ngẫu nhiên & Accuracy & CI 95\% \\
+\midrule
+Đếm số lượng & 1.080 & 6 & 16,67 & 32,87 & [30,65; 35,00] \\
+Quan hệ không gian & 720 & 4 & 25,00 & 29,58 & [27,77; 31,53] \\
+Phủ định & 1.440 & 2 & 50,00 & 86,11 & [84,23; 88,06] \\
+Phân biệt tinh (oracle) & 10.000 & 5 & 20,00 & 77,95 & [77,16; 78,77] \\
+\bottomrule
+\end{tabular}
+\end{center}
+\vspace{-5pt}
+\newpage
+\textbf{Đếm và quan hệ không gian.} Đối chứng nhận dạng màu/hình của bài đếm đạt 74,44\%; trên các mẫu đối chứng đúng, đếm chỉ đạt 34,45\%. Với không gian, đối chứng đạt 97,50\% nhưng accuracy quan hệ trên phần đối chứng đúng chỉ đạt 29,63\%. Quan hệ phải đúng 0/180 ảnh và không có nhóm cảnh nào đúng cả bốn vị trí. Kết quả chỉ ra khó khăn kết hợp thuộc tính/quan hệ ngay cả khi nhận dạng cơ bản thành công.
+
+\textbf{Phủ định và phân biệt tinh.} Phủ định đạt 86,11\%, nhưng \texttt{with/without} đạt 91,39\% còn \texttt{contains/does not contain} đạt 80,83\% trên cùng bộ ảnh. Chỉ 211/360 nhóm đúng đồng thời cả hai trạng thái và hai mẫu câu. Vì vậy, dữ liệu không hỗ trợ nhận định tuyệt đối rằng CLIP không xử lý được phủ định. Phân biệt tinh đạt 77,95\% khi đã biết nhóm lớn; nhóm cá chỉ đạt 56,60\%. Chỉ số oracle này không thể được diễn giải là cải thiện so với phân loại 100 lớp ở Bảng~\ref{tab:classification}.
+
+\subsection{Bổ sung nhóm cha vào mô tả CIFAR-100}
+So sánh mô tả chuẩn với \texttt{a photo of a \{class\}, a type of \{category\}.} Ánh xạ 100 lớp vào 20 nhóm lấy từ nhãn fine/coarse của tập train; hai nhóm phương tiện cùng dùng từ \texttt{vehicle}. Không sử dụng nhãn nhóm thật của ảnh test để lọc ứng viên: cả hai điều kiện luôn xét đủ 100 lớp, dùng chung vector ảnh và giữ cố định cách diễn đạt trước khi chạy.
+
+Accuracy giảm từ \textbf{64,48\% xuống 62,92\%} (6.448 xuống 6.292 ảnh đúng), chênh \textbf{$-1,56$ điểm phần trăm}; CI 95\% ghép cặp, phân tầng theo lớp là \textbf{[$-2,15$; $-0,96$]}. Có 416 ảnh sai được sửa đúng nhưng 572 ảnh đúng chuyển thành sai. Trong 100 lớp, 45 lớp tăng, 50 lớp giảm và 5 lớp không đổi: \emph{cloud} tăng 57\% lên 83\%, \emph{cup} giảm 59\% xuống 26\%, còn \emph{ray} giữ ở 5\%. Như vậy, cách bổ sung nhóm cha này gây giảm kết quả tổng thể dù có lợi cho một số lớp.
+
+\section{Thảo luận, giới hạn và tiến độ tiếp theo}
+Các phát hiện chính là: (i) accuracy tổng thể không phản ánh đầy đủ sai lệch theo lớp; (ii) nhận dạng vật thể và xử lý quan hệ/số lượng có khoảng cách rõ trong bộ kiểm tra; (iii) thông tin ngữ nghĩa bổ sung không mặc nhiên cải thiện phân loại. Tuy nhiên, nghiên cứu mới dùng một checkpoint; ba bài thăm dò dựa trên hình học đơn giản, chưa đại diện cho cảnh tự nhiên. CIFAR-100 oracle cung cấp thêm thông tin thật; phép thử nhóm cha mới xét một cấu trúc câu, chưa tách riêng ảnh hưởng của ngữ nghĩa, độ dài và cách diễn đạt. CI chỉ phản ánh biến thiên lấy mẫu trong tập đánh giá hiện tại.
+
+Đã hoàn thành năm baseline, bốn phép thăm dò và phép thử nhóm cha trên CIFAR-100. Có 27 kiểm thử tự động đạt; kiểm chứng tính lại metrics từ dự đoán/scores. Baseline chạy lại khớp đủ 10.000 dự đoán CIFAR-100, cùng cosine và margin được đối chiếu. Mã nguồn, cấu hình, môi trường, checksum và source snapshot được lưu để tái lập. Tiếp theo là khảo sát một tập mẫu câu định trước, gộp prompt và bổ sung kiểm tra trên ảnh tự nhiên; prompt tiếng Việt/nội dung văn hóa Việt Nam chưa thực hiện.
+
+{\small\textbf{Mốc mã nguồn core:} \href{https://github.com/Dobit25/ComputerVision_Probing_VLM/tree/v1.0.0-core}{\texttt{Dobit25/ComputerVision\_Probing\_VLM}}, tag \texttt{v1.0.0-core}. Thí nghiệm nhóm cha là phần bổ sung cục bộ trên nhánh \texttt{dev}; nguồn số liệu của bản báo cáo được ghi trong tệp \texttt{sources.json} đi kèm.}
+
+\begingroup
+\small
+\begin{thebibliography}{6}
+\setlength{\itemsep}{0pt}\setlength{\parskip}{0pt}
+\bibitem{clip} A. Radford và cs., \href{https://proceedings.mlr.press/v139/radford21a.html}{``Learning Transferable Visual Models From Natural Language Supervision,''} \emph{ICML}, tr. 8748--8763, 2021.
+\bibitem{cifar} A. Krizhevsky, \href{https://www.cs.toronto.edu/~kriz/learning-features-2009-TR.pdf}{\emph{Learning Multiple Layers of Features from Tiny Images}}, báo cáo kỹ thuật, University of Toronto, 2009.
+\bibitem{flowers} M.-E. Nilsback và A. Zisserman, \href{https://www.robots.ox.ac.uk/~vgg/data/flowers/102/}{``Automated Flower Classification over a Large Number of Classes,''} \emph{ICVGIP}, 2008.
+\bibitem{pet} O. M. Parkhi và cs., \href{https://www.robots.ox.ac.uk/~vgg/data/pets/}{``Cats and Dogs,''} \emph{CVPR}, 2012.
+\bibitem{dtd} M. Cimpoi và cs., \href{https://www.robots.ox.ac.uk/~vgg/data/dtd/}{``Describing Textures in the Wild,''} \emph{CVPR}, 2014.
+\bibitem{food} L. Bossard, M. Guillaumin và L. Van Gool, \href{https://data.vision.ee.ethz.ch/cvl/datasets_extra/food-101/}{``Food-101 -- Mining Discriminative Components with Random Forests,''} \emph{ECCV}, 2014.
+\end{thebibliography}
+\endgroup
+\end{document}

@@ -1,0 +1,9 @@
+{
+  "verified": true,
+  "stage": "natural",
+  "mode": "smoke",
+  "run": "results/smoke_depth_natural_v1",
+  "num_images": 24,
+  "num_trials": 144,
+  "metrics_recomputed": true
+}

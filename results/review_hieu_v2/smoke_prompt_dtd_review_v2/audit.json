@@ -1,0 +1,19 @@
+{
+  "run": "results/smoke_prompt_dtd_review_v2",
+  "artifact_integrity_verified": true,
+  "manifest_sha256": "93e160958a38e1848ec156137d0734143bed24284af64a609996604713210eaa",
+  "metrics_recomputed": true,
+  "n": 200,
+  "baseline_predictions_identical": true,
+  "baseline_target_cosine_max_abs_difference": 1.1920928955078125e-07,
+  "text_embedding_ensemble_construction_recomputed": true,
+  "limitation": null,
+  "legacy_config_protocol_note": null,
+  "derived_sha256": {
+    "classes.json": "defd819ed9f1d388a61e719eaea51aa885ac66446bcde2b36facf05f53b5a390",
+    "diagnostics.json": "45b1a8055c0709edfda58aa6551a34304feebf6b562cb39d92d495cbc1e3c64a",
+    "per_class.csv": "c884d31945737a219dea0fbae9333bce135e58db6589908e3356fd77d24dd947",
+    "predictions.csv": "a52726a62ee73b3e54002e358408c4b010fa91d3d272575d3512f91ed2a02418",
+    "samples.json": "a5067a48af923f50b270b0288c05f50a130082992c45faa8f8283404f7d5039b"
+  }
+}

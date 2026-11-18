@@ -1,0 +1,284 @@
+[
+  {
+    "class_id": 0,
+    "dataset_name": "banded",
+    "prompt_name": "banded",
+    "prompt": "a photo of a banded texture."
+  },
+  {
+    "class_id": 1,
+    "dataset_name": "blotchy",
+    "prompt_name": "blotchy",
+    "prompt": "a photo of a blotchy texture."
+  },
+  {
+    "class_id": 2,
+    "dataset_name": "braided",
+    "prompt_name": "braided",
+    "prompt": "a photo of a braided texture."
+  },
+  {
+    "class_id": 3,
+    "dataset_name": "bubbly",
+    "prompt_name": "bubbly",
+    "prompt": "a photo of a bubbly texture."
+  },
+  {
+    "class_id": 4,
+    "dataset_name": "bumpy",
+    "prompt_name": "bumpy",
+    "prompt": "a photo of a bumpy texture."
+  },
+  {
+    "class_id": 5,
+    "dataset_name": "chequered",
+    "prompt_name": "chequered",
+    "prompt": "a photo of a chequered texture."
+  },
+  {
+    "class_id": 6,
+    "dataset_name": "cobwebbed",
+    "prompt_name": "cobwebbed",
+    "prompt": "a photo of a cobwebbed texture."
+  },
+  {
+    "class_id": 7,
+    "dataset_name": "cracked",
+    "prompt_name": "cracked",
+    "prompt": "a photo of a cracked texture."
+  },
+  {
+    "class_id": 8,
+    "dataset_name": "crosshatched",
+    "prompt_name": "crosshatched",
+    "prompt": "a photo of a crosshatched texture."
+  },
+  {
+    "class_id": 9,
+    "dataset_name": "crystalline",
+    "prompt_name": "crystalline",
+    "prompt": "a photo of a crystalline texture."
+  },
+  {
+    "class_id": 10,
+    "dataset_name": "dotted",
+    "prompt_name": "dotted",
+    "prompt": "a photo of a dotted texture."
+  },
+  {
+    "class_id": 11,
+    "dataset_name": "fibrous",
+    "prompt_name": "fibrous",
+    "prompt": "a photo of a fibrous texture."
+  },
+  {
+    "class_id": 12,
+    "dataset_name": "flecked",
+    "prompt_name": "flecked",
+    "prompt": "a photo of a flecked texture."
+  },
+  {
+    "class_id": 13,
+    "dataset_name": "freckled",
+    "prompt_name": "freckled",
+    "prompt": "a photo of a freckled texture."
+  },
+  {
+    "class_id": 14,
+    "dataset_name": "frilly",
+    "prompt_name": "frilly",
+    "prompt": "a photo of a frilly texture."
+  },
+  {
+    "class_id": 15,
+    "dataset_name": "gauzy",
+    "prompt_name": "gauzy",
+    "prompt": "a photo of a gauzy texture."
+  },
+  {
+    "class_id": 16,
+    "dataset_name": "grid",
+    "prompt_name": "grid",
+    "prompt": "a photo of a grid texture."
+  },
+  {
+    "class_id": 17,
+    "dataset_name": "grooved",
+    "prompt_name": "grooved",
+    "prompt": "a photo of a grooved texture."
+  },
+  {
+    "class_id": 18,
+    "dataset_name": "honeycombed",
+    "prompt_name": "honeycombed",
+    "prompt": "a photo of a honeycombed texture."
+  },
+  {
+    "class_id": 19,
+    "dataset_name": "interlaced",
+    "prompt_name": "interlaced",
+    "prompt": "a photo of a interlaced texture."
+  },
+  {
+    "class_id": 20,
+    "dataset_name": "knitted",
+    "prompt_name": "knitted",
+    "prompt": "a photo of a knitted texture."
+  },
+  {
+    "class_id": 21,
+    "dataset_name": "lacelike",
+    "prompt_name": "lacelike",
+    "prompt": "a photo of a lacelike texture."
+  },
+  {
+    "class_id": 22,
+    "dataset_name": "lined",
+    "prompt_name": "lined",
+    "prompt": "a photo of a lined texture."
+  },
+  {
+    "class_id": 23,
+    "dataset_name": "marbled",
+    "prompt_name": "marbled",
+    "prompt": "a photo of a marbled texture."
+  },
+  {
+    "class_id": 24,
+    "dataset_name": "matted",
+    "prompt_name": "matted",
+    "prompt": "a photo of a matted texture."
+  },
+  {
+    "class_id": 25,
+    "dataset_name": "meshed",
+    "prompt_name": "meshed",
+    "prompt": "a photo of a meshed texture."
+  },
+  {
+    "class_id": 26,
+    "dataset_name": "paisley",
+    "prompt_name": "paisley",
+    "prompt": "a photo of a paisley texture."
+  },
+  {
+    "class_id": 27,
+    "dataset_name": "perforated",
+    "prompt_name": "perforated",
+    "prompt": "a photo of a perforated texture."
+  },
+  {
+    "class_id": 28,
+    "dataset_name": "pitted",
+    "prompt_name": "pitted",
+    "prompt": "a photo of a pitted texture."
+  },
+  {
+    "class_id": 29,
+    "dataset_name": "pleated",
+    "prompt_name": "pleated",
+    "prompt": "a photo of a pleated texture."
+  },
+  {
+    "class_id": 30,
+    "dataset_name": "polka-dotted",
+    "prompt_name": "polka-dotted",
+    "prompt": "a photo of a polka-dotted texture."
+  },
+  {
+    "class_id": 31,
+    "dataset_name": "porous",
+    "prompt_name": "porous",
+    "prompt": "a photo of a porous texture."
+  },
+  {
+    "class_id": 32,
+    "dataset_name": "potholed",
+    "prompt_name": "potholed",
+    "prompt": "a photo of a potholed texture."
+  },
+  {
+    "class_id": 33,
+    "dataset_name": "scaly",
+    "prompt_name": "scaly",
+    "prompt": "a photo of a scaly texture."
+  },
+  {
+    "class_id": 34,
+    "dataset_name": "smeared",
+    "prompt_name": "smeared",
+    "prompt": "a photo of a smeared texture."
+  },
+  {
+    "class_id": 35,
+    "dataset_name": "spiralled",
+    "prompt_name": "spiralled",
+    "prompt": "a photo of a spiralled texture."
+  },
+  {
+    "class_id": 36,
+    "dataset_name": "sprinkled",
+    "prompt_name": "sprinkled",
+    "prompt": "a photo of a sprinkled texture."
+  },
+  {
+    "class_id": 37,
+    "dataset_name": "stained",
+    "prompt_name": "stained",
+    "prompt": "a photo of a stained texture."
+  },
+  {
+    "class_id": 38,
+    "dataset_name": "stratified",
+    "prompt_name": "stratified",
+    "prompt": "a photo of a stratified texture."
+  },
+  {
+    "class_id": 39,
+    "dataset_name": "striped",
+    "prompt_name": "striped",
+    "prompt": "a photo of a striped texture."
+  },
+  {
+    "class_id": 40,
+    "dataset_name": "studded",
+    "prompt_name": "studded",
+    "prompt": "a photo of a studded texture."
+  },
+  {
+    "class_id": 41,
+    "dataset_name": "swirly",
+    "prompt_name": "swirly",
+    "prompt": "a photo of a swirly texture."
+  },
+  {
+    "class_id": 42,
+    "dataset_name": "veined",
+    "prompt_name": "veined",
+    "prompt": "a photo of a veined texture."
+  },
+  {
+    "class_id": 43,
+    "dataset_name": "waffled",
+    "prompt_name": "waffled",
+    "prompt": "a photo of a waffled texture."
+  },
+  {
+    "class_id": 44,
+    "dataset_name": "woven",
+    "prompt_name": "woven",
+    "prompt": "a photo of a woven texture."
+  },
+  {
+    "class_id": 45,
+    "dataset_name": "wrinkled",
+    "prompt_name": "wrinkled",
+    "prompt": "a photo of a wrinkled texture."
+  },
+  {
+    "class_id": 46,
+    "dataset_name": "zigzagged",
+    "prompt_name": "zigzagged",
+    "prompt": "a photo of a zigzagged texture."
+  }
+]

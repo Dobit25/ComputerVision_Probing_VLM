@@ -1,0 +1,2162 @@
+[
+  {
+    "sample_id": "coco/409247/original/t0/o0",
+    "image_index": 0,
+    "group_id": "coco/409247",
+    "target": 2,
+    "template": 0,
+    "order": 0,
+    "variant": "original",
+    "captions": [
+      "a photo of a laptop to the left of a cup.",
+      "a photo of a laptop to the right of a cup.",
+      "a photo of a laptop above a cup.",
+      "a photo of a laptop below a cup."
+    ]
+  },
+  {
+    "sample_id": "coco/409247/original/t0/o1",
+    "image_index": 0,
+    "group_id": "coco/409247",
+    "target": 2,
+    "template": 0,
+    "order": 1,
+    "variant": "original",
+    "captions": [
+      "a photo of a cup to the right of a laptop.",
+      "a photo of a cup to the left of a laptop.",
+      "a photo of a cup below a laptop.",
+      "a photo of a cup above a laptop."
+    ]
+  },
+  {
+    "sample_id": "coco/409247/original/t1/o0",
+    "image_index": 0,
+    "group_id": "coco/409247",
+    "target": 2,
+    "template": 1,
+    "order": 0,
+    "variant": "original",
+    "captions": [
+      "a laptop is to the left of a cup.",
+      "a laptop is to the right of a cup.",
+      "a laptop is above a cup.",
+      "a laptop is below a cup."
+    ]
+  },
+  {
+    "sample_id": "coco/409247/original/t1/o1",
+    "image_index": 0,
+    "group_id": "coco/409247",
+    "target": 2,
+    "template": 1,
+    "order": 1,
+    "variant": "original",
+    "captions": [
+      "a cup is to the right of a laptop.",
+      "a cup is to the left of a laptop.",
+      "a cup is below a laptop.",
+      "a cup is above a laptop."
+    ]
+  },
+  {
+    "sample_id": "coco/409247/original/t2/o0",
+    "image_index": 0,
+    "group_id": "coco/409247",
+    "target": 2,
+    "template": 2,
+    "order": 0,
+    "variant": "original",
+    "captions": [
+      "an image of a laptop to the left of a cup.",
+      "an image of a laptop to the right of a cup.",
+      "an image of a laptop above a cup.",
+      "an image of a laptop below a cup."
+    ]
+  },
+  {
+    "sample_id": "coco/409247/original/t2/o1",
+    "image_index": 0,
+    "group_id": "coco/409247",
+    "target": 2,
+    "template": 2,
+    "order": 1,
+    "variant": "original",
+    "captions": [
+      "an image of a cup to the right of a laptop.",
+      "an image of a cup to the left of a laptop.",
+      "an image of a cup below a laptop.",
+      "an image of a cup above a laptop."
+    ]
+  },
+  {
+    "sample_id": "coco/409247/horizontal_flip/t0/o0",
+    "image_index": 1,
+    "group_id": "coco/409247",
+    "target": 2,
+    "template": 0,
+    "order": 0,
+    "variant": "horizontal_flip",
+    "captions": [
+      "a photo of a laptop to the left of a cup.",
+      "a photo of a laptop to the right of a cup.",
+      "a photo of a laptop above a cup.",
+      "a photo of a laptop below a cup."
+    ]
+  },
+  {
+    "sample_id": "coco/409247/horizontal_flip/t0/o1",
+    "image_index": 1,
+    "group_id": "coco/409247",
+    "target": 2,
+    "template": 0,
+    "order": 1,
+    "variant": "horizontal_flip",
+    "captions": [
+      "a photo of a cup to the right of a laptop.",
+      "a photo of a cup to the left of a laptop.",
+      "a photo of a cup below a laptop.",
+      "a photo of a cup above a laptop."
+    ]
+  },
+  {
+    "sample_id": "coco/409247/horizontal_flip/t1/o0",
+    "image_index": 1,
+    "group_id": "coco/409247",
+    "target": 2,
+    "template": 1,
+    "order": 0,
+    "variant": "horizontal_flip",
+    "captions": [
+      "a laptop is to the left of a cup.",
+      "a laptop is to the right of a cup.",
+      "a laptop is above a cup.",
+      "a laptop is below a cup."
+    ]
+  },
+  {
+    "sample_id": "coco/409247/horizontal_flip/t1/o1",
+    "image_index": 1,
+    "group_id": "coco/409247",
+    "target": 2,
+    "template": 1,
+    "order": 1,
+    "variant": "horizontal_flip",
+    "captions": [
+      "a cup is to the right of a laptop.",
+      "a cup is to the left of a laptop.",
+      "a cup is below a laptop.",
+      "a cup is above a laptop."
+    ]
+  },
+  {
+    "sample_id": "coco/409247/horizontal_flip/t2/o0",
+    "image_index": 1,
+    "group_id": "coco/409247",
+    "target": 2,
+    "template": 2,
+    "order": 0,
+    "variant": "horizontal_flip",
+    "captions": [
+      "an image of a laptop to the left of a cup.",
+      "an image of a laptop to the right of a cup.",
+      "an image of a laptop above a cup.",
+      "an image of a laptop below a cup."
+    ]
+  },
+  {
+    "sample_id": "coco/409247/horizontal_flip/t2/o1",
+    "image_index": 1,
+    "group_id": "coco/409247",
+    "target": 2,
+    "template": 2,
+    "order": 1,
+    "variant": "horizontal_flip",
+    "captions": [
+      "an image of a cup to the right of a laptop.",
+      "an image of a cup to the left of a laptop.",
+      "an image of a cup below a laptop.",
+      "an image of a cup above a laptop."
+    ]
+  },
+  {
+    "sample_id": "coco/407225/original/t0/o0",
+    "image_index": 2,
+    "group_id": "coco/407225",
+    "target": 3,
+    "template": 0,
+    "order": 0,
+    "variant": "original",
+    "captions": [
+      "a photo of a bicycle to the left of an umbrella.",
+      "a photo of a bicycle to the right of an umbrella.",
+      "a photo of a bicycle above an umbrella.",
+      "a photo of a bicycle below an umbrella."
+    ]
+  },
+  {
+    "sample_id": "coco/407225/original/t0/o1",
+    "image_index": 2,
+    "group_id": "coco/407225",
+    "target": 3,
+    "template": 0,
+    "order": 1,
+    "variant": "original",
+    "captions": [
+      "a photo of an umbrella to the right of a bicycle.",
+      "a photo of an umbrella to the left of a bicycle.",
+      "a photo of an umbrella below a bicycle.",
+      "a photo of an umbrella above a bicycle."
+    ]
+  },
+  {
+    "sample_id": "coco/407225/original/t1/o0",
+    "image_index": 2,
+    "group_id": "coco/407225",
+    "target": 3,
+    "template": 1,
+    "order": 0,
+    "variant": "original",
+    "captions": [
+      "a bicycle is to the left of an umbrella.",
+      "a bicycle is to the right of an umbrella.",
+      "a bicycle is above an umbrella.",
+      "a bicycle is below an umbrella."
+    ]
+  },
+  {
+    "sample_id": "coco/407225/original/t1/o1",
+    "image_index": 2,
+    "group_id": "coco/407225",
+    "target": 3,
+    "template": 1,
+    "order": 1,
+    "variant": "original",
+    "captions": [
+      "an umbrella is to the right of a bicycle.",
+      "an umbrella is to the left of a bicycle.",
+      "an umbrella is below a bicycle.",
+      "an umbrella is above a bicycle."
+    ]
+  },
+  {
+    "sample_id": "coco/407225/original/t2/o0",
+    "image_index": 2,
+    "group_id": "coco/407225",
+    "target": 3,
+    "template": 2,
+    "order": 0,
+    "variant": "original",
+    "captions": [
+      "an image of a bicycle to the left of an umbrella.",
+      "an image of a bicycle to the right of an umbrella.",
+      "an image of a bicycle above an umbrella.",
+      "an image of a bicycle below an umbrella."
+    ]
+  },
+  {
+    "sample_id": "coco/407225/original/t2/o1",
+    "image_index": 2,
+    "group_id": "coco/407225",
+    "target": 3,
+    "template": 2,
+    "order": 1,
+    "variant": "original",
+    "captions": [
+      "an image of an umbrella to the right of a bicycle.",
+      "an image of an umbrella to the left of a bicycle.",
+      "an image of an umbrella below a bicycle.",
+      "an image of an umbrella above a bicycle."
+    ]
+  },
+  {
+    "sample_id": "coco/407225/horizontal_flip/t0/o0",
+    "image_index": 3,
+    "group_id": "coco/407225",
+    "target": 3,
+    "template": 0,
+    "order": 0,
+    "variant": "horizontal_flip",
+    "captions": [
+      "a photo of a bicycle to the left of an umbrella.",
+      "a photo of a bicycle to the right of an umbrella.",
+      "a photo of a bicycle above an umbrella.",
+      "a photo of a bicycle below an umbrella."
+    ]
+  },
+  {
+    "sample_id": "coco/407225/horizontal_flip/t0/o1",
+    "image_index": 3,
+    "group_id": "coco/407225",
+    "target": 3,
+    "template": 0,
+    "order": 1,
+    "variant": "horizontal_flip",
+    "captions": [
+      "a photo of an umbrella to the right of a bicycle.",
+      "a photo of an umbrella to the left of a bicycle.",
+      "a photo of an umbrella below a bicycle.",
+      "a photo of an umbrella above a bicycle."
+    ]
+  },
+  {
+    "sample_id": "coco/407225/horizontal_flip/t1/o0",
+    "image_index": 3,
+    "group_id": "coco/407225",
+    "target": 3,
+    "template": 1,
+    "order": 0,
+    "variant": "horizontal_flip",
+    "captions": [
+      "a bicycle is to the left of an umbrella.",
+      "a bicycle is to the right of an umbrella.",
+      "a bicycle is above an umbrella.",
+      "a bicycle is below an umbrella."
+    ]
+  },
+  {
+    "sample_id": "coco/407225/horizontal_flip/t1/o1",
+    "image_index": 3,
+    "group_id": "coco/407225",
+    "target": 3,
+    "template": 1,
+    "order": 1,
+    "variant": "horizontal_flip",
+    "captions": [
+      "an umbrella is to the right of a bicycle.",
+      "an umbrella is to the left of a bicycle.",
+      "an umbrella is below a bicycle.",
+      "an umbrella is above a bicycle."
+    ]
+  },
+  {
+    "sample_id": "coco/407225/horizontal_flip/t2/o0",
+    "image_index": 3,
+    "group_id": "coco/407225",
+    "target": 3,
+    "template": 2,
+    "order": 0,
+    "variant": "horizontal_flip",
+    "captions": [
+      "an image of a bicycle to the left of an umbrella.",
+      "an image of a bicycle to the right of an umbrella.",
+      "an image of a bicycle above an umbrella.",
+      "an image of a bicycle below an umbrella."
+    ]
+  },
+  {
+    "sample_id": "coco/407225/horizontal_flip/t2/o1",
+    "image_index": 3,
+    "group_id": "coco/407225",
+    "target": 3,
+    "template": 2,
+    "order": 1,
+    "variant": "horizontal_flip",
+    "captions": [
+      "an image of an umbrella to the right of a bicycle.",
+      "an image of an umbrella to the left of a bicycle.",
+      "an image of an umbrella below a bicycle.",
+      "an image of an umbrella above a bicycle."
+    ]
+  },
+  {
+    "sample_id": "coco/368242/original/t0/o0",
+    "image_index": 4,
+    "group_id": "coco/368242",
+    "target": 3,
+    "template": 0,
+    "order": 0,
+    "variant": "original",
+    "captions": [
+      "a photo of a person to the left of a kite.",
+      "a photo of a person to the right of a kite.",
+      "a photo of a person above a kite.",
+      "a photo of a person below a kite."
+    ]
+  },
+  {
+    "sample_id": "coco/368242/original/t0/o1",
+    "image_index": 4,
+    "group_id": "coco/368242",
+    "target": 3,
+    "template": 0,
+    "order": 1,
+    "variant": "original",
+    "captions": [
+      "a photo of a kite to the right of a person.",
+      "a photo of a kite to the left of a person.",
+      "a photo of a kite below a person.",
+      "a photo of a kite above a person."
+    ]
+  },
+  {
+    "sample_id": "coco/368242/original/t1/o0",
+    "image_index": 4,
+    "group_id": "coco/368242",
+    "target": 3,
+    "template": 1,
+    "order": 0,
+    "variant": "original",
+    "captions": [
+      "a person is to the left of a kite.",
+      "a person is to the right of a kite.",
+      "a person is above a kite.",
+      "a person is below a kite."
+    ]
+  },
+  {
+    "sample_id": "coco/368242/original/t1/o1",
+    "image_index": 4,
+    "group_id": "coco/368242",
+    "target": 3,
+    "template": 1,
+    "order": 1,
+    "variant": "original",
+    "captions": [
+      "a kite is to the right of a person.",
+      "a kite is to the left of a person.",
+      "a kite is below a person.",
+      "a kite is above a person."
+    ]
+  },
+  {
+    "sample_id": "coco/368242/original/t2/o0",
+    "image_index": 4,
+    "group_id": "coco/368242",
+    "target": 3,
+    "template": 2,
+    "order": 0,
+    "variant": "original",
+    "captions": [
+      "an image of a person to the left of a kite.",
+      "an image of a person to the right of a kite.",
+      "an image of a person above a kite.",
+      "an image of a person below a kite."
+    ]
+  },
+  {
+    "sample_id": "coco/368242/original/t2/o1",
+    "image_index": 4,
+    "group_id": "coco/368242",
+    "target": 3,
+    "template": 2,
+    "order": 1,
+    "variant": "original",
+    "captions": [
+      "an image of a kite to the right of a person.",
+      "an image of a kite to the left of a person.",
+      "an image of a kite below a person.",
+      "an image of a kite above a person."
+    ]
+  },
+  {
+    "sample_id": "coco/368242/horizontal_flip/t0/o0",
+    "image_index": 5,
+    "group_id": "coco/368242",
+    "target": 3,
+    "template": 0,
+    "order": 0,
+    "variant": "horizontal_flip",
+    "captions": [
+      "a photo of a person to the left of a kite.",
+      "a photo of a person to the right of a kite.",
+      "a photo of a person above a kite.",
+      "a photo of a person below a kite."
+    ]
+  },
+  {
+    "sample_id": "coco/368242/horizontal_flip/t0/o1",
+    "image_index": 5,
+    "group_id": "coco/368242",
+    "target": 3,
+    "template": 0,
+    "order": 1,
+    "variant": "horizontal_flip",
+    "captions": [
+      "a photo of a kite to the right of a person.",
+      "a photo of a kite to the left of a person.",
+      "a photo of a kite below a person.",
+      "a photo of a kite above a person."
+    ]
+  },
+  {
+    "sample_id": "coco/368242/horizontal_flip/t1/o0",
+    "image_index": 5,
+    "group_id": "coco/368242",
+    "target": 3,
+    "template": 1,
+    "order": 0,
+    "variant": "horizontal_flip",
+    "captions": [
+      "a person is to the left of a kite.",
+      "a person is to the right of a kite.",
+      "a person is above a kite.",
+      "a person is below a kite."
+    ]
+  },
+  {
+    "sample_id": "coco/368242/horizontal_flip/t1/o1",
+    "image_index": 5,
+    "group_id": "coco/368242",
+    "target": 3,
+    "template": 1,
+    "order": 1,
+    "variant": "horizontal_flip",
+    "captions": [
+      "a kite is to the right of a person.",
+      "a kite is to the left of a person.",
+      "a kite is below a person.",
+      "a kite is above a person."
+    ]
+  },
+  {
+    "sample_id": "coco/368242/horizontal_flip/t2/o0",
+    "image_index": 5,
+    "group_id": "coco/368242",
+    "target": 3,
+    "template": 2,
+    "order": 0,
+    "variant": "horizontal_flip",
+    "captions": [
+      "an image of a person to the left of a kite.",
+      "an image of a person to the right of a kite.",
+      "an image of a person above a kite.",
+      "an image of a person below a kite."
+    ]
+  },
+  {
+    "sample_id": "coco/368242/horizontal_flip/t2/o1",
+    "image_index": 5,
+    "group_id": "coco/368242",
+    "target": 3,
+    "template": 2,
+    "order": 1,
+    "variant": "horizontal_flip",
+    "captions": [
+      "an image of a kite to the right of a person.",
+      "an image of a kite to the left of a person.",
+      "an image of a kite below a person.",
+      "an image of a kite above a person."
+    ]
+  },
+  {
+    "sample_id": "coco/133515/original/t0/o0",
+    "image_index": 6,
+    "group_id": "coco/133515",
+    "target": 0,
+    "template": 0,
+    "order": 0,
+    "variant": "original",
+    "captions": [
+      "a photo of an oven to the left of a refrigerator.",
+      "a photo of an oven to the right of a refrigerator.",
+      "a photo of an oven above a refrigerator.",
+      "a photo of an oven below a refrigerator."
+    ]
+  },
+  {
+    "sample_id": "coco/133515/original/t0/o1",
+    "image_index": 6,
+    "group_id": "coco/133515",
+    "target": 0,
+    "template": 0,
+    "order": 1,
+    "variant": "original",
+    "captions": [
+      "a photo of a refrigerator to the right of an oven.",
+      "a photo of a refrigerator to the left of an oven.",
+      "a photo of a refrigerator below an oven.",
+      "a photo of a refrigerator above an oven."
+    ]
+  },
+  {
+    "sample_id": "coco/133515/original/t1/o0",
+    "image_index": 6,
+    "group_id": "coco/133515",
+    "target": 0,
+    "template": 1,
+    "order": 0,
+    "variant": "original",
+    "captions": [
+      "an oven is to the left of a refrigerator.",
+      "an oven is to the right of a refrigerator.",
+      "an oven is above a refrigerator.",
+      "an oven is below a refrigerator."
+    ]
+  },
+  {
+    "sample_id": "coco/133515/original/t1/o1",
+    "image_index": 6,
+    "group_id": "coco/133515",
+    "target": 0,
+    "template": 1,
+    "order": 1,
+    "variant": "original",
+    "captions": [
+      "a refrigerator is to the right of an oven.",
+      "a refrigerator is to the left of an oven.",
+      "a refrigerator is below an oven.",
+      "a refrigerator is above an oven."
+    ]
+  },
+  {
+    "sample_id": "coco/133515/original/t2/o0",
+    "image_index": 6,
+    "group_id": "coco/133515",
+    "target": 0,
+    "template": 2,
+    "order": 0,
+    "variant": "original",
+    "captions": [
+      "an image of an oven to the left of a refrigerator.",
+      "an image of an oven to the right of a refrigerator.",
+      "an image of an oven above a refrigerator.",
+      "an image of an oven below a refrigerator."
+    ]
+  },
+  {
+    "sample_id": "coco/133515/original/t2/o1",
+    "image_index": 6,
+    "group_id": "coco/133515",
+    "target": 0,
+    "template": 2,
+    "order": 1,
+    "variant": "original",
+    "captions": [
+      "an image of a refrigerator to the right of an oven.",
+      "an image of a refrigerator to the left of an oven.",
+      "an image of a refrigerator below an oven.",
+      "an image of a refrigerator above an oven."
+    ]
+  },
+  {
+    "sample_id": "coco/133515/horizontal_flip/t0/o0",
+    "image_index": 7,
+    "group_id": "coco/133515",
+    "target": 1,
+    "template": 0,
+    "order": 0,
+    "variant": "horizontal_flip",
+    "captions": [
+      "a photo of an oven to the left of a refrigerator.",
+      "a photo of an oven to the right of a refrigerator.",
+      "a photo of an oven above a refrigerator.",
+      "a photo of an oven below a refrigerator."
+    ]
+  },
+  {
+    "sample_id": "coco/133515/horizontal_flip/t0/o1",
+    "image_index": 7,
+    "group_id": "coco/133515",
+    "target": 1,
+    "template": 0,
+    "order": 1,
+    "variant": "horizontal_flip",
+    "captions": [
+      "a photo of a refrigerator to the right of an oven.",
+      "a photo of a refrigerator to the left of an oven.",
+      "a photo of a refrigerator below an oven.",
+      "a photo of a refrigerator above an oven."
+    ]
+  },
+  {
+    "sample_id": "coco/133515/horizontal_flip/t1/o0",
+    "image_index": 7,
+    "group_id": "coco/133515",
+    "target": 1,
+    "template": 1,
+    "order": 0,
+    "variant": "horizontal_flip",
+    "captions": [
+      "an oven is to the left of a refrigerator.",
+      "an oven is to the right of a refrigerator.",
+      "an oven is above a refrigerator.",
+      "an oven is below a refrigerator."
+    ]
+  },
+  {
+    "sample_id": "coco/133515/horizontal_flip/t1/o1",
+    "image_index": 7,
+    "group_id": "coco/133515",
+    "target": 1,
+    "template": 1,
+    "order": 1,
+    "variant": "horizontal_flip",
+    "captions": [
+      "a refrigerator is to the right of an oven.",
+      "a refrigerator is to the left of an oven.",
+      "a refrigerator is below an oven.",
+      "a refrigerator is above an oven."
+    ]
+  },
+  {
+    "sample_id": "coco/133515/horizontal_flip/t2/o0",
+    "image_index": 7,
+    "group_id": "coco/133515",
+    "target": 1,
+    "template": 2,
+    "order": 0,
+    "variant": "horizontal_flip",
+    "captions": [
+      "an image of an oven to the left of a refrigerator.",
+      "an image of an oven to the right of a refrigerator.",
+      "an image of an oven above a refrigerator.",
+      "an image of an oven below a refrigerator."
+    ]
+  },
+  {
+    "sample_id": "coco/133515/horizontal_flip/t2/o1",
+    "image_index": 7,
+    "group_id": "coco/133515",
+    "target": 1,
+    "template": 2,
+    "order": 1,
+    "variant": "horizontal_flip",
+    "captions": [
+      "an image of a refrigerator to the right of an oven.",
+      "an image of a refrigerator to the left of an oven.",
+      "an image of a refrigerator below an oven.",
+      "an image of a refrigerator above an oven."
+    ]
+  },
+  {
+    "sample_id": "coco/578324/original/t0/o0",
+    "image_index": 8,
+    "group_id": "coco/578324",
+    "target": 3,
+    "template": 0,
+    "order": 0,
+    "variant": "original",
+    "captions": [
+      "a photo of a keyboard to the left of a tv.",
+      "a photo of a keyboard to the right of a tv.",
+      "a photo of a keyboard above a tv.",
+      "a photo of a keyboard below a tv."
+    ]
+  },
+  {
+    "sample_id": "coco/578324/original/t0/o1",
+    "image_index": 8,
+    "group_id": "coco/578324",
+    "target": 3,
+    "template": 0,
+    "order": 1,
+    "variant": "original",
+    "captions": [
+      "a photo of a tv to the right of a keyboard.",
+      "a photo of a tv to the left of a keyboard.",
+      "a photo of a tv below a keyboard.",
+      "a photo of a tv above a keyboard."
+    ]
+  },
+  {
+    "sample_id": "coco/578324/original/t1/o0",
+    "image_index": 8,
+    "group_id": "coco/578324",
+    "target": 3,
+    "template": 1,
+    "order": 0,
+    "variant": "original",
+    "captions": [
+      "a keyboard is to the left of a tv.",
+      "a keyboard is to the right of a tv.",
+      "a keyboard is above a tv.",
+      "a keyboard is below a tv."
+    ]
+  },
+  {
+    "sample_id": "coco/578324/original/t1/o1",
+    "image_index": 8,
+    "group_id": "coco/578324",
+    "target": 3,
+    "template": 1,
+    "order": 1,
+    "variant": "original",
+    "captions": [
+      "a tv is to the right of a keyboard.",
+      "a tv is to the left of a keyboard.",
+      "a tv is below a keyboard.",
+      "a tv is above a keyboard."
+    ]
+  },
+  {
+    "sample_id": "coco/578324/original/t2/o0",
+    "image_index": 8,
+    "group_id": "coco/578324",
+    "target": 3,
+    "template": 2,
+    "order": 0,
+    "variant": "original",
+    "captions": [
+      "an image of a keyboard to the left of a tv.",
+      "an image of a keyboard to the right of a tv.",
+      "an image of a keyboard above a tv.",
+      "an image of a keyboard below a tv."
+    ]
+  },
+  {
+    "sample_id": "coco/578324/original/t2/o1",
+    "image_index": 8,
+    "group_id": "coco/578324",
+    "target": 3,
+    "template": 2,
+    "order": 1,
+    "variant": "original",
+    "captions": [
+      "an image of a tv to the right of a keyboard.",
+      "an image of a tv to the left of a keyboard.",
+      "an image of a tv below a keyboard.",
+      "an image of a tv above a keyboard."
+    ]
+  },
+  {
+    "sample_id": "coco/578324/horizontal_flip/t0/o0",
+    "image_index": 9,
+    "group_id": "coco/578324",
+    "target": 3,
+    "template": 0,
+    "order": 0,
+    "variant": "horizontal_flip",
+    "captions": [
+      "a photo of a keyboard to the left of a tv.",
+      "a photo of a keyboard to the right of a tv.",
+      "a photo of a keyboard above a tv.",
+      "a photo of a keyboard below a tv."
+    ]
+  },
+  {
+    "sample_id": "coco/578324/horizontal_flip/t0/o1",
+    "image_index": 9,
+    "group_id": "coco/578324",
+    "target": 3,
+    "template": 0,
+    "order": 1,
+    "variant": "horizontal_flip",
+    "captions": [
+      "a photo of a tv to the right of a keyboard.",
+      "a photo of a tv to the left of a keyboard.",
+      "a photo of a tv below a keyboard.",
+      "a photo of a tv above a keyboard."
+    ]
+  },
+  {
+    "sample_id": "coco/578324/horizontal_flip/t1/o0",
+    "image_index": 9,
+    "group_id": "coco/578324",
+    "target": 3,
+    "template": 1,
+    "order": 0,
+    "variant": "horizontal_flip",
+    "captions": [
+      "a keyboard is to the left of a tv.",
+      "a keyboard is to the right of a tv.",
+      "a keyboard is above a tv.",
+      "a keyboard is below a tv."
+    ]
+  },
+  {
+    "sample_id": "coco/578324/horizontal_flip/t1/o1",
+    "image_index": 9,
+    "group_id": "coco/578324",
+    "target": 3,
+    "template": 1,
+    "order": 1,
+    "variant": "horizontal_flip",
+    "captions": [
+      "a tv is to the right of a keyboard.",
+      "a tv is to the left of a keyboard.",
+      "a tv is below a keyboard.",
+      "a tv is above a keyboard."
+    ]
+  },
+  {
+    "sample_id": "coco/578324/horizontal_flip/t2/o0",
+    "image_index": 9,
+    "group_id": "coco/578324",
+    "target": 3,
+    "template": 2,
+    "order": 0,
+    "variant": "horizontal_flip",
+    "captions": [
+      "an image of a keyboard to the left of a tv.",
+      "an image of a keyboard to the right of a tv.",
+      "an image of a keyboard above a tv.",
+      "an image of a keyboard below a tv."
+    ]
+  },
+  {
+    "sample_id": "coco/578324/horizontal_flip/t2/o1",
+    "image_index": 9,
+    "group_id": "coco/578324",
+    "target": 3,
+    "template": 2,
+    "order": 1,
+    "variant": "horizontal_flip",
+    "captions": [
+      "an image of a tv to the right of a keyboard.",
+      "an image of a tv to the left of a keyboard.",
+      "an image of a tv below a keyboard.",
+      "an image of a tv above a keyboard."
+    ]
+  },
+  {
+    "sample_id": "coco/521359/original/t0/o0",
+    "image_index": 10,
+    "group_id": "coco/521359",
+    "target": 2,
+    "template": 0,
+    "order": 0,
+    "variant": "original",
+    "captions": [
+      "a photo of a sink to the left of a toilet.",
+      "a photo of a sink to the right of a toilet.",
+      "a photo of a sink above a toilet.",
+      "a photo of a sink below a toilet."
+    ]
+  },
+  {
+    "sample_id": "coco/521359/original/t0/o1",
+    "image_index": 10,
+    "group_id": "coco/521359",
+    "target": 2,
+    "template": 0,
+    "order": 1,
+    "variant": "original",
+    "captions": [
+      "a photo of a toilet to the right of a sink.",
+      "a photo of a toilet to the left of a sink.",
+      "a photo of a toilet below a sink.",
+      "a photo of a toilet above a sink."
+    ]
+  },
+  {
+    "sample_id": "coco/521359/original/t1/o0",
+    "image_index": 10,
+    "group_id": "coco/521359",
+    "target": 2,
+    "template": 1,
+    "order": 0,
+    "variant": "original",
+    "captions": [
+      "a sink is to the left of a toilet.",
+      "a sink is to the right of a toilet.",
+      "a sink is above a toilet.",
+      "a sink is below a toilet."
+    ]
+  },
+  {
+    "sample_id": "coco/521359/original/t1/o1",
+    "image_index": 10,
+    "group_id": "coco/521359",
+    "target": 2,
+    "template": 1,
+    "order": 1,
+    "variant": "original",
+    "captions": [
+      "a toilet is to the right of a sink.",
+      "a toilet is to the left of a sink.",
+      "a toilet is below a sink.",
+      "a toilet is above a sink."
+    ]
+  },
+  {
+    "sample_id": "coco/521359/original/t2/o0",
+    "image_index": 10,
+    "group_id": "coco/521359",
+    "target": 2,
+    "template": 2,
+    "order": 0,
+    "variant": "original",
+    "captions": [
+      "an image of a sink to the left of a toilet.",
+      "an image of a sink to the right of a toilet.",
+      "an image of a sink above a toilet.",
+      "an image of a sink below a toilet."
+    ]
+  },
+  {
+    "sample_id": "coco/521359/original/t2/o1",
+    "image_index": 10,
+    "group_id": "coco/521359",
+    "target": 2,
+    "template": 2,
+    "order": 1,
+    "variant": "original",
+    "captions": [
+      "an image of a toilet to the right of a sink.",
+      "an image of a toilet to the left of a sink.",
+      "an image of a toilet below a sink.",
+      "an image of a toilet above a sink."
+    ]
+  },
+  {
+    "sample_id": "coco/521359/horizontal_flip/t0/o0",
+    "image_index": 11,
+    "group_id": "coco/521359",
+    "target": 2,
+    "template": 0,
+    "order": 0,
+    "variant": "horizontal_flip",
+    "captions": [
+      "a photo of a sink to the left of a toilet.",
+      "a photo of a sink to the right of a toilet.",
+      "a photo of a sink above a toilet.",
+      "a photo of a sink below a toilet."
+    ]
+  },
+  {
+    "sample_id": "coco/521359/horizontal_flip/t0/o1",
+    "image_index": 11,
+    "group_id": "coco/521359",
+    "target": 2,
+    "template": 0,
+    "order": 1,
+    "variant": "horizontal_flip",
+    "captions": [
+      "a photo of a toilet to the right of a sink.",
+      "a photo of a toilet to the left of a sink.",
+      "a photo of a toilet below a sink.",
+      "a photo of a toilet above a sink."
+    ]
+  },
+  {
+    "sample_id": "coco/521359/horizontal_flip/t1/o0",
+    "image_index": 11,
+    "group_id": "coco/521359",
+    "target": 2,
+    "template": 1,
+    "order": 0,
+    "variant": "horizontal_flip",
+    "captions": [
+      "a sink is to the left of a toilet.",
+      "a sink is to the right of a toilet.",
+      "a sink is above a toilet.",
+      "a sink is below a toilet."
+    ]
+  },
+  {
+    "sample_id": "coco/521359/horizontal_flip/t1/o1",
+    "image_index": 11,
+    "group_id": "coco/521359",
+    "target": 2,
+    "template": 1,
+    "order": 1,
+    "variant": "horizontal_flip",
+    "captions": [
+      "a toilet is to the right of a sink.",
+      "a toilet is to the left of a sink.",
+      "a toilet is below a sink.",
+      "a toilet is above a sink."
+    ]
+  },
+  {
+    "sample_id": "coco/521359/horizontal_flip/t2/o0",
+    "image_index": 11,
+    "group_id": "coco/521359",
+    "target": 2,
+    "template": 2,
+    "order": 0,
+    "variant": "horizontal_flip",
+    "captions": [
+      "an image of a sink to the left of a toilet.",
+      "an image of a sink to the right of a toilet.",
+      "an image of a sink above a toilet.",
+      "an image of a sink below a toilet."
+    ]
+  },
+  {
+    "sample_id": "coco/521359/horizontal_flip/t2/o1",
+    "image_index": 11,
+    "group_id": "coco/521359",
+    "target": 2,
+    "template": 2,
+    "order": 1,
+    "variant": "horizontal_flip",
+    "captions": [
+      "an image of a toilet to the right of a sink.",
+      "an image of a toilet to the left of a sink.",
+      "an image of a toilet below a sink.",
+      "an image of a toilet above a sink."
+    ]
+  },
+  {
+    "sample_id": "coco/491851/original/t0/o0",
+    "image_index": 12,
+    "group_id": "coco/491851",
+    "target": 2,
+    "template": 0,
+    "order": 0,
+    "variant": "original",
+    "captions": [
+      "a photo of a tv to the left of a keyboard.",
+      "a photo of a tv to the right of a keyboard.",
+      "a photo of a tv above a keyboard.",
+      "a photo of a tv below a keyboard."
+    ]
+  },
+  {
+    "sample_id": "coco/491851/original/t0/o1",
+    "image_index": 12,
+    "group_id": "coco/491851",
+    "target": 2,
+    "template": 0,
+    "order": 1,
+    "variant": "original",
+    "captions": [
+      "a photo of a keyboard to the right of a tv.",
+      "a photo of a keyboard to the left of a tv.",
+      "a photo of a keyboard below a tv.",
+      "a photo of a keyboard above a tv."
+    ]
+  },
+  {
+    "sample_id": "coco/491851/original/t1/o0",
+    "image_index": 12,
+    "group_id": "coco/491851",
+    "target": 2,
+    "template": 1,
+    "order": 0,
+    "variant": "original",
+    "captions": [
+      "a tv is to the left of a keyboard.",
+      "a tv is to the right of a keyboard.",
+      "a tv is above a keyboard.",
+      "a tv is below a keyboard."
+    ]
+  },
+  {
+    "sample_id": "coco/491851/original/t1/o1",
+    "image_index": 12,
+    "group_id": "coco/491851",
+    "target": 2,
+    "template": 1,
+    "order": 1,
+    "variant": "original",
+    "captions": [
+      "a keyboard is to the right of a tv.",
+      "a keyboard is to the left of a tv.",
+      "a keyboard is below a tv.",
+      "a keyboard is above a tv."
+    ]
+  },
+  {
+    "sample_id": "coco/491851/original/t2/o0",
+    "image_index": 12,
+    "group_id": "coco/491851",
+    "target": 2,
+    "template": 2,
+    "order": 0,
+    "variant": "original",
+    "captions": [
+      "an image of a tv to the left of a keyboard.",
+      "an image of a tv to the right of a keyboard.",
+      "an image of a tv above a keyboard.",
+      "an image of a tv below a keyboard."
+    ]
+  },
+  {
+    "sample_id": "coco/491851/original/t2/o1",
+    "image_index": 12,
+    "group_id": "coco/491851",
+    "target": 2,
+    "template": 2,
+    "order": 1,
+    "variant": "original",
+    "captions": [
+      "an image of a keyboard to the right of a tv.",
+      "an image of a keyboard to the left of a tv.",
+      "an image of a keyboard below a tv.",
+      "an image of a keyboard above a tv."
+    ]
+  },
+  {
+    "sample_id": "coco/491851/horizontal_flip/t0/o0",
+    "image_index": 13,
+    "group_id": "coco/491851",
+    "target": 2,
+    "template": 0,
+    "order": 0,
+    "variant": "horizontal_flip",
+    "captions": [
+      "a photo of a tv to the left of a keyboard.",
+      "a photo of a tv to the right of a keyboard.",
+      "a photo of a tv above a keyboard.",
+      "a photo of a tv below a keyboard."
+    ]
+  },
+  {
+    "sample_id": "coco/491851/horizontal_flip/t0/o1",
+    "image_index": 13,
+    "group_id": "coco/491851",
+    "target": 2,
+    "template": 0,
+    "order": 1,
+    "variant": "horizontal_flip",
+    "captions": [
+      "a photo of a keyboard to the right of a tv.",
+      "a photo of a keyboard to the left of a tv.",
+      "a photo of a keyboard below a tv.",
+      "a photo of a keyboard above a tv."
+    ]
+  },
+  {
+    "sample_id": "coco/491851/horizontal_flip/t1/o0",
+    "image_index": 13,
+    "group_id": "coco/491851",
+    "target": 2,
+    "template": 1,
+    "order": 0,
+    "variant": "horizontal_flip",
+    "captions": [
+      "a tv is to the left of a keyboard.",
+      "a tv is to the right of a keyboard.",
+      "a tv is above a keyboard.",
+      "a tv is below a keyboard."
+    ]
+  },
+  {
+    "sample_id": "coco/491851/horizontal_flip/t1/o1",
+    "image_index": 13,
+    "group_id": "coco/491851",
+    "target": 2,
+    "template": 1,
+    "order": 1,
+    "variant": "horizontal_flip",
+    "captions": [
+      "a keyboard is to the right of a tv.",
+      "a keyboard is to the left of a tv.",
+      "a keyboard is below a tv.",
+      "a keyboard is above a tv."
+    ]
+  },
+  {
+    "sample_id": "coco/491851/horizontal_flip/t2/o0",
+    "image_index": 13,
+    "group_id": "coco/491851",
+    "target": 2,
+    "template": 2,
+    "order": 0,
+    "variant": "horizontal_flip",
+    "captions": [
+      "an image of a tv to the left of a keyboard.",
+      "an image of a tv to the right of a keyboard.",
+      "an image of a tv above a keyboard.",
+      "an image of a tv below a keyboard."
+    ]
+  },
+  {
+    "sample_id": "coco/491851/horizontal_flip/t2/o1",
+    "image_index": 13,
+    "group_id": "coco/491851",
+    "target": 2,
+    "template": 2,
+    "order": 1,
+    "variant": "horizontal_flip",
+    "captions": [
+      "an image of a keyboard to the right of a tv.",
+      "an image of a keyboard to the left of a tv.",
+      "an image of a keyboard below a tv.",
+      "an image of a keyboard above a tv."
+    ]
+  },
+  {
+    "sample_id": "coco/433505/original/t0/o0",
+    "image_index": 14,
+    "group_id": "coco/433505",
+    "target": 3,
+    "template": 0,
+    "order": 0,
+    "variant": "original",
+    "captions": [
+      "a photo of a keyboard to the left of a tv.",
+      "a photo of a keyboard to the right of a tv.",
+      "a photo of a keyboard above a tv.",
+      "a photo of a keyboard below a tv."
+    ]
+  },
+  {
+    "sample_id": "coco/433505/original/t0/o1",
+    "image_index": 14,
+    "group_id": "coco/433505",
+    "target": 3,
+    "template": 0,
+    "order": 1,
+    "variant": "original",
+    "captions": [
+      "a photo of a tv to the right of a keyboard.",
+      "a photo of a tv to the left of a keyboard.",
+      "a photo of a tv below a keyboard.",
+      "a photo of a tv above a keyboard."
+    ]
+  },
+  {
+    "sample_id": "coco/433505/original/t1/o0",
+    "image_index": 14,
+    "group_id": "coco/433505",
+    "target": 3,
+    "template": 1,
+    "order": 0,
+    "variant": "original",
+    "captions": [
+      "a keyboard is to the left of a tv.",
+      "a keyboard is to the right of a tv.",
+      "a keyboard is above a tv.",
+      "a keyboard is below a tv."
+    ]
+  },
+  {
+    "sample_id": "coco/433505/original/t1/o1",
+    "image_index": 14,
+    "group_id": "coco/433505",
+    "target": 3,
+    "template": 1,
+    "order": 1,
+    "variant": "original",
+    "captions": [
+      "a tv is to the right of a keyboard.",
+      "a tv is to the left of a keyboard.",
+      "a tv is below a keyboard.",
+      "a tv is above a keyboard."
+    ]
+  },
+  {
+    "sample_id": "coco/433505/original/t2/o0",
+    "image_index": 14,
+    "group_id": "coco/433505",
+    "target": 3,
+    "template": 2,
+    "order": 0,
+    "variant": "original",
+    "captions": [
+      "an image of a keyboard to the left of a tv.",
+      "an image of a keyboard to the right of a tv.",
+      "an image of a keyboard above a tv.",
+      "an image of a keyboard below a tv."
+    ]
+  },
+  {
+    "sample_id": "coco/433505/original/t2/o1",
+    "image_index": 14,
+    "group_id": "coco/433505",
+    "target": 3,
+    "template": 2,
+    "order": 1,
+    "variant": "original",
+    "captions": [
+      "an image of a tv to the right of a keyboard.",
+      "an image of a tv to the left of a keyboard.",
+      "an image of a tv below a keyboard.",
+      "an image of a tv above a keyboard."
+    ]
+  },
+  {
+    "sample_id": "coco/433505/horizontal_flip/t0/o0",
+    "image_index": 15,
+    "group_id": "coco/433505",
+    "target": 3,
+    "template": 0,
+    "order": 0,
+    "variant": "horizontal_flip",
+    "captions": [
+      "a photo of a keyboard to the left of a tv.",
+      "a photo of a keyboard to the right of a tv.",
+      "a photo of a keyboard above a tv.",
+      "a photo of a keyboard below a tv."
+    ]
+  },
+  {
+    "sample_id": "coco/433505/horizontal_flip/t0/o1",
+    "image_index": 15,
+    "group_id": "coco/433505",
+    "target": 3,
+    "template": 0,
+    "order": 1,
+    "variant": "horizontal_flip",
+    "captions": [
+      "a photo of a tv to the right of a keyboard.",
+      "a photo of a tv to the left of a keyboard.",
+      "a photo of a tv below a keyboard.",
+      "a photo of a tv above a keyboard."
+    ]
+  },
+  {
+    "sample_id": "coco/433505/horizontal_flip/t1/o0",
+    "image_index": 15,
+    "group_id": "coco/433505",
+    "target": 3,
+    "template": 1,
+    "order": 0,
+    "variant": "horizontal_flip",
+    "captions": [
+      "a keyboard is to the left of a tv.",
+      "a keyboard is to the right of a tv.",
+      "a keyboard is above a tv.",
+      "a keyboard is below a tv."
+    ]
+  },
+  {
+    "sample_id": "coco/433505/horizontal_flip/t1/o1",
+    "image_index": 15,
+    "group_id": "coco/433505",
+    "target": 3,
+    "template": 1,
+    "order": 1,
+    "variant": "horizontal_flip",
+    "captions": [
+      "a tv is to the right of a keyboard.",
+      "a tv is to the left of a keyboard.",
+      "a tv is below a keyboard.",
+      "a tv is above a keyboard."
+    ]
+  },
+  {
+    "sample_id": "coco/433505/horizontal_flip/t2/o0",
+    "image_index": 15,
+    "group_id": "coco/433505",
+    "target": 3,
+    "template": 2,
+    "order": 0,
+    "variant": "horizontal_flip",
+    "captions": [
+      "an image of a keyboard to the left of a tv.",
+      "an image of a keyboard to the right of a tv.",
+      "an image of a keyboard above a tv.",
+      "an image of a keyboard below a tv."
+    ]
+  },
+  {
+    "sample_id": "coco/433505/horizontal_flip/t2/o1",
+    "image_index": 15,
+    "group_id": "coco/433505",
+    "target": 3,
+    "template": 2,
+    "order": 1,
+    "variant": "horizontal_flip",
+    "captions": [
+      "an image of a tv to the right of a keyboard.",
+      "an image of a tv to the left of a keyboard.",
+      "an image of a tv below a keyboard.",
+      "an image of a tv above a keyboard."
+    ]
+  },
+  {
+    "sample_id": "coco/506441/original/t0/o0",
+    "image_index": 16,
+    "group_id": "coco/506441",
+    "target": 2,
+    "template": 0,
+    "order": 0,
+    "variant": "original",
+    "captions": [
+      "a photo of a knife to the left of a sandwich.",
+      "a photo of a knife to the right of a sandwich.",
+      "a photo of a knife above a sandwich.",
+      "a photo of a knife below a sandwich."
+    ]
+  },
+  {
+    "sample_id": "coco/506441/original/t0/o1",
+    "image_index": 16,
+    "group_id": "coco/506441",
+    "target": 2,
+    "template": 0,
+    "order": 1,
+    "variant": "original",
+    "captions": [
+      "a photo of a sandwich to the right of a knife.",
+      "a photo of a sandwich to the left of a knife.",
+      "a photo of a sandwich below a knife.",
+      "a photo of a sandwich above a knife."
+    ]
+  },
+  {
+    "sample_id": "coco/506441/original/t1/o0",
+    "image_index": 16,
+    "group_id": "coco/506441",
+    "target": 2,
+    "template": 1,
+    "order": 0,
+    "variant": "original",
+    "captions": [
+      "a knife is to the left of a sandwich.",
+      "a knife is to the right of a sandwich.",
+      "a knife is above a sandwich.",
+      "a knife is below a sandwich."
+    ]
+  },
+  {
+    "sample_id": "coco/506441/original/t1/o1",
+    "image_index": 16,
+    "group_id": "coco/506441",
+    "target": 2,
+    "template": 1,
+    "order": 1,
+    "variant": "original",
+    "captions": [
+      "a sandwich is to the right of a knife.",
+      "a sandwich is to the left of a knife.",
+      "a sandwich is below a knife.",
+      "a sandwich is above a knife."
+    ]
+  },
+  {
+    "sample_id": "coco/506441/original/t2/o0",
+    "image_index": 16,
+    "group_id": "coco/506441",
+    "target": 2,
+    "template": 2,
+    "order": 0,
+    "variant": "original",
+    "captions": [
+      "an image of a knife to the left of a sandwich.",
+      "an image of a knife to the right of a sandwich.",
+      "an image of a knife above a sandwich.",
+      "an image of a knife below a sandwich."
+    ]
+  },
+  {
+    "sample_id": "coco/506441/original/t2/o1",
+    "image_index": 16,
+    "group_id": "coco/506441",
+    "target": 2,
+    "template": 2,
+    "order": 1,
+    "variant": "original",
+    "captions": [
+      "an image of a sandwich to the right of a knife.",
+      "an image of a sandwich to the left of a knife.",
+      "an image of a sandwich below a knife.",
+      "an image of a sandwich above a knife."
+    ]
+  },
+  {
+    "sample_id": "coco/506441/horizontal_flip/t0/o0",
+    "image_index": 17,
+    "group_id": "coco/506441",
+    "target": 2,
+    "template": 0,
+    "order": 0,
+    "variant": "horizontal_flip",
+    "captions": [
+      "a photo of a knife to the left of a sandwich.",
+      "a photo of a knife to the right of a sandwich.",
+      "a photo of a knife above a sandwich.",
+      "a photo of a knife below a sandwich."
+    ]
+  },
+  {
+    "sample_id": "coco/506441/horizontal_flip/t0/o1",
+    "image_index": 17,
+    "group_id": "coco/506441",
+    "target": 2,
+    "template": 0,
+    "order": 1,
+    "variant": "horizontal_flip",
+    "captions": [
+      "a photo of a sandwich to the right of a knife.",
+      "a photo of a sandwich to the left of a knife.",
+      "a photo of a sandwich below a knife.",
+      "a photo of a sandwich above a knife."
+    ]
+  },
+  {
+    "sample_id": "coco/506441/horizontal_flip/t1/o0",
+    "image_index": 17,
+    "group_id": "coco/506441",
+    "target": 2,
+    "template": 1,
+    "order": 0,
+    "variant": "horizontal_flip",
+    "captions": [
+      "a knife is to the left of a sandwich.",
+      "a knife is to the right of a sandwich.",
+      "a knife is above a sandwich.",
+      "a knife is below a sandwich."
+    ]
+  },
+  {
+    "sample_id": "coco/506441/horizontal_flip/t1/o1",
+    "image_index": 17,
+    "group_id": "coco/506441",
+    "target": 2,
+    "template": 1,
+    "order": 1,
+    "variant": "horizontal_flip",
+    "captions": [
+      "a sandwich is to the right of a knife.",
+      "a sandwich is to the left of a knife.",
+      "a sandwich is below a knife.",
+      "a sandwich is above a knife."
+    ]
+  },
+  {
+    "sample_id": "coco/506441/horizontal_flip/t2/o0",
+    "image_index": 17,
+    "group_id": "coco/506441",
+    "target": 2,
+    "template": 2,
+    "order": 0,
+    "variant": "horizontal_flip",
+    "captions": [
+      "an image of a knife to the left of a sandwich.",
+      "an image of a knife to the right of a sandwich.",
+      "an image of a knife above a sandwich.",
+      "an image of a knife below a sandwich."
+    ]
+  },
+  {
+    "sample_id": "coco/506441/horizontal_flip/t2/o1",
+    "image_index": 17,
+    "group_id": "coco/506441",
+    "target": 2,
+    "template": 2,
+    "order": 1,
+    "variant": "horizontal_flip",
+    "captions": [
+      "an image of a sandwich to the right of a knife.",
+      "an image of a sandwich to the left of a knife.",
+      "an image of a sandwich below a knife.",
+      "an image of a sandwich above a knife."
+    ]
+  },
+  {
+    "sample_id": "coco/446005/original/t0/o0",
+    "image_index": 18,
+    "group_id": "coco/446005",
+    "target": 2,
+    "template": 0,
+    "order": 0,
+    "variant": "original",
+    "captions": [
+      "a photo of a microwave to the left of an oven.",
+      "a photo of a microwave to the right of an oven.",
+      "a photo of a microwave above an oven.",
+      "a photo of a microwave below an oven."
+    ]
+  },
+  {
+    "sample_id": "coco/446005/original/t0/o1",
+    "image_index": 18,
+    "group_id": "coco/446005",
+    "target": 2,
+    "template": 0,
+    "order": 1,
+    "variant": "original",
+    "captions": [
+      "a photo of an oven to the right of a microwave.",
+      "a photo of an oven to the left of a microwave.",
+      "a photo of an oven below a microwave.",
+      "a photo of an oven above a microwave."
+    ]
+  },
+  {
+    "sample_id": "coco/446005/original/t1/o0",
+    "image_index": 18,
+    "group_id": "coco/446005",
+    "target": 2,
+    "template": 1,
+    "order": 0,
+    "variant": "original",
+    "captions": [
+      "a microwave is to the left of an oven.",
+      "a microwave is to the right of an oven.",
+      "a microwave is above an oven.",
+      "a microwave is below an oven."
+    ]
+  },
+  {
+    "sample_id": "coco/446005/original/t1/o1",
+    "image_index": 18,
+    "group_id": "coco/446005",
+    "target": 2,
+    "template": 1,
+    "order": 1,
+    "variant": "original",
+    "captions": [
+      "an oven is to the right of a microwave.",
+      "an oven is to the left of a microwave.",
+      "an oven is below a microwave.",
+      "an oven is above a microwave."
+    ]
+  },
+  {
+    "sample_id": "coco/446005/original/t2/o0",
+    "image_index": 18,
+    "group_id": "coco/446005",
+    "target": 2,
+    "template": 2,
+    "order": 0,
+    "variant": "original",
+    "captions": [
+      "an image of a microwave to the left of an oven.",
+      "an image of a microwave to the right of an oven.",
+      "an image of a microwave above an oven.",
+      "an image of a microwave below an oven."
+    ]
+  },
+  {
+    "sample_id": "coco/446005/original/t2/o1",
+    "image_index": 18,
+    "group_id": "coco/446005",
+    "target": 2,
+    "template": 2,
+    "order": 1,
+    "variant": "original",
+    "captions": [
+      "an image of an oven to the right of a microwave.",
+      "an image of an oven to the left of a microwave.",
+      "an image of an oven below a microwave.",
+      "an image of an oven above a microwave."
+    ]
+  },
+  {
+    "sample_id": "coco/446005/horizontal_flip/t0/o0",
+    "image_index": 19,
+    "group_id": "coco/446005",
+    "target": 2,
+    "template": 0,
+    "order": 0,
+    "variant": "horizontal_flip",
+    "captions": [
+      "a photo of a microwave to the left of an oven.",
+      "a photo of a microwave to the right of an oven.",
+      "a photo of a microwave above an oven.",
+      "a photo of a microwave below an oven."
+    ]
+  },
+  {
+    "sample_id": "coco/446005/horizontal_flip/t0/o1",
+    "image_index": 19,
+    "group_id": "coco/446005",
+    "target": 2,
+    "template": 0,
+    "order": 1,
+    "variant": "horizontal_flip",
+    "captions": [
+      "a photo of an oven to the right of a microwave.",
+      "a photo of an oven to the left of a microwave.",
+      "a photo of an oven below a microwave.",
+      "a photo of an oven above a microwave."
+    ]
+  },
+  {
+    "sample_id": "coco/446005/horizontal_flip/t1/o0",
+    "image_index": 19,
+    "group_id": "coco/446005",
+    "target": 2,
+    "template": 1,
+    "order": 0,
+    "variant": "horizontal_flip",
+    "captions": [
+      "a microwave is to the left of an oven.",
+      "a microwave is to the right of an oven.",
+      "a microwave is above an oven.",
+      "a microwave is below an oven."
+    ]
+  },
+  {
+    "sample_id": "coco/446005/horizontal_flip/t1/o1",
+    "image_index": 19,
+    "group_id": "coco/446005",
+    "target": 2,
+    "template": 1,
+    "order": 1,
+    "variant": "horizontal_flip",
+    "captions": [
+      "an oven is to the right of a microwave.",
+      "an oven is to the left of a microwave.",
+      "an oven is below a microwave.",
+      "an oven is above a microwave."
+    ]
+  },
+  {
+    "sample_id": "coco/446005/horizontal_flip/t2/o0",
+    "image_index": 19,
+    "group_id": "coco/446005",
+    "target": 2,
+    "template": 2,
+    "order": 0,
+    "variant": "horizontal_flip",
+    "captions": [
+      "an image of a microwave to the left of an oven.",
+      "an image of a microwave to the right of an oven.",
+      "an image of a microwave above an oven.",
+      "an image of a microwave below an oven."
+    ]
+  },
+  {
+    "sample_id": "coco/446005/horizontal_flip/t2/o1",
+    "image_index": 19,
+    "group_id": "coco/446005",
+    "target": 2,
+    "template": 2,
+    "order": 1,
+    "variant": "horizontal_flip",
+    "captions": [
+      "an image of an oven to the right of a microwave.",
+      "an image of an oven to the left of a microwave.",
+      "an image of an oven below a microwave.",
+      "an image of an oven above a microwave."
+    ]
+  },
+  {
+    "sample_id": "coco/512982/original/t0/o0",
+    "image_index": 20,
+    "group_id": "coco/512982",
+    "target": 0,
+    "template": 0,
+    "order": 0,
+    "variant": "original",
+    "captions": [
+      "a photo of a vase to the left of a bottle.",
+      "a photo of a vase to the right of a bottle.",
+      "a photo of a vase above a bottle.",
+      "a photo of a vase below a bottle."
+    ]
+  },
+  {
+    "sample_id": "coco/512982/original/t0/o1",
+    "image_index": 20,
+    "group_id": "coco/512982",
+    "target": 0,
+    "template": 0,
+    "order": 1,
+    "variant": "original",
+    "captions": [
+      "a photo of a bottle to the right of a vase.",
+      "a photo of a bottle to the left of a vase.",
+      "a photo of a bottle below a vase.",
+      "a photo of a bottle above a vase."
+    ]
+  },
+  {
+    "sample_id": "coco/512982/original/t1/o0",
+    "image_index": 20,
+    "group_id": "coco/512982",
+    "target": 0,
+    "template": 1,
+    "order": 0,
+    "variant": "original",
+    "captions": [
+      "a vase is to the left of a bottle.",
+      "a vase is to the right of a bottle.",
+      "a vase is above a bottle.",
+      "a vase is below a bottle."
+    ]
+  },
+  {
+    "sample_id": "coco/512982/original/t1/o1",
+    "image_index": 20,
+    "group_id": "coco/512982",
+    "target": 0,
+    "template": 1,
+    "order": 1,
+    "variant": "original",
+    "captions": [
+      "a bottle is to the right of a vase.",
+      "a bottle is to the left of a vase.",
+      "a bottle is below a vase.",
+      "a bottle is above a vase."
+    ]
+  },
+  {
+    "sample_id": "coco/512982/original/t2/o0",
+    "image_index": 20,
+    "group_id": "coco/512982",
+    "target": 0,
+    "template": 2,
+    "order": 0,
+    "variant": "original",
+    "captions": [
+      "an image of a vase to the left of a bottle.",
+      "an image of a vase to the right of a bottle.",
+      "an image of a vase above a bottle.",
+      "an image of a vase below a bottle."
+    ]
+  },
+  {
+    "sample_id": "coco/512982/original/t2/o1",
+    "image_index": 20,
+    "group_id": "coco/512982",
+    "target": 0,
+    "template": 2,
+    "order": 1,
+    "variant": "original",
+    "captions": [
+      "an image of a bottle to the right of a vase.",
+      "an image of a bottle to the left of a vase.",
+      "an image of a bottle below a vase.",
+      "an image of a bottle above a vase."
+    ]
+  },
+  {
+    "sample_id": "coco/512982/horizontal_flip/t0/o0",
+    "image_index": 21,
+    "group_id": "coco/512982",
+    "target": 1,
+    "template": 0,
+    "order": 0,
+    "variant": "horizontal_flip",
+    "captions": [
+      "a photo of a vase to the left of a bottle.",
+      "a photo of a vase to the right of a bottle.",
+      "a photo of a vase above a bottle.",
+      "a photo of a vase below a bottle."
+    ]
+  },
+  {
+    "sample_id": "coco/512982/horizontal_flip/t0/o1",
+    "image_index": 21,
+    "group_id": "coco/512982",
+    "target": 1,
+    "template": 0,
+    "order": 1,
+    "variant": "horizontal_flip",
+    "captions": [
+      "a photo of a bottle to the right of a vase.",
+      "a photo of a bottle to the left of a vase.",
+      "a photo of a bottle below a vase.",
+      "a photo of a bottle above a vase."
+    ]
+  },
+  {
+    "sample_id": "coco/512982/horizontal_flip/t1/o0",
+    "image_index": 21,
+    "group_id": "coco/512982",
+    "target": 1,
+    "template": 1,
+    "order": 0,
+    "variant": "horizontal_flip",
+    "captions": [
+      "a vase is to the left of a bottle.",
+      "a vase is to the right of a bottle.",
+      "a vase is above a bottle.",
+      "a vase is below a bottle."
+    ]
+  },
+  {
+    "sample_id": "coco/512982/horizontal_flip/t1/o1",
+    "image_index": 21,
+    "group_id": "coco/512982",
+    "target": 1,
+    "template": 1,
+    "order": 1,
+    "variant": "horizontal_flip",
+    "captions": [
+      "a bottle is to the right of a vase.",
+      "a bottle is to the left of a vase.",
+      "a bottle is below a vase.",
+      "a bottle is above a vase."
+    ]
+  },
+  {
+    "sample_id": "coco/512982/horizontal_flip/t2/o0",
+    "image_index": 21,
+    "group_id": "coco/512982",
+    "target": 1,
+    "template": 2,
+    "order": 0,
+    "variant": "horizontal_flip",
+    "captions": [
+      "an image of a vase to the left of a bottle.",
+      "an image of a vase to the right of a bottle.",
+      "an image of a vase above a bottle.",
+      "an image of a vase below a bottle."
+    ]
+  },
+  {
+    "sample_id": "coco/512982/horizontal_flip/t2/o1",
+    "image_index": 21,
+    "group_id": "coco/512982",
+    "target": 1,
+    "template": 2,
+    "order": 1,
+    "variant": "horizontal_flip",
+    "captions": [
+      "an image of a bottle to the right of a vase.",
+      "an image of a bottle to the left of a vase.",
+      "an image of a bottle below a vase.",
+      "an image of a bottle above a vase."
+    ]
+  },
+  {
+    "sample_id": "coco/352480/original/t0/o0",
+    "image_index": 22,
+    "group_id": "coco/352480",
+    "target": 1,
+    "template": 0,
+    "order": 0,
+    "variant": "original",
+    "captions": [
+      "a photo of a bottle to the left of a bowl.",
+      "a photo of a bottle to the right of a bowl.",
+      "a photo of a bottle above a bowl.",
+      "a photo of a bottle below a bowl."
+    ]
+  },
+  {
+    "sample_id": "coco/352480/original/t0/o1",
+    "image_index": 22,
+    "group_id": "coco/352480",
+    "target": 1,
+    "template": 0,
+    "order": 1,
+    "variant": "original",
+    "captions": [
+      "a photo of a bowl to the right of a bottle.",
+      "a photo of a bowl to the left of a bottle.",
+      "a photo of a bowl below a bottle.",
+      "a photo of a bowl above a bottle."
+    ]
+  },
+  {
+    "sample_id": "coco/352480/original/t1/o0",
+    "image_index": 22,
+    "group_id": "coco/352480",
+    "target": 1,
+    "template": 1,
+    "order": 0,
+    "variant": "original",
+    "captions": [
+      "a bottle is to the left of a bowl.",
+      "a bottle is to the right of a bowl.",
+      "a bottle is above a bowl.",
+      "a bottle is below a bowl."
+    ]
+  },
+  {
+    "sample_id": "coco/352480/original/t1/o1",
+    "image_index": 22,
+    "group_id": "coco/352480",
+    "target": 1,
+    "template": 1,
+    "order": 1,
+    "variant": "original",
+    "captions": [
+      "a bowl is to the right of a bottle.",
+      "a bowl is to the left of a bottle.",
+      "a bowl is below a bottle.",
+      "a bowl is above a bottle."
+    ]
+  },
+  {
+    "sample_id": "coco/352480/original/t2/o0",
+    "image_index": 22,
+    "group_id": "coco/352480",
+    "target": 1,
+    "template": 2,
+    "order": 0,
+    "variant": "original",
+    "captions": [
+      "an image of a bottle to the left of a bowl.",
+      "an image of a bottle to the right of a bowl.",
+      "an image of a bottle above a bowl.",
+      "an image of a bottle below a bowl."
+    ]
+  },
+  {
+    "sample_id": "coco/352480/original/t2/o1",
+    "image_index": 22,
+    "group_id": "coco/352480",
+    "target": 1,
+    "template": 2,
+    "order": 1,
+    "variant": "original",
+    "captions": [
+      "an image of a bowl to the right of a bottle.",
+      "an image of a bowl to the left of a bottle.",
+      "an image of a bowl below a bottle.",
+      "an image of a bowl above a bottle."
+    ]
+  },
+  {
+    "sample_id": "coco/352480/horizontal_flip/t0/o0",
+    "image_index": 23,
+    "group_id": "coco/352480",
+    "target": 0,
+    "template": 0,
+    "order": 0,
+    "variant": "horizontal_flip",
+    "captions": [
+      "a photo of a bottle to the left of a bowl.",
+      "a photo of a bottle to the right of a bowl.",
+      "a photo of a bottle above a bowl.",
+      "a photo of a bottle below a bowl."
+    ]
+  },
+  {
+    "sample_id": "coco/352480/horizontal_flip/t0/o1",
+    "image_index": 23,
+    "group_id": "coco/352480",
+    "target": 0,
+    "template": 0,
+    "order": 1,
+    "variant": "horizontal_flip",
+    "captions": [
+      "a photo of a bowl to the right of a bottle.",
+      "a photo of a bowl to the left of a bottle.",
+      "a photo of a bowl below a bottle.",
+      "a photo of a bowl above a bottle."
+    ]
+  },
+  {
+    "sample_id": "coco/352480/horizontal_flip/t1/o0",
+    "image_index": 23,
+    "group_id": "coco/352480",
+    "target": 0,
+    "template": 1,
+    "order": 0,
+    "variant": "horizontal_flip",
+    "captions": [
+      "a bottle is to the left of a bowl.",
+      "a bottle is to the right of a bowl.",
+      "a bottle is above a bowl.",
+      "a bottle is below a bowl."
+    ]
+  },
+  {
+    "sample_id": "coco/352480/horizontal_flip/t1/o1",
+    "image_index": 23,
+    "group_id": "coco/352480",
+    "target": 0,
+    "template": 1,
+    "order": 1,
+    "variant": "horizontal_flip",
+    "captions": [
+      "a bowl is to the right of a bottle.",
+      "a bowl is to the left of a bottle.",
+      "a bowl is below a bottle.",
+      "a bowl is above a bottle."
+    ]
+  },
+  {
+    "sample_id": "coco/352480/horizontal_flip/t2/o0",
+    "image_index": 23,
+    "group_id": "coco/352480",
+    "target": 0,
+    "template": 2,
+    "order": 0,
+    "variant": "horizontal_flip",
+    "captions": [
+      "an image of a bottle to the left of a bowl.",
+      "an image of a bottle to the right of a bowl.",
+      "an image of a bottle above a bowl.",
+      "an image of a bottle below a bowl."
+    ]
+  },
+  {
+    "sample_id": "coco/352480/horizontal_flip/t2/o1",
+    "image_index": 23,
+    "group_id": "coco/352480",
+    "target": 0,
+    "template": 2,
+    "order": 1,
+    "variant": "horizontal_flip",
+    "captions": [
+      "an image of a bowl to the right of a bottle.",
+      "an image of a bowl to the left of a bottle.",
+      "an image of a bowl below a bottle.",
+      "an image of a bowl above a bottle."
+    ]
+  }
+]

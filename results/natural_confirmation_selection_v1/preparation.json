@@ -1,0 +1,27 @@
+{
+  "prepared_at_utc": "2026-11-04T16:08:47.437984+00:00",
+  "counts": {
+    "eligible_directed_pairs": 372,
+    "eligible_source_images": 178,
+    "reserve_by_relation": {
+      "0": 103,
+      "1": 75
+    }
+  },
+  "config_sha256": "951f778cee2d2bb5c892abd42f179add3a3c29e32e63e3b6ad35a923619e5dce",
+  "protocol_sha256": "609fd9c44470aa6d6c4b53e905af898da7d928755d7610469c313ae601d40cd8",
+  "excluded_candidates_sha256": "15df662fa970a2ee653e71291d8449de7baab2259495738b53244a0e5944bf47",
+  "annotation_source": {
+    "url": "https://s3.amazonaws.com/images.cocodataset.org/annotations/annotations_trainval2014.zip",
+    "member": "annotations/instances_val2014.json",
+    "archive_bytes": 252872794,
+    "member_crc32": 642745279,
+    "sha256": "e1b4d1bc54906827b1a029981b1c77f2088bd4462569b7615db7929070c3ab47",
+    "config_sha256": "da06fb96f9da7292d07e70713b1c6c1908f3f91fd2303d87b7ccdd76bf2fcee2",
+    "protocol_sha256": "1c04bf2720d291049b04fa4f59e70de652f7a5e1b7a285b65c58a3c8bf6fe2ca",
+    "terms": "https://cocodataset.org/#termsofuse",
+    "annotation_license": "CC BY 4.0",
+    "image_licenses": "per image metadata; original photos not redistributed in Git"
+  },
+  "new_candidate_sha256": "7aa44322303fdeca33234cc778f97d73e74b270c606cdf88bcd7ea3ca52ed476"
+}

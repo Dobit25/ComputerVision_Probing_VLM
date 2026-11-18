@@ -1,0 +1,383 @@
+{
+  "num_templates": 6,
+  "baseline_template": "en_baseline",
+  "baseline_accuracy_percent": 64.48,
+  "best_single_template": "en_baseline",
+  "best_single_accuracy_percent": 64.48,
+  "worst_single_template": "vi_no_diacritics",
+  "worst_single_accuracy_percent": 4.05,
+  "mean_single_accuracy_percent": 31.519999999999996,
+  "sd_single_accuracy_percent": 29.407912540675174,
+  "spread_max_minus_min_pp": 60.43000000000001,
+  "single_templates": {
+    "en_baseline": {
+      "n": 10000,
+      "correct": 6448,
+      "accuracy_percent": 64.48,
+      "ci95_percent": [
+        63.63999999999999,
+        65.31
+      ],
+      "delta_vs_baseline_pp": 0.0,
+      "delta_vs_baseline_ci95_pp": [
+        0.0,
+        0.0
+      ]
+    },
+    "vi_diacritics": {
+      "n": 10000,
+      "correct": 510,
+      "accuracy_percent": 5.1,
+      "ci95_percent": [
+        4.88,
+        5.310249999999999
+      ],
+      "delta_vs_baseline_pp": -59.38,
+      "delta_vs_baseline_ci95_pp": [
+        -60.24025,
+        -58.52975
+      ]
+    },
+    "vi_no_diacritics": {
+      "n": 10000,
+      "correct": 405,
+      "accuracy_percent": 4.05,
+      "ci95_percent": [
+        3.8699999999999997,
+        4.25
+      ],
+      "delta_vs_baseline_pp": -60.42999999999999,
+      "delta_vs_baseline_ci95_pp": [
+        -61.28,
+        -59.57
+      ]
+    },
+    "en_frame_vi_label": {
+      "n": 10000,
+      "correct": 544,
+      "accuracy_percent": 5.4399999999999995,
+      "ci95_percent": [
+        5.17,
+        5.720249999999999
+      ],
+      "delta_vs_baseline_pp": -59.040000000000006,
+      "delta_vs_baseline_ci95_pp": [
+        -59.91,
+        -58.15975
+      ]
+    },
+    "vi_frame_en_label": {
+      "n": 10000,
+      "correct": 5510,
+      "accuracy_percent": 55.1,
+      "ci95_percent": [
+        54.230000000000004,
+        55.96
+      ],
+      "delta_vs_baseline_pp": -9.379999999999999,
+      "delta_vs_baseline_ci95_pp": [
+        -10.150250000000002,
+        -8.62
+      ]
+    },
+    "vi_en_bilingual": {
+      "n": 10000,
+      "correct": 5495,
+      "accuracy_percent": 54.949999999999996,
+      "ci95_percent": [
+        54.1,
+        55.75025
+      ],
+      "delta_vs_baseline_pp": -9.53,
+      "delta_vs_baseline_ci95_pp": [
+        -10.299999999999999,
+        -8.77
+      ]
+    }
+  },
+  "ensembles": {
+    "logit_average_ensemble": {
+      "n": 10000,
+      "correct": 5427,
+      "accuracy_percent": 54.269999999999996,
+      "ci95_percent": [
+        53.480000000000004,
+        55.089999999999996
+      ],
+      "delta_vs_baseline_pp": -10.209999999999999,
+      "delta_vs_baseline_ci95_pp": [
+        -10.96025,
+        -9.45
+      ],
+      "delta_vs_best_single_pp": -10.209999999999999,
+      "delta_vs_best_single_ci95_pp": [
+        -10.96025,
+        -9.45
+      ]
+    },
+    "probability_average_ensemble": {
+      "n": 10000,
+      "correct": 6154,
+      "accuracy_percent": 61.53999999999999,
+      "ci95_percent": [
+        60.699749999999995,
+        62.38
+      ],
+      "delta_vs_baseline_pp": -2.94,
+      "delta_vs_baseline_ci95_pp": [
+        -3.53,
+        -2.34
+      ],
+      "delta_vs_best_single_pp": -2.94,
+      "delta_vs_best_single_ci95_pp": [
+        -3.53,
+        -2.34
+      ]
+    },
+    "en_vi_bilingual_embedding_ensemble": {
+      "n": 10000,
+      "correct": 6042,
+      "accuracy_percent": 60.419999999999995,
+      "ci95_percent": [
+        59.589999999999996,
+        61.28
+      ],
+      "delta_vs_baseline_pp": -4.06,
+      "delta_vs_baseline_ci95_pp": [
+        -4.7,
+        -3.4197500000000014
+      ],
+      "delta_vs_best_single_pp": -4.06,
+      "delta_vs_best_single_ci95_pp": [
+        -4.7,
+        -3.4197500000000014
+      ]
+    }
+  },
+  "cross_lingual_text_alignment": {
+    "en_baseline": {
+      "mean_cosine_with_en_baseline": 1.0,
+      "sd_cosine_with_en_baseline": 1.2025829221329332e-07,
+      "min_cosine_with_en_baseline": 0.9999997615814209,
+      "max_cosine_with_en_baseline": 1.000000238418579
+    },
+    "vi_diacritics": {
+      "mean_cosine_with_en_baseline": 0.6583115458488464,
+      "sd_cosine_with_en_baseline": 0.05660723149776459,
+      "min_cosine_with_en_baseline": 0.5052514672279358,
+      "max_cosine_with_en_baseline": 0.799605131149292
+    },
+    "vi_no_diacritics": {
+      "mean_cosine_with_en_baseline": 0.7017238140106201,
+      "sd_cosine_with_en_baseline": 0.05538734048604965,
+      "min_cosine_with_en_baseline": 0.5372930765151978,
+      "max_cosine_with_en_baseline": 0.8158168792724609
+    },
+    "en_frame_vi_label": {
+      "mean_cosine_with_en_baseline": 0.6916568875312805,
+      "sd_cosine_with_en_baseline": 0.07792624831199646,
+      "min_cosine_with_en_baseline": 0.5537358522415161,
+      "max_cosine_with_en_baseline": 0.9247949719429016
+    },
+    "vi_frame_en_label": {
+      "mean_cosine_with_en_baseline": 0.7726487517356873,
+      "sd_cosine_with_en_baseline": 0.03420620784163475,
+      "min_cosine_with_en_baseline": 0.6727703809738159,
+      "max_cosine_with_en_baseline": 0.8587443828582764
+    },
+    "vi_en_bilingual": {
+      "mean_cosine_with_en_baseline": 0.7609214186668396,
+      "sd_cosine_with_en_baseline": 0.03241506218910217,
+      "min_cosine_with_en_baseline": 0.6680408716201782,
+      "max_cosine_with_en_baseline": 0.8302748799324036
+    }
+  },
+  "bpe_summary": {
+    "prompts": {
+      "en_baseline": {
+        "n_texts": 100,
+        "mean_subword_tokens": 6.19,
+        "sd_subword_tokens": 0.4860685407045248,
+        "median_subword_tokens": 6.0,
+        "min_subword_tokens": 6,
+        "max_subword_tokens": 8,
+        "mean_words": 5.09,
+        "mean_token_fertility_per_word": 1.2169999999999999,
+        "corpus_token_fertility": 1.2161100196463654,
+        "mean_chars_per_token": 3.2736904761904757,
+        "mean_utf8_bytes_per_token": 3.2736904761904757,
+        "exceeds_77_context_window_count": 0,
+        "mean_ratio_vs_en_baseline": 1.0
+      },
+      "vi_diacritics": {
+        "n_texts": 100,
+        "mean_subword_tokens": 27.05,
+        "sd_subword_tokens": 2.8226178836625615,
+        "median_subword_tokens": 27.0,
+        "min_subword_tokens": 22,
+        "max_subword_tokens": 36,
+        "mean_words": 6.31,
+        "mean_token_fertility_per_word": 4.301686507936508,
+        "corpus_token_fertility": 4.286846275752773,
+        "mean_chars_per_token": 0.9919024936992202,
+        "mean_utf8_bytes_per_token": 1.3804097751670552,
+        "exceeds_77_context_window_count": 0,
+        "mean_ratio_vs_en_baseline": 4.390714285714285
+      },
+      "vi_no_diacritics": {
+        "n_texts": 100,
+        "mean_subword_tokens": 10.88,
+        "sd_subword_tokens": 1.066287811507614,
+        "median_subword_tokens": 11.0,
+        "min_subword_tokens": 9,
+        "max_subword_tokens": 15,
+        "mean_words": 6.31,
+        "mean_token_fertility_per_word": 1.7273650793650794,
+        "corpus_token_fertility": 1.7242472266244058,
+        "mean_chars_per_token": 2.4561882006882008,
+        "mean_utf8_bytes_per_token": 2.4561882006882008,
+        "exceeds_77_context_window_count": 0,
+        "mean_ratio_vs_en_baseline": 1.7650595238095237
+      },
+      "en_frame_vi_label": {
+        "n_texts": 100,
+        "mean_subword_tokens": 12.05,
+        "sd_subword_tokens": 2.8226178836625615,
+        "median_subword_tokens": 12.0,
+        "min_subword_tokens": 7,
+        "max_subword_tokens": 21,
+        "mean_words": 6.31,
+        "mean_token_fertility_per_word": 1.9059126984126984,
+        "corpus_token_fertility": 1.9096671949286845,
+        "mean_chars_per_token": 1.959117868543565,
+        "mean_utf8_bytes_per_token": 2.154087913763224,
+        "exceeds_77_context_window_count": 0,
+        "mean_ratio_vs_en_baseline": 1.9550000000000003
+      },
+      "vi_frame_en_label": {
+        "n_texts": 100,
+        "mean_subword_tokens": 21.19,
+        "sd_subword_tokens": 0.48606854070452477,
+        "median_subword_tokens": 21.0,
+        "min_subword_tokens": 21,
+        "max_subword_tokens": 23,
+        "mean_words": 5.09,
+        "mean_token_fertility_per_word": 4.172000000000001,
+        "corpus_token_fertility": 4.163064833005894,
+        "mean_chars_per_token": 1.1436053077357426,
+        "mean_utf8_bytes_per_token": 1.5213278750235273,
+        "exceeds_77_context_window_count": 0,
+        "mean_ratio_vs_en_baseline": 3.435714285714286
+      },
+      "vi_en_bilingual": {
+        "n_texts": 100,
+        "mean_subword_tokens": 29.24,
+        "sd_subword_tokens": 2.888919968752784,
+        "median_subword_tokens": 29.0,
+        "min_subword_tokens": 24,
+        "max_subword_tokens": 40,
+        "mean_words": 7.4,
+        "mean_token_fertility_per_word": 3.9626666666666663,
+        "corpus_token_fertility": 3.9513513513513514,
+        "mean_chars_per_token": 1.2343752480666346,
+        "mean_utf8_bytes_per_token": 1.5937418965026189,
+        "exceeds_77_context_window_count": 0,
+        "mean_ratio_vs_en_baseline": 4.741190476190477
+      }
+    },
+    "labels": {
+      "en_baseline": {
+        "n_texts": 100,
+        "mean_subword_tokens": 1.19,
+        "sd_subword_tokens": 0.48606854070452477,
+        "median_subword_tokens": 1.0,
+        "min_subword_tokens": 1,
+        "max_subword_tokens": 3,
+        "mean_words": 1.09,
+        "mean_token_fertility_per_word": 1.1,
+        "corpus_token_fertility": 1.091743119266055,
+        "mean_chars_per_token": 5.461666666666668,
+        "mean_utf8_bytes_per_token": 5.461666666666668,
+        "exceeds_77_context_window_count": 0,
+        "mean_ratio_vs_en_baseline": 1.0
+      },
+      "vi_diacritics": {
+        "n_texts": 100,
+        "mean_subword_tokens": 7.05,
+        "sd_subword_tokens": 2.8226178836625615,
+        "median_subword_tokens": 7.0,
+        "min_subword_tokens": 2,
+        "max_subword_tokens": 16,
+        "mean_words": 2.31,
+        "mean_token_fertility_per_word": 3.087166666666667,
+        "corpus_token_fertility": 3.051948051948052,
+        "mean_chars_per_token": 1.3903846015096015,
+        "mean_utf8_bytes_per_token": 1.7214933261183263,
+        "exceeds_77_context_window_count": 0,
+        "mean_ratio_vs_en_baseline": 6.4383333333333335
+      },
+      "vi_no_diacritics": {
+        "n_texts": 100,
+        "mean_subword_tokens": 2.88,
+        "sd_subword_tokens": 1.066287811507614,
+        "median_subword_tokens": 3.0,
+        "min_subword_tokens": 1,
+        "max_subword_tokens": 7,
+        "mean_words": 2.31,
+        "mean_token_fertility_per_word": 1.242,
+        "corpus_token_fertility": 1.2467532467532467,
+        "mean_chars_per_token": 3.122119047619048,
+        "mean_utf8_bytes_per_token": 3.122119047619048,
+        "exceeds_77_context_window_count": 0,
+        "mean_ratio_vs_en_baseline": 2.621666666666666
+      },
+      "en_frame_vi_label": {
+        "n_texts": 100,
+        "mean_subword_tokens": 7.05,
+        "sd_subword_tokens": 2.8226178836625615,
+        "median_subword_tokens": 7.0,
+        "min_subword_tokens": 2,
+        "max_subword_tokens": 16,
+        "mean_words": 2.31,
+        "mean_token_fertility_per_word": 3.087166666666667,
+        "corpus_token_fertility": 3.051948051948052,
+        "mean_chars_per_token": 1.3903846015096015,
+        "mean_utf8_bytes_per_token": 1.7214933261183263,
+        "exceeds_77_context_window_count": 0,
+        "mean_ratio_vs_en_baseline": 6.4383333333333335
+      },
+      "vi_frame_en_label": {
+        "n_texts": 100,
+        "mean_subword_tokens": 1.19,
+        "sd_subword_tokens": 0.48606854070452477,
+        "median_subword_tokens": 1.0,
+        "min_subword_tokens": 1,
+        "max_subword_tokens": 3,
+        "mean_words": 1.09,
+        "mean_token_fertility_per_word": 1.1,
+        "corpus_token_fertility": 1.091743119266055,
+        "mean_chars_per_token": 5.461666666666668,
+        "mean_utf8_bytes_per_token": 5.461666666666668,
+        "exceeds_77_context_window_count": 0,
+        "mean_ratio_vs_en_baseline": 1.0
+      },
+      "vi_en_bilingual": {
+        "n_texts": 100,
+        "mean_subword_tokens": 10.24,
+        "sd_subword_tokens": 2.888919968752784,
+        "median_subword_tokens": 10.0,
+        "min_subword_tokens": 5,
+        "max_subword_tokens": 21,
+        "mean_words": 3.4,
+        "mean_token_fertility_per_word": 3.0326666666666666,
+        "corpus_token_fertility": 3.011764705882353,
+        "mean_chars_per_token": 1.8422822308410542,
+        "mean_utf8_bytes_per_token": 2.071111116824352,
+        "exceeds_77_context_window_count": 0,
+        "mean_ratio_vs_en_baseline": 9.275
+      }
+    }
+  },
+  "evaluated_samples": 10000,
+  "evaluation_seconds": 11.325332399996114
+}

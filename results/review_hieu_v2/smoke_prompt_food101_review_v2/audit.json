@@ -1,0 +1,19 @@
+{
+  "run": "results/smoke_prompt_food101_review_v2",
+  "artifact_integrity_verified": true,
+  "manifest_sha256": "a1a3196f4ca485679ab4595818cd0be13fbdb6a3086114577c12a5a7783aab4e",
+  "metrics_recomputed": true,
+  "n": 200,
+  "baseline_predictions_identical": true,
+  "baseline_target_cosine_max_abs_difference": 1.7881393432617188e-07,
+  "text_embedding_ensemble_construction_recomputed": true,
+  "limitation": null,
+  "legacy_config_protocol_note": null,
+  "derived_sha256": {
+    "classes.json": "162af7bd2f359390c027bc157514d645641fb139ab02ec6e219de39fc66871c7",
+    "diagnostics.json": "c2842dd80fa816939957b644b2f6d05433b61d8ba7b4064b897158a0aebfe29b",
+    "per_class.csv": "1ea2b399625a77d6731aa35904f8cdc5741f684733763fd43ef8965e37d7f595",
+    "predictions.csv": "246d73678380bbc9463a099c14cdd3110f63c83af82861ca24439ebd264f7506",
+    "samples.json": "86fd4efd790b547d04726bfed4b103a2ae36ab6de1b3bf2a58d9c9f64a7e1aff"
+  }
+}

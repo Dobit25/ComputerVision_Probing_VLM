@@ -1,0 +1,100 @@
+{
+  "validated_at_utc": "2026-11-03T16:50:59.995754+00:00",
+  "audits": {
+    "smoke_cifar100_clip_b32_v1": {
+      "verified": true,
+      "dataset": "CIFAR100",
+      "num_classes": 100,
+      "mode": "smoke_test",
+      "num_samples": 200,
+      "correct": 139,
+      "top1_accuracy_percent": 69.5
+    },
+    "full_cifar100_clip_b32_v1": {
+      "verified": true,
+      "dataset": "CIFAR100",
+      "num_classes": 100,
+      "mode": "full_test",
+      "num_samples": 10000,
+      "correct": 6448,
+      "top1_accuracy_percent": 64.48
+    },
+    "full_cifar100_clip_b32_refactor": {
+      "verified": true,
+      "dataset": "CIFAR100",
+      "num_classes": 100,
+      "mode": "full_test",
+      "num_samples": 10000,
+      "correct": 6448,
+      "top1_accuracy_percent": 64.48
+    },
+    "smoke_flowers102_clip_b32_v2": {
+      "verified": true,
+      "dataset": "Flowers102",
+      "num_classes": 102,
+      "mode": "smoke_test",
+      "num_samples": 200,
+      "correct": 107,
+      "top1_accuracy_percent": 53.5
+    },
+    "full_flowers102_clip_b32_v2": {
+      "verified": true,
+      "dataset": "Flowers102",
+      "num_classes": 102,
+      "mode": "full_test",
+      "num_samples": 6149,
+      "correct": 3921,
+      "top1_accuracy_percent": 63.76646609204749
+    }
+  },
+  "source_snapshots": {
+    "baseline_v1.zip": {
+      "sha256": "2832fc7b1d4ef866a6464b8610433e541c03bc7ab6039833dcfbc03564bbade8",
+      "matching_run_source_hashes": [
+        "smoke_cifar100_clip_b32_v1",
+        "full_cifar100_clip_b32_v1"
+      ]
+    },
+    "refactor_cifar100.zip": {
+      "sha256": "f9f5c17825a0ac3a671986795fffc3e97f2809fb053f76659de7acf034fcad61",
+      "matching_run_source_hashes": [
+        "full_cifar100_clip_b32_refactor"
+      ]
+    },
+    "multi_dataset_v2.zip": {
+      "sha256": "acc8e96af1ca8fc387706f9256ea5e4d1f8e7d419505c0c2d0e3bb780029f5e0",
+      "matching_run_source_hashes": [
+        "smoke_flowers102_clip_b32_v2",
+        "full_flowers102_clip_b32_v2"
+      ]
+    }
+  },
+  "cifar_refactor_comparison_sha256": "50da69daf512f0a595e9e4c568d14964041e8d61a7cfc96f1d1463e4fbc7dcbc",
+  "flowers_ground_truth_matches_official_mat_files": true,
+  "flowers_class_names_match_torchvision": true,
+  "flowers_smoke_full_overlap": {
+    "samples": 200,
+    "changed_predictions": 0,
+    "max_absolute_score_difference": {
+      "predicted_cosine": 5.960464477539063e-08,
+      "target_cosine": 1.1920928955078125e-07,
+      "top1_top2_margin": 8.940696716308594e-08
+    }
+  },
+  "flowers_full_support_range": [
+    20,
+    238
+  ],
+  "flowers_full_mean_per_class_accuracy_percent": 64.23377621622875,
+  "unit_tests": {
+    "command": "python -m unittest discover -s tests -v",
+    "passed": 16
+  },
+  "run_manifest_sha256": {
+    "smoke_cifar100_clip_b32_v1": "d086daf442098067630947e24e036560ea6aa329d497ffab899695fd2ffe1d0a",
+    "full_cifar100_clip_b32_v1": "afd4b6c8fe9c5e304db553af92727fdfa114141f12353c913d8fc434cc50ea68",
+    "full_cifar100_clip_b32_refactor": "1e12306c12f76a7dbbbd483bc385dcd247e7d62ebb1f81f0bbdf3d8ab123e6fd",
+    "smoke_flowers102_clip_b32_v2": "6da1404a2d7bce8bf4babccd9e4c51dd0c9517f64a6b1808d51df703bcf31fee",
+    "full_flowers102_clip_b32_v2": "180e74dad695190c52c5ca72e6710947844a3d34757fe9543eaf268e1979e1c7"
+  }
+}

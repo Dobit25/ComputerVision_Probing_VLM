@@ -1,0 +1,7 @@
+{
+  "reviewer_zip_local_path": "data/human_review_v2/reviewer_package.zip",
+  "sha256": "bf9bd8c9870e9edf3434eacb17954f8f9c43184d2cd7a85f41fdc6a2724907a5",
+  "html_sha256": "5a9c01ebadad47d06a6bd02ceba27b34d86bd2cd51a34afb9a52c7d322e73edb",
+  "contains": "100 annotated source previews, 100 actual center crops, blank sheets, instructions, licenses; no scores or AI review decisions",
+  "human_review_completed": false
+}

@@ -1,0 +1,11 @@
+{
+  "run": "results/full_spatial_mitigation_review_v2",
+  "artifact_integrity_verified": true,
+  "manifest_sha256": "b532ab27621bbc1bcab176c4bfe0a24afe34121ea0ef3c430453bf80593c4fae",
+  "metrics_recomputed": true,
+  "n": 1440,
+  "region_to_relational_scores_recomputed": true,
+  "limitation": null,
+  "legacy_config_protocol_note": null,
+  "derived_sha256": {}
+}

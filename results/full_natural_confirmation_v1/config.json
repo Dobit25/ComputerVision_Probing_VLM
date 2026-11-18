@@ -1,0 +1,29 @@
+{
+  "study": "natural_confirmation_v1",
+  "base_config": "configs/probing_depth_v1.json",
+  "model_config": "configs/clip_b32_cifar100.json",
+  "source": "COCO val2014",
+  "exclude_all_previous_candidates": "results/depth_natural_selection_v1/candidates.json",
+  "old_selected": "results/depth_natural_selection_v1/selected.json",
+  "selection_seed": 14031,
+  "allowed_relations": [
+    0,
+    1
+  ],
+  "target_new_sources": 100,
+  "minimum_new_sources": 80,
+  "review_all_eligible_sources": true,
+  "near_duplicate_dhash_max_distance": 6,
+  "primary_template": 2,
+  "primary_order": 0,
+  "primary_metric": "2x2_assignment_accuracy",
+  "tie_rule": "gap > 0 is correct; exact zero counted incorrect, near-ties separately reported",
+  "bootstrap_draws": 2000,
+  "bootstrap_seed": 14031,
+  "alpha": 0.05,
+  "null_assignment_probability": 0.5,
+  "test": "one-sided exact binomial greater than 0.5",
+  "reviewer": "same Codex assistant; no independent human annotation",
+  "old_review_blinding": "aggregate old findings known; per-image scores and old acceptance rationales hidden during second review",
+  "new_review_blinding": "no CLIP inference on any new candidate before selection is frozen"
+}

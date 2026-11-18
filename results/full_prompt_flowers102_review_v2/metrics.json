@@ -1,0 +1,177 @@
+{
+  "num_templates": 7,
+  "baseline_template": "T0_baseline",
+  "baseline_accuracy_percent": 63.766466092047494,
+  "best_single_template": "T4_domain",
+  "best_single_accuracy_percent": 65.08375345584648,
+  "worst_single_template": "T1_minimal",
+  "worst_single_accuracy_percent": 60.33501382338592,
+  "mean_single_accuracy_percent": 63.826870803614995,
+  "sd_single_accuracy_percent": 1.6976717698197565,
+  "spread_max_minus_min_pp": 4.7487396324605555,
+  "single_templates": {
+    "T0_baseline": {
+      "n": 6149,
+      "correct": 3921,
+      "accuracy_percent": 63.766466092047494,
+      "ci95_percent": [
+        63.00211416490487,
+        64.53081801919012
+      ],
+      "delta_vs_baseline_pp": 0.0,
+      "delta_vs_baseline_ci95_pp": [
+        0.0,
+        0.0
+      ]
+    },
+    "T1_minimal": {
+      "n": 6149,
+      "correct": 3710,
+      "accuracy_percent": 60.33501382338592,
+      "ci95_percent": [
+        59.61945031712473,
+        61.001788908765654
+      ],
+      "delta_vs_baseline_pp": -3.431452268661571,
+      "delta_vs_baseline_ci95_pp": [
+        -4.098227354041308,
+        -2.732151569360872
+      ]
+    },
+    "T2_clear": {
+      "n": 6149,
+      "correct": 3887,
+      "accuracy_percent": 63.213530655391125,
+      "ci95_percent": [
+        62.40039030736705,
+        63.99414538949423
+      ],
+      "delta_vs_baseline_pp": -0.5529354366563668,
+      "delta_vs_baseline_ci95_pp": [
+        -1.073345259391771,
+        -0.03252561392096276
+      ]
+    },
+    "T3_centered": {
+      "n": 6149,
+      "correct": 3956,
+      "accuracy_percent": 64.33566433566433,
+      "ci95_percent": [
+        63.52252398764027,
+        65.13254187672793
+      ],
+      "delta_vs_baseline_pp": 0.5691982436168482,
+      "delta_vs_baseline_ci95_pp": [
+        0.04878842088144414,
+        1.0896080663522525
+      ]
+    },
+    "T4_domain": {
+      "n": 6149,
+      "correct": 4002,
+      "accuracy_percent": 65.08375345584648,
+      "ci95_percent": [
+        64.23808749390145,
+        65.83184257602862
+      ],
+      "delta_vs_baseline_pp": 1.3172873637989917,
+      "delta_vs_baseline_ci95_pp": [
+        0.601723857537811,
+        2.049113677020654
+      ]
+    },
+    "T5_bright": {
+      "n": 6149,
+      "correct": 3997,
+      "accuracy_percent": 65.00243942104407,
+      "ci95_percent": [
+        64.22141811676696,
+        65.76679134818669
+      ],
+      "delta_vs_baseline_pp": 1.2359733289965849,
+      "delta_vs_baseline_ci95_pp": [
+        0.683037892340218,
+        1.8214343795739145
+      ]
+    },
+    "T6_cropped": {
+      "n": 6149,
+      "correct": 4000,
+      "accuracy_percent": 65.05122784192552,
+      "ci95_percent": [
+        64.25435030086193,
+        65.83224914620263
+      ],
+      "delta_vs_baseline_pp": 1.284761749878029,
+      "delta_vs_baseline_ci95_pp": [
+        0.683037892340218,
+        1.88648560741584
+      ]
+    }
+  },
+  "ensembles": {
+    "logit_average_ensemble": {
+      "n": 6149,
+      "correct": 4045,
+      "accuracy_percent": 65.78305415514718,
+      "ci95_percent": [
+        65.00243942104407,
+        66.49902423158235
+      ],
+      "delta_vs_baseline_pp": 2.0165880630996913,
+      "delta_vs_baseline_ci95_pp": [
+        1.5774922751666938,
+        2.4556838510326884
+      ],
+      "delta_vs_best_single_pp": 0.6993006993006993,
+      "delta_vs_best_single_ci95_pp": [
+        0.03211904374695075,
+        1.3498129777199546
+      ]
+    },
+    "probability_average_ensemble": {
+      "n": 6149,
+      "correct": 4060,
+      "accuracy_percent": 66.0269962595544,
+      "ci95_percent": [
+        65.26264433241178,
+        66.74255976581559
+      ],
+      "delta_vs_baseline_pp": 2.2605301675069116,
+      "delta_vs_baseline_ci95_pp": [
+        1.8376971865343958,
+        2.6833631484794274
+      ],
+      "delta_vs_best_single_pp": 0.94324280370792,
+      "delta_vs_best_single_ci95_pp": [
+        0.2764677183281834,
+        1.593755082127175
+      ]
+    },
+    "text_embedding_ensemble": {
+      "n": 6149,
+      "correct": 4025,
+      "accuracy_percent": 65.45779801593756,
+      "ci95_percent": [
+        64.66092047487396,
+        66.22214994308018
+      ],
+      "delta_vs_baseline_pp": 1.6913319238900635,
+      "delta_vs_baseline_ci95_pp": [
+        1.1871849081151407,
+        2.1954789396649863
+      ],
+      "delta_vs_best_single_pp": 0.37404456009107173,
+      "delta_vs_best_single_ci95_pp": [
+        -0.2439421044072207,
+        1.0082940315498456
+      ]
+    }
+  },
+  "dataset": "flowers102",
+  "evaluated_samples": 6149,
+  "num_classes": 102,
+  "mean_class_template_alignment_norm": 0.9628109761779375,
+  "min_class_template_alignment_norm": 0.9405439641985844,
+  "evaluation_seconds": 77.05028539999967
+}

@@ -1,0 +1,4 @@
+comparison,delta_pp,ci95_low,ci95_high
+category_minus_baseline,-1.5599999999999998,-2.1399999999999997,-0.98
+category_minus_neutral,-1.17,-1.77,-0.61
+category_minus_mean_shuffle,8.734000000000002,8.139700000000001,9.330099999999998

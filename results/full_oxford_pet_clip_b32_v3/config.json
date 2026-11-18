@@ -1,0 +1,23 @@
+{
+  "protocol_version": 3,
+  "model": "ViT-B-32",
+  "pretrained": "openai",
+  "checkpoint_url": "https://openaipublic.azureedge.net/clip/models/40d365715913c9da98579312b702a82c18be219cc2a73407c4526f58eba950af/ViT-B-32.pt",
+  "checkpoint_sha256": "40d365715913c9da98579312b702a82c18be219cc2a73407c4526f58eba950af",
+  "dataset": "OxfordIIITPet",
+  "dataset_download_url": "https://huggingface.co/datasets/xingslong/oxford-iiit-pet/resolve/e6b0d43e87d842f13fc4073b321e840c4b10f943/",
+  "split": "test",
+  "prompt_template": "a photo of a {class}.",
+  "class_name_policy": "replace_underscores_with_spaces",
+  "precision": "fp32",
+  "device": "cuda",
+  "batch_size": 32,
+  "num_workers": 0,
+  "seed": 0,
+  "cpu_threads": 4,
+  "data_dir": "data",
+  "model_dir": "models",
+  "results_dir": "results",
+  "limit": null,
+  "selection": "all_test_indices"
+}

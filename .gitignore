@@ -1,0 +1,33 @@
+# Python and notebooks
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Local environments and secrets
+.venv/
+venv/
+.env
+.env.*
+!.env.example
+
+# Downloaded datasets, caches, and model checkpoints
+data/
+datasets/
+models/
+weights/
+checkpoints/
+.cache/
+*.pt
+*.pth
+*.ckpt
+*.safetensors
+*.onnx
+
+# Local experiment trackers and operating system files
+wandb/
+mlruns/
+.DS_Store
+Thumbs.db

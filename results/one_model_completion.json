@@ -1,0 +1,48 @@
+{
+  "scope": "one_model_five_datasets_four_core_probes",
+  "classification_validation": "results/one_model_classification_validation.json",
+  "probing_validation": "results/full_probing_clip_b32_v1_audit.json",
+  "unit_tests_passed": 24,
+  "unit_test_command": "python -m unittest discover -s tests -v",
+  "local_report_links_verified": true,
+  "report_source_hashes_verified": true,
+  "new_run_integrity": [
+    {
+      "run": "results/full_dtd_clip_b32_v3",
+      "artifact_and_source_hashes_verified": true
+    },
+    {
+      "run": "results/full_food101_clip_b32_v3",
+      "artifact_and_source_hashes_verified": true
+    },
+    {
+      "run": "results/full_oxford_pet_clip_b32_v3",
+      "artifact_and_source_hashes_verified": true
+    },
+    {
+      "run": "results/smoke_dtd_clip_b32_v3",
+      "artifact_and_source_hashes_verified": true
+    },
+    {
+      "run": "results/smoke_food101_clip_b32_v3",
+      "artifact_and_source_hashes_verified": true
+    },
+    {
+      "run": "results/smoke_oxford_pet_clip_b32_v3",
+      "artifact_and_source_hashes_verified": true
+    },
+    {
+      "run": "results/full_probing_clip_b32_v1",
+      "artifact_and_source_hashes_verified": true
+    },
+    {
+      "run": "results/smoke_probing_clip_b32_v1",
+      "artifact_and_source_hashes_verified": true
+    }
+  ],
+  "reports": [
+    "reports/baseline/README.md",
+    "reports/probing/README.md",
+    "reports/interpretation.md"
+  ]
+}

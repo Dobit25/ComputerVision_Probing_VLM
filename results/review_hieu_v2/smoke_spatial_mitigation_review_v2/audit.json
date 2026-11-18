@@ -1,0 +1,11 @@
+{
+  "run": "results/smoke_spatial_mitigation_review_v2",
+  "artifact_integrity_verified": true,
+  "manifest_sha256": "627bb862b0f87994fa1313d01bcf964c798b1f88a2917ed14c2e698ea9e448d5",
+  "metrics_recomputed": true,
+  "n": 36,
+  "region_to_relational_scores_recomputed": true,
+  "limitation": null,
+  "legacy_config_protocol_note": null,
+  "derived_sha256": {}
+}

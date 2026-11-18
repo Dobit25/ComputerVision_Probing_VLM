@@ -1,0 +1,10 @@
+{
+  "num_samples": 6149,
+  "num_classes": 102,
+  "correct": 3921,
+  "top1_accuracy": 0.6376646609204749,
+  "top1_accuracy_percent": 63.76646609204749,
+  "evaluation_seconds": 71.38819019999937,
+  "images_per_second": 86.13469514737822,
+  "peak_cuda_memory_allocated_bytes": 902132224
+}

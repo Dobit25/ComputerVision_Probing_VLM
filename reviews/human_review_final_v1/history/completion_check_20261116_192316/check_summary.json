@@ -1,0 +1,51 @@
+{
+  "source_sha256": "e36ad1588d2ad48fdb31de63151bba7c6099b4f5759851bc13a509b4b812123e",
+  "rows": 100,
+  "decisions": {
+    "yes": 98,
+    "no": 2
+  },
+  "rejected": [
+    {
+      "blind_id": "CONFIRMATION_100_006",
+      "object_a": "donut",
+      "object_b": "chair",
+      "expected_relation": "left",
+      "annotator_id": "R1",
+      "both_objects_visible": "yes",
+      "class_names_correct": "no",
+      "relation_clear": "yes",
+      "perceived_relation": "left",
+      "overall_accept": "no",
+      "exclusion_reason": "AMBIGUOUS_LABEL",
+      "notes": ""
+    },
+    {
+      "blind_id": "CONFIRMATION_100_092",
+      "object_a": "person",
+      "object_b": "chair",
+      "expected_relation": "right",
+      "annotator_id": "R1",
+      "both_objects_visible": "yes",
+      "class_names_correct": "no",
+      "relation_clear": "yes",
+      "perceived_relation": "right",
+      "overall_accept": "no",
+      "exclusion_reason": "OCCLUDED_OR_TINY",
+      "notes": ""
+    }
+  ],
+  "whitespace_cells": 347,
+  "unnamed_columns": [
+    ""
+  ],
+  "notes_nonempty": 0,
+  "normalized_validation_passed": true,
+  "source_unchanged": true,
+  "normalization_only": "Removed outer whitespace and empty unnamed column; all annotation decisions unchanged.",
+  "semantic_followup": [
+    "040: target fork visibility in actual crop remains disputed.",
+    "092: both_objects_visible=yes versus OCCLUDED_OR_TINY should be explained in notes; may mean visible fragment but not identifiable."
+  ],
+  "not_a_second_independent_human_review": true
+}

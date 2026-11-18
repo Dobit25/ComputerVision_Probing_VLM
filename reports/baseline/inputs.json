@@ -1,0 +1,65 @@
+{
+  "runs": {
+    "full_cifar100_clip_b32_v1": {
+      "manifest_sha256": "afd4b6c8fe9c5e304db553af92727fdfa114141f12353c913d8fc434cc50ea68",
+      "audit": {
+        "verified": true,
+        "dataset": "CIFAR100",
+        "num_classes": 100,
+        "mode": "full_test",
+        "num_samples": 10000,
+        "correct": 6448,
+        "top1_accuracy_percent": 64.48
+      }
+    },
+    "full_flowers102_clip_b32_v2": {
+      "manifest_sha256": "180e74dad695190c52c5ca72e6710947844a3d34757fe9543eaf268e1979e1c7",
+      "audit": {
+        "verified": true,
+        "dataset": "Flowers102",
+        "num_classes": 102,
+        "mode": "full_test",
+        "num_samples": 6149,
+        "correct": 3921,
+        "top1_accuracy_percent": 63.76646609204749
+      }
+    },
+    "full_oxford_pet_clip_b32_v3": {
+      "manifest_sha256": "fd0f80027557022fbf3763b418ef5378cbd2b1b2cff20350acda6659879239c9",
+      "audit": {
+        "verified": true,
+        "dataset": "OxfordIIITPet",
+        "num_classes": 37,
+        "mode": "full_test",
+        "num_samples": 3669,
+        "correct": 3121,
+        "top1_accuracy_percent": 85.0640501499046
+      }
+    },
+    "full_dtd_clip_b32_v3": {
+      "manifest_sha256": "6a10992a1ea22c6eea2a1d5862aca1c53f7da87c1a072a66914d587610dbf979",
+      "audit": {
+        "verified": true,
+        "dataset": "DTD",
+        "num_classes": 47,
+        "mode": "full_test",
+        "num_samples": 1880,
+        "correct": 798,
+        "top1_accuracy_percent": 42.4468085106383
+      }
+    },
+    "full_food101_clip_b32_v3": {
+      "manifest_sha256": "43998e7cd42acda07a40d977e199528d3396f14daf4b8c7d0465d957f32c5b26",
+      "audit": {
+        "verified": true,
+        "dataset": "Food101",
+        "num_classes": 101,
+        "mode": "full_test",
+        "num_samples": 25250,
+        "correct": 20784,
+        "top1_accuracy_percent": 82.31287128712871
+      }
+    }
+  },
+  "report_source_sha256": "7a2637410d9b796fb60ad42610d3aef403391647f59b008f85c2672ba829030f"
+}

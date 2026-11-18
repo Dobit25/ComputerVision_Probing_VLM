@@ -1,0 +1,44 @@
+{
+  "verified": true,
+  "mode": "full",
+  "num_samples": 13240,
+  "global_fine_grained_predictions_match_baseline": true,
+  "tasks": {
+    "counting": {
+      "num_samples": 1080,
+      "correct": 355,
+      "accuracy_percent": 32.870370370370374,
+      "accuracy_ci95_group_bootstrap": [
+        0.30648148148148147,
+        0.3500231481481481
+      ]
+    },
+    "spatial": {
+      "num_samples": 720,
+      "correct": 213,
+      "accuracy_percent": 29.583333333333332,
+      "accuracy_ci95_group_bootstrap": [
+        0.27774305555555556,
+        0.31527777777777777
+      ]
+    },
+    "negation": {
+      "num_samples": 1440,
+      "correct": 1240,
+      "accuracy_percent": 86.11111111111111,
+      "accuracy_ci95_group_bootstrap": [
+        0.8423437500000001,
+        0.8805555555555555
+      ]
+    },
+    "fine_grained": {
+      "num_samples": 10000,
+      "correct": 7795,
+      "accuracy_percent": 77.95,
+      "accuracy_ci95_group_bootstrap": [
+        0.7715974999999999,
+        0.7877025
+      ]
+    }
+  }
+}

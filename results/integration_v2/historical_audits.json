@@ -1,0 +1,74 @@
+[
+  {
+    "command": [
+      "D:\\Coding\\Anaconda\\envs\\gen\\python.exe",
+      "-m",
+      "vlm_probe.verify",
+      "results/full_cifar100_clip_b32_v1"
+    ],
+    "exit_code": 0
+  },
+  {
+    "command": [
+      "D:\\Coding\\Anaconda\\envs\\gen\\python.exe",
+      "-m",
+      "vlm_probe.verify",
+      "results/full_flowers102_clip_b32_v2"
+    ],
+    "exit_code": 0
+  },
+  {
+    "command": [
+      "D:\\Coding\\Anaconda\\envs\\gen\\python.exe",
+      "-m",
+      "vlm_probe.verify",
+      "results/full_oxford_pet_clip_b32_v3"
+    ],
+    "exit_code": 0
+  },
+  {
+    "command": [
+      "D:\\Coding\\Anaconda\\envs\\gen\\python.exe",
+      "-m",
+      "vlm_probe.verify",
+      "results/full_dtd_clip_b32_v3"
+    ],
+    "exit_code": 0
+  },
+  {
+    "command": [
+      "D:\\Coding\\Anaconda\\envs\\gen\\python.exe",
+      "-m",
+      "vlm_probe.verify",
+      "results/full_food101_clip_b32_v3"
+    ],
+    "exit_code": 0
+  },
+  {
+    "command": [
+      "D:\\Coding\\Anaconda\\envs\\gen\\python.exe",
+      "-m",
+      "vlm_probe.probing.audit",
+      "results/full_probing_clip_b32_v1"
+    ],
+    "exit_code": 0
+  },
+  {
+    "command": [
+      "D:\\Coding\\Anaconda\\envs\\gen\\python.exe",
+      "-m",
+      "vlm_probe.depth",
+      "audit"
+    ],
+    "exit_code": 0
+  },
+  {
+    "command": [
+      "D:\\Coding\\Anaconda\\envs\\gen\\python.exe",
+      "-m",
+      "vlm_probe.depth.confirmation",
+      "audit"
+    ],
+    "exit_code": 0
+  }
+]

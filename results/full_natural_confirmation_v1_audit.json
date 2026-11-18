@@ -1,0 +1,26 @@
+{
+  "verified": true,
+  "metrics_recomputed": true,
+  "sources_disjoint_from_all_400_previous_candidates": true,
+  "num_sources": 100,
+  "selection_frozen_before_inference": true,
+  "primary": {
+    "n_sources": 100,
+    "correct": 53,
+    "accuracy_percent": 53.0,
+    "wilson_ci95_percent": [
+      43.28885697009937,
+      62.48918204065872
+    ],
+    "bootstrap_ci95_percent": [
+      43.0,
+      63.0
+    ],
+    "binomial_p_greater_0_5": 0.308649706794626,
+    "two_way_accuracy_percent": 51.5,
+    "both_images_correct_percent": 4.0,
+    "mean_gap": 1.6671419143676757e-05,
+    "exact_ties": 0,
+    "near_ties": 0
+  }
+}

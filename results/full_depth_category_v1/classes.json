@@ -1,0 +1,902 @@
+[
+  {
+    "class_id": 0,
+    "class_name": "apple",
+    "coarse_id": 4,
+    "coarse_name": "fruit_and_vegetables",
+    "category_text": "fruit or vegetable",
+    "baseline_prompt": "a photo of a apple.",
+    "category_prompt": "a photo of a apple, a type of fruit or vegetable."
+  },
+  {
+    "class_id": 1,
+    "class_name": "aquarium_fish",
+    "coarse_id": 1,
+    "coarse_name": "fish",
+    "category_text": "fish",
+    "baseline_prompt": "a photo of a aquarium fish.",
+    "category_prompt": "a photo of a aquarium fish, a type of fish."
+  },
+  {
+    "class_id": 2,
+    "class_name": "baby",
+    "coarse_id": 14,
+    "coarse_name": "people",
+    "category_text": "person",
+    "baseline_prompt": "a photo of a baby.",
+    "category_prompt": "a photo of a baby, a type of person."
+  },
+  {
+    "class_id": 3,
+    "class_name": "bear",
+    "coarse_id": 8,
+    "coarse_name": "large_carnivores",
+    "category_text": "large carnivore",
+    "baseline_prompt": "a photo of a bear.",
+    "category_prompt": "a photo of a bear, a type of large carnivore."
+  },
+  {
+    "class_id": 4,
+    "class_name": "beaver",
+    "coarse_id": 0,
+    "coarse_name": "aquatic_mammals",
+    "category_text": "aquatic mammal",
+    "baseline_prompt": "a photo of a beaver.",
+    "category_prompt": "a photo of a beaver, a type of aquatic mammal."
+  },
+  {
+    "class_id": 5,
+    "class_name": "bed",
+    "coarse_id": 6,
+    "coarse_name": "household_furniture",
+    "category_text": "household furniture",
+    "baseline_prompt": "a photo of a bed.",
+    "category_prompt": "a photo of a bed, a type of household furniture."
+  },
+  {
+    "class_id": 6,
+    "class_name": "bee",
+    "coarse_id": 7,
+    "coarse_name": "insects",
+    "category_text": "insect",
+    "baseline_prompt": "a photo of a bee.",
+    "category_prompt": "a photo of a bee, a type of insect."
+  },
+  {
+    "class_id": 7,
+    "class_name": "beetle",
+    "coarse_id": 7,
+    "coarse_name": "insects",
+    "category_text": "insect",
+    "baseline_prompt": "a photo of a beetle.",
+    "category_prompt": "a photo of a beetle, a type of insect."
+  },
+  {
+    "class_id": 8,
+    "class_name": "bicycle",
+    "coarse_id": 18,
+    "coarse_name": "vehicles_1",
+    "category_text": "vehicle",
+    "baseline_prompt": "a photo of a bicycle.",
+    "category_prompt": "a photo of a bicycle, a type of vehicle."
+  },
+  {
+    "class_id": 9,
+    "class_name": "bottle",
+    "coarse_id": 3,
+    "coarse_name": "food_containers",
+    "category_text": "food container",
+    "baseline_prompt": "a photo of a bottle.",
+    "category_prompt": "a photo of a bottle, a type of food container."
+  },
+  {
+    "class_id": 10,
+    "class_name": "bowl",
+    "coarse_id": 3,
+    "coarse_name": "food_containers",
+    "category_text": "food container",
+    "baseline_prompt": "a photo of a bowl.",
+    "category_prompt": "a photo of a bowl, a type of food container."
+  },
+  {
+    "class_id": 11,
+    "class_name": "boy",
+    "coarse_id": 14,
+    "coarse_name": "people",
+    "category_text": "person",
+    "baseline_prompt": "a photo of a boy.",
+    "category_prompt": "a photo of a boy, a type of person."
+  },
+  {
+    "class_id": 12,
+    "class_name": "bridge",
+    "coarse_id": 9,
+    "coarse_name": "large_man-made_outdoor_things",
+    "category_text": "man-made outdoor structure",
+    "baseline_prompt": "a photo of a bridge.",
+    "category_prompt": "a photo of a bridge, a type of man-made outdoor structure."
+  },
+  {
+    "class_id": 13,
+    "class_name": "bus",
+    "coarse_id": 18,
+    "coarse_name": "vehicles_1",
+    "category_text": "vehicle",
+    "baseline_prompt": "a photo of a bus.",
+    "category_prompt": "a photo of a bus, a type of vehicle."
+  },
+  {
+    "class_id": 14,
+    "class_name": "butterfly",
+    "coarse_id": 7,
+    "coarse_name": "insects",
+    "category_text": "insect",
+    "baseline_prompt": "a photo of a butterfly.",
+    "category_prompt": "a photo of a butterfly, a type of insect."
+  },
+  {
+    "class_id": 15,
+    "class_name": "camel",
+    "coarse_id": 11,
+    "coarse_name": "large_omnivores_and_herbivores",
+    "category_text": "large omnivore or herbivore",
+    "baseline_prompt": "a photo of a camel.",
+    "category_prompt": "a photo of a camel, a type of large omnivore or herbivore."
+  },
+  {
+    "class_id": 16,
+    "class_name": "can",
+    "coarse_id": 3,
+    "coarse_name": "food_containers",
+    "category_text": "food container",
+    "baseline_prompt": "a photo of a can.",
+    "category_prompt": "a photo of a can, a type of food container."
+  },
+  {
+    "class_id": 17,
+    "class_name": "castle",
+    "coarse_id": 9,
+    "coarse_name": "large_man-made_outdoor_things",
+    "category_text": "man-made outdoor structure",
+    "baseline_prompt": "a photo of a castle.",
+    "category_prompt": "a photo of a castle, a type of man-made outdoor structure."
+  },
+  {
+    "class_id": 18,
+    "class_name": "caterpillar",
+    "coarse_id": 7,
+    "coarse_name": "insects",
+    "category_text": "insect",
+    "baseline_prompt": "a photo of a caterpillar.",
+    "category_prompt": "a photo of a caterpillar, a type of insect."
+  },
+  {
+    "class_id": 19,
+    "class_name": "cattle",
+    "coarse_id": 11,
+    "coarse_name": "large_omnivores_and_herbivores",
+    "category_text": "large omnivore or herbivore",
+    "baseline_prompt": "a photo of a cattle.",
+    "category_prompt": "a photo of a cattle, a type of large omnivore or herbivore."
+  },
+  {
+    "class_id": 20,
+    "class_name": "chair",
+    "coarse_id": 6,
+    "coarse_name": "household_furniture",
+    "category_text": "household furniture",
+    "baseline_prompt": "a photo of a chair.",
+    "category_prompt": "a photo of a chair, a type of household furniture."
+  },
+  {
+    "class_id": 21,
+    "class_name": "chimpanzee",
+    "coarse_id": 11,
+    "coarse_name": "large_omnivores_and_herbivores",
+    "category_text": "large omnivore or herbivore",
+    "baseline_prompt": "a photo of a chimpanzee.",
+    "category_prompt": "a photo of a chimpanzee, a type of large omnivore or herbivore."
+  },
+  {
+    "class_id": 22,
+    "class_name": "clock",
+    "coarse_id": 5,
+    "coarse_name": "household_electrical_devices",
+    "category_text": "household electrical device",
+    "baseline_prompt": "a photo of a clock.",
+    "category_prompt": "a photo of a clock, a type of household electrical device."
+  },
+  {
+    "class_id": 23,
+    "class_name": "cloud",
+    "coarse_id": 10,
+    "coarse_name": "large_natural_outdoor_scenes",
+    "category_text": "natural outdoor feature",
+    "baseline_prompt": "a photo of a cloud.",
+    "category_prompt": "a photo of a cloud, a type of natural outdoor feature."
+  },
+  {
+    "class_id": 24,
+    "class_name": "cockroach",
+    "coarse_id": 7,
+    "coarse_name": "insects",
+    "category_text": "insect",
+    "baseline_prompt": "a photo of a cockroach.",
+    "category_prompt": "a photo of a cockroach, a type of insect."
+  },
+  {
+    "class_id": 25,
+    "class_name": "couch",
+    "coarse_id": 6,
+    "coarse_name": "household_furniture",
+    "category_text": "household furniture",
+    "baseline_prompt": "a photo of a couch.",
+    "category_prompt": "a photo of a couch, a type of household furniture."
+  },
+  {
+    "class_id": 26,
+    "class_name": "crab",
+    "coarse_id": 13,
+    "coarse_name": "non-insect_invertebrates",
+    "category_text": "non-insect invertebrate",
+    "baseline_prompt": "a photo of a crab.",
+    "category_prompt": "a photo of a crab, a type of non-insect invertebrate."
+  },
+  {
+    "class_id": 27,
+    "class_name": "crocodile",
+    "coarse_id": 15,
+    "coarse_name": "reptiles",
+    "category_text": "reptile",
+    "baseline_prompt": "a photo of a crocodile.",
+    "category_prompt": "a photo of a crocodile, a type of reptile."
+  },
+  {
+    "class_id": 28,
+    "class_name": "cup",
+    "coarse_id": 3,
+    "coarse_name": "food_containers",
+    "category_text": "food container",
+    "baseline_prompt": "a photo of a cup.",
+    "category_prompt": "a photo of a cup, a type of food container."
+  },
+  {
+    "class_id": 29,
+    "class_name": "dinosaur",
+    "coarse_id": 15,
+    "coarse_name": "reptiles",
+    "category_text": "reptile",
+    "baseline_prompt": "a photo of a dinosaur.",
+    "category_prompt": "a photo of a dinosaur, a type of reptile."
+  },
+  {
+    "class_id": 30,
+    "class_name": "dolphin",
+    "coarse_id": 0,
+    "coarse_name": "aquatic_mammals",
+    "category_text": "aquatic mammal",
+    "baseline_prompt": "a photo of a dolphin.",
+    "category_prompt": "a photo of a dolphin, a type of aquatic mammal."
+  },
+  {
+    "class_id": 31,
+    "class_name": "elephant",
+    "coarse_id": 11,
+    "coarse_name": "large_omnivores_and_herbivores",
+    "category_text": "large omnivore or herbivore",
+    "baseline_prompt": "a photo of a elephant.",
+    "category_prompt": "a photo of a elephant, a type of large omnivore or herbivore."
+  },
+  {
+    "class_id": 32,
+    "class_name": "flatfish",
+    "coarse_id": 1,
+    "coarse_name": "fish",
+    "category_text": "fish",
+    "baseline_prompt": "a photo of a flatfish.",
+    "category_prompt": "a photo of a flatfish, a type of fish."
+  },
+  {
+    "class_id": 33,
+    "class_name": "forest",
+    "coarse_id": 10,
+    "coarse_name": "large_natural_outdoor_scenes",
+    "category_text": "natural outdoor feature",
+    "baseline_prompt": "a photo of a forest.",
+    "category_prompt": "a photo of a forest, a type of natural outdoor feature."
+  },
+  {
+    "class_id": 34,
+    "class_name": "fox",
+    "coarse_id": 12,
+    "coarse_name": "medium_mammals",
+    "category_text": "medium-sized mammal",
+    "baseline_prompt": "a photo of a fox.",
+    "category_prompt": "a photo of a fox, a type of medium-sized mammal."
+  },
+  {
+    "class_id": 35,
+    "class_name": "girl",
+    "coarse_id": 14,
+    "coarse_name": "people",
+    "category_text": "person",
+    "baseline_prompt": "a photo of a girl.",
+    "category_prompt": "a photo of a girl, a type of person."
+  },
+  {
+    "class_id": 36,
+    "class_name": "hamster",
+    "coarse_id": 16,
+    "coarse_name": "small_mammals",
+    "category_text": "small mammal",
+    "baseline_prompt": "a photo of a hamster.",
+    "category_prompt": "a photo of a hamster, a type of small mammal."
+  },
+  {
+    "class_id": 37,
+    "class_name": "house",
+    "coarse_id": 9,
+    "coarse_name": "large_man-made_outdoor_things",
+    "category_text": "man-made outdoor structure",
+    "baseline_prompt": "a photo of a house.",
+    "category_prompt": "a photo of a house, a type of man-made outdoor structure."
+  },
+  {
+    "class_id": 38,
+    "class_name": "kangaroo",
+    "coarse_id": 11,
+    "coarse_name": "large_omnivores_and_herbivores",
+    "category_text": "large omnivore or herbivore",
+    "baseline_prompt": "a photo of a kangaroo.",
+    "category_prompt": "a photo of a kangaroo, a type of large omnivore or herbivore."
+  },
+  {
+    "class_id": 39,
+    "class_name": "keyboard",
+    "coarse_id": 5,
+    "coarse_name": "household_electrical_devices",
+    "category_text": "household electrical device",
+    "baseline_prompt": "a photo of a keyboard.",
+    "category_prompt": "a photo of a keyboard, a type of household electrical device."
+  },
+  {
+    "class_id": 40,
+    "class_name": "lamp",
+    "coarse_id": 5,
+    "coarse_name": "household_electrical_devices",
+    "category_text": "household electrical device",
+    "baseline_prompt": "a photo of a lamp.",
+    "category_prompt": "a photo of a lamp, a type of household electrical device."
+  },
+  {
+    "class_id": 41,
+    "class_name": "lawn_mower",
+    "coarse_id": 19,
+    "coarse_name": "vehicles_2",
+    "category_text": "vehicle",
+    "baseline_prompt": "a photo of a lawn mower.",
+    "category_prompt": "a photo of a lawn mower, a type of vehicle."
+  },
+  {
+    "class_id": 42,
+    "class_name": "leopard",
+    "coarse_id": 8,
+    "coarse_name": "large_carnivores",
+    "category_text": "large carnivore",
+    "baseline_prompt": "a photo of a leopard.",
+    "category_prompt": "a photo of a leopard, a type of large carnivore."
+  },
+  {
+    "class_id": 43,
+    "class_name": "lion",
+    "coarse_id": 8,
+    "coarse_name": "large_carnivores",
+    "category_text": "large carnivore",
+    "baseline_prompt": "a photo of a lion.",
+    "category_prompt": "a photo of a lion, a type of large carnivore."
+  },
+  {
+    "class_id": 44,
+    "class_name": "lizard",
+    "coarse_id": 15,
+    "coarse_name": "reptiles",
+    "category_text": "reptile",
+    "baseline_prompt": "a photo of a lizard.",
+    "category_prompt": "a photo of a lizard, a type of reptile."
+  },
+  {
+    "class_id": 45,
+    "class_name": "lobster",
+    "coarse_id": 13,
+    "coarse_name": "non-insect_invertebrates",
+    "category_text": "non-insect invertebrate",
+    "baseline_prompt": "a photo of a lobster.",
+    "category_prompt": "a photo of a lobster, a type of non-insect invertebrate."
+  },
+  {
+    "class_id": 46,
+    "class_name": "man",
+    "coarse_id": 14,
+    "coarse_name": "people",
+    "category_text": "person",
+    "baseline_prompt": "a photo of a man.",
+    "category_prompt": "a photo of a man, a type of person."
+  },
+  {
+    "class_id": 47,
+    "class_name": "maple_tree",
+    "coarse_id": 17,
+    "coarse_name": "trees",
+    "category_text": "tree",
+    "baseline_prompt": "a photo of a maple tree.",
+    "category_prompt": "a photo of a maple tree, a type of tree."
+  },
+  {
+    "class_id": 48,
+    "class_name": "motorcycle",
+    "coarse_id": 18,
+    "coarse_name": "vehicles_1",
+    "category_text": "vehicle",
+    "baseline_prompt": "a photo of a motorcycle.",
+    "category_prompt": "a photo of a motorcycle, a type of vehicle."
+  },
+  {
+    "class_id": 49,
+    "class_name": "mountain",
+    "coarse_id": 10,
+    "coarse_name": "large_natural_outdoor_scenes",
+    "category_text": "natural outdoor feature",
+    "baseline_prompt": "a photo of a mountain.",
+    "category_prompt": "a photo of a mountain, a type of natural outdoor feature."
+  },
+  {
+    "class_id": 50,
+    "class_name": "mouse",
+    "coarse_id": 16,
+    "coarse_name": "small_mammals",
+    "category_text": "small mammal",
+    "baseline_prompt": "a photo of a mouse.",
+    "category_prompt": "a photo of a mouse, a type of small mammal."
+  },
+  {
+    "class_id": 51,
+    "class_name": "mushroom",
+    "coarse_id": 4,
+    "coarse_name": "fruit_and_vegetables",
+    "category_text": "fruit or vegetable",
+    "baseline_prompt": "a photo of a mushroom.",
+    "category_prompt": "a photo of a mushroom, a type of fruit or vegetable."
+  },
+  {
+    "class_id": 52,
+    "class_name": "oak_tree",
+    "coarse_id": 17,
+    "coarse_name": "trees",
+    "category_text": "tree",
+    "baseline_prompt": "a photo of a oak tree.",
+    "category_prompt": "a photo of a oak tree, a type of tree."
+  },
+  {
+    "class_id": 53,
+    "class_name": "orange",
+    "coarse_id": 4,
+    "coarse_name": "fruit_and_vegetables",
+    "category_text": "fruit or vegetable",
+    "baseline_prompt": "a photo of a orange.",
+    "category_prompt": "a photo of a orange, a type of fruit or vegetable."
+  },
+  {
+    "class_id": 54,
+    "class_name": "orchid",
+    "coarse_id": 2,
+    "coarse_name": "flowers",
+    "category_text": "flower",
+    "baseline_prompt": "a photo of a orchid.",
+    "category_prompt": "a photo of a orchid, a type of flower."
+  },
+  {
+    "class_id": 55,
+    "class_name": "otter",
+    "coarse_id": 0,
+    "coarse_name": "aquatic_mammals",
+    "category_text": "aquatic mammal",
+    "baseline_prompt": "a photo of a otter.",
+    "category_prompt": "a photo of a otter, a type of aquatic mammal."
+  },
+  {
+    "class_id": 56,
+    "class_name": "palm_tree",
+    "coarse_id": 17,
+    "coarse_name": "trees",
+    "category_text": "tree",
+    "baseline_prompt": "a photo of a palm tree.",
+    "category_prompt": "a photo of a palm tree, a type of tree."
+  },
+  {
+    "class_id": 57,
+    "class_name": "pear",
+    "coarse_id": 4,
+    "coarse_name": "fruit_and_vegetables",
+    "category_text": "fruit or vegetable",
+    "baseline_prompt": "a photo of a pear.",
+    "category_prompt": "a photo of a pear, a type of fruit or vegetable."
+  },
+  {
+    "class_id": 58,
+    "class_name": "pickup_truck",
+    "coarse_id": 18,
+    "coarse_name": "vehicles_1",
+    "category_text": "vehicle",
+    "baseline_prompt": "a photo of a pickup truck.",
+    "category_prompt": "a photo of a pickup truck, a type of vehicle."
+  },
+  {
+    "class_id": 59,
+    "class_name": "pine_tree",
+    "coarse_id": 17,
+    "coarse_name": "trees",
+    "category_text": "tree",
+    "baseline_prompt": "a photo of a pine tree.",
+    "category_prompt": "a photo of a pine tree, a type of tree."
+  },
+  {
+    "class_id": 60,
+    "class_name": "plain",
+    "coarse_id": 10,
+    "coarse_name": "large_natural_outdoor_scenes",
+    "category_text": "natural outdoor feature",
+    "baseline_prompt": "a photo of a plain.",
+    "category_prompt": "a photo of a plain, a type of natural outdoor feature."
+  },
+  {
+    "class_id": 61,
+    "class_name": "plate",
+    "coarse_id": 3,
+    "coarse_name": "food_containers",
+    "category_text": "food container",
+    "baseline_prompt": "a photo of a plate.",
+    "category_prompt": "a photo of a plate, a type of food container."
+  },
+  {
+    "class_id": 62,
+    "class_name": "poppy",
+    "coarse_id": 2,
+    "coarse_name": "flowers",
+    "category_text": "flower",
+    "baseline_prompt": "a photo of a poppy.",
+    "category_prompt": "a photo of a poppy, a type of flower."
+  },
+  {
+    "class_id": 63,
+    "class_name": "porcupine",
+    "coarse_id": 12,
+    "coarse_name": "medium_mammals",
+    "category_text": "medium-sized mammal",
+    "baseline_prompt": "a photo of a porcupine.",
+    "category_prompt": "a photo of a porcupine, a type of medium-sized mammal."
+  },
+  {
+    "class_id": 64,
+    "class_name": "possum",
+    "coarse_id": 12,
+    "coarse_name": "medium_mammals",
+    "category_text": "medium-sized mammal",
+    "baseline_prompt": "a photo of a possum.",
+    "category_prompt": "a photo of a possum, a type of medium-sized mammal."
+  },
+  {
+    "class_id": 65,
+    "class_name": "rabbit",
+    "coarse_id": 16,
+    "coarse_name": "small_mammals",
+    "category_text": "small mammal",
+    "baseline_prompt": "a photo of a rabbit.",
+    "category_prompt": "a photo of a rabbit, a type of small mammal."
+  },
+  {
+    "class_id": 66,
+    "class_name": "raccoon",
+    "coarse_id": 12,
+    "coarse_name": "medium_mammals",
+    "category_text": "medium-sized mammal",
+    "baseline_prompt": "a photo of a raccoon.",
+    "category_prompt": "a photo of a raccoon, a type of medium-sized mammal."
+  },
+  {
+    "class_id": 67,
+    "class_name": "ray",
+    "coarse_id": 1,
+    "coarse_name": "fish",
+    "category_text": "fish",
+    "baseline_prompt": "a photo of a ray.",
+    "category_prompt": "a photo of a ray, a type of fish."
+  },
+  {
+    "class_id": 68,
+    "class_name": "road",
+    "coarse_id": 9,
+    "coarse_name": "large_man-made_outdoor_things",
+    "category_text": "man-made outdoor structure",
+    "baseline_prompt": "a photo of a road.",
+    "category_prompt": "a photo of a road, a type of man-made outdoor structure."
+  },
+  {
+    "class_id": 69,
+    "class_name": "rocket",
+    "coarse_id": 19,
+    "coarse_name": "vehicles_2",
+    "category_text": "vehicle",
+    "baseline_prompt": "a photo of a rocket.",
+    "category_prompt": "a photo of a rocket, a type of vehicle."
+  },
+  {
+    "class_id": 70,
+    "class_name": "rose",
+    "coarse_id": 2,
+    "coarse_name": "flowers",
+    "category_text": "flower",
+    "baseline_prompt": "a photo of a rose.",
+    "category_prompt": "a photo of a rose, a type of flower."
+  },
+  {
+    "class_id": 71,
+    "class_name": "sea",
+    "coarse_id": 10,
+    "coarse_name": "large_natural_outdoor_scenes",
+    "category_text": "natural outdoor feature",
+    "baseline_prompt": "a photo of a sea.",
+    "category_prompt": "a photo of a sea, a type of natural outdoor feature."
+  },
+  {
+    "class_id": 72,
+    "class_name": "seal",
+    "coarse_id": 0,
+    "coarse_name": "aquatic_mammals",
+    "category_text": "aquatic mammal",
+    "baseline_prompt": "a photo of a seal.",
+    "category_prompt": "a photo of a seal, a type of aquatic mammal."
+  },
+  {
+    "class_id": 73,
+    "class_name": "shark",
+    "coarse_id": 1,
+    "coarse_name": "fish",
+    "category_text": "fish",
+    "baseline_prompt": "a photo of a shark.",
+    "category_prompt": "a photo of a shark, a type of fish."
+  },
+  {
+    "class_id": 74,
+    "class_name": "shrew",
+    "coarse_id": 16,
+    "coarse_name": "small_mammals",
+    "category_text": "small mammal",
+    "baseline_prompt": "a photo of a shrew.",
+    "category_prompt": "a photo of a shrew, a type of small mammal."
+  },
+  {
+    "class_id": 75,
+    "class_name": "skunk",
+    "coarse_id": 12,
+    "coarse_name": "medium_mammals",
+    "category_text": "medium-sized mammal",
+    "baseline_prompt": "a photo of a skunk.",
+    "category_prompt": "a photo of a skunk, a type of medium-sized mammal."
+  },
+  {
+    "class_id": 76,
+    "class_name": "skyscraper",
+    "coarse_id": 9,
+    "coarse_name": "large_man-made_outdoor_things",
+    "category_text": "man-made outdoor structure",
+    "baseline_prompt": "a photo of a skyscraper.",
+    "category_prompt": "a photo of a skyscraper, a type of man-made outdoor structure."
+  },
+  {
+    "class_id": 77,
+    "class_name": "snail",
+    "coarse_id": 13,
+    "coarse_name": "non-insect_invertebrates",
+    "category_text": "non-insect invertebrate",
+    "baseline_prompt": "a photo of a snail.",
+    "category_prompt": "a photo of a snail, a type of non-insect invertebrate."
+  },
+  {
+    "class_id": 78,
+    "class_name": "snake",
+    "coarse_id": 15,
+    "coarse_name": "reptiles",
+    "category_text": "reptile",
+    "baseline_prompt": "a photo of a snake.",
+    "category_prompt": "a photo of a snake, a type of reptile."
+  },
+  {
+    "class_id": 79,
+    "class_name": "spider",
+    "coarse_id": 13,
+    "coarse_name": "non-insect_invertebrates",
+    "category_text": "non-insect invertebrate",
+    "baseline_prompt": "a photo of a spider.",
+    "category_prompt": "a photo of a spider, a type of non-insect invertebrate."
+  },
+  {
+    "class_id": 80,
+    "class_name": "squirrel",
+    "coarse_id": 16,
+    "coarse_name": "small_mammals",
+    "category_text": "small mammal",
+    "baseline_prompt": "a photo of a squirrel.",
+    "category_prompt": "a photo of a squirrel, a type of small mammal."
+  },
+  {
+    "class_id": 81,
+    "class_name": "streetcar",
+    "coarse_id": 19,
+    "coarse_name": "vehicles_2",
+    "category_text": "vehicle",
+    "baseline_prompt": "a photo of a streetcar.",
+    "category_prompt": "a photo of a streetcar, a type of vehicle."
+  },
+  {
+    "class_id": 82,
+    "class_name": "sunflower",
+    "coarse_id": 2,
+    "coarse_name": "flowers",
+    "category_text": "flower",
+    "baseline_prompt": "a photo of a sunflower.",
+    "category_prompt": "a photo of a sunflower, a type of flower."
+  },
+  {
+    "class_id": 83,
+    "class_name": "sweet_pepper",
+    "coarse_id": 4,
+    "coarse_name": "fruit_and_vegetables",
+    "category_text": "fruit or vegetable",
+    "baseline_prompt": "a photo of a sweet pepper.",
+    "category_prompt": "a photo of a sweet pepper, a type of fruit or vegetable."
+  },
+  {
+    "class_id": 84,
+    "class_name": "table",
+    "coarse_id": 6,
+    "coarse_name": "household_furniture",
+    "category_text": "household furniture",
+    "baseline_prompt": "a photo of a table.",
+    "category_prompt": "a photo of a table, a type of household furniture."
+  },
+  {
+    "class_id": 85,
+    "class_name": "tank",
+    "coarse_id": 19,
+    "coarse_name": "vehicles_2",
+    "category_text": "vehicle",
+    "baseline_prompt": "a photo of a tank.",
+    "category_prompt": "a photo of a tank, a type of vehicle."
+  },
+  {
+    "class_id": 86,
+    "class_name": "telephone",
+    "coarse_id": 5,
+    "coarse_name": "household_electrical_devices",
+    "category_text": "household electrical device",
+    "baseline_prompt": "a photo of a telephone.",
+    "category_prompt": "a photo of a telephone, a type of household electrical device."
+  },
+  {
+    "class_id": 87,
+    "class_name": "television",
+    "coarse_id": 5,
+    "coarse_name": "household_electrical_devices",
+    "category_text": "household electrical device",
+    "baseline_prompt": "a photo of a television.",
+    "category_prompt": "a photo of a television, a type of household electrical device."
+  },
+  {
+    "class_id": 88,
+    "class_name": "tiger",
+    "coarse_id": 8,
+    "coarse_name": "large_carnivores",
+    "category_text": "large carnivore",
+    "baseline_prompt": "a photo of a tiger.",
+    "category_prompt": "a photo of a tiger, a type of large carnivore."
+  },
+  {
+    "class_id": 89,
+    "class_name": "tractor",
+    "coarse_id": 19,
+    "coarse_name": "vehicles_2",
+    "category_text": "vehicle",
+    "baseline_prompt": "a photo of a tractor.",
+    "category_prompt": "a photo of a tractor, a type of vehicle."
+  },
+  {
+    "class_id": 90,
+    "class_name": "train",
+    "coarse_id": 18,
+    "coarse_name": "vehicles_1",
+    "category_text": "vehicle",
+    "baseline_prompt": "a photo of a train.",
+    "category_prompt": "a photo of a train, a type of vehicle."
+  },
+  {
+    "class_id": 91,
+    "class_name": "trout",
+    "coarse_id": 1,
+    "coarse_name": "fish",
+    "category_text": "fish",
+    "baseline_prompt": "a photo of a trout.",
+    "category_prompt": "a photo of a trout, a type of fish."
+  },
+  {
+    "class_id": 92,
+    "class_name": "tulip",
+    "coarse_id": 2,
+    "coarse_name": "flowers",
+    "category_text": "flower",
+    "baseline_prompt": "a photo of a tulip.",
+    "category_prompt": "a photo of a tulip, a type of flower."
+  },
+  {
+    "class_id": 93,
+    "class_name": "turtle",
+    "coarse_id": 15,
+    "coarse_name": "reptiles",
+    "category_text": "reptile",
+    "baseline_prompt": "a photo of a turtle.",
+    "category_prompt": "a photo of a turtle, a type of reptile."
+  },
+  {
+    "class_id": 94,
+    "class_name": "wardrobe",
+    "coarse_id": 6,
+    "coarse_name": "household_furniture",
+    "category_text": "household furniture",
+    "baseline_prompt": "a photo of a wardrobe.",
+    "category_prompt": "a photo of a wardrobe, a type of household furniture."
+  },
+  {
+    "class_id": 95,
+    "class_name": "whale",
+    "coarse_id": 0,
+    "coarse_name": "aquatic_mammals",
+    "category_text": "aquatic mammal",
+    "baseline_prompt": "a photo of a whale.",
+    "category_prompt": "a photo of a whale, a type of aquatic mammal."
+  },
+  {
+    "class_id": 96,
+    "class_name": "willow_tree",
+    "coarse_id": 17,
+    "coarse_name": "trees",
+    "category_text": "tree",
+    "baseline_prompt": "a photo of a willow tree.",
+    "category_prompt": "a photo of a willow tree, a type of tree."
+  },
+  {
+    "class_id": 97,
+    "class_name": "wolf",
+    "coarse_id": 8,
+    "coarse_name": "large_carnivores",
+    "category_text": "large carnivore",
+    "baseline_prompt": "a photo of a wolf.",
+    "category_prompt": "a photo of a wolf, a type of large carnivore."
+  },
+  {
+    "class_id": 98,
+    "class_name": "woman",
+    "coarse_id": 14,
+    "coarse_name": "people",
+    "category_text": "person",
+    "baseline_prompt": "a photo of a woman.",
+    "category_prompt": "a photo of a woman, a type of person."
+  },
+  {
+    "class_id": 99,
+    "class_name": "worm",
+    "coarse_id": 13,
+    "coarse_name": "non-insect_invertebrates",
+    "category_text": "non-insect invertebrate",
+    "baseline_prompt": "a photo of a worm.",
+    "category_prompt": "a photo of a worm, a type of non-insect invertebrate."
+  }
+]

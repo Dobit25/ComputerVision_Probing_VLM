@@ -1,0 +1,166 @@
+{
+  "run": "results/smoke_natural_regions_exploratory_review_v2",
+  "artifact_integrity_verified": true,
+  "manifest_sha256": "32269589a97512043184c775445e6ce53216a3dc3bb1355a36d95aea51870716",
+  "metrics_recomputed": true,
+  "region_to_relational_scores_recomputed": true,
+  "n": 16,
+  "metrics": {
+    "n_images": 16,
+    "n_sources": 8,
+    "primary_choices": 4,
+    "primary_accuracy_percent": 56.25,
+    "primary_ci95_percent": [
+      25.0,
+      87.5
+    ],
+    "holistic_accuracy_percent": 25.0,
+    "paired_delta_pp": 31.25,
+    "paired_delta_ci95_pp": [
+      0.0,
+      68.75
+    ],
+    "four_way_accuracy_percent": 56.25,
+    "exact_top_ties": 0,
+    "both_images_correct_percent": 50.0,
+    "holistic_both_images_correct_percent": 12.5,
+    "both_correct_paired_delta_pp": 37.5,
+    "both_correct_paired_delta_ci95_pp": [
+      12.5,
+      75.0
+    ],
+    "primary_confusion": [
+      [
+        0,
+        0,
+        1,
+        0
+      ],
+      [
+        0,
+        0,
+        1,
+        0
+      ],
+      [
+        2,
+        2,
+        2,
+        0
+      ],
+      [
+        0,
+        1,
+        0,
+        7
+      ]
+    ],
+    "by_relation": {
+      "0": {
+        "n": 1,
+        "accuracy_percent": 0.0
+      },
+      "1": {
+        "n": 1,
+        "accuracy_percent": 0.0
+      },
+      "2": {
+        "n": 6,
+        "accuracy_percent": 33.33333333333333
+      },
+      "3": {
+        "n": 8,
+        "accuracy_percent": 87.5
+      }
+    },
+    "horizontal_assignment": {
+      "n_sources": 1,
+      "accuracy_percent": 100.0,
+      "ci95_percent": [
+        100.0,
+        100.0
+      ],
+      "exact_ties": 0
+    },
+    "secondary_padded_half": {
+      "n_images": 16,
+      "n_sources": 8,
+      "primary_choices": 4,
+      "primary_accuracy_percent": 75.0,
+      "primary_ci95_percent": [
+        37.5,
+        100.0
+      ],
+      "holistic_accuracy_percent": 25.0,
+      "paired_delta_pp": 50.0,
+      "paired_delta_ci95_pp": [
+        6.25,
+        87.5
+      ],
+      "four_way_accuracy_percent": 75.0,
+      "exact_top_ties": 0,
+      "both_images_correct_percent": 75.0,
+      "holistic_both_images_correct_percent": 12.5,
+      "both_correct_paired_delta_pp": 62.5,
+      "both_correct_paired_delta_ci95_pp": [
+        25.0,
+        100.0
+      ],
+      "primary_confusion": [
+        [
+          0,
+          0,
+          1,
+          0
+        ],
+        [
+          0,
+          0,
+          1,
+          0
+        ],
+        [
+          0,
+          0,
+          6,
+          0
+        ],
+        [
+          1,
+          1,
+          0,
+          6
+        ]
+      ],
+      "by_relation": {
+        "0": {
+          "n": 1,
+          "accuracy_percent": 0.0
+        },
+        "1": {
+          "n": 1,
+          "accuracy_percent": 0.0
+        },
+        "2": {
+          "n": 6,
+          "accuracy_percent": 100.0
+        },
+        "3": {
+          "n": 8,
+          "accuracy_percent": 75.0
+        }
+      },
+      "horizontal_assignment": {
+        "n_sources": 1,
+        "accuracy_percent": 100.0,
+        "ci95_percent": [
+          100.0,
+          100.0
+        ],
+        "exact_ties": 0
+      }
+    }
+  },
+  "legacy_config_protocol_note": null,
+  "derived_sha256": {}
+}

@@ -1,0 +1,36 @@
+{
+  "audit": {
+    "verified": true,
+    "mode": "full",
+    "num_samples": 10000,
+    "candidate_count": 100,
+    "baseline_accuracy_percent": 64.48,
+    "category_accuracy_percent": 62.92,
+    "paired": {
+      "both_correct": 5876,
+      "both_wrong": 3136,
+      "wrong_to_correct": 416,
+      "correct_to_wrong": 572,
+      "prediction_changed": 1890,
+      "delta_percentage_points": -1.5599999999999998,
+      "delta_ci95_percentage_points": [
+        -2.15,
+        -0.9597500000000002
+      ],
+      "bootstrap": {
+        "method": "paired_stratified_by_fine_class",
+        "draws": 1000,
+        "seed": 0
+      }
+    },
+    "baseline_parity": {
+      "predictions_match": true,
+      "compared_samples": 10000,
+      "max_absolute_cosine_or_margin_difference": 0.0,
+      "tolerance": 1e-06
+    }
+  },
+  "run": "results/full_cifar100_category_v1",
+  "manifest_sha256": "cfcc1c5b2813028e08aaf94d536ab3deed27aaa93c63e34c97645e5f01822607",
+  "report_source_sha256": "4ca42bd08f6ba1bafd3b2f18e95914f4fbe9282589e5549b22548c3a81eed8d3"
+}

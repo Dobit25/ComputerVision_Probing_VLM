@@ -1,0 +1,11 @@
+{
+  "study_version": 1,
+  "base_config": "configs/clip_b32_cifar100.json",
+  "baseline_run": "results/full_cifar100_clip_b32_v1",
+  "baseline_template": "a photo of a {class}.",
+  "category_template": "a photo of a {class}, a type of {category}.",
+  "taxonomy_source": "official_train_fine_coarse_labels",
+  "candidate_count": 100,
+  "bootstrap_draws": 1000,
+  "bootstrap_seed": 0
+}

@@ -1,0 +1,10 @@
+{
+  "image_review": "pending_human",
+  "translation_review": "pending_human",
+  "image_items": 100,
+  "translation_items": 100,
+  "source_sha256": {
+    "natural_selection": "656ed246180ae78e57535a34665771d8e786318eda07819d2048acb813534dd5",
+    "translations": "0d58ab3697f89dd552e492988dbff5a90ac11a621eb85f140ec59819d963155a"
+  }
+}

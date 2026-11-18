@@ -1,0 +1,177 @@
+{
+  "num_templates": 7,
+  "baseline_template": "T0_baseline",
+  "baseline_accuracy_percent": 82.31287128712871,
+  "best_single_template": "T4_domain",
+  "best_single_accuracy_percent": 83.4019801980198,
+  "worst_single_template": "T2_clear",
+  "worst_single_accuracy_percent": 79.06138613861387,
+  "mean_single_accuracy_percent": 81.67468175388967,
+  "sd_single_accuracy_percent": 1.4121712514475597,
+  "spread_max_minus_min_pp": 4.34059405940593,
+  "single_templates": {
+    "T0_baseline": {
+      "n": 25250,
+      "correct": 20784,
+      "accuracy_percent": 82.31287128712871,
+      "ci95_percent": [
+        81.86930693069307,
+        82.75643564356436
+      ],
+      "delta_vs_baseline_pp": 0.0,
+      "delta_vs_baseline_ci95_pp": [
+        0.0,
+        0.0
+      ]
+    },
+    "T1_minimal": {
+      "n": 25250,
+      "correct": 20529,
+      "accuracy_percent": 81.3029702970297,
+      "ci95_percent": [
+        80.86336633663367,
+        81.75445544554455
+      ],
+      "delta_vs_baseline_pp": -1.00990099009901,
+      "delta_vs_baseline_ci95_pp": [
+        -1.3387128712871286,
+        -0.6693069306930693
+      ]
+    },
+    "T2_clear": {
+      "n": 25250,
+      "correct": 19963,
+      "accuracy_percent": 79.06138613861387,
+      "ci95_percent": [
+        78.59792079207921,
+        79.51683168316832
+      ],
+      "delta_vs_baseline_pp": -3.2514851485148517,
+      "delta_vs_baseline_ci95_pp": [
+        -3.5170297029702966,
+        -2.978217821782178
+      ]
+    },
+    "T3_centered": {
+      "n": 25250,
+      "correct": 20870,
+      "accuracy_percent": 82.65346534653465,
+      "ci95_percent": [
+        82.21782178217822,
+        83.08118811881188
+      ],
+      "delta_vs_baseline_pp": 0.3405940594059406,
+      "delta_vs_baseline_ci95_pp": [
+        0.12673267326732673,
+        0.5584158415841584
+      ]
+    },
+    "T4_domain": {
+      "n": 25250,
+      "correct": 21059,
+      "accuracy_percent": 83.4019801980198,
+      "ci95_percent": [
+        82.96623762376237,
+        83.82584158415841
+      ],
+      "delta_vs_baseline_pp": 1.089108910891089,
+      "delta_vs_baseline_ci95_pp": [
+        0.7325742574257426,
+        1.417821782178218
+      ]
+    },
+    "T5_bright": {
+      "n": 25250,
+      "correct": 20441,
+      "accuracy_percent": 80.95445544554455,
+      "ci95_percent": [
+        80.5029702970297,
+        81.39019801980197
+      ],
+      "delta_vs_baseline_pp": -1.3584158415841585,
+      "delta_vs_baseline_ci95_pp": [
+        -1.611881188118812,
+        -1.1128712871287127
+      ]
+    },
+    "T6_cropped": {
+      "n": 25250,
+      "correct": 20714,
+      "accuracy_percent": 82.03564356435643,
+      "ci95_percent": [
+        81.59207920792079,
+        82.47920792079208
+      ],
+      "delta_vs_baseline_pp": -0.2772277227722772,
+      "delta_vs_baseline_ci95_pp": [
+        -0.4910891089108911,
+        -0.05148514851485149
+      ]
+    }
+  },
+  "ensembles": {
+    "logit_average_ensemble": {
+      "n": 25250,
+      "correct": 20995,
+      "accuracy_percent": 83.14851485148515,
+      "ci95_percent": [
+        82.70485148514851,
+        83.57633663366336
+      ],
+      "delta_vs_baseline_pp": 0.8356435643564357,
+      "delta_vs_baseline_ci95_pp": [
+        0.6376237623762376,
+        1.0179207920792073
+      ],
+      "delta_vs_best_single_pp": -0.25346534653465347,
+      "delta_vs_best_single_ci95_pp": [
+        -0.5782178217821782,
+        0.07128712871287128
+      ]
+    },
+    "probability_average_ensemble": {
+      "n": 25250,
+      "correct": 20989,
+      "accuracy_percent": 83.12475247524752,
+      "ci95_percent": [
+        82.67326732673267,
+        83.56841584158416
+      ],
+      "delta_vs_baseline_pp": 0.8118811881188119,
+      "delta_vs_baseline_ci95_pp": [
+        0.6177227722772277,
+        0.9900990099009901
+      ],
+      "delta_vs_best_single_pp": -0.2772277227722772,
+      "delta_vs_best_single_ci95_pp": [
+        -0.5941584158415841,
+        0.047524752475247525
+      ]
+    },
+    "text_embedding_ensemble": {
+      "n": 25250,
+      "correct": 21089,
+      "accuracy_percent": 83.52079207920792,
+      "ci95_percent": [
+        83.09306930693069,
+        83.95257425742574
+      ],
+      "delta_vs_baseline_pp": 1.2079207920792079,
+      "delta_vs_baseline_ci95_pp": [
+        1.0177227722772277,
+        1.4019801980198021
+      ],
+      "delta_vs_best_single_pp": 0.1188118811881188,
+      "delta_vs_best_single_ci95_pp": [
+        -0.19801980198019803,
+        0.4554455445544554
+      ]
+    }
+  },
+  "dataset": "food101",
+  "evaluated_samples": 25250,
+  "num_classes": 101,
+  "mean_class_template_alignment_norm": 0.9629849505677304,
+  "min_class_template_alignment_norm": 0.9506521794381685,
+  "evaluation_seconds": 448.6478279999992
+}

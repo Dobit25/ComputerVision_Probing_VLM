@@ -1,0 +1,702 @@
+[
+  {
+    "class_id": 0,
+    "category_tokens": 15,
+    "neutral_tokens": 15,
+    "difference": 0,
+    "neutral_suffix": "as it appears in this image"
+  },
+  {
+    "class_id": 1,
+    "category_tokens": 14,
+    "neutral_tokens": 14,
+    "difference": 0,
+    "neutral_suffix": "shown in this image"
+  },
+  {
+    "class_id": 2,
+    "category_tokens": 13,
+    "neutral_tokens": 13,
+    "difference": 0,
+    "neutral_suffix": "shown in this image"
+  },
+  {
+    "class_id": 3,
+    "category_tokens": 15,
+    "neutral_tokens": 15,
+    "difference": 0,
+    "neutral_suffix": "as it appears in this image"
+  },
+  {
+    "class_id": 4,
+    "category_tokens": 14,
+    "neutral_tokens": 14,
+    "difference": 0,
+    "neutral_suffix": "as seen in this image"
+  },
+  {
+    "class_id": 5,
+    "category_tokens": 14,
+    "neutral_tokens": 14,
+    "difference": 0,
+    "neutral_suffix": "as seen in this image"
+  },
+  {
+    "class_id": 6,
+    "category_tokens": 13,
+    "neutral_tokens": 13,
+    "difference": 0,
+    "neutral_suffix": "shown in this image"
+  },
+  {
+    "class_id": 7,
+    "category_tokens": 13,
+    "neutral_tokens": 13,
+    "difference": 0,
+    "neutral_suffix": "shown in this image"
+  },
+  {
+    "class_id": 8,
+    "category_tokens": 13,
+    "neutral_tokens": 13,
+    "difference": 0,
+    "neutral_suffix": "shown in this image"
+  },
+  {
+    "class_id": 9,
+    "category_tokens": 14,
+    "neutral_tokens": 14,
+    "difference": 0,
+    "neutral_suffix": "as seen in this image"
+  },
+  {
+    "class_id": 10,
+    "category_tokens": 14,
+    "neutral_tokens": 14,
+    "difference": 0,
+    "neutral_suffix": "as seen in this image"
+  },
+  {
+    "class_id": 11,
+    "category_tokens": 13,
+    "neutral_tokens": 13,
+    "difference": 0,
+    "neutral_suffix": "shown in this image"
+  },
+  {
+    "class_id": 12,
+    "category_tokens": 17,
+    "neutral_tokens": 18,
+    "difference": 1,
+    "neutral_suffix": "as it can be seen in this particular image"
+  },
+  {
+    "class_id": 13,
+    "category_tokens": 13,
+    "neutral_tokens": 13,
+    "difference": 0,
+    "neutral_suffix": "shown in this image"
+  },
+  {
+    "class_id": 14,
+    "category_tokens": 13,
+    "neutral_tokens": 13,
+    "difference": 0,
+    "neutral_suffix": "shown in this image"
+  },
+  {
+    "class_id": 15,
+    "category_tokens": 19,
+    "neutral_tokens": 18,
+    "difference": -1,
+    "neutral_suffix": "as it can be seen in this particular image"
+  },
+  {
+    "class_id": 16,
+    "category_tokens": 14,
+    "neutral_tokens": 14,
+    "difference": 0,
+    "neutral_suffix": "as seen in this image"
+  },
+  {
+    "class_id": 17,
+    "category_tokens": 17,
+    "neutral_tokens": 18,
+    "difference": 1,
+    "neutral_suffix": "as it can be seen in this particular image"
+  },
+  {
+    "class_id": 18,
+    "category_tokens": 13,
+    "neutral_tokens": 13,
+    "difference": 0,
+    "neutral_suffix": "shown in this image"
+  },
+  {
+    "class_id": 19,
+    "category_tokens": 19,
+    "neutral_tokens": 18,
+    "difference": -1,
+    "neutral_suffix": "as it can be seen in this particular image"
+  },
+  {
+    "class_id": 20,
+    "category_tokens": 14,
+    "neutral_tokens": 14,
+    "difference": 0,
+    "neutral_suffix": "as seen in this image"
+  },
+  {
+    "class_id": 21,
+    "category_tokens": 21,
+    "neutral_tokens": 20,
+    "difference": -1,
+    "neutral_suffix": "as it can be seen in this particular image"
+  },
+  {
+    "class_id": 22,
+    "category_tokens": 15,
+    "neutral_tokens": 15,
+    "difference": 0,
+    "neutral_suffix": "as it appears in this image"
+  },
+  {
+    "class_id": 23,
+    "category_tokens": 15,
+    "neutral_tokens": 15,
+    "difference": 0,
+    "neutral_suffix": "as it appears in this image"
+  },
+  {
+    "class_id": 24,
+    "category_tokens": 15,
+    "neutral_tokens": 15,
+    "difference": 0,
+    "neutral_suffix": "shown in this image"
+  },
+  {
+    "class_id": 25,
+    "category_tokens": 14,
+    "neutral_tokens": 14,
+    "difference": 0,
+    "neutral_suffix": "as seen in this image"
+  },
+  {
+    "class_id": 26,
+    "category_tokens": 17,
+    "neutral_tokens": 18,
+    "difference": 1,
+    "neutral_suffix": "as it can be seen in this particular image"
+  },
+  {
+    "class_id": 27,
+    "category_tokens": 13,
+    "neutral_tokens": 13,
+    "difference": 0,
+    "neutral_suffix": "shown in this image"
+  },
+  {
+    "class_id": 28,
+    "category_tokens": 14,
+    "neutral_tokens": 14,
+    "difference": 0,
+    "neutral_suffix": "as seen in this image"
+  },
+  {
+    "class_id": 29,
+    "category_tokens": 13,
+    "neutral_tokens": 13,
+    "difference": 0,
+    "neutral_suffix": "shown in this image"
+  },
+  {
+    "class_id": 30,
+    "category_tokens": 14,
+    "neutral_tokens": 14,
+    "difference": 0,
+    "neutral_suffix": "as seen in this image"
+  },
+  {
+    "class_id": 31,
+    "category_tokens": 19,
+    "neutral_tokens": 18,
+    "difference": -1,
+    "neutral_suffix": "as it can be seen in this particular image"
+  },
+  {
+    "class_id": 32,
+    "category_tokens": 14,
+    "neutral_tokens": 14,
+    "difference": 0,
+    "neutral_suffix": "shown in this image"
+  },
+  {
+    "class_id": 33,
+    "category_tokens": 15,
+    "neutral_tokens": 15,
+    "difference": 0,
+    "neutral_suffix": "as it appears in this image"
+  },
+  {
+    "class_id": 34,
+    "category_tokens": 16,
+    "neutral_tokens": 15,
+    "difference": -1,
+    "neutral_suffix": "as it appears in this image"
+  },
+  {
+    "class_id": 35,
+    "category_tokens": 13,
+    "neutral_tokens": 13,
+    "difference": 0,
+    "neutral_suffix": "shown in this image"
+  },
+  {
+    "class_id": 36,
+    "category_tokens": 14,
+    "neutral_tokens": 14,
+    "difference": 0,
+    "neutral_suffix": "as seen in this image"
+  },
+  {
+    "class_id": 37,
+    "category_tokens": 17,
+    "neutral_tokens": 18,
+    "difference": 1,
+    "neutral_suffix": "as it can be seen in this particular image"
+  },
+  {
+    "class_id": 38,
+    "category_tokens": 19,
+    "neutral_tokens": 18,
+    "difference": -1,
+    "neutral_suffix": "as it can be seen in this particular image"
+  },
+  {
+    "class_id": 39,
+    "category_tokens": 15,
+    "neutral_tokens": 15,
+    "difference": 0,
+    "neutral_suffix": "as it appears in this image"
+  },
+  {
+    "class_id": 40,
+    "category_tokens": 15,
+    "neutral_tokens": 15,
+    "difference": 0,
+    "neutral_suffix": "as it appears in this image"
+  },
+  {
+    "class_id": 41,
+    "category_tokens": 14,
+    "neutral_tokens": 14,
+    "difference": 0,
+    "neutral_suffix": "shown in this image"
+  },
+  {
+    "class_id": 42,
+    "category_tokens": 15,
+    "neutral_tokens": 15,
+    "difference": 0,
+    "neutral_suffix": "as it appears in this image"
+  },
+  {
+    "class_id": 43,
+    "category_tokens": 15,
+    "neutral_tokens": 15,
+    "difference": 0,
+    "neutral_suffix": "as it appears in this image"
+  },
+  {
+    "class_id": 44,
+    "category_tokens": 13,
+    "neutral_tokens": 13,
+    "difference": 0,
+    "neutral_suffix": "shown in this image"
+  },
+  {
+    "class_id": 45,
+    "category_tokens": 17,
+    "neutral_tokens": 18,
+    "difference": 1,
+    "neutral_suffix": "as it can be seen in this particular image"
+  },
+  {
+    "class_id": 46,
+    "category_tokens": 13,
+    "neutral_tokens": 13,
+    "difference": 0,
+    "neutral_suffix": "shown in this image"
+  },
+  {
+    "class_id": 47,
+    "category_tokens": 14,
+    "neutral_tokens": 14,
+    "difference": 0,
+    "neutral_suffix": "shown in this image"
+  },
+  {
+    "class_id": 48,
+    "category_tokens": 13,
+    "neutral_tokens": 13,
+    "difference": 0,
+    "neutral_suffix": "shown in this image"
+  },
+  {
+    "class_id": 49,
+    "category_tokens": 15,
+    "neutral_tokens": 15,
+    "difference": 0,
+    "neutral_suffix": "as it appears in this image"
+  },
+  {
+    "class_id": 50,
+    "category_tokens": 14,
+    "neutral_tokens": 14,
+    "difference": 0,
+    "neutral_suffix": "as seen in this image"
+  },
+  {
+    "class_id": 51,
+    "category_tokens": 15,
+    "neutral_tokens": 15,
+    "difference": 0,
+    "neutral_suffix": "as it appears in this image"
+  },
+  {
+    "class_id": 52,
+    "category_tokens": 14,
+    "neutral_tokens": 14,
+    "difference": 0,
+    "neutral_suffix": "shown in this image"
+  },
+  {
+    "class_id": 53,
+    "category_tokens": 15,
+    "neutral_tokens": 15,
+    "difference": 0,
+    "neutral_suffix": "as it appears in this image"
+  },
+  {
+    "class_id": 54,
+    "category_tokens": 13,
+    "neutral_tokens": 13,
+    "difference": 0,
+    "neutral_suffix": "shown in this image"
+  },
+  {
+    "class_id": 55,
+    "category_tokens": 14,
+    "neutral_tokens": 14,
+    "difference": 0,
+    "neutral_suffix": "as seen in this image"
+  },
+  {
+    "class_id": 56,
+    "category_tokens": 14,
+    "neutral_tokens": 14,
+    "difference": 0,
+    "neutral_suffix": "shown in this image"
+  },
+  {
+    "class_id": 57,
+    "category_tokens": 15,
+    "neutral_tokens": 15,
+    "difference": 0,
+    "neutral_suffix": "as it appears in this image"
+  },
+  {
+    "class_id": 58,
+    "category_tokens": 14,
+    "neutral_tokens": 14,
+    "difference": 0,
+    "neutral_suffix": "shown in this image"
+  },
+  {
+    "class_id": 59,
+    "category_tokens": 14,
+    "neutral_tokens": 14,
+    "difference": 0,
+    "neutral_suffix": "shown in this image"
+  },
+  {
+    "class_id": 60,
+    "category_tokens": 15,
+    "neutral_tokens": 15,
+    "difference": 0,
+    "neutral_suffix": "as it appears in this image"
+  },
+  {
+    "class_id": 61,
+    "category_tokens": 14,
+    "neutral_tokens": 14,
+    "difference": 0,
+    "neutral_suffix": "as seen in this image"
+  },
+  {
+    "class_id": 62,
+    "category_tokens": 13,
+    "neutral_tokens": 13,
+    "difference": 0,
+    "neutral_suffix": "shown in this image"
+  },
+  {
+    "class_id": 63,
+    "category_tokens": 18,
+    "neutral_tokens": 17,
+    "difference": -1,
+    "neutral_suffix": "as it appears in this image"
+  },
+  {
+    "class_id": 64,
+    "category_tokens": 16,
+    "neutral_tokens": 15,
+    "difference": -1,
+    "neutral_suffix": "as it appears in this image"
+  },
+  {
+    "class_id": 65,
+    "category_tokens": 14,
+    "neutral_tokens": 14,
+    "difference": 0,
+    "neutral_suffix": "as seen in this image"
+  },
+  {
+    "class_id": 66,
+    "category_tokens": 16,
+    "neutral_tokens": 15,
+    "difference": -1,
+    "neutral_suffix": "as it appears in this image"
+  },
+  {
+    "class_id": 67,
+    "category_tokens": 13,
+    "neutral_tokens": 13,
+    "difference": 0,
+    "neutral_suffix": "shown in this image"
+  },
+  {
+    "class_id": 68,
+    "category_tokens": 17,
+    "neutral_tokens": 18,
+    "difference": 1,
+    "neutral_suffix": "as it can be seen in this particular image"
+  },
+  {
+    "class_id": 69,
+    "category_tokens": 13,
+    "neutral_tokens": 13,
+    "difference": 0,
+    "neutral_suffix": "shown in this image"
+  },
+  {
+    "class_id": 70,
+    "category_tokens": 13,
+    "neutral_tokens": 13,
+    "difference": 0,
+    "neutral_suffix": "shown in this image"
+  },
+  {
+    "class_id": 71,
+    "category_tokens": 15,
+    "neutral_tokens": 15,
+    "difference": 0,
+    "neutral_suffix": "as it appears in this image"
+  },
+  {
+    "class_id": 72,
+    "category_tokens": 14,
+    "neutral_tokens": 14,
+    "difference": 0,
+    "neutral_suffix": "as seen in this image"
+  },
+  {
+    "class_id": 73,
+    "category_tokens": 13,
+    "neutral_tokens": 13,
+    "difference": 0,
+    "neutral_suffix": "shown in this image"
+  },
+  {
+    "class_id": 74,
+    "category_tokens": 15,
+    "neutral_tokens": 15,
+    "difference": 0,
+    "neutral_suffix": "as seen in this image"
+  },
+  {
+    "class_id": 75,
+    "category_tokens": 16,
+    "neutral_tokens": 15,
+    "difference": -1,
+    "neutral_suffix": "as it appears in this image"
+  },
+  {
+    "class_id": 76,
+    "category_tokens": 19,
+    "neutral_tokens": 20,
+    "difference": 1,
+    "neutral_suffix": "as it can be seen in this particular image"
+  },
+  {
+    "class_id": 77,
+    "category_tokens": 17,
+    "neutral_tokens": 18,
+    "difference": 1,
+    "neutral_suffix": "as it can be seen in this particular image"
+  },
+  {
+    "class_id": 78,
+    "category_tokens": 13,
+    "neutral_tokens": 13,
+    "difference": 0,
+    "neutral_suffix": "shown in this image"
+  },
+  {
+    "class_id": 79,
+    "category_tokens": 17,
+    "neutral_tokens": 18,
+    "difference": 1,
+    "neutral_suffix": "as it can be seen in this particular image"
+  },
+  {
+    "class_id": 80,
+    "category_tokens": 14,
+    "neutral_tokens": 14,
+    "difference": 0,
+    "neutral_suffix": "as seen in this image"
+  },
+  {
+    "class_id": 81,
+    "category_tokens": 13,
+    "neutral_tokens": 13,
+    "difference": 0,
+    "neutral_suffix": "shown in this image"
+  },
+  {
+    "class_id": 82,
+    "category_tokens": 13,
+    "neutral_tokens": 13,
+    "difference": 0,
+    "neutral_suffix": "shown in this image"
+  },
+  {
+    "class_id": 83,
+    "category_tokens": 16,
+    "neutral_tokens": 16,
+    "difference": 0,
+    "neutral_suffix": "as it appears in this image"
+  },
+  {
+    "class_id": 84,
+    "category_tokens": 14,
+    "neutral_tokens": 14,
+    "difference": 0,
+    "neutral_suffix": "as seen in this image"
+  },
+  {
+    "class_id": 85,
+    "category_tokens": 13,
+    "neutral_tokens": 13,
+    "difference": 0,
+    "neutral_suffix": "shown in this image"
+  },
+  {
+    "class_id": 86,
+    "category_tokens": 15,
+    "neutral_tokens": 15,
+    "difference": 0,
+    "neutral_suffix": "as it appears in this image"
+  },
+  {
+    "class_id": 87,
+    "category_tokens": 15,
+    "neutral_tokens": 15,
+    "difference": 0,
+    "neutral_suffix": "as it appears in this image"
+  },
+  {
+    "class_id": 88,
+    "category_tokens": 15,
+    "neutral_tokens": 15,
+    "difference": 0,
+    "neutral_suffix": "as it appears in this image"
+  },
+  {
+    "class_id": 89,
+    "category_tokens": 13,
+    "neutral_tokens": 13,
+    "difference": 0,
+    "neutral_suffix": "shown in this image"
+  },
+  {
+    "class_id": 90,
+    "category_tokens": 13,
+    "neutral_tokens": 13,
+    "difference": 0,
+    "neutral_suffix": "shown in this image"
+  },
+  {
+    "class_id": 91,
+    "category_tokens": 13,
+    "neutral_tokens": 13,
+    "difference": 0,
+    "neutral_suffix": "shown in this image"
+  },
+  {
+    "class_id": 92,
+    "category_tokens": 13,
+    "neutral_tokens": 13,
+    "difference": 0,
+    "neutral_suffix": "shown in this image"
+  },
+  {
+    "class_id": 93,
+    "category_tokens": 13,
+    "neutral_tokens": 13,
+    "difference": 0,
+    "neutral_suffix": "shown in this image"
+  },
+  {
+    "class_id": 94,
+    "category_tokens": 14,
+    "neutral_tokens": 14,
+    "difference": 0,
+    "neutral_suffix": "as seen in this image"
+  },
+  {
+    "class_id": 95,
+    "category_tokens": 14,
+    "neutral_tokens": 14,
+    "difference": 0,
+    "neutral_suffix": "as seen in this image"
+  },
+  {
+    "class_id": 96,
+    "category_tokens": 14,
+    "neutral_tokens": 14,
+    "difference": 0,
+    "neutral_suffix": "shown in this image"
+  },
+  {
+    "class_id": 97,
+    "category_tokens": 15,
+    "neutral_tokens": 15,
+    "difference": 0,
+    "neutral_suffix": "as it appears in this image"
+  },
+  {
+    "class_id": 98,
+    "category_tokens": 13,
+    "neutral_tokens": 13,
+    "difference": 0,
+    "neutral_suffix": "shown in this image"
+  },
+  {
+    "class_id": 99,
+    "category_tokens": 17,
+    "neutral_tokens": 18,
+    "difference": 1,
+    "neutral_suffix": "as it can be seen in this particular image"
+  }
+]

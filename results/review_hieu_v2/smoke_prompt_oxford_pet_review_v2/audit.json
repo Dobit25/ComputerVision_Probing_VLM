@@ -1,0 +1,19 @@
+{
+  "run": "results/smoke_prompt_oxford_pet_review_v2",
+  "artifact_integrity_verified": true,
+  "manifest_sha256": "43986a0e98126e85ca894a0e757ce1a4bc7ae07813f5c9f08d72d937a93e6395",
+  "metrics_recomputed": true,
+  "n": 200,
+  "baseline_predictions_identical": true,
+  "baseline_target_cosine_max_abs_difference": 1.7881393432617188e-07,
+  "text_embedding_ensemble_construction_recomputed": true,
+  "limitation": null,
+  "legacy_config_protocol_note": null,
+  "derived_sha256": {
+    "classes.json": "da3c55c19db70eef23b9a9d53d5853dd29db2076b0e66165582e8df67e7007d6",
+    "diagnostics.json": "67b3da3ddc6e02219e3b703d3626758667cd196cbab79977458795442c59f4f5",
+    "per_class.csv": "e0146e059933b5bb2119fc7ed7828bcc5ade1e2d1abfb38ecefcbcfd025b4d09",
+    "predictions.csv": "65f2a23da115e6666999d709a615e840fa74a31271ad9465baa06a4afc594063",
+    "samples.json": "7444721e2a32501a1d88386f70259602cf3ea00fab2c81a2cf19e05512980268"
+  }
+}

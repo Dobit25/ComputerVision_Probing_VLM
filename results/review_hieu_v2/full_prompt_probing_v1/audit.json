@@ -1,0 +1,9 @@
+{
+  "run": "results/full_prompt_probing_v1",
+  "artifact_integrity_verified": true,
+  "manifest_sha256": "18c52cdd9392ad76e4c366aecd924c9ad8f4412eafdaea7b36cb499c41e538e0",
+  "metrics_recomputed": false,
+  "limitation": "Legacy aggregate-only run; requires a new inference run to recover per-sample scores.",
+  "legacy_config_protocol_note": "Legacy config.json/protocol.md contain depth defaults; extension configs/protocols are identified by input_sha256. New runs use study_config.json and the actual protocol.",
+  "derived_sha256": {}
+}

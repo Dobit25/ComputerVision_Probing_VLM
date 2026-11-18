@@ -1,0 +1,10 @@
+{
+  "verified": true,
+  "stage": "category",
+  "mode": "full",
+  "run": "results/full_depth_category_v1",
+  "num_samples": 10000,
+  "num_conditions": 8,
+  "metrics_recomputed": true,
+  "historical_parity": true
+}

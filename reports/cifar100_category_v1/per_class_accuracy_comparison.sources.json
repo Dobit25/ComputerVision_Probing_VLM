@@ -1,0 +1,14 @@
+{
+  "plot": "per_class_accuracy_comparison",
+  "source_files": {
+    "results/full_cifar100_category_v1/per_class.csv": "458de6b4963bb76e13b353b4c60da899ae716e6f479c7029a8dd39d800fe534a",
+    "results/full_cifar100_category_v1/classes.json": "77c96b985bd10c88d67599c34e31daf6d1a8f2247b0a48f2a5e21c4261ba3e0e",
+    "results/full_cifar100_category_v1/metrics.json": "3ae978aba23bae002cd8b4f046e40ffeec08c60de30f810eb81f1d7f54bfa58e"
+  },
+  "class_count": 100,
+  "group_count": 20,
+  "samples_per_class": 100,
+  "baseline_accuracy_percent": 64.48,
+  "category_accuracy_percent": 62.92,
+  "delta_percentage_points": -1.5600000000000023
+}

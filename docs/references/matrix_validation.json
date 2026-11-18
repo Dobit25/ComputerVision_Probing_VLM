@@ -1,0 +1,37 @@
+{
+  "checked_on_local_date": "2026-11-04",
+  "matrix_version": 1,
+  "unique_complete_cartesian_product": true,
+  "execution_order_1_to_13": true,
+  "totals_consistent": true,
+  "model_metadata_locks_consistent": true,
+  "completed_cells_match_saved_results": {
+    "M1_D1": {
+      "verified": true,
+      "dataset": "CIFAR100",
+      "num_classes": 100,
+      "mode": "full_test",
+      "num_samples": 10000,
+      "correct": 6448,
+      "top1_accuracy_percent": 64.48
+    },
+    "M1_D2": {
+      "verified": true,
+      "dataset": "Flowers102",
+      "num_classes": 102,
+      "mode": "full_test",
+      "num_samples": 6149,
+      "correct": 3921,
+      "top1_accuracy_percent": 63.76646609204749
+    }
+  },
+  "local_document_links_resolve": true,
+  "executable_source_matches_last_full_run": true,
+  "planning_artifact_sha256": {
+    "docs/experiment_matrix.md": "008d5f0419c26f6d6d920503856e5ea69428ca9f032575368e2b3b003c5c6126",
+    "docs/experiment_matrix.json": "800348064dbf542f5f51568160aec575802b800a93fefcc97b19de093ac3aa13",
+    "docs/references/model_metadata_lock.json": "378feae78e7fd034ee6cdc0862e9d915724a595290004a3953aec0b66a617df5",
+    "docs/references/local_implementation_lock.json": "e95cbe6547843e4bcb79ae8996ac11dba675987dce64983aaaf6f4417b028b3a",
+    "docs/references/dataset_source_checks.json": "d0dad8a94d2628f692ae244cdd8fce7944f6c77892e78b143ca116db2971dad7"
+  }
+}

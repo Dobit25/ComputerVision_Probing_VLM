@@ -1,0 +1,29 @@
+{
+  "input_sha256": {
+    "configs/natural_confirmation_v1.json": "951f778cee2d2bb5c892abd42f179add3a3c29e32e63e3b6ad35a923619e5dce",
+    "docs/natural_confirmation_protocol.md": "609fd9c44470aa6d6c4b53e905af898da7d928755d7610469c313ae601d40cd8",
+    "results/full_natural_confirmation_v1/manifest.json": "d86e8036aa081ff20c89a307fdc16fb8a0d98f9a8ee0bc8ef71689d7a4498288",
+    "results/full_natural_confirmation_v1/metrics.json": "7915280217e526744284ca00630b8cf3a188c0a397a9f3f4ee809d98bc619c39",
+    "results/full_natural_confirmation_v1_audit.json": "0db4f101491a112c223737537a1471be34e6c1f214dcd03ac96190215d6f5093",
+    "results/full_depth_natural_v1/manifest.json": "e2f117c0a429b65483755339492b25ddabc72f7cd5ccef2645c2647fda1dbe9f",
+    "results/full_depth_natural_v1/scores.npz": "e25dfd2751b46f6ce1890b7ddbbfcde182f4b11cf6f0e1578e2772211faa9dab",
+    "results/full_depth_natural_v1/trials.json": "241b5ac583231564d9a897f715ed20173cf87ea73e9bb14b960e477cd6350398",
+    "results/natural_confirmation_selection_v1/old_review.json": "ea5c1cf763193d9dec90b9a1b01d55240ab2661438194dfa7ceeef9662b6f709",
+    "results/natural_confirmation_selection_v1/new_review.json": "6c55226528dcf78b67ef4d1c66cf5814e7de6695439e56fde3077e5b0d0d8748",
+    "results/natural_confirmation_selection_v1/selected.json": "656ed246180ae78e57535a34665771d8e786318eda07819d2048acb813534dd5",
+    "results/natural_confirmation_selection_v1/freeze.json": "5a6c8c7447bf4766b72ca41f09bb9a8f8caa235beb6e65db76bb3d74c1a747a8",
+    "vlm_probe/depth/confirmation.py": "0a23de43677a8a647c43176ebe8b4ffffbfcdc161986420d81782cdd90413a71",
+    "vlm_probe/depth/confirmation_report.py": "68eb27a95b39e704c804af769b66130f54e706e03751d1e99e626366fcd51fc3"
+  },
+  "derived_sha256": {
+    "all_conditions.csv": "9816eb84f4b2563cfa7549477122d182780b7e992d81286979dff98d9d8c8efc",
+    "conditions_table.tex": "82a33a1a3279438bfbf8c72c27bdeab976b98eeae842c459ac1c004828e03a2d",
+    "confirmation.pdf": "26e729f419d0ec3ef581ef04d4bfdf9d3cafa71fce7126dc53fc2c1650390902",
+    "confirmation.png": "162ee38136321f66e56c7f5a650fb1d452589f4948eafabb9e55db9c4072bed2",
+    "metrics.json": "8a1958b2baec6cdb1ffd3e6e82f204ba5ed23f4740fb979cc9d0004f62532648",
+    "new_review_decisions.csv": "ef3916cfb55cd97b30a4e7d344bb1ba8d74771c08ca7bf0ddce644b5c795c1d0",
+    "numbers.tex": "702ae5113b75db2ddd5f8de3829f12214489655dc028fe443ee89472782ec54c",
+    "old_review_decisions.csv": "b64f0097bd94a6f70363614bbc17f321cde0db6ea30e6ffd647b9ee552c08b24",
+    "primary_table.tex": "d59517511bfc850b22be2bf62f7fc333591bc37a714de0c2933002afaefc89c6"
+  }
+}

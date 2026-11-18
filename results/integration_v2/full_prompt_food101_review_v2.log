@@ -1,0 +1,56 @@
+Checkpoint verified. Loading pretrained CLIP with QuickGELU...
+D:\Coding\Anaconda\envs\gen\Lib\site-packages\open_clip\factory.py:164: UserWarning: 'torch.load' received a zip file that looks like a TorchScript archive dispatching to 'torch.jit.load' (call 'torch.jit.load' directly to silence this warning)
+  checkpoint = torch.load(checkpoint_path, map_location=device, weights_only=weights_only)
+D:\Coding\Anaconda\envs\gen\Lib\site-packages\torch\jit\_serialization.py:176: FutureWarning: `torch.jit.load` is deprecated. Please switch to `torch.export`.
+  warnings.warn(
+Checking 25253 extracted files against food-101.tar.gz...
+Archive members hashed: 5000/25253
+Archive members hashed: 10000/25253
+Archive members hashed: 15000/25253
+Archive members hashed: 20000/25253
+Archive members hashed: 25000/25253
+Extracted files verified: 5000/25253
+Extracted files verified: 10000/25253
+Extracted files verified: 15000/25253
+Extracted files verified: 20000/25253
+Extracted files verified: 25000/25253
+Image features: 640/25250
+Image features: 1280/25250
+Image features: 1920/25250
+Image features: 2560/25250
+Image features: 3200/25250
+Image features: 3840/25250
+Image features: 4480/25250
+Image features: 5120/25250
+Image features: 5760/25250
+Image features: 6400/25250
+Image features: 7040/25250
+Image features: 7680/25250
+Image features: 8320/25250
+Image features: 8960/25250
+Image features: 9600/25250
+Image features: 10240/25250
+Image features: 10880/25250
+Image features: 11520/25250
+Image features: 12160/25250
+Image features: 12800/25250
+Image features: 13440/25250
+Image features: 14080/25250
+Image features: 14720/25250
+Image features: 15360/25250
+Image features: 16000/25250
+Image features: 16640/25250
+Image features: 17280/25250
+Image features: 17920/25250
+Image features: 18560/25250
+Image features: 19200/25250
+Image features: 19840/25250
+Image features: 20480/25250
+Image features: 21120/25250
+Image features: 21760/25250
+Image features: 22400/25250
+Image features: 23040/25250
+Image features: 23680/25250
+Image features: 24320/25250
+Image features: 24960/25250
+[food101] Baseline: 82.31% | Best single (T4_domain): 83.40% | Text-Emb Ensemble: 83.52%

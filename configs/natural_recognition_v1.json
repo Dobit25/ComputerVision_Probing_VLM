@@ -1,0 +1,86 @@
+{
+  "study": "natural_recognition_v1",
+  "status": "frozen",
+  "status_note": "Frozen 2026-11-18 on team sign-off (all 'team_decisions' confirmed), after foil review rounds 1-2 and before any CLIP score was computed. Any change needs a new config version.",
+  "protocol": "docs/natural_recognition_protocol_v1.md",
+  "base_config": "configs/probing_depth_v1.json",
+  "model_config": "configs/clip_b32_cifar100.json",
+  "source_selection": "results/natural_confirmation_selection_v1/selected.json",
+  "cohort_membership": "results/human_review_followup_v1/source_membership.csv",
+  "cohort": "R1-accepted confirmation sources (98 of 100); original + horizontal_flip",
+  "holistic_reference": {
+    "run": "results/full_natural_confirmation_v1",
+    "followup_predictions": "results/human_review_followup_v1/after_98_holistic_predictions.csv",
+    "template": 2,
+    "order": 0,
+    "note": "Two-way relation predictions per image on the same 196 images; used only for the descriptive cross-tab, never pooled with recognition accuracy."
+  },
+  "caption_template": "a photo showing {a} and {b}.",
+  "article_rule": "vlm_probe.depth.natural.article (a/an by first letter); COCO category names kept verbatim, singular",
+  "roles": ["replace_a", "replace_b"],
+  "variants": ["original", "horizontal_flip"],
+  "foil_rule": {
+    "pool": "80 COCO instance categories from the frozen instances_val2014.json",
+    "exclude": [
+      "category_a and category_b of the source",
+      "every category annotated anywhere in the source image (COCO instances, any iscrowd)",
+      "categories listed with the replaced object in contested_pairs"
+    ],
+    "tier_1": "same COCO supercategory as the replaced object",
+    "tier_2": "any other eligible category (used only when tier 1 is empty)",
+    "rank": "sha256('{selection_seed}/{source_image_id}/{role}/{category_name}') ascending within tier",
+    "revision": "a 'revise' decision moves to the next ranked candidate for that source/role in a new review round; all versions are kept",
+    "max_candidate_versions": 3,
+    "score_blind": true
+  },
+  "contested_pairs_note": "Only names a human could reasonably apply to the same object (near-synonym, sub-type or part-whole). Merely hard foils (cat/dog, sheep/cow) stay allowed. The team may edit this list before freeze, never after seeing scores.",
+  "contested_pairs": [
+    ["car", "truck"], ["bus", "truck"],
+    ["bicycle", "motorcycle"],
+    ["cup", "wine glass"], ["cup", "bowl"],
+    ["couch", "chair"], ["couch", "bed"], ["bench", "chair"], ["bench", "couch"],
+    ["laptop", "keyboard"], ["laptop", "tv"], ["cell phone", "remote"],
+    ["sandwich", "hot dog"], ["donut", "cake"], ["bear", "teddy bear"],
+    ["handbag", "suitcase"], ["backpack", "handbag"],
+    ["skis", "snowboard"]
+  ],
+  "selection_seed": 1118,
+  "review": {
+    "unit": "source (both variants share one centre crop; the flip is its mirror)",
+    "region_shown": "baseline 224x224 centre canvas (shorter-edge bicubic resize + centre crop), exactly what the model sees",
+    "decisions": ["accepted", "revise", "uncertain"],
+    "scores_shown_to_reviewer": false,
+    "reviewer_id": "tuan_dat",
+    "adjudication": "uncertain or revise rows go to a new round; disagreements adjudicated with history kept"
+  },
+  "metrics": {
+    "primary": "recognition_accuracy: share of trials with s(true) > s(foil), over all trials of the analysed cohort",
+    "trial": "one image x one role; correct iff true caption score > foil caption score",
+    "tie_rule": "exact tie counted incorrect and reported separately; |gap| <= 1e-6 reported as near tie",
+    "secondary": [
+      "accuracy by role, by variant, by foil tier",
+      "both_roles_correct per image",
+      "all_four_trials_correct per source",
+      "descriptive cross-tab with holistic T2/o0 two-way relation correctness on the same image"
+    ],
+    "bootstrap_unit": "source_image_id (all trials of a source resampled together)",
+    "bootstrap_draws": 2000,
+    "bootstrap_seed": 1402
+  },
+  "team_decisions": {
+    "signed_off": "2026-11-18, before any T1 score existed",
+    "reviewer": "tuan_dat",
+    "reviewer_note": "One human reviewer (tuan_dat) reviewed all 196 round-1 rows and the 13 round-2 rows; no inter-annotator agreement is available.",
+    "missing_foil_rule": "A source enters the primary analysis only if both roles have an accepted foil; excluded sources are listed with reasons and coverage is reported against all 98",
+    "minimum_sources_for_inference": 80,
+    "minimum_sources_note": "Same floor as natural_confirmation_v1; below this T1 is reported as not feasible and no inference is run",
+    "interpretation_thresholds": {
+      "clearly_good": "lower bound of the 95% source-bootstrap CI of recognition_accuracy >= 80%",
+      "weak": "upper bound of that CI < 70%",
+      "unclear": "otherwise",
+      "note": "Chance is 50% (two captions). Thresholds were fixed by the team before scores; they are not derived from a power analysis."
+    },
+    "budget": "One smoke run and one full run with the existing CLIP ViT-B/32 checkpoint (encode 196 images and the true/foil captions); at most 1 GPU-hour, no fine-tuning",
+    "stop_rule": "One main run plus at most one pre-registered follow-up; no extra sampling to reach significance"
+  }
+}

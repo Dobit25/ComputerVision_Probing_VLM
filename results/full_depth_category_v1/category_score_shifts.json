@@ -1,0 +1,47 @@
+[
+  {
+    "transition": "all",
+    "n": 10000,
+    "mean_target_score_delta": 0.001628148165345192,
+    "mean_rival_score_delta": 0.002908395370841026,
+    "mean_margin_delta": -0.0012802472054958343,
+    "mean_fixed_rival_score_delta": -0.00011063040494918824,
+    "target_score_increased_fraction": 0.5747
+  },
+  {
+    "transition": "both_correct",
+    "n": 5876,
+    "mean_target_score_delta": 0.0018626379294205556,
+    "mean_rival_score_delta": 0.003061349768067315,
+    "mean_margin_delta": -0.0011987118386467596,
+    "mean_fixed_rival_score_delta": -0.00032731177573142365,
+    "target_score_increased_fraction": 0.5874744724302247
+  },
+  {
+    "transition": "both_wrong",
+    "n": 3136,
+    "mean_target_score_delta": 0.0019327791654789935,
+    "mean_rival_score_delta": 0.002740612809489272,
+    "mean_margin_delta": -0.0008078336440102787,
+    "mean_fixed_rival_score_delta": 0.0005703054282966317,
+    "target_score_increased_fraction": 0.5742984693877551
+  },
+  {
+    "transition": "wrong_to_correct",
+    "n": 416,
+    "mean_target_score_delta": 0.007647695986983867,
+    "mean_rival_score_delta": -0.002476363550298489,
+    "mean_margin_delta": 0.010124059537282357,
+    "mean_fixed_rival_score_delta": -0.005128913523199467,
+    "target_score_increased_fraction": 0.8197115384615384
+  },
+  {
+    "transition": "correct_to_wrong",
+    "n": 572,
+    "mean_target_score_delta": -0.006828698974389296,
+    "mean_rival_score_delta": 0.006173195695126807,
+    "mean_margin_delta": -0.013001894669516104,
+    "mean_fixed_rival_score_delta": 0.0020316960615711613,
+    "target_score_increased_fraction": 0.2674825174825175
+  }
+]

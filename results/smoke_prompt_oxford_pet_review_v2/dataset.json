@@ -1,0 +1,86 @@
+{
+  "name": "OxfordIIITPet",
+  "split": "test",
+  "target_types": "category",
+  "origin_url": "https://www.robots.ox.ac.uk/~vgg/data/pets/data/",
+  "download_url": "https://huggingface.co/datasets/xingslong/oxford-iiit-pet/resolve/e6b0d43e87d842f13fc4073b321e840c4b10f943/",
+  "source_md5": {
+    "images.tar.gz": "5c4f3ee8e5d25df40f4fd59a7f44e54c",
+    "annotations.tar.gz": "95a8c909bbe2e81eed6a22bccdf3f68f"
+  },
+  "archives": {
+    "images.tar.gz": {
+      "sha256": "67195c5e1c01f1ab5f9b6a5d22b8c27a580d896ece458917e61d459337fa318d",
+      "size_bytes": 791918971,
+      "download": {
+        "url": "https://huggingface.co/datasets/xingslong/oxford-iiit-pet/resolve/e6b0d43e87d842f13fc4073b321e840c4b10f943/images.tar.gz",
+        "checksum_algorithm": "md5",
+        "checksum": "5c4f3ee8e5d25df40f4fd59a7f44e54c",
+        "sha256": "67195c5e1c01f1ab5f9b6a5d22b8c27a580d896ece458917e61d459337fa318d",
+        "size_bytes": 791918971
+      }
+    },
+    "annotations.tar.gz": {
+      "sha256": "52425fb6de5c424942b7626b428656fcbd798db970a937df61750c0f1d358e91",
+      "size_bytes": 19173078,
+      "download": {
+        "url": "https://huggingface.co/datasets/xingslong/oxford-iiit-pet/resolve/e6b0d43e87d842f13fc4073b321e840c4b10f943/annotations.tar.gz",
+        "checksum_algorithm": "md5",
+        "checksum": "95a8c909bbe2e81eed6a22bccdf3f68f",
+        "sha256": "52425fb6de5c424942b7626b428656fcbd798db970a937df61750c0f1d358e91",
+        "size_bytes": 19173078
+      }
+    }
+  },
+  "metadata_sha256": {
+    "test.txt": "a5454003774ffe01f4f322756d3ba5495bae21cb30bb217ab285dbfa2bef245c",
+    "trainval.txt": "408f3f609481b939c94634169e6413414b733a3faeba440cbdcc5c02142eebdc",
+    "list.txt": "6a54ab256e22f7a33c6f17a7669e58ea5f6f9c7a080ec2622c205aefd4b354da"
+  },
+  "verified_metadata_digest": "a5b6902bd9a7400eab2a565f1d2869a6618f412d11199c98beb2a95dba22b4cc",
+  "test_images_sha256": "586c9912946d33b46e14e2cc3b6c6a5aa8a2ce9c00683f4e957ff7d2e672126b",
+  "test_images_archive_verified": true,
+  "torchvision_integrity_checked": true,
+  "sample_order": "annotations/test.txt",
+  "num_classes": 37,
+  "total_test_samples": 3669,
+  "full_split_support": [
+    98,
+    100,
+    100,
+    100,
+    100,
+    100,
+    100,
+    88,
+    99,
+    100,
+    100,
+    97,
+    100,
+    100,
+    100,
+    100,
+    100,
+    100,
+    99,
+    100,
+    100,
+    100,
+    100,
+    100,
+    100,
+    100,
+    100,
+    100,
+    100,
+    100,
+    99,
+    100,
+    100,
+    100,
+    89,
+    100,
+    100
+  ]
+}

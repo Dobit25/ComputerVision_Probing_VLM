@@ -1,0 +1,16 @@
+{
+  "tests_run": 61,
+  "passed": 61,
+  "failures": 0,
+  "errors": 0,
+  "tests_log_sha256": "ac9e82e3e45da082a7afd753025ad27d29e2df4c02095e8870cf7d3a3086dbff",
+  "review_sheets_validated": 2,
+  "reviewed_sources": 100,
+  "retained_sources": 98,
+  "retained_images": 196,
+  "translations_accepted": 100,
+  "new_inference": false,
+  "all_original_results_and_reports_preserved": true,
+  "historical_integrity": "historical_integrity.json",
+  "pdf_and_slides_modified": false
+}

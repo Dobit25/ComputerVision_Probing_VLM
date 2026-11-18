@@ -1,0 +1,195 @@
+{
+  "new_inference": false,
+  "inputs": {
+    "results/full_probing_clip_b32_v1/predictions.jsonl": "f0f3daf364ee01800e3a1d14bb8d1ba58b24d2c63c7150f5b458a01e781918a1",
+    "results/full_oxford_pet_clip_b32_v3/predictions.csv": "0f8a933da290afcf131b7492be6e166c0febef9ec07c80f203e40123055754b7"
+  },
+  "counting": {
+    "n": 1080,
+    "correct": 355,
+    "mae": 1.0157407407407408,
+    "mean_signed_error": -0.19537037037037036,
+    "confusion_rows_true_cols_pred": [
+      [
+        87,
+        82,
+        11,
+        0,
+        0,
+        0
+      ],
+      [
+        22,
+        47,
+        102,
+        1,
+        8,
+        0
+      ],
+      [
+        20,
+        9,
+        94,
+        5,
+        48,
+        4
+      ],
+      [
+        20,
+        0,
+        69,
+        17,
+        63,
+        11
+      ],
+      [
+        20,
+        0,
+        30,
+        41,
+        76,
+        13
+      ],
+      [
+        20,
+        0,
+        6,
+        35,
+        85,
+        34
+      ]
+    ],
+    "groups": {
+      "condition": {
+        "fixed_radius": {
+          "correct": 175,
+          "n": 540
+        },
+        "fixed_total_area": {
+          "correct": 180,
+          "n": 540
+        }
+      },
+      "stratum": {
+        "1": {
+          "correct": 87,
+          "n": 180
+        },
+        "2": {
+          "correct": 47,
+          "n": 180
+        },
+        "3": {
+          "correct": 94,
+          "n": 180
+        },
+        "4": {
+          "correct": 17,
+          "n": 180
+        },
+        "5": {
+          "correct": 76,
+          "n": 180
+        },
+        "6": {
+          "correct": 34,
+          "n": 180
+        }
+      },
+      "color": {
+        "blue": {
+          "correct": 98,
+          "n": 360
+        },
+        "green": {
+          "correct": 121,
+          "n": 360
+        },
+        "red": {
+          "correct": 136,
+          "n": 360
+        }
+      },
+      "shape": {
+        "circle": {
+          "correct": 121,
+          "n": 360
+        },
+        "square": {
+          "correct": 99,
+          "n": 360
+        },
+        "triangle": {
+          "correct": 135,
+          "n": 360
+        }
+      }
+    }
+  },
+  "negation": {
+    "n": 1440,
+    "correct": 1240,
+    "groups": {
+      "condition": {
+        "contains_does_not": {
+          "correct": 582,
+          "n": 720
+        },
+        "with_without": {
+          "correct": 658,
+          "n": 720
+        }
+      },
+      "stratum": {
+        "absent": {
+          "correct": 634,
+          "n": 720
+        },
+        "present": {
+          "correct": 606,
+          "n": 720
+        }
+      }
+    }
+  },
+  "oxford_pet_species": {
+    "n_images": 3669,
+    "errors": 548,
+    "cross_species_errors": 4,
+    "within_species_errors": 544,
+    "cross_share_of_errors_percent": 0.7299270072992701,
+    "cross_share_of_errors_ci95_percent": [
+      0.18248175182481752,
+      1.4598540145985401
+    ],
+    "cross_species_rate_all_images_percent": 0.10902153175252112,
+    "cross_species_rate_all_images_ci95_percent": [
+      0.02725538293813028,
+      0.21804306350504224
+    ],
+    "bootstrap": {
+      "unit": "image",
+      "seed": 1402,
+      "draws": 2000
+    },
+    "species_rule": "Oxford-IIIT Pet official convention: cat-breed file names start uppercase",
+    "per_species": [
+      {
+        "species": "cat",
+        "n_classes": 12,
+        "n_images": 1183,
+        "errors": 311,
+        "cross_species_errors": 3,
+        "within_species_errors": 308
+      },
+      {
+        "species": "dog",
+        "n_classes": 25,
+        "n_images": 2486,
+        "errors": 237,
+        "cross_species_errors": 1,
+        "within_species_errors": 236
+      }
+    ]
+  }
+}

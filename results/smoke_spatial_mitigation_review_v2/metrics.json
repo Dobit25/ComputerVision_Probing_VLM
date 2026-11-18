@@ -1,0 +1,12 @@
+{
+  "n_images": 36,
+  "four_way_accuracy_percent": 100.0,
+  "four_way_ci95_percent": [
+    100.0,
+    100.0
+  ],
+  "within_axis_two_way_accuracy_percent": 100.0,
+  "horizontal_pair_both_correct_percent": 100.0,
+  "vertical_pair_both_correct_percent": 100.0,
+  "all_four_relations_correct_percent": 100.0
+}

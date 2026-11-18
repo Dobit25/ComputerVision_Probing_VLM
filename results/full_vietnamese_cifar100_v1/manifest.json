@@ -1,0 +1,154 @@
+{
+  "status": "completed",
+  "stage": "vietnamese_cifar100",
+  "mode": "full",
+  "started_at_utc": "2026-11-10T15:34:38.814680+00:00",
+  "git_head": "59d596b90605895e124a6baedc9238825a99a4aa",
+  "source_sha256": {
+    "configs/clip_b32_cifar100.json": "c67340dde83213b7138991c90d2f41f793ee06eb15a82482cfb06017e93010c4",
+    "configs/probing_depth_v1.json": "da06fb96f9da7292d07e70713b1c6c1908f3f91fd2303d87b7ccdd76bf2fcee2",
+    "docs/probing_depth_protocol.md": "1c04bf2720d291049b04fa4f59e70de652f7a5e1b7a285b65c58a3c8bf6fe2ca",
+    "requirements.txt": "823189c5e900e5a5fd5b612017f0a282abc249a42d432dfd6ba096db16bd0168",
+    "vlm_probe/__init__.py": "a67e12125e012495d84256bfcf67041abcda07dfaf49722bdfafd58566aa637d",
+    "vlm_probe/__main__.py": "db422f547f341e29abd6589f232935674ebeb83ad8793a293ad5bf6f609ef54c",
+    "vlm_probe/assets.py": "18c3f5b444f4e0325d72348689b37e0b74e6530f4e2aaa698c7dd7afef608bad",
+    "vlm_probe/category_study/__init__.py": "8740dace9dc0b1bac7e45ec138aefc4107d8bb0e6554d4e1a86ccbc838c7b182",
+    "vlm_probe/category_study/__main__.py": "b3ec98b15db318fb0169c86ec5cefe961be4386506443d2433f85ddced6c1c18",
+    "vlm_probe/category_study/audit.py": "eb31b6e31138a18f18494332f1cc121a9a6626935f3dea54e9ab217dd65b2742",
+    "vlm_probe/category_study/metrics.py": "e3c926b4699b7066579c297c329fffa40bfdc281a30b33d48f063bfdea1b834e",
+    "vlm_probe/category_study/report.py": "4ca42bd08f6ba1bafd3b2f18e95914f4fbe9282589e5549b22548c3a81eed8d3",
+    "vlm_probe/category_study/runner.py": "b8ae6d0d8c9b767f235dc08f434336a5dd82c83520f6507219d6eafcb4ed554c",
+    "vlm_probe/category_study/taxonomy.py": "b6f3408ecc3318a2ac3d6afd9948d6bc01a9615685dff875027178bf2a633acb",
+    "vlm_probe/compare.py": "b88003cdbf06947317b7738b38887e4def427981e183a99d95aec2bd3a41a90d",
+    "vlm_probe/configuration.py": "295f0ea83f45d6b79d23d60bbff8083aaabaca427026905a1ccd0ae143368cc6",
+    "vlm_probe/dataset_adapters/__init__.py": "c279148c8304811dacdac1c1fee2fba5248cb81459a784fb0e8f46d9450ae17c",
+    "vlm_probe/dataset_adapters/archive_utils.py": "65f74c803c2ad93e331a1828ba54862f719493281720caf69cf4d0cff3d44ab2",
+    "vlm_probe/dataset_adapters/cifar100.py": "84dafd1265ae1f1a0d4bdaf96dcac2697aeba29fac16ca5e33951d6cbb09d096",
+    "vlm_probe/dataset_adapters/dtd.py": "8ae4883afdedecd3ab5db39de140aa1c7979011707d6daab5be62676fa2ecbae",
+    "vlm_probe/dataset_adapters/flowers102.py": "d09234bf9ce7b1451063f0196d134632ca93da83c0540c49f0213e13fb2287e4",
+    "vlm_probe/dataset_adapters/food101.py": "04188b6d48b58c0cee30ae47d2035c0ba2c410b6aac0f10c2b56f2bd9011f7fc",
+    "vlm_probe/dataset_adapters/oxford_pet.py": "c903d1bfe1778129796145076586f9731665eed67ae696b44a4c332501fc39fd",
+    "vlm_probe/depth/__init__.py": "d9aaa8af70f1828e9ab117e783ddb1ba115efc2112a622abaac96df275dbd2de",
+    "vlm_probe/depth/__main__.py": "9ca9b1ea339ec4ddc8fe792c394919d1adc8cfb222aec5ef52dc3ba3280f6ec6",
+    "vlm_probe/depth/analysis.py": "c0efed41d6e56fceb3e6c74df406b0c87462d2e3a7ddd8d1fe6516d553fac8ec",
+    "vlm_probe/depth/audit.py": "5555d4b2f6a73c79b44662aa385f18ec78c1df6774b7e74d723cddc273c7e34f",
+    "vlm_probe/depth/blinded_review.py": "a4c8f665760d9ddbe4668aa91c2b6cbe9649284aa59a3107e37be3e9a8869abd",
+    "vlm_probe/depth/category.py": "b0821b36b3bf7de53a9d90ff164d8fd19ee3c498afdf5dfe5b21e2a9b4f917fc",
+    "vlm_probe/depth/common.py": "02c8ad13644f4bf11c6858a9e51159202ee4015ae32616def0916b2cbbe3ee1a",
+    "vlm_probe/depth/confirmation.py": "0a23de43677a8a647c43176ebe8b4ffffbfcdc161986420d81782cdd90413a71",
+    "vlm_probe/depth/confirmation_report.py": "68eb27a95b39e704c804af769b66130f54e706e03751d1e99e626366fcd51fc3",
+    "vlm_probe/depth/design.py": "acad5d4c22e742fb3942991ce7733575307578c9f31fe7bf7f89c404080a7cd1",
+    "vlm_probe/depth/natural.py": "4a7320d6268c6cb86af528d97761d7455b9105c4f34b51dd4d4b5e43137d2b29",
+    "vlm_probe/depth/pairs.py": "d24b763e3d26a67fc12f5e61c3292e9f67500dca44bf3529c8513ec3b49481ea",
+    "vlm_probe/depth/report.py": "4fd38a91ac78c52773eb98b788bb2c0b7913f0aab0a590d361c6b525ae598213",
+    "vlm_probe/depth/spatial.py": "6aa614893ccb1db39a96148156e18989a64647c69307e582b3a125ebb6ce8685",
+    "vlm_probe/evaluate.py": "1fb8cc1792cf30ada2a06146440c18e7db5c018a7845e855f9c52c0fcfd975a7",
+    "vlm_probe/io_utils.py": "17d915b400b7f58f257c9dd8a2c140616f8562b25e6025341f5547b2f376aae7",
+    "vlm_probe/metrics.py": "98abd6be72af818db8da015a5659142e75e1d2983436a782a114e3b06d1a50b3",
+    "vlm_probe/model_adapters/__init__.py": "c879117fa9f8e4f304e0ac14c215d4944edb7133d395cb70f2121e1a8c7772e3",
+    "vlm_probe/model_adapters/openai_clip.py": "613d66e151f0b831d398c7fe21144439942b3a0142e6e78c547afcf5cd84f06a",
+    "vlm_probe/probing/__init__.py": "a6f62afadd7fed643476da34bdf6d2675fc3fb2d51e0288d01c995571e2121f2",
+    "vlm_probe/probing/__main__.py": "db414e71974fc6ff6a99173d54441a7c37e24f3fb632c32bd81c48f136863249",
+    "vlm_probe/probing/audit.py": "6c58833ad144491f32ac22bddd3ea68f28c67b9d2504ed560bc05726e28bb90a",
+    "vlm_probe/probing/evaluate.py": "067b316db4d726a74db291fe93a3be2606c0d3a36b8fe9bfccccaecdf9890080",
+    "vlm_probe/probing/metrics.py": "28566bec94fe4bd0ec1ed35ed9f28e060cb105fb43807d6336f194941d725da9",
+    "vlm_probe/probing/stimuli.py": "77287a02cec6d2c2278254acff37d56c4d2640744bfc204a73c5f455660f52c2",
+    "vlm_probe/prompt_study/__init__.py": "9071bf65a4da0a506b63e87c6e1e7925d06041d9c196702521200d68972a2bec",
+    "vlm_probe/prompt_study/__main__.py": "5d26b0ef84f1fa45897dbddda4482b16955fe5e087c8c4c49c9480b22863e164",
+    "vlm_probe/prompt_study/design.py": "6c948cbc7743e11cef6ff774ebc2fc43da5dfc8f1f645253ef67eac383ec71ab",
+    "vlm_probe/prompt_study/metrics.py": "39a249b74944b6ea40b168c71fe27a57a7ce77fed4eaf004b700f83530ba1297",
+    "vlm_probe/prompt_study/offline_analysis.py": "132a4d7ea03a9085912196c7c59ad2add6daae11149c7ff004b83ff516385284",
+    "vlm_probe/prompt_study/runner.py": "0a5fb580cf31b72a67c99c12fc947d80fa340951effe9fb93f3c823426507005",
+    "vlm_probe/report.py": "7a2637410d9b796fb60ad42610d3aef403391647f59b008f85c2672ba829030f",
+    "vlm_probe/spatial_diagnostics/__init__.py": "2a1d47983ee6af616b5957148710f68fea7a79d884db6d0f7523f4b8da63bc83",
+    "vlm_probe/spatial_diagnostics/__main__.py": "07fdaeed4fdfac1415b29cfe7fd10d7d8b3e031318c9f7623bb7f072b5ff44f8",
+    "vlm_probe/spatial_diagnostics/mechanism.py": "0c79cdeb5328bd41e0b34138181bb58ff72630d482d415cbe9d38ec35111a1d5",
+    "vlm_probe/spatial_diagnostics/quadrant_mitigation.py": "a3e5d22c2ddeafdc48ffceddf5898ff3ef7e72e855b42be483042ddefabbf0f0",
+    "vlm_probe/synthesis.py": "e3dbc012a4948e02837982f5f57dbbfe2937678cef75a5354eed3cf04a85efea",
+    "vlm_probe/verify.py": "6431327b1ec124c309c896e1dcc3ba73f3cfdef0b513e41fbd49458bf3eba081",
+    "vlm_probe/vietnamese_study/__init__.py": "6e81dbbdf670b9cd5c88a53a33551691e391e18760b9b889e1686cf369831390",
+    "vlm_probe/vietnamese_study/__main__.py": "bbccb1c6b6477c34afafc9c90701a9157d927db33c6c94aad8cbb610a77ff589",
+    "vlm_probe/vietnamese_study/bpe_diagnostics.py": "ad6ef53aa02ec9841729a6b82df41c2f5e29f8917ec75c6ff8e41c41bd850c0c",
+    "vlm_probe/vietnamese_study/lexicon.py": "dfd677704a3f875af0128c948494ed650b71d29f09991568c8dbc2fc0e6a6a27",
+    "vlm_probe/vietnamese_study/runner.py": "31a3dd42e31ca71a078945d6a1ba5c7acc8f8d3f4c948b6edb4c7e5bd9add547"
+  },
+  "source_snapshot": {
+    "path": "results/source_snapshots/source_fdf3f3ea58f25e0c0d59.zip",
+    "sha256": "2d1c9c4cee7fe061be2833f5435bc8660eb17131572630e00954a73c3961c279"
+  },
+  "input_sha256": {
+    "configs/vietnamese_study_v1.json": "765a44606f592b097a37177a2eef07e4b57926ff9c88f3765401465497398726",
+    "docs/vietnamese_study_protocol.md": "eefb9448b0a5f96eff5c805c7e0f2e2f13419f34b71a5b4ecde6f6d923892928",
+    "configs/clip_b32_cifar100.json": "c67340dde83213b7138991c90d2f41f793ee06eb15a82482cfb06017e93010c4"
+  },
+  "model_adapter": "openai_clip",
+  "model_embedding_dim": 512,
+  "checkpoint": {
+    "url": "https://openaipublic.azureedge.net/clip/models/40d365715913c9da98579312b702a82c18be219cc2a73407c4526f58eba950af/ViT-B-32.pt",
+    "sha256": "40d365715913c9da98579312b702a82c18be219cc2a73407c4526f58eba950af",
+    "path": "models/ViT-B-32.pt",
+    "quick_gelu": true
+  },
+  "preprocessing": "Compose(\n    Resize(size=224, interpolation=bicubic, max_size=None, antialias=True)\n    CenterCrop(size=(224, 224))\n    MaybeConvertMode()\n    MaybeToTensor()\n    Normalize(mean=(0.48145466, 0.4578275, 0.40821073), std=(0.26862954, 0.26130258, 0.27577711))\n)",
+  "pretrained_config": {
+    "url": "https://openaipublic.azureedge.net/clip/models/40d365715913c9da98579312b702a82c18be219cc2a73407c4526f58eba950af/ViT-B-32.pt",
+    "hf_hub": "timm/vit_base_patch32_clip_224.openai/",
+    "mean": [
+      0.48145466,
+      0.4578275,
+      0.40821073
+    ],
+    "std": [
+      0.26862954,
+      0.26130258,
+      0.27577711
+    ],
+    "interpolation": "bicubic",
+    "resize_mode": "shortest",
+    "quick_gelu": true
+  },
+  "tokenizer": "SimpleTokenizer",
+  "context_length": 77,
+  "feature_caches": [
+    {
+      "path": ".cache/depth_features/48f9ee37bb78e11bd8b74bd23d7d4e43813e8eecbcf4a9aa85e6d2d02853d96a.npy",
+      "sha256": "20443be297c978e3c0f73e08388b639a08407cc909a9bd049b85173638a31078",
+      "identity": {
+        "input": {
+          "dataset": "cifar100",
+          "count": 10000,
+          "sample_ids_sha256": "0000066f7046095a4c26a23e6d934e5b49946ac47e34f05c2ebffa510f7dd594"
+        },
+        "checkpoint": {
+          "url": "https://openaipublic.azureedge.net/clip/models/40d365715913c9da98579312b702a82c18be219cc2a73407c4526f58eba950af/ViT-B-32.pt",
+          "sha256": "40d365715913c9da98579312b702a82c18be219cc2a73407c4526f58eba950af",
+          "path": "models/ViT-B-32.pt",
+          "quick_gelu": true
+        },
+        "preprocessing": "Compose(\n    Resize(size=224, interpolation=bicubic, max_size=None, antialias=True)\n    CenterCrop(size=(224, 224))\n    MaybeConvertMode()\n    MaybeToTensor()\n    Normalize(mean=(0.48145466, 0.4578275, 0.40821073), std=(0.26862954, 0.26130258, 0.27577711))\n)",
+        "precision": "fp32",
+        "batch_size": 32,
+        "engine_source_sha256": "02c8ad13644f4bf11c6858a9e51159202ee4015ae32616def0916b2cbbe3ee1a"
+      }
+    }
+  ],
+  "evaluated_samples": 10000,
+  "conditions": [
+    "en_baseline",
+    "vi_diacritics",
+    "vi_no_diacritics",
+    "en_frame_vi_label",
+    "vi_frame_en_label",
+    "vi_en_bilingual"
+  ],
+  "finished_at_utc": "2026-11-10T15:35:14.143024+00:00",
+  "artifact_sha256": {
+    "bpe_diagnostics.json": "b15205dd9fbcae801eddef60f6a39fc73350302b3402aec35f41e3da437bf2db",
+    "config.json": "2975f2215b4b9f66039e0b9291edcc04a0d9c847086de81e64d38c60444859aa",
+    "environment.json": "ea1747d0f7bc8f97edfaccb58ccaa9e0a51814d0d2f0b28d7078bc051132e16c",
+    "metrics.json": "c1827475843b43af48a3349dc797c663c1df683d8c3300252ec607ca5ae3854a",
+    "multilingual_classes.json": "0d58ab3697f89dd552e492988dbff5a90ac11a621eb85f140ec59819d963155a",
+    "protocol.md": "1c04bf2720d291049b04fa4f59e70de652f7a5e1b7a285b65c58a3c8bf6fe2ca",
+    "scores.npz": "2e72b7b677cd4125001783bd2ad5ed86c342134fc3d78cbffc687d11ede2dc7e"
+  }
+}

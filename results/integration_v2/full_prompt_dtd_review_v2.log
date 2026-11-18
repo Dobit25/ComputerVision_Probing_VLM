@@ -1,0 +1,9 @@
+Checkpoint verified. Loading pretrained CLIP with QuickGELU...
+D:\Coding\Anaconda\envs\gen\Lib\site-packages\open_clip\factory.py:164: UserWarning: 'torch.load' received a zip file that looks like a TorchScript archive dispatching to 'torch.jit.load' (call 'torch.jit.load' directly to silence this warning)
+  checkpoint = torch.load(checkpoint_path, map_location=device, weights_only=weights_only)
+D:\Coding\Anaconda\envs\gen\Lib\site-packages\torch\jit\_serialization.py:176: FutureWarning: `torch.jit.load` is deprecated. Please switch to `torch.export`.
+  warnings.warn(
+Checking 1883 extracted files against dtd-r1.0.1.tar.gz...
+Image features: 640/1880
+Image features: 1280/1880
+[dtd] Baseline: 42.45% | Best single (T1_minimal): 44.52% | Text-Emb Ensemble: 41.91%

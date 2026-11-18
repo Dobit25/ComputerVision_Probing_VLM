@@ -1,0 +1,21 @@
+{
+  "protocol_version": 2,
+  "model": "ViT-B-32",
+  "pretrained": "openai",
+  "checkpoint_url": "https://openaipublic.azureedge.net/clip/models/40d365715913c9da98579312b702a82c18be219cc2a73407c4526f58eba950af/ViT-B-32.pt",
+  "checkpoint_sha256": "40d365715913c9da98579312b702a82c18be219cc2a73407c4526f58eba950af",
+  "dataset": "Flowers102",
+  "dataset_download_url": "https://paddlemodels.bj.bcebos.com/flowers/",
+  "split": "test",
+  "prompt_template": "a photo of a {class}.",
+  "class_name_policy": "replace_underscores_with_spaces",
+  "precision": "fp32",
+  "device": "cuda",
+  "batch_size": 32,
+  "num_workers": 0,
+  "seed": 0,
+  "cpu_threads": 4,
+  "data_dir": "data",
+  "model_dir": "models",
+  "results_dir": "results"
+}

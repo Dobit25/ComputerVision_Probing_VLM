@@ -1,0 +1,4322 @@
+[
+  {
+    "sample_id": "spatial/000/original/0/t0/o0",
+    "image_index": 0,
+    "group_id": "spatial/000",
+    "target": 0,
+    "template": 0,
+    "order": 0,
+    "variant": "original",
+    "captions": [
+      "a drawing of a red square to the left of a green triangle.",
+      "a drawing of a red square to the right of a green triangle.",
+      "a drawing of a red square above a green triangle.",
+      "a drawing of a red square below a green triangle."
+    ],
+    "control_captions": [
+      "a drawing of a red square and a green triangle.",
+      "a drawing of a blue square and a green triangle."
+    ],
+    "control_target": 0
+  },
+  {
+    "sample_id": "spatial/000/original/0/t0/o1",
+    "image_index": 0,
+    "group_id": "spatial/000",
+    "target": 0,
+    "template": 0,
+    "order": 1,
+    "variant": "original",
+    "captions": [
+      "a drawing of a green triangle to the right of a red square.",
+      "a drawing of a green triangle to the left of a red square.",
+      "a drawing of a green triangle below a red square.",
+      "a drawing of a green triangle above a red square."
+    ],
+    "control_captions": [
+      "a drawing of a red square and a green triangle.",
+      "a drawing of a blue square and a green triangle."
+    ],
+    "control_target": 0
+  },
+  {
+    "sample_id": "spatial/000/original/0/t1/o0",
+    "image_index": 0,
+    "group_id": "spatial/000",
+    "target": 0,
+    "template": 1,
+    "order": 0,
+    "variant": "original",
+    "captions": [
+      "a red square is to the left of a green triangle.",
+      "a red square is to the right of a green triangle.",
+      "a red square is above a green triangle.",
+      "a red square is below a green triangle."
+    ],
+    "control_captions": [
+      "a drawing of a red square and a green triangle.",
+      "a drawing of a blue square and a green triangle."
+    ],
+    "control_target": 0
+  },
+  {
+    "sample_id": "spatial/000/original/0/t1/o1",
+    "image_index": 0,
+    "group_id": "spatial/000",
+    "target": 0,
+    "template": 1,
+    "order": 1,
+    "variant": "original",
+    "captions": [
+      "a green triangle is to the right of a red square.",
+      "a green triangle is to the left of a red square.",
+      "a green triangle is below a red square.",
+      "a green triangle is above a red square."
+    ],
+    "control_captions": [
+      "a drawing of a red square and a green triangle.",
+      "a drawing of a blue square and a green triangle."
+    ],
+    "control_target": 0
+  },
+  {
+    "sample_id": "spatial/000/original/0/t2/o0",
+    "image_index": 0,
+    "group_id": "spatial/000",
+    "target": 0,
+    "template": 2,
+    "order": 0,
+    "variant": "original",
+    "captions": [
+      "an image of a red square to the left of a green triangle.",
+      "an image of a red square to the right of a green triangle.",
+      "an image of a red square above a green triangle.",
+      "an image of a red square below a green triangle."
+    ],
+    "control_captions": [
+      "a drawing of a red square and a green triangle.",
+      "a drawing of a blue square and a green triangle."
+    ],
+    "control_target": 0
+  },
+  {
+    "sample_id": "spatial/000/original/0/t2/o1",
+    "image_index": 0,
+    "group_id": "spatial/000",
+    "target": 0,
+    "template": 2,
+    "order": 1,
+    "variant": "original",
+    "captions": [
+      "an image of a green triangle to the right of a red square.",
+      "an image of a green triangle to the left of a red square.",
+      "an image of a green triangle below a red square.",
+      "an image of a green triangle above a red square."
+    ],
+    "control_captions": [
+      "a drawing of a red square and a green triangle.",
+      "a drawing of a blue square and a green triangle."
+    ],
+    "control_target": 0
+  },
+  {
+    "sample_id": "spatial/000/original/1/t0/o0",
+    "image_index": 1,
+    "group_id": "spatial/000",
+    "target": 1,
+    "template": 0,
+    "order": 0,
+    "variant": "original",
+    "captions": [
+      "a drawing of a red square to the left of a green triangle.",
+      "a drawing of a red square to the right of a green triangle.",
+      "a drawing of a red square above a green triangle.",
+      "a drawing of a red square below a green triangle."
+    ],
+    "control_captions": [
+      "a drawing of a blue square and a green triangle.",
+      "a drawing of a red square and a green triangle."
+    ],
+    "control_target": 1
+  },
+  {
+    "sample_id": "spatial/000/original/1/t0/o1",
+    "image_index": 1,
+    "group_id": "spatial/000",
+    "target": 1,
+    "template": 0,
+    "order": 1,
+    "variant": "original",
+    "captions": [
+      "a drawing of a green triangle to the right of a red square.",
+      "a drawing of a green triangle to the left of a red square.",
+      "a drawing of a green triangle below a red square.",
+      "a drawing of a green triangle above a red square."
+    ],
+    "control_captions": [
+      "a drawing of a blue square and a green triangle.",
+      "a drawing of a red square and a green triangle."
+    ],
+    "control_target": 1
+  },
+  {
+    "sample_id": "spatial/000/original/1/t1/o0",
+    "image_index": 1,
+    "group_id": "spatial/000",
+    "target": 1,
+    "template": 1,
+    "order": 0,
+    "variant": "original",
+    "captions": [
+      "a red square is to the left of a green triangle.",
+      "a red square is to the right of a green triangle.",
+      "a red square is above a green triangle.",
+      "a red square is below a green triangle."
+    ],
+    "control_captions": [
+      "a drawing of a blue square and a green triangle.",
+      "a drawing of a red square and a green triangle."
+    ],
+    "control_target": 1
+  },
+  {
+    "sample_id": "spatial/000/original/1/t1/o1",
+    "image_index": 1,
+    "group_id": "spatial/000",
+    "target": 1,
+    "template": 1,
+    "order": 1,
+    "variant": "original",
+    "captions": [
+      "a green triangle is to the right of a red square.",
+      "a green triangle is to the left of a red square.",
+      "a green triangle is below a red square.",
+      "a green triangle is above a red square."
+    ],
+    "control_captions": [
+      "a drawing of a blue square and a green triangle.",
+      "a drawing of a red square and a green triangle."
+    ],
+    "control_target": 1
+  },
+  {
+    "sample_id": "spatial/000/original/1/t2/o0",
+    "image_index": 1,
+    "group_id": "spatial/000",
+    "target": 1,
+    "template": 2,
+    "order": 0,
+    "variant": "original",
+    "captions": [
+      "an image of a red square to the left of a green triangle.",
+      "an image of a red square to the right of a green triangle.",
+      "an image of a red square above a green triangle.",
+      "an image of a red square below a green triangle."
+    ],
+    "control_captions": [
+      "a drawing of a blue square and a green triangle.",
+      "a drawing of a red square and a green triangle."
+    ],
+    "control_target": 1
+  },
+  {
+    "sample_id": "spatial/000/original/1/t2/o1",
+    "image_index": 1,
+    "group_id": "spatial/000",
+    "target": 1,
+    "template": 2,
+    "order": 1,
+    "variant": "original",
+    "captions": [
+      "an image of a green triangle to the right of a red square.",
+      "an image of a green triangle to the left of a red square.",
+      "an image of a green triangle below a red square.",
+      "an image of a green triangle above a red square."
+    ],
+    "control_captions": [
+      "a drawing of a blue square and a green triangle.",
+      "a drawing of a red square and a green triangle."
+    ],
+    "control_target": 1
+  },
+  {
+    "sample_id": "spatial/000/original/2/t0/o0",
+    "image_index": 2,
+    "group_id": "spatial/000",
+    "target": 2,
+    "template": 0,
+    "order": 0,
+    "variant": "original",
+    "captions": [
+      "a drawing of a red square to the left of a green triangle.",
+      "a drawing of a red square to the right of a green triangle.",
+      "a drawing of a red square above a green triangle.",
+      "a drawing of a red square below a green triangle."
+    ],
+    "control_captions": [
+      "a drawing of a red square and a green triangle.",
+      "a drawing of a blue square and a green triangle."
+    ],
+    "control_target": 0
+  },
+  {
+    "sample_id": "spatial/000/original/2/t0/o1",
+    "image_index": 2,
+    "group_id": "spatial/000",
+    "target": 2,
+    "template": 0,
+    "order": 1,
+    "variant": "original",
+    "captions": [
+      "a drawing of a green triangle to the right of a red square.",
+      "a drawing of a green triangle to the left of a red square.",
+      "a drawing of a green triangle below a red square.",
+      "a drawing of a green triangle above a red square."
+    ],
+    "control_captions": [
+      "a drawing of a red square and a green triangle.",
+      "a drawing of a blue square and a green triangle."
+    ],
+    "control_target": 0
+  },
+  {
+    "sample_id": "spatial/000/original/2/t1/o0",
+    "image_index": 2,
+    "group_id": "spatial/000",
+    "target": 2,
+    "template": 1,
+    "order": 0,
+    "variant": "original",
+    "captions": [
+      "a red square is to the left of a green triangle.",
+      "a red square is to the right of a green triangle.",
+      "a red square is above a green triangle.",
+      "a red square is below a green triangle."
+    ],
+    "control_captions": [
+      "a drawing of a red square and a green triangle.",
+      "a drawing of a blue square and a green triangle."
+    ],
+    "control_target": 0
+  },
+  {
+    "sample_id": "spatial/000/original/2/t1/o1",
+    "image_index": 2,
+    "group_id": "spatial/000",
+    "target": 2,
+    "template": 1,
+    "order": 1,
+    "variant": "original",
+    "captions": [
+      "a green triangle is to the right of a red square.",
+      "a green triangle is to the left of a red square.",
+      "a green triangle is below a red square.",
+      "a green triangle is above a red square."
+    ],
+    "control_captions": [
+      "a drawing of a red square and a green triangle.",
+      "a drawing of a blue square and a green triangle."
+    ],
+    "control_target": 0
+  },
+  {
+    "sample_id": "spatial/000/original/2/t2/o0",
+    "image_index": 2,
+    "group_id": "spatial/000",
+    "target": 2,
+    "template": 2,
+    "order": 0,
+    "variant": "original",
+    "captions": [
+      "an image of a red square to the left of a green triangle.",
+      "an image of a red square to the right of a green triangle.",
+      "an image of a red square above a green triangle.",
+      "an image of a red square below a green triangle."
+    ],
+    "control_captions": [
+      "a drawing of a red square and a green triangle.",
+      "a drawing of a blue square and a green triangle."
+    ],
+    "control_target": 0
+  },
+  {
+    "sample_id": "spatial/000/original/2/t2/o1",
+    "image_index": 2,
+    "group_id": "spatial/000",
+    "target": 2,
+    "template": 2,
+    "order": 1,
+    "variant": "original",
+    "captions": [
+      "an image of a green triangle to the right of a red square.",
+      "an image of a green triangle to the left of a red square.",
+      "an image of a green triangle below a red square.",
+      "an image of a green triangle above a red square."
+    ],
+    "control_captions": [
+      "a drawing of a red square and a green triangle.",
+      "a drawing of a blue square and a green triangle."
+    ],
+    "control_target": 0
+  },
+  {
+    "sample_id": "spatial/000/original/3/t0/o0",
+    "image_index": 3,
+    "group_id": "spatial/000",
+    "target": 3,
+    "template": 0,
+    "order": 0,
+    "variant": "original",
+    "captions": [
+      "a drawing of a red square to the left of a green triangle.",
+      "a drawing of a red square to the right of a green triangle.",
+      "a drawing of a red square above a green triangle.",
+      "a drawing of a red square below a green triangle."
+    ],
+    "control_captions": [
+      "a drawing of a blue square and a green triangle.",
+      "a drawing of a red square and a green triangle."
+    ],
+    "control_target": 1
+  },
+  {
+    "sample_id": "spatial/000/original/3/t0/o1",
+    "image_index": 3,
+    "group_id": "spatial/000",
+    "target": 3,
+    "template": 0,
+    "order": 1,
+    "variant": "original",
+    "captions": [
+      "a drawing of a green triangle to the right of a red square.",
+      "a drawing of a green triangle to the left of a red square.",
+      "a drawing of a green triangle below a red square.",
+      "a drawing of a green triangle above a red square."
+    ],
+    "control_captions": [
+      "a drawing of a blue square and a green triangle.",
+      "a drawing of a red square and a green triangle."
+    ],
+    "control_target": 1
+  },
+  {
+    "sample_id": "spatial/000/original/3/t1/o0",
+    "image_index": 3,
+    "group_id": "spatial/000",
+    "target": 3,
+    "template": 1,
+    "order": 0,
+    "variant": "original",
+    "captions": [
+      "a red square is to the left of a green triangle.",
+      "a red square is to the right of a green triangle.",
+      "a red square is above a green triangle.",
+      "a red square is below a green triangle."
+    ],
+    "control_captions": [
+      "a drawing of a blue square and a green triangle.",
+      "a drawing of a red square and a green triangle."
+    ],
+    "control_target": 1
+  },
+  {
+    "sample_id": "spatial/000/original/3/t1/o1",
+    "image_index": 3,
+    "group_id": "spatial/000",
+    "target": 3,
+    "template": 1,
+    "order": 1,
+    "variant": "original",
+    "captions": [
+      "a green triangle is to the right of a red square.",
+      "a green triangle is to the left of a red square.",
+      "a green triangle is below a red square.",
+      "a green triangle is above a red square."
+    ],
+    "control_captions": [
+      "a drawing of a blue square and a green triangle.",
+      "a drawing of a red square and a green triangle."
+    ],
+    "control_target": 1
+  },
+  {
+    "sample_id": "spatial/000/original/3/t2/o0",
+    "image_index": 3,
+    "group_id": "spatial/000",
+    "target": 3,
+    "template": 2,
+    "order": 0,
+    "variant": "original",
+    "captions": [
+      "an image of a red square to the left of a green triangle.",
+      "an image of a red square to the right of a green triangle.",
+      "an image of a red square above a green triangle.",
+      "an image of a red square below a green triangle."
+    ],
+    "control_captions": [
+      "a drawing of a blue square and a green triangle.",
+      "a drawing of a red square and a green triangle."
+    ],
+    "control_target": 1
+  },
+  {
+    "sample_id": "spatial/000/original/3/t2/o1",
+    "image_index": 3,
+    "group_id": "spatial/000",
+    "target": 3,
+    "template": 2,
+    "order": 1,
+    "variant": "original",
+    "captions": [
+      "an image of a green triangle to the right of a red square.",
+      "an image of a green triangle to the left of a red square.",
+      "an image of a green triangle below a red square.",
+      "an image of a green triangle above a red square."
+    ],
+    "control_captions": [
+      "a drawing of a blue square and a green triangle.",
+      "a drawing of a red square and a green triangle."
+    ],
+    "control_target": 1
+  },
+  {
+    "sample_id": "spatial/000/color_cycle/0/t0/o0",
+    "image_index": 4,
+    "group_id": "spatial/000",
+    "target": 0,
+    "template": 0,
+    "order": 0,
+    "variant": "color_cycle",
+    "captions": [
+      "a drawing of a blue square to the left of a red triangle.",
+      "a drawing of a blue square to the right of a red triangle.",
+      "a drawing of a blue square above a red triangle.",
+      "a drawing of a blue square below a red triangle."
+    ],
+    "control_captions": [
+      "a drawing of a green square and a red triangle.",
+      "a drawing of a blue square and a red triangle."
+    ],
+    "control_target": 1
+  },
+  {
+    "sample_id": "spatial/000/color_cycle/0/t0/o1",
+    "image_index": 4,
+    "group_id": "spatial/000",
+    "target": 0,
+    "template": 0,
+    "order": 1,
+    "variant": "color_cycle",
+    "captions": [
+      "a drawing of a red triangle to the right of a blue square.",
+      "a drawing of a red triangle to the left of a blue square.",
+      "a drawing of a red triangle below a blue square.",
+      "a drawing of a red triangle above a blue square."
+    ],
+    "control_captions": [
+      "a drawing of a green square and a red triangle.",
+      "a drawing of a blue square and a red triangle."
+    ],
+    "control_target": 1
+  },
+  {
+    "sample_id": "spatial/000/color_cycle/0/t1/o0",
+    "image_index": 4,
+    "group_id": "spatial/000",
+    "target": 0,
+    "template": 1,
+    "order": 0,
+    "variant": "color_cycle",
+    "captions": [
+      "a blue square is to the left of a red triangle.",
+      "a blue square is to the right of a red triangle.",
+      "a blue square is above a red triangle.",
+      "a blue square is below a red triangle."
+    ],
+    "control_captions": [
+      "a drawing of a green square and a red triangle.",
+      "a drawing of a blue square and a red triangle."
+    ],
+    "control_target": 1
+  },
+  {
+    "sample_id": "spatial/000/color_cycle/0/t1/o1",
+    "image_index": 4,
+    "group_id": "spatial/000",
+    "target": 0,
+    "template": 1,
+    "order": 1,
+    "variant": "color_cycle",
+    "captions": [
+      "a red triangle is to the right of a blue square.",
+      "a red triangle is to the left of a blue square.",
+      "a red triangle is below a blue square.",
+      "a red triangle is above a blue square."
+    ],
+    "control_captions": [
+      "a drawing of a green square and a red triangle.",
+      "a drawing of a blue square and a red triangle."
+    ],
+    "control_target": 1
+  },
+  {
+    "sample_id": "spatial/000/color_cycle/0/t2/o0",
+    "image_index": 4,
+    "group_id": "spatial/000",
+    "target": 0,
+    "template": 2,
+    "order": 0,
+    "variant": "color_cycle",
+    "captions": [
+      "an image of a blue square to the left of a red triangle.",
+      "an image of a blue square to the right of a red triangle.",
+      "an image of a blue square above a red triangle.",
+      "an image of a blue square below a red triangle."
+    ],
+    "control_captions": [
+      "a drawing of a green square and a red triangle.",
+      "a drawing of a blue square and a red triangle."
+    ],
+    "control_target": 1
+  },
+  {
+    "sample_id": "spatial/000/color_cycle/0/t2/o1",
+    "image_index": 4,
+    "group_id": "spatial/000",
+    "target": 0,
+    "template": 2,
+    "order": 1,
+    "variant": "color_cycle",
+    "captions": [
+      "an image of a red triangle to the right of a blue square.",
+      "an image of a red triangle to the left of a blue square.",
+      "an image of a red triangle below a blue square.",
+      "an image of a red triangle above a blue square."
+    ],
+    "control_captions": [
+      "a drawing of a green square and a red triangle.",
+      "a drawing of a blue square and a red triangle."
+    ],
+    "control_target": 1
+  },
+  {
+    "sample_id": "spatial/000/color_cycle/1/t0/o0",
+    "image_index": 5,
+    "group_id": "spatial/000",
+    "target": 1,
+    "template": 0,
+    "order": 0,
+    "variant": "color_cycle",
+    "captions": [
+      "a drawing of a blue square to the left of a red triangle.",
+      "a drawing of a blue square to the right of a red triangle.",
+      "a drawing of a blue square above a red triangle.",
+      "a drawing of a blue square below a red triangle."
+    ],
+    "control_captions": [
+      "a drawing of a blue square and a red triangle.",
+      "a drawing of a green square and a red triangle."
+    ],
+    "control_target": 0
+  },
+  {
+    "sample_id": "spatial/000/color_cycle/1/t0/o1",
+    "image_index": 5,
+    "group_id": "spatial/000",
+    "target": 1,
+    "template": 0,
+    "order": 1,
+    "variant": "color_cycle",
+    "captions": [
+      "a drawing of a red triangle to the right of a blue square.",
+      "a drawing of a red triangle to the left of a blue square.",
+      "a drawing of a red triangle below a blue square.",
+      "a drawing of a red triangle above a blue square."
+    ],
+    "control_captions": [
+      "a drawing of a blue square and a red triangle.",
+      "a drawing of a green square and a red triangle."
+    ],
+    "control_target": 0
+  },
+  {
+    "sample_id": "spatial/000/color_cycle/1/t1/o0",
+    "image_index": 5,
+    "group_id": "spatial/000",
+    "target": 1,
+    "template": 1,
+    "order": 0,
+    "variant": "color_cycle",
+    "captions": [
+      "a blue square is to the left of a red triangle.",
+      "a blue square is to the right of a red triangle.",
+      "a blue square is above a red triangle.",
+      "a blue square is below a red triangle."
+    ],
+    "control_captions": [
+      "a drawing of a blue square and a red triangle.",
+      "a drawing of a green square and a red triangle."
+    ],
+    "control_target": 0
+  },
+  {
+    "sample_id": "spatial/000/color_cycle/1/t1/o1",
+    "image_index": 5,
+    "group_id": "spatial/000",
+    "target": 1,
+    "template": 1,
+    "order": 1,
+    "variant": "color_cycle",
+    "captions": [
+      "a red triangle is to the right of a blue square.",
+      "a red triangle is to the left of a blue square.",
+      "a red triangle is below a blue square.",
+      "a red triangle is above a blue square."
+    ],
+    "control_captions": [
+      "a drawing of a blue square and a red triangle.",
+      "a drawing of a green square and a red triangle."
+    ],
+    "control_target": 0
+  },
+  {
+    "sample_id": "spatial/000/color_cycle/1/t2/o0",
+    "image_index": 5,
+    "group_id": "spatial/000",
+    "target": 1,
+    "template": 2,
+    "order": 0,
+    "variant": "color_cycle",
+    "captions": [
+      "an image of a blue square to the left of a red triangle.",
+      "an image of a blue square to the right of a red triangle.",
+      "an image of a blue square above a red triangle.",
+      "an image of a blue square below a red triangle."
+    ],
+    "control_captions": [
+      "a drawing of a blue square and a red triangle.",
+      "a drawing of a green square and a red triangle."
+    ],
+    "control_target": 0
+  },
+  {
+    "sample_id": "spatial/000/color_cycle/1/t2/o1",
+    "image_index": 5,
+    "group_id": "spatial/000",
+    "target": 1,
+    "template": 2,
+    "order": 1,
+    "variant": "color_cycle",
+    "captions": [
+      "an image of a red triangle to the right of a blue square.",
+      "an image of a red triangle to the left of a blue square.",
+      "an image of a red triangle below a blue square.",
+      "an image of a red triangle above a blue square."
+    ],
+    "control_captions": [
+      "a drawing of a blue square and a red triangle.",
+      "a drawing of a green square and a red triangle."
+    ],
+    "control_target": 0
+  },
+  {
+    "sample_id": "spatial/000/color_cycle/2/t0/o0",
+    "image_index": 6,
+    "group_id": "spatial/000",
+    "target": 2,
+    "template": 0,
+    "order": 0,
+    "variant": "color_cycle",
+    "captions": [
+      "a drawing of a blue square to the left of a red triangle.",
+      "a drawing of a blue square to the right of a red triangle.",
+      "a drawing of a blue square above a red triangle.",
+      "a drawing of a blue square below a red triangle."
+    ],
+    "control_captions": [
+      "a drawing of a green square and a red triangle.",
+      "a drawing of a blue square and a red triangle."
+    ],
+    "control_target": 1
+  },
+  {
+    "sample_id": "spatial/000/color_cycle/2/t0/o1",
+    "image_index": 6,
+    "group_id": "spatial/000",
+    "target": 2,
+    "template": 0,
+    "order": 1,
+    "variant": "color_cycle",
+    "captions": [
+      "a drawing of a red triangle to the right of a blue square.",
+      "a drawing of a red triangle to the left of a blue square.",
+      "a drawing of a red triangle below a blue square.",
+      "a drawing of a red triangle above a blue square."
+    ],
+    "control_captions": [
+      "a drawing of a green square and a red triangle.",
+      "a drawing of a blue square and a red triangle."
+    ],
+    "control_target": 1
+  },
+  {
+    "sample_id": "spatial/000/color_cycle/2/t1/o0",
+    "image_index": 6,
+    "group_id": "spatial/000",
+    "target": 2,
+    "template": 1,
+    "order": 0,
+    "variant": "color_cycle",
+    "captions": [
+      "a blue square is to the left of a red triangle.",
+      "a blue square is to the right of a red triangle.",
+      "a blue square is above a red triangle.",
+      "a blue square is below a red triangle."
+    ],
+    "control_captions": [
+      "a drawing of a green square and a red triangle.",
+      "a drawing of a blue square and a red triangle."
+    ],
+    "control_target": 1
+  },
+  {
+    "sample_id": "spatial/000/color_cycle/2/t1/o1",
+    "image_index": 6,
+    "group_id": "spatial/000",
+    "target": 2,
+    "template": 1,
+    "order": 1,
+    "variant": "color_cycle",
+    "captions": [
+      "a red triangle is to the right of a blue square.",
+      "a red triangle is to the left of a blue square.",
+      "a red triangle is below a blue square.",
+      "a red triangle is above a blue square."
+    ],
+    "control_captions": [
+      "a drawing of a green square and a red triangle.",
+      "a drawing of a blue square and a red triangle."
+    ],
+    "control_target": 1
+  },
+  {
+    "sample_id": "spatial/000/color_cycle/2/t2/o0",
+    "image_index": 6,
+    "group_id": "spatial/000",
+    "target": 2,
+    "template": 2,
+    "order": 0,
+    "variant": "color_cycle",
+    "captions": [
+      "an image of a blue square to the left of a red triangle.",
+      "an image of a blue square to the right of a red triangle.",
+      "an image of a blue square above a red triangle.",
+      "an image of a blue square below a red triangle."
+    ],
+    "control_captions": [
+      "a drawing of a green square and a red triangle.",
+      "a drawing of a blue square and a red triangle."
+    ],
+    "control_target": 1
+  },
+  {
+    "sample_id": "spatial/000/color_cycle/2/t2/o1",
+    "image_index": 6,
+    "group_id": "spatial/000",
+    "target": 2,
+    "template": 2,
+    "order": 1,
+    "variant": "color_cycle",
+    "captions": [
+      "an image of a red triangle to the right of a blue square.",
+      "an image of a red triangle to the left of a blue square.",
+      "an image of a red triangle below a blue square.",
+      "an image of a red triangle above a blue square."
+    ],
+    "control_captions": [
+      "a drawing of a green square and a red triangle.",
+      "a drawing of a blue square and a red triangle."
+    ],
+    "control_target": 1
+  },
+  {
+    "sample_id": "spatial/000/color_cycle/3/t0/o0",
+    "image_index": 7,
+    "group_id": "spatial/000",
+    "target": 3,
+    "template": 0,
+    "order": 0,
+    "variant": "color_cycle",
+    "captions": [
+      "a drawing of a blue square to the left of a red triangle.",
+      "a drawing of a blue square to the right of a red triangle.",
+      "a drawing of a blue square above a red triangle.",
+      "a drawing of a blue square below a red triangle."
+    ],
+    "control_captions": [
+      "a drawing of a blue square and a red triangle.",
+      "a drawing of a green square and a red triangle."
+    ],
+    "control_target": 0
+  },
+  {
+    "sample_id": "spatial/000/color_cycle/3/t0/o1",
+    "image_index": 7,
+    "group_id": "spatial/000",
+    "target": 3,
+    "template": 0,
+    "order": 1,
+    "variant": "color_cycle",
+    "captions": [
+      "a drawing of a red triangle to the right of a blue square.",
+      "a drawing of a red triangle to the left of a blue square.",
+      "a drawing of a red triangle below a blue square.",
+      "a drawing of a red triangle above a blue square."
+    ],
+    "control_captions": [
+      "a drawing of a blue square and a red triangle.",
+      "a drawing of a green square and a red triangle."
+    ],
+    "control_target": 0
+  },
+  {
+    "sample_id": "spatial/000/color_cycle/3/t1/o0",
+    "image_index": 7,
+    "group_id": "spatial/000",
+    "target": 3,
+    "template": 1,
+    "order": 0,
+    "variant": "color_cycle",
+    "captions": [
+      "a blue square is to the left of a red triangle.",
+      "a blue square is to the right of a red triangle.",
+      "a blue square is above a red triangle.",
+      "a blue square is below a red triangle."
+    ],
+    "control_captions": [
+      "a drawing of a blue square and a red triangle.",
+      "a drawing of a green square and a red triangle."
+    ],
+    "control_target": 0
+  },
+  {
+    "sample_id": "spatial/000/color_cycle/3/t1/o1",
+    "image_index": 7,
+    "group_id": "spatial/000",
+    "target": 3,
+    "template": 1,
+    "order": 1,
+    "variant": "color_cycle",
+    "captions": [
+      "a red triangle is to the right of a blue square.",
+      "a red triangle is to the left of a blue square.",
+      "a red triangle is below a blue square.",
+      "a red triangle is above a blue square."
+    ],
+    "control_captions": [
+      "a drawing of a blue square and a red triangle.",
+      "a drawing of a green square and a red triangle."
+    ],
+    "control_target": 0
+  },
+  {
+    "sample_id": "spatial/000/color_cycle/3/t2/o0",
+    "image_index": 7,
+    "group_id": "spatial/000",
+    "target": 3,
+    "template": 2,
+    "order": 0,
+    "variant": "color_cycle",
+    "captions": [
+      "an image of a blue square to the left of a red triangle.",
+      "an image of a blue square to the right of a red triangle.",
+      "an image of a blue square above a red triangle.",
+      "an image of a blue square below a red triangle."
+    ],
+    "control_captions": [
+      "a drawing of a blue square and a red triangle.",
+      "a drawing of a green square and a red triangle."
+    ],
+    "control_target": 0
+  },
+  {
+    "sample_id": "spatial/000/color_cycle/3/t2/o1",
+    "image_index": 7,
+    "group_id": "spatial/000",
+    "target": 3,
+    "template": 2,
+    "order": 1,
+    "variant": "color_cycle",
+    "captions": [
+      "an image of a red triangle to the right of a blue square.",
+      "an image of a red triangle to the left of a blue square.",
+      "an image of a red triangle below a blue square.",
+      "an image of a red triangle above a blue square."
+    ],
+    "control_captions": [
+      "a drawing of a blue square and a red triangle.",
+      "a drawing of a green square and a red triangle."
+    ],
+    "control_target": 0
+  },
+  {
+    "sample_id": "spatial/000/shape_cycle/0/t0/o0",
+    "image_index": 8,
+    "group_id": "spatial/000",
+    "target": 0,
+    "template": 0,
+    "order": 0,
+    "variant": "shape_cycle",
+    "captions": [
+      "a drawing of a red triangle to the left of a green circle.",
+      "a drawing of a red triangle to the right of a green circle.",
+      "a drawing of a red triangle above a green circle.",
+      "a drawing of a red triangle below a green circle."
+    ],
+    "control_captions": [
+      "a drawing of a red triangle and a green circle.",
+      "a drawing of a blue triangle and a green circle."
+    ],
+    "control_target": 0
+  },
+  {
+    "sample_id": "spatial/000/shape_cycle/0/t0/o1",
+    "image_index": 8,
+    "group_id": "spatial/000",
+    "target": 0,
+    "template": 0,
+    "order": 1,
+    "variant": "shape_cycle",
+    "captions": [
+      "a drawing of a green circle to the right of a red triangle.",
+      "a drawing of a green circle to the left of a red triangle.",
+      "a drawing of a green circle below a red triangle.",
+      "a drawing of a green circle above a red triangle."
+    ],
+    "control_captions": [
+      "a drawing of a red triangle and a green circle.",
+      "a drawing of a blue triangle and a green circle."
+    ],
+    "control_target": 0
+  },
+  {
+    "sample_id": "spatial/000/shape_cycle/0/t1/o0",
+    "image_index": 8,
+    "group_id": "spatial/000",
+    "target": 0,
+    "template": 1,
+    "order": 0,
+    "variant": "shape_cycle",
+    "captions": [
+      "a red triangle is to the left of a green circle.",
+      "a red triangle is to the right of a green circle.",
+      "a red triangle is above a green circle.",
+      "a red triangle is below a green circle."
+    ],
+    "control_captions": [
+      "a drawing of a red triangle and a green circle.",
+      "a drawing of a blue triangle and a green circle."
+    ],
+    "control_target": 0
+  },
+  {
+    "sample_id": "spatial/000/shape_cycle/0/t1/o1",
+    "image_index": 8,
+    "group_id": "spatial/000",
+    "target": 0,
+    "template": 1,
+    "order": 1,
+    "variant": "shape_cycle",
+    "captions": [
+      "a green circle is to the right of a red triangle.",
+      "a green circle is to the left of a red triangle.",
+      "a green circle is below a red triangle.",
+      "a green circle is above a red triangle."
+    ],
+    "control_captions": [
+      "a drawing of a red triangle and a green circle.",
+      "a drawing of a blue triangle and a green circle."
+    ],
+    "control_target": 0
+  },
+  {
+    "sample_id": "spatial/000/shape_cycle/0/t2/o0",
+    "image_index": 8,
+    "group_id": "spatial/000",
+    "target": 0,
+    "template": 2,
+    "order": 0,
+    "variant": "shape_cycle",
+    "captions": [
+      "an image of a red triangle to the left of a green circle.",
+      "an image of a red triangle to the right of a green circle.",
+      "an image of a red triangle above a green circle.",
+      "an image of a red triangle below a green circle."
+    ],
+    "control_captions": [
+      "a drawing of a red triangle and a green circle.",
+      "a drawing of a blue triangle and a green circle."
+    ],
+    "control_target": 0
+  },
+  {
+    "sample_id": "spatial/000/shape_cycle/0/t2/o1",
+    "image_index": 8,
+    "group_id": "spatial/000",
+    "target": 0,
+    "template": 2,
+    "order": 1,
+    "variant": "shape_cycle",
+    "captions": [
+      "an image of a green circle to the right of a red triangle.",
+      "an image of a green circle to the left of a red triangle.",
+      "an image of a green circle below a red triangle.",
+      "an image of a green circle above a red triangle."
+    ],
+    "control_captions": [
+      "a drawing of a red triangle and a green circle.",
+      "a drawing of a blue triangle and a green circle."
+    ],
+    "control_target": 0
+  },
+  {
+    "sample_id": "spatial/000/shape_cycle/1/t0/o0",
+    "image_index": 9,
+    "group_id": "spatial/000",
+    "target": 1,
+    "template": 0,
+    "order": 0,
+    "variant": "shape_cycle",
+    "captions": [
+      "a drawing of a red triangle to the left of a green circle.",
+      "a drawing of a red triangle to the right of a green circle.",
+      "a drawing of a red triangle above a green circle.",
+      "a drawing of a red triangle below a green circle."
+    ],
+    "control_captions": [
+      "a drawing of a blue triangle and a green circle.",
+      "a drawing of a red triangle and a green circle."
+    ],
+    "control_target": 1
+  },
+  {
+    "sample_id": "spatial/000/shape_cycle/1/t0/o1",
+    "image_index": 9,
+    "group_id": "spatial/000",
+    "target": 1,
+    "template": 0,
+    "order": 1,
+    "variant": "shape_cycle",
+    "captions": [
+      "a drawing of a green circle to the right of a red triangle.",
+      "a drawing of a green circle to the left of a red triangle.",
+      "a drawing of a green circle below a red triangle.",
+      "a drawing of a green circle above a red triangle."
+    ],
+    "control_captions": [
+      "a drawing of a blue triangle and a green circle.",
+      "a drawing of a red triangle and a green circle."
+    ],
+    "control_target": 1
+  },
+  {
+    "sample_id": "spatial/000/shape_cycle/1/t1/o0",
+    "image_index": 9,
+    "group_id": "spatial/000",
+    "target": 1,
+    "template": 1,
+    "order": 0,
+    "variant": "shape_cycle",
+    "captions": [
+      "a red triangle is to the left of a green circle.",
+      "a red triangle is to the right of a green circle.",
+      "a red triangle is above a green circle.",
+      "a red triangle is below a green circle."
+    ],
+    "control_captions": [
+      "a drawing of a blue triangle and a green circle.",
+      "a drawing of a red triangle and a green circle."
+    ],
+    "control_target": 1
+  },
+  {
+    "sample_id": "spatial/000/shape_cycle/1/t1/o1",
+    "image_index": 9,
+    "group_id": "spatial/000",
+    "target": 1,
+    "template": 1,
+    "order": 1,
+    "variant": "shape_cycle",
+    "captions": [
+      "a green circle is to the right of a red triangle.",
+      "a green circle is to the left of a red triangle.",
+      "a green circle is below a red triangle.",
+      "a green circle is above a red triangle."
+    ],
+    "control_captions": [
+      "a drawing of a blue triangle and a green circle.",
+      "a drawing of a red triangle and a green circle."
+    ],
+    "control_target": 1
+  },
+  {
+    "sample_id": "spatial/000/shape_cycle/1/t2/o0",
+    "image_index": 9,
+    "group_id": "spatial/000",
+    "target": 1,
+    "template": 2,
+    "order": 0,
+    "variant": "shape_cycle",
+    "captions": [
+      "an image of a red triangle to the left of a green circle.",
+      "an image of a red triangle to the right of a green circle.",
+      "an image of a red triangle above a green circle.",
+      "an image of a red triangle below a green circle."
+    ],
+    "control_captions": [
+      "a drawing of a blue triangle and a green circle.",
+      "a drawing of a red triangle and a green circle."
+    ],
+    "control_target": 1
+  },
+  {
+    "sample_id": "spatial/000/shape_cycle/1/t2/o1",
+    "image_index": 9,
+    "group_id": "spatial/000",
+    "target": 1,
+    "template": 2,
+    "order": 1,
+    "variant": "shape_cycle",
+    "captions": [
+      "an image of a green circle to the right of a red triangle.",
+      "an image of a green circle to the left of a red triangle.",
+      "an image of a green circle below a red triangle.",
+      "an image of a green circle above a red triangle."
+    ],
+    "control_captions": [
+      "a drawing of a blue triangle and a green circle.",
+      "a drawing of a red triangle and a green circle."
+    ],
+    "control_target": 1
+  },
+  {
+    "sample_id": "spatial/000/shape_cycle/2/t0/o0",
+    "image_index": 10,
+    "group_id": "spatial/000",
+    "target": 2,
+    "template": 0,
+    "order": 0,
+    "variant": "shape_cycle",
+    "captions": [
+      "a drawing of a red triangle to the left of a green circle.",
+      "a drawing of a red triangle to the right of a green circle.",
+      "a drawing of a red triangle above a green circle.",
+      "a drawing of a red triangle below a green circle."
+    ],
+    "control_captions": [
+      "a drawing of a red triangle and a green circle.",
+      "a drawing of a blue triangle and a green circle."
+    ],
+    "control_target": 0
+  },
+  {
+    "sample_id": "spatial/000/shape_cycle/2/t0/o1",
+    "image_index": 10,
+    "group_id": "spatial/000",
+    "target": 2,
+    "template": 0,
+    "order": 1,
+    "variant": "shape_cycle",
+    "captions": [
+      "a drawing of a green circle to the right of a red triangle.",
+      "a drawing of a green circle to the left of a red triangle.",
+      "a drawing of a green circle below a red triangle.",
+      "a drawing of a green circle above a red triangle."
+    ],
+    "control_captions": [
+      "a drawing of a red triangle and a green circle.",
+      "a drawing of a blue triangle and a green circle."
+    ],
+    "control_target": 0
+  },
+  {
+    "sample_id": "spatial/000/shape_cycle/2/t1/o0",
+    "image_index": 10,
+    "group_id": "spatial/000",
+    "target": 2,
+    "template": 1,
+    "order": 0,
+    "variant": "shape_cycle",
+    "captions": [
+      "a red triangle is to the left of a green circle.",
+      "a red triangle is to the right of a green circle.",
+      "a red triangle is above a green circle.",
+      "a red triangle is below a green circle."
+    ],
+    "control_captions": [
+      "a drawing of a red triangle and a green circle.",
+      "a drawing of a blue triangle and a green circle."
+    ],
+    "control_target": 0
+  },
+  {
+    "sample_id": "spatial/000/shape_cycle/2/t1/o1",
+    "image_index": 10,
+    "group_id": "spatial/000",
+    "target": 2,
+    "template": 1,
+    "order": 1,
+    "variant": "shape_cycle",
+    "captions": [
+      "a green circle is to the right of a red triangle.",
+      "a green circle is to the left of a red triangle.",
+      "a green circle is below a red triangle.",
+      "a green circle is above a red triangle."
+    ],
+    "control_captions": [
+      "a drawing of a red triangle and a green circle.",
+      "a drawing of a blue triangle and a green circle."
+    ],
+    "control_target": 0
+  },
+  {
+    "sample_id": "spatial/000/shape_cycle/2/t2/o0",
+    "image_index": 10,
+    "group_id": "spatial/000",
+    "target": 2,
+    "template": 2,
+    "order": 0,
+    "variant": "shape_cycle",
+    "captions": [
+      "an image of a red triangle to the left of a green circle.",
+      "an image of a red triangle to the right of a green circle.",
+      "an image of a red triangle above a green circle.",
+      "an image of a red triangle below a green circle."
+    ],
+    "control_captions": [
+      "a drawing of a red triangle and a green circle.",
+      "a drawing of a blue triangle and a green circle."
+    ],
+    "control_target": 0
+  },
+  {
+    "sample_id": "spatial/000/shape_cycle/2/t2/o1",
+    "image_index": 10,
+    "group_id": "spatial/000",
+    "target": 2,
+    "template": 2,
+    "order": 1,
+    "variant": "shape_cycle",
+    "captions": [
+      "an image of a green circle to the right of a red triangle.",
+      "an image of a green circle to the left of a red triangle.",
+      "an image of a green circle below a red triangle.",
+      "an image of a green circle above a red triangle."
+    ],
+    "control_captions": [
+      "a drawing of a red triangle and a green circle.",
+      "a drawing of a blue triangle and a green circle."
+    ],
+    "control_target": 0
+  },
+  {
+    "sample_id": "spatial/000/shape_cycle/3/t0/o0",
+    "image_index": 11,
+    "group_id": "spatial/000",
+    "target": 3,
+    "template": 0,
+    "order": 0,
+    "variant": "shape_cycle",
+    "captions": [
+      "a drawing of a red triangle to the left of a green circle.",
+      "a drawing of a red triangle to the right of a green circle.",
+      "a drawing of a red triangle above a green circle.",
+      "a drawing of a red triangle below a green circle."
+    ],
+    "control_captions": [
+      "a drawing of a blue triangle and a green circle.",
+      "a drawing of a red triangle and a green circle."
+    ],
+    "control_target": 1
+  },
+  {
+    "sample_id": "spatial/000/shape_cycle/3/t0/o1",
+    "image_index": 11,
+    "group_id": "spatial/000",
+    "target": 3,
+    "template": 0,
+    "order": 1,
+    "variant": "shape_cycle",
+    "captions": [
+      "a drawing of a green circle to the right of a red triangle.",
+      "a drawing of a green circle to the left of a red triangle.",
+      "a drawing of a green circle below a red triangle.",
+      "a drawing of a green circle above a red triangle."
+    ],
+    "control_captions": [
+      "a drawing of a blue triangle and a green circle.",
+      "a drawing of a red triangle and a green circle."
+    ],
+    "control_target": 1
+  },
+  {
+    "sample_id": "spatial/000/shape_cycle/3/t1/o0",
+    "image_index": 11,
+    "group_id": "spatial/000",
+    "target": 3,
+    "template": 1,
+    "order": 0,
+    "variant": "shape_cycle",
+    "captions": [
+      "a red triangle is to the left of a green circle.",
+      "a red triangle is to the right of a green circle.",
+      "a red triangle is above a green circle.",
+      "a red triangle is below a green circle."
+    ],
+    "control_captions": [
+      "a drawing of a blue triangle and a green circle.",
+      "a drawing of a red triangle and a green circle."
+    ],
+    "control_target": 1
+  },
+  {
+    "sample_id": "spatial/000/shape_cycle/3/t1/o1",
+    "image_index": 11,
+    "group_id": "spatial/000",
+    "target": 3,
+    "template": 1,
+    "order": 1,
+    "variant": "shape_cycle",
+    "captions": [
+      "a green circle is to the right of a red triangle.",
+      "a green circle is to the left of a red triangle.",
+      "a green circle is below a red triangle.",
+      "a green circle is above a red triangle."
+    ],
+    "control_captions": [
+      "a drawing of a blue triangle and a green circle.",
+      "a drawing of a red triangle and a green circle."
+    ],
+    "control_target": 1
+  },
+  {
+    "sample_id": "spatial/000/shape_cycle/3/t2/o0",
+    "image_index": 11,
+    "group_id": "spatial/000",
+    "target": 3,
+    "template": 2,
+    "order": 0,
+    "variant": "shape_cycle",
+    "captions": [
+      "an image of a red triangle to the left of a green circle.",
+      "an image of a red triangle to the right of a green circle.",
+      "an image of a red triangle above a green circle.",
+      "an image of a red triangle below a green circle."
+    ],
+    "control_captions": [
+      "a drawing of a blue triangle and a green circle.",
+      "a drawing of a red triangle and a green circle."
+    ],
+    "control_target": 1
+  },
+  {
+    "sample_id": "spatial/000/shape_cycle/3/t2/o1",
+    "image_index": 11,
+    "group_id": "spatial/000",
+    "target": 3,
+    "template": 2,
+    "order": 1,
+    "variant": "shape_cycle",
+    "captions": [
+      "an image of a green circle to the right of a red triangle.",
+      "an image of a green circle to the left of a red triangle.",
+      "an image of a green circle below a red triangle.",
+      "an image of a green circle above a red triangle."
+    ],
+    "control_captions": [
+      "a drawing of a blue triangle and a green circle.",
+      "a drawing of a red triangle and a green circle."
+    ],
+    "control_target": 1
+  },
+  {
+    "sample_id": "spatial/001/original/0/t0/o0",
+    "image_index": 12,
+    "group_id": "spatial/001",
+    "target": 0,
+    "template": 0,
+    "order": 0,
+    "variant": "original",
+    "captions": [
+      "a drawing of a red triangle to the left of a green circle.",
+      "a drawing of a red triangle to the right of a green circle.",
+      "a drawing of a red triangle above a green circle.",
+      "a drawing of a red triangle below a green circle."
+    ],
+    "control_captions": [
+      "a drawing of a blue triangle and a green circle.",
+      "a drawing of a red triangle and a green circle."
+    ],
+    "control_target": 1
+  },
+  {
+    "sample_id": "spatial/001/original/0/t0/o1",
+    "image_index": 12,
+    "group_id": "spatial/001",
+    "target": 0,
+    "template": 0,
+    "order": 1,
+    "variant": "original",
+    "captions": [
+      "a drawing of a green circle to the right of a red triangle.",
+      "a drawing of a green circle to the left of a red triangle.",
+      "a drawing of a green circle below a red triangle.",
+      "a drawing of a green circle above a red triangle."
+    ],
+    "control_captions": [
+      "a drawing of a blue triangle and a green circle.",
+      "a drawing of a red triangle and a green circle."
+    ],
+    "control_target": 1
+  },
+  {
+    "sample_id": "spatial/001/original/0/t1/o0",
+    "image_index": 12,
+    "group_id": "spatial/001",
+    "target": 0,
+    "template": 1,
+    "order": 0,
+    "variant": "original",
+    "captions": [
+      "a red triangle is to the left of a green circle.",
+      "a red triangle is to the right of a green circle.",
+      "a red triangle is above a green circle.",
+      "a red triangle is below a green circle."
+    ],
+    "control_captions": [
+      "a drawing of a blue triangle and a green circle.",
+      "a drawing of a red triangle and a green circle."
+    ],
+    "control_target": 1
+  },
+  {
+    "sample_id": "spatial/001/original/0/t1/o1",
+    "image_index": 12,
+    "group_id": "spatial/001",
+    "target": 0,
+    "template": 1,
+    "order": 1,
+    "variant": "original",
+    "captions": [
+      "a green circle is to the right of a red triangle.",
+      "a green circle is to the left of a red triangle.",
+      "a green circle is below a red triangle.",
+      "a green circle is above a red triangle."
+    ],
+    "control_captions": [
+      "a drawing of a blue triangle and a green circle.",
+      "a drawing of a red triangle and a green circle."
+    ],
+    "control_target": 1
+  },
+  {
+    "sample_id": "spatial/001/original/0/t2/o0",
+    "image_index": 12,
+    "group_id": "spatial/001",
+    "target": 0,
+    "template": 2,
+    "order": 0,
+    "variant": "original",
+    "captions": [
+      "an image of a red triangle to the left of a green circle.",
+      "an image of a red triangle to the right of a green circle.",
+      "an image of a red triangle above a green circle.",
+      "an image of a red triangle below a green circle."
+    ],
+    "control_captions": [
+      "a drawing of a blue triangle and a green circle.",
+      "a drawing of a red triangle and a green circle."
+    ],
+    "control_target": 1
+  },
+  {
+    "sample_id": "spatial/001/original/0/t2/o1",
+    "image_index": 12,
+    "group_id": "spatial/001",
+    "target": 0,
+    "template": 2,
+    "order": 1,
+    "variant": "original",
+    "captions": [
+      "an image of a green circle to the right of a red triangle.",
+      "an image of a green circle to the left of a red triangle.",
+      "an image of a green circle below a red triangle.",
+      "an image of a green circle above a red triangle."
+    ],
+    "control_captions": [
+      "a drawing of a blue triangle and a green circle.",
+      "a drawing of a red triangle and a green circle."
+    ],
+    "control_target": 1
+  },
+  {
+    "sample_id": "spatial/001/original/1/t0/o0",
+    "image_index": 13,
+    "group_id": "spatial/001",
+    "target": 1,
+    "template": 0,
+    "order": 0,
+    "variant": "original",
+    "captions": [
+      "a drawing of a red triangle to the left of a green circle.",
+      "a drawing of a red triangle to the right of a green circle.",
+      "a drawing of a red triangle above a green circle.",
+      "a drawing of a red triangle below a green circle."
+    ],
+    "control_captions": [
+      "a drawing of a red triangle and a green circle.",
+      "a drawing of a blue triangle and a green circle."
+    ],
+    "control_target": 0
+  },
+  {
+    "sample_id": "spatial/001/original/1/t0/o1",
+    "image_index": 13,
+    "group_id": "spatial/001",
+    "target": 1,
+    "template": 0,
+    "order": 1,
+    "variant": "original",
+    "captions": [
+      "a drawing of a green circle to the right of a red triangle.",
+      "a drawing of a green circle to the left of a red triangle.",
+      "a drawing of a green circle below a red triangle.",
+      "a drawing of a green circle above a red triangle."
+    ],
+    "control_captions": [
+      "a drawing of a red triangle and a green circle.",
+      "a drawing of a blue triangle and a green circle."
+    ],
+    "control_target": 0
+  },
+  {
+    "sample_id": "spatial/001/original/1/t1/o0",
+    "image_index": 13,
+    "group_id": "spatial/001",
+    "target": 1,
+    "template": 1,
+    "order": 0,
+    "variant": "original",
+    "captions": [
+      "a red triangle is to the left of a green circle.",
+      "a red triangle is to the right of a green circle.",
+      "a red triangle is above a green circle.",
+      "a red triangle is below a green circle."
+    ],
+    "control_captions": [
+      "a drawing of a red triangle and a green circle.",
+      "a drawing of a blue triangle and a green circle."
+    ],
+    "control_target": 0
+  },
+  {
+    "sample_id": "spatial/001/original/1/t1/o1",
+    "image_index": 13,
+    "group_id": "spatial/001",
+    "target": 1,
+    "template": 1,
+    "order": 1,
+    "variant": "original",
+    "captions": [
+      "a green circle is to the right of a red triangle.",
+      "a green circle is to the left of a red triangle.",
+      "a green circle is below a red triangle.",
+      "a green circle is above a red triangle."
+    ],
+    "control_captions": [
+      "a drawing of a red triangle and a green circle.",
+      "a drawing of a blue triangle and a green circle."
+    ],
+    "control_target": 0
+  },
+  {
+    "sample_id": "spatial/001/original/1/t2/o0",
+    "image_index": 13,
+    "group_id": "spatial/001",
+    "target": 1,
+    "template": 2,
+    "order": 0,
+    "variant": "original",
+    "captions": [
+      "an image of a red triangle to the left of a green circle.",
+      "an image of a red triangle to the right of a green circle.",
+      "an image of a red triangle above a green circle.",
+      "an image of a red triangle below a green circle."
+    ],
+    "control_captions": [
+      "a drawing of a red triangle and a green circle.",
+      "a drawing of a blue triangle and a green circle."
+    ],
+    "control_target": 0
+  },
+  {
+    "sample_id": "spatial/001/original/1/t2/o1",
+    "image_index": 13,
+    "group_id": "spatial/001",
+    "target": 1,
+    "template": 2,
+    "order": 1,
+    "variant": "original",
+    "captions": [
+      "an image of a green circle to the right of a red triangle.",
+      "an image of a green circle to the left of a red triangle.",
+      "an image of a green circle below a red triangle.",
+      "an image of a green circle above a red triangle."
+    ],
+    "control_captions": [
+      "a drawing of a red triangle and a green circle.",
+      "a drawing of a blue triangle and a green circle."
+    ],
+    "control_target": 0
+  },
+  {
+    "sample_id": "spatial/001/original/2/t0/o0",
+    "image_index": 14,
+    "group_id": "spatial/001",
+    "target": 2,
+    "template": 0,
+    "order": 0,
+    "variant": "original",
+    "captions": [
+      "a drawing of a red triangle to the left of a green circle.",
+      "a drawing of a red triangle to the right of a green circle.",
+      "a drawing of a red triangle above a green circle.",
+      "a drawing of a red triangle below a green circle."
+    ],
+    "control_captions": [
+      "a drawing of a blue triangle and a green circle.",
+      "a drawing of a red triangle and a green circle."
+    ],
+    "control_target": 1
+  },
+  {
+    "sample_id": "spatial/001/original/2/t0/o1",
+    "image_index": 14,
+    "group_id": "spatial/001",
+    "target": 2,
+    "template": 0,
+    "order": 1,
+    "variant": "original",
+    "captions": [
+      "a drawing of a green circle to the right of a red triangle.",
+      "a drawing of a green circle to the left of a red triangle.",
+      "a drawing of a green circle below a red triangle.",
+      "a drawing of a green circle above a red triangle."
+    ],
+    "control_captions": [
+      "a drawing of a blue triangle and a green circle.",
+      "a drawing of a red triangle and a green circle."
+    ],
+    "control_target": 1
+  },
+  {
+    "sample_id": "spatial/001/original/2/t1/o0",
+    "image_index": 14,
+    "group_id": "spatial/001",
+    "target": 2,
+    "template": 1,
+    "order": 0,
+    "variant": "original",
+    "captions": [
+      "a red triangle is to the left of a green circle.",
+      "a red triangle is to the right of a green circle.",
+      "a red triangle is above a green circle.",
+      "a red triangle is below a green circle."
+    ],
+    "control_captions": [
+      "a drawing of a blue triangle and a green circle.",
+      "a drawing of a red triangle and a green circle."
+    ],
+    "control_target": 1
+  },
+  {
+    "sample_id": "spatial/001/original/2/t1/o1",
+    "image_index": 14,
+    "group_id": "spatial/001",
+    "target": 2,
+    "template": 1,
+    "order": 1,
+    "variant": "original",
+    "captions": [
+      "a green circle is to the right of a red triangle.",
+      "a green circle is to the left of a red triangle.",
+      "a green circle is below a red triangle.",
+      "a green circle is above a red triangle."
+    ],
+    "control_captions": [
+      "a drawing of a blue triangle and a green circle.",
+      "a drawing of a red triangle and a green circle."
+    ],
+    "control_target": 1
+  },
+  {
+    "sample_id": "spatial/001/original/2/t2/o0",
+    "image_index": 14,
+    "group_id": "spatial/001",
+    "target": 2,
+    "template": 2,
+    "order": 0,
+    "variant": "original",
+    "captions": [
+      "an image of a red triangle to the left of a green circle.",
+      "an image of a red triangle to the right of a green circle.",
+      "an image of a red triangle above a green circle.",
+      "an image of a red triangle below a green circle."
+    ],
+    "control_captions": [
+      "a drawing of a blue triangle and a green circle.",
+      "a drawing of a red triangle and a green circle."
+    ],
+    "control_target": 1
+  },
+  {
+    "sample_id": "spatial/001/original/2/t2/o1",
+    "image_index": 14,
+    "group_id": "spatial/001",
+    "target": 2,
+    "template": 2,
+    "order": 1,
+    "variant": "original",
+    "captions": [
+      "an image of a green circle to the right of a red triangle.",
+      "an image of a green circle to the left of a red triangle.",
+      "an image of a green circle below a red triangle.",
+      "an image of a green circle above a red triangle."
+    ],
+    "control_captions": [
+      "a drawing of a blue triangle and a green circle.",
+      "a drawing of a red triangle and a green circle."
+    ],
+    "control_target": 1
+  },
+  {
+    "sample_id": "spatial/001/original/3/t0/o0",
+    "image_index": 15,
+    "group_id": "spatial/001",
+    "target": 3,
+    "template": 0,
+    "order": 0,
+    "variant": "original",
+    "captions": [
+      "a drawing of a red triangle to the left of a green circle.",
+      "a drawing of a red triangle to the right of a green circle.",
+      "a drawing of a red triangle above a green circle.",
+      "a drawing of a red triangle below a green circle."
+    ],
+    "control_captions": [
+      "a drawing of a red triangle and a green circle.",
+      "a drawing of a blue triangle and a green circle."
+    ],
+    "control_target": 0
+  },
+  {
+    "sample_id": "spatial/001/original/3/t0/o1",
+    "image_index": 15,
+    "group_id": "spatial/001",
+    "target": 3,
+    "template": 0,
+    "order": 1,
+    "variant": "original",
+    "captions": [
+      "a drawing of a green circle to the right of a red triangle.",
+      "a drawing of a green circle to the left of a red triangle.",
+      "a drawing of a green circle below a red triangle.",
+      "a drawing of a green circle above a red triangle."
+    ],
+    "control_captions": [
+      "a drawing of a red triangle and a green circle.",
+      "a drawing of a blue triangle and a green circle."
+    ],
+    "control_target": 0
+  },
+  {
+    "sample_id": "spatial/001/original/3/t1/o0",
+    "image_index": 15,
+    "group_id": "spatial/001",
+    "target": 3,
+    "template": 1,
+    "order": 0,
+    "variant": "original",
+    "captions": [
+      "a red triangle is to the left of a green circle.",
+      "a red triangle is to the right of a green circle.",
+      "a red triangle is above a green circle.",
+      "a red triangle is below a green circle."
+    ],
+    "control_captions": [
+      "a drawing of a red triangle and a green circle.",
+      "a drawing of a blue triangle and a green circle."
+    ],
+    "control_target": 0
+  },
+  {
+    "sample_id": "spatial/001/original/3/t1/o1",
+    "image_index": 15,
+    "group_id": "spatial/001",
+    "target": 3,
+    "template": 1,
+    "order": 1,
+    "variant": "original",
+    "captions": [
+      "a green circle is to the right of a red triangle.",
+      "a green circle is to the left of a red triangle.",
+      "a green circle is below a red triangle.",
+      "a green circle is above a red triangle."
+    ],
+    "control_captions": [
+      "a drawing of a red triangle and a green circle.",
+      "a drawing of a blue triangle and a green circle."
+    ],
+    "control_target": 0
+  },
+  {
+    "sample_id": "spatial/001/original/3/t2/o0",
+    "image_index": 15,
+    "group_id": "spatial/001",
+    "target": 3,
+    "template": 2,
+    "order": 0,
+    "variant": "original",
+    "captions": [
+      "an image of a red triangle to the left of a green circle.",
+      "an image of a red triangle to the right of a green circle.",
+      "an image of a red triangle above a green circle.",
+      "an image of a red triangle below a green circle."
+    ],
+    "control_captions": [
+      "a drawing of a red triangle and a green circle.",
+      "a drawing of a blue triangle and a green circle."
+    ],
+    "control_target": 0
+  },
+  {
+    "sample_id": "spatial/001/original/3/t2/o1",
+    "image_index": 15,
+    "group_id": "spatial/001",
+    "target": 3,
+    "template": 2,
+    "order": 1,
+    "variant": "original",
+    "captions": [
+      "an image of a green circle to the right of a red triangle.",
+      "an image of a green circle to the left of a red triangle.",
+      "an image of a green circle below a red triangle.",
+      "an image of a green circle above a red triangle."
+    ],
+    "control_captions": [
+      "a drawing of a red triangle and a green circle.",
+      "a drawing of a blue triangle and a green circle."
+    ],
+    "control_target": 0
+  },
+  {
+    "sample_id": "spatial/001/color_cycle/0/t0/o0",
+    "image_index": 16,
+    "group_id": "spatial/001",
+    "target": 0,
+    "template": 0,
+    "order": 0,
+    "variant": "color_cycle",
+    "captions": [
+      "a drawing of a blue triangle to the left of a red circle.",
+      "a drawing of a blue triangle to the right of a red circle.",
+      "a drawing of a blue triangle above a red circle.",
+      "a drawing of a blue triangle below a red circle."
+    ],
+    "control_captions": [
+      "a drawing of a blue triangle and a red circle.",
+      "a drawing of a green triangle and a red circle."
+    ],
+    "control_target": 0
+  },
+  {
+    "sample_id": "spatial/001/color_cycle/0/t0/o1",
+    "image_index": 16,
+    "group_id": "spatial/001",
+    "target": 0,
+    "template": 0,
+    "order": 1,
+    "variant": "color_cycle",
+    "captions": [
+      "a drawing of a red circle to the right of a blue triangle.",
+      "a drawing of a red circle to the left of a blue triangle.",
+      "a drawing of a red circle below a blue triangle.",
+      "a drawing of a red circle above a blue triangle."
+    ],
+    "control_captions": [
+      "a drawing of a blue triangle and a red circle.",
+      "a drawing of a green triangle and a red circle."
+    ],
+    "control_target": 0
+  },
+  {
+    "sample_id": "spatial/001/color_cycle/0/t1/o0",
+    "image_index": 16,
+    "group_id": "spatial/001",
+    "target": 0,
+    "template": 1,
+    "order": 0,
+    "variant": "color_cycle",
+    "captions": [
+      "a blue triangle is to the left of a red circle.",
+      "a blue triangle is to the right of a red circle.",
+      "a blue triangle is above a red circle.",
+      "a blue triangle is below a red circle."
+    ],
+    "control_captions": [
+      "a drawing of a blue triangle and a red circle.",
+      "a drawing of a green triangle and a red circle."
+    ],
+    "control_target": 0
+  },
+  {
+    "sample_id": "spatial/001/color_cycle/0/t1/o1",
+    "image_index": 16,
+    "group_id": "spatial/001",
+    "target": 0,
+    "template": 1,
+    "order": 1,
+    "variant": "color_cycle",
+    "captions": [
+      "a red circle is to the right of a blue triangle.",
+      "a red circle is to the left of a blue triangle.",
+      "a red circle is below a blue triangle.",
+      "a red circle is above a blue triangle."
+    ],
+    "control_captions": [
+      "a drawing of a blue triangle and a red circle.",
+      "a drawing of a green triangle and a red circle."
+    ],
+    "control_target": 0
+  },
+  {
+    "sample_id": "spatial/001/color_cycle/0/t2/o0",
+    "image_index": 16,
+    "group_id": "spatial/001",
+    "target": 0,
+    "template": 2,
+    "order": 0,
+    "variant": "color_cycle",
+    "captions": [
+      "an image of a blue triangle to the left of a red circle.",
+      "an image of a blue triangle to the right of a red circle.",
+      "an image of a blue triangle above a red circle.",
+      "an image of a blue triangle below a red circle."
+    ],
+    "control_captions": [
+      "a drawing of a blue triangle and a red circle.",
+      "a drawing of a green triangle and a red circle."
+    ],
+    "control_target": 0
+  },
+  {
+    "sample_id": "spatial/001/color_cycle/0/t2/o1",
+    "image_index": 16,
+    "group_id": "spatial/001",
+    "target": 0,
+    "template": 2,
+    "order": 1,
+    "variant": "color_cycle",
+    "captions": [
+      "an image of a red circle to the right of a blue triangle.",
+      "an image of a red circle to the left of a blue triangle.",
+      "an image of a red circle below a blue triangle.",
+      "an image of a red circle above a blue triangle."
+    ],
+    "control_captions": [
+      "a drawing of a blue triangle and a red circle.",
+      "a drawing of a green triangle and a red circle."
+    ],
+    "control_target": 0
+  },
+  {
+    "sample_id": "spatial/001/color_cycle/1/t0/o0",
+    "image_index": 17,
+    "group_id": "spatial/001",
+    "target": 1,
+    "template": 0,
+    "order": 0,
+    "variant": "color_cycle",
+    "captions": [
+      "a drawing of a blue triangle to the left of a red circle.",
+      "a drawing of a blue triangle to the right of a red circle.",
+      "a drawing of a blue triangle above a red circle.",
+      "a drawing of a blue triangle below a red circle."
+    ],
+    "control_captions": [
+      "a drawing of a green triangle and a red circle.",
+      "a drawing of a blue triangle and a red circle."
+    ],
+    "control_target": 1
+  },
+  {
+    "sample_id": "spatial/001/color_cycle/1/t0/o1",
+    "image_index": 17,
+    "group_id": "spatial/001",
+    "target": 1,
+    "template": 0,
+    "order": 1,
+    "variant": "color_cycle",
+    "captions": [
+      "a drawing of a red circle to the right of a blue triangle.",
+      "a drawing of a red circle to the left of a blue triangle.",
+      "a drawing of a red circle below a blue triangle.",
+      "a drawing of a red circle above a blue triangle."
+    ],
+    "control_captions": [
+      "a drawing of a green triangle and a red circle.",
+      "a drawing of a blue triangle and a red circle."
+    ],
+    "control_target": 1
+  },
+  {
+    "sample_id": "spatial/001/color_cycle/1/t1/o0",
+    "image_index": 17,
+    "group_id": "spatial/001",
+    "target": 1,
+    "template": 1,
+    "order": 0,
+    "variant": "color_cycle",
+    "captions": [
+      "a blue triangle is to the left of a red circle.",
+      "a blue triangle is to the right of a red circle.",
+      "a blue triangle is above a red circle.",
+      "a blue triangle is below a red circle."
+    ],
+    "control_captions": [
+      "a drawing of a green triangle and a red circle.",
+      "a drawing of a blue triangle and a red circle."
+    ],
+    "control_target": 1
+  },
+  {
+    "sample_id": "spatial/001/color_cycle/1/t1/o1",
+    "image_index": 17,
+    "group_id": "spatial/001",
+    "target": 1,
+    "template": 1,
+    "order": 1,
+    "variant": "color_cycle",
+    "captions": [
+      "a red circle is to the right of a blue triangle.",
+      "a red circle is to the left of a blue triangle.",
+      "a red circle is below a blue triangle.",
+      "a red circle is above a blue triangle."
+    ],
+    "control_captions": [
+      "a drawing of a green triangle and a red circle.",
+      "a drawing of a blue triangle and a red circle."
+    ],
+    "control_target": 1
+  },
+  {
+    "sample_id": "spatial/001/color_cycle/1/t2/o0",
+    "image_index": 17,
+    "group_id": "spatial/001",
+    "target": 1,
+    "template": 2,
+    "order": 0,
+    "variant": "color_cycle",
+    "captions": [
+      "an image of a blue triangle to the left of a red circle.",
+      "an image of a blue triangle to the right of a red circle.",
+      "an image of a blue triangle above a red circle.",
+      "an image of a blue triangle below a red circle."
+    ],
+    "control_captions": [
+      "a drawing of a green triangle and a red circle.",
+      "a drawing of a blue triangle and a red circle."
+    ],
+    "control_target": 1
+  },
+  {
+    "sample_id": "spatial/001/color_cycle/1/t2/o1",
+    "image_index": 17,
+    "group_id": "spatial/001",
+    "target": 1,
+    "template": 2,
+    "order": 1,
+    "variant": "color_cycle",
+    "captions": [
+      "an image of a red circle to the right of a blue triangle.",
+      "an image of a red circle to the left of a blue triangle.",
+      "an image of a red circle below a blue triangle.",
+      "an image of a red circle above a blue triangle."
+    ],
+    "control_captions": [
+      "a drawing of a green triangle and a red circle.",
+      "a drawing of a blue triangle and a red circle."
+    ],
+    "control_target": 1
+  },
+  {
+    "sample_id": "spatial/001/color_cycle/2/t0/o0",
+    "image_index": 18,
+    "group_id": "spatial/001",
+    "target": 2,
+    "template": 0,
+    "order": 0,
+    "variant": "color_cycle",
+    "captions": [
+      "a drawing of a blue triangle to the left of a red circle.",
+      "a drawing of a blue triangle to the right of a red circle.",
+      "a drawing of a blue triangle above a red circle.",
+      "a drawing of a blue triangle below a red circle."
+    ],
+    "control_captions": [
+      "a drawing of a blue triangle and a red circle.",
+      "a drawing of a green triangle and a red circle."
+    ],
+    "control_target": 0
+  },
+  {
+    "sample_id": "spatial/001/color_cycle/2/t0/o1",
+    "image_index": 18,
+    "group_id": "spatial/001",
+    "target": 2,
+    "template": 0,
+    "order": 1,
+    "variant": "color_cycle",
+    "captions": [
+      "a drawing of a red circle to the right of a blue triangle.",
+      "a drawing of a red circle to the left of a blue triangle.",
+      "a drawing of a red circle below a blue triangle.",
+      "a drawing of a red circle above a blue triangle."
+    ],
+    "control_captions": [
+      "a drawing of a blue triangle and a red circle.",
+      "a drawing of a green triangle and a red circle."
+    ],
+    "control_target": 0
+  },
+  {
+    "sample_id": "spatial/001/color_cycle/2/t1/o0",
+    "image_index": 18,
+    "group_id": "spatial/001",
+    "target": 2,
+    "template": 1,
+    "order": 0,
+    "variant": "color_cycle",
+    "captions": [
+      "a blue triangle is to the left of a red circle.",
+      "a blue triangle is to the right of a red circle.",
+      "a blue triangle is above a red circle.",
+      "a blue triangle is below a red circle."
+    ],
+    "control_captions": [
+      "a drawing of a blue triangle and a red circle.",
+      "a drawing of a green triangle and a red circle."
+    ],
+    "control_target": 0
+  },
+  {
+    "sample_id": "spatial/001/color_cycle/2/t1/o1",
+    "image_index": 18,
+    "group_id": "spatial/001",
+    "target": 2,
+    "template": 1,
+    "order": 1,
+    "variant": "color_cycle",
+    "captions": [
+      "a red circle is to the right of a blue triangle.",
+      "a red circle is to the left of a blue triangle.",
+      "a red circle is below a blue triangle.",
+      "a red circle is above a blue triangle."
+    ],
+    "control_captions": [
+      "a drawing of a blue triangle and a red circle.",
+      "a drawing of a green triangle and a red circle."
+    ],
+    "control_target": 0
+  },
+  {
+    "sample_id": "spatial/001/color_cycle/2/t2/o0",
+    "image_index": 18,
+    "group_id": "spatial/001",
+    "target": 2,
+    "template": 2,
+    "order": 0,
+    "variant": "color_cycle",
+    "captions": [
+      "an image of a blue triangle to the left of a red circle.",
+      "an image of a blue triangle to the right of a red circle.",
+      "an image of a blue triangle above a red circle.",
+      "an image of a blue triangle below a red circle."
+    ],
+    "control_captions": [
+      "a drawing of a blue triangle and a red circle.",
+      "a drawing of a green triangle and a red circle."
+    ],
+    "control_target": 0
+  },
+  {
+    "sample_id": "spatial/001/color_cycle/2/t2/o1",
+    "image_index": 18,
+    "group_id": "spatial/001",
+    "target": 2,
+    "template": 2,
+    "order": 1,
+    "variant": "color_cycle",
+    "captions": [
+      "an image of a red circle to the right of a blue triangle.",
+      "an image of a red circle to the left of a blue triangle.",
+      "an image of a red circle below a blue triangle.",
+      "an image of a red circle above a blue triangle."
+    ],
+    "control_captions": [
+      "a drawing of a blue triangle and a red circle.",
+      "a drawing of a green triangle and a red circle."
+    ],
+    "control_target": 0
+  },
+  {
+    "sample_id": "spatial/001/color_cycle/3/t0/o0",
+    "image_index": 19,
+    "group_id": "spatial/001",
+    "target": 3,
+    "template": 0,
+    "order": 0,
+    "variant": "color_cycle",
+    "captions": [
+      "a drawing of a blue triangle to the left of a red circle.",
+      "a drawing of a blue triangle to the right of a red circle.",
+      "a drawing of a blue triangle above a red circle.",
+      "a drawing of a blue triangle below a red circle."
+    ],
+    "control_captions": [
+      "a drawing of a green triangle and a red circle.",
+      "a drawing of a blue triangle and a red circle."
+    ],
+    "control_target": 1
+  },
+  {
+    "sample_id": "spatial/001/color_cycle/3/t0/o1",
+    "image_index": 19,
+    "group_id": "spatial/001",
+    "target": 3,
+    "template": 0,
+    "order": 1,
+    "variant": "color_cycle",
+    "captions": [
+      "a drawing of a red circle to the right of a blue triangle.",
+      "a drawing of a red circle to the left of a blue triangle.",
+      "a drawing of a red circle below a blue triangle.",
+      "a drawing of a red circle above a blue triangle."
+    ],
+    "control_captions": [
+      "a drawing of a green triangle and a red circle.",
+      "a drawing of a blue triangle and a red circle."
+    ],
+    "control_target": 1
+  },
+  {
+    "sample_id": "spatial/001/color_cycle/3/t1/o0",
+    "image_index": 19,
+    "group_id": "spatial/001",
+    "target": 3,
+    "template": 1,
+    "order": 0,
+    "variant": "color_cycle",
+    "captions": [
+      "a blue triangle is to the left of a red circle.",
+      "a blue triangle is to the right of a red circle.",
+      "a blue triangle is above a red circle.",
+      "a blue triangle is below a red circle."
+    ],
+    "control_captions": [
+      "a drawing of a green triangle and a red circle.",
+      "a drawing of a blue triangle and a red circle."
+    ],
+    "control_target": 1
+  },
+  {
+    "sample_id": "spatial/001/color_cycle/3/t1/o1",
+    "image_index": 19,
+    "group_id": "spatial/001",
+    "target": 3,
+    "template": 1,
+    "order": 1,
+    "variant": "color_cycle",
+    "captions": [
+      "a red circle is to the right of a blue triangle.",
+      "a red circle is to the left of a blue triangle.",
+      "a red circle is below a blue triangle.",
+      "a red circle is above a blue triangle."
+    ],
+    "control_captions": [
+      "a drawing of a green triangle and a red circle.",
+      "a drawing of a blue triangle and a red circle."
+    ],
+    "control_target": 1
+  },
+  {
+    "sample_id": "spatial/001/color_cycle/3/t2/o0",
+    "image_index": 19,
+    "group_id": "spatial/001",
+    "target": 3,
+    "template": 2,
+    "order": 0,
+    "variant": "color_cycle",
+    "captions": [
+      "an image of a blue triangle to the left of a red circle.",
+      "an image of a blue triangle to the right of a red circle.",
+      "an image of a blue triangle above a red circle.",
+      "an image of a blue triangle below a red circle."
+    ],
+    "control_captions": [
+      "a drawing of a green triangle and a red circle.",
+      "a drawing of a blue triangle and a red circle."
+    ],
+    "control_target": 1
+  },
+  {
+    "sample_id": "spatial/001/color_cycle/3/t2/o1",
+    "image_index": 19,
+    "group_id": "spatial/001",
+    "target": 3,
+    "template": 2,
+    "order": 1,
+    "variant": "color_cycle",
+    "captions": [
+      "an image of a red circle to the right of a blue triangle.",
+      "an image of a red circle to the left of a blue triangle.",
+      "an image of a red circle below a blue triangle.",
+      "an image of a red circle above a blue triangle."
+    ],
+    "control_captions": [
+      "a drawing of a green triangle and a red circle.",
+      "a drawing of a blue triangle and a red circle."
+    ],
+    "control_target": 1
+  },
+  {
+    "sample_id": "spatial/001/shape_cycle/0/t0/o0",
+    "image_index": 20,
+    "group_id": "spatial/001",
+    "target": 0,
+    "template": 0,
+    "order": 0,
+    "variant": "shape_cycle",
+    "captions": [
+      "a drawing of a red circle to the left of a green square.",
+      "a drawing of a red circle to the right of a green square.",
+      "a drawing of a red circle above a green square.",
+      "a drawing of a red circle below a green square."
+    ],
+    "control_captions": [
+      "a drawing of a blue circle and a green square.",
+      "a drawing of a red circle and a green square."
+    ],
+    "control_target": 1
+  },
+  {
+    "sample_id": "spatial/001/shape_cycle/0/t0/o1",
+    "image_index": 20,
+    "group_id": "spatial/001",
+    "target": 0,
+    "template": 0,
+    "order": 1,
+    "variant": "shape_cycle",
+    "captions": [
+      "a drawing of a green square to the right of a red circle.",
+      "a drawing of a green square to the left of a red circle.",
+      "a drawing of a green square below a red circle.",
+      "a drawing of a green square above a red circle."
+    ],
+    "control_captions": [
+      "a drawing of a blue circle and a green square.",
+      "a drawing of a red circle and a green square."
+    ],
+    "control_target": 1
+  },
+  {
+    "sample_id": "spatial/001/shape_cycle/0/t1/o0",
+    "image_index": 20,
+    "group_id": "spatial/001",
+    "target": 0,
+    "template": 1,
+    "order": 0,
+    "variant": "shape_cycle",
+    "captions": [
+      "a red circle is to the left of a green square.",
+      "a red circle is to the right of a green square.",
+      "a red circle is above a green square.",
+      "a red circle is below a green square."
+    ],
+    "control_captions": [
+      "a drawing of a blue circle and a green square.",
+      "a drawing of a red circle and a green square."
+    ],
+    "control_target": 1
+  },
+  {
+    "sample_id": "spatial/001/shape_cycle/0/t1/o1",
+    "image_index": 20,
+    "group_id": "spatial/001",
+    "target": 0,
+    "template": 1,
+    "order": 1,
+    "variant": "shape_cycle",
+    "captions": [
+      "a green square is to the right of a red circle.",
+      "a green square is to the left of a red circle.",
+      "a green square is below a red circle.",
+      "a green square is above a red circle."
+    ],
+    "control_captions": [
+      "a drawing of a blue circle and a green square.",
+      "a drawing of a red circle and a green square."
+    ],
+    "control_target": 1
+  },
+  {
+    "sample_id": "spatial/001/shape_cycle/0/t2/o0",
+    "image_index": 20,
+    "group_id": "spatial/001",
+    "target": 0,
+    "template": 2,
+    "order": 0,
+    "variant": "shape_cycle",
+    "captions": [
+      "an image of a red circle to the left of a green square.",
+      "an image of a red circle to the right of a green square.",
+      "an image of a red circle above a green square.",
+      "an image of a red circle below a green square."
+    ],
+    "control_captions": [
+      "a drawing of a blue circle and a green square.",
+      "a drawing of a red circle and a green square."
+    ],
+    "control_target": 1
+  },
+  {
+    "sample_id": "spatial/001/shape_cycle/0/t2/o1",
+    "image_index": 20,
+    "group_id": "spatial/001",
+    "target": 0,
+    "template": 2,
+    "order": 1,
+    "variant": "shape_cycle",
+    "captions": [
+      "an image of a green square to the right of a red circle.",
+      "an image of a green square to the left of a red circle.",
+      "an image of a green square below a red circle.",
+      "an image of a green square above a red circle."
+    ],
+    "control_captions": [
+      "a drawing of a blue circle and a green square.",
+      "a drawing of a red circle and a green square."
+    ],
+    "control_target": 1
+  },
+  {
+    "sample_id": "spatial/001/shape_cycle/1/t0/o0",
+    "image_index": 21,
+    "group_id": "spatial/001",
+    "target": 1,
+    "template": 0,
+    "order": 0,
+    "variant": "shape_cycle",
+    "captions": [
+      "a drawing of a red circle to the left of a green square.",
+      "a drawing of a red circle to the right of a green square.",
+      "a drawing of a red circle above a green square.",
+      "a drawing of a red circle below a green square."
+    ],
+    "control_captions": [
+      "a drawing of a red circle and a green square.",
+      "a drawing of a blue circle and a green square."
+    ],
+    "control_target": 0
+  },
+  {
+    "sample_id": "spatial/001/shape_cycle/1/t0/o1",
+    "image_index": 21,
+    "group_id": "spatial/001",
+    "target": 1,
+    "template": 0,
+    "order": 1,
+    "variant": "shape_cycle",
+    "captions": [
+      "a drawing of a green square to the right of a red circle.",
+      "a drawing of a green square to the left of a red circle.",
+      "a drawing of a green square below a red circle.",
+      "a drawing of a green square above a red circle."
+    ],
+    "control_captions": [
+      "a drawing of a red circle and a green square.",
+      "a drawing of a blue circle and a green square."
+    ],
+    "control_target": 0
+  },
+  {
+    "sample_id": "spatial/001/shape_cycle/1/t1/o0",
+    "image_index": 21,
+    "group_id": "spatial/001",
+    "target": 1,
+    "template": 1,
+    "order": 0,
+    "variant": "shape_cycle",
+    "captions": [
+      "a red circle is to the left of a green square.",
+      "a red circle is to the right of a green square.",
+      "a red circle is above a green square.",
+      "a red circle is below a green square."
+    ],
+    "control_captions": [
+      "a drawing of a red circle and a green square.",
+      "a drawing of a blue circle and a green square."
+    ],
+    "control_target": 0
+  },
+  {
+    "sample_id": "spatial/001/shape_cycle/1/t1/o1",
+    "image_index": 21,
+    "group_id": "spatial/001",
+    "target": 1,
+    "template": 1,
+    "order": 1,
+    "variant": "shape_cycle",
+    "captions": [
+      "a green square is to the right of a red circle.",
+      "a green square is to the left of a red circle.",
+      "a green square is below a red circle.",
+      "a green square is above a red circle."
+    ],
+    "control_captions": [
+      "a drawing of a red circle and a green square.",
+      "a drawing of a blue circle and a green square."
+    ],
+    "control_target": 0
+  },
+  {
+    "sample_id": "spatial/001/shape_cycle/1/t2/o0",
+    "image_index": 21,
+    "group_id": "spatial/001",
+    "target": 1,
+    "template": 2,
+    "order": 0,
+    "variant": "shape_cycle",
+    "captions": [
+      "an image of a red circle to the left of a green square.",
+      "an image of a red circle to the right of a green square.",
+      "an image of a red circle above a green square.",
+      "an image of a red circle below a green square."
+    ],
+    "control_captions": [
+      "a drawing of a red circle and a green square.",
+      "a drawing of a blue circle and a green square."
+    ],
+    "control_target": 0
+  },
+  {
+    "sample_id": "spatial/001/shape_cycle/1/t2/o1",
+    "image_index": 21,
+    "group_id": "spatial/001",
+    "target": 1,
+    "template": 2,
+    "order": 1,
+    "variant": "shape_cycle",
+    "captions": [
+      "an image of a green square to the right of a red circle.",
+      "an image of a green square to the left of a red circle.",
+      "an image of a green square below a red circle.",
+      "an image of a green square above a red circle."
+    ],
+    "control_captions": [
+      "a drawing of a red circle and a green square.",
+      "a drawing of a blue circle and a green square."
+    ],
+    "control_target": 0
+  },
+  {
+    "sample_id": "spatial/001/shape_cycle/2/t0/o0",
+    "image_index": 22,
+    "group_id": "spatial/001",
+    "target": 2,
+    "template": 0,
+    "order": 0,
+    "variant": "shape_cycle",
+    "captions": [
+      "a drawing of a red circle to the left of a green square.",
+      "a drawing of a red circle to the right of a green square.",
+      "a drawing of a red circle above a green square.",
+      "a drawing of a red circle below a green square."
+    ],
+    "control_captions": [
+      "a drawing of a blue circle and a green square.",
+      "a drawing of a red circle and a green square."
+    ],
+    "control_target": 1
+  },
+  {
+    "sample_id": "spatial/001/shape_cycle/2/t0/o1",
+    "image_index": 22,
+    "group_id": "spatial/001",
+    "target": 2,
+    "template": 0,
+    "order": 1,
+    "variant": "shape_cycle",
+    "captions": [
+      "a drawing of a green square to the right of a red circle.",
+      "a drawing of a green square to the left of a red circle.",
+      "a drawing of a green square below a red circle.",
+      "a drawing of a green square above a red circle."
+    ],
+    "control_captions": [
+      "a drawing of a blue circle and a green square.",
+      "a drawing of a red circle and a green square."
+    ],
+    "control_target": 1
+  },
+  {
+    "sample_id": "spatial/001/shape_cycle/2/t1/o0",
+    "image_index": 22,
+    "group_id": "spatial/001",
+    "target": 2,
+    "template": 1,
+    "order": 0,
+    "variant": "shape_cycle",
+    "captions": [
+      "a red circle is to the left of a green square.",
+      "a red circle is to the right of a green square.",
+      "a red circle is above a green square.",
+      "a red circle is below a green square."
+    ],
+    "control_captions": [
+      "a drawing of a blue circle and a green square.",
+      "a drawing of a red circle and a green square."
+    ],
+    "control_target": 1
+  },
+  {
+    "sample_id": "spatial/001/shape_cycle/2/t1/o1",
+    "image_index": 22,
+    "group_id": "spatial/001",
+    "target": 2,
+    "template": 1,
+    "order": 1,
+    "variant": "shape_cycle",
+    "captions": [
+      "a green square is to the right of a red circle.",
+      "a green square is to the left of a red circle.",
+      "a green square is below a red circle.",
+      "a green square is above a red circle."
+    ],
+    "control_captions": [
+      "a drawing of a blue circle and a green square.",
+      "a drawing of a red circle and a green square."
+    ],
+    "control_target": 1
+  },
+  {
+    "sample_id": "spatial/001/shape_cycle/2/t2/o0",
+    "image_index": 22,
+    "group_id": "spatial/001",
+    "target": 2,
+    "template": 2,
+    "order": 0,
+    "variant": "shape_cycle",
+    "captions": [
+      "an image of a red circle to the left of a green square.",
+      "an image of a red circle to the right of a green square.",
+      "an image of a red circle above a green square.",
+      "an image of a red circle below a green square."
+    ],
+    "control_captions": [
+      "a drawing of a blue circle and a green square.",
+      "a drawing of a red circle and a green square."
+    ],
+    "control_target": 1
+  },
+  {
+    "sample_id": "spatial/001/shape_cycle/2/t2/o1",
+    "image_index": 22,
+    "group_id": "spatial/001",
+    "target": 2,
+    "template": 2,
+    "order": 1,
+    "variant": "shape_cycle",
+    "captions": [
+      "an image of a green square to the right of a red circle.",
+      "an image of a green square to the left of a red circle.",
+      "an image of a green square below a red circle.",
+      "an image of a green square above a red circle."
+    ],
+    "control_captions": [
+      "a drawing of a blue circle and a green square.",
+      "a drawing of a red circle and a green square."
+    ],
+    "control_target": 1
+  },
+  {
+    "sample_id": "spatial/001/shape_cycle/3/t0/o0",
+    "image_index": 23,
+    "group_id": "spatial/001",
+    "target": 3,
+    "template": 0,
+    "order": 0,
+    "variant": "shape_cycle",
+    "captions": [
+      "a drawing of a red circle to the left of a green square.",
+      "a drawing of a red circle to the right of a green square.",
+      "a drawing of a red circle above a green square.",
+      "a drawing of a red circle below a green square."
+    ],
+    "control_captions": [
+      "a drawing of a red circle and a green square.",
+      "a drawing of a blue circle and a green square."
+    ],
+    "control_target": 0
+  },
+  {
+    "sample_id": "spatial/001/shape_cycle/3/t0/o1",
+    "image_index": 23,
+    "group_id": "spatial/001",
+    "target": 3,
+    "template": 0,
+    "order": 1,
+    "variant": "shape_cycle",
+    "captions": [
+      "a drawing of a green square to the right of a red circle.",
+      "a drawing of a green square to the left of a red circle.",
+      "a drawing of a green square below a red circle.",
+      "a drawing of a green square above a red circle."
+    ],
+    "control_captions": [
+      "a drawing of a red circle and a green square.",
+      "a drawing of a blue circle and a green square."
+    ],
+    "control_target": 0
+  },
+  {
+    "sample_id": "spatial/001/shape_cycle/3/t1/o0",
+    "image_index": 23,
+    "group_id": "spatial/001",
+    "target": 3,
+    "template": 1,
+    "order": 0,
+    "variant": "shape_cycle",
+    "captions": [
+      "a red circle is to the left of a green square.",
+      "a red circle is to the right of a green square.",
+      "a red circle is above a green square.",
+      "a red circle is below a green square."
+    ],
+    "control_captions": [
+      "a drawing of a red circle and a green square.",
+      "a drawing of a blue circle and a green square."
+    ],
+    "control_target": 0
+  },
+  {
+    "sample_id": "spatial/001/shape_cycle/3/t1/o1",
+    "image_index": 23,
+    "group_id": "spatial/001",
+    "target": 3,
+    "template": 1,
+    "order": 1,
+    "variant": "shape_cycle",
+    "captions": [
+      "a green square is to the right of a red circle.",
+      "a green square is to the left of a red circle.",
+      "a green square is below a red circle.",
+      "a green square is above a red circle."
+    ],
+    "control_captions": [
+      "a drawing of a red circle and a green square.",
+      "a drawing of a blue circle and a green square."
+    ],
+    "control_target": 0
+  },
+  {
+    "sample_id": "spatial/001/shape_cycle/3/t2/o0",
+    "image_index": 23,
+    "group_id": "spatial/001",
+    "target": 3,
+    "template": 2,
+    "order": 0,
+    "variant": "shape_cycle",
+    "captions": [
+      "an image of a red circle to the left of a green square.",
+      "an image of a red circle to the right of a green square.",
+      "an image of a red circle above a green square.",
+      "an image of a red circle below a green square."
+    ],
+    "control_captions": [
+      "a drawing of a red circle and a green square.",
+      "a drawing of a blue circle and a green square."
+    ],
+    "control_target": 0
+  },
+  {
+    "sample_id": "spatial/001/shape_cycle/3/t2/o1",
+    "image_index": 23,
+    "group_id": "spatial/001",
+    "target": 3,
+    "template": 2,
+    "order": 1,
+    "variant": "shape_cycle",
+    "captions": [
+      "an image of a green square to the right of a red circle.",
+      "an image of a green square to the left of a red circle.",
+      "an image of a green square below a red circle.",
+      "an image of a green square above a red circle."
+    ],
+    "control_captions": [
+      "a drawing of a red circle and a green square.",
+      "a drawing of a blue circle and a green square."
+    ],
+    "control_target": 0
+  },
+  {
+    "sample_id": "spatial/002/original/0/t0/o0",
+    "image_index": 24,
+    "group_id": "spatial/002",
+    "target": 0,
+    "template": 0,
+    "order": 0,
+    "variant": "original",
+    "captions": [
+      "a drawing of a blue triangle to the left of a red square.",
+      "a drawing of a blue triangle to the right of a red square.",
+      "a drawing of a blue triangle above a red square.",
+      "a drawing of a blue triangle below a red square."
+    ],
+    "control_captions": [
+      "a drawing of a blue triangle and a red square.",
+      "a drawing of a green triangle and a red square."
+    ],
+    "control_target": 0
+  },
+  {
+    "sample_id": "spatial/002/original/0/t0/o1",
+    "image_index": 24,
+    "group_id": "spatial/002",
+    "target": 0,
+    "template": 0,
+    "order": 1,
+    "variant": "original",
+    "captions": [
+      "a drawing of a red square to the right of a blue triangle.",
+      "a drawing of a red square to the left of a blue triangle.",
+      "a drawing of a red square below a blue triangle.",
+      "a drawing of a red square above a blue triangle."
+    ],
+    "control_captions": [
+      "a drawing of a blue triangle and a red square.",
+      "a drawing of a green triangle and a red square."
+    ],
+    "control_target": 0
+  },
+  {
+    "sample_id": "spatial/002/original/0/t1/o0",
+    "image_index": 24,
+    "group_id": "spatial/002",
+    "target": 0,
+    "template": 1,
+    "order": 0,
+    "variant": "original",
+    "captions": [
+      "a blue triangle is to the left of a red square.",
+      "a blue triangle is to the right of a red square.",
+      "a blue triangle is above a red square.",
+      "a blue triangle is below a red square."
+    ],
+    "control_captions": [
+      "a drawing of a blue triangle and a red square.",
+      "a drawing of a green triangle and a red square."
+    ],
+    "control_target": 0
+  },
+  {
+    "sample_id": "spatial/002/original/0/t1/o1",
+    "image_index": 24,
+    "group_id": "spatial/002",
+    "target": 0,
+    "template": 1,
+    "order": 1,
+    "variant": "original",
+    "captions": [
+      "a red square is to the right of a blue triangle.",
+      "a red square is to the left of a blue triangle.",
+      "a red square is below a blue triangle.",
+      "a red square is above a blue triangle."
+    ],
+    "control_captions": [
+      "a drawing of a blue triangle and a red square.",
+      "a drawing of a green triangle and a red square."
+    ],
+    "control_target": 0
+  },
+  {
+    "sample_id": "spatial/002/original/0/t2/o0",
+    "image_index": 24,
+    "group_id": "spatial/002",
+    "target": 0,
+    "template": 2,
+    "order": 0,
+    "variant": "original",
+    "captions": [
+      "an image of a blue triangle to the left of a red square.",
+      "an image of a blue triangle to the right of a red square.",
+      "an image of a blue triangle above a red square.",
+      "an image of a blue triangle below a red square."
+    ],
+    "control_captions": [
+      "a drawing of a blue triangle and a red square.",
+      "a drawing of a green triangle and a red square."
+    ],
+    "control_target": 0
+  },
+  {
+    "sample_id": "spatial/002/original/0/t2/o1",
+    "image_index": 24,
+    "group_id": "spatial/002",
+    "target": 0,
+    "template": 2,
+    "order": 1,
+    "variant": "original",
+    "captions": [
+      "an image of a red square to the right of a blue triangle.",
+      "an image of a red square to the left of a blue triangle.",
+      "an image of a red square below a blue triangle.",
+      "an image of a red square above a blue triangle."
+    ],
+    "control_captions": [
+      "a drawing of a blue triangle and a red square.",
+      "a drawing of a green triangle and a red square."
+    ],
+    "control_target": 0
+  },
+  {
+    "sample_id": "spatial/002/original/1/t0/o0",
+    "image_index": 25,
+    "group_id": "spatial/002",
+    "target": 1,
+    "template": 0,
+    "order": 0,
+    "variant": "original",
+    "captions": [
+      "a drawing of a blue triangle to the left of a red square.",
+      "a drawing of a blue triangle to the right of a red square.",
+      "a drawing of a blue triangle above a red square.",
+      "a drawing of a blue triangle below a red square."
+    ],
+    "control_captions": [
+      "a drawing of a green triangle and a red square.",
+      "a drawing of a blue triangle and a red square."
+    ],
+    "control_target": 1
+  },
+  {
+    "sample_id": "spatial/002/original/1/t0/o1",
+    "image_index": 25,
+    "group_id": "spatial/002",
+    "target": 1,
+    "template": 0,
+    "order": 1,
+    "variant": "original",
+    "captions": [
+      "a drawing of a red square to the right of a blue triangle.",
+      "a drawing of a red square to the left of a blue triangle.",
+      "a drawing of a red square below a blue triangle.",
+      "a drawing of a red square above a blue triangle."
+    ],
+    "control_captions": [
+      "a drawing of a green triangle and a red square.",
+      "a drawing of a blue triangle and a red square."
+    ],
+    "control_target": 1
+  },
+  {
+    "sample_id": "spatial/002/original/1/t1/o0",
+    "image_index": 25,
+    "group_id": "spatial/002",
+    "target": 1,
+    "template": 1,
+    "order": 0,
+    "variant": "original",
+    "captions": [
+      "a blue triangle is to the left of a red square.",
+      "a blue triangle is to the right of a red square.",
+      "a blue triangle is above a red square.",
+      "a blue triangle is below a red square."
+    ],
+    "control_captions": [
+      "a drawing of a green triangle and a red square.",
+      "a drawing of a blue triangle and a red square."
+    ],
+    "control_target": 1
+  },
+  {
+    "sample_id": "spatial/002/original/1/t1/o1",
+    "image_index": 25,
+    "group_id": "spatial/002",
+    "target": 1,
+    "template": 1,
+    "order": 1,
+    "variant": "original",
+    "captions": [
+      "a red square is to the right of a blue triangle.",
+      "a red square is to the left of a blue triangle.",
+      "a red square is below a blue triangle.",
+      "a red square is above a blue triangle."
+    ],
+    "control_captions": [
+      "a drawing of a green triangle and a red square.",
+      "a drawing of a blue triangle and a red square."
+    ],
+    "control_target": 1
+  },
+  {
+    "sample_id": "spatial/002/original/1/t2/o0",
+    "image_index": 25,
+    "group_id": "spatial/002",
+    "target": 1,
+    "template": 2,
+    "order": 0,
+    "variant": "original",
+    "captions": [
+      "an image of a blue triangle to the left of a red square.",
+      "an image of a blue triangle to the right of a red square.",
+      "an image of a blue triangle above a red square.",
+      "an image of a blue triangle below a red square."
+    ],
+    "control_captions": [
+      "a drawing of a green triangle and a red square.",
+      "a drawing of a blue triangle and a red square."
+    ],
+    "control_target": 1
+  },
+  {
+    "sample_id": "spatial/002/original/1/t2/o1",
+    "image_index": 25,
+    "group_id": "spatial/002",
+    "target": 1,
+    "template": 2,
+    "order": 1,
+    "variant": "original",
+    "captions": [
+      "an image of a red square to the right of a blue triangle.",
+      "an image of a red square to the left of a blue triangle.",
+      "an image of a red square below a blue triangle.",
+      "an image of a red square above a blue triangle."
+    ],
+    "control_captions": [
+      "a drawing of a green triangle and a red square.",
+      "a drawing of a blue triangle and a red square."
+    ],
+    "control_target": 1
+  },
+  {
+    "sample_id": "spatial/002/original/2/t0/o0",
+    "image_index": 26,
+    "group_id": "spatial/002",
+    "target": 2,
+    "template": 0,
+    "order": 0,
+    "variant": "original",
+    "captions": [
+      "a drawing of a blue triangle to the left of a red square.",
+      "a drawing of a blue triangle to the right of a red square.",
+      "a drawing of a blue triangle above a red square.",
+      "a drawing of a blue triangle below a red square."
+    ],
+    "control_captions": [
+      "a drawing of a blue triangle and a red square.",
+      "a drawing of a green triangle and a red square."
+    ],
+    "control_target": 0
+  },
+  {
+    "sample_id": "spatial/002/original/2/t0/o1",
+    "image_index": 26,
+    "group_id": "spatial/002",
+    "target": 2,
+    "template": 0,
+    "order": 1,
+    "variant": "original",
+    "captions": [
+      "a drawing of a red square to the right of a blue triangle.",
+      "a drawing of a red square to the left of a blue triangle.",
+      "a drawing of a red square below a blue triangle.",
+      "a drawing of a red square above a blue triangle."
+    ],
+    "control_captions": [
+      "a drawing of a blue triangle and a red square.",
+      "a drawing of a green triangle and a red square."
+    ],
+    "control_target": 0
+  },
+  {
+    "sample_id": "spatial/002/original/2/t1/o0",
+    "image_index": 26,
+    "group_id": "spatial/002",
+    "target": 2,
+    "template": 1,
+    "order": 0,
+    "variant": "original",
+    "captions": [
+      "a blue triangle is to the left of a red square.",
+      "a blue triangle is to the right of a red square.",
+      "a blue triangle is above a red square.",
+      "a blue triangle is below a red square."
+    ],
+    "control_captions": [
+      "a drawing of a blue triangle and a red square.",
+      "a drawing of a green triangle and a red square."
+    ],
+    "control_target": 0
+  },
+  {
+    "sample_id": "spatial/002/original/2/t1/o1",
+    "image_index": 26,
+    "group_id": "spatial/002",
+    "target": 2,
+    "template": 1,
+    "order": 1,
+    "variant": "original",
+    "captions": [
+      "a red square is to the right of a blue triangle.",
+      "a red square is to the left of a blue triangle.",
+      "a red square is below a blue triangle.",
+      "a red square is above a blue triangle."
+    ],
+    "control_captions": [
+      "a drawing of a blue triangle and a red square.",
+      "a drawing of a green triangle and a red square."
+    ],
+    "control_target": 0
+  },
+  {
+    "sample_id": "spatial/002/original/2/t2/o0",
+    "image_index": 26,
+    "group_id": "spatial/002",
+    "target": 2,
+    "template": 2,
+    "order": 0,
+    "variant": "original",
+    "captions": [
+      "an image of a blue triangle to the left of a red square.",
+      "an image of a blue triangle to the right of a red square.",
+      "an image of a blue triangle above a red square.",
+      "an image of a blue triangle below a red square."
+    ],
+    "control_captions": [
+      "a drawing of a blue triangle and a red square.",
+      "a drawing of a green triangle and a red square."
+    ],
+    "control_target": 0
+  },
+  {
+    "sample_id": "spatial/002/original/2/t2/o1",
+    "image_index": 26,
+    "group_id": "spatial/002",
+    "target": 2,
+    "template": 2,
+    "order": 1,
+    "variant": "original",
+    "captions": [
+      "an image of a red square to the right of a blue triangle.",
+      "an image of a red square to the left of a blue triangle.",
+      "an image of a red square below a blue triangle.",
+      "an image of a red square above a blue triangle."
+    ],
+    "control_captions": [
+      "a drawing of a blue triangle and a red square.",
+      "a drawing of a green triangle and a red square."
+    ],
+    "control_target": 0
+  },
+  {
+    "sample_id": "spatial/002/original/3/t0/o0",
+    "image_index": 27,
+    "group_id": "spatial/002",
+    "target": 3,
+    "template": 0,
+    "order": 0,
+    "variant": "original",
+    "captions": [
+      "a drawing of a blue triangle to the left of a red square.",
+      "a drawing of a blue triangle to the right of a red square.",
+      "a drawing of a blue triangle above a red square.",
+      "a drawing of a blue triangle below a red square."
+    ],
+    "control_captions": [
+      "a drawing of a green triangle and a red square.",
+      "a drawing of a blue triangle and a red square."
+    ],
+    "control_target": 1
+  },
+  {
+    "sample_id": "spatial/002/original/3/t0/o1",
+    "image_index": 27,
+    "group_id": "spatial/002",
+    "target": 3,
+    "template": 0,
+    "order": 1,
+    "variant": "original",
+    "captions": [
+      "a drawing of a red square to the right of a blue triangle.",
+      "a drawing of a red square to the left of a blue triangle.",
+      "a drawing of a red square below a blue triangle.",
+      "a drawing of a red square above a blue triangle."
+    ],
+    "control_captions": [
+      "a drawing of a green triangle and a red square.",
+      "a drawing of a blue triangle and a red square."
+    ],
+    "control_target": 1
+  },
+  {
+    "sample_id": "spatial/002/original/3/t1/o0",
+    "image_index": 27,
+    "group_id": "spatial/002",
+    "target": 3,
+    "template": 1,
+    "order": 0,
+    "variant": "original",
+    "captions": [
+      "a blue triangle is to the left of a red square.",
+      "a blue triangle is to the right of a red square.",
+      "a blue triangle is above a red square.",
+      "a blue triangle is below a red square."
+    ],
+    "control_captions": [
+      "a drawing of a green triangle and a red square.",
+      "a drawing of a blue triangle and a red square."
+    ],
+    "control_target": 1
+  },
+  {
+    "sample_id": "spatial/002/original/3/t1/o1",
+    "image_index": 27,
+    "group_id": "spatial/002",
+    "target": 3,
+    "template": 1,
+    "order": 1,
+    "variant": "original",
+    "captions": [
+      "a red square is to the right of a blue triangle.",
+      "a red square is to the left of a blue triangle.",
+      "a red square is below a blue triangle.",
+      "a red square is above a blue triangle."
+    ],
+    "control_captions": [
+      "a drawing of a green triangle and a red square.",
+      "a drawing of a blue triangle and a red square."
+    ],
+    "control_target": 1
+  },
+  {
+    "sample_id": "spatial/002/original/3/t2/o0",
+    "image_index": 27,
+    "group_id": "spatial/002",
+    "target": 3,
+    "template": 2,
+    "order": 0,
+    "variant": "original",
+    "captions": [
+      "an image of a blue triangle to the left of a red square.",
+      "an image of a blue triangle to the right of a red square.",
+      "an image of a blue triangle above a red square.",
+      "an image of a blue triangle below a red square."
+    ],
+    "control_captions": [
+      "a drawing of a green triangle and a red square.",
+      "a drawing of a blue triangle and a red square."
+    ],
+    "control_target": 1
+  },
+  {
+    "sample_id": "spatial/002/original/3/t2/o1",
+    "image_index": 27,
+    "group_id": "spatial/002",
+    "target": 3,
+    "template": 2,
+    "order": 1,
+    "variant": "original",
+    "captions": [
+      "an image of a red square to the right of a blue triangle.",
+      "an image of a red square to the left of a blue triangle.",
+      "an image of a red square below a blue triangle.",
+      "an image of a red square above a blue triangle."
+    ],
+    "control_captions": [
+      "a drawing of a green triangle and a red square.",
+      "a drawing of a blue triangle and a red square."
+    ],
+    "control_target": 1
+  },
+  {
+    "sample_id": "spatial/002/color_cycle/0/t0/o0",
+    "image_index": 28,
+    "group_id": "spatial/002",
+    "target": 0,
+    "template": 0,
+    "order": 0,
+    "variant": "color_cycle",
+    "captions": [
+      "a drawing of a green triangle to the left of a blue square.",
+      "a drawing of a green triangle to the right of a blue square.",
+      "a drawing of a green triangle above a blue square.",
+      "a drawing of a green triangle below a blue square."
+    ],
+    "control_captions": [
+      "a drawing of a red triangle and a blue square.",
+      "a drawing of a green triangle and a blue square."
+    ],
+    "control_target": 1
+  },
+  {
+    "sample_id": "spatial/002/color_cycle/0/t0/o1",
+    "image_index": 28,
+    "group_id": "spatial/002",
+    "target": 0,
+    "template": 0,
+    "order": 1,
+    "variant": "color_cycle",
+    "captions": [
+      "a drawing of a blue square to the right of a green triangle.",
+      "a drawing of a blue square to the left of a green triangle.",
+      "a drawing of a blue square below a green triangle.",
+      "a drawing of a blue square above a green triangle."
+    ],
+    "control_captions": [
+      "a drawing of a red triangle and a blue square.",
+      "a drawing of a green triangle and a blue square."
+    ],
+    "control_target": 1
+  },
+  {
+    "sample_id": "spatial/002/color_cycle/0/t1/o0",
+    "image_index": 28,
+    "group_id": "spatial/002",
+    "target": 0,
+    "template": 1,
+    "order": 0,
+    "variant": "color_cycle",
+    "captions": [
+      "a green triangle is to the left of a blue square.",
+      "a green triangle is to the right of a blue square.",
+      "a green triangle is above a blue square.",
+      "a green triangle is below a blue square."
+    ],
+    "control_captions": [
+      "a drawing of a red triangle and a blue square.",
+      "a drawing of a green triangle and a blue square."
+    ],
+    "control_target": 1
+  },
+  {
+    "sample_id": "spatial/002/color_cycle/0/t1/o1",
+    "image_index": 28,
+    "group_id": "spatial/002",
+    "target": 0,
+    "template": 1,
+    "order": 1,
+    "variant": "color_cycle",
+    "captions": [
+      "a blue square is to the right of a green triangle.",
+      "a blue square is to the left of a green triangle.",
+      "a blue square is below a green triangle.",
+      "a blue square is above a green triangle."
+    ],
+    "control_captions": [
+      "a drawing of a red triangle and a blue square.",
+      "a drawing of a green triangle and a blue square."
+    ],
+    "control_target": 1
+  },
+  {
+    "sample_id": "spatial/002/color_cycle/0/t2/o0",
+    "image_index": 28,
+    "group_id": "spatial/002",
+    "target": 0,
+    "template": 2,
+    "order": 0,
+    "variant": "color_cycle",
+    "captions": [
+      "an image of a green triangle to the left of a blue square.",
+      "an image of a green triangle to the right of a blue square.",
+      "an image of a green triangle above a blue square.",
+      "an image of a green triangle below a blue square."
+    ],
+    "control_captions": [
+      "a drawing of a red triangle and a blue square.",
+      "a drawing of a green triangle and a blue square."
+    ],
+    "control_target": 1
+  },
+  {
+    "sample_id": "spatial/002/color_cycle/0/t2/o1",
+    "image_index": 28,
+    "group_id": "spatial/002",
+    "target": 0,
+    "template": 2,
+    "order": 1,
+    "variant": "color_cycle",
+    "captions": [
+      "an image of a blue square to the right of a green triangle.",
+      "an image of a blue square to the left of a green triangle.",
+      "an image of a blue square below a green triangle.",
+      "an image of a blue square above a green triangle."
+    ],
+    "control_captions": [
+      "a drawing of a red triangle and a blue square.",
+      "a drawing of a green triangle and a blue square."
+    ],
+    "control_target": 1
+  },
+  {
+    "sample_id": "spatial/002/color_cycle/1/t0/o0",
+    "image_index": 29,
+    "group_id": "spatial/002",
+    "target": 1,
+    "template": 0,
+    "order": 0,
+    "variant": "color_cycle",
+    "captions": [
+      "a drawing of a green triangle to the left of a blue square.",
+      "a drawing of a green triangle to the right of a blue square.",
+      "a drawing of a green triangle above a blue square.",
+      "a drawing of a green triangle below a blue square."
+    ],
+    "control_captions": [
+      "a drawing of a green triangle and a blue square.",
+      "a drawing of a red triangle and a blue square."
+    ],
+    "control_target": 0
+  },
+  {
+    "sample_id": "spatial/002/color_cycle/1/t0/o1",
+    "image_index": 29,
+    "group_id": "spatial/002",
+    "target": 1,
+    "template": 0,
+    "order": 1,
+    "variant": "color_cycle",
+    "captions": [
+      "a drawing of a blue square to the right of a green triangle.",
+      "a drawing of a blue square to the left of a green triangle.",
+      "a drawing of a blue square below a green triangle.",
+      "a drawing of a blue square above a green triangle."
+    ],
+    "control_captions": [
+      "a drawing of a green triangle and a blue square.",
+      "a drawing of a red triangle and a blue square."
+    ],
+    "control_target": 0
+  },
+  {
+    "sample_id": "spatial/002/color_cycle/1/t1/o0",
+    "image_index": 29,
+    "group_id": "spatial/002",
+    "target": 1,
+    "template": 1,
+    "order": 0,
+    "variant": "color_cycle",
+    "captions": [
+      "a green triangle is to the left of a blue square.",
+      "a green triangle is to the right of a blue square.",
+      "a green triangle is above a blue square.",
+      "a green triangle is below a blue square."
+    ],
+    "control_captions": [
+      "a drawing of a green triangle and a blue square.",
+      "a drawing of a red triangle and a blue square."
+    ],
+    "control_target": 0
+  },
+  {
+    "sample_id": "spatial/002/color_cycle/1/t1/o1",
+    "image_index": 29,
+    "group_id": "spatial/002",
+    "target": 1,
+    "template": 1,
+    "order": 1,
+    "variant": "color_cycle",
+    "captions": [
+      "a blue square is to the right of a green triangle.",
+      "a blue square is to the left of a green triangle.",
+      "a blue square is below a green triangle.",
+      "a blue square is above a green triangle."
+    ],
+    "control_captions": [
+      "a drawing of a green triangle and a blue square.",
+      "a drawing of a red triangle and a blue square."
+    ],
+    "control_target": 0
+  },
+  {
+    "sample_id": "spatial/002/color_cycle/1/t2/o0",
+    "image_index": 29,
+    "group_id": "spatial/002",
+    "target": 1,
+    "template": 2,
+    "order": 0,
+    "variant": "color_cycle",
+    "captions": [
+      "an image of a green triangle to the left of a blue square.",
+      "an image of a green triangle to the right of a blue square.",
+      "an image of a green triangle above a blue square.",
+      "an image of a green triangle below a blue square."
+    ],
+    "control_captions": [
+      "a drawing of a green triangle and a blue square.",
+      "a drawing of a red triangle and a blue square."
+    ],
+    "control_target": 0
+  },
+  {
+    "sample_id": "spatial/002/color_cycle/1/t2/o1",
+    "image_index": 29,
+    "group_id": "spatial/002",
+    "target": 1,
+    "template": 2,
+    "order": 1,
+    "variant": "color_cycle",
+    "captions": [
+      "an image of a blue square to the right of a green triangle.",
+      "an image of a blue square to the left of a green triangle.",
+      "an image of a blue square below a green triangle.",
+      "an image of a blue square above a green triangle."
+    ],
+    "control_captions": [
+      "a drawing of a green triangle and a blue square.",
+      "a drawing of a red triangle and a blue square."
+    ],
+    "control_target": 0
+  },
+  {
+    "sample_id": "spatial/002/color_cycle/2/t0/o0",
+    "image_index": 30,
+    "group_id": "spatial/002",
+    "target": 2,
+    "template": 0,
+    "order": 0,
+    "variant": "color_cycle",
+    "captions": [
+      "a drawing of a green triangle to the left of a blue square.",
+      "a drawing of a green triangle to the right of a blue square.",
+      "a drawing of a green triangle above a blue square.",
+      "a drawing of a green triangle below a blue square."
+    ],
+    "control_captions": [
+      "a drawing of a red triangle and a blue square.",
+      "a drawing of a green triangle and a blue square."
+    ],
+    "control_target": 1
+  },
+  {
+    "sample_id": "spatial/002/color_cycle/2/t0/o1",
+    "image_index": 30,
+    "group_id": "spatial/002",
+    "target": 2,
+    "template": 0,
+    "order": 1,
+    "variant": "color_cycle",
+    "captions": [
+      "a drawing of a blue square to the right of a green triangle.",
+      "a drawing of a blue square to the left of a green triangle.",
+      "a drawing of a blue square below a green triangle.",
+      "a drawing of a blue square above a green triangle."
+    ],
+    "control_captions": [
+      "a drawing of a red triangle and a blue square.",
+      "a drawing of a green triangle and a blue square."
+    ],
+    "control_target": 1
+  },
+  {
+    "sample_id": "spatial/002/color_cycle/2/t1/o0",
+    "image_index": 30,
+    "group_id": "spatial/002",
+    "target": 2,
+    "template": 1,
+    "order": 0,
+    "variant": "color_cycle",
+    "captions": [
+      "a green triangle is to the left of a blue square.",
+      "a green triangle is to the right of a blue square.",
+      "a green triangle is above a blue square.",
+      "a green triangle is below a blue square."
+    ],
+    "control_captions": [
+      "a drawing of a red triangle and a blue square.",
+      "a drawing of a green triangle and a blue square."
+    ],
+    "control_target": 1
+  },
+  {
+    "sample_id": "spatial/002/color_cycle/2/t1/o1",
+    "image_index": 30,
+    "group_id": "spatial/002",
+    "target": 2,
+    "template": 1,
+    "order": 1,
+    "variant": "color_cycle",
+    "captions": [
+      "a blue square is to the right of a green triangle.",
+      "a blue square is to the left of a green triangle.",
+      "a blue square is below a green triangle.",
+      "a blue square is above a green triangle."
+    ],
+    "control_captions": [
+      "a drawing of a red triangle and a blue square.",
+      "a drawing of a green triangle and a blue square."
+    ],
+    "control_target": 1
+  },
+  {
+    "sample_id": "spatial/002/color_cycle/2/t2/o0",
+    "image_index": 30,
+    "group_id": "spatial/002",
+    "target": 2,
+    "template": 2,
+    "order": 0,
+    "variant": "color_cycle",
+    "captions": [
+      "an image of a green triangle to the left of a blue square.",
+      "an image of a green triangle to the right of a blue square.",
+      "an image of a green triangle above a blue square.",
+      "an image of a green triangle below a blue square."
+    ],
+    "control_captions": [
+      "a drawing of a red triangle and a blue square.",
+      "a drawing of a green triangle and a blue square."
+    ],
+    "control_target": 1
+  },
+  {
+    "sample_id": "spatial/002/color_cycle/2/t2/o1",
+    "image_index": 30,
+    "group_id": "spatial/002",
+    "target": 2,
+    "template": 2,
+    "order": 1,
+    "variant": "color_cycle",
+    "captions": [
+      "an image of a blue square to the right of a green triangle.",
+      "an image of a blue square to the left of a green triangle.",
+      "an image of a blue square below a green triangle.",
+      "an image of a blue square above a green triangle."
+    ],
+    "control_captions": [
+      "a drawing of a red triangle and a blue square.",
+      "a drawing of a green triangle and a blue square."
+    ],
+    "control_target": 1
+  },
+  {
+    "sample_id": "spatial/002/color_cycle/3/t0/o0",
+    "image_index": 31,
+    "group_id": "spatial/002",
+    "target": 3,
+    "template": 0,
+    "order": 0,
+    "variant": "color_cycle",
+    "captions": [
+      "a drawing of a green triangle to the left of a blue square.",
+      "a drawing of a green triangle to the right of a blue square.",
+      "a drawing of a green triangle above a blue square.",
+      "a drawing of a green triangle below a blue square."
+    ],
+    "control_captions": [
+      "a drawing of a green triangle and a blue square.",
+      "a drawing of a red triangle and a blue square."
+    ],
+    "control_target": 0
+  },
+  {
+    "sample_id": "spatial/002/color_cycle/3/t0/o1",
+    "image_index": 31,
+    "group_id": "spatial/002",
+    "target": 3,
+    "template": 0,
+    "order": 1,
+    "variant": "color_cycle",
+    "captions": [
+      "a drawing of a blue square to the right of a green triangle.",
+      "a drawing of a blue square to the left of a green triangle.",
+      "a drawing of a blue square below a green triangle.",
+      "a drawing of a blue square above a green triangle."
+    ],
+    "control_captions": [
+      "a drawing of a green triangle and a blue square.",
+      "a drawing of a red triangle and a blue square."
+    ],
+    "control_target": 0
+  },
+  {
+    "sample_id": "spatial/002/color_cycle/3/t1/o0",
+    "image_index": 31,
+    "group_id": "spatial/002",
+    "target": 3,
+    "template": 1,
+    "order": 0,
+    "variant": "color_cycle",
+    "captions": [
+      "a green triangle is to the left of a blue square.",
+      "a green triangle is to the right of a blue square.",
+      "a green triangle is above a blue square.",
+      "a green triangle is below a blue square."
+    ],
+    "control_captions": [
+      "a drawing of a green triangle and a blue square.",
+      "a drawing of a red triangle and a blue square."
+    ],
+    "control_target": 0
+  },
+  {
+    "sample_id": "spatial/002/color_cycle/3/t1/o1",
+    "image_index": 31,
+    "group_id": "spatial/002",
+    "target": 3,
+    "template": 1,
+    "order": 1,
+    "variant": "color_cycle",
+    "captions": [
+      "a blue square is to the right of a green triangle.",
+      "a blue square is to the left of a green triangle.",
+      "a blue square is below a green triangle.",
+      "a blue square is above a green triangle."
+    ],
+    "control_captions": [
+      "a drawing of a green triangle and a blue square.",
+      "a drawing of a red triangle and a blue square."
+    ],
+    "control_target": 0
+  },
+  {
+    "sample_id": "spatial/002/color_cycle/3/t2/o0",
+    "image_index": 31,
+    "group_id": "spatial/002",
+    "target": 3,
+    "template": 2,
+    "order": 0,
+    "variant": "color_cycle",
+    "captions": [
+      "an image of a green triangle to the left of a blue square.",
+      "an image of a green triangle to the right of a blue square.",
+      "an image of a green triangle above a blue square.",
+      "an image of a green triangle below a blue square."
+    ],
+    "control_captions": [
+      "a drawing of a green triangle and a blue square.",
+      "a drawing of a red triangle and a blue square."
+    ],
+    "control_target": 0
+  },
+  {
+    "sample_id": "spatial/002/color_cycle/3/t2/o1",
+    "image_index": 31,
+    "group_id": "spatial/002",
+    "target": 3,
+    "template": 2,
+    "order": 1,
+    "variant": "color_cycle",
+    "captions": [
+      "an image of a blue square to the right of a green triangle.",
+      "an image of a blue square to the left of a green triangle.",
+      "an image of a blue square below a green triangle.",
+      "an image of a blue square above a green triangle."
+    ],
+    "control_captions": [
+      "a drawing of a green triangle and a blue square.",
+      "a drawing of a red triangle and a blue square."
+    ],
+    "control_target": 0
+  },
+  {
+    "sample_id": "spatial/002/shape_cycle/0/t0/o0",
+    "image_index": 32,
+    "group_id": "spatial/002",
+    "target": 0,
+    "template": 0,
+    "order": 0,
+    "variant": "shape_cycle",
+    "captions": [
+      "a drawing of a blue circle to the left of a red triangle.",
+      "a drawing of a blue circle to the right of a red triangle.",
+      "a drawing of a blue circle above a red triangle.",
+      "a drawing of a blue circle below a red triangle."
+    ],
+    "control_captions": [
+      "a drawing of a blue circle and a red triangle.",
+      "a drawing of a green circle and a red triangle."
+    ],
+    "control_target": 0
+  },
+  {
+    "sample_id": "spatial/002/shape_cycle/0/t0/o1",
+    "image_index": 32,
+    "group_id": "spatial/002",
+    "target": 0,
+    "template": 0,
+    "order": 1,
+    "variant": "shape_cycle",
+    "captions": [
+      "a drawing of a red triangle to the right of a blue circle.",
+      "a drawing of a red triangle to the left of a blue circle.",
+      "a drawing of a red triangle below a blue circle.",
+      "a drawing of a red triangle above a blue circle."
+    ],
+    "control_captions": [
+      "a drawing of a blue circle and a red triangle.",
+      "a drawing of a green circle and a red triangle."
+    ],
+    "control_target": 0
+  },
+  {
+    "sample_id": "spatial/002/shape_cycle/0/t1/o0",
+    "image_index": 32,
+    "group_id": "spatial/002",
+    "target": 0,
+    "template": 1,
+    "order": 0,
+    "variant": "shape_cycle",
+    "captions": [
+      "a blue circle is to the left of a red triangle.",
+      "a blue circle is to the right of a red triangle.",
+      "a blue circle is above a red triangle.",
+      "a blue circle is below a red triangle."
+    ],
+    "control_captions": [
+      "a drawing of a blue circle and a red triangle.",
+      "a drawing of a green circle and a red triangle."
+    ],
+    "control_target": 0
+  },
+  {
+    "sample_id": "spatial/002/shape_cycle/0/t1/o1",
+    "image_index": 32,
+    "group_id": "spatial/002",
+    "target": 0,
+    "template": 1,
+    "order": 1,
+    "variant": "shape_cycle",
+    "captions": [
+      "a red triangle is to the right of a blue circle.",
+      "a red triangle is to the left of a blue circle.",
+      "a red triangle is below a blue circle.",
+      "a red triangle is above a blue circle."
+    ],
+    "control_captions": [
+      "a drawing of a blue circle and a red triangle.",
+      "a drawing of a green circle and a red triangle."
+    ],
+    "control_target": 0
+  },
+  {
+    "sample_id": "spatial/002/shape_cycle/0/t2/o0",
+    "image_index": 32,
+    "group_id": "spatial/002",
+    "target": 0,
+    "template": 2,
+    "order": 0,
+    "variant": "shape_cycle",
+    "captions": [
+      "an image of a blue circle to the left of a red triangle.",
+      "an image of a blue circle to the right of a red triangle.",
+      "an image of a blue circle above a red triangle.",
+      "an image of a blue circle below a red triangle."
+    ],
+    "control_captions": [
+      "a drawing of a blue circle and a red triangle.",
+      "a drawing of a green circle and a red triangle."
+    ],
+    "control_target": 0
+  },
+  {
+    "sample_id": "spatial/002/shape_cycle/0/t2/o1",
+    "image_index": 32,
+    "group_id": "spatial/002",
+    "target": 0,
+    "template": 2,
+    "order": 1,
+    "variant": "shape_cycle",
+    "captions": [
+      "an image of a red triangle to the right of a blue circle.",
+      "an image of a red triangle to the left of a blue circle.",
+      "an image of a red triangle below a blue circle.",
+      "an image of a red triangle above a blue circle."
+    ],
+    "control_captions": [
+      "a drawing of a blue circle and a red triangle.",
+      "a drawing of a green circle and a red triangle."
+    ],
+    "control_target": 0
+  },
+  {
+    "sample_id": "spatial/002/shape_cycle/1/t0/o0",
+    "image_index": 33,
+    "group_id": "spatial/002",
+    "target": 1,
+    "template": 0,
+    "order": 0,
+    "variant": "shape_cycle",
+    "captions": [
+      "a drawing of a blue circle to the left of a red triangle.",
+      "a drawing of a blue circle to the right of a red triangle.",
+      "a drawing of a blue circle above a red triangle.",
+      "a drawing of a blue circle below a red triangle."
+    ],
+    "control_captions": [
+      "a drawing of a green circle and a red triangle.",
+      "a drawing of a blue circle and a red triangle."
+    ],
+    "control_target": 1
+  },
+  {
+    "sample_id": "spatial/002/shape_cycle/1/t0/o1",
+    "image_index": 33,
+    "group_id": "spatial/002",
+    "target": 1,
+    "template": 0,
+    "order": 1,
+    "variant": "shape_cycle",
+    "captions": [
+      "a drawing of a red triangle to the right of a blue circle.",
+      "a drawing of a red triangle to the left of a blue circle.",
+      "a drawing of a red triangle below a blue circle.",
+      "a drawing of a red triangle above a blue circle."
+    ],
+    "control_captions": [
+      "a drawing of a green circle and a red triangle.",
+      "a drawing of a blue circle and a red triangle."
+    ],
+    "control_target": 1
+  },
+  {
+    "sample_id": "spatial/002/shape_cycle/1/t1/o0",
+    "image_index": 33,
+    "group_id": "spatial/002",
+    "target": 1,
+    "template": 1,
+    "order": 0,
+    "variant": "shape_cycle",
+    "captions": [
+      "a blue circle is to the left of a red triangle.",
+      "a blue circle is to the right of a red triangle.",
+      "a blue circle is above a red triangle.",
+      "a blue circle is below a red triangle."
+    ],
+    "control_captions": [
+      "a drawing of a green circle and a red triangle.",
+      "a drawing of a blue circle and a red triangle."
+    ],
+    "control_target": 1
+  },
+  {
+    "sample_id": "spatial/002/shape_cycle/1/t1/o1",
+    "image_index": 33,
+    "group_id": "spatial/002",
+    "target": 1,
+    "template": 1,
+    "order": 1,
+    "variant": "shape_cycle",
+    "captions": [
+      "a red triangle is to the right of a blue circle.",
+      "a red triangle is to the left of a blue circle.",
+      "a red triangle is below a blue circle.",
+      "a red triangle is above a blue circle."
+    ],
+    "control_captions": [
+      "a drawing of a green circle and a red triangle.",
+      "a drawing of a blue circle and a red triangle."
+    ],
+    "control_target": 1
+  },
+  {
+    "sample_id": "spatial/002/shape_cycle/1/t2/o0",
+    "image_index": 33,
+    "group_id": "spatial/002",
+    "target": 1,
+    "template": 2,
+    "order": 0,
+    "variant": "shape_cycle",
+    "captions": [
+      "an image of a blue circle to the left of a red triangle.",
+      "an image of a blue circle to the right of a red triangle.",
+      "an image of a blue circle above a red triangle.",
+      "an image of a blue circle below a red triangle."
+    ],
+    "control_captions": [
+      "a drawing of a green circle and a red triangle.",
+      "a drawing of a blue circle and a red triangle."
+    ],
+    "control_target": 1
+  },
+  {
+    "sample_id": "spatial/002/shape_cycle/1/t2/o1",
+    "image_index": 33,
+    "group_id": "spatial/002",
+    "target": 1,
+    "template": 2,
+    "order": 1,
+    "variant": "shape_cycle",
+    "captions": [
+      "an image of a red triangle to the right of a blue circle.",
+      "an image of a red triangle to the left of a blue circle.",
+      "an image of a red triangle below a blue circle.",
+      "an image of a red triangle above a blue circle."
+    ],
+    "control_captions": [
+      "a drawing of a green circle and a red triangle.",
+      "a drawing of a blue circle and a red triangle."
+    ],
+    "control_target": 1
+  },
+  {
+    "sample_id": "spatial/002/shape_cycle/2/t0/o0",
+    "image_index": 34,
+    "group_id": "spatial/002",
+    "target": 2,
+    "template": 0,
+    "order": 0,
+    "variant": "shape_cycle",
+    "captions": [
+      "a drawing of a blue circle to the left of a red triangle.",
+      "a drawing of a blue circle to the right of a red triangle.",
+      "a drawing of a blue circle above a red triangle.",
+      "a drawing of a blue circle below a red triangle."
+    ],
+    "control_captions": [
+      "a drawing of a blue circle and a red triangle.",
+      "a drawing of a green circle and a red triangle."
+    ],
+    "control_target": 0
+  },
+  {
+    "sample_id": "spatial/002/shape_cycle/2/t0/o1",
+    "image_index": 34,
+    "group_id": "spatial/002",
+    "target": 2,
+    "template": 0,
+    "order": 1,
+    "variant": "shape_cycle",
+    "captions": [
+      "a drawing of a red triangle to the right of a blue circle.",
+      "a drawing of a red triangle to the left of a blue circle.",
+      "a drawing of a red triangle below a blue circle.",
+      "a drawing of a red triangle above a blue circle."
+    ],
+    "control_captions": [
+      "a drawing of a blue circle and a red triangle.",
+      "a drawing of a green circle and a red triangle."
+    ],
+    "control_target": 0
+  },
+  {
+    "sample_id": "spatial/002/shape_cycle/2/t1/o0",
+    "image_index": 34,
+    "group_id": "spatial/002",
+    "target": 2,
+    "template": 1,
+    "order": 0,
+    "variant": "shape_cycle",
+    "captions": [
+      "a blue circle is to the left of a red triangle.",
+      "a blue circle is to the right of a red triangle.",
+      "a blue circle is above a red triangle.",
+      "a blue circle is below a red triangle."
+    ],
+    "control_captions": [
+      "a drawing of a blue circle and a red triangle.",
+      "a drawing of a green circle and a red triangle."
+    ],
+    "control_target": 0
+  },
+  {
+    "sample_id": "spatial/002/shape_cycle/2/t1/o1",
+    "image_index": 34,
+    "group_id": "spatial/002",
+    "target": 2,
+    "template": 1,
+    "order": 1,
+    "variant": "shape_cycle",
+    "captions": [
+      "a red triangle is to the right of a blue circle.",
+      "a red triangle is to the left of a blue circle.",
+      "a red triangle is below a blue circle.",
+      "a red triangle is above a blue circle."
+    ],
+    "control_captions": [
+      "a drawing of a blue circle and a red triangle.",
+      "a drawing of a green circle and a red triangle."
+    ],
+    "control_target": 0
+  },
+  {
+    "sample_id": "spatial/002/shape_cycle/2/t2/o0",
+    "image_index": 34,
+    "group_id": "spatial/002",
+    "target": 2,
+    "template": 2,
+    "order": 0,
+    "variant": "shape_cycle",
+    "captions": [
+      "an image of a blue circle to the left of a red triangle.",
+      "an image of a blue circle to the right of a red triangle.",
+      "an image of a blue circle above a red triangle.",
+      "an image of a blue circle below a red triangle."
+    ],
+    "control_captions": [
+      "a drawing of a blue circle and a red triangle.",
+      "a drawing of a green circle and a red triangle."
+    ],
+    "control_target": 0
+  },
+  {
+    "sample_id": "spatial/002/shape_cycle/2/t2/o1",
+    "image_index": 34,
+    "group_id": "spatial/002",
+    "target": 2,
+    "template": 2,
+    "order": 1,
+    "variant": "shape_cycle",
+    "captions": [
+      "an image of a red triangle to the right of a blue circle.",
+      "an image of a red triangle to the left of a blue circle.",
+      "an image of a red triangle below a blue circle.",
+      "an image of a red triangle above a blue circle."
+    ],
+    "control_captions": [
+      "a drawing of a blue circle and a red triangle.",
+      "a drawing of a green circle and a red triangle."
+    ],
+    "control_target": 0
+  },
+  {
+    "sample_id": "spatial/002/shape_cycle/3/t0/o0",
+    "image_index": 35,
+    "group_id": "spatial/002",
+    "target": 3,
+    "template": 0,
+    "order": 0,
+    "variant": "shape_cycle",
+    "captions": [
+      "a drawing of a blue circle to the left of a red triangle.",
+      "a drawing of a blue circle to the right of a red triangle.",
+      "a drawing of a blue circle above a red triangle.",
+      "a drawing of a blue circle below a red triangle."
+    ],
+    "control_captions": [
+      "a drawing of a green circle and a red triangle.",
+      "a drawing of a blue circle and a red triangle."
+    ],
+    "control_target": 1
+  },
+  {
+    "sample_id": "spatial/002/shape_cycle/3/t0/o1",
+    "image_index": 35,
+    "group_id": "spatial/002",
+    "target": 3,
+    "template": 0,
+    "order": 1,
+    "variant": "shape_cycle",
+    "captions": [
+      "a drawing of a red triangle to the right of a blue circle.",
+      "a drawing of a red triangle to the left of a blue circle.",
+      "a drawing of a red triangle below a blue circle.",
+      "a drawing of a red triangle above a blue circle."
+    ],
+    "control_captions": [
+      "a drawing of a green circle and a red triangle.",
+      "a drawing of a blue circle and a red triangle."
+    ],
+    "control_target": 1
+  },
+  {
+    "sample_id": "spatial/002/shape_cycle/3/t1/o0",
+    "image_index": 35,
+    "group_id": "spatial/002",
+    "target": 3,
+    "template": 1,
+    "order": 0,
+    "variant": "shape_cycle",
+    "captions": [
+      "a blue circle is to the left of a red triangle.",
+      "a blue circle is to the right of a red triangle.",
+      "a blue circle is above a red triangle.",
+      "a blue circle is below a red triangle."
+    ],
+    "control_captions": [
+      "a drawing of a green circle and a red triangle.",
+      "a drawing of a blue circle and a red triangle."
+    ],
+    "control_target": 1
+  },
+  {
+    "sample_id": "spatial/002/shape_cycle/3/t1/o1",
+    "image_index": 35,
+    "group_id": "spatial/002",
+    "target": 3,
+    "template": 1,
+    "order": 1,
+    "variant": "shape_cycle",
+    "captions": [
+      "a red triangle is to the right of a blue circle.",
+      "a red triangle is to the left of a blue circle.",
+      "a red triangle is below a blue circle.",
+      "a red triangle is above a blue circle."
+    ],
+    "control_captions": [
+      "a drawing of a green circle and a red triangle.",
+      "a drawing of a blue circle and a red triangle."
+    ],
+    "control_target": 1
+  },
+  {
+    "sample_id": "spatial/002/shape_cycle/3/t2/o0",
+    "image_index": 35,
+    "group_id": "spatial/002",
+    "target": 3,
+    "template": 2,
+    "order": 0,
+    "variant": "shape_cycle",
+    "captions": [
+      "an image of a blue circle to the left of a red triangle.",
+      "an image of a blue circle to the right of a red triangle.",
+      "an image of a blue circle above a red triangle.",
+      "an image of a blue circle below a red triangle."
+    ],
+    "control_captions": [
+      "a drawing of a green circle and a red triangle.",
+      "a drawing of a blue circle and a red triangle."
+    ],
+    "control_target": 1
+  },
+  {
+    "sample_id": "spatial/002/shape_cycle/3/t2/o1",
+    "image_index": 35,
+    "group_id": "spatial/002",
+    "target": 3,
+    "template": 2,
+    "order": 1,
+    "variant": "shape_cycle",
+    "captions": [
+      "an image of a red triangle to the right of a blue circle.",
+      "an image of a red triangle to the left of a blue circle.",
+      "an image of a red triangle below a blue circle.",
+      "an image of a red triangle above a blue circle."
+    ],
+    "control_captions": [
+      "a drawing of a green circle and a red triangle.",
+      "a drawing of a blue circle and a red triangle."
+    ],
+    "control_target": 1
+  }
+]
