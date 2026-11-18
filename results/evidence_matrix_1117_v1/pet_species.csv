@@ -1,3 +1,0 @@
-species,n_classes,n_images,errors,cross_species_errors,within_species_errors
-cat,12,1183,311,3,308
-dog,25,2486,237,1,236

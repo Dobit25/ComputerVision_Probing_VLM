@@ -1,7 +1,0 @@
-{
-  "verified": true,
-  "stage": "historical",
-  "mode": "full",
-  "run": "results/depth_historical_reproduction",
-  "metrics_recomputed": true
-}
