@@ -1,0 +1,3958 @@
+{
+  "config_sha256": "199042cfcc060126049dea534397b0c13f80da73c7026c98c291d354fb0e5f27",
+  "protocol_sha256": "0761f27988c45278dae05204af5fee582f8248c0d21720ec5e30f4d9448acac7",
+  "annotation_sha256": "e1b4d1bc54906827b1a029981b1c77f2088bd4462569b7615db7929070c3ab47",
+  "scores_used": false,
+  "sources": [
+    {
+      "source_image_id": 410576,
+      "image_sha256": "336a75d69c82d406eea69ef8bba5f71d5beb7824a480fe9b639ea8869fd8be19",
+      "canvas_rgb_sha256": "028c614be1c579d7b115d8901b4c53b34087a41fd60b047fa234c6c83a99be98",
+      "annotated_categories": [
+        "book",
+        "bottle",
+        "clock",
+        "keyboard",
+        "laptop",
+        "mouse",
+        "remote",
+        "tv"
+      ],
+      "candidates": {
+        "replace_a": [
+          {
+            "name": "teddy bear",
+            "tier": 1
+          },
+          {
+            "name": "hair drier",
+            "tier": 1
+          },
+          {
+            "name": "scissors",
+            "tier": 1
+          }
+        ],
+        "replace_b": [
+          {
+            "name": "cell phone",
+            "tier": 1
+          }
+        ]
+      }
+    },
+    {
+      "source_image_id": 59225,
+      "image_sha256": "a46df21fb12c7fb3b6e2b65ab241d776b2acb763edfe820875f36348737c4a0f",
+      "canvas_rgb_sha256": "3b96549f88ea5c4a15d3893878da1efb95eeeab8732930c8e69c422827d7a177",
+      "annotated_categories": [
+        "parking meter",
+        "person",
+        "skis"
+      ],
+      "candidates": {
+        "replace_a": [
+          {
+            "name": "stop sign",
+            "tier": 1
+          },
+          {
+            "name": "bench",
+            "tier": 1
+          },
+          {
+            "name": "fire hydrant",
+            "tier": 1
+          }
+        ],
+        "replace_b": [
+          {
+            "name": "apple",
+            "tier": 2
+          },
+          {
+            "name": "sink",
+            "tier": 2
+          },
+          {
+            "name": "cat",
+            "tier": 2
+          }
+        ]
+      }
+    },
+    {
+      "source_image_id": 469471,
+      "image_sha256": "6f67704b405cae9881a22d0bc9bcc8def3ef5833a5121e5b134cb7c5f1020cf1",
+      "canvas_rgb_sha256": "7c889cc52fa6feb26d50211d1d3cc1ba857be711db3290b5c33c30ef739a37f2",
+      "annotated_categories": [
+        "sink",
+        "toilet"
+      ],
+      "candidates": {
+        "replace_a": [
+          {
+            "name": "bed",
+            "tier": 1
+          },
+          {
+            "name": "couch",
+            "tier": 1
+          },
+          {
+            "name": "dining table",
+            "tier": 1
+          }
+        ],
+        "replace_b": [
+          {
+            "name": "toaster",
+            "tier": 1
+          },
+          {
+            "name": "microwave",
+            "tier": 1
+          },
+          {
+            "name": "refrigerator",
+            "tier": 1
+          }
+        ]
+      }
+    },
+    {
+      "source_image_id": 318174,
+      "image_sha256": "17bf35dbc65207ed9ebe34112e4111653850fb6cd47160fdbace78d53f4d748d",
+      "canvas_rgb_sha256": "db5ed0860a1599285f36e6816d2844f54ae6313c0e8a9783534874455bb6c295",
+      "annotated_categories": [
+        "book",
+        "cell phone",
+        "chair",
+        "cup",
+        "dining table",
+        "laptop"
+      ],
+      "candidates": {
+        "replace_a": [
+          {
+            "name": "mouse",
+            "tier": 1
+          },
+          {
+            "name": "remote",
+            "tier": 1
+          }
+        ],
+        "replace_b": [
+          {
+            "name": "fork",
+            "tier": 1
+          },
+          {
+            "name": "bottle",
+            "tier": 1
+          },
+          {
+            "name": "knife",
+            "tier": 1
+          }
+        ]
+      }
+    },
+    {
+      "source_image_id": 19916,
+      "image_sha256": "57dd021a000866e9063e9c32d8b51acffbf917fdf54666966590e43ebdabddc1",
+      "canvas_rgb_sha256": "da39ca71b2b7694036128b3bbcef4f67af26ae7e375e6b752b7918f0016b1842",
+      "annotated_categories": [
+        "bowl",
+        "fork",
+        "keyboard",
+        "laptop"
+      ],
+      "candidates": {
+        "replace_a": [
+          {
+            "name": "spoon",
+            "tier": 1
+          },
+          {
+            "name": "cup",
+            "tier": 1
+          },
+          {
+            "name": "knife",
+            "tier": 1
+          }
+        ],
+        "replace_b": [
+          {
+            "name": "knife",
+            "tier": 1
+          },
+          {
+            "name": "bottle",
+            "tier": 1
+          },
+          {
+            "name": "spoon",
+            "tier": 1
+          }
+        ]
+      }
+    },
+    {
+      "source_image_id": 364444,
+      "image_sha256": "924d531210452a49ea881bbfcb048723f510cf00d00354ae5a15cfba6d74a849",
+      "canvas_rgb_sha256": "ade0042f94a5851db00eb65b3a5df1c488ead5c770b244fadbd7f83834c624d9",
+      "annotated_categories": [
+        "book",
+        "keyboard",
+        "laptop",
+        "mouse",
+        "sports ball",
+        "tv"
+      ],
+      "candidates": {
+        "replace_a": [
+          {
+            "name": "cell phone",
+            "tier": 1
+          },
+          {
+            "name": "remote",
+            "tier": 1
+          }
+        ],
+        "replace_b": [
+          {
+            "name": "remote",
+            "tier": 1
+          },
+          {
+            "name": "cell phone",
+            "tier": 1
+          }
+        ]
+      }
+    },
+    {
+      "source_image_id": 273002,
+      "image_sha256": "3efdb34ed48aae48804bc7ebaa00ab8b047741c7c1af793d8172e34f29245605",
+      "canvas_rgb_sha256": "dbd5c44a33a21fb9142faf0e48bd40f9e4c2a07835e0d1cb4eccd488a7005944",
+      "annotated_categories": [
+        "chair",
+        "person",
+        "umbrella"
+      ],
+      "candidates": {
+        "replace_a": [
+          {
+            "name": "keyboard",
+            "tier": 2
+          },
+          {
+            "name": "baseball bat",
+            "tier": 2
+          },
+          {
+            "name": "bird",
+            "tier": 2
+          }
+        ],
+        "replace_b": [
+          {
+            "name": "bed",
+            "tier": 1
+          },
+          {
+            "name": "toilet",
+            "tier": 1
+          },
+          {
+            "name": "dining table",
+            "tier": 1
+          }
+        ]
+      }
+    },
+    {
+      "source_image_id": 185614,
+      "image_sha256": "fa4b7b3c3f543d1da736b3cad112fa1a7cfc9c6817b52124302bacecf751b84f",
+      "canvas_rgb_sha256": "9406800d1e72da11970d0c219408697c3f786ded43dc581cce8bd72d4cb17387",
+      "annotated_categories": [
+        "bird",
+        "book",
+        "bottle",
+        "bowl",
+        "chair",
+        "couch",
+        "dining table",
+        "hot dog",
+        "spoon",
+        "wine glass"
+      ],
+      "candidates": {
+        "replace_a": [
+          {
+            "name": "knife",
+            "tier": 1
+          },
+          {
+            "name": "fork",
+            "tier": 1
+          }
+        ],
+        "replace_b": [
+          {
+            "name": "fork",
+            "tier": 1
+          },
+          {
+            "name": "knife",
+            "tier": 1
+          }
+        ]
+      }
+    },
+    {
+      "source_image_id": 335839,
+      "image_sha256": "fc46f46949b1c5a3a17fbfd32adac1e7147f8ec97b89228d43c56ccc1749cd5b",
+      "canvas_rgb_sha256": "26176bc99210d17ee5b120971a377b7d8cc12577240bd2921b44c9d7d5bc528d",
+      "annotated_categories": [
+        "fire hydrant",
+        "person"
+      ],
+      "candidates": {
+        "replace_a": [
+          {
+            "name": "parking meter",
+            "tier": 1
+          },
+          {
+            "name": "stop sign",
+            "tier": 1
+          },
+          {
+            "name": "bench",
+            "tier": 1
+          }
+        ],
+        "replace_b": [
+          {
+            "name": "toilet",
+            "tier": 2
+          },
+          {
+            "name": "boat",
+            "tier": 2
+          },
+          {
+            "name": "sink",
+            "tier": 2
+          }
+        ]
+      }
+    },
+    {
+      "source_image_id": 257198,
+      "image_sha256": "26f2d167233a08065a45863d099dc63e67c79e1a89196def6cd9b3291768c88a",
+      "canvas_rgb_sha256": "4d7355927dc18035ef606d11e5f4cc7418ba45eb71399b482ce28f64401ef802",
+      "annotated_categories": [
+        "handbag",
+        "hot dog",
+        "person",
+        "sandwich"
+      ],
+      "candidates": {
+        "replace_a": [
+          {
+            "name": "tie",
+            "tier": 1
+          },
+          {
+            "name": "umbrella",
+            "tier": 1
+          }
+        ],
+        "replace_b": [
+          {
+            "name": "cake",
+            "tier": 1
+          },
+          {
+            "name": "carrot",
+            "tier": 1
+          },
+          {
+            "name": "banana",
+            "tier": 1
+          }
+        ]
+      }
+    },
+    {
+      "source_image_id": 574357,
+      "image_sha256": "12dc6665ccb99a8dd33584f2c4dd0fa68ae348b469eabe6020cb897dc2a18cb4",
+      "canvas_rgb_sha256": "ad4702067882fcc4d2d51edf3d197d3cf99b47e6e433e2444a91ee6555a0d554",
+      "annotated_categories": [
+        "handbag",
+        "motorcycle",
+        "person",
+        "suitcase"
+      ],
+      "candidates": {
+        "replace_a": [
+          {
+            "name": "pizza",
+            "tier": 2
+          },
+          {
+            "name": "cup",
+            "tier": 2
+          },
+          {
+            "name": "broccoli",
+            "tier": 2
+          }
+        ],
+        "replace_b": [
+          {
+            "name": "tie",
+            "tier": 1
+          },
+          {
+            "name": "umbrella",
+            "tier": 1
+          }
+        ]
+      }
+    },
+    {
+      "source_image_id": 78488,
+      "image_sha256": "dd8400c0f2958d66951133fd833aabc99b4d95bfc9cd202dd7a627a6f9c9955e",
+      "canvas_rgb_sha256": "1dc1232afbfdd0a9299ecb25ce78cdb23e8fd7d793b2043f703b03ea1d4e8fe7",
+      "annotated_categories": [
+        "bench",
+        "bicycle",
+        "fire hydrant",
+        "person"
+      ],
+      "candidates": {
+        "replace_a": [
+          {
+            "name": "parking meter",
+            "tier": 1
+          },
+          {
+            "name": "stop sign",
+            "tier": 1
+          },
+          {
+            "name": "traffic light",
+            "tier": 1
+          }
+        ],
+        "replace_b": [
+          {
+            "name": "truck",
+            "tier": 1
+          },
+          {
+            "name": "airplane",
+            "tier": 1
+          },
+          {
+            "name": "bus",
+            "tier": 1
+          }
+        ]
+      }
+    },
+    {
+      "source_image_id": 455937,
+      "image_sha256": "1010b85b88a9ca6b84856f7850b018e114a024b782f43cae0f5a1d4ada68a5b2",
+      "canvas_rgb_sha256": "d4476e97d218bd4002d69c758be16e256af635477f1b73b3d37521b85ff45377",
+      "annotated_categories": [
+        "book",
+        "chair",
+        "clock",
+        "couch",
+        "cup",
+        "handbag",
+        "laptop",
+        "person",
+        "remote",
+        "suitcase",
+        "tv"
+      ],
+      "candidates": {
+        "replace_a": [
+          {
+            "name": "cell phone",
+            "tier": 2
+          },
+          {
+            "name": "bench",
+            "tier": 2
+          },
+          {
+            "name": "keyboard",
+            "tier": 2
+          }
+        ],
+        "replace_b": [
+          {
+            "name": "keyboard",
+            "tier": 1
+          },
+          {
+            "name": "mouse",
+            "tier": 1
+          },
+          {
+            "name": "cell phone",
+            "tier": 1
+          }
+        ]
+      }
+    },
+    {
+      "source_image_id": 529568,
+      "image_sha256": "2c97efcc385141e55c77afcf239cf59639637e9155cacf5ac870c87d2a6de42e",
+      "canvas_rgb_sha256": "b956dd0b568b9a3a7791d617c6070bb49aa41a04f404c6959b6df793731effc4",
+      "annotated_categories": [
+        "book",
+        "bowl",
+        "cup",
+        "dining table",
+        "oven",
+        "potted plant",
+        "sink",
+        "vase",
+        "wine glass"
+      ],
+      "candidates": {
+        "replace_a": [
+          {
+            "name": "microwave",
+            "tier": 1
+          },
+          {
+            "name": "toaster",
+            "tier": 1
+          },
+          {
+            "name": "refrigerator",
+            "tier": 1
+          }
+        ],
+        "replace_b": [
+          {
+            "name": "toaster",
+            "tier": 1
+          },
+          {
+            "name": "refrigerator",
+            "tier": 1
+          },
+          {
+            "name": "microwave",
+            "tier": 1
+          }
+        ]
+      }
+    },
+    {
+      "source_image_id": 341011,
+      "image_sha256": "d658581397c3b8574bf6dc7226b151c10aec1b79f69a4ef4c90f227faec335a2",
+      "canvas_rgb_sha256": "e0ea4c12ab1398ae707636613a187313e5dca83ab6b6930a109771425b8dc56a",
+      "annotated_categories": [
+        "bottle",
+        "sink",
+        "toilet",
+        "toothbrush"
+      ],
+      "candidates": {
+        "replace_a": [
+          {
+            "name": "toaster",
+            "tier": 1
+          },
+          {
+            "name": "refrigerator",
+            "tier": 1
+          },
+          {
+            "name": "microwave",
+            "tier": 1
+          }
+        ],
+        "replace_b": [
+          {
+            "name": "chair",
+            "tier": 1
+          },
+          {
+            "name": "dining table",
+            "tier": 1
+          },
+          {
+            "name": "couch",
+            "tier": 1
+          }
+        ]
+      }
+    },
+    {
+      "source_image_id": 267910,
+      "image_sha256": "8eab61d09398dc1804cfcdd59eb546329b11964325e1390fb1584c17d20ddedf",
+      "canvas_rgb_sha256": "82bc27ae72f25ae40d579c8216c15a03e86f6a462f36abc95fcb873eeef80723",
+      "annotated_categories": [
+        "book",
+        "cell phone",
+        "cup",
+        "laptop",
+        "mouse"
+      ],
+      "candidates": {
+        "replace_a": [
+          {
+            "name": "remote",
+            "tier": 1
+          }
+        ],
+        "replace_b": [
+          {
+            "name": "toothbrush",
+            "tier": 1
+          },
+          {
+            "name": "teddy bear",
+            "tier": 1
+          },
+          {
+            "name": "clock",
+            "tier": 1
+          }
+        ]
+      }
+    },
+    {
+      "source_image_id": 519649,
+      "image_sha256": "15c561ddb669b360470cd6439c4dd1eb97da5d69f1001d82db3a37015ef25888",
+      "canvas_rgb_sha256": "bfa8548d9b9616e104ac412bf7f6243c811bfe2bf50229f88a4f957c0d21e01f",
+      "annotated_categories": [
+        "chair",
+        "microwave",
+        "oven",
+        "refrigerator",
+        "spoon"
+      ],
+      "candidates": {
+        "replace_a": [
+          {
+            "name": "sink",
+            "tier": 1
+          },
+          {
+            "name": "toaster",
+            "tier": 1
+          }
+        ],
+        "replace_b": [
+          {
+            "name": "sink",
+            "tier": 1
+          },
+          {
+            "name": "toaster",
+            "tier": 1
+          }
+        ]
+      }
+    },
+    {
+      "source_image_id": 374087,
+      "image_sha256": "244357b3009653e20d2d14280055133e91e4f7780d82511bd913242b68a09d49",
+      "canvas_rgb_sha256": "beddfd81c0cd28e8252fb14cd496bcfb1caa076f8c54417503215a402211a818",
+      "annotated_categories": [
+        "apple",
+        "banana",
+        "broccoli",
+        "orange"
+      ],
+      "candidates": {
+        "replace_a": [
+          {
+            "name": "cake",
+            "tier": 1
+          },
+          {
+            "name": "sandwich",
+            "tier": 1
+          },
+          {
+            "name": "pizza",
+            "tier": 1
+          }
+        ],
+        "replace_b": [
+          {
+            "name": "hot dog",
+            "tier": 1
+          },
+          {
+            "name": "carrot",
+            "tier": 1
+          },
+          {
+            "name": "sandwich",
+            "tier": 1
+          }
+        ]
+      }
+    },
+    {
+      "source_image_id": 316912,
+      "image_sha256": "e5e4e2b3ba85e8af5feb27245c7b3188e180eb6fa1a03fbd50d441a7f193698c",
+      "canvas_rgb_sha256": "72465089c8e731780cbdfdccfda21a4851e69db0b578374e5cebef6245d55b5a",
+      "annotated_categories": [
+        "banana",
+        "bottle",
+        "car",
+        "cow",
+        "person",
+        "suitcase",
+        "traffic light",
+        "truck"
+      ],
+      "candidates": {
+        "replace_a": [
+          {
+            "name": "sheep",
+            "tier": 1
+          },
+          {
+            "name": "giraffe",
+            "tier": 1
+          },
+          {
+            "name": "bird",
+            "tier": 1
+          }
+        ],
+        "replace_b": [
+          {
+            "name": "airplane",
+            "tier": 1
+          },
+          {
+            "name": "boat",
+            "tier": 1
+          },
+          {
+            "name": "motorcycle",
+            "tier": 1
+          }
+        ]
+      }
+    },
+    {
+      "source_image_id": 497145,
+      "image_sha256": "c92f326833e4217807f9ef437b7e2c78a142a90b0eac6ebd5a0ed20d99cf8efc",
+      "canvas_rgb_sha256": "5b273689157b83e7539259a6ef00dd1ae8a9b1bbed42b04358c63bac6058f92d",
+      "annotated_categories": [
+        "horse",
+        "person"
+      ],
+      "candidates": {
+        "replace_a": [
+          {
+            "name": "toothbrush",
+            "tier": 2
+          },
+          {
+            "name": "toaster",
+            "tier": 2
+          },
+          {
+            "name": "spoon",
+            "tier": 2
+          }
+        ],
+        "replace_b": [
+          {
+            "name": "cow",
+            "tier": 1
+          },
+          {
+            "name": "zebra",
+            "tier": 1
+          },
+          {
+            "name": "sheep",
+            "tier": 1
+          }
+        ]
+      }
+    },
+    {
+      "source_image_id": 277289,
+      "image_sha256": "b9466e2f1e1cf848b2b57a01fef257c1e6a0efef28e07c7457c630b3d308c43f",
+      "canvas_rgb_sha256": "7e9e9f216430256e973ec04c06db3399981918433d39804dd71275af9b18deba",
+      "annotated_categories": [
+        "bowl",
+        "couch",
+        "potted plant",
+        "tv",
+        "vase"
+      ],
+      "candidates": {
+        "replace_a": [
+          {
+            "name": "dining table",
+            "tier": 1
+          },
+          {
+            "name": "bed",
+            "tier": 1
+          },
+          {
+            "name": "chair",
+            "tier": 1
+          }
+        ],
+        "replace_b": [
+          {
+            "name": "remote",
+            "tier": 1
+          },
+          {
+            "name": "cell phone",
+            "tier": 1
+          },
+          {
+            "name": "keyboard",
+            "tier": 1
+          }
+        ]
+      }
+    },
+    {
+      "source_image_id": 190140,
+      "image_sha256": "abade429d12b97abe8d8e437d38fa2beda1058343ddbc46fa5bdd80000aa6c32",
+      "canvas_rgb_sha256": "8d939448dc8470261c28da0877011d49d010487e13841ea22b13a76d848403ce",
+      "annotated_categories": [
+        "boat",
+        "dog",
+        "person"
+      ],
+      "candidates": {
+        "replace_a": [
+          {
+            "name": "dining table",
+            "tier": 2
+          },
+          {
+            "name": "teddy bear",
+            "tier": 2
+          },
+          {
+            "name": "baseball glove",
+            "tier": 2
+          }
+        ],
+        "replace_b": [
+          {
+            "name": "bear",
+            "tier": 1
+          },
+          {
+            "name": "zebra",
+            "tier": 1
+          },
+          {
+            "name": "bird",
+            "tier": 1
+          }
+        ]
+      }
+    },
+    {
+      "source_image_id": 148830,
+      "image_sha256": "822491a7a71f8f51a52dfb213a5fec986c698aa6ac6af14763236d6ffb68f7c6",
+      "canvas_rgb_sha256": "3cb57435c3e7a09a6c1fc4a87190f25940f672aa97df4d40ddc14f6c969feeb9",
+      "annotated_categories": [
+        "bowl",
+        "broccoli",
+        "dining table",
+        "spoon"
+      ],
+      "candidates": {
+        "replace_a": [
+          {
+            "name": "knife",
+            "tier": 1
+          },
+          {
+            "name": "wine glass",
+            "tier": 1
+          },
+          {
+            "name": "fork",
+            "tier": 1
+          }
+        ],
+        "replace_b": [
+          {
+            "name": "hot dog",
+            "tier": 1
+          },
+          {
+            "name": "sandwich",
+            "tier": 1
+          },
+          {
+            "name": "apple",
+            "tier": 1
+          }
+        ]
+      }
+    },
+    {
+      "source_image_id": 448795,
+      "image_sha256": "916f8b625d951b95b4d81d94f8471ec7bb73a2cb97a9f706055f94a67fa560ac",
+      "canvas_rgb_sha256": "4a14ea2565f4ddd52a3912a736726f11a99b8c06029cefc3cb68f9e0fa5fbdb4",
+      "annotated_categories": [
+        "bottle",
+        "chair",
+        "dining table",
+        "oven"
+      ],
+      "candidates": {
+        "replace_a": [
+          {
+            "name": "microwave",
+            "tier": 1
+          },
+          {
+            "name": "toaster",
+            "tier": 1
+          },
+          {
+            "name": "refrigerator",
+            "tier": 1
+          }
+        ],
+        "replace_b": [
+          {
+            "name": "couch",
+            "tier": 1
+          },
+          {
+            "name": "potted plant",
+            "tier": 1
+          },
+          {
+            "name": "bed",
+            "tier": 1
+          }
+        ]
+      }
+    },
+    {
+      "source_image_id": 252201,
+      "image_sha256": "beb3e110b1733d935d147b2185d0fa760df30e99276152365c04c88eab96227d",
+      "canvas_rgb_sha256": "3d2c96e3cc4d48f0dabcc2b935c69f61f242259159b14df2f243933bd05b29c1",
+      "annotated_categories": [
+        "car",
+        "fire hydrant",
+        "person"
+      ],
+      "candidates": {
+        "replace_a": [
+          {
+            "name": "traffic light",
+            "tier": 1
+          },
+          {
+            "name": "parking meter",
+            "tier": 1
+          },
+          {
+            "name": "bench",
+            "tier": 1
+          }
+        ],
+        "replace_b": [
+          {
+            "name": "pizza",
+            "tier": 2
+          },
+          {
+            "name": "scissors",
+            "tier": 2
+          },
+          {
+            "name": "bear",
+            "tier": 2
+          }
+        ]
+      }
+    },
+    {
+      "source_image_id": 334813,
+      "image_sha256": "2eb9a7a89120dfd9cdcf8469c1a04be6871cd52d2a60a98723368aee284b3077",
+      "canvas_rgb_sha256": "52d4bdc181179618383f689c4b31be07fc91e4f3d9be0b830cb87013e759c4c1",
+      "annotated_categories": [
+        "book",
+        "cell phone",
+        "laptop",
+        "mouse",
+        "person",
+        "tv",
+        "wine glass"
+      ],
+      "candidates": {
+        "replace_a": [
+          {
+            "name": "remote",
+            "tier": 1
+          },
+          {
+            "name": "keyboard",
+            "tier": 1
+          }
+        ],
+        "replace_b": [
+          {
+            "name": "oven",
+            "tier": 2
+          },
+          {
+            "name": "broccoli",
+            "tier": 2
+          },
+          {
+            "name": "orange",
+            "tier": 2
+          }
+        ]
+      }
+    },
+    {
+      "source_image_id": 380116,
+      "image_sha256": "2fdcfd1ca3ec23203df1f4f02efddfaf655ff48b5b3c7392937f26e7b6943615",
+      "canvas_rgb_sha256": "8e300ba3c67b0dad9144e0d0525acfdcbfe1baadd9c12391d61fd66fdf14ddc1",
+      "annotated_categories": [
+        "book",
+        "keyboard",
+        "mouse",
+        "tv"
+      ],
+      "candidates": {
+        "replace_a": [
+          {
+            "name": "remote",
+            "tier": 1
+          },
+          {
+            "name": "cell phone",
+            "tier": 1
+          }
+        ],
+        "replace_b": [
+          {
+            "name": "clock",
+            "tier": 1
+          },
+          {
+            "name": "teddy bear",
+            "tier": 1
+          },
+          {
+            "name": "hair drier",
+            "tier": 1
+          }
+        ]
+      }
+    },
+    {
+      "source_image_id": 436273,
+      "image_sha256": "4b72a70506bc218cf5059ce63d63c9475f2eae785bb7dfdc218ad5ebf807947a",
+      "canvas_rgb_sha256": "0e11a30fb955f3044a4731261e2e5f9f27d2739301d5e879127b955549240a21",
+      "annotated_categories": [
+        "bottle",
+        "bowl",
+        "chair",
+        "couch",
+        "cup",
+        "dining table",
+        "laptop",
+        "microwave",
+        "oven",
+        "person",
+        "refrigerator",
+        "sink"
+      ],
+      "candidates": {
+        "replace_a": [
+          {
+            "name": "toaster",
+            "tier": 1
+          }
+        ],
+        "replace_b": [
+          {
+            "name": "scissors",
+            "tier": 2
+          },
+          {
+            "name": "tennis racket",
+            "tier": 2
+          },
+          {
+            "name": "pizza",
+            "tier": 2
+          }
+        ]
+      }
+    },
+    {
+      "source_image_id": 490701,
+      "image_sha256": "5758027c056a8a41c3ce403bea12e5d9d0070eb1fb8ef4fe088e207ca704eb69",
+      "canvas_rgb_sha256": "4fe9f4f02c764921ddd9d5ed6607857a140d1df5ea5fda88c9222c609d304bab",
+      "annotated_categories": [
+        "cake",
+        "cup",
+        "dining table",
+        "fork",
+        "person",
+        "spoon"
+      ],
+      "candidates": {
+        "replace_a": [
+          {
+            "name": "knife",
+            "tier": 1
+          },
+          {
+            "name": "bottle",
+            "tier": 1
+          }
+        ],
+        "replace_b": [
+          {
+            "name": "wine glass",
+            "tier": 1
+          },
+          {
+            "name": "knife",
+            "tier": 1
+          },
+          {
+            "name": "bowl",
+            "tier": 1
+          }
+        ]
+      }
+    },
+    {
+      "source_image_id": 156324,
+      "image_sha256": "a0ae6a9efe9cbc9a3a75326ca1c0548d373fab52fc8968e80f3592d695d4f507",
+      "canvas_rgb_sha256": "8470099583434afcaeabaf9c37676ef227405e0a6439a7da8859fb7a335286f6",
+      "annotated_categories": [
+        "cup",
+        "person",
+        "potted plant",
+        "sink",
+        "vase"
+      ],
+      "candidates": {
+        "replace_a": [
+          {
+            "name": "toilet",
+            "tier": 1
+          },
+          {
+            "name": "chair",
+            "tier": 1
+          },
+          {
+            "name": "couch",
+            "tier": 1
+          }
+        ],
+        "replace_b": [
+          {
+            "name": "pizza",
+            "tier": 2
+          },
+          {
+            "name": "remote",
+            "tier": 2
+          },
+          {
+            "name": "boat",
+            "tier": 2
+          }
+        ]
+      }
+    },
+    {
+      "source_image_id": 88244,
+      "image_sha256": "6b0013bf26d9f7fe4d53a9eec10e8b141e450f154d63e9af734ee60482fa27f5",
+      "canvas_rgb_sha256": "4a053326f07ba9f6ca9a8f605d1aff2b6157a196a5f779368e05acf36bb3aa16",
+      "annotated_categories": [
+        "bed",
+        "chair",
+        "laptop",
+        "potted plant",
+        "remote",
+        "tv"
+      ],
+      "candidates": {
+        "replace_a": [
+          {
+            "name": "mouse",
+            "tier": 1
+          },
+          {
+            "name": "cell phone",
+            "tier": 1
+          },
+          {
+            "name": "keyboard",
+            "tier": 1
+          }
+        ],
+        "replace_b": [
+          {
+            "name": "cell phone",
+            "tier": 1
+          },
+          {
+            "name": "mouse",
+            "tier": 1
+          }
+        ]
+      }
+    },
+    {
+      "source_image_id": 311378,
+      "image_sha256": "e79afb5a9528b981c6de59ded57e44bb45f1b6646541cb2f7cf1cea9d48392f5",
+      "canvas_rgb_sha256": "b7955d12722107adc010911a09118e1846e3631406db3420d770ec721d8632da",
+      "annotated_categories": [
+        "chair",
+        "cup",
+        "dining table",
+        "person",
+        "pizza"
+      ],
+      "candidates": {
+        "replace_a": [
+          {
+            "name": "orange",
+            "tier": 1
+          },
+          {
+            "name": "donut",
+            "tier": 1
+          },
+          {
+            "name": "banana",
+            "tier": 1
+          }
+        ],
+        "replace_b": [
+          {
+            "name": "knife",
+            "tier": 1
+          },
+          {
+            "name": "bottle",
+            "tier": 1
+          },
+          {
+            "name": "spoon",
+            "tier": 1
+          }
+        ]
+      }
+    },
+    {
+      "source_image_id": 557896,
+      "image_sha256": "b4b6cb9b43eb0ec52432273ef873baeb82b4e6df3f839e55cbc898326948b91c",
+      "canvas_rgb_sha256": "d2aa37de4ff188915ea7dd53a2328d69cebf3cb338809ea5cd21eb0278750c63",
+      "annotated_categories": [
+        "cake",
+        "dining table",
+        "oven",
+        "person"
+      ],
+      "candidates": {
+        "replace_a": [
+          {
+            "name": "sink",
+            "tier": 1
+          },
+          {
+            "name": "refrigerator",
+            "tier": 1
+          },
+          {
+            "name": "microwave",
+            "tier": 1
+          }
+        ],
+        "replace_b": [
+          {
+            "name": "laptop",
+            "tier": 2
+          },
+          {
+            "name": "bus",
+            "tier": 2
+          },
+          {
+            "name": "tv",
+            "tier": 2
+          }
+        ]
+      }
+    },
+    {
+      "source_image_id": 126744,
+      "image_sha256": "af495322119ed1721e5bc7d4b79cf03f8e2528adfcc9572daaa5910bdb570e00",
+      "canvas_rgb_sha256": "d5fecdc0f49416db347250952fc7ece2b1c6e1a5e1cb922b4ff16053a233171b",
+      "annotated_categories": [
+        "bottle",
+        "cup",
+        "handbag",
+        "microwave",
+        "oven",
+        "refrigerator",
+        "sink",
+        "toothbrush"
+      ],
+      "candidates": {
+        "replace_a": [
+          {
+            "name": "toaster",
+            "tier": 1
+          }
+        ],
+        "replace_b": [
+          {
+            "name": "toaster",
+            "tier": 1
+          }
+        ]
+      }
+    },
+    {
+      "source_image_id": 331096,
+      "image_sha256": "f6a774fb74fc5b11e84b53842eca5c978b1d55741259807ef1b494b582fb4da8",
+      "canvas_rgb_sha256": "212938b9d4ebecdcc5de99082f577773286b7b17626779f72d572a67c29b0f27",
+      "annotated_categories": [
+        "sink",
+        "toilet"
+      ],
+      "candidates": {
+        "replace_a": [
+          {
+            "name": "refrigerator",
+            "tier": 1
+          },
+          {
+            "name": "microwave",
+            "tier": 1
+          },
+          {
+            "name": "oven",
+            "tier": 1
+          }
+        ],
+        "replace_b": [
+          {
+            "name": "dining table",
+            "tier": 1
+          },
+          {
+            "name": "potted plant",
+            "tier": 1
+          },
+          {
+            "name": "bed",
+            "tier": 1
+          }
+        ]
+      }
+    },
+    {
+      "source_image_id": 98054,
+      "image_sha256": "cbd5bafe8f14ab4116518a502fd8351f87615056df7c7d76a6d15e80ec04c92a",
+      "canvas_rgb_sha256": "841b4e20b33b235e171af9714ccf60f21bdb257579561116da2d604ef649bbb7",
+      "annotated_categories": [
+        "carrot",
+        "cup",
+        "dining table",
+        "fork",
+        "spoon"
+      ],
+      "candidates": {
+        "replace_a": [
+          {
+            "name": "banana",
+            "tier": 1
+          },
+          {
+            "name": "hot dog",
+            "tier": 1
+          },
+          {
+            "name": "donut",
+            "tier": 1
+          }
+        ],
+        "replace_b": [
+          {
+            "name": "wine glass",
+            "tier": 1
+          },
+          {
+            "name": "bottle",
+            "tier": 1
+          },
+          {
+            "name": "bowl",
+            "tier": 1
+          }
+        ]
+      }
+    },
+    {
+      "source_image_id": 283561,
+      "image_sha256": "a81cea026d0342bfc0efd813ad802523ab650cdf744f6b834755402f7a245bcb",
+      "canvas_rgb_sha256": "03cf2ed7118a08b43e29d1dddbbe0702b415efe4bae4c252f590e08ee440f302",
+      "annotated_categories": [
+        "bed",
+        "chair",
+        "couch",
+        "remote",
+        "tv"
+      ],
+      "candidates": {
+        "replace_a": [
+          {
+            "name": "toilet",
+            "tier": 1
+          },
+          {
+            "name": "dining table",
+            "tier": 1
+          },
+          {
+            "name": "potted plant",
+            "tier": 1
+          }
+        ],
+        "replace_b": [
+          {
+            "name": "keyboard",
+            "tier": 1
+          },
+          {
+            "name": "mouse",
+            "tier": 1
+          },
+          {
+            "name": "cell phone",
+            "tier": 1
+          }
+        ]
+      }
+    },
+    {
+      "source_image_id": 306395,
+      "image_sha256": "3dbb1319e99764369fa8aa9567338d868fde8626474ea2b4255726bf258b83c0",
+      "canvas_rgb_sha256": "2e721b1ddf60c3f4405b3af874c45bcd577d81a137bb56f6631796b150624575",
+      "annotated_categories": [
+        "bed",
+        "cat",
+        "dog"
+      ],
+      "candidates": {
+        "replace_a": [
+          {
+            "name": "cow",
+            "tier": 1
+          },
+          {
+            "name": "bear",
+            "tier": 1
+          },
+          {
+            "name": "elephant",
+            "tier": 1
+          }
+        ],
+        "replace_b": [
+          {
+            "name": "giraffe",
+            "tier": 1
+          },
+          {
+            "name": "bird",
+            "tier": 1
+          },
+          {
+            "name": "bear",
+            "tier": 1
+          }
+        ]
+      }
+    },
+    {
+      "source_image_id": 96832,
+      "image_sha256": "7be37c1090558ecc5571019be97e96ad9bd2f8bccb142260008d9986ad7370a9",
+      "canvas_rgb_sha256": "440ff222d470efb2c3ff3825e245074b7d330b4ab88d98cdd752db20aba97016",
+      "annotated_categories": [
+        "chair",
+        "cup",
+        "handbag",
+        "laptop",
+        "mouse",
+        "person",
+        "tv"
+      ],
+      "candidates": {
+        "replace_a": [
+          {
+            "name": "spoon",
+            "tier": 2
+          },
+          {
+            "name": "bed",
+            "tier": 2
+          },
+          {
+            "name": "cell phone",
+            "tier": 2
+          }
+        ],
+        "replace_b": [
+          {
+            "name": "toilet",
+            "tier": 1
+          },
+          {
+            "name": "dining table",
+            "tier": 1
+          },
+          {
+            "name": "bed",
+            "tier": 1
+          }
+        ]
+      }
+    },
+    {
+      "source_image_id": 117425,
+      "image_sha256": "3ce22b1b2e55db6f118b1b057ddb7563970d09bce66b4b95d1f896df88605b6c",
+      "canvas_rgb_sha256": "55e892dc9e6b4840ec8c8993af61b06a594a385e52ce604e0f98349fd2584642",
+      "annotated_categories": [
+        "cake",
+        "cup",
+        "dining table",
+        "person",
+        "spoon"
+      ],
+      "candidates": {
+        "replace_a": [
+          {
+            "name": "knife",
+            "tier": 1
+          },
+          {
+            "name": "wine glass",
+            "tier": 1
+          },
+          {
+            "name": "bowl",
+            "tier": 1
+          }
+        ],
+        "replace_b": [
+          {
+            "name": "hot dog",
+            "tier": 1
+          },
+          {
+            "name": "orange",
+            "tier": 1
+          },
+          {
+            "name": "sandwich",
+            "tier": 1
+          }
+        ]
+      }
+    },
+    {
+      "source_image_id": 575882,
+      "image_sha256": "cdcd1952db901c61bf83ab8f81c25415d47afe6a0f4871ee47ecdb7f4e7dda70",
+      "canvas_rgb_sha256": "03a394ec808dde25c2f3d57320c6b32f0b3325c89a207319279bb42bb7788923",
+      "annotated_categories": [
+        "bottle",
+        "bowl",
+        "cat",
+        "couch",
+        "cup",
+        "laptop",
+        "person",
+        "remote",
+        "vase"
+      ],
+      "candidates": {
+        "replace_a": [
+          {
+            "name": "cell phone",
+            "tier": 1
+          },
+          {
+            "name": "mouse",
+            "tier": 1
+          }
+        ],
+        "replace_b": [
+          {
+            "name": "horse",
+            "tier": 1
+          },
+          {
+            "name": "elephant",
+            "tier": 1
+          },
+          {
+            "name": "bird",
+            "tier": 1
+          }
+        ]
+      }
+    },
+    {
+      "source_image_id": 283858,
+      "image_sha256": "6dfb20cbe6a75288fde81a98372e9207f354da8ac704a2f3532ee9c06484b143",
+      "canvas_rgb_sha256": "e4de37fc98fb1a5608c9fbd469db7a3799a7f7bf6cab31a3709373188682a669",
+      "annotated_categories": [
+        "bicycle",
+        "person",
+        "skateboard"
+      ],
+      "candidates": {
+        "replace_a": [
+          {
+            "name": "boat",
+            "tier": 1
+          },
+          {
+            "name": "truck",
+            "tier": 1
+          },
+          {
+            "name": "car",
+            "tier": 1
+          }
+        ],
+        "replace_b": [
+          {
+            "name": "skis",
+            "tier": 1
+          },
+          {
+            "name": "baseball bat",
+            "tier": 1
+          },
+          {
+            "name": "kite",
+            "tier": 1
+          }
+        ]
+      }
+    },
+    {
+      "source_image_id": 117674,
+      "image_sha256": "9beac209cfbe065b24f6372e26f608c940684af6fb11648d9654fdf425d72b78",
+      "canvas_rgb_sha256": "5f102d21cd6c8195e8d5b19f3b2726ce5f8dc362a45bf5c6840a75a49ee4ac1b",
+      "annotated_categories": [
+        "car",
+        "cell phone",
+        "fire hydrant",
+        "handbag",
+        "person"
+      ],
+      "candidates": {
+        "replace_a": [
+          {
+            "name": "tie",
+            "tier": 1
+          },
+          {
+            "name": "umbrella",
+            "tier": 1
+          }
+        ],
+        "replace_b": [
+          {
+            "name": "stop sign",
+            "tier": 1
+          },
+          {
+            "name": "traffic light",
+            "tier": 1
+          },
+          {
+            "name": "bench",
+            "tier": 1
+          }
+        ]
+      }
+    },
+    {
+      "source_image_id": 264625,
+      "image_sha256": "b682f23cf983c5fb3f73b7bf2cf0e33dea9f9b2c772b3612ea6cc1fe8e2886cd",
+      "canvas_rgb_sha256": "2259054b4fabad785588208b35ca877f30c6a5d8aa1646853b7911e9764fb62b",
+      "annotated_categories": [
+        "cup",
+        "dining table",
+        "vase"
+      ],
+      "candidates": {
+        "replace_a": [
+          {
+            "name": "scissors",
+            "tier": 1
+          },
+          {
+            "name": "hair drier",
+            "tier": 1
+          },
+          {
+            "name": "toothbrush",
+            "tier": 1
+          }
+        ],
+        "replace_b": [
+          {
+            "name": "fork",
+            "tier": 1
+          },
+          {
+            "name": "knife",
+            "tier": 1
+          },
+          {
+            "name": "bottle",
+            "tier": 1
+          }
+        ]
+      }
+    },
+    {
+      "source_image_id": 211203,
+      "image_sha256": "21625f1038f985451b845db758dbce9cc76259495ea7749e026f3f77624fd1b8",
+      "canvas_rgb_sha256": "963bc3fac716bd2794e2a0a73d0f19e1e1e2b5ddef4d65ce7288797952b411a7",
+      "annotated_categories": [
+        "cup",
+        "dining table",
+        "sandwich"
+      ],
+      "candidates": {
+        "replace_a": [
+          {
+            "name": "orange",
+            "tier": 1
+          },
+          {
+            "name": "carrot",
+            "tier": 1
+          },
+          {
+            "name": "pizza",
+            "tier": 1
+          }
+        ],
+        "replace_b": [
+          {
+            "name": "fork",
+            "tier": 1
+          },
+          {
+            "name": "spoon",
+            "tier": 1
+          },
+          {
+            "name": "knife",
+            "tier": 1
+          }
+        ]
+      }
+    },
+    {
+      "source_image_id": 300791,
+      "image_sha256": "359a51a37c9d1787615be8b53cfaa172c020698e322709dcf3c0c5437f03a1a2",
+      "canvas_rgb_sha256": "b213222caca454305da6a5df464992e3778f004e653bd65cec51eadc7e87f841",
+      "annotated_categories": [
+        "backpack",
+        "bicycle",
+        "horse",
+        "person"
+      ],
+      "candidates": {
+        "replace_a": [
+          {
+            "name": "giraffe",
+            "tier": 1
+          },
+          {
+            "name": "bear",
+            "tier": 1
+          },
+          {
+            "name": "bird",
+            "tier": 1
+          }
+        ],
+        "replace_b": [
+          {
+            "name": "boat",
+            "tier": 1
+          },
+          {
+            "name": "truck",
+            "tier": 1
+          },
+          {
+            "name": "bus",
+            "tier": 1
+          }
+        ]
+      }
+    },
+    {
+      "source_image_id": 520012,
+      "image_sha256": "03be5853d2d50e808274f465896962cf1e37b930a13f5ea6902161cd5e1e7093",
+      "canvas_rgb_sha256": "695cdf7df63b6ff2405bd1e0d968a444d302292fd436e8e2f20c1e9c00ee22d7",
+      "annotated_categories": [
+        "bottle",
+        "cell phone",
+        "cup",
+        "fork"
+      ],
+      "candidates": {
+        "replace_a": [
+          {
+            "name": "bowl",
+            "tier": 1
+          },
+          {
+            "name": "spoon",
+            "tier": 1
+          },
+          {
+            "name": "wine glass",
+            "tier": 1
+          }
+        ],
+        "replace_b": [
+          {
+            "name": "laptop",
+            "tier": 1
+          },
+          {
+            "name": "tv",
+            "tier": 1
+          },
+          {
+            "name": "keyboard",
+            "tier": 1
+          }
+        ]
+      }
+    },
+    {
+      "source_image_id": 406340,
+      "image_sha256": "08845e550b723070745ba53dba3803abf58f41ecf269222686f7654c82b30950",
+      "canvas_rgb_sha256": "0e05069bb8c6bd6b247f7cd7f81be0834b11be951c524a6ed2a64f0da4b0f5e1",
+      "annotated_categories": [
+        "backpack",
+        "car",
+        "laptop",
+        "sink"
+      ],
+      "candidates": {
+        "replace_a": [
+          {
+            "name": "cell phone",
+            "tier": 1
+          },
+          {
+            "name": "remote",
+            "tier": 1
+          },
+          {
+            "name": "mouse",
+            "tier": 1
+          }
+        ],
+        "replace_b": [
+          {
+            "name": "umbrella",
+            "tier": 1
+          },
+          {
+            "name": "tie",
+            "tier": 1
+          },
+          {
+            "name": "suitcase",
+            "tier": 1
+          }
+        ]
+      }
+    },
+    {
+      "source_image_id": 554348,
+      "image_sha256": "ef3be86943249c4130f2ce6df5b38f7a02cf2f7fbd6a00be5e466a65e573ca26",
+      "canvas_rgb_sha256": "ed119f523933340c97c9d7cfcf6b34495cb369ff207ec6bc4b426f734f18539b",
+      "annotated_categories": [
+        "backpack",
+        "handbag",
+        "person",
+        "traffic light",
+        "train"
+      ],
+      "candidates": {
+        "replace_a": [
+          {
+            "name": "airplane",
+            "tier": 1
+          },
+          {
+            "name": "truck",
+            "tier": 1
+          },
+          {
+            "name": "bicycle",
+            "tier": 1
+          }
+        ],
+        "replace_b": [
+          {
+            "name": "suitcase",
+            "tier": 1
+          },
+          {
+            "name": "tie",
+            "tier": 1
+          },
+          {
+            "name": "umbrella",
+            "tier": 1
+          }
+        ]
+      }
+    },
+    {
+      "source_image_id": 394957,
+      "image_sha256": "4b247851c27fae7ff19eee4847410ffafddbe186c99c73354af5e387ec8b513f",
+      "canvas_rgb_sha256": "d46ce460eda4204a281eb9ef0c45e429b9a36eeda4836c4ee3cf2b46780ec739",
+      "annotated_categories": [
+        "sink",
+        "suitcase",
+        "toilet"
+      ],
+      "candidates": {
+        "replace_a": [
+          {
+            "name": "backpack",
+            "tier": 1
+          },
+          {
+            "name": "umbrella",
+            "tier": 1
+          },
+          {
+            "name": "tie",
+            "tier": 1
+          }
+        ],
+        "replace_b": [
+          {
+            "name": "chair",
+            "tier": 1
+          },
+          {
+            "name": "dining table",
+            "tier": 1
+          },
+          {
+            "name": "potted plant",
+            "tier": 1
+          }
+        ]
+      }
+    },
+    {
+      "source_image_id": 280083,
+      "image_sha256": "86b5ac7acc7247a6fc141b32724228d4fe0bce57b8a868403b21a08466bcf1da",
+      "canvas_rgb_sha256": "e15613f8572d0c7d3479abef93c747d2d8413caed8e1b4e79baf3a286bfdc5e0",
+      "annotated_categories": [
+        "bottle",
+        "chair",
+        "cup",
+        "dining table",
+        "fork",
+        "person",
+        "pizza"
+      ],
+      "candidates": {
+        "replace_a": [
+          {
+            "name": "orange",
+            "tier": 1
+          },
+          {
+            "name": "sandwich",
+            "tier": 1
+          },
+          {
+            "name": "apple",
+            "tier": 1
+          }
+        ],
+        "replace_b": [
+          {
+            "name": "bowl",
+            "tier": 1
+          },
+          {
+            "name": "wine glass",
+            "tier": 1
+          },
+          {
+            "name": "spoon",
+            "tier": 1
+          }
+        ]
+      }
+    },
+    {
+      "source_image_id": 540642,
+      "image_sha256": "7d991f99b1d142270144bcd95f6c185e6210a1c56d83f9b8b7af37bb438deda7",
+      "canvas_rgb_sha256": "1e37373afc9453ccdde89e3fff412a1b166e53ee98d83c59d31b3d09b722a5bc",
+      "annotated_categories": [
+        "oven",
+        "refrigerator",
+        "sink"
+      ],
+      "candidates": {
+        "replace_a": [
+          {
+            "name": "toaster",
+            "tier": 1
+          },
+          {
+            "name": "microwave",
+            "tier": 1
+          }
+        ],
+        "replace_b": [
+          {
+            "name": "toaster",
+            "tier": 1
+          },
+          {
+            "name": "microwave",
+            "tier": 1
+          }
+        ]
+      }
+    },
+    {
+      "source_image_id": 363119,
+      "image_sha256": "2547678fe2aaeba4950ba7518df396415a48bedf74cffd10a977892addd0b6ad",
+      "canvas_rgb_sha256": "9f3af0736ce81213954289bf5ddc0f65135db6854fac1e5c4c0c08d17e535f37",
+      "annotated_categories": [
+        "cell phone",
+        "cup",
+        "person"
+      ],
+      "candidates": {
+        "replace_a": [
+          {
+            "name": "bottle",
+            "tier": 1
+          },
+          {
+            "name": "knife",
+            "tier": 1
+          },
+          {
+            "name": "spoon",
+            "tier": 1
+          }
+        ],
+        "replace_b": [
+          {
+            "name": "mouse",
+            "tier": 1
+          },
+          {
+            "name": "keyboard",
+            "tier": 1
+          },
+          {
+            "name": "laptop",
+            "tier": 1
+          }
+        ]
+      }
+    },
+    {
+      "source_image_id": 353748,
+      "image_sha256": "da3b2e8ad4f0c764237ae981dc57168480c3575469892ab20ba7b972a5562cb4",
+      "canvas_rgb_sha256": "a403a9ae2802539be4f860344e9c01f813e63f2ba6976cb0f577b50c7ab17f6f",
+      "annotated_categories": [
+        "bicycle",
+        "parking meter",
+        "person",
+        "truck"
+      ],
+      "candidates": {
+        "replace_a": [
+          {
+            "name": "stop sign",
+            "tier": 1
+          },
+          {
+            "name": "bench",
+            "tier": 1
+          },
+          {
+            "name": "fire hydrant",
+            "tier": 1
+          }
+        ],
+        "replace_b": [
+          {
+            "name": "bus",
+            "tier": 1
+          },
+          {
+            "name": "airplane",
+            "tier": 1
+          },
+          {
+            "name": "car",
+            "tier": 1
+          }
+        ]
+      }
+    },
+    {
+      "source_image_id": 294475,
+      "image_sha256": "2f5fa6486762ad565baa923d754df7b6e7f2017d8fb112da676717f40934d503",
+      "canvas_rgb_sha256": "3a57ec4726c6f16940660f566f1bafb5e883ad1c1fc0d58b9c67cc07c34e47e2",
+      "annotated_categories": [
+        "bottle",
+        "chair",
+        "cup",
+        "dining table",
+        "pizza",
+        "potted plant"
+      ],
+      "candidates": {
+        "replace_a": [
+          {
+            "name": "hot dog",
+            "tier": 1
+          },
+          {
+            "name": "cake",
+            "tier": 1
+          },
+          {
+            "name": "broccoli",
+            "tier": 1
+          }
+        ],
+        "replace_b": [
+          {
+            "name": "wine glass",
+            "tier": 1
+          },
+          {
+            "name": "bowl",
+            "tier": 1
+          },
+          {
+            "name": "fork",
+            "tier": 1
+          }
+        ]
+      }
+    },
+    {
+      "source_image_id": 435389,
+      "image_sha256": "e664e5c3f7e00cecb45b02541a2f1bd350fdf59fbc4af2be3c38570682388343",
+      "canvas_rgb_sha256": "82fcde89d788b5190f3fb0f149731e49fa4385588f1c784db6d0345cc640cd1f",
+      "annotated_categories": [
+        "bowl",
+        "clock",
+        "potted plant",
+        "tv",
+        "vase"
+      ],
+      "candidates": {
+        "replace_a": [
+          {
+            "name": "mouse",
+            "tier": 1
+          },
+          {
+            "name": "cell phone",
+            "tier": 1
+          },
+          {
+            "name": "keyboard",
+            "tier": 1
+          }
+        ],
+        "replace_b": [
+          {
+            "name": "scissors",
+            "tier": 1
+          },
+          {
+            "name": "teddy bear",
+            "tier": 1
+          },
+          {
+            "name": "toothbrush",
+            "tier": 1
+          }
+        ]
+      }
+    },
+    {
+      "source_image_id": 312020,
+      "image_sha256": "ccaaba78b7d821f733056a5137d8f749fcc7f55f7c913fcdd30bfacc70182348",
+      "canvas_rgb_sha256": "edf573062cd1ac7e42060daabc33b5b9a715799980a97d18803d9897329c7c58",
+      "annotated_categories": [
+        "bottle",
+        "dog",
+        "person",
+        "sink",
+        "toilet"
+      ],
+      "candidates": {
+        "replace_a": [
+          {
+            "name": "dining table",
+            "tier": 2
+          },
+          {
+            "name": "frisbee",
+            "tier": 2
+          },
+          {
+            "name": "skateboard",
+            "tier": 2
+          }
+        ],
+        "replace_b": [
+          {
+            "name": "oven",
+            "tier": 1
+          },
+          {
+            "name": "toaster",
+            "tier": 1
+          },
+          {
+            "name": "refrigerator",
+            "tier": 1
+          }
+        ]
+      }
+    },
+    {
+      "source_image_id": 209682,
+      "image_sha256": "3a6edb3a7073773c7072a7ed7a6cc76421686935827bc16ef0e946b5d1c15a13",
+      "canvas_rgb_sha256": "05b90b19bb5fa7da46991bf026dfe7b05a5cbdf0e7c92df9461e4733e38abad3",
+      "annotated_categories": [
+        "sink",
+        "toilet"
+      ],
+      "candidates": {
+        "replace_a": [
+          {
+            "name": "dining table",
+            "tier": 1
+          },
+          {
+            "name": "chair",
+            "tier": 1
+          },
+          {
+            "name": "potted plant",
+            "tier": 1
+          }
+        ],
+        "replace_b": [
+          {
+            "name": "microwave",
+            "tier": 1
+          },
+          {
+            "name": "refrigerator",
+            "tier": 1
+          },
+          {
+            "name": "toaster",
+            "tier": 1
+          }
+        ]
+      }
+    },
+    {
+      "source_image_id": 107516,
+      "image_sha256": "6a230177078bf9d2e45c525fd218f21c524e5511acdcd024da69f4a99ffc0b0a",
+      "canvas_rgb_sha256": "61965bf5904b3d93787e9ddb78f7bf59b9c72ca5af6960e2bb7b34ea79918076",
+      "annotated_categories": [
+        "bottle",
+        "bowl",
+        "cup",
+        "orange",
+        "oven",
+        "potted plant",
+        "refrigerator",
+        "sink",
+        "spoon",
+        "vase"
+      ],
+      "candidates": {
+        "replace_a": [
+          {
+            "name": "toaster",
+            "tier": 1
+          },
+          {
+            "name": "microwave",
+            "tier": 1
+          }
+        ],
+        "replace_b": [
+          {
+            "name": "microwave",
+            "tier": 1
+          },
+          {
+            "name": "toaster",
+            "tier": 1
+          }
+        ]
+      }
+    },
+    {
+      "source_image_id": 355325,
+      "image_sha256": "2a8356486557241592dd40f38db50394624b48ed6e0218b7138350ce0c44b1e3",
+      "canvas_rgb_sha256": "0b88615f35dd9ba4938bb88984665fac0c93d2f33dc65af8a8c8dc1519930fcf",
+      "annotated_categories": [
+        "bowl",
+        "cup",
+        "dining table",
+        "person",
+        "pizza",
+        "spoon",
+        "wine glass"
+      ],
+      "candidates": {
+        "replace_a": [
+          {
+            "name": "fork",
+            "tier": 1
+          },
+          {
+            "name": "knife",
+            "tier": 1
+          },
+          {
+            "name": "bottle",
+            "tier": 1
+          }
+        ],
+        "replace_b": [
+          {
+            "name": "knife",
+            "tier": 1
+          },
+          {
+            "name": "fork",
+            "tier": 1
+          },
+          {
+            "name": "bottle",
+            "tier": 1
+          }
+        ]
+      }
+    },
+    {
+      "source_image_id": 436848,
+      "image_sha256": "c3057662f28c20911b36fc7b730e52106ae77b2ef9f79c33ba1ba958c6955cae",
+      "canvas_rgb_sha256": "9ebb78a66f7c260674985fd432185cdb7d60cba4dc90404c54a7eeb865a84687",
+      "annotated_categories": [
+        "sink",
+        "toilet"
+      ],
+      "candidates": {
+        "replace_a": [
+          {
+            "name": "microwave",
+            "tier": 1
+          },
+          {
+            "name": "oven",
+            "tier": 1
+          },
+          {
+            "name": "refrigerator",
+            "tier": 1
+          }
+        ],
+        "replace_b": [
+          {
+            "name": "potted plant",
+            "tier": 1
+          },
+          {
+            "name": "bed",
+            "tier": 1
+          },
+          {
+            "name": "dining table",
+            "tier": 1
+          }
+        ]
+      }
+    },
+    {
+      "source_image_id": 336182,
+      "image_sha256": "41d2d215ea57128bf4da4317acb36928f8119d6105448a885c311ce72e2c3938",
+      "canvas_rgb_sha256": "90b4e5b453ee31631b0c488f19f4bedc6b9dac8de6c56e540f3e057b23fc7297",
+      "annotated_categories": [
+        "bed",
+        "bottle",
+        "chair",
+        "dining table",
+        "handbag",
+        "person",
+        "toothbrush"
+      ],
+      "candidates": {
+        "replace_a": [
+          {
+            "name": "umbrella",
+            "tier": 1
+          },
+          {
+            "name": "tie",
+            "tier": 1
+          }
+        ],
+        "replace_b": [
+          {
+            "name": "cow",
+            "tier": 2
+          },
+          {
+            "name": "donut",
+            "tier": 2
+          },
+          {
+            "name": "broccoli",
+            "tier": 2
+          }
+        ]
+      }
+    },
+    {
+      "source_image_id": 145318,
+      "image_sha256": "f656857e81a14ebdfef54c0a7b39ad4bfff236ef9d7f7a4086bb274136acbfa5",
+      "canvas_rgb_sha256": "4ebe2cce064e28f0bcde0b6b748834fa1b50e811a52d9c0f1fed1add7e56cd6a",
+      "annotated_categories": [
+        "banana",
+        "bowl",
+        "chair",
+        "cup",
+        "dining table",
+        "spoon",
+        "vase"
+      ],
+      "candidates": {
+        "replace_a": [
+          {
+            "name": "pizza",
+            "tier": 1
+          },
+          {
+            "name": "cake",
+            "tier": 1
+          },
+          {
+            "name": "hot dog",
+            "tier": 1
+          }
+        ],
+        "replace_b": [
+          {
+            "name": "scissors",
+            "tier": 1
+          },
+          {
+            "name": "toothbrush",
+            "tier": 1
+          },
+          {
+            "name": "clock",
+            "tier": 1
+          }
+        ]
+      }
+    },
+    {
+      "source_image_id": 225867,
+      "image_sha256": "5beadb80c08215437fd56d6091372d246ce33bde805bdb0e8415701d067c14cb",
+      "canvas_rgb_sha256": "5d7d706ad40f9dd82274b1cefde1e76844c206000a67ce4ad2c9d89884b9af1a",
+      "annotated_categories": [
+        "sink",
+        "toilet"
+      ],
+      "candidates": {
+        "replace_a": [
+          {
+            "name": "bed",
+            "tier": 1
+          },
+          {
+            "name": "couch",
+            "tier": 1
+          },
+          {
+            "name": "dining table",
+            "tier": 1
+          }
+        ],
+        "replace_b": [
+          {
+            "name": "refrigerator",
+            "tier": 1
+          },
+          {
+            "name": "oven",
+            "tier": 1
+          },
+          {
+            "name": "microwave",
+            "tier": 1
+          }
+        ]
+      }
+    },
+    {
+      "source_image_id": 569526,
+      "image_sha256": "836291ccc3908e2ac50c850259b6505c0afff5c19cbce58bd62bc7b7a346ba5e",
+      "canvas_rgb_sha256": "ff37d8b4cd1e97ad6dc68497d9fde85cfbc6c44d4df9e40f05db18d8b04d4253",
+      "annotated_categories": [
+        "baseball bat",
+        "baseball glove",
+        "person",
+        "sports ball",
+        "umbrella"
+      ],
+      "candidates": {
+        "replace_a": [
+          {
+            "name": "tennis racket",
+            "tier": 1
+          },
+          {
+            "name": "skis",
+            "tier": 1
+          },
+          {
+            "name": "kite",
+            "tier": 1
+          }
+        ],
+        "replace_b": [
+          {
+            "name": "skateboard",
+            "tier": 1
+          },
+          {
+            "name": "tennis racket",
+            "tier": 1
+          },
+          {
+            "name": "skis",
+            "tier": 1
+          }
+        ]
+      }
+    },
+    {
+      "source_image_id": 135410,
+      "image_sha256": "603013773e6bca16d1e4af56e76b38b3f7510c62d41e6089072905419ef4373f",
+      "canvas_rgb_sha256": "472790015dd39428903fb805e2463d9bb76b2346a391cd485555c0ead11f3b13",
+      "annotated_categories": [
+        "bicycle",
+        "car",
+        "motorcycle",
+        "parking meter",
+        "person"
+      ],
+      "candidates": {
+        "replace_a": [
+          {
+            "name": "bus",
+            "tier": 2
+          },
+          {
+            "name": "sink",
+            "tier": 2
+          },
+          {
+            "name": "baseball glove",
+            "tier": 2
+          }
+        ],
+        "replace_b": [
+          {
+            "name": "stop sign",
+            "tier": 1
+          },
+          {
+            "name": "bench",
+            "tier": 1
+          },
+          {
+            "name": "traffic light",
+            "tier": 1
+          }
+        ]
+      }
+    },
+    {
+      "source_image_id": 68814,
+      "image_sha256": "ad84b7175e62ab9e7dd4b1b513c549db4e9ec552c4f1b8ec7764343bd0f1cb1c",
+      "canvas_rgb_sha256": "7a946c0f3b999713fd67b963622daa0d98e26b9df668a9b5f793de8a07301f20",
+      "annotated_categories": [
+        "chair",
+        "cup",
+        "keyboard",
+        "laptop",
+        "mouse",
+        "tv"
+      ],
+      "candidates": {
+        "replace_a": [
+          {
+            "name": "cell phone",
+            "tier": 1
+          },
+          {
+            "name": "remote",
+            "tier": 1
+          }
+        ],
+        "replace_b": [
+          {
+            "name": "cell phone",
+            "tier": 1
+          },
+          {
+            "name": "remote",
+            "tier": 1
+          }
+        ]
+      }
+    },
+    {
+      "source_image_id": 120388,
+      "image_sha256": "325044ae187850a9dc73647d28513dd1224a3a7d3d1d377a783f42a8d14dbda6",
+      "canvas_rgb_sha256": "20754d22329208f3d90ec8f90848f4b5a6eb94e6115e87e7f8f160b6f40bdea0",
+      "annotated_categories": [
+        "cell phone",
+        "knife"
+      ],
+      "candidates": {
+        "replace_a": [
+          {
+            "name": "laptop",
+            "tier": 1
+          },
+          {
+            "name": "mouse",
+            "tier": 1
+          },
+          {
+            "name": "tv",
+            "tier": 1
+          }
+        ],
+        "replace_b": [
+          {
+            "name": "bottle",
+            "tier": 1
+          },
+          {
+            "name": "spoon",
+            "tier": 1
+          },
+          {
+            "name": "cup",
+            "tier": 1
+          }
+        ]
+      }
+    },
+    {
+      "source_image_id": 65969,
+      "image_sha256": "ed9f7404fc0a9e73dcd83464e608a2107bc2e558c85f355f598dfb6f877269c6",
+      "canvas_rgb_sha256": "163d465f5dccb76cc00275d48fb058073ce5cc0ff24960500378de2ff54f53e7",
+      "annotated_categories": [
+        "cup",
+        "dining table",
+        "vase"
+      ],
+      "candidates": {
+        "replace_a": [
+          {
+            "name": "fork",
+            "tier": 1
+          },
+          {
+            "name": "spoon",
+            "tier": 1
+          },
+          {
+            "name": "bottle",
+            "tier": 1
+          }
+        ],
+        "replace_b": [
+          {
+            "name": "teddy bear",
+            "tier": 1
+          },
+          {
+            "name": "scissors",
+            "tier": 1
+          },
+          {
+            "name": "clock",
+            "tier": 1
+          }
+        ]
+      }
+    },
+    {
+      "source_image_id": 489264,
+      "image_sha256": "4d86052f98e365ac3a7f1ab7ac6cff1f8418cbd47043e36afa5948d49505496f",
+      "canvas_rgb_sha256": "f4302a19fcd97678da23f594be6cebfe478d4deceab1bea4e57e52824f8973b0",
+      "annotated_categories": [
+        "chair",
+        "couch",
+        "tv",
+        "vase"
+      ],
+      "candidates": {
+        "replace_a": [
+          {
+            "name": "potted plant",
+            "tier": 1
+          },
+          {
+            "name": "toilet",
+            "tier": 1
+          },
+          {
+            "name": "dining table",
+            "tier": 1
+          }
+        ],
+        "replace_b": [
+          {
+            "name": "remote",
+            "tier": 1
+          },
+          {
+            "name": "keyboard",
+            "tier": 1
+          },
+          {
+            "name": "mouse",
+            "tier": 1
+          }
+        ]
+      }
+    },
+    {
+      "source_image_id": 233405,
+      "image_sha256": "a2dca91b2e9a341ba5a8ed1e3c6a481d3f1de495224940ef28ceb7f18cd0f3a9",
+      "canvas_rgb_sha256": "0b351dbc0547618643e2c062ceead1e45b47745ddf854a49c81a55ca96343333",
+      "annotated_categories": [
+        "frisbee",
+        "person"
+      ],
+      "candidates": {
+        "replace_a": [
+          {
+            "name": "scissors",
+            "tier": 2
+          },
+          {
+            "name": "cell phone",
+            "tier": 2
+          },
+          {
+            "name": "bus",
+            "tier": 2
+          }
+        ],
+        "replace_b": [
+          {
+            "name": "skateboard",
+            "tier": 1
+          },
+          {
+            "name": "baseball glove",
+            "tier": 1
+          },
+          {
+            "name": "tennis racket",
+            "tier": 1
+          }
+        ]
+      }
+    },
+    {
+      "source_image_id": 276892,
+      "image_sha256": "9c1daa74664897e6b0648e75a79d2debef56708cc2b80db3a69a70c36801846f",
+      "canvas_rgb_sha256": "0fd0400fa5beef15c02384dfe3448ceb70c99bafe2fad836688f6b00ddb7c7fe",
+      "annotated_categories": [
+        "giraffe",
+        "zebra"
+      ],
+      "candidates": {
+        "replace_a": [
+          {
+            "name": "cow",
+            "tier": 1
+          },
+          {
+            "name": "cat",
+            "tier": 1
+          },
+          {
+            "name": "horse",
+            "tier": 1
+          }
+        ],
+        "replace_b": [
+          {
+            "name": "horse",
+            "tier": 1
+          },
+          {
+            "name": "cat",
+            "tier": 1
+          },
+          {
+            "name": "dog",
+            "tier": 1
+          }
+        ]
+      }
+    },
+    {
+      "source_image_id": 370478,
+      "image_sha256": "f5ed1c21f176378a77e5e3dcd071908850d193cc200232790071fea5a1234aaf",
+      "canvas_rgb_sha256": "4f010578edb2c3a82cf2799559432bd63d91230005a599ad4922519dfed3b634",
+      "annotated_categories": [
+        "backpack",
+        "bed",
+        "book",
+        "laptop",
+        "suitcase"
+      ],
+      "candidates": {
+        "replace_a": [
+          {
+            "name": "umbrella",
+            "tier": 1
+          },
+          {
+            "name": "tie",
+            "tier": 1
+          }
+        ],
+        "replace_b": [
+          {
+            "name": "mouse",
+            "tier": 1
+          },
+          {
+            "name": "cell phone",
+            "tier": 1
+          },
+          {
+            "name": "remote",
+            "tier": 1
+          }
+        ]
+      }
+    },
+    {
+      "source_image_id": 265816,
+      "image_sha256": "a32a1609153269b5936d90d3c782a9bd9ce435c528ac14892f5f86c80e4a0af0",
+      "canvas_rgb_sha256": "743f1a47853d6d7897892b29aef9062109a238b862e2c111d58739cae94a492f",
+      "annotated_categories": [
+        "horse",
+        "person",
+        "potted plant"
+      ],
+      "candidates": {
+        "replace_a": [
+          {
+            "name": "knife",
+            "tier": 2
+          },
+          {
+            "name": "donut",
+            "tier": 2
+          },
+          {
+            "name": "tv",
+            "tier": 2
+          }
+        ],
+        "replace_b": [
+          {
+            "name": "sheep",
+            "tier": 1
+          },
+          {
+            "name": "bear",
+            "tier": 1
+          },
+          {
+            "name": "cat",
+            "tier": 1
+          }
+        ]
+      }
+    },
+    {
+      "source_image_id": 465986,
+      "image_sha256": "b0f3d38bb0e2c84116b15ae4fb924b0191075bb77e314b9e0cc13df9a1644b83",
+      "canvas_rgb_sha256": "d9902185dbbea73c6527f300e9a910e4a31ade09743dcebf06c29016ccdb36b1",
+      "annotated_categories": [
+        "backpack",
+        "person",
+        "snowboard"
+      ],
+      "candidates": {
+        "replace_a": [
+          {
+            "name": "surfboard",
+            "tier": 1
+          },
+          {
+            "name": "sports ball",
+            "tier": 1
+          },
+          {
+            "name": "baseball bat",
+            "tier": 1
+          }
+        ],
+        "replace_b": [
+          {
+            "name": "toilet",
+            "tier": 2
+          },
+          {
+            "name": "dog",
+            "tier": 2
+          },
+          {
+            "name": "refrigerator",
+            "tier": 2
+          }
+        ]
+      }
+    },
+    {
+      "source_image_id": 261780,
+      "image_sha256": "c3abbe2fa2d92a7aaf615d9e33b1478aa7d494e732f9f8ea6b7f873e57b46d9d",
+      "canvas_rgb_sha256": "78fafe99d2d6476263a542f76f144904d75d77bb7cdfeffea0b6b18fcdb89d72",
+      "annotated_categories": [
+        "book",
+        "laptop",
+        "potted plant",
+        "remote",
+        "tv"
+      ],
+      "candidates": {
+        "replace_a": [
+          {
+            "name": "cell phone",
+            "tier": 1
+          },
+          {
+            "name": "mouse",
+            "tier": 1
+          }
+        ],
+        "replace_b": [
+          {
+            "name": "cell phone",
+            "tier": 1
+          },
+          {
+            "name": "mouse",
+            "tier": 1
+          },
+          {
+            "name": "keyboard",
+            "tier": 1
+          }
+        ]
+      }
+    },
+    {
+      "source_image_id": 375232,
+      "image_sha256": "0cdf0ddfa0cc7a2b8b8c225dcebb776f34716dc843fd60965a4f38224a419913",
+      "canvas_rgb_sha256": "ee4c3724107b3275358043a87faa7af96638b0dd55a737c34eb8fe8d63a62ef3",
+      "annotated_categories": [
+        "backpack",
+        "bench",
+        "bottle",
+        "dining table",
+        "laptop",
+        "potted plant"
+      ],
+      "candidates": {
+        "replace_a": [
+          {
+            "name": "chair",
+            "tier": 1
+          },
+          {
+            "name": "bed",
+            "tier": 1
+          },
+          {
+            "name": "toilet",
+            "tier": 1
+          }
+        ],
+        "replace_b": [
+          {
+            "name": "tie",
+            "tier": 1
+          },
+          {
+            "name": "suitcase",
+            "tier": 1
+          },
+          {
+            "name": "umbrella",
+            "tier": 1
+          }
+        ]
+      }
+    },
+    {
+      "source_image_id": 535770,
+      "image_sha256": "4e4f5168d1066354e7f4f4a0088cbf2ed5d2921d2abe865fe2834dbfad2f0090",
+      "canvas_rgb_sha256": "e9403b6e9a2101adb92c4008d0e45964a93beb78a4dd463dbb1026039cb3c265",
+      "annotated_categories": [
+        "bottle",
+        "bowl",
+        "cell phone",
+        "couch",
+        "cup",
+        "handbag",
+        "laptop",
+        "person",
+        "potted plant"
+      ],
+      "candidates": {
+        "replace_a": [
+          {
+            "name": "knife",
+            "tier": 1
+          },
+          {
+            "name": "spoon",
+            "tier": 1
+          },
+          {
+            "name": "fork",
+            "tier": 1
+          }
+        ],
+        "replace_b": [
+          {
+            "name": "tie",
+            "tier": 1
+          },
+          {
+            "name": "umbrella",
+            "tier": 1
+          }
+        ]
+      }
+    },
+    {
+      "source_image_id": 282768,
+      "image_sha256": "b37a990d615acc2609710356c3c31ccb504725d57c122290fca41c21b7cdc546",
+      "canvas_rgb_sha256": "f7fc12a60c65aee5da94c2b506caff05ab4c9f45f46f7ec6bf4c5d2b92aac37a",
+      "annotated_categories": [
+        "dog",
+        "person",
+        "skateboard"
+      ],
+      "candidates": {
+        "replace_a": [
+          {
+            "name": "banana",
+            "tier": 2
+          },
+          {
+            "name": "boat",
+            "tier": 2
+          },
+          {
+            "name": "couch",
+            "tier": 2
+          }
+        ],
+        "replace_b": [
+          {
+            "name": "bear",
+            "tier": 1
+          },
+          {
+            "name": "elephant",
+            "tier": 1
+          },
+          {
+            "name": "cat",
+            "tier": 1
+          }
+        ]
+      }
+    },
+    {
+      "source_image_id": 154705,
+      "image_sha256": "65c43fb6b824facd86b8cdda2a14eb47c6dd67920e919bb888f376d78a13ec6b",
+      "canvas_rgb_sha256": "d9495bc04c01f83c47935e014562a3728cd7a639d8da3eb7b9b9e5eb3329324b",
+      "annotated_categories": [
+        "book",
+        "keyboard",
+        "laptop",
+        "mouse",
+        "tv"
+      ],
+      "candidates": {
+        "replace_a": [
+          {
+            "name": "remote",
+            "tier": 1
+          },
+          {
+            "name": "cell phone",
+            "tier": 1
+          }
+        ],
+        "replace_b": [
+          {
+            "name": "cell phone",
+            "tier": 1
+          },
+          {
+            "name": "remote",
+            "tier": 1
+          }
+        ]
+      }
+    },
+    {
+      "source_image_id": 216277,
+      "image_sha256": "a0f22aeeca99a5663c65f7e11f440c37b4b911a41535ed0a3d650face687c202",
+      "canvas_rgb_sha256": "0ed4d10b49dd1e4a887bce41034500039b65af947c1ba5db58e7ef43922d7f54",
+      "annotated_categories": [
+        "apple",
+        "cell phone",
+        "person"
+      ],
+      "candidates": {
+        "replace_a": [
+          {
+            "name": "cake",
+            "tier": 1
+          },
+          {
+            "name": "donut",
+            "tier": 1
+          },
+          {
+            "name": "broccoli",
+            "tier": 1
+          }
+        ],
+        "replace_b": [
+          {
+            "name": "laptop",
+            "tier": 1
+          },
+          {
+            "name": "tv",
+            "tier": 1
+          },
+          {
+            "name": "mouse",
+            "tier": 1
+          }
+        ]
+      }
+    },
+    {
+      "source_image_id": 472246,
+      "image_sha256": "4d42d8767703298432135de4082d9e6add1b487379c9c91eab0f2baa30c160e8",
+      "canvas_rgb_sha256": "75b9bb3c785ed9fde37bd4d204d3d4678c30d4d53d2f38c78893508da72be148",
+      "annotated_categories": [
+        "apple",
+        "fork",
+        "orange"
+      ],
+      "candidates": {
+        "replace_a": [
+          {
+            "name": "hot dog",
+            "tier": 1
+          },
+          {
+            "name": "sandwich",
+            "tier": 1
+          },
+          {
+            "name": "broccoli",
+            "tier": 1
+          }
+        ],
+        "replace_b": [
+          {
+            "name": "donut",
+            "tier": 1
+          },
+          {
+            "name": "cake",
+            "tier": 1
+          },
+          {
+            "name": "broccoli",
+            "tier": 1
+          }
+        ]
+      }
+    },
+    {
+      "source_image_id": 547212,
+      "image_sha256": "d5e37380044331b8d9b2b96c174fe49662789daf2c827b71d3e54af379736ace",
+      "canvas_rgb_sha256": "4dfc03db1f5c7519cf7ce410da6837fa4f44b0f80ad3a8403598de8dce427a4f",
+      "annotated_categories": [
+        "cell phone",
+        "cup",
+        "person"
+      ],
+      "candidates": {
+        "replace_a": [
+          {
+            "name": "laptop",
+            "tier": 1
+          },
+          {
+            "name": "keyboard",
+            "tier": 1
+          },
+          {
+            "name": "tv",
+            "tier": 1
+          }
+        ],
+        "replace_b": [
+          {
+            "name": "bottle",
+            "tier": 1
+          },
+          {
+            "name": "fork",
+            "tier": 1
+          },
+          {
+            "name": "knife",
+            "tier": 1
+          }
+        ]
+      }
+    },
+    {
+      "source_image_id": 31442,
+      "image_sha256": "a55811c1b1ea3517427e4b1d70297309f8122007171d02c72e56a94325ce0e01",
+      "canvas_rgb_sha256": "ed1cab09a33bc82f036ec1b3574a8b8e2cc45ba096327229c94381087302b823",
+      "annotated_categories": [
+        "bottle",
+        "chair",
+        "clock",
+        "dining table",
+        "person",
+        "refrigerator",
+        "wine glass"
+      ],
+      "candidates": {
+        "replace_a": [
+          {
+            "name": "tie",
+            "tier": 2
+          },
+          {
+            "name": "dog",
+            "tier": 2
+          },
+          {
+            "name": "oven",
+            "tier": 2
+          }
+        ],
+        "replace_b": [
+          {
+            "name": "oven",
+            "tier": 1
+          },
+          {
+            "name": "toaster",
+            "tier": 1
+          },
+          {
+            "name": "sink",
+            "tier": 1
+          }
+        ]
+      }
+    },
+    {
+      "source_image_id": 159463,
+      "image_sha256": "20e3e8f523158c15da1a32eb0b4970fd4b2f7274aa9bb03359d7489014a525ee",
+      "canvas_rgb_sha256": "73899ac6296e246b8ff15cd0ce9aaf960d7714880ccd15cf237e980f7ec98205",
+      "annotated_categories": [
+        "book",
+        "chair",
+        "couch",
+        "dining table",
+        "dog",
+        "vase"
+      ],
+      "candidates": {
+        "replace_a": [
+          {
+            "name": "bird",
+            "tier": 1
+          },
+          {
+            "name": "sheep",
+            "tier": 1
+          },
+          {
+            "name": "cat",
+            "tier": 1
+          }
+        ],
+        "replace_b": [
+          {
+            "name": "bed",
+            "tier": 1
+          },
+          {
+            "name": "potted plant",
+            "tier": 1
+          },
+          {
+            "name": "toilet",
+            "tier": 1
+          }
+        ]
+      }
+    },
+    {
+      "source_image_id": 120099,
+      "image_sha256": "f82a2c83e704e711a1aae9f9881cdbb9b68887f9fd484cd679640aac460eb97b",
+      "canvas_rgb_sha256": "5f2d54c9bfe18b027ad057db85379d60d81a261e9a0fa9390067cfc4fa1051d0",
+      "annotated_categories": [
+        "book",
+        "cat",
+        "cell phone",
+        "chair",
+        "couch",
+        "dining table",
+        "person",
+        "tv"
+      ],
+      "candidates": {
+        "replace_a": [
+          {
+            "name": "remote",
+            "tier": 1
+          },
+          {
+            "name": "keyboard",
+            "tier": 1
+          },
+          {
+            "name": "mouse",
+            "tier": 1
+          }
+        ],
+        "replace_b": [
+          {
+            "name": "bird",
+            "tier": 1
+          },
+          {
+            "name": "giraffe",
+            "tier": 1
+          },
+          {
+            "name": "cow",
+            "tier": 1
+          }
+        ]
+      }
+    },
+    {
+      "source_image_id": 572042,
+      "image_sha256": "d0c7973cb27aa4fc5a9518d8329b7139d47c3089ef7809cde706be7f5cad7879",
+      "canvas_rgb_sha256": "2d4f943e69cdbc80347e8a1829ba17cf31bca836304585d95dfddfcac42d3df1",
+      "annotated_categories": [
+        "dog",
+        "person",
+        "tie"
+      ],
+      "candidates": {
+        "replace_a": [
+          {
+            "name": "cow",
+            "tier": 1
+          },
+          {
+            "name": "bird",
+            "tier": 1
+          },
+          {
+            "name": "elephant",
+            "tier": 1
+          }
+        ],
+        "replace_b": [
+          {
+            "name": "handbag",
+            "tier": 1
+          },
+          {
+            "name": "suitcase",
+            "tier": 1
+          },
+          {
+            "name": "umbrella",
+            "tier": 1
+          }
+        ]
+      }
+    },
+    {
+      "source_image_id": 459382,
+      "image_sha256": "6e5f9f5821cab8aa770cb216b72dac1efff7978a9e7c46a000cc4716148bd692",
+      "canvas_rgb_sha256": "40ca01669c2639a812e64c3def44d96d951d652cce6171179fa27f540c1e5cbe",
+      "annotated_categories": [
+        "cake",
+        "cup",
+        "dining table",
+        "fork"
+      ],
+      "candidates": {
+        "replace_a": [
+          {
+            "name": "bowl",
+            "tier": 1
+          },
+          {
+            "name": "wine glass",
+            "tier": 1
+          },
+          {
+            "name": "bottle",
+            "tier": 1
+          }
+        ],
+        "replace_b": [
+          {
+            "name": "pizza",
+            "tier": 1
+          },
+          {
+            "name": "banana",
+            "tier": 1
+          },
+          {
+            "name": "sandwich",
+            "tier": 1
+          }
+        ]
+      }
+    },
+    {
+      "source_image_id": 571313,
+      "image_sha256": "9a3c075c9f15b67417d616b5cde10f704705215341ed15414035f8a77277a80e",
+      "canvas_rgb_sha256": "95af18b15657409a1113d7bbaab3f82155cb79f144a55bcac4ca4f9f219983cd",
+      "annotated_categories": [
+        "bed",
+        "chair",
+        "dining table",
+        "keyboard",
+        "microwave",
+        "mouse",
+        "refrigerator",
+        "tv"
+      ],
+      "candidates": {
+        "replace_a": [
+          {
+            "name": "cell phone",
+            "tier": 1
+          },
+          {
+            "name": "remote",
+            "tier": 1
+          }
+        ],
+        "replace_b": [
+          {
+            "name": "couch",
+            "tier": 1
+          },
+          {
+            "name": "toilet",
+            "tier": 1
+          },
+          {
+            "name": "potted plant",
+            "tier": 1
+          }
+        ]
+      }
+    },
+    {
+      "source_image_id": 187933,
+      "image_sha256": "cde74a37f0cbb7939a4fea1dfe626d6dd819a5d08d4ed841d1d85ad09780ca35",
+      "canvas_rgb_sha256": "d2adf28c7c04c0a4820a2e0efb056ccf6163f5256b7a639ac27d78f53f31a943",
+      "annotated_categories": [
+        "bottle",
+        "bowl",
+        "sink",
+        "toilet"
+      ],
+      "candidates": {
+        "replace_a": [
+          {
+            "name": "dining table",
+            "tier": 1
+          },
+          {
+            "name": "bed",
+            "tier": 1
+          },
+          {
+            "name": "potted plant",
+            "tier": 1
+          }
+        ],
+        "replace_b": [
+          {
+            "name": "oven",
+            "tier": 1
+          },
+          {
+            "name": "refrigerator",
+            "tier": 1
+          },
+          {
+            "name": "microwave",
+            "tier": 1
+          }
+        ]
+      }
+    },
+    {
+      "source_image_id": 188421,
+      "image_sha256": "201d0c3e5a66e2e94e03ce666f84ef350de7081b8fa6afef484b7a8ae389c590",
+      "canvas_rgb_sha256": "f9fad940afdb3159f44065271f8b2e2850ddefbad319c55b7a844d9b76c92685",
+      "annotated_categories": [
+        "bottle",
+        "sink",
+        "toilet",
+        "vase"
+      ],
+      "candidates": {
+        "replace_a": [
+          {
+            "name": "dining table",
+            "tier": 1
+          },
+          {
+            "name": "couch",
+            "tier": 1
+          },
+          {
+            "name": "potted plant",
+            "tier": 1
+          }
+        ],
+        "replace_b": [
+          {
+            "name": "book",
+            "tier": 1
+          },
+          {
+            "name": "scissors",
+            "tier": 1
+          },
+          {
+            "name": "clock",
+            "tier": 1
+          }
+        ]
+      }
+    },
+    {
+      "source_image_id": 216437,
+      "image_sha256": "421e385bc6d473342ad0837fd8b22d71265f2b9c53bf108de16032fbb093fdb2",
+      "canvas_rgb_sha256": "5f286ad73979b332a6913f49f484ecc557fbb5c8543b1015b00a12b2a791303b",
+      "annotated_categories": [
+        "cell phone",
+        "cup",
+        "keyboard",
+        "laptop",
+        "mouse",
+        "tv"
+      ],
+      "candidates": {
+        "replace_a": [
+          {
+            "name": "fork",
+            "tier": 1
+          },
+          {
+            "name": "knife",
+            "tier": 1
+          },
+          {
+            "name": "bottle",
+            "tier": 1
+          }
+        ],
+        "replace_b": [
+          {
+            "name": "remote",
+            "tier": 1
+          }
+        ]
+      }
+    },
+    {
+      "source_image_id": 141509,
+      "image_sha256": "df17c60b3fd4db8d3bd8440560d24ce8041f21533f21d00b11cb0eaa3fe44275",
+      "canvas_rgb_sha256": "ba354dd415a0f1531c1b02dd00f6d0868cd6d0340a2a894c5461401917af07e5",
+      "annotated_categories": [
+        "person",
+        "teddy bear",
+        "tie"
+      ],
+      "candidates": {
+        "replace_a": [
+          {
+            "name": "scissors",
+            "tier": 1
+          },
+          {
+            "name": "vase",
+            "tier": 1
+          },
+          {
+            "name": "book",
+            "tier": 1
+          }
+        ],
+        "replace_b": [
+          {
+            "name": "handbag",
+            "tier": 1
+          },
+          {
+            "name": "backpack",
+            "tier": 1
+          },
+          {
+            "name": "umbrella",
+            "tier": 1
+          }
+        ]
+      }
+    },
+    {
+      "source_image_id": 369259,
+      "image_sha256": "d26fb7e93b76d3f7e2459985cc3c4de22b218543f40978e111b9a305400557f9",
+      "canvas_rgb_sha256": "d38955b2d3d0082bb6c12cea5dcfddfa7f30b364be597d5a594e487a70ff6203",
+      "annotated_categories": [
+        "apple",
+        "banana",
+        "book",
+        "bottle",
+        "bowl",
+        "cup",
+        "knife",
+        "person",
+        "refrigerator",
+        "sink",
+        "vase"
+      ],
+      "candidates": {
+        "replace_a": [
+          {
+            "name": "sandwich",
+            "tier": 1
+          },
+          {
+            "name": "hot dog",
+            "tier": 1
+          },
+          {
+            "name": "orange",
+            "tier": 1
+          }
+        ],
+        "replace_b": [
+          {
+            "name": "oven",
+            "tier": 1
+          },
+          {
+            "name": "microwave",
+            "tier": 1
+          },
+          {
+            "name": "toaster",
+            "tier": 1
+          }
+        ]
+      }
+    },
+    {
+      "source_image_id": 456991,
+      "image_sha256": "d5d01ee8c2790de4b407dec714b071fdecf33c8d2960d46f1d8554583246f1ce",
+      "canvas_rgb_sha256": "265b3d8bf3e83fc5618d2c21cb74698d4b4288f289016beca6decece0b997eea",
+      "annotated_categories": [
+        "couch",
+        "cup",
+        "dining table",
+        "knife",
+        "orange",
+        "person",
+        "wine glass"
+      ],
+      "candidates": {
+        "replace_a": [
+          {
+            "name": "bowl",
+            "tier": 1
+          },
+          {
+            "name": "bottle",
+            "tier": 1
+          },
+          {
+            "name": "spoon",
+            "tier": 1
+          }
+        ],
+        "replace_b": [
+          {
+            "name": "bowl",
+            "tier": 1
+          },
+          {
+            "name": "fork",
+            "tier": 1
+          },
+          {
+            "name": "bottle",
+            "tier": 1
+          }
+        ]
+      }
+    },
+    {
+      "source_image_id": 85803,
+      "image_sha256": "bb5f700042862bfe8e0647d4a2082596d212166613c650ab1a96b7f508db26b0",
+      "canvas_rgb_sha256": "06a98536295956b67069789d028463b3533cc71a7b1235af9bd2b0e34d22d100",
+      "annotated_categories": [
+        "bottle",
+        "bowl",
+        "chair",
+        "cup",
+        "dining table",
+        "knife",
+        "microwave",
+        "oven",
+        "refrigerator",
+        "sink",
+        "spoon",
+        "toaster",
+        "wine glass"
+      ],
+      "candidates": {
+        "replace_a": [
+          {
+            "name": "truck",
+            "tier": 2
+          },
+          {
+            "name": "skis",
+            "tier": 2
+          },
+          {
+            "name": "stop sign",
+            "tier": 2
+          }
+        ],
+        "replace_b": [
+          {
+            "name": "hair drier",
+            "tier": 2
+          },
+          {
+            "name": "baseball bat",
+            "tier": 2
+          },
+          {
+            "name": "hot dog",
+            "tier": 2
+          }
+        ]
+      }
+    },
+    {
+      "source_image_id": 553129,
+      "image_sha256": "d95d8dc810bb2d5ffdf36bb44b92a3d16890e6cec07417a482d10f2d9448ee8b",
+      "canvas_rgb_sha256": "4713a900169009303e4aebb28b8f01544c75ebc90b01532650b9ddfc7d3f6d01",
+      "annotated_categories": [
+        "apple",
+        "banana",
+        "bowl",
+        "cell phone",
+        "clock",
+        "knife",
+        "microwave",
+        "orange",
+        "oven",
+        "refrigerator",
+        "sink",
+        "vase"
+      ],
+      "candidates": {
+        "replace_a": [
+          {
+            "name": "toaster",
+            "tier": 1
+          }
+        ],
+        "replace_b": [
+          {
+            "name": "toaster",
+            "tier": 1
+          }
+        ]
+      }
+    },
+    {
+      "source_image_id": 296802,
+      "image_sha256": "6ca4f07f9781c7c755817aeec4059c17aea7cb09ec7eff19dbce6c02cff78274",
+      "canvas_rgb_sha256": "381caa6c46aff00a5dd570e08af781a058c4174919d28995b5fb0290bcf1b57e",
+      "annotated_categories": [
+        "bottle",
+        "bowl",
+        "fork",
+        "handbag",
+        "knife",
+        "person",
+        "pizza"
+      ],
+      "candidates": {
+        "replace_a": [
+          {
+            "name": "wine glass",
+            "tier": 1
+          },
+          {
+            "name": "spoon",
+            "tier": 1
+          },
+          {
+            "name": "cup",
+            "tier": 1
+          }
+        ],
+        "replace_b": [
+          {
+            "name": "spoon",
+            "tier": 1
+          },
+          {
+            "name": "wine glass",
+            "tier": 1
+          },
+          {
+            "name": "cup",
+            "tier": 1
+          }
+        ]
+      }
+    }
+  ]
+}

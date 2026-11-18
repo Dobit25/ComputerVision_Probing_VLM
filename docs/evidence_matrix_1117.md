@@ -2,6 +2,14 @@
 
 Thực hiện mục **T0** của [1117.md](../1117.md). Mọi số dưới đây đọc lại từ artifact đã commit (scores/predictions/metrics), **không có inference mới**. Phần tính lại được lưu máy đọc được ở [`results/evidence_matrix_1117_v1/`](../results/evidence_matrix_1117_v1/) (metrics.json + CSV, có hash đầu vào), tạo bởi `python -m vlm_probe.evidence_1117 run` và kiểm bằng `... audit`. Phạm vi: OpenAI CLIP ViT-B/32, không fine-tuning.
 
+> **Làm rõ mức kiểm (18/11/2026, Task A của [1118.md](../1118.md); số liệu và artifact v1 không đổi):** `evidence_1117` tổng hợp từ **predictions đã lưu và đã kiểm**, không tự tính dự đoán khi tổng hợp. Trước khi tổng hợp, `audit`/`run` kiểm đầu vào theo mức mỗi artifact cho phép:
+> - **Counting/negation** (`full_probing_clip_b32_v1`): tính lại argmax từ raw `scores` (hòa → chỉ số nhỏ nhất như `torch.argmax`), đối chiếu `prediction`, `correct`, `absolute_count_error`, `number` — 1.080 + 1.440 dòng khớp.
+> - **Pet** (`full_oxford_pet_clip_b32_v3`): CSV **không lưu đủ vector 37 điểm**, nên **không** tính lại argmax ở đây. Chỉ kiểm nhất quán: id/tên lớp so `classes.json`, `correct` so id, cosine dự đoán ≥ cosine đích, mỗi lớp đúng một loài, mọi `prediction_name` có trong mapping, và quy tắc tên file khớp danh sách 12 giống mèo chính thức ghim độc lập trong code (12 mèo/25 chó). Lỗi đầu vào làm audit thất bại thay vì ghi đè dict âm thầm.
+>
+> Vì vậy, chỗ ghi “từ scores” ở các mục dưới nghĩa là “từ predictions đã kiểm” theo mức trên.
+>
+> Bản đồ claim máy đọc được (`docs/references/claim_evidence_map.json`) được giữ nguyên. Amendment append-only nằm ở [`claim_evidence_amendments.json`](references/claim_evidence_amendments.json): C07 thay giới hạn “không có người chấm” bằng mô tả review R1 (98/100, một reviewer, hậu nghiệm) và thêm số sensitivity 52/98. C02 không cần amendment vì JSON không chứa số màu/hình sai.
+
 Kiểm tra trước khi lập ma trận (17/11/2026, nhánh `dev` tại `b83f3dd`):
 
 - `python -m vlm_probe.human_review_followup audit` → **Audit passed** (phiếu đóng băng, hash nguồn, metrics, trace từng ảnh/source).
@@ -33,9 +41,9 @@ Cột “Dữ liệu”: *đã mở* = scores/test đã được xem và dùng �
 - **Gap thực sự (cần dữ liệu/protocol mới):**
   1. **T1 — control nhận dạng trên chính ảnh COCO.** Artifacts tự nhiên (`full_depth_natural_v1`, `full_natural_confirmation_v1`, `full_natural_regions_*_review_v2`, `human_review_followup_v1`) chỉ có caption quan hệ hoặc prompt tên vật đơn lẻ dùng cho quy tắc native; không có caption nhận dạng hai vật vs foil thay vật. Vì vậy chưa thể phân biệt “không nhận ra vật” với “không kết hợp quan hệ” trên ảnh tự nhiên. Cần reviewer người xác nhận foil vắng mặt trước inference — **agent không tự làm được bước này**.
   2. **P1.4 tự nhiên cho Flowers/Food:** cần taxonomy độc lập scores (được review) — chưa có.
-- **Gap chỉ là tổng hợp (đã xử lý từ scores):** phân tích loài Pet ở bảng trên; confusion P1.3 ở mục 2.1.
+- **Gap chỉ là tổng hợp (đã xử lý từ predictions đã kiểm):** phân tích loài Pet ở bảng trên; confusion P1.3 ở mục 2.1.
 
-### 2.1. Đối chiếu P1.3 từ scores
+### 2.1. Đối chiếu P1.3 từ predictions đã kiểm với scores
 
 Counting (hàng = số thật, cột = dự đoán; [CSV](../results/evidence_matrix_1117_v1/counting_confusion.csv)), support 180 mỗi hàng:
 
@@ -81,3 +89,19 @@ Kết quả mong đợi: `548 4`. Bản đầy đủ có CI: `python -m vlm_prob
 ## 6. Đề xuất phạm vi vòng tiếp theo
 
 T1 là bước duy nhất trả lời trực tiếp câu hỏi chính (nhận dạng vs kết hợp quan hệ trên ảnh tự nhiên); cần nhóm chốt reviewer cho foil và ngân sách. T2 hoãn tới khi có kết quả T1. T3, tiếng Việt miền thứ hai, P5 và checkpoint thứ hai hoãn — không giải quyết gap lớn nhất hiện tại.
+
+## 7. Trạng thái T1 (cập nhật 18/11/2026 theo 1118.md)
+
+Gap T1 ở mục 2 **vẫn mở**: chưa có inference, chưa có foil được người duyệt, chưa có kết quả nhận dạng nào.
+
+| Task 1118 | Trạng thái | Artifact |
+|---|---|---|
+| A — kiểm nền | Xong: audit kiểm predictions so với raw scores (probing) và tính nhất quán (Pet); amendment C07 máy đọc được | `vlm_probe/evidence_1117.py`, `docs/references/claim_evidence_amendments.json` |
+| B — thiết kế | **Bản nháp**, chờ nhóm chốt reviewer, ngưỡng diễn giải, ngân sách, quy tắc thiếu foil, `contested_pairs` | `docs/natural_recognition_protocol_v1.md`, `configs/natural_recognition_v1.json` (`status: draft_pending_team_signoff`) |
+| C — chuẩn bị | Xong vòng 1: annotation và 98 ảnh khớp sha256 đã đóng băng; 196 dòng (98 nguồn × 2 vai trò), mọi vai trò có foil; 173 foil tầng 1, 23 tầng 2 (chủ yếu khi thay `person`). Không dùng scores | `reviews/natural_recognition_v1/` (`candidates.json`, `round_01_blank.csv`, README); gói HTML ở `data/` ngoài Git |
+| D — review người | **pending_review**: chờ nhóm chỉ định người chấm. Agent không ký thay | `reviews/natural_recognition_v1/README.md` |
+| E — triển khai | Code xong; từ chối chạy khi config chưa `frozen` hoặc review chưa đóng băng; kiểm parity với điểm holistic T2/o0 đã đóng băng trước khi tính | `natural_recognition.py run` |
+| F — audit | Code xong (tính lại từ `scores.npz`, không cần pixels/model); chưa có run để audit | `natural_recognition.py audit` |
+| G — quyết định | Chưa thể: phụ thuộc kết quả T1 | — |
+
+Các phần `run`/`audit` mới chỉ được kiểm bằng unit test trên dữ liệu tổng hợp; chưa chạy đầu-cuối với GPU.
