@@ -1,0 +1,578 @@
+[
+  {
+    "sample_id": "coco/410576/original/replace_a",
+    "image_index": 0,
+    "image_id": "coco/410576/original",
+    "group_id": "coco/410576",
+    "source_image_id": 410576,
+    "variant": "original",
+    "role": "replace_a",
+    "foil": "teddy bear",
+    "foil_tier": 1,
+    "true_caption": "a photo showing a book and a laptop.",
+    "foil_caption": "a photo showing a teddy bear and a laptop.",
+    "captions": [
+      "a photo showing a book and a laptop.",
+      "a photo showing a teddy bear and a laptop."
+    ],
+    "true_index": 0
+  },
+  {
+    "sample_id": "coco/410576/original/replace_b",
+    "image_index": 0,
+    "image_id": "coco/410576/original",
+    "group_id": "coco/410576",
+    "source_image_id": 410576,
+    "variant": "original",
+    "role": "replace_b",
+    "foil": "cell phone",
+    "foil_tier": 1,
+    "true_caption": "a photo showing a book and a laptop.",
+    "foil_caption": "a photo showing a book and a cell phone.",
+    "captions": [
+      "a photo showing a book and a cell phone.",
+      "a photo showing a book and a laptop."
+    ],
+    "true_index": 1
+  },
+  {
+    "sample_id": "coco/410576/horizontal_flip/replace_a",
+    "image_index": 1,
+    "image_id": "coco/410576/horizontal_flip",
+    "group_id": "coco/410576",
+    "source_image_id": 410576,
+    "variant": "horizontal_flip",
+    "role": "replace_a",
+    "foil": "teddy bear",
+    "foil_tier": 1,
+    "true_caption": "a photo showing a book and a laptop.",
+    "foil_caption": "a photo showing a teddy bear and a laptop.",
+    "captions": [
+      "a photo showing a book and a laptop.",
+      "a photo showing a teddy bear and a laptop."
+    ],
+    "true_index": 0
+  },
+  {
+    "sample_id": "coco/410576/horizontal_flip/replace_b",
+    "image_index": 1,
+    "image_id": "coco/410576/horizontal_flip",
+    "group_id": "coco/410576",
+    "source_image_id": 410576,
+    "variant": "horizontal_flip",
+    "role": "replace_b",
+    "foil": "cell phone",
+    "foil_tier": 1,
+    "true_caption": "a photo showing a book and a laptop.",
+    "foil_caption": "a photo showing a book and a cell phone.",
+    "captions": [
+      "a photo showing a book and a cell phone.",
+      "a photo showing a book and a laptop."
+    ],
+    "true_index": 1
+  },
+  {
+    "sample_id": "coco/59225/original/replace_a",
+    "image_index": 2,
+    "image_id": "coco/59225/original",
+    "group_id": "coco/59225",
+    "source_image_id": 59225,
+    "variant": "original",
+    "role": "replace_a",
+    "foil": "stop sign",
+    "foil_tier": 1,
+    "true_caption": "a photo showing a parking meter and a person.",
+    "foil_caption": "a photo showing a stop sign and a person.",
+    "captions": [
+      "a photo showing a stop sign and a person.",
+      "a photo showing a parking meter and a person."
+    ],
+    "true_index": 1
+  },
+  {
+    "sample_id": "coco/59225/original/replace_b",
+    "image_index": 2,
+    "image_id": "coco/59225/original",
+    "group_id": "coco/59225",
+    "source_image_id": 59225,
+    "variant": "original",
+    "role": "replace_b",
+    "foil": "apple",
+    "foil_tier": 2,
+    "true_caption": "a photo showing a parking meter and a person.",
+    "foil_caption": "a photo showing a parking meter and an apple.",
+    "captions": [
+      "a photo showing a parking meter and a person.",
+      "a photo showing a parking meter and an apple."
+    ],
+    "true_index": 0
+  },
+  {
+    "sample_id": "coco/59225/horizontal_flip/replace_a",
+    "image_index": 3,
+    "image_id": "coco/59225/horizontal_flip",
+    "group_id": "coco/59225",
+    "source_image_id": 59225,
+    "variant": "horizontal_flip",
+    "role": "replace_a",
+    "foil": "stop sign",
+    "foil_tier": 1,
+    "true_caption": "a photo showing a parking meter and a person.",
+    "foil_caption": "a photo showing a stop sign and a person.",
+    "captions": [
+      "a photo showing a parking meter and a person.",
+      "a photo showing a stop sign and a person."
+    ],
+    "true_index": 0
+  },
+  {
+    "sample_id": "coco/59225/horizontal_flip/replace_b",
+    "image_index": 3,
+    "image_id": "coco/59225/horizontal_flip",
+    "group_id": "coco/59225",
+    "source_image_id": 59225,
+    "variant": "horizontal_flip",
+    "role": "replace_b",
+    "foil": "apple",
+    "foil_tier": 2,
+    "true_caption": "a photo showing a parking meter and a person.",
+    "foil_caption": "a photo showing a parking meter and an apple.",
+    "captions": [
+      "a photo showing a parking meter and a person.",
+      "a photo showing a parking meter and an apple."
+    ],
+    "true_index": 0
+  },
+  {
+    "sample_id": "coco/469471/original/replace_a",
+    "image_index": 4,
+    "image_id": "coco/469471/original",
+    "group_id": "coco/469471",
+    "source_image_id": 469471,
+    "variant": "original",
+    "role": "replace_a",
+    "foil": "bed",
+    "foil_tier": 1,
+    "true_caption": "a photo showing a toilet and a sink.",
+    "foil_caption": "a photo showing a bed and a sink.",
+    "captions": [
+      "a photo showing a bed and a sink.",
+      "a photo showing a toilet and a sink."
+    ],
+    "true_index": 1
+  },
+  {
+    "sample_id": "coco/469471/original/replace_b",
+    "image_index": 4,
+    "image_id": "coco/469471/original",
+    "group_id": "coco/469471",
+    "source_image_id": 469471,
+    "variant": "original",
+    "role": "replace_b",
+    "foil": "toaster",
+    "foil_tier": 1,
+    "true_caption": "a photo showing a toilet and a sink.",
+    "foil_caption": "a photo showing a toilet and a toaster.",
+    "captions": [
+      "a photo showing a toilet and a sink.",
+      "a photo showing a toilet and a toaster."
+    ],
+    "true_index": 0
+  },
+  {
+    "sample_id": "coco/469471/horizontal_flip/replace_a",
+    "image_index": 5,
+    "image_id": "coco/469471/horizontal_flip",
+    "group_id": "coco/469471",
+    "source_image_id": 469471,
+    "variant": "horizontal_flip",
+    "role": "replace_a",
+    "foil": "bed",
+    "foil_tier": 1,
+    "true_caption": "a photo showing a toilet and a sink.",
+    "foil_caption": "a photo showing a bed and a sink.",
+    "captions": [
+      "a photo showing a toilet and a sink.",
+      "a photo showing a bed and a sink."
+    ],
+    "true_index": 0
+  },
+  {
+    "sample_id": "coco/469471/horizontal_flip/replace_b",
+    "image_index": 5,
+    "image_id": "coco/469471/horizontal_flip",
+    "group_id": "coco/469471",
+    "source_image_id": 469471,
+    "variant": "horizontal_flip",
+    "role": "replace_b",
+    "foil": "toaster",
+    "foil_tier": 1,
+    "true_caption": "a photo showing a toilet and a sink.",
+    "foil_caption": "a photo showing a toilet and a toaster.",
+    "captions": [
+      "a photo showing a toilet and a sink.",
+      "a photo showing a toilet and a toaster."
+    ],
+    "true_index": 0
+  },
+  {
+    "sample_id": "coco/318174/original/replace_a",
+    "image_index": 6,
+    "image_id": "coco/318174/original",
+    "group_id": "coco/318174",
+    "source_image_id": 318174,
+    "variant": "original",
+    "role": "replace_a",
+    "foil": "mouse",
+    "foil_tier": 1,
+    "true_caption": "a photo showing a laptop and a cup.",
+    "foil_caption": "a photo showing a mouse and a cup.",
+    "captions": [
+      "a photo showing a mouse and a cup.",
+      "a photo showing a laptop and a cup."
+    ],
+    "true_index": 1
+  },
+  {
+    "sample_id": "coco/318174/original/replace_b",
+    "image_index": 6,
+    "image_id": "coco/318174/original",
+    "group_id": "coco/318174",
+    "source_image_id": 318174,
+    "variant": "original",
+    "role": "replace_b",
+    "foil": "fork",
+    "foil_tier": 1,
+    "true_caption": "a photo showing a laptop and a cup.",
+    "foil_caption": "a photo showing a laptop and a fork.",
+    "captions": [
+      "a photo showing a laptop and a fork.",
+      "a photo showing a laptop and a cup."
+    ],
+    "true_index": 1
+  },
+  {
+    "sample_id": "coco/318174/horizontal_flip/replace_a",
+    "image_index": 7,
+    "image_id": "coco/318174/horizontal_flip",
+    "group_id": "coco/318174",
+    "source_image_id": 318174,
+    "variant": "horizontal_flip",
+    "role": "replace_a",
+    "foil": "mouse",
+    "foil_tier": 1,
+    "true_caption": "a photo showing a laptop and a cup.",
+    "foil_caption": "a photo showing a mouse and a cup.",
+    "captions": [
+      "a photo showing a laptop and a cup.",
+      "a photo showing a mouse and a cup."
+    ],
+    "true_index": 0
+  },
+  {
+    "sample_id": "coco/318174/horizontal_flip/replace_b",
+    "image_index": 7,
+    "image_id": "coco/318174/horizontal_flip",
+    "group_id": "coco/318174",
+    "source_image_id": 318174,
+    "variant": "horizontal_flip",
+    "role": "replace_b",
+    "foil": "fork",
+    "foil_tier": 1,
+    "true_caption": "a photo showing a laptop and a cup.",
+    "foil_caption": "a photo showing a laptop and a fork.",
+    "captions": [
+      "a photo showing a laptop and a cup.",
+      "a photo showing a laptop and a fork."
+    ],
+    "true_index": 0
+  },
+  {
+    "sample_id": "coco/19916/original/replace_a",
+    "image_index": 8,
+    "image_id": "coco/19916/original",
+    "group_id": "coco/19916",
+    "source_image_id": 19916,
+    "variant": "original",
+    "role": "replace_a",
+    "foil": "spoon",
+    "foil_tier": 1,
+    "true_caption": "a photo showing a fork and a bowl.",
+    "foil_caption": "a photo showing a spoon and a bowl.",
+    "captions": [
+      "a photo showing a fork and a bowl.",
+      "a photo showing a spoon and a bowl."
+    ],
+    "true_index": 0
+  },
+  {
+    "sample_id": "coco/19916/original/replace_b",
+    "image_index": 8,
+    "image_id": "coco/19916/original",
+    "group_id": "coco/19916",
+    "source_image_id": 19916,
+    "variant": "original",
+    "role": "replace_b",
+    "foil": "knife",
+    "foil_tier": 1,
+    "true_caption": "a photo showing a fork and a bowl.",
+    "foil_caption": "a photo showing a fork and a knife.",
+    "captions": [
+      "a photo showing a fork and a knife.",
+      "a photo showing a fork and a bowl."
+    ],
+    "true_index": 1
+  },
+  {
+    "sample_id": "coco/19916/horizontal_flip/replace_a",
+    "image_index": 9,
+    "image_id": "coco/19916/horizontal_flip",
+    "group_id": "coco/19916",
+    "source_image_id": 19916,
+    "variant": "horizontal_flip",
+    "role": "replace_a",
+    "foil": "spoon",
+    "foil_tier": 1,
+    "true_caption": "a photo showing a fork and a bowl.",
+    "foil_caption": "a photo showing a spoon and a bowl.",
+    "captions": [
+      "a photo showing a spoon and a bowl.",
+      "a photo showing a fork and a bowl."
+    ],
+    "true_index": 1
+  },
+  {
+    "sample_id": "coco/19916/horizontal_flip/replace_b",
+    "image_index": 9,
+    "image_id": "coco/19916/horizontal_flip",
+    "group_id": "coco/19916",
+    "source_image_id": 19916,
+    "variant": "horizontal_flip",
+    "role": "replace_b",
+    "foil": "knife",
+    "foil_tier": 1,
+    "true_caption": "a photo showing a fork and a bowl.",
+    "foil_caption": "a photo showing a fork and a knife.",
+    "captions": [
+      "a photo showing a fork and a bowl.",
+      "a photo showing a fork and a knife."
+    ],
+    "true_index": 0
+  },
+  {
+    "sample_id": "coco/364444/original/replace_a",
+    "image_index": 10,
+    "image_id": "coco/364444/original",
+    "group_id": "coco/364444",
+    "source_image_id": 364444,
+    "variant": "original",
+    "role": "replace_a",
+    "foil": "cell phone",
+    "foil_tier": 1,
+    "true_caption": "a photo showing a keyboard and a laptop.",
+    "foil_caption": "a photo showing a cell phone and a laptop.",
+    "captions": [
+      "a photo showing a cell phone and a laptop.",
+      "a photo showing a keyboard and a laptop."
+    ],
+    "true_index": 1
+  },
+  {
+    "sample_id": "coco/364444/original/replace_b",
+    "image_index": 10,
+    "image_id": "coco/364444/original",
+    "group_id": "coco/364444",
+    "source_image_id": 364444,
+    "variant": "original",
+    "role": "replace_b",
+    "foil": "remote",
+    "foil_tier": 1,
+    "true_caption": "a photo showing a keyboard and a laptop.",
+    "foil_caption": "a photo showing a keyboard and a remote.",
+    "captions": [
+      "a photo showing a keyboard and a laptop.",
+      "a photo showing a keyboard and a remote."
+    ],
+    "true_index": 0
+  },
+  {
+    "sample_id": "coco/364444/horizontal_flip/replace_a",
+    "image_index": 11,
+    "image_id": "coco/364444/horizontal_flip",
+    "group_id": "coco/364444",
+    "source_image_id": 364444,
+    "variant": "horizontal_flip",
+    "role": "replace_a",
+    "foil": "cell phone",
+    "foil_tier": 1,
+    "true_caption": "a photo showing a keyboard and a laptop.",
+    "foil_caption": "a photo showing a cell phone and a laptop.",
+    "captions": [
+      "a photo showing a cell phone and a laptop.",
+      "a photo showing a keyboard and a laptop."
+    ],
+    "true_index": 1
+  },
+  {
+    "sample_id": "coco/364444/horizontal_flip/replace_b",
+    "image_index": 11,
+    "image_id": "coco/364444/horizontal_flip",
+    "group_id": "coco/364444",
+    "source_image_id": 364444,
+    "variant": "horizontal_flip",
+    "role": "replace_b",
+    "foil": "remote",
+    "foil_tier": 1,
+    "true_caption": "a photo showing a keyboard and a laptop.",
+    "foil_caption": "a photo showing a keyboard and a remote.",
+    "captions": [
+      "a photo showing a keyboard and a laptop.",
+      "a photo showing a keyboard and a remote."
+    ],
+    "true_index": 0
+  },
+  {
+    "sample_id": "coco/273002/original/replace_a",
+    "image_index": 12,
+    "image_id": "coco/273002/original",
+    "group_id": "coco/273002",
+    "source_image_id": 273002,
+    "variant": "original",
+    "role": "replace_a",
+    "foil": "keyboard",
+    "foil_tier": 2,
+    "true_caption": "a photo showing a person and a chair.",
+    "foil_caption": "a photo showing a keyboard and a chair.",
+    "captions": [
+      "a photo showing a keyboard and a chair.",
+      "a photo showing a person and a chair."
+    ],
+    "true_index": 1
+  },
+  {
+    "sample_id": "coco/273002/original/replace_b",
+    "image_index": 12,
+    "image_id": "coco/273002/original",
+    "group_id": "coco/273002",
+    "source_image_id": 273002,
+    "variant": "original",
+    "role": "replace_b",
+    "foil": "bed",
+    "foil_tier": 1,
+    "true_caption": "a photo showing a person and a chair.",
+    "foil_caption": "a photo showing a person and a bed.",
+    "captions": [
+      "a photo showing a person and a chair.",
+      "a photo showing a person and a bed."
+    ],
+    "true_index": 0
+  },
+  {
+    "sample_id": "coco/273002/horizontal_flip/replace_a",
+    "image_index": 13,
+    "image_id": "coco/273002/horizontal_flip",
+    "group_id": "coco/273002",
+    "source_image_id": 273002,
+    "variant": "horizontal_flip",
+    "role": "replace_a",
+    "foil": "keyboard",
+    "foil_tier": 2,
+    "true_caption": "a photo showing a person and a chair.",
+    "foil_caption": "a photo showing a keyboard and a chair.",
+    "captions": [
+      "a photo showing a keyboard and a chair.",
+      "a photo showing a person and a chair."
+    ],
+    "true_index": 1
+  },
+  {
+    "sample_id": "coco/273002/horizontal_flip/replace_b",
+    "image_index": 13,
+    "image_id": "coco/273002/horizontal_flip",
+    "group_id": "coco/273002",
+    "source_image_id": 273002,
+    "variant": "horizontal_flip",
+    "role": "replace_b",
+    "foil": "bed",
+    "foil_tier": 1,
+    "true_caption": "a photo showing a person and a chair.",
+    "foil_caption": "a photo showing a person and a bed.",
+    "captions": [
+      "a photo showing a person and a chair.",
+      "a photo showing a person and a bed."
+    ],
+    "true_index": 0
+  },
+  {
+    "sample_id": "coco/185614/original/replace_a",
+    "image_index": 14,
+    "image_id": "coco/185614/original",
+    "group_id": "coco/185614",
+    "source_image_id": 185614,
+    "variant": "original",
+    "role": "replace_a",
+    "foil": "knife",
+    "foil_tier": 1,
+    "true_caption": "a photo showing a wine glass and a bowl.",
+    "foil_caption": "a photo showing a knife and a bowl.",
+    "captions": [
+      "a photo showing a knife and a bowl.",
+      "a photo showing a wine glass and a bowl."
+    ],
+    "true_index": 1
+  },
+  {
+    "sample_id": "coco/185614/original/replace_b",
+    "image_index": 14,
+    "image_id": "coco/185614/original",
+    "group_id": "coco/185614",
+    "source_image_id": 185614,
+    "variant": "original",
+    "role": "replace_b",
+    "foil": "knife",
+    "foil_tier": 1,
+    "true_caption": "a photo showing a wine glass and a bowl.",
+    "foil_caption": "a photo showing a wine glass and a knife.",
+    "captions": [
+      "a photo showing a wine glass and a bowl.",
+      "a photo showing a wine glass and a knife."
+    ],
+    "true_index": 0
+  },
+  {
+    "sample_id": "coco/185614/horizontal_flip/replace_a",
+    "image_index": 15,
+    "image_id": "coco/185614/horizontal_flip",
+    "group_id": "coco/185614",
+    "source_image_id": 185614,
+    "variant": "horizontal_flip",
+    "role": "replace_a",
+    "foil": "knife",
+    "foil_tier": 1,
+    "true_caption": "a photo showing a wine glass and a bowl.",
+    "foil_caption": "a photo showing a knife and a bowl.",
+    "captions": [
+      "a photo showing a knife and a bowl.",
+      "a photo showing a wine glass and a bowl."
+    ],
+    "true_index": 1
+  },
+  {
+    "sample_id": "coco/185614/horizontal_flip/replace_b",
+    "image_index": 15,
+    "image_id": "coco/185614/horizontal_flip",
+    "group_id": "coco/185614",
+    "source_image_id": 185614,
+    "variant": "horizontal_flip",
+    "role": "replace_b",
+    "foil": "knife",
+    "foil_tier": 1,
+    "true_caption": "a photo showing a wine glass and a bowl.",
+    "foil_caption": "a photo showing a wine glass and a knife.",
+    "captions": [
+      "a photo showing a wine glass and a knife.",
+      "a photo showing a wine glass and a bowl."
+    ],
+    "true_index": 1
+  }
+]
