@@ -45,6 +45,12 @@ IAA_FIELDS = (
     'perceived_relation',
 )
 
+DISAGREEMENT_FIELDS = [
+    'blind_id', 'source_image_id', 'object_a', 'object_b', 'expected_relation',
+    'differing_fields', 'r1_accept', 'r2_accept', 'r1_perceived', 'r2_perceived',
+    'r1_reason', 'r2_reason', 'r1_notes', 'r2_notes',
+]
+
 R2_GUIDE_VI = """# Hướng dẫn chấm độc lập lần 2 (R2) — Set B (100 nguồn COCO)
 
 1. **Nguyên tắc độc lập & mù hoàn toàn:** Người chấm **R2 bắt buộc phải là thành viên khác với R1** (người đã chấm vòng trước), chưa từng xem quyết định của R1 và chưa xem bất kỳ điểm số/dự đoán nào của CLIP. Ghi mã người chấm vào cột `annotator_id` là `R2` (hoặc tên/mã riêng khác `R1`).
@@ -413,7 +419,10 @@ def run():
     metrics, disagreements, membership = calculate_iaa()
     OUTPUT.mkdir(parents=True, exist_ok=True)
     write_json(OUTPUT / 'metrics.json', metrics)
-    write_csv(OUTPUT / 'disagreements.csv', disagreements)
+    with (OUTPUT / 'disagreements.csv').open('w', encoding='utf-8', newline='') as f:
+        writer = csv.DictWriter(f, fieldnames=DISAGREEMENT_FIELDS)
+        writer.writeheader()
+        writer.writerows(disagreements)
     write_csv(OUTPUT / 'r1_r2_membership.csv', membership)
     inputs = [
         R1_FREEZE,

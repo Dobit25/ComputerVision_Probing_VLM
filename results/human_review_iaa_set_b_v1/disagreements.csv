@@ -1,0 +1,3 @@
+blind_id,source_image_id,object_a,object_b,expected_relation,differing_fields,r1_accept,r2_accept,r1_perceived,r2_perceived,r1_reason,r2_reason,r1_notes,r2_notes
+CONFIRMATION_100_006,434930,donut,chair,left,overall_accept;class_names_correct,no,yes,left,left,AMBIGUOUS_LABEL,,,
+CONFIRMATION_100_092,365208,person,chair,right,overall_accept;both_objects_visible;class_names_correct,no,yes,right,right,OCCLUDED_OR_TINY,,,
