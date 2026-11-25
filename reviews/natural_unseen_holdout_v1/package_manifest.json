@@ -1,0 +1,17 @@
+{
+  "study": "natural_unseen_holdout_v1",
+  "prepared_at_utc": "2026-11-25T07:54:21.223243+00:00",
+  "n_candidates": 160,
+  "quotas": {
+    "1": 80,
+    "0": 80
+  },
+  "review_completed": false,
+  "scores_used": false,
+  "zero_overlap_verified": true,
+  "reviewer_zip_local_path": "data/natural_unseen_holdout_v1/reviewer_package_set_c.zip",
+  "zip_sha256": "458f04bd9feaceef4dcb47707cd8594bde5f3c47e7cb3556ecf49de36f7d3f78",
+  "html_sha256": "5bbfe65f266d3d1f5ef1f5b9b0810809baecc8b983e333c277d4c020142d06c8",
+  "ra_blank_sha256": "2b004dc201018dbd1c53dc0f09100e04deb62b01121e18bd16f510d42502e206",
+  "rb_blank_sha256": "2b004dc201018dbd1c53dc0f09100e04deb62b01121e18bd16f510d42502e206"
+}
