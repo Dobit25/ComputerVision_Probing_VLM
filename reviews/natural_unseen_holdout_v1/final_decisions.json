@@ -1,0 +1,1282 @@
+[
+  {
+    "blind_id": "UNSEEN_C_001",
+    "source_image_id": 122937,
+    "ra_accept": "yes",
+    "rb_accept": "yes",
+    "decision_type": "consensus",
+    "final_accept": true
+  },
+  {
+    "blind_id": "UNSEEN_C_002",
+    "source_image_id": 238641,
+    "ra_accept": "yes",
+    "rb_accept": "yes",
+    "decision_type": "consensus",
+    "final_accept": true
+  },
+  {
+    "blind_id": "UNSEEN_C_003",
+    "source_image_id": 35361,
+    "ra_accept": "yes",
+    "rb_accept": "no",
+    "decision_type": "adjudicated",
+    "final_accept": false
+  },
+  {
+    "blind_id": "UNSEEN_C_004",
+    "source_image_id": 401703,
+    "ra_accept": "yes",
+    "rb_accept": "yes",
+    "decision_type": "consensus",
+    "final_accept": true
+  },
+  {
+    "blind_id": "UNSEEN_C_005",
+    "source_image_id": 257071,
+    "ra_accept": "yes",
+    "rb_accept": "yes",
+    "decision_type": "consensus",
+    "final_accept": true
+  },
+  {
+    "blind_id": "UNSEEN_C_006",
+    "source_image_id": 144881,
+    "ra_accept": "yes",
+    "rb_accept": "yes",
+    "decision_type": "consensus",
+    "final_accept": true
+  },
+  {
+    "blind_id": "UNSEEN_C_007",
+    "source_image_id": 1360,
+    "ra_accept": "yes",
+    "rb_accept": "yes",
+    "decision_type": "consensus",
+    "final_accept": true
+  },
+  {
+    "blind_id": "UNSEEN_C_008",
+    "source_image_id": 58553,
+    "ra_accept": "yes",
+    "rb_accept": "yes",
+    "decision_type": "consensus",
+    "final_accept": true
+  },
+  {
+    "blind_id": "UNSEEN_C_009",
+    "source_image_id": 282042,
+    "ra_accept": "yes",
+    "rb_accept": "yes",
+    "decision_type": "consensus",
+    "final_accept": true
+  },
+  {
+    "blind_id": "UNSEEN_C_010",
+    "source_image_id": 379508,
+    "ra_accept": "yes",
+    "rb_accept": "yes",
+    "decision_type": "consensus",
+    "final_accept": true
+  },
+  {
+    "blind_id": "UNSEEN_C_011",
+    "source_image_id": 251569,
+    "ra_accept": "yes",
+    "rb_accept": "yes",
+    "decision_type": "consensus",
+    "final_accept": true
+  },
+  {
+    "blind_id": "UNSEEN_C_012",
+    "source_image_id": 343215,
+    "ra_accept": "yes",
+    "rb_accept": "yes",
+    "decision_type": "consensus",
+    "final_accept": true
+  },
+  {
+    "blind_id": "UNSEEN_C_013",
+    "source_image_id": 166621,
+    "ra_accept": "yes",
+    "rb_accept": "yes",
+    "decision_type": "consensus",
+    "final_accept": true
+  },
+  {
+    "blind_id": "UNSEEN_C_014",
+    "source_image_id": 293346,
+    "ra_accept": "yes",
+    "rb_accept": "yes",
+    "decision_type": "consensus",
+    "final_accept": true
+  },
+  {
+    "blind_id": "UNSEEN_C_015",
+    "source_image_id": 18093,
+    "ra_accept": "yes",
+    "rb_accept": "yes",
+    "decision_type": "consensus",
+    "final_accept": true
+  },
+  {
+    "blind_id": "UNSEEN_C_016",
+    "source_image_id": 131735,
+    "ra_accept": "yes",
+    "rb_accept": "yes",
+    "decision_type": "consensus",
+    "final_accept": true
+  },
+  {
+    "blind_id": "UNSEEN_C_017",
+    "source_image_id": 354012,
+    "ra_accept": "yes",
+    "rb_accept": "yes",
+    "decision_type": "consensus",
+    "final_accept": true
+  },
+  {
+    "blind_id": "UNSEEN_C_018",
+    "source_image_id": 206542,
+    "ra_accept": "yes",
+    "rb_accept": "yes",
+    "decision_type": "consensus",
+    "final_accept": true
+  },
+  {
+    "blind_id": "UNSEEN_C_019",
+    "source_image_id": 136245,
+    "ra_accept": "yes",
+    "rb_accept": "yes",
+    "decision_type": "consensus",
+    "final_accept": true
+  },
+  {
+    "blind_id": "UNSEEN_C_020",
+    "source_image_id": 298360,
+    "ra_accept": "yes",
+    "rb_accept": "yes",
+    "decision_type": "consensus",
+    "final_accept": true
+  },
+  {
+    "blind_id": "UNSEEN_C_021",
+    "source_image_id": 549644,
+    "ra_accept": "yes",
+    "rb_accept": "yes",
+    "decision_type": "consensus",
+    "final_accept": true
+  },
+  {
+    "blind_id": "UNSEEN_C_022",
+    "source_image_id": 441720,
+    "ra_accept": "yes",
+    "rb_accept": "yes",
+    "decision_type": "consensus",
+    "final_accept": true
+  },
+  {
+    "blind_id": "UNSEEN_C_023",
+    "source_image_id": 36567,
+    "ra_accept": "yes",
+    "rb_accept": "yes",
+    "decision_type": "consensus",
+    "final_accept": true
+  },
+  {
+    "blind_id": "UNSEEN_C_024",
+    "source_image_id": 128649,
+    "ra_accept": "yes",
+    "rb_accept": "yes",
+    "decision_type": "consensus",
+    "final_accept": true
+  },
+  {
+    "blind_id": "UNSEEN_C_025",
+    "source_image_id": 373395,
+    "ra_accept": "yes",
+    "rb_accept": "yes",
+    "decision_type": "consensus",
+    "final_accept": true
+  },
+  {
+    "blind_id": "UNSEEN_C_026",
+    "source_image_id": 581009,
+    "ra_accept": "no",
+    "rb_accept": "no",
+    "decision_type": "consensus",
+    "final_accept": false
+  },
+  {
+    "blind_id": "UNSEEN_C_027",
+    "source_image_id": 154616,
+    "ra_accept": "yes",
+    "rb_accept": "yes",
+    "decision_type": "consensus",
+    "final_accept": true
+  },
+  {
+    "blind_id": "UNSEEN_C_028",
+    "source_image_id": 560088,
+    "ra_accept": "yes",
+    "rb_accept": "yes",
+    "decision_type": "consensus",
+    "final_accept": true
+  },
+  {
+    "blind_id": "UNSEEN_C_029",
+    "source_image_id": 210729,
+    "ra_accept": "yes",
+    "rb_accept": "yes",
+    "decision_type": "consensus",
+    "final_accept": true
+  },
+  {
+    "blind_id": "UNSEEN_C_030",
+    "source_image_id": 515754,
+    "ra_accept": "yes",
+    "rb_accept": "yes",
+    "decision_type": "consensus",
+    "final_accept": true
+  },
+  {
+    "blind_id": "UNSEEN_C_031",
+    "source_image_id": 242677,
+    "ra_accept": "yes",
+    "rb_accept": "yes",
+    "decision_type": "consensus",
+    "final_accept": true
+  },
+  {
+    "blind_id": "UNSEEN_C_032",
+    "source_image_id": 478351,
+    "ra_accept": "yes",
+    "rb_accept": "yes",
+    "decision_type": "consensus",
+    "final_accept": true
+  },
+  {
+    "blind_id": "UNSEEN_C_033",
+    "source_image_id": 329150,
+    "ra_accept": "yes",
+    "rb_accept": "yes",
+    "decision_type": "consensus",
+    "final_accept": true
+  },
+  {
+    "blind_id": "UNSEEN_C_034",
+    "source_image_id": 468830,
+    "ra_accept": "yes",
+    "rb_accept": "yes",
+    "decision_type": "consensus",
+    "final_accept": true
+  },
+  {
+    "blind_id": "UNSEEN_C_035",
+    "source_image_id": 264363,
+    "ra_accept": "yes",
+    "rb_accept": "yes",
+    "decision_type": "consensus",
+    "final_accept": true
+  },
+  {
+    "blind_id": "UNSEEN_C_036",
+    "source_image_id": 49037,
+    "ra_accept": "yes",
+    "rb_accept": "no",
+    "decision_type": "adjudicated",
+    "final_accept": false
+  },
+  {
+    "blind_id": "UNSEEN_C_037",
+    "source_image_id": 532916,
+    "ra_accept": "yes",
+    "rb_accept": "yes",
+    "decision_type": "consensus",
+    "final_accept": true
+  },
+  {
+    "blind_id": "UNSEEN_C_038",
+    "source_image_id": 540723,
+    "ra_accept": "yes",
+    "rb_accept": "yes",
+    "decision_type": "consensus",
+    "final_accept": true
+  },
+  {
+    "blind_id": "UNSEEN_C_039",
+    "source_image_id": 12440,
+    "ra_accept": "yes",
+    "rb_accept": "yes",
+    "decision_type": "consensus",
+    "final_accept": true
+  },
+  {
+    "blind_id": "UNSEEN_C_040",
+    "source_image_id": 487589,
+    "ra_accept": "yes",
+    "rb_accept": "yes",
+    "decision_type": "consensus",
+    "final_accept": true
+  },
+  {
+    "blind_id": "UNSEEN_C_041",
+    "source_image_id": 237225,
+    "ra_accept": "yes",
+    "rb_accept": "yes",
+    "decision_type": "consensus",
+    "final_accept": true
+  },
+  {
+    "blind_id": "UNSEEN_C_042",
+    "source_image_id": 205556,
+    "ra_accept": "yes",
+    "rb_accept": "yes",
+    "decision_type": "consensus",
+    "final_accept": true
+  },
+  {
+    "blind_id": "UNSEEN_C_043",
+    "source_image_id": 421393,
+    "ra_accept": "yes",
+    "rb_accept": "no",
+    "decision_type": "adjudicated",
+    "final_accept": false
+  },
+  {
+    "blind_id": "UNSEEN_C_044",
+    "source_image_id": 11497,
+    "ra_accept": "yes",
+    "rb_accept": "yes",
+    "decision_type": "consensus",
+    "final_accept": true
+  },
+  {
+    "blind_id": "UNSEEN_C_045",
+    "source_image_id": 85886,
+    "ra_accept": "yes",
+    "rb_accept": "yes",
+    "decision_type": "consensus",
+    "final_accept": true
+  },
+  {
+    "blind_id": "UNSEEN_C_046",
+    "source_image_id": 50018,
+    "ra_accept": "yes",
+    "rb_accept": "yes",
+    "decision_type": "consensus",
+    "final_accept": true
+  },
+  {
+    "blind_id": "UNSEEN_C_047",
+    "source_image_id": 145140,
+    "ra_accept": "yes",
+    "rb_accept": "yes",
+    "decision_type": "consensus",
+    "final_accept": true
+  },
+  {
+    "blind_id": "UNSEEN_C_048",
+    "source_image_id": 62608,
+    "ra_accept": "yes",
+    "rb_accept": "yes",
+    "decision_type": "consensus",
+    "final_accept": true
+  },
+  {
+    "blind_id": "UNSEEN_C_049",
+    "source_image_id": 511781,
+    "ra_accept": "yes",
+    "rb_accept": "yes",
+    "decision_type": "consensus",
+    "final_accept": true
+  },
+  {
+    "blind_id": "UNSEEN_C_050",
+    "source_image_id": 157242,
+    "ra_accept": "yes",
+    "rb_accept": "yes",
+    "decision_type": "consensus",
+    "final_accept": true
+  },
+  {
+    "blind_id": "UNSEEN_C_051",
+    "source_image_id": 361437,
+    "ra_accept": "yes",
+    "rb_accept": "yes",
+    "decision_type": "consensus",
+    "final_accept": true
+  },
+  {
+    "blind_id": "UNSEEN_C_052",
+    "source_image_id": 165542,
+    "ra_accept": "yes",
+    "rb_accept": "yes",
+    "decision_type": "consensus",
+    "final_accept": true
+  },
+  {
+    "blind_id": "UNSEEN_C_053",
+    "source_image_id": 525668,
+    "ra_accept": "yes",
+    "rb_accept": "yes",
+    "decision_type": "consensus",
+    "final_accept": true
+  },
+  {
+    "blind_id": "UNSEEN_C_054",
+    "source_image_id": 414684,
+    "ra_accept": "yes",
+    "rb_accept": "yes",
+    "decision_type": "consensus",
+    "final_accept": true
+  },
+  {
+    "blind_id": "UNSEEN_C_055",
+    "source_image_id": 290597,
+    "ra_accept": "yes",
+    "rb_accept": "yes",
+    "decision_type": "consensus",
+    "final_accept": true
+  },
+  {
+    "blind_id": "UNSEEN_C_056",
+    "source_image_id": 295630,
+    "ra_accept": "yes",
+    "rb_accept": "yes",
+    "decision_type": "consensus",
+    "final_accept": true
+  },
+  {
+    "blind_id": "UNSEEN_C_057",
+    "source_image_id": 126815,
+    "ra_accept": "no",
+    "rb_accept": "no",
+    "decision_type": "consensus",
+    "final_accept": false
+  },
+  {
+    "blind_id": "UNSEEN_C_058",
+    "source_image_id": 521314,
+    "ra_accept": "yes",
+    "rb_accept": "yes",
+    "decision_type": "consensus",
+    "final_accept": true
+  },
+  {
+    "blind_id": "UNSEEN_C_059",
+    "source_image_id": 34831,
+    "ra_accept": "yes",
+    "rb_accept": "yes",
+    "decision_type": "consensus",
+    "final_accept": true
+  },
+  {
+    "blind_id": "UNSEEN_C_060",
+    "source_image_id": 577283,
+    "ra_accept": "yes",
+    "rb_accept": "yes",
+    "decision_type": "consensus",
+    "final_accept": true
+  },
+  {
+    "blind_id": "UNSEEN_C_061",
+    "source_image_id": 147187,
+    "ra_accept": "yes",
+    "rb_accept": "yes",
+    "decision_type": "consensus",
+    "final_accept": true
+  },
+  {
+    "blind_id": "UNSEEN_C_062",
+    "source_image_id": 343319,
+    "ra_accept": "yes",
+    "rb_accept": "yes",
+    "decision_type": "consensus",
+    "final_accept": true
+  },
+  {
+    "blind_id": "UNSEEN_C_063",
+    "source_image_id": 504896,
+    "ra_accept": "yes",
+    "rb_accept": "yes",
+    "decision_type": "consensus",
+    "final_accept": true
+  },
+  {
+    "blind_id": "UNSEEN_C_064",
+    "source_image_id": 320943,
+    "ra_accept": "yes",
+    "rb_accept": "yes",
+    "decision_type": "consensus",
+    "final_accept": true
+  },
+  {
+    "blind_id": "UNSEEN_C_065",
+    "source_image_id": 308468,
+    "ra_accept": "yes",
+    "rb_accept": "no",
+    "decision_type": "adjudicated",
+    "final_accept": false
+  },
+  {
+    "blind_id": "UNSEEN_C_066",
+    "source_image_id": 344921,
+    "ra_accept": "yes",
+    "rb_accept": "yes",
+    "decision_type": "consensus",
+    "final_accept": true
+  },
+  {
+    "blind_id": "UNSEEN_C_067",
+    "source_image_id": 355182,
+    "ra_accept": "yes",
+    "rb_accept": "yes",
+    "decision_type": "consensus",
+    "final_accept": true
+  },
+  {
+    "blind_id": "UNSEEN_C_068",
+    "source_image_id": 92331,
+    "ra_accept": "yes",
+    "rb_accept": "yes",
+    "decision_type": "consensus",
+    "final_accept": true
+  },
+  {
+    "blind_id": "UNSEEN_C_069",
+    "source_image_id": 390494,
+    "ra_accept": "yes",
+    "rb_accept": "yes",
+    "decision_type": "consensus",
+    "final_accept": true
+  },
+  {
+    "blind_id": "UNSEEN_C_070",
+    "source_image_id": 218179,
+    "ra_accept": "yes",
+    "rb_accept": "yes",
+    "decision_type": "consensus",
+    "final_accept": true
+  },
+  {
+    "blind_id": "UNSEEN_C_071",
+    "source_image_id": 436539,
+    "ra_accept": "yes",
+    "rb_accept": "yes",
+    "decision_type": "consensus",
+    "final_accept": true
+  },
+  {
+    "blind_id": "UNSEEN_C_072",
+    "source_image_id": 543833,
+    "ra_accept": "yes",
+    "rb_accept": "no",
+    "decision_type": "adjudicated",
+    "final_accept": false
+  },
+  {
+    "blind_id": "UNSEEN_C_073",
+    "source_image_id": 34423,
+    "ra_accept": "yes",
+    "rb_accept": "no",
+    "decision_type": "adjudicated",
+    "final_accept": false
+  },
+  {
+    "blind_id": "UNSEEN_C_074",
+    "source_image_id": 386640,
+    "ra_accept": "yes",
+    "rb_accept": "yes",
+    "decision_type": "consensus",
+    "final_accept": true
+  },
+  {
+    "blind_id": "UNSEEN_C_075",
+    "source_image_id": 483305,
+    "ra_accept": "yes",
+    "rb_accept": "yes",
+    "decision_type": "consensus",
+    "final_accept": true
+  },
+  {
+    "blind_id": "UNSEEN_C_076",
+    "source_image_id": 572786,
+    "ra_accept": "no",
+    "rb_accept": "no",
+    "decision_type": "consensus",
+    "final_accept": false
+  },
+  {
+    "blind_id": "UNSEEN_C_077",
+    "source_image_id": 74114,
+    "ra_accept": "yes",
+    "rb_accept": "yes",
+    "decision_type": "consensus",
+    "final_accept": true
+  },
+  {
+    "blind_id": "UNSEEN_C_078",
+    "source_image_id": 158107,
+    "ra_accept": "yes",
+    "rb_accept": "yes",
+    "decision_type": "consensus",
+    "final_accept": true
+  },
+  {
+    "blind_id": "UNSEEN_C_079",
+    "source_image_id": 256189,
+    "ra_accept": "yes",
+    "rb_accept": "yes",
+    "decision_type": "consensus",
+    "final_accept": true
+  },
+  {
+    "blind_id": "UNSEEN_C_080",
+    "source_image_id": 170406,
+    "ra_accept": "yes",
+    "rb_accept": "yes",
+    "decision_type": "consensus",
+    "final_accept": true
+  },
+  {
+    "blind_id": "UNSEEN_C_081",
+    "source_image_id": 191609,
+    "ra_accept": "yes",
+    "rb_accept": "yes",
+    "decision_type": "consensus",
+    "final_accept": true
+  },
+  {
+    "blind_id": "UNSEEN_C_082",
+    "source_image_id": 313971,
+    "ra_accept": "yes",
+    "rb_accept": "yes",
+    "decision_type": "consensus",
+    "final_accept": true
+  },
+  {
+    "blind_id": "UNSEEN_C_083",
+    "source_image_id": 110488,
+    "ra_accept": "yes",
+    "rb_accept": "yes",
+    "decision_type": "consensus",
+    "final_accept": true
+  },
+  {
+    "blind_id": "UNSEEN_C_084",
+    "source_image_id": 110034,
+    "ra_accept": "yes",
+    "rb_accept": "yes",
+    "decision_type": "consensus",
+    "final_accept": true
+  },
+  {
+    "blind_id": "UNSEEN_C_085",
+    "source_image_id": 374904,
+    "ra_accept": "no",
+    "rb_accept": "no",
+    "decision_type": "consensus",
+    "final_accept": false
+  },
+  {
+    "blind_id": "UNSEEN_C_086",
+    "source_image_id": 149623,
+    "ra_accept": "yes",
+    "rb_accept": "yes",
+    "decision_type": "consensus",
+    "final_accept": true
+  },
+  {
+    "blind_id": "UNSEEN_C_087",
+    "source_image_id": 29931,
+    "ra_accept": "yes",
+    "rb_accept": "no",
+    "decision_type": "adjudicated",
+    "final_accept": false
+  },
+  {
+    "blind_id": "UNSEEN_C_088",
+    "source_image_id": 453629,
+    "ra_accept": "no",
+    "rb_accept": "no",
+    "decision_type": "consensus",
+    "final_accept": false
+  },
+  {
+    "blind_id": "UNSEEN_C_089",
+    "source_image_id": 563342,
+    "ra_accept": "no",
+    "rb_accept": "no",
+    "decision_type": "consensus",
+    "final_accept": false
+  },
+  {
+    "blind_id": "UNSEEN_C_090",
+    "source_image_id": 369126,
+    "ra_accept": "yes",
+    "rb_accept": "yes",
+    "decision_type": "consensus",
+    "final_accept": true
+  },
+  {
+    "blind_id": "UNSEEN_C_091",
+    "source_image_id": 237996,
+    "ra_accept": "yes",
+    "rb_accept": "yes",
+    "decision_type": "consensus",
+    "final_accept": true
+  },
+  {
+    "blind_id": "UNSEEN_C_092",
+    "source_image_id": 366724,
+    "ra_accept": "yes",
+    "rb_accept": "yes",
+    "decision_type": "consensus",
+    "final_accept": true
+  },
+  {
+    "blind_id": "UNSEEN_C_093",
+    "source_image_id": 277998,
+    "ra_accept": "yes",
+    "rb_accept": "yes",
+    "decision_type": "consensus",
+    "final_accept": true
+  },
+  {
+    "blind_id": "UNSEEN_C_094",
+    "source_image_id": 241342,
+    "ra_accept": "no",
+    "rb_accept": "no",
+    "decision_type": "consensus",
+    "final_accept": false
+  },
+  {
+    "blind_id": "UNSEEN_C_095",
+    "source_image_id": 30752,
+    "ra_accept": "yes",
+    "rb_accept": "yes",
+    "decision_type": "consensus",
+    "final_accept": true
+  },
+  {
+    "blind_id": "UNSEEN_C_096",
+    "source_image_id": 381216,
+    "ra_accept": "yes",
+    "rb_accept": "yes",
+    "decision_type": "consensus",
+    "final_accept": true
+  },
+  {
+    "blind_id": "UNSEEN_C_097",
+    "source_image_id": 521867,
+    "ra_accept": "no",
+    "rb_accept": "no",
+    "decision_type": "consensus",
+    "final_accept": false
+  },
+  {
+    "blind_id": "UNSEEN_C_098",
+    "source_image_id": 458592,
+    "ra_accept": "yes",
+    "rb_accept": "yes",
+    "decision_type": "consensus",
+    "final_accept": true
+  },
+  {
+    "blind_id": "UNSEEN_C_099",
+    "source_image_id": 8086,
+    "ra_accept": "yes",
+    "rb_accept": "yes",
+    "decision_type": "consensus",
+    "final_accept": true
+  },
+  {
+    "blind_id": "UNSEEN_C_100",
+    "source_image_id": 189005,
+    "ra_accept": "yes",
+    "rb_accept": "yes",
+    "decision_type": "consensus",
+    "final_accept": true
+  },
+  {
+    "blind_id": "UNSEEN_C_101",
+    "source_image_id": 487310,
+    "ra_accept": "no",
+    "rb_accept": "yes",
+    "decision_type": "adjudicated",
+    "final_accept": false
+  },
+  {
+    "blind_id": "UNSEEN_C_102",
+    "source_image_id": 181489,
+    "ra_accept": "yes",
+    "rb_accept": "yes",
+    "decision_type": "consensus",
+    "final_accept": true
+  },
+  {
+    "blind_id": "UNSEEN_C_103",
+    "source_image_id": 579725,
+    "ra_accept": "yes",
+    "rb_accept": "yes",
+    "decision_type": "consensus",
+    "final_accept": true
+  },
+  {
+    "blind_id": "UNSEEN_C_104",
+    "source_image_id": 296894,
+    "ra_accept": "yes",
+    "rb_accept": "yes",
+    "decision_type": "consensus",
+    "final_accept": true
+  },
+  {
+    "blind_id": "UNSEEN_C_105",
+    "source_image_id": 154847,
+    "ra_accept": "yes",
+    "rb_accept": "yes",
+    "decision_type": "consensus",
+    "final_accept": true
+  },
+  {
+    "blind_id": "UNSEEN_C_106",
+    "source_image_id": 490,
+    "ra_accept": "yes",
+    "rb_accept": "yes",
+    "decision_type": "consensus",
+    "final_accept": true
+  },
+  {
+    "blind_id": "UNSEEN_C_107",
+    "source_image_id": 177824,
+    "ra_accept": "yes",
+    "rb_accept": "yes",
+    "decision_type": "consensus",
+    "final_accept": true
+  },
+  {
+    "blind_id": "UNSEEN_C_108",
+    "source_image_id": 411478,
+    "ra_accept": "yes",
+    "rb_accept": "yes",
+    "decision_type": "consensus",
+    "final_accept": true
+  },
+  {
+    "blind_id": "UNSEEN_C_109",
+    "source_image_id": 350506,
+    "ra_accept": "yes",
+    "rb_accept": "yes",
+    "decision_type": "consensus",
+    "final_accept": true
+  },
+  {
+    "blind_id": "UNSEEN_C_110",
+    "source_image_id": 112836,
+    "ra_accept": "yes",
+    "rb_accept": "yes",
+    "decision_type": "consensus",
+    "final_accept": true
+  },
+  {
+    "blind_id": "UNSEEN_C_111",
+    "source_image_id": 239331,
+    "ra_accept": "yes",
+    "rb_accept": "yes",
+    "decision_type": "consensus",
+    "final_accept": true
+  },
+  {
+    "blind_id": "UNSEEN_C_112",
+    "source_image_id": 55903,
+    "ra_accept": "yes",
+    "rb_accept": "yes",
+    "decision_type": "consensus",
+    "final_accept": true
+  },
+  {
+    "blind_id": "UNSEEN_C_113",
+    "source_image_id": 118302,
+    "ra_accept": "yes",
+    "rb_accept": "yes",
+    "decision_type": "consensus",
+    "final_accept": true
+  },
+  {
+    "blind_id": "UNSEEN_C_114",
+    "source_image_id": 500898,
+    "ra_accept": "yes",
+    "rb_accept": "yes",
+    "decision_type": "consensus",
+    "final_accept": true
+  },
+  {
+    "blind_id": "UNSEEN_C_115",
+    "source_image_id": 504336,
+    "ra_accept": "yes",
+    "rb_accept": "yes",
+    "decision_type": "consensus",
+    "final_accept": true
+  },
+  {
+    "blind_id": "UNSEEN_C_116",
+    "source_image_id": 226587,
+    "ra_accept": "yes",
+    "rb_accept": "yes",
+    "decision_type": "consensus",
+    "final_accept": true
+  },
+  {
+    "blind_id": "UNSEEN_C_117",
+    "source_image_id": 133766,
+    "ra_accept": "no",
+    "rb_accept": "no",
+    "decision_type": "consensus",
+    "final_accept": false
+  },
+  {
+    "blind_id": "UNSEEN_C_118",
+    "source_image_id": 96647,
+    "ra_accept": "yes",
+    "rb_accept": "yes",
+    "decision_type": "consensus",
+    "final_accept": true
+  },
+  {
+    "blind_id": "UNSEEN_C_119",
+    "source_image_id": 54013,
+    "ra_accept": "no",
+    "rb_accept": "no",
+    "decision_type": "consensus",
+    "final_accept": false
+  },
+  {
+    "blind_id": "UNSEEN_C_120",
+    "source_image_id": 60360,
+    "ra_accept": "no",
+    "rb_accept": "no",
+    "decision_type": "consensus",
+    "final_accept": false
+  },
+  {
+    "blind_id": "UNSEEN_C_121",
+    "source_image_id": 517049,
+    "ra_accept": "yes",
+    "rb_accept": "yes",
+    "decision_type": "consensus",
+    "final_accept": true
+  },
+  {
+    "blind_id": "UNSEEN_C_122",
+    "source_image_id": 121454,
+    "ra_accept": "yes",
+    "rb_accept": "yes",
+    "decision_type": "consensus",
+    "final_accept": true
+  },
+  {
+    "blind_id": "UNSEEN_C_123",
+    "source_image_id": 290201,
+    "ra_accept": "no",
+    "rb_accept": "no",
+    "decision_type": "consensus",
+    "final_accept": false
+  },
+  {
+    "blind_id": "UNSEEN_C_124",
+    "source_image_id": 60769,
+    "ra_accept": "yes",
+    "rb_accept": "yes",
+    "decision_type": "consensus",
+    "final_accept": true
+  },
+  {
+    "blind_id": "UNSEEN_C_125",
+    "source_image_id": 136129,
+    "ra_accept": "yes",
+    "rb_accept": "yes",
+    "decision_type": "consensus",
+    "final_accept": true
+  },
+  {
+    "blind_id": "UNSEEN_C_126",
+    "source_image_id": 550617,
+    "ra_accept": "yes",
+    "rb_accept": "yes",
+    "decision_type": "consensus",
+    "final_accept": true
+  },
+  {
+    "blind_id": "UNSEEN_C_127",
+    "source_image_id": 324915,
+    "ra_accept": "yes",
+    "rb_accept": "yes",
+    "decision_type": "consensus",
+    "final_accept": true
+  },
+  {
+    "blind_id": "UNSEEN_C_128",
+    "source_image_id": 42384,
+    "ra_accept": "yes",
+    "rb_accept": "yes",
+    "decision_type": "consensus",
+    "final_accept": true
+  },
+  {
+    "blind_id": "UNSEEN_C_129",
+    "source_image_id": 164423,
+    "ra_accept": "no",
+    "rb_accept": "no",
+    "decision_type": "consensus",
+    "final_accept": false
+  },
+  {
+    "blind_id": "UNSEEN_C_130",
+    "source_image_id": 45148,
+    "ra_accept": "yes",
+    "rb_accept": "yes",
+    "decision_type": "consensus",
+    "final_accept": true
+  },
+  {
+    "blind_id": "UNSEEN_C_131",
+    "source_image_id": 114540,
+    "ra_accept": "no",
+    "rb_accept": "no",
+    "decision_type": "consensus",
+    "final_accept": false
+  },
+  {
+    "blind_id": "UNSEEN_C_132",
+    "source_image_id": 159069,
+    "ra_accept": "yes",
+    "rb_accept": "yes",
+    "decision_type": "consensus",
+    "final_accept": true
+  },
+  {
+    "blind_id": "UNSEEN_C_133",
+    "source_image_id": 537222,
+    "ra_accept": "yes",
+    "rb_accept": "yes",
+    "decision_type": "consensus",
+    "final_accept": true
+  },
+  {
+    "blind_id": "UNSEEN_C_134",
+    "source_image_id": 223270,
+    "ra_accept": "yes",
+    "rb_accept": "yes",
+    "decision_type": "consensus",
+    "final_accept": true
+  },
+  {
+    "blind_id": "UNSEEN_C_135",
+    "source_image_id": 303041,
+    "ra_accept": "yes",
+    "rb_accept": "yes",
+    "decision_type": "consensus",
+    "final_accept": true
+  },
+  {
+    "blind_id": "UNSEEN_C_136",
+    "source_image_id": 45422,
+    "ra_accept": "yes",
+    "rb_accept": "yes",
+    "decision_type": "consensus",
+    "final_accept": true
+  },
+  {
+    "blind_id": "UNSEEN_C_137",
+    "source_image_id": 419087,
+    "ra_accept": "yes",
+    "rb_accept": "yes",
+    "decision_type": "consensus",
+    "final_accept": true
+  },
+  {
+    "blind_id": "UNSEEN_C_138",
+    "source_image_id": 58134,
+    "ra_accept": "yes",
+    "rb_accept": "yes",
+    "decision_type": "consensus",
+    "final_accept": true
+  },
+  {
+    "blind_id": "UNSEEN_C_139",
+    "source_image_id": 177107,
+    "ra_accept": "no",
+    "rb_accept": "no",
+    "decision_type": "consensus",
+    "final_accept": false
+  },
+  {
+    "blind_id": "UNSEEN_C_140",
+    "source_image_id": 176113,
+    "ra_accept": "yes",
+    "rb_accept": "yes",
+    "decision_type": "consensus",
+    "final_accept": true
+  },
+  {
+    "blind_id": "UNSEEN_C_141",
+    "source_image_id": 232218,
+    "ra_accept": "yes",
+    "rb_accept": "yes",
+    "decision_type": "consensus",
+    "final_accept": true
+  },
+  {
+    "blind_id": "UNSEEN_C_142",
+    "source_image_id": 382278,
+    "ra_accept": "yes",
+    "rb_accept": "yes",
+    "decision_type": "consensus",
+    "final_accept": true
+  },
+  {
+    "blind_id": "UNSEEN_C_143",
+    "source_image_id": 247421,
+    "ra_accept": "yes",
+    "rb_accept": "yes",
+    "decision_type": "consensus",
+    "final_accept": true
+  },
+  {
+    "blind_id": "UNSEEN_C_144",
+    "source_image_id": 350960,
+    "ra_accept": "yes",
+    "rb_accept": "yes",
+    "decision_type": "consensus",
+    "final_accept": true
+  },
+  {
+    "blind_id": "UNSEEN_C_145",
+    "source_image_id": 12418,
+    "ra_accept": "yes",
+    "rb_accept": "yes",
+    "decision_type": "consensus",
+    "final_accept": true
+  },
+  {
+    "blind_id": "UNSEEN_C_146",
+    "source_image_id": 86901,
+    "ra_accept": "no",
+    "rb_accept": "no",
+    "decision_type": "consensus",
+    "final_accept": false
+  },
+  {
+    "blind_id": "UNSEEN_C_147",
+    "source_image_id": 526247,
+    "ra_accept": "yes",
+    "rb_accept": "yes",
+    "decision_type": "consensus",
+    "final_accept": true
+  },
+  {
+    "blind_id": "UNSEEN_C_148",
+    "source_image_id": 453549,
+    "ra_accept": "yes",
+    "rb_accept": "yes",
+    "decision_type": "consensus",
+    "final_accept": true
+  },
+  {
+    "blind_id": "UNSEEN_C_149",
+    "source_image_id": 119621,
+    "ra_accept": "yes",
+    "rb_accept": "yes",
+    "decision_type": "consensus",
+    "final_accept": true
+  },
+  {
+    "blind_id": "UNSEEN_C_150",
+    "source_image_id": 538398,
+    "ra_accept": "yes",
+    "rb_accept": "yes",
+    "decision_type": "consensus",
+    "final_accept": true
+  },
+  {
+    "blind_id": "UNSEEN_C_151",
+    "source_image_id": 501534,
+    "ra_accept": "yes",
+    "rb_accept": "yes",
+    "decision_type": "consensus",
+    "final_accept": true
+  },
+  {
+    "blind_id": "UNSEEN_C_152",
+    "source_image_id": 279829,
+    "ra_accept": "yes",
+    "rb_accept": "yes",
+    "decision_type": "consensus",
+    "final_accept": true
+  },
+  {
+    "blind_id": "UNSEEN_C_153",
+    "source_image_id": 2389,
+    "ra_accept": "yes",
+    "rb_accept": "yes",
+    "decision_type": "consensus",
+    "final_accept": true
+  },
+  {
+    "blind_id": "UNSEEN_C_154",
+    "source_image_id": 337448,
+    "ra_accept": "yes",
+    "rb_accept": "yes",
+    "decision_type": "consensus",
+    "final_accept": true
+  },
+  {
+    "blind_id": "UNSEEN_C_155",
+    "source_image_id": 261800,
+    "ra_accept": "yes",
+    "rb_accept": "yes",
+    "decision_type": "consensus",
+    "final_accept": true
+  },
+  {
+    "blind_id": "UNSEEN_C_156",
+    "source_image_id": 315428,
+    "ra_accept": "yes",
+    "rb_accept": "yes",
+    "decision_type": "consensus",
+    "final_accept": true
+  },
+  {
+    "blind_id": "UNSEEN_C_157",
+    "source_image_id": 428446,
+    "ra_accept": "yes",
+    "rb_accept": "yes",
+    "decision_type": "consensus",
+    "final_accept": true
+  },
+  {
+    "blind_id": "UNSEEN_C_158",
+    "source_image_id": 323466,
+    "ra_accept": "yes",
+    "rb_accept": "yes",
+    "decision_type": "consensus",
+    "final_accept": true
+  },
+  {
+    "blind_id": "UNSEEN_C_159",
+    "source_image_id": 389425,
+    "ra_accept": "yes",
+    "rb_accept": "no",
+    "decision_type": "adjudicated",
+    "final_accept": false
+  },
+  {
+    "blind_id": "UNSEEN_C_160",
+    "source_image_id": 355175,
+    "ra_accept": "yes",
+    "rb_accept": "yes",
+    "decision_type": "consensus",
+    "final_accept": true
+  }
+]

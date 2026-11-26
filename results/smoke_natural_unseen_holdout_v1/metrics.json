@@ -1,0 +1,202 @@
+{
+  "study": "natural_unseen_holdout_v1",
+  "separate_from_set_a_and_b": true,
+  "n_sources": 8,
+  "n_images": 16,
+  "holistic_t2_o0": {
+    "n_images": 16,
+    "n_sources": 8,
+    "primary_choices": 2,
+    "primary_accuracy_percent": 50.0,
+    "primary_ci95_percent": [
+      50.0,
+      50.0
+    ],
+    "holistic_accuracy_percent": 50.0,
+    "paired_delta_pp": 0.0,
+    "paired_delta_ci95_pp": [
+      0.0,
+      0.0
+    ],
+    "four_way_accuracy_percent": 43.75,
+    "exact_top_ties": 0,
+    "both_images_correct_percent": 0.0,
+    "holistic_both_images_correct_percent": 0.0,
+    "both_correct_paired_delta_pp": 0.0,
+    "both_correct_paired_delta_ci95_pp": [
+      0.0,
+      0.0
+    ],
+    "primary_confusion": [
+      [
+        1,
+        7
+      ],
+      [
+        1,
+        7
+      ]
+    ],
+    "by_relation": {
+      "0": {
+        "n": 8,
+        "accuracy_percent": 12.5
+      },
+      "1": {
+        "n": 8,
+        "accuracy_percent": 87.5
+      }
+    },
+    "horizontal_assignment": {
+      "n_sources": 8,
+      "accuracy_percent": 50.0,
+      "ci95_percent": [
+        12.5,
+        87.5
+      ],
+      "exact_ties": 0,
+      "wilson_ci95_percent": [
+        21.521606221387763,
+        78.47839377861223
+      ],
+      "binomial_p_greater_0_5": 0.63671875
+    },
+    "both_images_correct_ci95_percent": [
+      0.0,
+      0.0
+    ]
+  },
+  "native_half": {
+    "n_images": 16,
+    "n_sources": 8,
+    "primary_choices": 2,
+    "primary_accuracy_percent": 100.0,
+    "primary_ci95_percent": [
+      100.0,
+      100.0
+    ],
+    "holistic_accuracy_percent": 50.0,
+    "paired_delta_pp": 50.0,
+    "paired_delta_ci95_pp": [
+      50.0,
+      50.0
+    ],
+    "four_way_accuracy_percent": 62.5,
+    "exact_top_ties": 0,
+    "both_images_correct_percent": 100.0,
+    "holistic_both_images_correct_percent": 0.0,
+    "both_correct_paired_delta_pp": 100.0,
+    "both_correct_paired_delta_ci95_pp": [
+      100.0,
+      100.0
+    ],
+    "primary_confusion": [
+      [
+        8,
+        0
+      ],
+      [
+        0,
+        8
+      ]
+    ],
+    "by_relation": {
+      "0": {
+        "n": 8,
+        "accuracy_percent": 100.0
+      },
+      "1": {
+        "n": 8,
+        "accuracy_percent": 100.0
+      }
+    },
+    "horizontal_assignment": {
+      "n_sources": 8,
+      "accuracy_percent": 100.0,
+      "ci95_percent": [
+        100.0,
+        100.0
+      ],
+      "exact_ties": 0,
+      "wilson_ci95_percent": [
+        67.55924351161198,
+        100.0
+      ],
+      "binomial_p_greater_0_5": 0.00390625
+    },
+    "both_images_correct_ci95_percent": [
+      100.0,
+      100.0
+    ]
+  },
+  "padded_half": {
+    "n_images": 16,
+    "n_sources": 8,
+    "primary_choices": 2,
+    "primary_accuracy_percent": 100.0,
+    "primary_ci95_percent": [
+      100.0,
+      100.0
+    ],
+    "holistic_accuracy_percent": 50.0,
+    "paired_delta_pp": 50.0,
+    "paired_delta_ci95_pp": [
+      50.0,
+      50.0
+    ],
+    "four_way_accuracy_percent": 81.25,
+    "exact_top_ties": 0,
+    "both_images_correct_percent": 100.0,
+    "holistic_both_images_correct_percent": 0.0,
+    "both_correct_paired_delta_pp": 100.0,
+    "both_correct_paired_delta_ci95_pp": [
+      100.0,
+      100.0
+    ],
+    "primary_confusion": [
+      [
+        8,
+        0
+      ],
+      [
+        0,
+        8
+      ]
+    ],
+    "by_relation": {
+      "0": {
+        "n": 8,
+        "accuracy_percent": 100.0
+      },
+      "1": {
+        "n": 8,
+        "accuracy_percent": 100.0
+      }
+    },
+    "horizontal_assignment": {
+      "n_sources": 8,
+      "accuracy_percent": 100.0,
+      "ci95_percent": [
+        100.0,
+        100.0
+      ],
+      "exact_ties": 0,
+      "wilson_ci95_percent": [
+        67.55924351161198,
+        100.0
+      ],
+      "binomial_p_greater_0_5": 0.00390625
+    },
+    "both_images_correct_ci95_percent": [
+      100.0,
+      100.0
+    ]
+  },
+  "bbox_geometric_baseline": {
+    "n_images": 16,
+    "n_sources": 8,
+    "bbox_centroid_2way_accuracy_percent": 100.0,
+    "ideal_half_canvas_2way_accuracy_percent": 87.5,
+    "both_objects_same_half_percent": 12.5
+  }
+}

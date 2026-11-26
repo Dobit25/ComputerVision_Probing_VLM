@@ -1,0 +1,38 @@
+{
+  "study": "natural_unseen_holdout_v1",
+  "status": "protocol_frozen_pending_review",
+  "protocol": "docs/natural_unseen_holdout_protocol_v1.md",
+  "base_config": "configs/probing_depth_v1.json",
+  "model_config": "configs/clip_b32_cifar100.json",
+  "regions_config": "configs/natural_regions_v2.json",
+  "source": "COCO train2014 instances (annotations/instances_train2014.json from annotations_trainval2014.zip)",
+  "annotation_url": "https://s3.amazonaws.com/images.cocodataset.org/annotations/annotations_trainval2014.zip",
+  "annotation_member": "annotations/instances_train2014.json",
+  "image_split": "train2014",
+  "exclude_files": [
+    "results/depth_natural_selection_v1/candidates.json",
+    "results/natural_confirmation_selection_v1/new_candidates.json"
+  ],
+  "selection_seed": 1124,
+  "blind_shuffle_seed": "1124/set_c_blind_order",
+  "allowed_relations": [
+    0,
+    1
+  ],
+  "review_pool_per_relation": 80,
+  "target_sources": 100,
+  "target_per_relation": 50,
+  "minimum_sources": 80,
+  "near_duplicate_dhash_max_distance": 6,
+  "canvas_size": 224,
+  "object_template": "a photo of {object}.",
+  "pad_rgb": [
+    123,
+    117,
+    104
+  ],
+  "holistic_template": 2,
+  "holistic_order": 0,
+  "bootstrap_draws": 2000,
+  "bootstrap_seed": 1402
+}

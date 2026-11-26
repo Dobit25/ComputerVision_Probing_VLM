@@ -1,0 +1,3802 @@
+[
+  {
+    "rank": "000f7541a773608c182b154711418993edcd98e7ff614dbffbb989979b423574",
+    "source_image_id": 504336,
+    "file_name": "COCO_train2014_000000504336.jpg",
+    "width": 640,
+    "height": 417,
+    "annotation_a": 1121994,
+    "annotation_b": 331158,
+    "bbox_a": [
+      376.11,
+      213.92,
+      71.15,
+      112.6
+    ],
+    "bbox_b": [
+      128.38,
+      138.53,
+      78.71,
+      245.52
+    ],
+    "category_a": "oven",
+    "category_b": "refrigerator",
+    "category_id_a": 79,
+    "category_id_b": 82,
+    "target": 1,
+    "coco_url": "http://images.cocodataset.org/train2014/COCO_train2014_000000504336.jpg",
+    "flickr_url": "http://farm8.staticflickr.com/7069/6881587497_60e45c8262_z.jpg",
+    "download_url": "https://s3.amazonaws.com/images.cocodataset.org/train2014/COCO_train2014_000000504336.jpg",
+    "license": {
+      "url": "http://creativecommons.org/licenses/by-nc-nd/2.0/",
+      "id": 3,
+      "name": "Attribution-NonCommercial-NoDerivs License"
+    },
+    "image_path": "data/natural_unseen_holdout_v1/raw_images/COCO_train2014_000000504336.jpg",
+    "image_sha256": "13f9b5dfe460e4598e2126d2c3169679a1327949f00a21fb3fb5b08681dd080c",
+    "blind_id": "UNSEEN_C_115",
+    "review_index": 114
+  },
+  {
+    "rank": "0024c37808c5e20905cdf1ef2f05457a78348720d35a73ee28dd1a4e83753ce3",
+    "source_image_id": 12418,
+    "file_name": "COCO_train2014_000000012418.jpg",
+    "width": 480,
+    "height": 640,
+    "annotation_a": 1175313,
+    "annotation_b": 150398,
+    "bbox_a": [
+      30.18,
+      308.93,
+      75.21,
+      75.36
+    ],
+    "bbox_b": [
+      153.56,
+      337.43,
+      83.43,
+      74.76
+    ],
+    "category_a": "handbag",
+    "category_b": "motorcycle",
+    "category_id_a": 31,
+    "category_id_b": 4,
+    "target": 0,
+    "coco_url": "http://images.cocodataset.org/train2014/COCO_train2014_000000012418.jpg",
+    "flickr_url": "http://farm4.staticflickr.com/3347/3449393587_827b0c5d85_z.jpg",
+    "download_url": "https://s3.amazonaws.com/images.cocodataset.org/train2014/COCO_train2014_000000012418.jpg",
+    "license": {
+      "url": "http://creativecommons.org/licenses/by-nc-nd/2.0/",
+      "id": 3,
+      "name": "Attribution-NonCommercial-NoDerivs License"
+    },
+    "image_path": "data/natural_unseen_holdout_v1/raw_images/COCO_train2014_000000012418.jpg",
+    "image_sha256": "7ed2bdf322a50cc4231cd49f24c501534305e616776a9b748fc3e0212ef1764f",
+    "blind_id": "UNSEEN_C_145",
+    "review_index": 144
+  },
+  {
+    "rank": "0088cbfbaedaf244dc61c8f56e7580a53c7d1e1c3e92095570192b499cd01068",
+    "source_image_id": 1360,
+    "file_name": "COCO_train2014_000000001360.jpg",
+    "width": 612,
+    "height": 612,
+    "annotation_a": 184444,
+    "annotation_b": 331030,
+    "bbox_a": [
+      357.57,
+      133.4,
+      174.66,
+      459.35
+    ],
+    "bbox_b": [
+      16.5,
+      19.25,
+      60.52,
+      577.62
+    ],
+    "category_a": "person",
+    "category_b": "refrigerator",
+    "category_id_a": 1,
+    "category_id_b": 82,
+    "target": 1,
+    "coco_url": "http://images.cocodataset.org/train2014/COCO_train2014_000000001360.jpg",
+    "flickr_url": "http://farm8.staticflickr.com/7012/6525855147_ce3622e861_z.jpg",
+    "download_url": "https://s3.amazonaws.com/images.cocodataset.org/train2014/COCO_train2014_000000001360.jpg",
+    "license": {
+      "url": "http://creativecommons.org/licenses/by-nc-sa/2.0/",
+      "id": 1,
+      "name": "Attribution-NonCommercial-ShareAlike License"
+    },
+    "image_path": "data/natural_unseen_holdout_v1/raw_images/COCO_train2014_000000001360.jpg",
+    "image_sha256": "31e745cc96a7f49fb02fef70dcad8848abffaa042ddca293bd32f4f4be4cdf5d",
+    "blind_id": "UNSEEN_C_007",
+    "review_index": 6
+  },
+  {
+    "rank": "0094befb776911d39e31989bb45a9cb0a1715d4d8c16b401ada44847f7e7d7c6",
+    "source_image_id": 232218,
+    "file_name": "COCO_train2014_000000232218.jpg",
+    "width": 600,
+    "height": 600,
+    "annotation_a": 1507815,
+    "annotation_b": 86479,
+    "bbox_a": [
+      42.58,
+      252.13,
+      88.21,
+      98.43
+    ],
+    "bbox_b": [
+      328.57,
+      232.12,
+      81.83,
+      156.61
+    ],
+    "category_a": "cup",
+    "category_b": "bottle",
+    "category_id_a": 47,
+    "category_id_b": 44,
+    "target": 0,
+    "coco_url": "http://images.cocodataset.org/train2014/COCO_train2014_000000232218.jpg",
+    "flickr_url": "http://farm5.staticflickr.com/4122/4941381509_cb27320fda_z.jpg",
+    "download_url": "https://s3.amazonaws.com/images.cocodataset.org/train2014/COCO_train2014_000000232218.jpg",
+    "license": {
+      "url": "http://creativecommons.org/licenses/by/2.0/",
+      "id": 4,
+      "name": "Attribution License"
+    },
+    "image_path": "data/natural_unseen_holdout_v1/raw_images/COCO_train2014_000000232218.jpg",
+    "image_sha256": "4a8bb3583b057d0c9ddccc06924c9664daacbd6ea0c2161ad8518348d8923c10",
+    "blind_id": "UNSEEN_C_141",
+    "review_index": 140
+  },
+  {
+    "rank": "00a6c9bb5eef47bdd660c3db5558440b6fd71f4ef826ff006e3057acde70b000",
+    "source_image_id": 313971,
+    "file_name": "COCO_train2014_000000313971.jpg",
+    "width": 640,
+    "height": 480,
+    "annotation_a": 104838,
+    "annotation_b": 2081179,
+    "bbox_a": [
+      189.31,
+      174.31,
+      104.48,
+      120.0
+    ],
+    "bbox_b": [
+      422.12,
+      235.37,
+      102.53,
+      54.96
+    ],
+    "category_a": "chair",
+    "category_b": "suitcase",
+    "category_id_a": 62,
+    "category_id_b": 33,
+    "target": 0,
+    "coco_url": "http://images.cocodataset.org/train2014/COCO_train2014_000000313971.jpg",
+    "flickr_url": "http://farm1.staticflickr.com/163/387522828_d98ea202a9_z.jpg",
+    "download_url": "https://s3.amazonaws.com/images.cocodataset.org/train2014/COCO_train2014_000000313971.jpg",
+    "license": {
+      "url": "http://creativecommons.org/licenses/by-sa/2.0/",
+      "id": 5,
+      "name": "Attribution-ShareAlike License"
+    },
+    "image_path": "data/natural_unseen_holdout_v1/raw_images/COCO_train2014_000000313971.jpg",
+    "image_sha256": "e1ce14a49542e5d6c941e4eda16f22b2147351aee564ceb4964a01a9a8ace38e",
+    "blind_id": "UNSEEN_C_082",
+    "review_index": 81
+  },
+  {
+    "rank": "00c0fb963749beb5e05b1ccf2fc3f1e14a740625aacfc59ec79da4dd4e4efe32",
+    "source_image_id": 373395,
+    "file_name": "COCO_train2014_000000373395.jpg",
+    "width": 640,
+    "height": 424,
+    "annotation_a": 55638,
+    "annotation_b": 171685,
+    "bbox_a": [
+      146.01,
+      244.87,
+      62.23,
+      82.37
+    ],
+    "bbox_b": [
+      224.91,
+      67.85,
+      233.49,
+      237.71
+    ],
+    "category_a": "horse",
+    "category_b": "train",
+    "category_id_a": 19,
+    "category_id_b": 7,
+    "target": 0,
+    "coco_url": "http://images.cocodataset.org/train2014/COCO_train2014_000000373395.jpg",
+    "flickr_url": "http://farm9.staticflickr.com/8522/8640166346_b890857926_z.jpg",
+    "download_url": "https://s3.amazonaws.com/images.cocodataset.org/train2014/COCO_train2014_000000373395.jpg",
+    "license": {
+      "url": "http://creativecommons.org/licenses/by-nc-sa/2.0/",
+      "id": 1,
+      "name": "Attribution-NonCommercial-ShareAlike License"
+    },
+    "image_path": "data/natural_unseen_holdout_v1/raw_images/COCO_train2014_000000373395.jpg",
+    "image_sha256": "333cb4c7182a85abf7cec093a887056a3f56544ee9acb2743ca30bde8375fbec",
+    "blind_id": "UNSEEN_C_025",
+    "review_index": 24
+  },
+  {
+    "rank": "010ed3b5a9674ee15df1a12e2b3b5d4b3918888e050e002507e2050b4f067446",
+    "source_image_id": 381216,
+    "file_name": "COCO_train2014_000000381216.jpg",
+    "width": 640,
+    "height": 427,
+    "annotation_a": 191833,
+    "annotation_b": 53823,
+    "bbox_a": [
+      118.98,
+      84.44,
+      103.64,
+      269.63
+    ],
+    "bbox_b": [
+      258.99,
+      68.23,
+      206.85,
+      252.71
+    ],
+    "category_a": "person",
+    "category_b": "horse",
+    "category_id_a": 1,
+    "category_id_b": 19,
+    "target": 0,
+    "coco_url": "http://images.cocodataset.org/train2014/COCO_train2014_000000381216.jpg",
+    "flickr_url": "http://farm9.staticflickr.com/8097/8583693289_5d590739e2_z.jpg",
+    "download_url": "https://s3.amazonaws.com/images.cocodataset.org/train2014/COCO_train2014_000000381216.jpg",
+    "license": {
+      "url": "http://creativecommons.org/licenses/by-nc-nd/2.0/",
+      "id": 3,
+      "name": "Attribution-NonCommercial-NoDerivs License"
+    },
+    "image_path": "data/natural_unseen_holdout_v1/raw_images/COCO_train2014_000000381216.jpg",
+    "image_sha256": "2696f3c6d8ea1a5f1574d8d2e4ccb73e63402a3243ea06946dea8f81acff66e8",
+    "blind_id": "UNSEEN_C_096",
+    "review_index": 95
+  },
+  {
+    "rank": "013ac6a363b02b1ebd8a88c725a567cc87ca48c6f98946d34a35ab6cdbcbb41f",
+    "source_image_id": 58134,
+    "file_name": "COCO_train2014_000000058134.jpg",
+    "width": 640,
+    "height": 480,
+    "annotation_a": 1100962,
+    "annotation_b": 668847,
+    "bbox_a": [
+      102.47,
+      218.97,
+      284.77,
+      188.76
+    ],
+    "bbox_b": [
+      445.24,
+      272.92,
+      77.92,
+      102.97
+    ],
+    "category_a": "laptop",
+    "category_b": "cup",
+    "category_id_a": 73,
+    "category_id_b": 47,
+    "target": 0,
+    "coco_url": "http://images.cocodataset.org/train2014/COCO_train2014_000000058134.jpg",
+    "flickr_url": "http://farm4.staticflickr.com/3206/2681875196_c883cc3931_z.jpg",
+    "download_url": "https://s3.amazonaws.com/images.cocodataset.org/train2014/COCO_train2014_000000058134.jpg",
+    "license": {
+      "url": "http://creativecommons.org/licenses/by-nc-sa/2.0/",
+      "id": 1,
+      "name": "Attribution-NonCommercial-ShareAlike License"
+    },
+    "image_path": "data/natural_unseen_holdout_v1/raw_images/COCO_train2014_000000058134.jpg",
+    "image_sha256": "b6aa4f9b6a376652dfc81e87a7ab9f54668fed906042428f65b8e9d4a9d0192d",
+    "blind_id": "UNSEEN_C_138",
+    "review_index": 137
+  },
+  {
+    "rank": "015f78f2feff5ecf1b9ee611a2d38665ef3c29e0e7dc1a30927e5e36bb2145d3",
+    "source_image_id": 298360,
+    "file_name": "COCO_train2014_000000298360.jpg",
+    "width": 640,
+    "height": 640,
+    "annotation_a": 188129,
+    "annotation_b": 53388,
+    "bbox_a": [
+      291.37,
+      215.49,
+      170.97,
+      198.37
+    ],
+    "bbox_b": [
+      145.66,
+      295.17,
+      92.52,
+      99.8
+    ],
+    "category_a": "person",
+    "category_b": "dog",
+    "category_id_a": 1,
+    "category_id_b": 18,
+    "target": 1,
+    "coco_url": "http://images.cocodataset.org/train2014/COCO_train2014_000000298360.jpg",
+    "flickr_url": "http://farm7.staticflickr.com/6190/6153016075_d643db19e7_z.jpg",
+    "download_url": "https://s3.amazonaws.com/images.cocodataset.org/train2014/COCO_train2014_000000298360.jpg",
+    "license": {
+      "url": "http://creativecommons.org/licenses/by-nc-sa/2.0/",
+      "id": 1,
+      "name": "Attribution-NonCommercial-ShareAlike License"
+    },
+    "image_path": "data/natural_unseen_holdout_v1/raw_images/COCO_train2014_000000298360.jpg",
+    "image_sha256": "3aff7df4c7434a1760ba8784a3480c1889e4c832e60a7dbedc1b95837a1fe4b9",
+    "blind_id": "UNSEEN_C_020",
+    "review_index": 19
+  },
+  {
+    "rank": "01676b37aeb5398e75ffd6c03386a2be8eefd637399e071b72f0bb1b1d801304",
+    "source_image_id": 251569,
+    "file_name": "COCO_train2014_000000251569.jpg",
+    "width": 640,
+    "height": 428,
+    "annotation_a": 125075,
+    "annotation_b": 200935,
+    "bbox_a": [
+      397.82,
+      166.8,
+      95.65,
+      68.37
+    ],
+    "bbox_b": [
+      118.04,
+      84.06,
+      169.85,
+      327.24
+    ],
+    "category_a": "bicycle",
+    "category_b": "person",
+    "category_id_a": 2,
+    "category_id_b": 1,
+    "target": 1,
+    "coco_url": "http://images.cocodataset.org/train2014/COCO_train2014_000000251569.jpg",
+    "flickr_url": "http://farm9.staticflickr.com/8038/8001912686_819be62747_z.jpg",
+    "download_url": "https://s3.amazonaws.com/images.cocodataset.org/train2014/COCO_train2014_000000251569.jpg",
+    "license": {
+      "url": "http://creativecommons.org/licenses/by-nc-sa/2.0/",
+      "id": 1,
+      "name": "Attribution-NonCommercial-ShareAlike License"
+    },
+    "image_path": "data/natural_unseen_holdout_v1/raw_images/COCO_train2014_000000251569.jpg",
+    "image_sha256": "933a055292b17c8e3bf71fdbbf1243660ab7f4f4b773123c2a8162121376402b",
+    "blind_id": "UNSEEN_C_011",
+    "review_index": 10
+  },
+  {
+    "rank": "016aaeb31082549b5db0674d40fda4f8779b0930ce9d33f29b45774a4c51060c",
+    "source_image_id": 320943,
+    "file_name": "COCO_train2014_000000320943.jpg",
+    "width": 640,
+    "height": 427,
+    "annotation_a": 203463,
+    "annotation_b": 70578,
+    "bbox_a": [
+      343.2,
+      171.77,
+      92.52,
+      120.7
+    ],
+    "bbox_b": [
+      197.39,
+      186.82,
+      122.44,
+      64.48
+    ],
+    "category_a": "person",
+    "category_b": "cow",
+    "category_id_a": 1,
+    "category_id_b": 21,
+    "target": 1,
+    "coco_url": "http://images.cocodataset.org/train2014/COCO_train2014_000000320943.jpg",
+    "flickr_url": "http://farm4.staticflickr.com/3676/9833475405_b0ed42981a_z.jpg",
+    "download_url": "https://s3.amazonaws.com/images.cocodataset.org/train2014/COCO_train2014_000000320943.jpg",
+    "license": {
+      "url": "http://creativecommons.org/licenses/by/2.0/",
+      "id": 4,
+      "name": "Attribution License"
+    },
+    "image_path": "data/natural_unseen_holdout_v1/raw_images/COCO_train2014_000000320943.jpg",
+    "image_sha256": "a0786bf0a419e45cae4f93f262519230297be24e96ac719b5e5cbfe1cb392674",
+    "blind_id": "UNSEEN_C_064",
+    "review_index": 63
+  },
+  {
+    "rank": "01a277b9e3f56dc3c2b044608d630cc47fb31bbdd23dbcb1e803994943c918bb",
+    "source_image_id": 8086,
+    "file_name": "COCO_train2014_000000008086.jpg",
+    "width": 427,
+    "height": 640,
+    "annotation_a": 418118,
+    "annotation_b": 228024,
+    "bbox_a": [
+      253.2,
+      334.65,
+      41.43,
+      99.68
+    ],
+    "bbox_b": [
+      134.54,
+      246.95,
+      88.08,
+      140.8
+    ],
+    "category_a": "parking meter",
+    "category_b": "person",
+    "category_id_a": 14,
+    "category_id_b": 1,
+    "target": 1,
+    "coco_url": "http://images.cocodataset.org/train2014/COCO_train2014_000000008086.jpg",
+    "flickr_url": "http://farm9.staticflickr.com/8001/7707732466_df1df0ef38_z.jpg",
+    "download_url": "https://s3.amazonaws.com/images.cocodataset.org/train2014/COCO_train2014_000000008086.jpg",
+    "license": {
+      "url": "http://creativecommons.org/licenses/by-nc/2.0/",
+      "id": 2,
+      "name": "Attribution-NonCommercial License"
+    },
+    "image_path": "data/natural_unseen_holdout_v1/raw_images/COCO_train2014_000000008086.jpg",
+    "image_sha256": "5db1a07fa484cb545b9c10f7bc982004266cffebf1bee15d11aab0aacfa32a38",
+    "blind_id": "UNSEEN_C_099",
+    "review_index": 98
+  },
+  {
+    "rank": "01be9a47b5556ac99e439682ed8ec010e7eaa7e6812732f0ac3ae947648d4b9e",
+    "source_image_id": 303041,
+    "file_name": "COCO_train2014_000000303041.jpg",
+    "width": 500,
+    "height": 375,
+    "annotation_a": 1984599,
+    "annotation_b": 1504713,
+    "bbox_a": [
+      125.24,
+      223.11,
+      162.62,
+      36.13
+    ],
+    "bbox_b": [
+      347.61,
+      207.3,
+      68.97,
+      62.59
+    ],
+    "category_a": "book",
+    "category_b": "cup",
+    "category_id_a": 84,
+    "category_id_b": 47,
+    "target": 0,
+    "coco_url": "http://images.cocodataset.org/train2014/COCO_train2014_000000303041.jpg",
+    "flickr_url": "http://farm2.staticflickr.com/1222/1286206162_037923a4f7_z.jpg",
+    "download_url": "https://s3.amazonaws.com/images.cocodataset.org/train2014/COCO_train2014_000000303041.jpg",
+    "license": {
+      "url": "http://creativecommons.org/licenses/by-nc-sa/2.0/",
+      "id": 1,
+      "name": "Attribution-NonCommercial-ShareAlike License"
+    },
+    "image_path": "data/natural_unseen_holdout_v1/raw_images/COCO_train2014_000000303041.jpg",
+    "image_sha256": "06513f38646c9b50aed21c5b20ef7086a5fed5e380a5b74b4d81205bfc79df8e",
+    "blind_id": "UNSEEN_C_135",
+    "review_index": 134
+  },
+  {
+    "rank": "01f9f8926d51e9d026a1110369cb07d68dcca4e2640f224c4d3aac12a27f84fb",
+    "source_image_id": 323466,
+    "file_name": "COCO_train2014_000000323466.jpg",
+    "width": 640,
+    "height": 426,
+    "annotation_a": 81273,
+    "annotation_b": 662191,
+    "bbox_a": [
+      229.24,
+      17.77,
+      76.41,
+      318.06
+    ],
+    "bbox_b": [
+      124.45,
+      168.19,
+      79.46,
+      182.85
+    ],
+    "category_a": "bottle",
+    "category_b": "wine glass",
+    "category_id_a": 44,
+    "category_id_b": 46,
+    "target": 1,
+    "coco_url": "http://images.cocodataset.org/train2014/COCO_train2014_000000323466.jpg",
+    "flickr_url": "http://farm5.staticflickr.com/4092/5017326486_1f46057f5f_z.jpg",
+    "download_url": "https://s3.amazonaws.com/images.cocodataset.org/train2014/COCO_train2014_000000323466.jpg",
+    "license": {
+      "url": "http://creativecommons.org/licenses/by-nc/2.0/",
+      "id": 2,
+      "name": "Attribution-NonCommercial License"
+    },
+    "image_path": "data/natural_unseen_holdout_v1/raw_images/COCO_train2014_000000323466.jpg",
+    "image_sha256": "3de234df72b63d2ecef0b79e9970ba6bee55488e9a82b7f221c94869a8301c35",
+    "blind_id": "UNSEEN_C_158",
+    "review_index": 157
+  },
+  {
+    "rank": "02009f4b727e7c166ed31389aae450df0c9641dc89a7d379a038db2e845a5a33",
+    "source_image_id": 350960,
+    "file_name": "COCO_train2014_000000350960.jpg",
+    "width": 640,
+    "height": 360,
+    "annotation_a": 204133,
+    "annotation_b": 1121454,
+    "bbox_a": [
+      404.49,
+      107.6,
+      80.9,
+      202.24
+    ],
+    "bbox_b": [
+      216.95,
+      190.87,
+      85.92,
+      106.69
+    ],
+    "category_a": "person",
+    "category_b": "oven",
+    "category_id_a": 1,
+    "category_id_b": 79,
+    "target": 1,
+    "coco_url": "http://images.cocodataset.org/train2014/COCO_train2014_000000350960.jpg",
+    "flickr_url": "http://farm9.staticflickr.com/8288/7806840438_16aae39de6_z.jpg",
+    "download_url": "https://s3.amazonaws.com/images.cocodataset.org/train2014/COCO_train2014_000000350960.jpg",
+    "license": {
+      "url": "http://creativecommons.org/licenses/by-nc-sa/2.0/",
+      "id": 1,
+      "name": "Attribution-NonCommercial-ShareAlike License"
+    },
+    "image_path": "data/natural_unseen_holdout_v1/raw_images/COCO_train2014_000000350960.jpg",
+    "image_sha256": "0b627b00e0c60c3264645831399e593f50d40acf518fdeaef9ee8ab115944406",
+    "blind_id": "UNSEEN_C_144",
+    "review_index": 143
+  },
+  {
+    "rank": "02920eaf4db77508754cf7e2238045bd7901a1366d284123cfc42954513bbcd3",
+    "source_image_id": 390494,
+    "file_name": "COCO_train2014_000000390494.jpg",
+    "width": 612,
+    "height": 612,
+    "annotation_a": 184782,
+    "annotation_b": 1785011,
+    "bbox_a": [
+      324.21,
+      442.56,
+      63.1,
+      113.31
+    ],
+    "bbox_b": [
+      125.28,
+      423.36,
+      136.8,
+      139.68
+    ],
+    "category_a": "person",
+    "category_b": "car",
+    "category_id_a": 1,
+    "category_id_b": 3,
+    "target": 1,
+    "coco_url": "http://images.cocodataset.org/train2014/COCO_train2014_000000390494.jpg",
+    "flickr_url": "http://farm8.staticflickr.com/7222/7079638629_f707b88f5d_z.jpg",
+    "download_url": "https://s3.amazonaws.com/images.cocodataset.org/train2014/COCO_train2014_000000390494.jpg",
+    "license": {
+      "url": "http://creativecommons.org/licenses/by-nc/2.0/",
+      "id": 2,
+      "name": "Attribution-NonCommercial License"
+    },
+    "image_path": "data/natural_unseen_holdout_v1/raw_images/COCO_train2014_000000390494.jpg",
+    "image_sha256": "36880036d7d9aabca797ef48509fc6b9eb1e07e4a8db957f1b54e3c4f57d3cb9",
+    "blind_id": "UNSEEN_C_069",
+    "review_index": 68
+  },
+  {
+    "rank": "029e24c19a690da45ebd10e8bcaf4f436ffe3991cbb0587b81af18bb253e1a1b",
+    "source_image_id": 223270,
+    "file_name": "COCO_train2014_000000223270.jpg",
+    "width": 640,
+    "height": 480,
+    "annotation_a": 21998,
+    "annotation_b": 1668164,
+    "bbox_a": [
+      350.72,
+      114.63,
+      120.19,
+      137.57
+    ],
+    "bbox_b": [
+      200.63,
+      189.84,
+      48.54,
+      115.42
+    ],
+    "category_a": "potted plant",
+    "category_b": "vase",
+    "category_id_a": 64,
+    "category_id_b": 86,
+    "target": 1,
+    "coco_url": "http://images.cocodataset.org/train2014/COCO_train2014_000000223270.jpg",
+    "flickr_url": "http://farm1.staticflickr.com/45/134472316_f571328e0c_z.jpg",
+    "download_url": "https://s3.amazonaws.com/images.cocodataset.org/train2014/COCO_train2014_000000223270.jpg",
+    "license": {
+      "url": "http://creativecommons.org/licenses/by-nc-nd/2.0/",
+      "id": 3,
+      "name": "Attribution-NonCommercial-NoDerivs License"
+    },
+    "image_path": "data/natural_unseen_holdout_v1/raw_images/COCO_train2014_000000223270.jpg",
+    "image_sha256": "eb95bad6e997ed29a2ea2f7557fe8a4a1887911f7b9d6839da6ecbbe269f12c5",
+    "blind_id": "UNSEEN_C_134",
+    "review_index": 133
+  },
+  {
+    "rank": "02e079be94cbba00b97979cf8f6ff541c2b96cbc5f81c53b33debbabd8c7ca1e",
+    "source_image_id": 525668,
+    "file_name": "COCO_train2014_000000525668.jpg",
+    "width": 640,
+    "height": 539,
+    "annotation_a": 1121423,
+    "annotation_b": 442465,
+    "bbox_a": [
+      364.54,
+      249.81,
+      115.99,
+      124.61
+    ],
+    "bbox_b": [
+      224.28,
+      199.41,
+      85.22,
+      142.47
+    ],
+    "category_a": "oven",
+    "category_b": "person",
+    "category_id_a": 79,
+    "category_id_b": 1,
+    "target": 1,
+    "coco_url": "http://images.cocodataset.org/train2014/COCO_train2014_000000525668.jpg",
+    "flickr_url": "http://farm7.staticflickr.com/6048/6313483355_3c58511f5d_z.jpg",
+    "download_url": "https://s3.amazonaws.com/images.cocodataset.org/train2014/COCO_train2014_000000525668.jpg",
+    "license": {
+      "url": "http://creativecommons.org/licenses/by-nc-sa/2.0/",
+      "id": 1,
+      "name": "Attribution-NonCommercial-ShareAlike License"
+    },
+    "image_path": "data/natural_unseen_holdout_v1/raw_images/COCO_train2014_000000525668.jpg",
+    "image_sha256": "48f3a93b8fd51d110d2707ed8f95f61f099d4cd8a8926e4818f08969c7520e28",
+    "blind_id": "UNSEEN_C_053",
+    "review_index": 52
+  },
+  {
+    "rank": "02f7781214bad6eff9c116609a2ead62627e227a4d00da649c3da672113b8b99",
+    "source_image_id": 58553,
+    "file_name": "COCO_train2014_000000058553.jpg",
+    "width": 425,
+    "height": 640,
+    "annotation_a": 1096343,
+    "annotation_b": 1129965,
+    "bbox_a": [
+      138.07,
+      415.64,
+      56.09,
+      100.67
+    ],
+    "bbox_b": [
+      264.18,
+      406.49,
+      155.65,
+      66.94
+    ],
+    "category_a": "toilet",
+    "category_b": "sink",
+    "category_id_a": 70,
+    "category_id_b": 81,
+    "target": 0,
+    "coco_url": "http://images.cocodataset.org/train2014/COCO_train2014_000000058553.jpg",
+    "flickr_url": "http://farm5.staticflickr.com/4153/5085375600_41d5684518_z.jpg",
+    "download_url": "https://s3.amazonaws.com/images.cocodataset.org/train2014/COCO_train2014_000000058553.jpg",
+    "license": {
+      "url": "http://creativecommons.org/licenses/by-nc-sa/2.0/",
+      "id": 1,
+      "name": "Attribution-NonCommercial-ShareAlike License"
+    },
+    "image_path": "data/natural_unseen_holdout_v1/raw_images/COCO_train2014_000000058553.jpg",
+    "image_sha256": "2cd160a5d20c309a5c0108b522b4254ed8a4e486d6d8c9ee72e48436db9eb0e3",
+    "blind_id": "UNSEEN_C_008",
+    "review_index": 7
+  },
+  {
+    "rank": "0321de24d8b7abdba83f8b11ae02d234ed91cd2894fee9dca77b0db14f84fa76",
+    "source_image_id": 257071,
+    "file_name": "COCO_train2014_000000257071.jpg",
+    "width": 640,
+    "height": 480,
+    "annotation_a": 1982447,
+    "annotation_b": 1642869,
+    "bbox_a": [
+      109.01,
+      176.75,
+      101.94,
+      99.8
+    ],
+    "bbox_b": [
+      352.63,
+      185.54,
+      194.07,
+      192.41
+    ],
+    "category_a": "sink",
+    "category_b": "oven",
+    "category_id_a": 81,
+    "category_id_b": 79,
+    "target": 0,
+    "coco_url": "http://images.cocodataset.org/train2014/COCO_train2014_000000257071.jpg",
+    "flickr_url": "http://farm9.staticflickr.com/8314/7929204620_926343b098_z.jpg",
+    "download_url": "https://s3.amazonaws.com/images.cocodataset.org/train2014/COCO_train2014_000000257071.jpg",
+    "license": {
+      "url": "http://creativecommons.org/licenses/by/2.0/",
+      "id": 4,
+      "name": "Attribution License"
+    },
+    "image_path": "data/natural_unseen_holdout_v1/raw_images/COCO_train2014_000000257071.jpg",
+    "image_sha256": "ba10537ddd2461406db9fd15816e93a7a57f1277ea2a9a40b89b52a30ce62ac4",
+    "blind_id": "UNSEEN_C_005",
+    "review_index": 4
+  },
+  {
+    "rank": "034738591d5026ffe162f556e2942ccee07527d1c433a71a69815250b0b56e33",
+    "source_image_id": 428446,
+    "file_name": "COCO_train2014_000000428446.jpg",
+    "width": 612,
+    "height": 612,
+    "annotation_a": 1072442,
+    "annotation_b": 686845,
+    "bbox_a": [
+      126.97,
+      222.98,
+      310.94,
+      219.94
+    ],
+    "bbox_b": [
+      20.58,
+      280.92,
+      74.85,
+      213.0
+    ],
+    "category_a": "pizza",
+    "category_b": "fork",
+    "category_id_a": 59,
+    "category_id_b": 48,
+    "target": 1,
+    "coco_url": "http://images.cocodataset.org/train2014/COCO_train2014_000000428446.jpg",
+    "flickr_url": "http://farm8.staticflickr.com/7089/7128942515_a180694482_z.jpg",
+    "download_url": "https://s3.amazonaws.com/images.cocodataset.org/train2014/COCO_train2014_000000428446.jpg",
+    "license": {
+      "url": "http://creativecommons.org/licenses/by-nc-sa/2.0/",
+      "id": 1,
+      "name": "Attribution-NonCommercial-ShareAlike License"
+    },
+    "image_path": "data/natural_unseen_holdout_v1/raw_images/COCO_train2014_000000428446.jpg",
+    "image_sha256": "9449b04179e4c76a9c78274debc8c8163d40b4666a92cb6477a434561e050136",
+    "blind_id": "UNSEEN_C_157",
+    "review_index": 156
+  },
+  {
+    "rank": "0364629a6abca79d97c4f41ccb0ba083780c0b972b156616e1c3ece50941abdf",
+    "source_image_id": 468830,
+    "file_name": "COCO_train2014_000000468830.jpg",
+    "width": 640,
+    "height": 480,
+    "annotation_a": 1606448,
+    "annotation_b": 1971091,
+    "bbox_a": [
+      393.06,
+      56.07,
+      55.62,
+      145.92
+    ],
+    "bbox_b": [
+      228.52,
+      142.63,
+      96.65,
+      68.44
+    ],
+    "category_a": "potted plant",
+    "category_b": "laptop",
+    "category_id_a": 64,
+    "category_id_b": 73,
+    "target": 1,
+    "coco_url": "http://images.cocodataset.org/train2014/COCO_train2014_000000468830.jpg",
+    "flickr_url": "http://farm9.staticflickr.com/8004/7388329836_8a11d54abc_z.jpg",
+    "download_url": "https://s3.amazonaws.com/images.cocodataset.org/train2014/COCO_train2014_000000468830.jpg",
+    "license": {
+      "url": "http://creativecommons.org/licenses/by-nc-sa/2.0/",
+      "id": 1,
+      "name": "Attribution-NonCommercial-ShareAlike License"
+    },
+    "image_path": "data/natural_unseen_holdout_v1/raw_images/COCO_train2014_000000468830.jpg",
+    "image_sha256": "fec1c4a6662a7b98c9f8e1df373aebd7e7451dc22ecc734dea5b4b2d7885348b",
+    "blind_id": "UNSEEN_C_034",
+    "review_index": 33
+  },
+  {
+    "rank": "0387fc829b081f402481b50fc0bb7860c3282a039706ff85b6c6d175365bf183",
+    "source_image_id": 490,
+    "file_name": "COCO_train2014_000000000490.jpg",
+    "width": 500,
+    "height": 495,
+    "annotation_a": 640615,
+    "annotation_b": 12348,
+    "bbox_a": [
+      304.79,
+      136.82,
+      91.21,
+      251.39
+    ],
+    "bbox_b": [
+      46.0,
+      193.0,
+      90.0,
+      143.0
+    ],
+    "category_a": "skateboard",
+    "category_b": "dog",
+    "category_id_a": 41,
+    "category_id_b": 18,
+    "target": 1,
+    "coco_url": "http://images.cocodataset.org/train2014/COCO_train2014_000000000490.jpg",
+    "flickr_url": "http://farm4.staticflickr.com/3475/3851217720_82f7776a36_z.jpg",
+    "download_url": "https://s3.amazonaws.com/images.cocodataset.org/train2014/COCO_train2014_000000000490.jpg",
+    "license": {
+      "url": "http://creativecommons.org/licenses/by-nc-sa/2.0/",
+      "id": 1,
+      "name": "Attribution-NonCommercial-ShareAlike License"
+    },
+    "image_path": "data/natural_unseen_holdout_v1/raw_images/COCO_train2014_000000000490.jpg",
+    "image_sha256": "8d98a07c4e357c3e93c5a76deb41b51a285ee75d728b084563cc0f7e06e66998",
+    "blind_id": "UNSEEN_C_106",
+    "review_index": 105
+  },
+  {
+    "rank": "03f21f51c144450872fc78cbeaf62ca64cab396096394f17dc02b014ae8333e3",
+    "source_image_id": 242677,
+    "file_name": "COCO_train2014_000000242677.jpg",
+    "width": 640,
+    "height": 480,
+    "annotation_a": 209380,
+    "annotation_b": 6054,
+    "bbox_a": [
+      336.96,
+      204.47,
+      76.24,
+      253.45
+    ],
+    "bbox_b": [
+      440.4,
+      362.27,
+      54.09,
+      100.44
+    ],
+    "category_a": "person",
+    "category_b": "dog",
+    "category_id_a": 1,
+    "category_id_b": 18,
+    "target": 0,
+    "coco_url": "http://images.cocodataset.org/train2014/COCO_train2014_000000242677.jpg",
+    "flickr_url": "http://farm8.staticflickr.com/7149/6828176341_3a23aa4623_z.jpg",
+    "download_url": "https://s3.amazonaws.com/images.cocodataset.org/train2014/COCO_train2014_000000242677.jpg",
+    "license": {
+      "url": "http://creativecommons.org/licenses/by/2.0/",
+      "id": 4,
+      "name": "Attribution License"
+    },
+    "image_path": "data/natural_unseen_holdout_v1/raw_images/COCO_train2014_000000242677.jpg",
+    "image_sha256": "6c75e74020e31478bab95781e3bc30274348fb4ec381a0c2880f8660aa9f7c5a",
+    "blind_id": "UNSEEN_C_031",
+    "review_index": 30
+  },
+  {
+    "rank": "043acfd95d4bad833ee780ecc8e38a33fa0d0dbb23219a0024e89b477dba5bf3",
+    "source_image_id": 487589,
+    "file_name": "COCO_train2014_000000487589.jpg",
+    "width": 612,
+    "height": 612,
+    "annotation_a": 632749,
+    "annotation_b": 627955,
+    "bbox_a": [
+      370.78,
+      58.58,
+      165.41,
+      137.84
+    ],
+    "bbox_b": [
+      65.71,
+      117.94,
+      244.28,
+      447.31
+    ],
+    "category_a": "baseball glove",
+    "category_b": "baseball bat",
+    "category_id_a": 40,
+    "category_id_b": 39,
+    "target": 1,
+    "coco_url": "http://images.cocodataset.org/train2014/COCO_train2014_000000487589.jpg",
+    "flickr_url": "http://farm8.staticflickr.com/7188/6949734571_ec07f121c5_z.jpg",
+    "download_url": "https://s3.amazonaws.com/images.cocodataset.org/train2014/COCO_train2014_000000487589.jpg",
+    "license": {
+      "url": "http://creativecommons.org/licenses/by/2.0/",
+      "id": 4,
+      "name": "Attribution License"
+    },
+    "image_path": "data/natural_unseen_holdout_v1/raw_images/COCO_train2014_000000487589.jpg",
+    "image_sha256": "696aedb13002e71ef7198cdc2c4fce3e0856b3fa57e08f0bff13a7feba2c1410",
+    "blind_id": "UNSEEN_C_040",
+    "review_index": 39
+  },
+  {
+    "rank": "043ff72fc1cfa726bd32e2164793c63901feea027ec2534dd6a6fb06bb0d30d1",
+    "source_image_id": 55903,
+    "file_name": "COCO_train2014_000000055903.jpg",
+    "width": 630,
+    "height": 640,
+    "annotation_a": 579091,
+    "annotation_b": 1766793,
+    "bbox_a": [
+      217.17,
+      220.97,
+      321.81,
+      252.29
+    ],
+    "bbox_b": [
+      51.94,
+      186.32,
+      83.46,
+      148.33
+    ],
+    "category_a": "bench",
+    "category_b": "bicycle",
+    "category_id_a": 15,
+    "category_id_b": 2,
+    "target": 1,
+    "coco_url": "http://images.cocodataset.org/train2014/COCO_train2014_000000055903.jpg",
+    "flickr_url": "http://farm4.staticflickr.com/3161/2789364429_c973753faf_z.jpg",
+    "download_url": "https://s3.amazonaws.com/images.cocodataset.org/train2014/COCO_train2014_000000055903.jpg",
+    "license": {
+      "url": "http://creativecommons.org/licenses/by-nc-sa/2.0/",
+      "id": 1,
+      "name": "Attribution-NonCommercial-ShareAlike License"
+    },
+    "image_path": "data/natural_unseen_holdout_v1/raw_images/COCO_train2014_000000055903.jpg",
+    "image_sha256": "706c4bd9fd637f4161df57601d27385847b9c1cf0cacafaef9659c53aeb83df9",
+    "blind_id": "UNSEEN_C_112",
+    "review_index": 111
+  },
+  {
+    "rank": "05106dfba31bf22d9930a03693f63317e04e2046b53aa61a7938a88f6825947d",
+    "source_image_id": 361437,
+    "file_name": "COCO_train2014_000000361437.jpg",
+    "width": 512,
+    "height": 640,
+    "annotation_a": 663130,
+    "annotation_b": 2007172,
+    "bbox_a": [
+      186.97,
+      270.38,
+      89.16,
+      151.01
+    ],
+    "bbox_b": [
+      22.47,
+      252.24,
+      56.08,
+      90.54
+    ],
+    "category_a": "wine glass",
+    "category_b": "person",
+    "category_id_a": 46,
+    "category_id_b": 1,
+    "target": 1,
+    "coco_url": "http://images.cocodataset.org/train2014/COCO_train2014_000000361437.jpg",
+    "flickr_url": "http://farm3.staticflickr.com/2608/4201444462_5583c5a456_z.jpg",
+    "download_url": "https://s3.amazonaws.com/images.cocodataset.org/train2014/COCO_train2014_000000361437.jpg",
+    "license": {
+      "url": "http://creativecommons.org/licenses/by-nc/2.0/",
+      "id": 2,
+      "name": "Attribution-NonCommercial License"
+    },
+    "image_path": "data/natural_unseen_holdout_v1/raw_images/COCO_train2014_000000361437.jpg",
+    "image_sha256": "463020e250dceabc1573ad8296bc66b51807dcff44a12b94fcd28c640a9554b1",
+    "blind_id": "UNSEEN_C_051",
+    "review_index": 50
+  },
+  {
+    "rank": "05373e8512b75d785dbac24761201b5a141aa5276a6f1ca16ff8526651c023fe",
+    "source_image_id": 261800,
+    "file_name": "COCO_train2014_000000261800.jpg",
+    "width": 612,
+    "height": 612,
+    "annotation_a": 1169762,
+    "annotation_b": 1810438,
+    "bbox_a": [
+      56.39,
+      327.32,
+      170.53,
+      272.3
+    ],
+    "bbox_b": [
+      555.13,
+      359.72,
+      50.51,
+      119.7
+    ],
+    "category_a": "backpack",
+    "category_b": "bench",
+    "category_id_a": 27,
+    "category_id_b": 15,
+    "target": 0,
+    "coco_url": "http://images.cocodataset.org/train2014/COCO_train2014_000000261800.jpg",
+    "flickr_url": "http://farm8.staticflickr.com/7204/6982099079_d152fb67b1_z.jpg",
+    "download_url": "https://s3.amazonaws.com/images.cocodataset.org/train2014/COCO_train2014_000000261800.jpg",
+    "license": {
+      "url": "http://creativecommons.org/licenses/by-nc/2.0/",
+      "id": 2,
+      "name": "Attribution-NonCommercial License"
+    },
+    "image_path": "data/natural_unseen_holdout_v1/raw_images/COCO_train2014_000000261800.jpg",
+    "image_sha256": "1ec37f2c81bb062182569ca2da6b18d83d1784a6fe825a9b7e63508a79e24b3d",
+    "blind_id": "UNSEEN_C_155",
+    "review_index": 154
+  },
+  {
+    "rank": "0555347227aea5b8e81e309aa509372d5d7f12ac8114aed6e2c52827ed09d5ef",
+    "source_image_id": 279829,
+    "file_name": "COCO_train2014_000000279829.jpg",
+    "width": 640,
+    "height": 479,
+    "annotation_a": 51634,
+    "annotation_b": 704501,
+    "bbox_a": [
+      85.73,
+      29.04,
+      235.75,
+      377.2
+    ],
+    "bbox_b": [
+      333.71,
+      142.24,
+      97.95,
+      61.36
+    ],
+    "category_a": "cat",
+    "category_b": "spoon",
+    "category_id_a": 17,
+    "category_id_b": 50,
+    "target": 0,
+    "coco_url": "http://images.cocodataset.org/train2014/COCO_train2014_000000279829.jpg",
+    "flickr_url": "http://farm1.staticflickr.com/21/31118466_f2b20826f1_z.jpg",
+    "download_url": "https://s3.amazonaws.com/images.cocodataset.org/train2014/COCO_train2014_000000279829.jpg",
+    "license": {
+      "url": "http://creativecommons.org/licenses/by-nc-sa/2.0/",
+      "id": 1,
+      "name": "Attribution-NonCommercial-ShareAlike License"
+    },
+    "image_path": "data/natural_unseen_holdout_v1/raw_images/COCO_train2014_000000279829.jpg",
+    "image_sha256": "60ab052f90f7b6a9631cf3d2b14b2f3928d652f2f388a83e17b907b3c5f75326",
+    "blind_id": "UNSEEN_C_152",
+    "review_index": 151
+  },
+  {
+    "rank": "055fb1f67b5cd3d2ce0bd8265dae7c4237fbf7e3ed6e4fa59aca3bb88e708464",
+    "source_image_id": 131735,
+    "file_name": "COCO_train2014_000000131735.jpg",
+    "width": 640,
+    "height": 480,
+    "annotation_a": 518277,
+    "annotation_b": 1852182,
+    "bbox_a": [
+      387.45,
+      102.69,
+      123.36,
+      359.6
+    ],
+    "bbox_b": [
+      238.7,
+      343.19,
+      133.53,
+      105.88
+    ],
+    "category_a": "person",
+    "category_b": "snowboard",
+    "category_id_a": 1,
+    "category_id_b": 36,
+    "target": 1,
+    "coco_url": "http://images.cocodataset.org/train2014/COCO_train2014_000000131735.jpg",
+    "flickr_url": "http://farm5.staticflickr.com/4007/4423671251_01d578ba4c_z.jpg",
+    "download_url": "https://s3.amazonaws.com/images.cocodataset.org/train2014/COCO_train2014_000000131735.jpg",
+    "license": {
+      "url": "http://creativecommons.org/licenses/by/2.0/",
+      "id": 4,
+      "name": "Attribution License"
+    },
+    "image_path": "data/natural_unseen_holdout_v1/raw_images/COCO_train2014_000000131735.jpg",
+    "image_sha256": "4dfc2b52073610b09631c1a3610417926173e536caee2dba32c3cc58b661361e",
+    "blind_id": "UNSEEN_C_016",
+    "review_index": 15
+  },
+  {
+    "rank": "059f8700347d3f1c56e1d4566e8affd8d3abda4cd5c0191377ff42c5299fe13a",
+    "source_image_id": 237996,
+    "file_name": "COCO_train2014_000000237996.jpg",
+    "width": 640,
+    "height": 427,
+    "annotation_a": 1164779,
+    "annotation_b": 1100087,
+    "bbox_a": [
+      185.74,
+      104.45,
+      55.52,
+      93.83
+    ],
+    "bbox_b": [
+      251.57,
+      100.97,
+      151.33,
+      98.31
+    ],
+    "category_a": "backpack",
+    "category_b": "laptop",
+    "category_id_a": 27,
+    "category_id_b": 73,
+    "target": 0,
+    "coco_url": "http://images.cocodataset.org/train2014/COCO_train2014_000000237996.jpg",
+    "flickr_url": "http://farm5.staticflickr.com/4058/4546173129_695553ee0b_z.jpg",
+    "download_url": "https://s3.amazonaws.com/images.cocodataset.org/train2014/COCO_train2014_000000237996.jpg",
+    "license": {
+      "url": "http://creativecommons.org/licenses/by-nc/2.0/",
+      "id": 2,
+      "name": "Attribution-NonCommercial License"
+    },
+    "image_path": "data/natural_unseen_holdout_v1/raw_images/COCO_train2014_000000237996.jpg",
+    "image_sha256": "3834df0082c2cd658fbb2c8718da9216ae9f3b0c55b9e5025259e6857b6c9adb",
+    "blind_id": "UNSEEN_C_091",
+    "review_index": 90
+  },
+  {
+    "rank": "05c742f53a02ece5b0b3a45955a7e2d2024440ae549d1fa79eea874cc5d8a593",
+    "source_image_id": 344921,
+    "file_name": "COCO_train2014_000000344921.jpg",
+    "width": 640,
+    "height": 428,
+    "annotation_a": 12709,
+    "annotation_b": 219241,
+    "bbox_a": [
+      136.61,
+      146.99,
+      144.4,
+      242.1
+    ],
+    "bbox_b": [
+      301.04,
+      81.75,
+      220.25,
+      295.27
+    ],
+    "category_a": "dog",
+    "category_b": "person",
+    "category_id_a": 18,
+    "category_id_b": 1,
+    "target": 0,
+    "coco_url": "http://images.cocodataset.org/train2014/COCO_train2014_000000344921.jpg",
+    "flickr_url": "http://farm3.staticflickr.com/2416/2413685435_4df8c71b4b_z.jpg",
+    "download_url": "https://s3.amazonaws.com/images.cocodataset.org/train2014/COCO_train2014_000000344921.jpg",
+    "license": {
+      "url": "http://creativecommons.org/licenses/by-nc-sa/2.0/",
+      "id": 1,
+      "name": "Attribution-NonCommercial-ShareAlike License"
+    },
+    "image_path": "data/natural_unseen_holdout_v1/raw_images/COCO_train2014_000000344921.jpg",
+    "image_sha256": "4853fa853da503ef4a16f07c43499541d505ad50001668a68af25a83ca81f0ba",
+    "blind_id": "UNSEEN_C_066",
+    "review_index": 65
+  },
+  {
+    "rank": "06088623be4c1a33ee1e2c3e214fcc205f231f9b3f60e8b2f75aba79db71df88",
+    "source_image_id": 532916,
+    "file_name": "COCO_train2014_000000532916.jpg",
+    "width": 500,
+    "height": 500,
+    "annotation_a": 2129813,
+    "annotation_b": 1092678,
+    "bbox_a": [
+      129.88,
+      341.91,
+      147.74,
+      138.63
+    ],
+    "bbox_b": [
+      380.18,
+      382.7,
+      59.35,
+      81.35
+    ],
+    "category_a": "bed",
+    "category_b": "toilet",
+    "category_id_a": 65,
+    "category_id_b": 70,
+    "target": 0,
+    "coco_url": "http://images.cocodataset.org/train2014/COCO_train2014_000000532916.jpg",
+    "flickr_url": "http://farm4.staticflickr.com/3143/2886518685_3efc3fa277_z.jpg",
+    "download_url": "https://s3.amazonaws.com/images.cocodataset.org/train2014/COCO_train2014_000000532916.jpg",
+    "license": {
+      "url": "http://creativecommons.org/licenses/by-nc/2.0/",
+      "id": 2,
+      "name": "Attribution-NonCommercial License"
+    },
+    "image_path": "data/natural_unseen_holdout_v1/raw_images/COCO_train2014_000000532916.jpg",
+    "image_sha256": "109ee849debaff10710fa13e3e054b38621571a3bd9db7076d9c7fc55e289781",
+    "blind_id": "UNSEEN_C_037",
+    "review_index": 36
+  },
+  {
+    "rank": "060ae936d471a8a1de31a25e5f5b085fd1d705a8c18baf4cbf3d1369deab6fda",
+    "source_image_id": 176113,
+    "file_name": "COCO_train2014_000000176113.jpg",
+    "width": 478,
+    "height": 640,
+    "annotation_a": 697244,
+    "annotation_b": 1875651,
+    "bbox_a": [
+      231.68,
+      358.74,
+      66.03,
+      69.59
+    ],
+    "bbox_b": [
+      36.38,
+      250.03,
+      107.5,
+      234.83
+    ],
+    "category_a": "knife",
+    "category_b": "wine glass",
+    "category_id_a": 49,
+    "category_id_b": 46,
+    "target": 1,
+    "coco_url": "http://images.cocodataset.org/train2014/COCO_train2014_000000176113.jpg",
+    "flickr_url": "http://farm8.staticflickr.com/7215/6991429466_a117ec3d1d_z.jpg",
+    "download_url": "https://s3.amazonaws.com/images.cocodataset.org/train2014/COCO_train2014_000000176113.jpg",
+    "license": {
+      "url": "http://creativecommons.org/licenses/by-nc-sa/2.0/",
+      "id": 1,
+      "name": "Attribution-NonCommercial-ShareAlike License"
+    },
+    "image_path": "data/natural_unseen_holdout_v1/raw_images/COCO_train2014_000000176113.jpg",
+    "image_sha256": "6d23e5bf59c521da911a421f59c8fe810a760fe5194a5424779913492f889000",
+    "blind_id": "UNSEEN_C_140",
+    "review_index": 139
+  },
+  {
+    "rank": "065c0b76c6dedd16e4693237f754b4c803cf31dc3b98790f9b0491a6f1e8ed68",
+    "source_image_id": 226587,
+    "file_name": "COCO_train2014_000000226587.jpg",
+    "width": 640,
+    "height": 428,
+    "annotation_a": 20634,
+    "annotation_b": 213360,
+    "bbox_a": [
+      174.56,
+      16.0,
+      86.57,
+      219.33
+    ],
+    "bbox_b": [
+      331.57,
+      124.84,
+      67.34,
+      128.76
+    ],
+    "category_a": "potted plant",
+    "category_b": "person",
+    "category_id_a": 64,
+    "category_id_b": 1,
+    "target": 0,
+    "coco_url": "http://images.cocodataset.org/train2014/COCO_train2014_000000226587.jpg",
+    "flickr_url": "http://farm7.staticflickr.com/6220/6223807592_293ee8a7ce_z.jpg",
+    "download_url": "https://s3.amazonaws.com/images.cocodataset.org/train2014/COCO_train2014_000000226587.jpg",
+    "license": {
+      "url": "http://creativecommons.org/licenses/by-nc-sa/2.0/",
+      "id": 1,
+      "name": "Attribution-NonCommercial-ShareAlike License"
+    },
+    "image_path": "data/natural_unseen_holdout_v1/raw_images/COCO_train2014_000000226587.jpg",
+    "image_sha256": "bcd53ad62c7acade5f85c9b025f1d43009f19585711460e96e2071b1a4f5f549",
+    "blind_id": "UNSEEN_C_116",
+    "review_index": 115
+  },
+  {
+    "rank": "06655d77c5213e7f3743124c93ca9ff88773d6abdd4d8dd42b50a77c1a624ada",
+    "source_image_id": 128649,
+    "file_name": "COCO_train2014_000000128649.jpg",
+    "width": 573,
+    "height": 640,
+    "annotation_a": 116716,
+    "annotation_b": 33060,
+    "bbox_a": [
+      328.86,
+      341.8,
+      223.11,
+      205.55
+    ],
+    "bbox_b": [
+      84.45,
+      296.69,
+      105.57,
+      101.61
+    ],
+    "category_a": "couch",
+    "category_b": "tv",
+    "category_id_a": 63,
+    "category_id_b": 72,
+    "target": 1,
+    "coco_url": "http://images.cocodataset.org/train2014/COCO_train2014_000000128649.jpg",
+    "flickr_url": "http://farm4.staticflickr.com/3481/3298870946_536747a6e8_z.jpg",
+    "download_url": "https://s3.amazonaws.com/images.cocodataset.org/train2014/COCO_train2014_000000128649.jpg",
+    "license": {
+      "url": "http://creativecommons.org/licenses/by-nc-nd/2.0/",
+      "id": 3,
+      "name": "Attribution-NonCommercial-NoDerivs License"
+    },
+    "image_path": "data/natural_unseen_holdout_v1/raw_images/COCO_train2014_000000128649.jpg",
+    "image_sha256": "344723d999abe48cc32ceb64e5ff528f0c03e7cab0197928f2ab6e0653f04392",
+    "blind_id": "UNSEEN_C_024",
+    "review_index": 23
+  },
+  {
+    "rank": "068e5d3c196bd3ca860ceac1fc1cb450a9dc8e4c2c607bff112a7ce26db7974a",
+    "source_image_id": 147187,
+    "file_name": "COCO_train2014_000000147187.jpg",
+    "width": 640,
+    "height": 480,
+    "annotation_a": 1068323,
+    "annotation_b": 2097942,
+    "bbox_a": [
+      358.09,
+      229.6,
+      108.8,
+      153.13
+    ],
+    "bbox_b": [
+      480.45,
+      154.96,
+      47.42,
+      168.33
+    ],
+    "category_a": "hot dog",
+    "category_b": "wine glass",
+    "category_id_a": 58,
+    "category_id_b": 46,
+    "target": 0,
+    "coco_url": "http://images.cocodataset.org/train2014/COCO_train2014_000000147187.jpg",
+    "flickr_url": "http://farm7.staticflickr.com/6192/6050316031_ed76a1afc5_z.jpg",
+    "download_url": "https://s3.amazonaws.com/images.cocodataset.org/train2014/COCO_train2014_000000147187.jpg",
+    "license": {
+      "url": "http://creativecommons.org/licenses/by-nc-sa/2.0/",
+      "id": 1,
+      "name": "Attribution-NonCommercial-ShareAlike License"
+    },
+    "image_path": "data/natural_unseen_holdout_v1/raw_images/COCO_train2014_000000147187.jpg",
+    "image_sha256": "14057fd9eb6efc72858257b060f2ffd57f75cf15e4ad43ddccbed91b57653335",
+    "blind_id": "UNSEEN_C_061",
+    "review_index": 60
+  },
+  {
+    "rank": "06a6834547ea4c646f13e635e011865b6a93fc6ce2fc5aa3a5095e76f6e78d6a",
+    "source_image_id": 436539,
+    "file_name": "COCO_train2014_000000436539.jpg",
+    "width": 480,
+    "height": 640,
+    "annotation_a": 4644,
+    "annotation_b": 120553,
+    "bbox_a": [
+      273.89,
+      309.87,
+      115.09,
+      142.67
+    ],
+    "bbox_b": [
+      18.01,
+      305.06,
+      229.98,
+      176.57
+    ],
+    "category_a": "dog",
+    "category_b": "dining table",
+    "category_id_a": 18,
+    "category_id_b": 67,
+    "target": 1,
+    "coco_url": "http://images.cocodataset.org/train2014/COCO_train2014_000000436539.jpg",
+    "flickr_url": "http://farm4.staticflickr.com/3078/2635451977_5ec6ca86b1_z.jpg",
+    "download_url": "https://s3.amazonaws.com/images.cocodataset.org/train2014/COCO_train2014_000000436539.jpg",
+    "license": {
+      "url": "http://creativecommons.org/licenses/by-nc-sa/2.0/",
+      "id": 1,
+      "name": "Attribution-NonCommercial-ShareAlike License"
+    },
+    "image_path": "data/natural_unseen_holdout_v1/raw_images/COCO_train2014_000000436539.jpg",
+    "image_sha256": "9a7e00f97dcd5c2b248b6b5491658a87b91251a1b223e5a2b6df8c9a13289b20",
+    "blind_id": "UNSEEN_C_071",
+    "review_index": 70
+  },
+  {
+    "rank": "06b1cca69d26520d2df6d47c1b84bf4b345e7d7bb835d93bad7d2f6feef06091",
+    "source_image_id": 277998,
+    "file_name": "COCO_train2014_000000277998.jpg",
+    "width": 640,
+    "height": 480,
+    "annotation_a": 686501,
+    "annotation_b": 311953,
+    "bbox_a": [
+      96.0,
+      175.82,
+      99.24,
+      223.28
+    ],
+    "bbox_b": [
+      316.78,
+      206.28,
+      154.63,
+      158.92
+    ],
+    "category_a": "fork",
+    "category_b": "sandwich",
+    "category_id_a": 48,
+    "category_id_b": 54,
+    "target": 0,
+    "coco_url": "http://images.cocodataset.org/train2014/COCO_train2014_000000277998.jpg",
+    "flickr_url": "http://farm9.staticflickr.com/8112/8553163480_546111819e_z.jpg",
+    "download_url": "https://s3.amazonaws.com/images.cocodataset.org/train2014/COCO_train2014_000000277998.jpg",
+    "license": {
+      "url": "http://creativecommons.org/licenses/by-nc-sa/2.0/",
+      "id": 1,
+      "name": "Attribution-NonCommercial-ShareAlike License"
+    },
+    "image_path": "data/natural_unseen_holdout_v1/raw_images/COCO_train2014_000000277998.jpg",
+    "image_sha256": "56f7c00396fe6128de62379cba964c418b8085abd8b21607f167d4a748f22bb6",
+    "blind_id": "UNSEEN_C_093",
+    "review_index": 92
+  },
+  {
+    "rank": "06f715cd20bf542939d708e1aa107a894350404a899f47a831d3c64de03b92a8",
+    "source_image_id": 170406,
+    "file_name": "COCO_train2014_000000170406.jpg",
+    "width": 640,
+    "height": 640,
+    "annotation_a": 12483,
+    "annotation_b": 1184107,
+    "bbox_a": [
+      107.1,
+      313.03,
+      200.0,
+      176.78
+    ],
+    "bbox_b": [
+      372.49,
+      227.24,
+      201.35,
+      263.19
+    ],
+    "category_a": "dog",
+    "category_b": "suitcase",
+    "category_id_a": 18,
+    "category_id_b": 33,
+    "target": 0,
+    "coco_url": "http://images.cocodataset.org/train2014/COCO_train2014_000000170406.jpg",
+    "flickr_url": "http://farm7.staticflickr.com/6146/5918347278_f1ce49c2d1_z.jpg",
+    "download_url": "https://s3.amazonaws.com/images.cocodataset.org/train2014/COCO_train2014_000000170406.jpg",
+    "license": {
+      "url": "http://creativecommons.org/licenses/by-nc-sa/2.0/",
+      "id": 1,
+      "name": "Attribution-NonCommercial-ShareAlike License"
+    },
+    "image_path": "data/natural_unseen_holdout_v1/raw_images/COCO_train2014_000000170406.jpg",
+    "image_sha256": "6e0dfd77685cc1648e38bd2fafc60793ce2560e89f80300149a16fc34b9b1cb0",
+    "blind_id": "UNSEEN_C_080",
+    "review_index": 79
+  },
+  {
+    "rank": "079cced5aeeb4df9063bf3f297612c9f3fdab452b3e5f73f71c7b34ed95fdbb6",
+    "source_image_id": 500898,
+    "file_name": "COCO_train2014_000000500898.jpg",
+    "width": 640,
+    "height": 640,
+    "annotation_a": 465816,
+    "annotation_b": 577274,
+    "bbox_a": [
+      134.88,
+      330.01,
+      106.32,
+      203.49
+    ],
+    "bbox_b": [
+      351.71,
+      420.18,
+      229.19,
+      93.69
+    ],
+    "category_a": "person",
+    "category_b": "bench",
+    "category_id_a": 1,
+    "category_id_b": 15,
+    "target": 0,
+    "coco_url": "http://images.cocodataset.org/train2014/COCO_train2014_000000500898.jpg",
+    "flickr_url": "http://farm8.staticflickr.com/7149/6598227535_2df3f22e33_z.jpg",
+    "download_url": "https://s3.amazonaws.com/images.cocodataset.org/train2014/COCO_train2014_000000500898.jpg",
+    "license": {
+      "url": "http://creativecommons.org/licenses/by-nc-nd/2.0/",
+      "id": 3,
+      "name": "Attribution-NonCommercial-NoDerivs License"
+    },
+    "image_path": "data/natural_unseen_holdout_v1/raw_images/COCO_train2014_000000500898.jpg",
+    "image_sha256": "9836580a63aeac8c8ed7e88bff95793e4163ea358137bffdb6744cf5f1282a3c",
+    "blind_id": "UNSEEN_C_114",
+    "review_index": 113
+  },
+  {
+    "rank": "07f8000f02896009d8df10001011bf4a009f000fcdacef94f9e9785005ca87d6",
+    "source_image_id": 295630,
+    "file_name": "COCO_train2014_000000295630.jpg",
+    "width": 375,
+    "height": 500,
+    "annotation_a": 31498,
+    "annotation_b": 1957555,
+    "bbox_a": [
+      6.24,
+      195.31,
+      97.13,
+      110.35
+    ],
+    "bbox_b": [
+      218.1,
+      280.46,
+      84.78,
+      43.39
+    ],
+    "category_a": "tv",
+    "category_b": "bed",
+    "category_id_a": 72,
+    "category_id_b": 65,
+    "target": 0,
+    "coco_url": "http://images.cocodataset.org/train2014/COCO_train2014_000000295630.jpg",
+    "flickr_url": "http://farm4.staticflickr.com/3660/3373349806_70c41d85d2_z.jpg",
+    "download_url": "https://s3.amazonaws.com/images.cocodataset.org/train2014/COCO_train2014_000000295630.jpg",
+    "license": {
+      "url": "http://creativecommons.org/licenses/by-nd/2.0/",
+      "id": 6,
+      "name": "Attribution-NoDerivs License"
+    },
+    "image_path": "data/natural_unseen_holdout_v1/raw_images/COCO_train2014_000000295630.jpg",
+    "image_sha256": "65b58f849d09ba44b2e53a0eb6afb284881ed0e53d615097f6c57672f5b99c81",
+    "blind_id": "UNSEEN_C_056",
+    "review_index": 55
+  },
+  {
+    "rank": "07fab77dc5c57cabc9bfd501562c491b813623a3ed56fc93aca9deafeb3df1b7",
+    "source_image_id": 355182,
+    "file_name": "COCO_train2014_000000355182.jpg",
+    "width": 612,
+    "height": 612,
+    "annotation_a": 1051724,
+    "annotation_b": 696801,
+    "bbox_a": [
+      341.6,
+      306.29,
+      113.22,
+      82.3
+    ],
+    "bbox_b": [
+      554.68,
+      299.08,
+      46.88,
+      218.26
+    ],
+    "category_a": "orange",
+    "category_b": "knife",
+    "category_id_a": 55,
+    "category_id_b": 49,
+    "target": 0,
+    "coco_url": "http://images.cocodataset.org/train2014/COCO_train2014_000000355182.jpg",
+    "flickr_url": "http://farm3.staticflickr.com/2856/10027432103_29dbd96a02_z.jpg",
+    "download_url": "https://s3.amazonaws.com/images.cocodataset.org/train2014/COCO_train2014_000000355182.jpg",
+    "license": {
+      "url": "http://creativecommons.org/licenses/by-nc-sa/2.0/",
+      "id": 1,
+      "name": "Attribution-NonCommercial-ShareAlike License"
+    },
+    "image_path": "data/natural_unseen_holdout_v1/raw_images/COCO_train2014_000000355182.jpg",
+    "image_sha256": "20d0f32485eefc2ddf387277649c5960238d3e8da724dae02182bb76e7e721f7",
+    "blind_id": "UNSEEN_C_067",
+    "review_index": 66
+  },
+  {
+    "rank": "085c54bde639bf842e13ba537ae663141fc80bfbc38920e3ffafbd3d0405397a",
+    "source_image_id": 34831,
+    "file_name": "COCO_train2014_000000034831.jpg",
+    "width": 640,
+    "height": 479,
+    "annotation_a": 104046,
+    "annotation_b": 1634233,
+    "bbox_a": [
+      421.71,
+      347.7,
+      89.78,
+      89.78
+    ],
+    "bbox_b": [
+      106.56,
+      412.33,
+      109.8,
+      47.37
+    ],
+    "category_a": "chair",
+    "category_b": "keyboard",
+    "category_id_a": 62,
+    "category_id_b": 76,
+    "target": 1,
+    "coco_url": "http://images.cocodataset.org/train2014/COCO_train2014_000000034831.jpg",
+    "flickr_url": "http://farm4.staticflickr.com/3469/3386673826_47a87c1573_z.jpg",
+    "download_url": "https://s3.amazonaws.com/images.cocodataset.org/train2014/COCO_train2014_000000034831.jpg",
+    "license": {
+      "url": "http://creativecommons.org/licenses/by/2.0/",
+      "id": 4,
+      "name": "Attribution License"
+    },
+    "image_path": "data/natural_unseen_holdout_v1/raw_images/COCO_train2014_000000034831.jpg",
+    "image_sha256": "2c4ea877e55361f1695b7d502b0351fe2cfadf62d9e46ed3ba7c73f752ee1aa5",
+    "blind_id": "UNSEEN_C_059",
+    "review_index": 58
+  },
+  {
+    "rank": "087c30e0124346dce7640629eb8ca8b3de73a15dc71e65d403e9738210465c15",
+    "source_image_id": 12440,
+    "file_name": "COCO_train2014_000000012440.jpg",
+    "width": 480,
+    "height": 640,
+    "annotation_a": 1589108,
+    "annotation_b": 1175534,
+    "bbox_a": [
+      372.36,
+      394.51,
+      97.66,
+      142.73
+    ],
+    "bbox_b": [
+      282.17,
+      386.57,
+      79.34,
+      126.4
+    ],
+    "category_a": "chair",
+    "category_b": "handbag",
+    "category_id_a": 62,
+    "category_id_b": 31,
+    "target": 1,
+    "coco_url": "http://images.cocodataset.org/train2014/COCO_train2014_000000012440.jpg",
+    "flickr_url": "http://farm9.staticflickr.com/8235/8532807689_05f9b71053_z.jpg",
+    "download_url": "https://s3.amazonaws.com/images.cocodataset.org/train2014/COCO_train2014_000000012440.jpg",
+    "license": {
+      "url": "http://creativecommons.org/licenses/by-nc-sa/2.0/",
+      "id": 1,
+      "name": "Attribution-NonCommercial-ShareAlike License"
+    },
+    "image_path": "data/natural_unseen_holdout_v1/raw_images/COCO_train2014_000000012440.jpg",
+    "image_sha256": "4b709ccfe315aa74c4873432c15899f3dc3d0ed76b98ff133bdc10636da6718e",
+    "blind_id": "UNSEEN_C_039",
+    "review_index": 38
+  },
+  {
+    "rank": "087eab8749443a308eff7b113d2581174068e9f819e968d2ff9b22a7434846e2",
+    "source_image_id": 411478,
+    "file_name": "COCO_train2014_000000411478.jpg",
+    "width": 640,
+    "height": 480,
+    "annotation_a": 1071587,
+    "annotation_b": 325234,
+    "bbox_a": [
+      300.89,
+      289.8,
+      132.58,
+      139.79
+    ],
+    "bbox_b": [
+      209.26,
+      324.67,
+      78.74,
+      87.37
+    ],
+    "category_a": "pizza",
+    "category_b": "cell phone",
+    "category_id_a": 59,
+    "category_id_b": 77,
+    "target": 1,
+    "coco_url": "http://images.cocodataset.org/train2014/COCO_train2014_000000411478.jpg",
+    "flickr_url": "http://farm6.staticflickr.com/5099/5470303474_5e29cb18a2_z.jpg",
+    "download_url": "https://s3.amazonaws.com/images.cocodataset.org/train2014/COCO_train2014_000000411478.jpg",
+    "license": {
+      "url": "http://creativecommons.org/licenses/by/2.0/",
+      "id": 4,
+      "name": "Attribution License"
+    },
+    "image_path": "data/natural_unseen_holdout_v1/raw_images/COCO_train2014_000000411478.jpg",
+    "image_sha256": "08d705b573d1bc6ec216c4a9f3c46eaa165e1561e912558e0c664dede5ec0810",
+    "blind_id": "UNSEEN_C_108",
+    "review_index": 107
+  },
+  {
+    "rank": "08b66391ced870e584ed77533bb274ccdd59cfefd766ee122d578921417ae719",
+    "source_image_id": 62608,
+    "file_name": "COCO_train2014_000000062608.jpg",
+    "width": 640,
+    "height": 500,
+    "annotation_a": 669165,
+    "annotation_b": 1040353,
+    "bbox_a": [
+      110.99,
+      39.24,
+      112.1,
+      192.82
+    ],
+    "bbox_b": [
+      396.63,
+      134.83,
+      135.95,
+      83.15
+    ],
+    "category_a": "cup",
+    "category_b": "bowl",
+    "category_id_a": 47,
+    "category_id_b": 51,
+    "target": 0,
+    "coco_url": "http://images.cocodataset.org/train2014/COCO_train2014_000000062608.jpg",
+    "flickr_url": "http://farm7.staticflickr.com/6198/6080385416_1b168648d5_z.jpg",
+    "download_url": "https://s3.amazonaws.com/images.cocodataset.org/train2014/COCO_train2014_000000062608.jpg",
+    "license": {
+      "url": "http://creativecommons.org/licenses/by-nc-nd/2.0/",
+      "id": 3,
+      "name": "Attribution-NonCommercial-NoDerivs License"
+    },
+    "image_path": "data/natural_unseen_holdout_v1/raw_images/COCO_train2014_000000062608.jpg",
+    "image_sha256": "b7e869361e1b282d7f842cf40977bf78efdea882540fb19ac54d80da271548c6",
+    "blind_id": "UNSEEN_C_048",
+    "review_index": 47
+  },
+  {
+    "rank": "08b8d0df4108fe0e3907df8dc7d770f08203c4af0eae11555abb60ca5b74d40d",
+    "source_image_id": 511781,
+    "file_name": "COCO_train2014_000000511781.jpg",
+    "width": 640,
+    "height": 480,
+    "annotation_a": 1125170,
+    "annotation_b": 331372,
+    "bbox_a": [
+      382.92,
+      124.79,
+      115.42,
+      159.64
+    ],
+    "bbox_b": [
+      176.48,
+      168.48,
+      165.82,
+      294.8
+    ],
+    "category_a": "oven",
+    "category_b": "refrigerator",
+    "category_id_a": 79,
+    "category_id_b": 82,
+    "target": 1,
+    "coco_url": "http://images.cocodataset.org/train2014/COCO_train2014_000000511781.jpg",
+    "flickr_url": "http://farm9.staticflickr.com/8013/7121924901_2bac8fbe59_z.jpg",
+    "download_url": "https://s3.amazonaws.com/images.cocodataset.org/train2014/COCO_train2014_000000511781.jpg",
+    "license": {
+      "url": "http://creativecommons.org/licenses/by-nc-sa/2.0/",
+      "id": 1,
+      "name": "Attribution-NonCommercial-ShareAlike License"
+    },
+    "image_path": "data/natural_unseen_holdout_v1/raw_images/COCO_train2014_000000511781.jpg",
+    "image_sha256": "dce91242d79d89ca454624cb72fefa771d01c5672e5e9a72a5369a52a6e26f3e",
+    "blind_id": "UNSEEN_C_049",
+    "review_index": 48
+  },
+  {
+    "rank": "08d5ddce921a5e145d41f74d8b702c29a2349e0406f8542b0e9b0e88bb4cfb0f",
+    "source_image_id": 517049,
+    "file_name": "COCO_train2014_000000517049.jpg",
+    "width": 640,
+    "height": 481,
+    "annotation_a": 1078199,
+    "annotation_b": 79947,
+    "bbox_a": [
+      362.92,
+      335.2,
+      88.21,
+      59.06
+    ],
+    "bbox_b": [
+      254.95,
+      287.72,
+      60.89,
+      146.0
+    ],
+    "category_a": "donut",
+    "category_b": "bottle",
+    "category_id_a": 60,
+    "category_id_b": 44,
+    "target": 1,
+    "coco_url": "http://images.cocodataset.org/train2014/COCO_train2014_000000517049.jpg",
+    "flickr_url": "http://farm5.staticflickr.com/4037/4296707756_ede5dac0ef_z.jpg",
+    "download_url": "https://s3.amazonaws.com/images.cocodataset.org/train2014/COCO_train2014_000000517049.jpg",
+    "license": {
+      "url": "http://creativecommons.org/licenses/by-nc-sa/2.0/",
+      "id": 1,
+      "name": "Attribution-NonCommercial-ShareAlike License"
+    },
+    "image_path": "data/natural_unseen_holdout_v1/raw_images/COCO_train2014_000000517049.jpg",
+    "image_sha256": "03c6a3471fba1a98ea06a1f349a4fea2bcc288e4139cd7891cc3f4110544c058",
+    "blind_id": "UNSEEN_C_121",
+    "review_index": 120
+  },
+  {
+    "rank": "091e5e63aa1f69576cc195d6453290670f15bcb6ec9b78b9298369be3868f5c9",
+    "source_image_id": 293346,
+    "file_name": "COCO_train2014_000000293346.jpg",
+    "width": 480,
+    "height": 640,
+    "annotation_a": 1198515,
+    "annotation_b": 1196964,
+    "bbox_a": [
+      192.78,
+      141.86,
+      65.99,
+      123.74
+    ],
+    "bbox_b": [
+      16.18,
+      197.15,
+      91.21,
+      60.47
+    ],
+    "category_a": "traffic light",
+    "category_b": "truck",
+    "category_id_a": 10,
+    "category_id_b": 8,
+    "target": 1,
+    "coco_url": "http://images.cocodataset.org/train2014/COCO_train2014_000000293346.jpg",
+    "flickr_url": "http://farm2.staticflickr.com/1386/1478666664_17c8c76c16_z.jpg",
+    "download_url": "https://s3.amazonaws.com/images.cocodataset.org/train2014/COCO_train2014_000000293346.jpg",
+    "license": {
+      "url": "http://creativecommons.org/licenses/by-nc-nd/2.0/",
+      "id": 3,
+      "name": "Attribution-NonCommercial-NoDerivs License"
+    },
+    "image_path": "data/natural_unseen_holdout_v1/raw_images/COCO_train2014_000000293346.jpg",
+    "image_sha256": "3d680813e44f9df3dc8499532a28e8907d7366817cf2de819bc8545f4a0c24c6",
+    "blind_id": "UNSEEN_C_014",
+    "review_index": 13
+  },
+  {
+    "rank": "09689ebb40cd7e35987f435d2c1251e3a6aef597b846b55ed5068c1febeb6845",
+    "source_image_id": 324915,
+    "file_name": "COCO_train2014_000000324915.jpg",
+    "width": 640,
+    "height": 426,
+    "annotation_a": 623889,
+    "annotation_b": 459746,
+    "bbox_a": [
+      335.2,
+      84.68,
+      150.69,
+      164.22
+    ],
+    "bbox_b": [
+      202.47,
+      186.99,
+      80.87,
+      94.18
+    ],
+    "category_a": "kite",
+    "category_b": "person",
+    "category_id_a": 38,
+    "category_id_b": 1,
+    "target": 1,
+    "coco_url": "http://images.cocodataset.org/train2014/COCO_train2014_000000324915.jpg",
+    "flickr_url": "http://farm1.staticflickr.com/150/346807546_6751d25a7a_z.jpg",
+    "download_url": "https://s3.amazonaws.com/images.cocodataset.org/train2014/COCO_train2014_000000324915.jpg",
+    "license": {
+      "url": "http://creativecommons.org/licenses/by-nc/2.0/",
+      "id": 2,
+      "name": "Attribution-NonCommercial License"
+    },
+    "image_path": "data/natural_unseen_holdout_v1/raw_images/COCO_train2014_000000324915.jpg",
+    "image_sha256": "8e4d2fefe89ad258bf36189d034d122e50ccc02c3a976a027ec2b202773d2334",
+    "blind_id": "UNSEEN_C_127",
+    "review_index": 126
+  },
+  {
+    "rank": "098d4563a4e6ed5f9e8a9f78ceb4282a79c3de1c2221f5e5f499f2f4847033cf",
+    "source_image_id": 526247,
+    "file_name": "COCO_train2014_000000526247.jpg",
+    "width": 480,
+    "height": 640,
+    "annotation_a": 378673,
+    "annotation_b": 1892416,
+    "bbox_a": [
+      23.01,
+      120.81,
+      140.95,
+      106.43
+    ],
+    "bbox_b": [
+      200.85,
+      118.37,
+      59.51,
+      81.09
+    ],
+    "category_a": "chair",
+    "category_b": "knife",
+    "category_id_a": 62,
+    "category_id_b": 49,
+    "target": 0,
+    "coco_url": "http://images.cocodataset.org/train2014/COCO_train2014_000000526247.jpg",
+    "flickr_url": "http://farm4.staticflickr.com/3597/3673956140_1403f0f904_z.jpg",
+    "download_url": "https://s3.amazonaws.com/images.cocodataset.org/train2014/COCO_train2014_000000526247.jpg",
+    "license": {
+      "url": "http://creativecommons.org/licenses/by-nc-sa/2.0/",
+      "id": 1,
+      "name": "Attribution-NonCommercial-ShareAlike License"
+    },
+    "image_path": "data/natural_unseen_holdout_v1/raw_images/COCO_train2014_000000526247.jpg",
+    "image_sha256": "dbaf453beb10461ce9dd994cd0ff28ce15c9c9110f3c47d1fbdea7925dceea7b",
+    "blind_id": "UNSEEN_C_147",
+    "review_index": 146
+  },
+  {
+    "rank": "098d7dbde4c09a3d5ec8e568907aede20d094a71d022e33872a16228ce2e4850",
+    "source_image_id": 264363,
+    "file_name": "COCO_train2014_000000264363.jpg",
+    "width": 500,
+    "height": 333,
+    "annotation_a": 1099933,
+    "annotation_b": 31740,
+    "bbox_a": [
+      149.0,
+      151.06,
+      70.14,
+      41.83
+    ],
+    "bbox_b": [
+      227.68,
+      127.07,
+      63.86,
+      52.32
+    ],
+    "category_a": "laptop",
+    "category_b": "tv",
+    "category_id_a": 73,
+    "category_id_b": 72,
+    "target": 0,
+    "coco_url": "http://images.cocodataset.org/train2014/COCO_train2014_000000264363.jpg",
+    "flickr_url": "http://farm1.staticflickr.com/50/132051910_38d8b02987_z.jpg",
+    "download_url": "https://s3.amazonaws.com/images.cocodataset.org/train2014/COCO_train2014_000000264363.jpg",
+    "license": {
+      "url": "http://creativecommons.org/licenses/by-nc/2.0/",
+      "id": 2,
+      "name": "Attribution-NonCommercial License"
+    },
+    "image_path": "data/natural_unseen_holdout_v1/raw_images/COCO_train2014_000000264363.jpg",
+    "image_sha256": "43b3816ea1958db0f0ef7b1e529a051eb8a916830c184f76fc1f76d66ddbc786",
+    "blind_id": "UNSEEN_C_035",
+    "review_index": 34
+  },
+  {
+    "rank": "099a3ce7c4fe078e3fe45865cc21f5e050858a63e33d65abb5ae865b25fa76fc",
+    "source_image_id": 540723,
+    "file_name": "COCO_train2014_000000540723.jpg",
+    "width": 478,
+    "height": 640,
+    "annotation_a": 1093820,
+    "annotation_b": 1645189,
+    "bbox_a": [
+      186.71,
+      282.31,
+      66.11,
+      158.01
+    ],
+    "bbox_b": [
+      13.47,
+      234.17,
+      85.57,
+      147.56
+    ],
+    "category_a": "toilet",
+    "category_b": "sink",
+    "category_id_a": 70,
+    "category_id_b": 81,
+    "target": 1,
+    "coco_url": "http://images.cocodataset.org/train2014/COCO_train2014_000000540723.jpg",
+    "flickr_url": "http://farm9.staticflickr.com/8098/8355413812_de173674a7_z.jpg",
+    "download_url": "https://s3.amazonaws.com/images.cocodataset.org/train2014/COCO_train2014_000000540723.jpg",
+    "license": {
+      "url": "http://creativecommons.org/licenses/by-nc-nd/2.0/",
+      "id": 3,
+      "name": "Attribution-NonCommercial-NoDerivs License"
+    },
+    "image_path": "data/natural_unseen_holdout_v1/raw_images/COCO_train2014_000000540723.jpg",
+    "image_sha256": "766546fe4d80564d01746c6f4a8ab0d2a511be599a822038185df64f33eb0875",
+    "blind_id": "UNSEEN_C_038",
+    "review_index": 37
+  },
+  {
+    "rank": "09a1a180109005b1b881874601dd19e7ae29defef087310dcb51290d5bc64176",
+    "source_image_id": 154847,
+    "file_name": "COCO_train2014_000000154847.jpg",
+    "width": 380,
+    "height": 640,
+    "annotation_a": 2026,
+    "annotation_b": 476962,
+    "bbox_a": [
+      259.67,
+      304.07,
+      56.49,
+      104.91
+    ],
+    "bbox_b": [
+      129.29,
+      163.77,
+      77.58,
+      253.74
+    ],
+    "category_a": "dog",
+    "category_b": "person",
+    "category_id_a": 18,
+    "category_id_b": 1,
+    "target": 1,
+    "coco_url": "http://images.cocodataset.org/train2014/COCO_train2014_000000154847.jpg",
+    "flickr_url": "http://farm4.staticflickr.com/3456/5739136422_217a4da4c9_z.jpg",
+    "download_url": "https://s3.amazonaws.com/images.cocodataset.org/train2014/COCO_train2014_000000154847.jpg",
+    "license": {
+      "url": "http://creativecommons.org/licenses/by/2.0/",
+      "id": 4,
+      "name": "Attribution License"
+    },
+    "image_path": "data/natural_unseen_holdout_v1/raw_images/COCO_train2014_000000154847.jpg",
+    "image_sha256": "ab43538816661d737e72a43c8ee59f36f13bfb87410792d8acfd36b968adbe2d",
+    "blind_id": "UNSEEN_C_105",
+    "review_index": 104
+  },
+  {
+    "rank": "0a3de8399fd30500bede2e79ca23ec4abc21f0c048fa2d3960a31ddca4721084",
+    "source_image_id": 11497,
+    "file_name": "COCO_train2014_000000011497.jpg",
+    "width": 640,
+    "height": 425,
+    "annotation_a": 603866,
+    "annotation_b": 2163025,
+    "bbox_a": [
+      458.03,
+      263.48,
+      67.75,
+      73.78
+    ],
+    "bbox_b": [
+      245.7,
+      116.76,
+      120.64,
+      271.16
+    ],
+    "category_a": "frisbee",
+    "category_b": "person",
+    "category_id_a": 34,
+    "category_id_b": 1,
+    "target": 1,
+    "coco_url": "http://images.cocodataset.org/train2014/COCO_train2014_000000011497.jpg",
+    "flickr_url": "http://farm8.staticflickr.com/7062/7007507953_07199f3a91_z.jpg",
+    "download_url": "https://s3.amazonaws.com/images.cocodataset.org/train2014/COCO_train2014_000000011497.jpg",
+    "license": {
+      "url": "http://creativecommons.org/licenses/by-nc-sa/2.0/",
+      "id": 1,
+      "name": "Attribution-NonCommercial-ShareAlike License"
+    },
+    "image_path": "data/natural_unseen_holdout_v1/raw_images/COCO_train2014_000000011497.jpg",
+    "image_sha256": "1e7e2b90040bf86875266ef6d2f07a19dce2db8f3d39d3f387d2ccfc735dfce8",
+    "blind_id": "UNSEEN_C_044",
+    "review_index": 43
+  },
+  {
+    "rank": "0a4ae011047ee761c331ece6fbaec2df20843ee1585954122401ff67bd63f09f",
+    "source_image_id": 149623,
+    "file_name": "COCO_train2014_000000149623.jpg",
+    "width": 640,
+    "height": 444,
+    "annotation_a": 197183,
+    "annotation_b": 13366,
+    "bbox_a": [
+      293.0,
+      25.5,
+      144.0,
+      343.0
+    ],
+    "bbox_b": [
+      129.8,
+      258.7,
+      61.76,
+      128.9
+    ],
+    "category_a": "person",
+    "category_b": "dog",
+    "category_id_a": 1,
+    "category_id_b": 18,
+    "target": 1,
+    "coco_url": "http://images.cocodataset.org/train2014/COCO_train2014_000000149623.jpg",
+    "flickr_url": "http://farm6.staticflickr.com/5262/5616622936_36ca39e8ae_z.jpg",
+    "download_url": "https://s3.amazonaws.com/images.cocodataset.org/train2014/COCO_train2014_000000149623.jpg",
+    "license": {
+      "url": "http://creativecommons.org/licenses/by/2.0/",
+      "id": 4,
+      "name": "Attribution License"
+    },
+    "image_path": "data/natural_unseen_holdout_v1/raw_images/COCO_train2014_000000149623.jpg",
+    "image_sha256": "7ac0aea0e95b0e2b8fb97e7a9b1c8052975c19cd3a075a05adc0ee5d4f3704b2",
+    "blind_id": "UNSEEN_C_086",
+    "review_index": 85
+  },
+  {
+    "rank": "0a619c9731b0d9c360c561703f038257e83dd6478a5ef58e2a51e353595285e6",
+    "source_image_id": 337448,
+    "file_name": "COCO_train2014_000000337448.jpg",
+    "width": 500,
+    "height": 333,
+    "annotation_a": 1139389,
+    "annotation_b": 1118176,
+    "bbox_a": [
+      99.98,
+      193.75,
+      72.16,
+      57.13
+    ],
+    "bbox_b": [
+      190.18,
+      182.58,
+      66.74,
+      46.19
+    ],
+    "category_a": "book",
+    "category_b": "keyboard",
+    "category_id_a": 84,
+    "category_id_b": 76,
+    "target": 0,
+    "coco_url": "http://images.cocodataset.org/train2014/COCO_train2014_000000337448.jpg",
+    "flickr_url": "http://farm1.staticflickr.com/35/122237076_1bae78bf7c_z.jpg",
+    "download_url": "https://s3.amazonaws.com/images.cocodataset.org/train2014/COCO_train2014_000000337448.jpg",
+    "license": {
+      "url": "http://creativecommons.org/licenses/by-nc-nd/2.0/",
+      "id": 3,
+      "name": "Attribution-NonCommercial-NoDerivs License"
+    },
+    "image_path": "data/natural_unseen_holdout_v1/raw_images/COCO_train2014_000000337448.jpg",
+    "image_sha256": "7d56ae412e5143e2cf76362024778ca3daffd763938320bfd48ea7714dc6aecb",
+    "blind_id": "UNSEEN_C_154",
+    "review_index": 153
+  },
+  {
+    "rank": "0ab79d6c6950cc3f69841b8f75563d0d42d7b6176306b810de532b140aaa4e41",
+    "source_image_id": 112836,
+    "file_name": "COCO_train2014_000000112836.jpg",
+    "width": 612,
+    "height": 612,
+    "annotation_a": 1873992,
+    "annotation_b": 677450,
+    "bbox_a": [
+      20.52,
+      22.24,
+      215.71,
+      220.89
+    ],
+    "bbox_b": [
+      259.93,
+      23.15,
+      204.91,
+      177.41
+    ],
+    "category_a": "wine glass",
+    "category_b": "cup",
+    "category_id_a": 46,
+    "category_id_b": 47,
+    "target": 0,
+    "coco_url": "http://images.cocodataset.org/train2014/COCO_train2014_000000112836.jpg",
+    "flickr_url": "http://farm5.staticflickr.com/4119/5411356346_970580c917_z.jpg",
+    "download_url": "https://s3.amazonaws.com/images.cocodataset.org/train2014/COCO_train2014_000000112836.jpg",
+    "license": {
+      "url": "http://creativecommons.org/licenses/by-nc-sa/2.0/",
+      "id": 1,
+      "name": "Attribution-NonCommercial-ShareAlike License"
+    },
+    "image_path": "data/natural_unseen_holdout_v1/raw_images/COCO_train2014_000000112836.jpg",
+    "image_sha256": "10ced712e4ebd7a8976c496d9ffeac1910f04f17eab903333b41abe609ca4b51",
+    "blind_id": "UNSEEN_C_110",
+    "review_index": 109
+  },
+  {
+    "rank": "0abeeccb16011ed5624043f304dea4028195fb5e0a973e10a7ba83b5b98bef70",
+    "source_image_id": 550617,
+    "file_name": "COCO_train2014_000000550617.jpg",
+    "width": 640,
+    "height": 427,
+    "annotation_a": 2107649,
+    "annotation_b": 677277,
+    "bbox_a": [
+      275.13,
+      187.48,
+      96.29,
+      90.22
+    ],
+    "bbox_b": [
+      129.25,
+      216.32,
+      105.31,
+      95.74
+    ],
+    "category_a": "bowl",
+    "category_b": "cup",
+    "category_id_a": 51,
+    "category_id_b": 47,
+    "target": 1,
+    "coco_url": "http://images.cocodataset.org/train2014/COCO_train2014_000000550617.jpg",
+    "flickr_url": "http://farm8.staticflickr.com/7021/6427392205_73067d3505_z.jpg",
+    "download_url": "https://s3.amazonaws.com/images.cocodataset.org/train2014/COCO_train2014_000000550617.jpg",
+    "license": {
+      "url": "http://creativecommons.org/licenses/by/2.0/",
+      "id": 4,
+      "name": "Attribution License"
+    },
+    "image_path": "data/natural_unseen_holdout_v1/raw_images/COCO_train2014_000000550617.jpg",
+    "image_sha256": "e84a4766036f5411a35f98a1a57bcdb8c9d6415eb46b988c71164ea9a0ce8605",
+    "blind_id": "UNSEEN_C_126",
+    "review_index": 125
+  },
+  {
+    "rank": "0add6961afc0d3df0ba2d79470778991901046812b58ddb991660af0754a9ba1",
+    "source_image_id": 237225,
+    "file_name": "COCO_train2014_000000237225.jpg",
+    "width": 640,
+    "height": 426,
+    "annotation_a": 697557,
+    "annotation_b": 1084613,
+    "bbox_a": [
+      480.88,
+      273.23,
+      46.79,
+      139.33
+    ],
+    "bbox_b": [
+      235.5,
+      144.55,
+      180.93,
+      213.48
+    ],
+    "category_a": "knife",
+    "category_b": "cake",
+    "category_id_a": 49,
+    "category_id_b": 61,
+    "target": 1,
+    "coco_url": "http://images.cocodataset.org/train2014/COCO_train2014_000000237225.jpg",
+    "flickr_url": "http://farm5.staticflickr.com/4142/4945111788_40167364b1_z.jpg",
+    "download_url": "https://s3.amazonaws.com/images.cocodataset.org/train2014/COCO_train2014_000000237225.jpg",
+    "license": {
+      "url": "http://creativecommons.org/licenses/by-nc-nd/2.0/",
+      "id": 3,
+      "name": "Attribution-NonCommercial-NoDerivs License"
+    },
+    "image_path": "data/natural_unseen_holdout_v1/raw_images/COCO_train2014_000000237225.jpg",
+    "image_sha256": "2e68557af9e50ffc7afae0f0e308140671041b5f74f663b7bb3468bcb9d6a4b9",
+    "blind_id": "UNSEEN_C_041",
+    "review_index": 40
+  },
+  {
+    "rank": "0bb611112bbf72e400bd0427b9570c5656b54f683ab2d45f80f083c50be0d526",
+    "source_image_id": 42384,
+    "file_name": "COCO_train2014_000000042384.jpg",
+    "width": 640,
+    "height": 480,
+    "annotation_a": 1063245,
+    "annotation_b": 1055572,
+    "bbox_a": [
+      215.72,
+      162.64,
+      59.86,
+      201.03
+    ],
+    "bbox_b": [
+      90.81,
+      208.91,
+      104.72,
+      118.61
+    ],
+    "category_a": "carrot",
+    "category_b": "broccoli",
+    "category_id_a": 57,
+    "category_id_b": 56,
+    "target": 1,
+    "coco_url": "http://images.cocodataset.org/train2014/COCO_train2014_000000042384.jpg",
+    "flickr_url": "http://farm9.staticflickr.com/8004/7209109702_23dd539613_z.jpg",
+    "download_url": "https://s3.amazonaws.com/images.cocodataset.org/train2014/COCO_train2014_000000042384.jpg",
+    "license": {
+      "url": "http://creativecommons.org/licenses/by/2.0/",
+      "id": 4,
+      "name": "Attribution License"
+    },
+    "image_path": "data/natural_unseen_holdout_v1/raw_images/COCO_train2014_000000042384.jpg",
+    "image_sha256": "da1fbc08d46007d7340fb51f6b0a954bee9c1ee769ae42c1eb5250182b2912da",
+    "blind_id": "UNSEEN_C_128",
+    "review_index": 127
+  },
+  {
+    "rank": "0c353b80a3940c9dfc3661711e662f759077a4804d64997e67bccaa85036fb1e",
+    "source_image_id": 119621,
+    "file_name": "COCO_train2014_000000119621.jpg",
+    "width": 482,
+    "height": 640,
+    "annotation_a": 308764,
+    "annotation_b": 1086990,
+    "bbox_a": [
+      207.1,
+      274.7,
+      215.73,
+      191.28
+    ],
+    "bbox_b": [
+      27.14,
+      224.02,
+      150.0,
+      141.43
+    ],
+    "category_a": "sandwich",
+    "category_b": "cake",
+    "category_id_a": 54,
+    "category_id_b": 61,
+    "target": 1,
+    "coco_url": "http://images.cocodataset.org/train2014/COCO_train2014_000000119621.jpg",
+    "flickr_url": "http://farm9.staticflickr.com/8294/7542464632_a35e767376_z.jpg",
+    "download_url": "https://s3.amazonaws.com/images.cocodataset.org/train2014/COCO_train2014_000000119621.jpg",
+    "license": {
+      "url": "http://creativecommons.org/licenses/by-sa/2.0/",
+      "id": 5,
+      "name": "Attribution-ShareAlike License"
+    },
+    "image_path": "data/natural_unseen_holdout_v1/raw_images/COCO_train2014_000000119621.jpg",
+    "image_sha256": "ebc843f1de1b69c66b250d57bb8c8db47e963b92da81155bb15f9dd1f52c060b",
+    "blind_id": "UNSEEN_C_149",
+    "review_index": 148
+  },
+  {
+    "rank": "0c4282735e4ff0411e42c2f73989c5edcf49c8358016e0614b4f047fbbf71a75",
+    "source_image_id": 343215,
+    "file_name": "COCO_train2014_000000343215.jpg",
+    "width": 640,
+    "height": 536,
+    "annotation_a": 390012,
+    "annotation_b": 530048,
+    "bbox_a": [
+      121.11,
+      365.84,
+      140.29,
+      47.97
+    ],
+    "bbox_b": [
+      297.51,
+      318.82,
+      119.25,
+      175.86
+    ],
+    "category_a": "dining table",
+    "category_b": "person",
+    "category_id_a": 67,
+    "category_id_b": 1,
+    "target": 0,
+    "coco_url": "http://images.cocodataset.org/train2014/COCO_train2014_000000343215.jpg",
+    "flickr_url": "http://farm9.staticflickr.com/8492/8346095057_9d01a36d6e_z.jpg",
+    "download_url": "https://s3.amazonaws.com/images.cocodataset.org/train2014/COCO_train2014_000000343215.jpg",
+    "license": {
+      "url": "http://creativecommons.org/licenses/by-nc-nd/2.0/",
+      "id": 3,
+      "name": "Attribution-NonCommercial-NoDerivs License"
+    },
+    "image_path": "data/natural_unseen_holdout_v1/raw_images/COCO_train2014_000000343215.jpg",
+    "image_sha256": "c28156c3852a5a26d85af582a9fb4bdda20e239f31afbec27c700912591e9860",
+    "blind_id": "UNSEEN_C_012",
+    "review_index": 11
+  },
+  {
+    "rank": "0c5294fc9a68490b982acf54d118da24416fe6c2ebd60b21e9ad7e3b4f19c52c",
+    "source_image_id": 85886,
+    "file_name": "COCO_train2014_000000085886.jpg",
+    "width": 500,
+    "height": 375,
+    "annotation_a": 8189,
+    "annotation_b": 84064,
+    "bbox_a": [
+      152.41,
+      75.56,
+      95.07,
+      153.92
+    ],
+    "bbox_b": [
+      305.94,
+      117.21,
+      48.57,
+      104.66
+    ],
+    "category_a": "dog",
+    "category_b": "bottle",
+    "category_id_a": 18,
+    "category_id_b": 44,
+    "target": 0,
+    "coco_url": "http://images.cocodataset.org/train2014/COCO_train2014_000000085886.jpg",
+    "flickr_url": "http://farm1.staticflickr.com/38/117402340_e9d2656633_z.jpg",
+    "download_url": "https://s3.amazonaws.com/images.cocodataset.org/train2014/COCO_train2014_000000085886.jpg",
+    "license": {
+      "url": "http://creativecommons.org/licenses/by-nc-sa/2.0/",
+      "id": 1,
+      "name": "Attribution-NonCommercial-ShareAlike License"
+    },
+    "image_path": "data/natural_unseen_holdout_v1/raw_images/COCO_train2014_000000085886.jpg",
+    "image_sha256": "71c755bea3ff893b9d6b7465d72cf70afe9da8ada2f82756e63d6dec68094690",
+    "blind_id": "UNSEEN_C_045",
+    "review_index": 44
+  },
+  {
+    "rank": "0c7158643a678a4fc56e26ad298b06156fcd9e3eb016b28d54c308a5ce54e745",
+    "source_image_id": 290597,
+    "file_name": "COCO_train2014_000000290597.jpg",
+    "width": 640,
+    "height": 453,
+    "annotation_a": 1097661,
+    "annotation_b": 30740,
+    "bbox_a": [
+      393.83,
+      197.84,
+      71.28,
+      67.67
+    ],
+    "bbox_b": [
+      239.43,
+      162.99,
+      75.22,
+      72.54
+    ],
+    "category_a": "laptop",
+    "category_b": "tv",
+    "category_id_a": 73,
+    "category_id_b": 72,
+    "target": 1,
+    "coco_url": "http://images.cocodataset.org/train2014/COCO_train2014_000000290597.jpg",
+    "flickr_url": "http://farm1.staticflickr.com/42/78770424_cc4a91e708_z.jpg",
+    "download_url": "https://s3.amazonaws.com/images.cocodataset.org/train2014/COCO_train2014_000000290597.jpg",
+    "license": {
+      "url": "http://creativecommons.org/licenses/by-nc/2.0/",
+      "id": 2,
+      "name": "Attribution-NonCommercial License"
+    },
+    "image_path": "data/natural_unseen_holdout_v1/raw_images/COCO_train2014_000000290597.jpg",
+    "image_sha256": "d5086c9fb1340c2958e16045a3cfbbe3f6aa301f60c8769e0d2582f953290122",
+    "blind_id": "UNSEEN_C_055",
+    "review_index": 54
+  },
+  {
+    "rank": "0cf86bd28adc62487c4647dc0b713ad0a21d6ca87840bdee2a25a18fc51cc6ce",
+    "source_image_id": 579725,
+    "file_name": "COCO_train2014_000000579725.jpg",
+    "width": 525,
+    "height": 640,
+    "annotation_a": 2108960,
+    "annotation_b": 1151688,
+    "bbox_a": [
+      31.18,
+      442.64,
+      112.73,
+      110.95
+    ],
+    "bbox_b": [
+      173.25,
+      368.6,
+      122.7,
+      166.52
+    ],
+    "category_a": "bowl",
+    "category_b": "vase",
+    "category_id_a": 51,
+    "category_id_b": 86,
+    "target": 0,
+    "coco_url": "http://images.cocodataset.org/train2014/COCO_train2014_000000579725.jpg",
+    "flickr_url": "http://farm8.staticflickr.com/7043/6883667293_f6d8378c77_z.jpg",
+    "download_url": "https://s3.amazonaws.com/images.cocodataset.org/train2014/COCO_train2014_000000579725.jpg",
+    "license": {
+      "url": "http://creativecommons.org/licenses/by-nc-nd/2.0/",
+      "id": 3,
+      "name": "Attribution-NonCommercial-NoDerivs License"
+    },
+    "image_path": "data/natural_unseen_holdout_v1/raw_images/COCO_train2014_000000579725.jpg",
+    "image_sha256": "6bf79f682a43ff92e1610c3e18d02418a681eb032f84a0d67eecef326d70969a",
+    "blind_id": "UNSEEN_C_103",
+    "review_index": 102
+  },
+  {
+    "rank": "0d1c97069ec36dca9dd0142d99c37db2b6902eb44735f5d9c23353c832e9f088",
+    "source_image_id": 110488,
+    "file_name": "COCO_train2014_000000110488.jpg",
+    "width": 640,
+    "height": 480,
+    "annotation_a": 1608934,
+    "annotation_b": 474745,
+    "bbox_a": [
+      376.12,
+      109.47,
+      47.03,
+      124.69
+    ],
+    "bbox_b": [
+      217.4,
+      7.66,
+      145.29,
+      462.78
+    ],
+    "category_a": "potted plant",
+    "category_b": "person",
+    "category_id_a": 64,
+    "category_id_b": 1,
+    "target": 1,
+    "coco_url": "http://images.cocodataset.org/train2014/COCO_train2014_000000110488.jpg",
+    "flickr_url": "http://farm9.staticflickr.com/8214/8342810587_252c807e14_z.jpg",
+    "download_url": "https://s3.amazonaws.com/images.cocodataset.org/train2014/COCO_train2014_000000110488.jpg",
+    "license": {
+      "url": "http://creativecommons.org/licenses/by-nc-sa/2.0/",
+      "id": 1,
+      "name": "Attribution-NonCommercial-ShareAlike License"
+    },
+    "image_path": "data/natural_unseen_holdout_v1/raw_images/COCO_train2014_000000110488.jpg",
+    "image_sha256": "5a1918ac6127fbf97b7b94f4a49cc5dea2c58cbfa8eb96f90f9b593a96b44a2e",
+    "blind_id": "UNSEEN_C_083",
+    "review_index": 82
+  },
+  {
+    "rank": "0d6e37dac0e39f6a71c62e2aac6c08c25c7c6fdf051612a1f86cad268b9259fb",
+    "source_image_id": 366724,
+    "file_name": "COCO_train2014_000000366724.jpg",
+    "width": 640,
+    "height": 427,
+    "annotation_a": 1099451,
+    "annotation_b": 321282,
+    "bbox_a": [
+      358.43,
+      112.6,
+      127.22,
+      105.69
+    ],
+    "bbox_b": [
+      194.35,
+      64.72,
+      154.14,
+      113.93
+    ],
+    "category_a": "laptop",
+    "category_b": "tv",
+    "category_id_a": 73,
+    "category_id_b": 72,
+    "target": 1,
+    "coco_url": "http://images.cocodataset.org/train2014/COCO_train2014_000000366724.jpg",
+    "flickr_url": "http://farm4.staticflickr.com/3468/3985002426_7ac078228e_z.jpg",
+    "download_url": "https://s3.amazonaws.com/images.cocodataset.org/train2014/COCO_train2014_000000366724.jpg",
+    "license": {
+      "url": "http://creativecommons.org/licenses/by-sa/2.0/",
+      "id": 5,
+      "name": "Attribution-ShareAlike License"
+    },
+    "image_path": "data/natural_unseen_holdout_v1/raw_images/COCO_train2014_000000366724.jpg",
+    "image_sha256": "3896b16ba8a1a33231a418bda3ad4d95f8f0a68c3fa83d12f9a4587b3722820b",
+    "blind_id": "UNSEEN_C_092",
+    "review_index": 91
+  },
+  {
+    "rank": "0da50440f753a940296d1de39fc64f330bcd7ea0ca1be5c27ccdcd767c015358",
+    "source_image_id": 401703,
+    "file_name": "COCO_train2014_000000401703.jpg",
+    "width": 480,
+    "height": 640,
+    "annotation_a": 100011,
+    "annotation_b": 30103,
+    "bbox_a": [
+      139.87,
+      222.61,
+      197.95,
+      115.32
+    ],
+    "bbox_b": [
+      389.62,
+      204.34,
+      43.99,
+      118.95
+    ],
+    "category_a": "couch",
+    "category_b": "tv",
+    "category_id_a": 63,
+    "category_id_b": 72,
+    "target": 0,
+    "coco_url": "http://images.cocodataset.org/train2014/COCO_train2014_000000401703.jpg",
+    "flickr_url": "http://farm3.staticflickr.com/2609/3957132000_ecc195a4e3_z.jpg",
+    "download_url": "https://s3.amazonaws.com/images.cocodataset.org/train2014/COCO_train2014_000000401703.jpg",
+    "license": {
+      "url": "http://creativecommons.org/licenses/by-nc-nd/2.0/",
+      "id": 3,
+      "name": "Attribution-NonCommercial-NoDerivs License"
+    },
+    "image_path": "data/natural_unseen_holdout_v1/raw_images/COCO_train2014_000000401703.jpg",
+    "image_sha256": "dca56a363b716fae7723a2099837f6206ed9fbf1ad2bfae08bdd4a11568e7b02",
+    "blind_id": "UNSEEN_C_004",
+    "review_index": 3
+  },
+  {
+    "rank": "0da9987ef8e5157e54badc44bbed76d256ab382311278b747e38e182a12cf8c8",
+    "source_image_id": 191609,
+    "file_name": "COCO_train2014_000000191609.jpg",
+    "width": 500,
+    "height": 375,
+    "annotation_a": 513638,
+    "annotation_b": 1568262,
+    "bbox_a": [
+      69.41,
+      59.47,
+      187.08,
+      310.66
+    ],
+    "bbox_b": [
+      342.63,
+      236.25,
+      69.27,
+      65.54
+    ],
+    "category_a": "person",
+    "category_b": "hot dog",
+    "category_id_a": 1,
+    "category_id_b": 58,
+    "target": 0,
+    "coco_url": "http://images.cocodataset.org/train2014/COCO_train2014_000000191609.jpg",
+    "flickr_url": "http://farm4.staticflickr.com/3115/2619494938_90fa81b3a1_z.jpg",
+    "download_url": "https://s3.amazonaws.com/images.cocodataset.org/train2014/COCO_train2014_000000191609.jpg",
+    "license": {
+      "url": "http://creativecommons.org/licenses/by/2.0/",
+      "id": 4,
+      "name": "Attribution License"
+    },
+    "image_path": "data/natural_unseen_holdout_v1/raw_images/COCO_train2014_000000191609.jpg",
+    "image_sha256": "f64e4785df354a17166fa8e9343ff06a3baa29db4b61b4fdc7c72ad183f23835",
+    "blind_id": "UNSEEN_C_081",
+    "review_index": 80
+  },
+  {
+    "rank": "0dbcc1892757c4133ddb15d50050c84c6d2aaa6a10eba77cf684d7ce1bfedc0f",
+    "source_image_id": 45148,
+    "file_name": "COCO_train2014_000000045148.jpg",
+    "width": 612,
+    "height": 612,
+    "annotation_a": 502451,
+    "annotation_b": 333400,
+    "bbox_a": [
+      223.81,
+      187.2,
+      198.19,
+      188.33
+    ],
+    "bbox_b": [
+      30.19,
+      208.03,
+      137.22,
+      144.08
+    ],
+    "category_a": "person",
+    "category_b": "refrigerator",
+    "category_id_a": 1,
+    "category_id_b": 82,
+    "target": 1,
+    "coco_url": "http://images.cocodataset.org/train2014/COCO_train2014_000000045148.jpg",
+    "flickr_url": "http://farm6.staticflickr.com/5497/9277221461_90e9b015b6_z.jpg",
+    "download_url": "https://s3.amazonaws.com/images.cocodataset.org/train2014/COCO_train2014_000000045148.jpg",
+    "license": {
+      "url": "http://creativecommons.org/licenses/by-nc-nd/2.0/",
+      "id": 3,
+      "name": "Attribution-NonCommercial-NoDerivs License"
+    },
+    "image_path": "data/natural_unseen_holdout_v1/raw_images/COCO_train2014_000000045148.jpg",
+    "image_sha256": "1a12617c62445ac9b5fa889797c570daf5bf9ef6bfd4113953998a56d9eb7116",
+    "blind_id": "UNSEEN_C_130",
+    "review_index": 129
+  },
+  {
+    "rank": "0e209a4771d216e77a63d760b4bc85f81af801d1e37dfe1c8c52af34baaeeece",
+    "source_image_id": 110034,
+    "file_name": "COCO_train2014_000000110034.jpg",
+    "width": 640,
+    "height": 480,
+    "annotation_a": 1052530,
+    "annotation_b": 714678,
+    "bbox_a": [
+      394.39,
+      135.14,
+      80.76,
+      72.65
+    ],
+    "bbox_b": [
+      172.79,
+      75.98,
+      168.94,
+      142.25
+    ],
+    "category_a": "orange",
+    "category_b": "bowl",
+    "category_id_a": 55,
+    "category_id_b": 51,
+    "target": 1,
+    "coco_url": "http://images.cocodataset.org/train2014/COCO_train2014_000000110034.jpg",
+    "flickr_url": "http://farm6.staticflickr.com/5059/5418040098_837ec4a973_z.jpg",
+    "download_url": "https://s3.amazonaws.com/images.cocodataset.org/train2014/COCO_train2014_000000110034.jpg",
+    "license": {
+      "url": "http://creativecommons.org/licenses/by-sa/2.0/",
+      "id": 5,
+      "name": "Attribution-ShareAlike License"
+    },
+    "image_path": "data/natural_unseen_holdout_v1/raw_images/COCO_train2014_000000110034.jpg",
+    "image_sha256": "98fb06e03ea9433f32255694d820ab8b8cce38f7fe2d4726014ff3cdc90890bb",
+    "blind_id": "UNSEEN_C_084",
+    "review_index": 83
+  },
+  {
+    "rank": "0e48a327b44a1e0ba12735a7c137b068e34b79d51520b96c87ae6765f9aa6e09",
+    "source_image_id": 538398,
+    "file_name": "COCO_train2014_000000538398.jpg",
+    "width": 640,
+    "height": 480,
+    "annotation_a": 289829,
+    "annotation_b": 34532,
+    "bbox_a": [
+      251.33,
+      234.07,
+      74.42,
+      103.55
+    ],
+    "bbox_b": [
+      367.64,
+      240.63,
+      114.33,
+      101.52
+    ],
+    "category_a": "chair",
+    "category_b": "tv",
+    "category_id_a": 62,
+    "category_id_b": 72,
+    "target": 0,
+    "coco_url": "http://images.cocodataset.org/train2014/COCO_train2014_000000538398.jpg",
+    "flickr_url": "http://farm9.staticflickr.com/8218/8270000634_de3d4edaea_z.jpg",
+    "download_url": "https://s3.amazonaws.com/images.cocodataset.org/train2014/COCO_train2014_000000538398.jpg",
+    "license": {
+      "url": "http://creativecommons.org/licenses/by-nc-nd/2.0/",
+      "id": 3,
+      "name": "Attribution-NonCommercial-NoDerivs License"
+    },
+    "image_path": "data/natural_unseen_holdout_v1/raw_images/COCO_train2014_000000538398.jpg",
+    "image_sha256": "f29898466c070a1fdeaaed63b54d7dcbc4ecf0fe6765b62bdb49a4e7186aeb08",
+    "blind_id": "UNSEEN_C_150",
+    "review_index": 149
+  },
+  {
+    "rank": "0e5ec80a67128c461124067b1ae64770e081d0bd66b20f4aefe0979075b736cf",
+    "source_image_id": 165542,
+    "file_name": "COCO_train2014_000000165542.jpg",
+    "width": 640,
+    "height": 426,
+    "annotation_a": 699946,
+    "annotation_b": 1064069,
+    "bbox_a": [
+      434.76,
+      223.81,
+      45.81,
+      122.79
+    ],
+    "bbox_b": [
+      326.77,
+      226.6,
+      71.16,
+      88.21
+    ],
+    "category_a": "knife",
+    "category_b": "carrot",
+    "category_id_a": 49,
+    "category_id_b": 57,
+    "target": 1,
+    "coco_url": "http://images.cocodataset.org/train2014/COCO_train2014_000000165542.jpg",
+    "flickr_url": "http://farm6.staticflickr.com/5036/6939177038_4b86082541_z.jpg",
+    "download_url": "https://s3.amazonaws.com/images.cocodataset.org/train2014/COCO_train2014_000000165542.jpg",
+    "license": {
+      "url": "http://creativecommons.org/licenses/by/2.0/",
+      "id": 4,
+      "name": "Attribution License"
+    },
+    "image_path": "data/natural_unseen_holdout_v1/raw_images/COCO_train2014_000000165542.jpg",
+    "image_sha256": "ee0e5a8126df4ce91b81703e81d2b67394af57d5565234166b7968467fbe5151",
+    "blind_id": "UNSEEN_C_052",
+    "review_index": 51
+  },
+  {
+    "rank": "0e66ecef0b4b1be11e43b147afa5f9fe0c9e02fdc9ee380d439d468d309c7b48",
+    "source_image_id": 36567,
+    "file_name": "COCO_train2014_000000036567.jpg",
+    "width": 640,
+    "height": 480,
+    "annotation_a": 1119362,
+    "annotation_b": 332688,
+    "bbox_a": [
+      376.55,
+      91.42,
+      128.01,
+      74.34
+    ],
+    "bbox_b": [
+      98.16,
+      100.31,
+      157.48,
+      359.2
+    ],
+    "category_a": "microwave",
+    "category_b": "refrigerator",
+    "category_id_a": 78,
+    "category_id_b": 82,
+    "target": 1,
+    "coco_url": "http://images.cocodataset.org/train2014/COCO_train2014_000000036567.jpg",
+    "flickr_url": "http://farm9.staticflickr.com/8176/8031580121_8b75b6e55f_z.jpg",
+    "download_url": "https://s3.amazonaws.com/images.cocodataset.org/train2014/COCO_train2014_000000036567.jpg",
+    "license": {
+      "url": "http://creativecommons.org/licenses/by-nc-sa/2.0/",
+      "id": 1,
+      "name": "Attribution-NonCommercial-ShareAlike License"
+    },
+    "image_path": "data/natural_unseen_holdout_v1/raw_images/COCO_train2014_000000036567.jpg",
+    "image_sha256": "c2c5e28806f1d1d41f55c85fa90952508e5a51f2a3fdd06e4391df8c311556e8",
+    "blind_id": "UNSEEN_C_023",
+    "review_index": 22
+  },
+  {
+    "rank": "0ed86adad51d240d610c605df5ee4fa4b77f0369e0f1a4af037e39bdc2064e84",
+    "source_image_id": 157242,
+    "file_name": "COCO_train2014_000000157242.jpg",
+    "width": 500,
+    "height": 375,
+    "annotation_a": 686661,
+    "annotation_b": 1927778,
+    "bbox_a": [
+      86.15,
+      145.69,
+      38.01,
+      133.45
+    ],
+    "bbox_b": [
+      261.1,
+      113.81,
+      122.88,
+      131.1
+    ],
+    "category_a": "fork",
+    "category_b": "cake",
+    "category_id_a": 48,
+    "category_id_b": 61,
+    "target": 0,
+    "coco_url": "http://images.cocodataset.org/train2014/COCO_train2014_000000157242.jpg",
+    "flickr_url": "http://farm4.staticflickr.com/3081/2290036911_9a02411d72_z.jpg",
+    "download_url": "https://s3.amazonaws.com/images.cocodataset.org/train2014/COCO_train2014_000000157242.jpg",
+    "license": {
+      "url": "http://creativecommons.org/licenses/by-nc-nd/2.0/",
+      "id": 3,
+      "name": "Attribution-NonCommercial-NoDerivs License"
+    },
+    "image_path": "data/natural_unseen_holdout_v1/raw_images/COCO_train2014_000000157242.jpg",
+    "image_sha256": "5a4aeee5a473cb235890f791fe8666e4777ffd34f6e0eda71d193035fd1a140c",
+    "blind_id": "UNSEEN_C_050",
+    "review_index": 49
+  },
+  {
+    "rank": "0efe43ed1c6edcc738ee3549b55562f9eee3435246280cfbf0f1107504b391d1",
+    "source_image_id": 92331,
+    "file_name": "COCO_train2014_000000092331.jpg",
+    "width": 640,
+    "height": 480,
+    "annotation_a": 1570298,
+    "annotation_b": 102189,
+    "bbox_a": [
+      464.9,
+      328.99,
+      80.9,
+      77.66
+    ],
+    "bbox_b": [
+      187.65,
+      225.75,
+      165.87,
+      241.55
+    ],
+    "category_a": "pizza",
+    "category_b": "chair",
+    "category_id_a": 59,
+    "category_id_b": 62,
+    "target": 1,
+    "coco_url": "http://images.cocodataset.org/train2014/COCO_train2014_000000092331.jpg",
+    "flickr_url": "http://farm5.staticflickr.com/4103/5045765533_7e49dbd9da_z.jpg",
+    "download_url": "https://s3.amazonaws.com/images.cocodataset.org/train2014/COCO_train2014_000000092331.jpg",
+    "license": {
+      "url": "http://creativecommons.org/licenses/by-nc/2.0/",
+      "id": 2,
+      "name": "Attribution-NonCommercial License"
+    },
+    "image_path": "data/natural_unseen_holdout_v1/raw_images/COCO_train2014_000000092331.jpg",
+    "image_sha256": "eb01e46d0247e41652fe027d276f0d4b1e9f841b0b35ab38f905a41ad2f918b3",
+    "blind_id": "UNSEEN_C_068",
+    "review_index": 67
+  },
+  {
+    "rank": "0f0291f9c079778e88771d9aad9d35fa9b1c74f7ad8ad9cd82b69084badfd028",
+    "source_image_id": 118302,
+    "file_name": "COCO_train2014_000000118302.jpg",
+    "width": 612,
+    "height": 612,
+    "annotation_a": 1117639,
+    "annotation_b": 2195012,
+    "bbox_a": [
+      132.62,
+      457.96,
+      182.36,
+      60.79
+    ],
+    "bbox_b": [
+      469.31,
+      233.25,
+      120.49,
+      263.19
+    ],
+    "category_a": "keyboard",
+    "category_b": "laptop",
+    "category_id_a": 76,
+    "category_id_b": 73,
+    "target": 0,
+    "coco_url": "http://images.cocodataset.org/train2014/COCO_train2014_000000118302.jpg",
+    "flickr_url": "http://farm6.staticflickr.com/5302/5785270284_25032b4c7d_z.jpg",
+    "download_url": "https://s3.amazonaws.com/images.cocodataset.org/train2014/COCO_train2014_000000118302.jpg",
+    "license": {
+      "url": "http://creativecommons.org/licenses/by-nc-nd/2.0/",
+      "id": 3,
+      "name": "Attribution-NonCommercial-NoDerivs License"
+    },
+    "image_path": "data/natural_unseen_holdout_v1/raw_images/COCO_train2014_000000118302.jpg",
+    "image_sha256": "ddd9ec1c908e1c175a7bc10a3e69111c1e4239c43cd8788238cbd6d989e98f64",
+    "blind_id": "UNSEEN_C_113",
+    "review_index": 112
+  },
+  {
+    "rank": "0f05a29940e04301dc6f34bb1bfa9e9db98807a1cdb7950dc6f8c9ac12e7f40c",
+    "source_image_id": 121454,
+    "file_name": "COCO_train2014_000000121454.jpg",
+    "width": 640,
+    "height": 427,
+    "annotation_a": 398160,
+    "annotation_b": 166026,
+    "bbox_a": [
+      413.54,
+      200.52,
+      104.82,
+      125.02
+    ],
+    "bbox_b": [
+      277.02,
+      153.89,
+      125.14,
+      148.06
+    ],
+    "category_a": "truck",
+    "category_b": "bus",
+    "category_id_a": 8,
+    "category_id_b": 6,
+    "target": 1,
+    "coco_url": "http://images.cocodataset.org/train2014/COCO_train2014_000000121454.jpg",
+    "flickr_url": "http://farm9.staticflickr.com/8111/8643745389_99bcdb9b7f_z.jpg",
+    "download_url": "https://s3.amazonaws.com/images.cocodataset.org/train2014/COCO_train2014_000000121454.jpg",
+    "license": {
+      "url": "http://creativecommons.org/licenses/by-nc/2.0/",
+      "id": 2,
+      "name": "Attribution-NonCommercial License"
+    },
+    "image_path": "data/natural_unseen_holdout_v1/raw_images/COCO_train2014_000000121454.jpg",
+    "image_sha256": "838156c3f91676d005bf52bc7bf924fdd2fd27f6b832ccb3d8aa9c4d42451ca1",
+    "blind_id": "UNSEEN_C_122",
+    "review_index": 121
+  },
+  {
+    "rank": "0f29b7fa60db56576d5ccfd0af55ed4803e658ac9db8e9a56dbbb26e9906b803",
+    "source_image_id": 18093,
+    "file_name": "COCO_train2014_000000018093.jpg",
+    "width": 640,
+    "height": 427,
+    "annotation_a": 1900457,
+    "annotation_b": 1933561,
+    "bbox_a": [
+      242.15,
+      262.78,
+      166.55,
+      102.08
+    ],
+    "bbox_b": [
+      132.81,
+      180.06,
+      54.28,
+      150.68
+    ],
+    "category_a": "bowl",
+    "category_b": "chair",
+    "category_id_a": 51,
+    "category_id_b": 62,
+    "target": 1,
+    "coco_url": "http://images.cocodataset.org/train2014/COCO_train2014_000000018093.jpg",
+    "flickr_url": "http://farm4.staticflickr.com/3004/2802287399_57d99740dc_z.jpg",
+    "download_url": "https://s3.amazonaws.com/images.cocodataset.org/train2014/COCO_train2014_000000018093.jpg",
+    "license": {
+      "url": "http://creativecommons.org/licenses/by-nc-nd/2.0/",
+      "id": 3,
+      "name": "Attribution-NonCommercial-NoDerivs License"
+    },
+    "image_path": "data/natural_unseen_holdout_v1/raw_images/COCO_train2014_000000018093.jpg",
+    "image_sha256": "c525c7d49afa22b287bc84bf010113f9c958662aa3b9249a0e49f7f03c1e86b1",
+    "blind_id": "UNSEEN_C_015",
+    "review_index": 14
+  },
+  {
+    "rank": "0f3427391ae85a04b2c2a083b6eaf38053d1cba1fe90367c13537959d358c9e2",
+    "source_image_id": 329150,
+    "file_name": "COCO_train2014_000000329150.jpg",
+    "width": 640,
+    "height": 473,
+    "annotation_a": 337923,
+    "annotation_b": 1669121,
+    "bbox_a": [
+      377.97,
+      83.02,
+      76.88,
+      84.35
+    ],
+    "bbox_b": [
+      243.96,
+      47.99,
+      97.7,
+      157.16
+    ],
+    "category_a": "clock",
+    "category_b": "vase",
+    "category_id_a": 85,
+    "category_id_b": 86,
+    "target": 1,
+    "coco_url": "http://images.cocodataset.org/train2014/COCO_train2014_000000329150.jpg",
+    "flickr_url": "http://farm8.staticflickr.com/7376/9630176227_c896fae750_z.jpg",
+    "download_url": "https://s3.amazonaws.com/images.cocodataset.org/train2014/COCO_train2014_000000329150.jpg",
+    "license": {
+      "url": "http://creativecommons.org/licenses/by/2.0/",
+      "id": 4,
+      "name": "Attribution License"
+    },
+    "image_path": "data/natural_unseen_holdout_v1/raw_images/COCO_train2014_000000329150.jpg",
+    "image_sha256": "0bfa1a355457e4156e03f5aea5a8ed2d2b47608328e71a0199cb9b55a825c871",
+    "blind_id": "UNSEEN_C_033",
+    "review_index": 32
+  },
+  {
+    "rank": "0f916c37e68c29d5be23bbfff762aebb944e9b2409bbed729f55c2ac682ad144",
+    "source_image_id": 96647,
+    "file_name": "COCO_train2014_000000096647.jpg",
+    "width": 640,
+    "height": 425,
+    "annotation_a": 1096764,
+    "annotation_b": 1646066,
+    "bbox_a": [
+      410.64,
+      134.01,
+      75.62,
+      152.19
+    ],
+    "bbox_b": [
+      281.2,
+      119.56,
+      120.28,
+      36.85
+    ],
+    "category_a": "toilet",
+    "category_b": "sink",
+    "category_id_a": 70,
+    "category_id_b": 81,
+    "target": 1,
+    "coco_url": "http://images.cocodataset.org/train2014/COCO_train2014_000000096647.jpg",
+    "flickr_url": "http://farm6.staticflickr.com/5256/5503829630_13e8fc1ec6_z.jpg",
+    "download_url": "https://s3.amazonaws.com/images.cocodataset.org/train2014/COCO_train2014_000000096647.jpg",
+    "license": {
+      "url": "http://creativecommons.org/licenses/by-nc-nd/2.0/",
+      "id": 3,
+      "name": "Attribution-NonCommercial-NoDerivs License"
+    },
+    "image_path": "data/natural_unseen_holdout_v1/raw_images/COCO_train2014_000000096647.jpg",
+    "image_sha256": "d8fb7471d6475f9f58de4a99deb9cf7d8a5af9ec6876009e9ac7fb0418ed0ab0",
+    "blind_id": "UNSEEN_C_118",
+    "review_index": 117
+  },
+  {
+    "rank": "0fb3c230e8142c38be6a6744018375b3ecc45b6fdd7545da8777831f234a4633",
+    "source_image_id": 74114,
+    "file_name": "COCO_train2014_000000074114.jpg",
+    "width": 640,
+    "height": 592,
+    "annotation_a": 279655,
+    "annotation_b": 650141,
+    "bbox_a": [
+      62.03,
+      236.61,
+      194.59,
+      160.56
+    ],
+    "bbox_b": [
+      379.15,
+      38.58,
+      62.52,
+      512.18
+    ],
+    "category_a": "umbrella",
+    "category_b": "surfboard",
+    "category_id_a": 28,
+    "category_id_b": 42,
+    "target": 0,
+    "coco_url": "http://images.cocodataset.org/train2014/COCO_train2014_000000074114.jpg",
+    "flickr_url": "http://farm4.staticflickr.com/3314/3203911155_1b705a7158_z.jpg",
+    "download_url": "https://s3.amazonaws.com/images.cocodataset.org/train2014/COCO_train2014_000000074114.jpg",
+    "license": {
+      "url": "http://creativecommons.org/licenses/by-nc-nd/2.0/",
+      "id": 3,
+      "name": "Attribution-NonCommercial-NoDerivs License"
+    },
+    "image_path": "data/natural_unseen_holdout_v1/raw_images/COCO_train2014_000000074114.jpg",
+    "image_sha256": "426c28bce19966555e9e5955c93921a60767dd6720b713f62e41713485739960",
+    "blind_id": "UNSEEN_C_077",
+    "review_index": 76
+  },
+  {
+    "rank": "0fc27eb8f69c55be85c35013da9f4a64c7ea170cade3821f1102ea613a7940c3",
+    "source_image_id": 181489,
+    "file_name": "COCO_train2014_000000181489.jpg",
+    "width": 480,
+    "height": 640,
+    "annotation_a": 1691650,
+    "annotation_b": 1109705,
+    "bbox_a": [
+      99.32,
+      203.36,
+      71.15,
+      114.46
+    ],
+    "bbox_b": [
+      204.22,
+      142.38,
+      83.42,
+      327.91
+    ],
+    "category_a": "person",
+    "category_b": "remote",
+    "category_id_a": 1,
+    "category_id_b": 75,
+    "target": 0,
+    "coco_url": "http://images.cocodataset.org/train2014/COCO_train2014_000000181489.jpg",
+    "flickr_url": "http://farm1.staticflickr.com/137/319295200_4a71bc35d4_z.jpg",
+    "download_url": "https://s3.amazonaws.com/images.cocodataset.org/train2014/COCO_train2014_000000181489.jpg",
+    "license": {
+      "url": "http://creativecommons.org/licenses/by-nd/2.0/",
+      "id": 6,
+      "name": "Attribution-NoDerivs License"
+    },
+    "image_path": "data/natural_unseen_holdout_v1/raw_images/COCO_train2014_000000181489.jpg",
+    "image_sha256": "7069985f8f0745097c95f2df644a99f91570aef0fecbdeb5bed4b0c6f1046c49",
+    "blind_id": "UNSEEN_C_102",
+    "review_index": 101
+  },
+  {
+    "rank": "0fdfa25c303c6877905d4bb918e8321213418514b2d993cd1eb9a1536cfb3a5c",
+    "source_image_id": 478351,
+    "file_name": "COCO_train2014_000000478351.jpg",
+    "width": 500,
+    "height": 375,
+    "annotation_a": 4807,
+    "annotation_b": 1432902,
+    "bbox_a": [
+      301.78,
+      135.48,
+      98.53,
+      135.64
+    ],
+    "bbox_b": [
+      222.67,
+      118.25,
+      36.65,
+      101.56
+    ],
+    "category_a": "dog",
+    "category_b": "handbag",
+    "category_id_a": 18,
+    "category_id_b": 31,
+    "target": 1,
+    "coco_url": "http://images.cocodataset.org/train2014/COCO_train2014_000000478351.jpg",
+    "flickr_url": "http://farm4.staticflickr.com/3015/2803930617_0e37712451_z.jpg",
+    "download_url": "https://s3.amazonaws.com/images.cocodataset.org/train2014/COCO_train2014_000000478351.jpg",
+    "license": {
+      "url": "http://creativecommons.org/licenses/by/2.0/",
+      "id": 4,
+      "name": "Attribution License"
+    },
+    "image_path": "data/natural_unseen_holdout_v1/raw_images/COCO_train2014_000000478351.jpg",
+    "image_sha256": "7866e98d2102f1a626b15cd2daf68d5f9535d5f2ca1d83aaeac281ea6070f62c",
+    "blind_id": "UNSEEN_C_032",
+    "review_index": 31
+  },
+  {
+    "rank": "0fea263ad6200538bfc7c1ca69661a38b1c1627b4db12a1bbccd366f0e7bc77d",
+    "source_image_id": 441720,
+    "file_name": "COCO_train2014_000000441720.jpg",
+    "width": 640,
+    "height": 428,
+    "annotation_a": 269751,
+    "annotation_b": 55131,
+    "bbox_a": [
+      243.69,
+      239.41,
+      77.77,
+      83.74
+    ],
+    "bbox_b": [
+      348.13,
+      223.36,
+      60.42,
+      133.12
+    ],
+    "category_a": "stop sign",
+    "category_b": "horse",
+    "category_id_a": 13,
+    "category_id_b": 19,
+    "target": 0,
+    "coco_url": "http://images.cocodataset.org/train2014/COCO_train2014_000000441720.jpg",
+    "flickr_url": "http://farm3.staticflickr.com/2511/4101407218_4abe3c3768_z.jpg",
+    "download_url": "https://s3.amazonaws.com/images.cocodataset.org/train2014/COCO_train2014_000000441720.jpg",
+    "license": {
+      "url": "http://creativecommons.org/licenses/by/2.0/",
+      "id": 4,
+      "name": "Attribution License"
+    },
+    "image_path": "data/natural_unseen_holdout_v1/raw_images/COCO_train2014_000000441720.jpg",
+    "image_sha256": "ae8cab27381edc6078bd888de37b73067b2194f88c8d789257a53b271346b127",
+    "blind_id": "UNSEEN_C_022",
+    "review_index": 21
+  },
+  {
+    "rank": "104117bc70c36d6d02cd013ca1df83abd5d9a91cec74d6d62cc648bcfa897f8d",
+    "source_image_id": 521314,
+    "file_name": "COCO_train2014_000000521314.jpg",
+    "width": 640,
+    "height": 480,
+    "annotation_a": 1122487,
+    "annotation_b": 1136772,
+    "bbox_a": [
+      117.57,
+      207.1,
+      182.3,
+      266.43
+    ],
+    "bbox_b": [
+      368.52,
+      245.67,
+      159.69,
+      43.8
+    ],
+    "category_a": "oven",
+    "category_b": "sink",
+    "category_id_a": 79,
+    "category_id_b": 81,
+    "target": 0,
+    "coco_url": "http://images.cocodataset.org/train2014/COCO_train2014_000000521314.jpg",
+    "flickr_url": "http://farm4.staticflickr.com/3215/2800386392_fb2b4d4839_z.jpg",
+    "download_url": "https://s3.amazonaws.com/images.cocodataset.org/train2014/COCO_train2014_000000521314.jpg",
+    "license": {
+      "url": "http://creativecommons.org/licenses/by-sa/2.0/",
+      "id": 5,
+      "name": "Attribution-ShareAlike License"
+    },
+    "image_path": "data/natural_unseen_holdout_v1/raw_images/COCO_train2014_000000521314.jpg",
+    "image_sha256": "be623e1fbfb6b3169eb42303331a0b6bca581e2e3cab75b7a8e097d2a761e792",
+    "blind_id": "UNSEEN_C_058",
+    "review_index": 57
+  },
+  {
+    "rank": "104ce27d7cf0d1c72d9a0e6786717dea79860f591047b573c48cf6ac8ef6a5f9",
+    "source_image_id": 458592,
+    "file_name": "COCO_train2014_000000458592.jpg",
+    "width": 640,
+    "height": 480,
+    "annotation_a": 1134001,
+    "annotation_b": 1092861,
+    "bbox_a": [
+      378.24,
+      352.33,
+      158.54,
+      74.25
+    ],
+    "bbox_b": [
+      124.32,
+      370.81,
+      120.0,
+      100.54
+    ],
+    "category_a": "sink",
+    "category_b": "toilet",
+    "category_id_a": 81,
+    "category_id_b": 70,
+    "target": 1,
+    "coco_url": "http://images.cocodataset.org/train2014/COCO_train2014_000000458592.jpg",
+    "flickr_url": "http://farm8.staticflickr.com/7183/6929221645_06bafed2a3_z.jpg",
+    "download_url": "https://s3.amazonaws.com/images.cocodataset.org/train2014/COCO_train2014_000000458592.jpg",
+    "license": {
+      "url": "http://creativecommons.org/licenses/by-nc-sa/2.0/",
+      "id": 1,
+      "name": "Attribution-NonCommercial-ShareAlike License"
+    },
+    "image_path": "data/natural_unseen_holdout_v1/raw_images/COCO_train2014_000000458592.jpg",
+    "image_sha256": "620cf05f57cc7f69f96e60bc5b34be6f496e103b223d2f2aff3b51951bc99b7e",
+    "blind_id": "UNSEEN_C_098",
+    "review_index": 97
+  },
+  {
+    "rank": "10bbf8d5d30b88559f7febdfe116a8b40b4cfed7c1a2022264519f5aacd31edc",
+    "source_image_id": 30752,
+    "file_name": "COCO_train2014_000000030752.jpg",
+    "width": 640,
+    "height": 426,
+    "annotation_a": 204343,
+    "annotation_b": 2232,
+    "bbox_a": [
+      214.93,
+      63.32,
+      118.21,
+      301.16
+    ],
+    "bbox_b": [
+      346.82,
+      283.14,
+      87.79,
+      102.41
+    ],
+    "category_a": "person",
+    "category_b": "dog",
+    "category_id_a": 1,
+    "category_id_b": 18,
+    "target": 0,
+    "coco_url": "http://images.cocodataset.org/train2014/COCO_train2014_000000030752.jpg",
+    "flickr_url": "http://farm4.staticflickr.com/3186/2468175419_2d8bca9a7e_z.jpg",
+    "download_url": "https://s3.amazonaws.com/images.cocodataset.org/train2014/COCO_train2014_000000030752.jpg",
+    "license": {
+      "url": "http://creativecommons.org/licenses/by-nc-nd/2.0/",
+      "id": 3,
+      "name": "Attribution-NonCommercial-NoDerivs License"
+    },
+    "image_path": "data/natural_unseen_holdout_v1/raw_images/COCO_train2014_000000030752.jpg",
+    "image_sha256": "4aef8e07381054b427038eddaebbeb49169cc407d2e183eb52001e68350f076c",
+    "blind_id": "UNSEEN_C_095",
+    "review_index": 94
+  },
+  {
+    "rank": "110e904645d169e9ec675f2689f374ac6a69792ebf9db12e29c0b25644a209d5",
+    "source_image_id": 577283,
+    "file_name": "COCO_train2014_000000577283.jpg",
+    "width": 480,
+    "height": 640,
+    "annotation_a": 1068074,
+    "annotation_b": 1482873,
+    "bbox_a": [
+      61.26,
+      265.43,
+      143.98,
+      90.6
+    ],
+    "bbox_b": [
+      221.09,
+      134.36,
+      83.9,
+      177.63
+    ],
+    "category_a": "hot dog",
+    "category_b": "bottle",
+    "category_id_a": 58,
+    "category_id_b": 44,
+    "target": 0,
+    "coco_url": "http://images.cocodataset.org/train2014/COCO_train2014_000000577283.jpg",
+    "flickr_url": "http://farm7.staticflickr.com/6176/6239285413_ca22311651_z.jpg",
+    "download_url": "https://s3.amazonaws.com/images.cocodataset.org/train2014/COCO_train2014_000000577283.jpg",
+    "license": {
+      "url": "http://creativecommons.org/licenses/by-nc-nd/2.0/",
+      "id": 3,
+      "name": "Attribution-NonCommercial-NoDerivs License"
+    },
+    "image_path": "data/natural_unseen_holdout_v1/raw_images/COCO_train2014_000000577283.jpg",
+    "image_sha256": "221a51d4947a6e49c8d4bd344ab4f30a5ba3b3f51eac97e05465da9086621630",
+    "blind_id": "UNSEEN_C_060",
+    "review_index": 59
+  },
+  {
+    "rank": "12d4029cec0c3ddb5303cfb66cbb7fd41e4e27108f4c3bbc7d0b4939ef901355",
+    "source_image_id": 355175,
+    "file_name": "COCO_train2014_000000355175.jpg",
+    "width": 640,
+    "height": 480,
+    "annotation_a": 1980127,
+    "annotation_b": 465828,
+    "bbox_a": [
+      102.23,
+      226.91,
+      178.29,
+      189.51
+    ],
+    "bbox_b": [
+      345.11,
+      116.32,
+      129.44,
+      318.46
+    ],
+    "category_a": "oven",
+    "category_b": "person",
+    "category_id_a": 79,
+    "category_id_b": 1,
+    "target": 0,
+    "coco_url": "http://images.cocodataset.org/train2014/COCO_train2014_000000355175.jpg",
+    "flickr_url": "http://farm8.staticflickr.com/7004/6533452923_b3c9a41e86_z.jpg",
+    "download_url": "https://s3.amazonaws.com/images.cocodataset.org/train2014/COCO_train2014_000000355175.jpg",
+    "license": {
+      "url": "http://creativecommons.org/licenses/by-nc-nd/2.0/",
+      "id": 3,
+      "name": "Attribution-NonCommercial-NoDerivs License"
+    },
+    "image_path": "data/natural_unseen_holdout_v1/raw_images/COCO_train2014_000000355175.jpg",
+    "image_sha256": "44876a98e68a92ffb7569831018c048d1215dace3d18726b3790ee0b5c98dba6",
+    "blind_id": "UNSEEN_C_160",
+    "review_index": 159
+  },
+  {
+    "rank": "13484cbc83351a8101722866e4d9a08b29b8023eb861dd6794f1d470e298a6fa",
+    "source_image_id": 369126,
+    "file_name": "COCO_train2014_000000369126.jpg",
+    "width": 500,
+    "height": 375,
+    "annotation_a": 1892944,
+    "annotation_b": 1110056,
+    "bbox_a": [
+      70.2,
+      212.29,
+      39.5,
+      72.83
+    ],
+    "bbox_b": [
+      247.25,
+      206.74,
+      158.91,
+      54.37
+    ],
+    "category_a": "knife",
+    "category_b": "remote",
+    "category_id_a": 49,
+    "category_id_b": 75,
+    "target": 0,
+    "coco_url": "http://images.cocodataset.org/train2014/COCO_train2014_000000369126.jpg",
+    "flickr_url": "http://farm1.staticflickr.com/40/98542961_832712be80_z.jpg",
+    "download_url": "https://s3.amazonaws.com/images.cocodataset.org/train2014/COCO_train2014_000000369126.jpg",
+    "license": {
+      "url": "http://creativecommons.org/licenses/by/2.0/",
+      "id": 4,
+      "name": "Attribution License"
+    },
+    "image_path": "data/natural_unseen_holdout_v1/raw_images/COCO_train2014_000000369126.jpg",
+    "image_sha256": "2ee6d59add7e29af93248cadcfd6f850a8498a2a1d9cd53af02a4df125269fe8",
+    "blind_id": "UNSEEN_C_090",
+    "review_index": 89
+  },
+  {
+    "rank": "13c797a94ab86f5a411404886bdb2af061722d2abe9115ca5ae30e92b6fee1ac",
+    "source_image_id": 501534,
+    "file_name": "COCO_train2014_000000501534.jpg",
+    "width": 417,
+    "height": 600,
+    "annotation_a": 55680,
+    "annotation_b": 134331,
+    "bbox_a": [
+      47.03,
+      150.51,
+      85.6,
+      162.17
+    ],
+    "bbox_b": [
+      151.41,
+      141.25,
+      234.25,
+      233.25
+    ],
+    "category_a": "horse",
+    "category_b": "car",
+    "category_id_a": 19,
+    "category_id_b": 3,
+    "target": 0,
+    "coco_url": "http://images.cocodataset.org/train2014/COCO_train2014_000000501534.jpg",
+    "flickr_url": "http://farm2.staticflickr.com/1126/5107883856_a56dba8de9_z.jpg",
+    "download_url": "https://s3.amazonaws.com/images.cocodataset.org/train2014/COCO_train2014_000000501534.jpg",
+    "license": {
+      "url": "http://creativecommons.org/licenses/by-nc/2.0/",
+      "id": 2,
+      "name": "Attribution-NonCommercial License"
+    },
+    "image_path": "data/natural_unseen_holdout_v1/raw_images/COCO_train2014_000000501534.jpg",
+    "image_sha256": "d3ce950b49cd6737c8879909e1f52b1f022c3b8b23165a0b5948af7f9fe28604",
+    "blind_id": "UNSEEN_C_151",
+    "review_index": 150
+  },
+  {
+    "rank": "155d6297786554abcc4ac9d14f44d2eafbb7e8807dc4e23ceff78deec31beff6",
+    "source_image_id": 210729,
+    "file_name": "COCO_train2014_000000210729.jpg",
+    "width": 640,
+    "height": 480,
+    "annotation_a": 1081689,
+    "annotation_b": 669291,
+    "bbox_a": [
+      196.78,
+      193.75,
+      62.36,
+      77.85
+    ],
+    "bbox_b": [
+      330.4,
+      200.18,
+      85.03,
+      119.46
+    ],
+    "category_a": "donut",
+    "category_b": "cup",
+    "category_id_a": 60,
+    "category_id_b": 47,
+    "target": 0,
+    "coco_url": "http://images.cocodataset.org/train2014/COCO_train2014_000000210729.jpg",
+    "flickr_url": "http://farm5.staticflickr.com/4065/4684544925_3845f0b23a_z.jpg",
+    "download_url": "https://s3.amazonaws.com/images.cocodataset.org/train2014/COCO_train2014_000000210729.jpg",
+    "license": {
+      "url": "http://creativecommons.org/licenses/by-nc/2.0/",
+      "id": 2,
+      "name": "Attribution-NonCommercial License"
+    },
+    "image_path": "data/natural_unseen_holdout_v1/raw_images/COCO_train2014_000000210729.jpg",
+    "image_sha256": "6f4ca47ca269e4ccd1d6057f09b1fae278052a69d370e37b7efca7de5b028871",
+    "blind_id": "UNSEEN_C_029",
+    "review_index": 28
+  },
+  {
+    "rank": "15f0c534ae2f6d3a2332d8db6a22f0c542a5e64f5fcce266e075f27d0eec4307",
+    "source_image_id": 247421,
+    "file_name": "COCO_train2014_000000247421.jpg",
+    "width": 480,
+    "height": 640,
+    "annotation_a": 1098608,
+    "annotation_b": 294598,
+    "bbox_a": [
+      103.09,
+      207.13,
+      157.49,
+      98.79
+    ],
+    "bbox_b": [
+      275.74,
+      191.56,
+      63.85,
+      203.18
+    ],
+    "category_a": "laptop",
+    "category_b": "tie",
+    "category_id_a": 73,
+    "category_id_b": 32,
+    "target": 0,
+    "coco_url": "http://images.cocodataset.org/train2014/COCO_train2014_000000247421.jpg",
+    "flickr_url": "http://farm5.staticflickr.com/4033/4347215588_e2b130ca4c_z.jpg",
+    "download_url": "https://s3.amazonaws.com/images.cocodataset.org/train2014/COCO_train2014_000000247421.jpg",
+    "license": {
+      "url": "http://creativecommons.org/licenses/by-nc-nd/2.0/",
+      "id": 3,
+      "name": "Attribution-NonCommercial-NoDerivs License"
+    },
+    "image_path": "data/natural_unseen_holdout_v1/raw_images/COCO_train2014_000000247421.jpg",
+    "image_sha256": "bc5d7c21e484559fb1e4c6060935bad44d6491d3faeb16d31dc2bfcce2e676e2",
+    "blind_id": "UNSEEN_C_143",
+    "review_index": 142
+  },
+  {
+    "rank": "162a57a620957d18672d8a9950553149f2d5d7d634d2474750ee9ba0a6ccc8db",
+    "source_image_id": 354012,
+    "file_name": "COCO_train2014_000000354012.jpg",
+    "width": 640,
+    "height": 480,
+    "annotation_a": 92425,
+    "annotation_b": 1084650,
+    "bbox_a": [
+      104.26,
+      243.61,
+      117.68,
+      214.71
+    ],
+    "bbox_b": [
+      300.14,
+      317.23,
+      179.86,
+      107.91
+    ],
+    "category_a": "bottle",
+    "category_b": "cake",
+    "category_id_a": 44,
+    "category_id_b": 61,
+    "target": 0,
+    "coco_url": "http://images.cocodataset.org/train2014/COCO_train2014_000000354012.jpg",
+    "flickr_url": "http://farm4.staticflickr.com/3800/9662602258_c3b7228d8d_z.jpg",
+    "download_url": "https://s3.amazonaws.com/images.cocodataset.org/train2014/COCO_train2014_000000354012.jpg",
+    "license": {
+      "url": "http://creativecommons.org/licenses/by-nc-sa/2.0/",
+      "id": 1,
+      "name": "Attribution-NonCommercial-ShareAlike License"
+    },
+    "image_path": "data/natural_unseen_holdout_v1/raw_images/COCO_train2014_000000354012.jpg",
+    "image_sha256": "9cf36e3dac4a901ce7547f374b86db71ec6559103751d3c5eb80a3fb86fede88",
+    "blind_id": "UNSEEN_C_017",
+    "review_index": 16
+  },
+  {
+    "rank": "16ed3e2aa1fb1a3a1bbaf6110393c2f7c93737f25bf2f7095365a2884dec9bd1",
+    "source_image_id": 239331,
+    "file_name": "COCO_train2014_000000239331.jpg",
+    "width": 640,
+    "height": 425,
+    "annotation_a": 291379,
+    "annotation_b": 1166111,
+    "bbox_a": [
+      255.29,
+      107.12,
+      85.91,
+      81.85
+    ],
+    "bbox_b": [
+      457.51,
+      100.75,
+      63.3,
+      95.8
+    ],
+    "category_a": "potted plant",
+    "category_b": "backpack",
+    "category_id_a": 64,
+    "category_id_b": 27,
+    "target": 0,
+    "coco_url": "http://images.cocodataset.org/train2014/COCO_train2014_000000239331.jpg",
+    "flickr_url": "http://farm9.staticflickr.com/8197/8160459516_0646aeb918_z.jpg",
+    "download_url": "https://s3.amazonaws.com/images.cocodataset.org/train2014/COCO_train2014_000000239331.jpg",
+    "license": {
+      "url": "http://creativecommons.org/licenses/by/2.0/",
+      "id": 4,
+      "name": "Attribution License"
+    },
+    "image_path": "data/natural_unseen_holdout_v1/raw_images/COCO_train2014_000000239331.jpg",
+    "image_sha256": "f3041f65436a4d9b76238b8a5aac68f7a5ee3e622df4e04d0e16356fb39b7cad",
+    "blind_id": "UNSEEN_C_111",
+    "review_index": 110
+  },
+  {
+    "rank": "179d6f3c7c4b2780a38cf09f6aa8f21eb36bf88cd1de98ab73075488077fc421",
+    "source_image_id": 453549,
+    "file_name": "COCO_train2014_000000453549.jpg",
+    "width": 480,
+    "height": 640,
+    "annotation_a": 1178764,
+    "annotation_b": 329268,
+    "bbox_a": [
+      31.65,
+      321.91,
+      52.45,
+      107.8
+    ],
+    "bbox_b": [
+      362.94,
+      301.55,
+      60.63,
+      138.99
+    ],
+    "category_a": "handbag",
+    "category_b": "cell phone",
+    "category_id_a": 31,
+    "category_id_b": 77,
+    "target": 0,
+    "coco_url": "http://images.cocodataset.org/train2014/COCO_train2014_000000453549.jpg",
+    "flickr_url": "http://farm3.staticflickr.com/2387/2349771659_c232e17e6f_z.jpg",
+    "download_url": "https://s3.amazonaws.com/images.cocodataset.org/train2014/COCO_train2014_000000453549.jpg",
+    "license": {
+      "url": "http://creativecommons.org/licenses/by-nc-sa/2.0/",
+      "id": 1,
+      "name": "Attribution-NonCommercial-ShareAlike License"
+    },
+    "image_path": "data/natural_unseen_holdout_v1/raw_images/COCO_train2014_000000453549.jpg",
+    "image_sha256": "264ee28b6f38e8df9073e3fd6966b437546254fc239dab4c1831a2d471d5de6e",
+    "blind_id": "UNSEEN_C_148",
+    "review_index": 147
+  },
+  {
+    "rank": "1883a47098256359a3f89d3be5c7997c5f676fe546940d210c587b7c08be9410",
+    "source_image_id": 2389,
+    "file_name": "COCO_train2014_000000002389.jpg",
+    "width": 400,
+    "height": 500,
+    "annotation_a": 1625164,
+    "annotation_b": 1101110,
+    "bbox_a": [
+      60.54,
+      155.77,
+      117.71,
+      132.29
+    ],
+    "bbox_b": [
+      221.77,
+      195.31,
+      91.56,
+      74.48
+    ],
+    "category_a": "tv",
+    "category_b": "laptop",
+    "category_id_a": 72,
+    "category_id_b": 73,
+    "target": 0,
+    "coco_url": "http://images.cocodataset.org/train2014/COCO_train2014_000000002389.jpg",
+    "flickr_url": "http://farm4.staticflickr.com/3100/2896352213_3105ecdf67_z.jpg",
+    "download_url": "https://s3.amazonaws.com/images.cocodataset.org/train2014/COCO_train2014_000000002389.jpg",
+    "license": {
+      "url": "http://creativecommons.org/licenses/by-nc-nd/2.0/",
+      "id": 3,
+      "name": "Attribution-NonCommercial-NoDerivs License"
+    },
+    "image_path": "data/natural_unseen_holdout_v1/raw_images/COCO_train2014_000000002389.jpg",
+    "image_sha256": "27a83c2c6ab876dc0395cd11b560063cc8a2c5aed972dcb16d1b26e81d0763c1",
+    "blind_id": "UNSEEN_C_153",
+    "review_index": 152
+  }
+]

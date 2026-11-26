@@ -1,0 +1,10 @@
+blind_id,object_a,object_b,expected_relation,ra_annotator,ra_accept,ra_perceived,ra_reason,ra_notes,rb_annotator,rb_accept,rb_perceived,rb_reason,rb_notes,adjudicator_id,final_accept,adjudication_reason,adjudication_notes
+UNSEEN_C_003,toothbrush,sink,left,R3_C,yes,left,,,R4_C,no,unclear,OCCLUDED_OR_TINY,,,,,
+UNSEEN_C_036,couch,potted plant,right,R3_C,yes,right,,,R4_C,no,right,AMBIGUOUS_LABEL,,,,,
+UNSEEN_C_043,couch,chair,left,R3_C,yes,left,,,R4_C,no,left,AMBIGUOUS_LABEL,,,,,
+UNSEEN_C_065,motorcycle,car,left,R3_C,yes,left,,,R4_C,no,left,OCCLUDED_OR_TINY,,,,,
+UNSEEN_C_072,vase,sink,right,R3_C,yes,right,,,R4_C,no,right,OCCLUDED_OR_TINY,,,,,
+UNSEEN_C_073,wine glass,vase,right,R3_C,yes,right,,,R4_C,no,right,AMBIGUOUS_LABEL,,,,,
+UNSEEN_C_087,person,suitcase,right,R3_C,yes,right,,,R4_C,no,right,OCCLUDED_OR_TINY,,,,,
+UNSEEN_C_101,bottle,potted plant,right,R3_C,no,right,AMBIGUOUS_LABEL,,R4_C,yes,right,,,,,,
+UNSEEN_C_159,bench,tennis racket,left,R3_C,yes,left,,,R4_C,no,left,AMBIGUOUS_LABEL,,,,,

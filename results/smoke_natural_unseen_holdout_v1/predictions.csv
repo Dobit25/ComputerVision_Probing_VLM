@@ -1,0 +1,17 @@
+image_id,group_id,target,prediction,holistic_prediction,correct,holistic_correct
+coco/504336/original,coco/504336,1,1,1,True,True
+coco/504336/horizontal_flip,coco/504336,0,0,1,True,False
+coco/12418/original,coco/12418,0,0,1,True,False
+coco/12418/horizontal_flip,coco/12418,1,1,1,True,True
+coco/1360/original,coco/1360,1,1,1,True,True
+coco/1360/horizontal_flip,coco/1360,0,0,1,True,False
+coco/232218/original,coco/232218,0,0,1,True,False
+coco/232218/horizontal_flip,coco/232218,1,1,1,True,True
+coco/313971/original,coco/313971,0,0,1,True,False
+coco/313971/horizontal_flip,coco/313971,1,1,1,True,True
+coco/373395/original,coco/373395,0,0,1,True,False
+coco/373395/horizontal_flip,coco/373395,1,1,1,True,True
+coco/381216/original,coco/381216,0,0,0,True,True
+coco/381216/horizontal_flip,coco/381216,1,1,0,True,False
+coco/58134/original,coco/58134,0,0,1,True,False
+coco/58134/horizontal_flip,coco/58134,1,1,1,True,True

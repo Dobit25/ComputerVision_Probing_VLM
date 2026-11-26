@@ -737,12 +737,13 @@ def run(cfg, smoke=False, run_name=None):
                 crop = pad_half(crop, cfg['canvas_size'], cfg['pad_rgb'])
             return engine.adapter.preprocess(crop)
 
-    loader = DataLoader(SetCCrops(), batch_size=engine.batch_size, shuffle=False, num_workers=0)
+    import torch
+    loader = DataLoader(SetCCrops(), batch_size=32, shuffle=False, num_workers=0)
     crop_feats = []
-    with __import__('torch').inference_mode():
+    with torch.inference_mode():
         for batch in loader:
-            crop_feats.append(engine.adapter.encode_image_batch(batch).cpu().numpy())
-    crop_scores = (np.concatenate(crop_feats, axis=0) @ obj_feats.T).reshape(len(rows), 2, 4, len(obj_prompts))
+            crop_feats.append(engine.norm(engine.adapter.encode_images(batch.to('cuda'))).cpu())
+    crop_scores = engine.scores(torch.cat(crop_feats), obj_feats).reshape(len(rows), 2, 4, len(obj_prompts))
 
     native_scores = np.zeros((len(rows), 4), dtype=np.float32)
     padded_scores = np.zeros((len(rows), 4), dtype=np.float32)
