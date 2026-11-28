@@ -1,0 +1,7 @@
+template,true_label,n,correct,accuracy_percent,pred_present,pred_absent
+all,present,720,606,84.1667,606,114
+all,absent,720,634,88.0556,86,634
+with_without,present,360,315,87.5,315,45
+with_without,absent,360,343,95.2778,17,343
+contains_does_not,present,360,291,80.8333,291,69
+contains_does_not,absent,360,291,80.8333,69,291
