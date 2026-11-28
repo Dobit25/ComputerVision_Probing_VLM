@@ -1,0 +1,20 @@
+{
+  "verified": true,
+  "recomputed_from_scores": true,
+  "n_trials": 32,
+  "review_frozen_before_inference": true,
+  "primary": {
+    "n": 32,
+    "correct": 27,
+    "accuracy_percent": 84.375,
+    "ci95_percent": [
+      62.5,
+      100.0
+    ],
+    "n_sources": 8,
+    "n_images": 16,
+    "exact_ties": 0,
+    "near_ties": 0,
+    "mean_gap": 0.02414853824302554
+  }
+}

@@ -1,0 +1,393 @@
+sample_id,image_id,group_id,variant,role,foil,foil_tier,true_score,foil_score,gap,correct,exact_tie,near_tie
+coco/410576/original/replace_a,coco/410576/original,coco/410576,original,replace_a,teddy bear,1,0.26312559843063354,0.2353406846523285,0.027784913778305054,True,False,False
+coco/410576/original/replace_b,coco/410576/original,coco/410576,original,replace_b,cell phone,1,0.26312559843063354,0.23529061675071716,0.027834981679916382,True,False,False
+coco/410576/horizontal_flip/replace_a,coco/410576/horizontal_flip,coco/410576,horizontal_flip,replace_a,teddy bear,1,0.26392945647239685,0.2464415282011032,0.01748792827129364,True,False,False
+coco/410576/horizontal_flip/replace_b,coco/410576/horizontal_flip,coco/410576,horizontal_flip,replace_b,cell phone,1,0.26392945647239685,0.23222874104976654,0.03170071542263031,True,False,False
+coco/59225/original/replace_a,coco/59225/original,coco/59225,original,replace_a,stop sign,1,0.31534239649772644,0.23723413050174713,0.07810826599597931,True,False,False
+coco/59225/original/replace_b,coco/59225/original,coco/59225,original,replace_b,apple,2,0.31534239649772644,0.2578110098838806,0.057531386613845825,True,False,False
+coco/59225/horizontal_flip/replace_a,coco/59225/horizontal_flip,coco/59225,horizontal_flip,replace_a,stop sign,1,0.30884838104248047,0.23340710997581482,0.07544127106666565,True,False,False
+coco/59225/horizontal_flip/replace_b,coco/59225/horizontal_flip,coco/59225,horizontal_flip,replace_b,apple,2,0.30884838104248047,0.251909077167511,0.05693930387496948,True,False,False
+coco/469471/original/replace_a,coco/469471/original,coco/469471,original,replace_a,bed,1,0.31619998812675476,0.29908227920532227,0.017117708921432495,True,False,False
+coco/469471/original/replace_b,coco/469471/original,coco/469471,original,replace_b,toaster,1,0.31619998812675476,0.3089025914669037,0.007297396659851074,True,False,False
+coco/469471/horizontal_flip/replace_a,coco/469471/horizontal_flip,coco/469471,horizontal_flip,replace_a,bed,1,0.30729466676712036,0.2958005666732788,0.011494100093841553,True,False,False
+coco/469471/horizontal_flip/replace_b,coco/469471/horizontal_flip,coco/469471,horizontal_flip,replace_b,toaster,1,0.30729466676712036,0.2954656779766083,0.011828988790512085,True,False,False
+coco/318174/original/replace_a,coco/318174/original,coco/318174,original,replace_a,mouse,1,0.3016539216041565,0.22861821949481964,0.07303570210933685,True,False,False
+coco/318174/original/replace_b,coco/318174/original,coco/318174,original,replace_b,fork,1,0.3016539216041565,0.296904981136322,0.004748940467834473,True,False,False
+coco/318174/horizontal_flip/replace_a,coco/318174/horizontal_flip,coco/318174,horizontal_flip,replace_a,mouse,1,0.29462966322898865,0.22544287145137787,0.06918679177761078,True,False,False
+coco/318174/horizontal_flip/replace_b,coco/318174/horizontal_flip,coco/318174,horizontal_flip,replace_b,fork,1,0.29462966322898865,0.29024413228034973,0.004385530948638916,True,False,False
+coco/19916/original/replace_a,coco/19916/original,coco/19916,original,replace_a,spoon,1,0.27455955743789673,0.2600858807563782,0.014473676681518555,True,False,False
+coco/19916/original/replace_b,coco/19916/original,coco/19916,original,replace_b,knife,1,0.27455955743789673,0.2640683054924011,0.010491251945495605,True,False,False
+coco/19916/horizontal_flip/replace_a,coco/19916/horizontal_flip,coco/19916,horizontal_flip,replace_a,spoon,1,0.27632683515548706,0.2681284248828888,0.008198410272598267,True,False,False
+coco/19916/horizontal_flip/replace_b,coco/19916/horizontal_flip,coco/19916,horizontal_flip,replace_b,knife,1,0.27632683515548706,0.24934999644756317,0.02697683870792389,True,False,False
+coco/364444/original/replace_a,coco/364444/original,coco/364444,original,replace_a,cell phone,1,0.24703186750411987,0.24029351770877838,0.006738349795341492,True,False,False
+coco/364444/original/replace_b,coco/364444/original,coco/364444,original,replace_b,remote,1,0.24703186750411987,0.25815626978874207,-0.011124402284622192,False,False,False
+coco/364444/horizontal_flip/replace_a,coco/364444/horizontal_flip,coco/364444,horizontal_flip,replace_a,cell phone,1,0.24301597476005554,0.23889943957328796,0.004116535186767578,True,False,False
+coco/364444/horizontal_flip/replace_b,coco/364444/horizontal_flip,coco/364444,horizontal_flip,replace_b,remote,1,0.24301597476005554,0.25097426772117615,-0.007958292961120605,False,False,False
+coco/273002/original/replace_a,coco/273002/original,coco/273002,original,replace_a,keyboard,2,0.2927820086479187,0.22728291153907776,0.06549909710884094,True,False,False
+coco/273002/original/replace_b,coco/273002/original,coco/273002,original,replace_b,bed,1,0.2927820086479187,0.26047268509864807,0.03230932354927063,True,False,False
+coco/273002/horizontal_flip/replace_a,coco/273002/horizontal_flip,coco/273002,horizontal_flip,replace_a,keyboard,2,0.2845647633075714,0.21990616619586945,0.06465859711170197,True,False,False
+coco/273002/horizontal_flip/replace_b,coco/273002/horizontal_flip,coco/273002,horizontal_flip,replace_b,bed,1,0.2845647633075714,0.2584294080734253,0.026135355234146118,True,False,False
+coco/185614/original/replace_a,coco/185614/original,coco/185614,original,replace_a,knife,1,0.2702959477901459,0.2669277489185333,0.003368198871612549,True,False,False
+coco/185614/original/replace_b,coco/185614/original,coco/185614,original,replace_b,knife,1,0.2702959477901459,0.279590368270874,-0.00929442048072815,False,False,False
+coco/185614/horizontal_flip/replace_a,coco/185614/horizontal_flip,coco/185614,horizontal_flip,replace_a,knife,1,0.25376591086387634,0.273874431848526,-0.020108520984649658,False,False,False
+coco/185614/horizontal_flip/replace_b,coco/185614/horizontal_flip,coco/185614,horizontal_flip,replace_b,knife,1,0.25376591086387634,0.2674165964126587,-0.013650685548782349,False,False,False
+coco/335839/original/replace_a,coco/335839/original,coco/335839,original,replace_a,parking meter,1,0.29648590087890625,0.2808096408843994,0.015676259994506836,True,False,False
+coco/335839/original/replace_b,coco/335839/original,coco/335839,original,replace_b,toilet,2,0.29648590087890625,0.26354727149009705,0.032938629388809204,True,False,False
+coco/335839/horizontal_flip/replace_a,coco/335839/horizontal_flip,coco/335839,horizontal_flip,replace_a,parking meter,1,0.291854590177536,0.2745245695114136,0.017330020666122437,True,False,False
+coco/335839/horizontal_flip/replace_b,coco/335839/horizontal_flip,coco/335839,horizontal_flip,replace_b,toilet,2,0.291854590177536,0.2580861747264862,0.033768415451049805,True,False,False
+coco/257198/original/replace_a,coco/257198/original,coco/257198,original,replace_a,tie,1,0.27201735973358154,0.233726367354393,0.03829099237918854,True,False,False
+coco/257198/original/replace_b,coco/257198/original,coco/257198,original,replace_b,cake,1,0.27201735973358154,0.25012505054473877,0.021892309188842773,True,False,False
+coco/257198/horizontal_flip/replace_a,coco/257198/horizontal_flip,coco/257198,horizontal_flip,replace_a,tie,1,0.28977444767951965,0.24281850457191467,0.04695594310760498,True,False,False
+coco/257198/horizontal_flip/replace_b,coco/257198/horizontal_flip,coco/257198,horizontal_flip,replace_b,cake,1,0.28977444767951965,0.24922707676887512,0.04054737091064453,True,False,False
+coco/574357/original/replace_a,coco/574357/original,coco/574357,original,replace_a,pizza,2,0.23561803996562958,0.16304631531238556,0.07257172465324402,True,False,False
+coco/574357/original/replace_b,coco/574357/original,coco/574357,original,replace_b,tie,1,0.23561803996562958,0.2195597141981125,0.01605832576751709,True,False,False
+coco/574357/horizontal_flip/replace_a,coco/574357/horizontal_flip,coco/574357,horizontal_flip,replace_a,pizza,2,0.2174854278564453,0.1464720219373703,0.07101340591907501,True,False,False
+coco/574357/horizontal_flip/replace_b,coco/574357/horizontal_flip,coco/574357,horizontal_flip,replace_b,tie,1,0.2174854278564453,0.19881868362426758,0.018666744232177734,True,False,False
+coco/78488/original/replace_a,coco/78488/original,coco/78488,original,replace_a,parking meter,1,0.24905535578727722,0.323820561170578,-0.07476520538330078,False,False,False
+coco/78488/original/replace_b,coco/78488/original,coco/78488,original,replace_b,truck,1,0.24905535578727722,0.1908688247203827,0.05818653106689453,True,False,False
+coco/78488/horizontal_flip/replace_a,coco/78488/horizontal_flip,coco/78488,horizontal_flip,replace_a,parking meter,1,0.25011005997657776,0.3153840899467468,-0.06527402997016907,False,False,False
+coco/78488/horizontal_flip/replace_b,coco/78488/horizontal_flip,coco/78488,horizontal_flip,replace_b,truck,1,0.25011005997657776,0.19450625777244568,0.05560380220413208,True,False,False
+coco/455937/original/replace_a,coco/455937/original,coco/455937,original,replace_a,cell phone,2,0.3271123766899109,0.3006810247898102,0.026431351900100708,True,False,False
+coco/455937/original/replace_b,coco/455937/original,coco/455937,original,replace_b,mouse,1,0.3271123766899109,0.26154476404190063,0.06556761264801025,True,False,False
+coco/455937/horizontal_flip/replace_a,coco/455937/horizontal_flip,coco/455937,horizontal_flip,replace_a,cell phone,2,0.32269227504730225,0.29214560985565186,0.03054666519165039,True,False,False
+coco/455937/horizontal_flip/replace_b,coco/455937/horizontal_flip,coco/455937,horizontal_flip,replace_b,mouse,1,0.32269227504730225,0.2579241096973419,0.06476816534996033,True,False,False
+coco/529568/original/replace_a,coco/529568/original,coco/529568,original,replace_a,microwave,1,0.279250830411911,0.2694692611694336,0.009781569242477417,True,False,False
+coco/529568/original/replace_b,coco/529568/original,coco/529568,original,replace_b,toaster,1,0.279250830411911,0.2484380304813385,0.03081279993057251,True,False,False
+coco/529568/horizontal_flip/replace_a,coco/529568/horizontal_flip,coco/529568,horizontal_flip,replace_a,microwave,1,0.27649009227752686,0.26549115777015686,0.010998934507369995,True,False,False
+coco/529568/horizontal_flip/replace_b,coco/529568/horizontal_flip,coco/529568,horizontal_flip,replace_b,toaster,1,0.27649009227752686,0.24620816111564636,0.030281931161880493,True,False,False
+coco/341011/original/replace_a,coco/341011/original,coco/341011,original,replace_a,toaster,1,0.3140060603618622,0.29068416357040405,0.02332189679145813,True,False,False
+coco/341011/original/replace_b,coco/341011/original,coco/341011,original,replace_b,chair,1,0.3140060603618622,0.29680508375167847,0.017200976610183716,True,False,False
+coco/341011/horizontal_flip/replace_a,coco/341011/horizontal_flip,coco/341011,horizontal_flip,replace_a,toaster,1,0.31195107102394104,0.28278371691703796,0.029167354106903076,True,False,False
+coco/341011/horizontal_flip/replace_b,coco/341011/horizontal_flip,coco/341011,horizontal_flip,replace_b,chair,1,0.31195107102394104,0.29463353753089905,0.017317533493041992,True,False,False
+coco/267910/original/replace_a,coco/267910/original,coco/267910,original,replace_a,remote,1,0.31700316071510315,0.27764400839805603,0.03935915231704712,True,False,False
+coco/267910/original/replace_b,coco/267910/original,coco/267910,original,replace_b,toothbrush,1,0.31700316071510315,0.2894110381603241,0.027592122554779053,True,False,False
+coco/267910/horizontal_flip/replace_a,coco/267910/horizontal_flip,coco/267910,horizontal_flip,replace_a,remote,1,0.31831812858581543,0.27289968729019165,0.04541844129562378,True,False,False
+coco/267910/horizontal_flip/replace_b,coco/267910/horizontal_flip,coco/267910,horizontal_flip,replace_b,toothbrush,1,0.31831812858581543,0.29195326566696167,0.02636486291885376,True,False,False
+coco/519649/original/replace_a,coco/519649/original,coco/519649,original,replace_a,sink,1,0.34066763520240784,0.3166838586330414,0.023983776569366455,True,False,False
+coco/519649/original/replace_b,coco/519649/original,coco/519649,original,replace_b,sink,1,0.34066763520240784,0.3284212350845337,0.012246400117874146,True,False,False
+coco/519649/horizontal_flip/replace_a,coco/519649/horizontal_flip,coco/519649,horizontal_flip,replace_a,sink,1,0.34983864426612854,0.31958818435668945,0.030250459909439087,True,False,False
+coco/519649/horizontal_flip/replace_b,coco/519649/horizontal_flip,coco/519649,horizontal_flip,replace_b,sink,1,0.34983864426612854,0.3351817727088928,0.014656871557235718,True,False,False
+coco/374087/original/replace_a,coco/374087/original,coco/374087,original,replace_a,cake,1,0.1827138364315033,0.17382897436618805,0.008884862065315247,True,False,False
+coco/374087/original/replace_b,coco/374087/original,coco/374087,original,replace_b,hot dog,1,0.1827138364315033,0.14891250431537628,0.033801332116127014,True,False,False
+coco/374087/horizontal_flip/replace_a,coco/374087/horizontal_flip,coco/374087,horizontal_flip,replace_a,cake,1,0.19100424647331238,0.18023273348808289,0.010771512985229492,True,False,False
+coco/374087/horizontal_flip/replace_b,coco/374087/horizontal_flip,coco/374087,horizontal_flip,replace_b,hot dog,1,0.19100424647331238,0.1544511765241623,0.036553069949150085,True,False,False
+coco/316912/original/replace_a,coco/316912/original,coco/316912,original,replace_a,sheep,1,0.31441277265548706,0.25160935521125793,0.06280341744422913,True,False,False
+coco/316912/original/replace_b,coco/316912/original,coco/316912,original,replace_b,airplane,1,0.31441277265548706,0.24962757527828217,0.0647851973772049,True,False,False
+coco/316912/horizontal_flip/replace_a,coco/316912/horizontal_flip,coco/316912,horizontal_flip,replace_a,sheep,1,0.31546950340270996,0.24743801355361938,0.06803148984909058,True,False,False
+coco/316912/horizontal_flip/replace_b,coco/316912/horizontal_flip,coco/316912,horizontal_flip,replace_b,airplane,1,0.31546950340270996,0.25892913341522217,0.05654036998748779,True,False,False
+coco/497145/original/replace_a,coco/497145/original,coco/497145,original,replace_a,toothbrush,2,0.26224491000175476,0.22319726645946503,0.039047643542289734,True,False,False
+coco/497145/original/replace_b,coco/497145/original,coco/497145,original,replace_b,cow,1,0.26224491000175476,0.20305174589157104,0.059193164110183716,True,False,False
+coco/497145/horizontal_flip/replace_a,coco/497145/horizontal_flip,coco/497145,horizontal_flip,replace_a,toothbrush,2,0.2653661072254181,0.22462555766105652,0.04074054956436157,True,False,False
+coco/497145/horizontal_flip/replace_b,coco/497145/horizontal_flip,coco/497145,horizontal_flip,replace_b,cow,1,0.2653661072254181,0.20276924967765808,0.06259685754776001,True,False,False
+coco/277289/original/replace_a,coco/277289/original,coco/277289,original,replace_a,bed,1,0.275500625371933,0.268404096364975,0.007096529006958008,True,False,False
+coco/277289/original/replace_b,coco/277289/original,coco/277289,original,replace_b,remote,1,0.275500625371933,0.23853231966495514,0.036968305706977844,True,False,False
+coco/277289/horizontal_flip/replace_a,coco/277289/horizontal_flip,coco/277289,horizontal_flip,replace_a,bed,1,0.262029230594635,0.2608802318572998,0.001148998737335205,True,False,False
+coco/277289/horizontal_flip/replace_b,coco/277289/horizontal_flip,coco/277289,horizontal_flip,replace_b,remote,1,0.262029230594635,0.23174269497394562,0.030286535620689392,True,False,False
+coco/190140/original/replace_a,coco/190140/original,coco/190140,original,replace_a,dining table,2,0.2641158401966095,0.20136354863643646,0.06275229156017303,True,False,False
+coco/190140/original/replace_b,coco/190140/original,coco/190140,original,replace_b,bear,1,0.2641158401966095,0.20450785756111145,0.05960798263549805,True,False,False
+coco/190140/horizontal_flip/replace_a,coco/190140/horizontal_flip,coco/190140,horizontal_flip,replace_a,dining table,2,0.25698956847190857,0.19408148527145386,0.06290808320045471,True,False,False
+coco/190140/horizontal_flip/replace_b,coco/190140/horizontal_flip,coco/190140,horizontal_flip,replace_b,bear,1,0.25698956847190857,0.1964660882949829,0.06052348017692566,True,False,False
+coco/148830/original/replace_a,coco/148830/original,coco/148830,original,replace_a,knife,1,0.25098955631256104,0.2433488517999649,0.00764070451259613,True,False,False
+coco/148830/original/replace_b,coco/148830/original,coco/148830,original,replace_b,hot dog,1,0.25098955631256104,0.2276778221130371,0.023311734199523926,True,False,False
+coco/148830/horizontal_flip/replace_a,coco/148830/horizontal_flip,coco/148830,horizontal_flip,replace_a,knife,1,0.25563377141952515,0.2474747598171234,0.008159011602401733,True,False,False
+coco/148830/horizontal_flip/replace_b,coco/148830/horizontal_flip,coco/148830,horizontal_flip,replace_b,hot dog,1,0.25563377141952515,0.22347895801067352,0.032154813408851624,True,False,False
+coco/448795/original/replace_a,coco/448795/original,coco/448795,original,replace_a,microwave,1,0.27154991030693054,0.2657667100429535,0.005783200263977051,True,False,False
+coco/448795/original/replace_b,coco/448795/original,coco/448795,original,replace_b,couch,1,0.27154991030693054,0.245388463139534,0.026161447167396545,True,False,False
+coco/448795/horizontal_flip/replace_a,coco/448795/horizontal_flip,coco/448795,horizontal_flip,replace_a,microwave,1,0.2835586667060852,0.28099149465560913,0.0025671720504760742,True,False,False
+coco/448795/horizontal_flip/replace_b,coco/448795/horizontal_flip,coco/448795,horizontal_flip,replace_b,couch,1,0.2835586667060852,0.2559913098812103,0.027567356824874878,True,False,False
+coco/252201/original/replace_a,coco/252201/original,coco/252201,original,replace_a,traffic light,1,0.36187198758125305,0.2696404457092285,0.09223154187202454,True,False,False
+coco/252201/original/replace_b,coco/252201/original,coco/252201,original,replace_b,pizza,2,0.36187198758125305,0.334894597530365,0.02697739005088806,True,False,False
+coco/252201/horizontal_flip/replace_a,coco/252201/horizontal_flip,coco/252201,horizontal_flip,replace_a,traffic light,1,0.36708635091781616,0.27719205617904663,0.08989429473876953,True,False,False
+coco/252201/horizontal_flip/replace_b,coco/252201/horizontal_flip,coco/252201,horizontal_flip,replace_b,pizza,2,0.36708635091781616,0.3399890959262848,0.027097254991531372,True,False,False
+coco/334813/original/replace_a,coco/334813/original,coco/334813,original,replace_a,remote,1,0.23436343669891357,0.2593978941440582,-0.025034457445144653,False,False,False
+coco/334813/original/replace_b,coco/334813/original,coco/334813,original,replace_b,oven,2,0.23436343669891357,0.19340276718139648,0.04096066951751709,True,False,False
+coco/334813/horizontal_flip/replace_a,coco/334813/horizontal_flip,coco/334813,horizontal_flip,replace_a,remote,1,0.2378539890050888,0.2616097927093506,-0.02375580370426178,False,False,False
+coco/334813/horizontal_flip/replace_b,coco/334813/horizontal_flip,coco/334813,horizontal_flip,replace_b,oven,2,0.2378539890050888,0.19550247490406036,0.04235151410102844,True,False,False
+coco/380116/original/replace_a,coco/380116/original,coco/380116,original,replace_a,remote,1,0.26818230748176575,0.2565176486968994,0.011664658784866333,True,False,False
+coco/380116/original/replace_b,coco/380116/original,coco/380116,original,replace_b,clock,1,0.26818230748176575,0.27135276794433594,-0.0031704604625701904,False,False,False
+coco/380116/horizontal_flip/replace_a,coco/380116/horizontal_flip,coco/380116,horizontal_flip,replace_a,remote,1,0.27266255021095276,0.26045963168144226,0.012202918529510498,True,False,False
+coco/380116/horizontal_flip/replace_b,coco/380116/horizontal_flip,coco/380116,horizontal_flip,replace_b,clock,1,0.27266255021095276,0.27354666590690613,-0.0008841156959533691,False,False,False
+coco/436273/original/replace_a,coco/436273/original,coco/436273,original,replace_a,toaster,1,0.2667483389377594,0.2521376311779022,0.014610707759857178,True,False,False
+coco/436273/original/replace_b,coco/436273/original,coco/436273,original,replace_b,scissors,2,0.2667483389377594,0.24798500537872314,0.018763333559036255,True,False,False
+coco/436273/horizontal_flip/replace_a,coco/436273/horizontal_flip,coco/436273,horizontal_flip,replace_a,toaster,1,0.2591594159603119,0.24592554569244385,0.013233870267868042,True,False,False
+coco/436273/horizontal_flip/replace_b,coco/436273/horizontal_flip,coco/436273,horizontal_flip,replace_b,scissors,2,0.2591594159603119,0.2426052987575531,0.01655411720275879,True,False,False
+coco/490701/original/replace_a,coco/490701/original,coco/490701,original,replace_a,knife,1,0.2948763072490692,0.2926506996154785,0.0022256076335906982,True,False,False
+coco/490701/original/replace_b,coco/490701/original,coco/490701,original,replace_b,wine glass,1,0.2948763072490692,0.2671857178211212,0.027690589427947998,True,False,False
+coco/490701/horizontal_flip/replace_a,coco/490701/horizontal_flip,coco/490701,horizontal_flip,replace_a,knife,1,0.29571470618247986,0.2953130602836609,0.0004016458988189697,True,False,False
+coco/490701/horizontal_flip/replace_b,coco/490701/horizontal_flip,coco/490701,horizontal_flip,replace_b,wine glass,1,0.29571470618247986,0.2624349594116211,0.033279746770858765,True,False,False
+coco/156324/original/replace_a,coco/156324/original,coco/156324,original,replace_a,toilet,1,0.22298407554626465,0.26988521218299866,-0.04690113663673401,False,False,False
+coco/156324/original/replace_b,coco/156324/original,coco/156324,original,replace_b,pizza,2,0.22298407554626465,0.20345892012119293,0.019525155425071716,True,False,False
+coco/156324/horizontal_flip/replace_a,coco/156324/horizontal_flip,coco/156324,horizontal_flip,replace_a,toilet,1,0.20914620161056519,0.2608782947063446,-0.05173209309577942,False,False,False
+coco/156324/horizontal_flip/replace_b,coco/156324/horizontal_flip,coco/156324,horizontal_flip,replace_b,pizza,2,0.20914620161056519,0.1835145503282547,0.025631651282310486,True,False,False
+coco/88244/original/replace_a,coco/88244/original,coco/88244,original,replace_a,mouse,1,0.28474146127700806,0.20854848623275757,0.07619297504425049,True,False,False
+coco/88244/original/replace_b,coco/88244/original,coco/88244,original,replace_b,cell phone,1,0.28474146127700806,0.2761741578578949,0.00856730341911316,True,False,False
+coco/88244/horizontal_flip/replace_a,coco/88244/horizontal_flip,coco/88244,horizontal_flip,replace_a,mouse,1,0.29226404428482056,0.21320182085037231,0.07906222343444824,True,False,False
+coco/88244/horizontal_flip/replace_b,coco/88244/horizontal_flip,coco/88244,horizontal_flip,replace_b,cell phone,1,0.29226404428482056,0.28660571575164795,0.005658328533172607,True,False,False
+coco/311378/original/replace_a,coco/311378/original,coco/311378,original,replace_a,orange,1,0.29366061091423035,0.2126564383506775,0.08100417256355286,True,False,False
+coco/311378/original/replace_b,coco/311378/original,coco/311378,original,replace_b,knife,1,0.29366061091423035,0.2899984121322632,0.003662198781967163,True,False,False
+coco/311378/horizontal_flip/replace_a,coco/311378/horizontal_flip,coco/311378,horizontal_flip,replace_a,orange,1,0.2831844687461853,0.21093760430812836,0.07224686443805695,True,False,False
+coco/311378/horizontal_flip/replace_b,coco/311378/horizontal_flip,coco/311378,horizontal_flip,replace_b,knife,1,0.2831844687461853,0.281329482793808,0.0018549859523773193,True,False,False
+coco/557896/original/replace_a,coco/557896/original,coco/557896,original,replace_a,sink,1,0.276914119720459,0.21715348958969116,0.05976063013076782,True,False,False
+coco/557896/original/replace_b,coco/557896/original,coco/557896,original,replace_b,laptop,2,0.276914119720459,0.2635391056537628,0.013375014066696167,True,False,False
+coco/557896/horizontal_flip/replace_a,coco/557896/horizontal_flip,coco/557896,horizontal_flip,replace_a,sink,1,0.27502158284187317,0.22676531970500946,0.04825626313686371,True,False,False
+coco/557896/horizontal_flip/replace_b,coco/557896/horizontal_flip,coco/557896,horizontal_flip,replace_b,laptop,2,0.27502158284187317,0.2609890103340149,0.014032572507858276,True,False,False
+coco/126744/original/replace_a,coco/126744/original,coco/126744,original,replace_a,toaster,1,0.33724892139434814,0.31368207931518555,0.023566842079162598,True,False,False
+coco/126744/original/replace_b,coco/126744/original,coco/126744,original,replace_b,toaster,1,0.33724892139434814,0.30670082569122314,0.030548095703125,True,False,False
+coco/126744/horizontal_flip/replace_a,coco/126744/horizontal_flip,coco/126744,horizontal_flip,replace_a,toaster,1,0.33109837770462036,0.3111400008201599,0.01995837688446045,True,False,False
+coco/126744/horizontal_flip/replace_b,coco/126744/horizontal_flip,coco/126744,horizontal_flip,replace_b,toaster,1,0.33109837770462036,0.303474098443985,0.027624279260635376,True,False,False
+coco/331096/original/replace_a,coco/331096/original,coco/331096,original,replace_a,refrigerator,1,0.3200191855430603,0.3101238012313843,0.009895384311676025,True,False,False
+coco/331096/original/replace_b,coco/331096/original,coco/331096,original,replace_b,dining table,1,0.3200191855430603,0.26786062121391296,0.05215856432914734,True,False,False
+coco/331096/horizontal_flip/replace_a,coco/331096/horizontal_flip,coco/331096,horizontal_flip,replace_a,refrigerator,1,0.3187708556652069,0.312939316034317,0.005831539630889893,True,False,False
+coco/331096/horizontal_flip/replace_b,coco/331096/horizontal_flip,coco/331096,horizontal_flip,replace_b,dining table,1,0.3187708556652069,0.2635093629360199,0.05526149272918701,True,False,False
+coco/98054/original/replace_a,coco/98054/original,coco/98054,original,replace_a,banana,1,0.3030989170074463,0.24286577105522156,0.06023314595222473,True,False,False
+coco/98054/original/replace_b,coco/98054/original,coco/98054,original,replace_b,wine glass,1,0.3030989170074463,0.2969379127025604,0.006161004304885864,True,False,False
+coco/98054/horizontal_flip/replace_a,coco/98054/horizontal_flip,coco/98054,horizontal_flip,replace_a,banana,1,0.31108397245407104,0.25181978940963745,0.059264183044433594,True,False,False
+coco/98054/horizontal_flip/replace_b,coco/98054/horizontal_flip,coco/98054,horizontal_flip,replace_b,wine glass,1,0.31108397245407104,0.3070918321609497,0.003992140293121338,True,False,False
+coco/283561/original/replace_a,coco/283561/original,coco/283561,original,replace_a,toilet,1,0.25445401668548584,0.25887688994407654,-0.004422873258590698,False,False,False
+coco/283561/original/replace_b,coco/283561/original,coco/283561,original,replace_b,keyboard,1,0.25445401668548584,0.23090322315692902,0.023550793528556824,True,False,False
+coco/283561/horizontal_flip/replace_a,coco/283561/horizontal_flip,coco/283561,horizontal_flip,replace_a,toilet,1,0.26354509592056274,0.26332390308380127,0.0002211928367614746,True,False,False
+coco/283561/horizontal_flip/replace_b,coco/283561/horizontal_flip,coco/283561,horizontal_flip,replace_b,keyboard,1,0.26354509592056274,0.2417086362838745,0.021836459636688232,True,False,False
+coco/306395/original/replace_a,coco/306395/original,coco/306395,original,replace_a,cow,1,0.31129080057144165,0.27582037448883057,0.035470426082611084,True,False,False
+coco/306395/original/replace_b,coco/306395/original,coco/306395,original,replace_b,giraffe,1,0.31129080057144165,0.2597566246986389,0.051534175872802734,True,False,False
+coco/306395/horizontal_flip/replace_a,coco/306395/horizontal_flip,coco/306395,horizontal_flip,replace_a,cow,1,0.3207624852657318,0.28382304310798645,0.03693944215774536,True,False,False
+coco/306395/horizontal_flip/replace_b,coco/306395/horizontal_flip,coco/306395,horizontal_flip,replace_b,giraffe,1,0.3207624852657318,0.2641562223434448,0.05660626292228699,True,False,False
+coco/96832/original/replace_a,coco/96832/original,coco/96832,original,replace_a,spoon,2,0.26005715131759644,0.24417580664157867,0.01588134467601776,True,False,False
+coco/96832/original/replace_b,coco/96832/original,coco/96832,original,replace_b,toilet,1,0.26005715131759644,0.22997406125068665,0.03008309006690979,True,False,False
+coco/96832/horizontal_flip/replace_a,coco/96832/horizontal_flip,coco/96832,horizontal_flip,replace_a,spoon,2,0.2598958909511566,0.23663124442100525,0.023264646530151367,True,False,False
+coco/96832/horizontal_flip/replace_b,coco/96832/horizontal_flip,coco/96832,horizontal_flip,replace_b,toilet,1,0.2598958909511566,0.22769704461097717,0.03219884634017944,True,False,False
+coco/117425/original/replace_a,coco/117425/original,coco/117425,original,replace_a,knife,1,0.313922256231308,0.31217777729034424,0.0017444789409637451,True,False,False
+coco/117425/original/replace_b,coco/117425/original,coco/117425,original,replace_b,hot dog,1,0.313922256231308,0.22429697215557098,0.089625284075737,True,False,False
+coco/117425/horizontal_flip/replace_a,coco/117425/horizontal_flip,coco/117425,horizontal_flip,replace_a,knife,1,0.31496644020080566,0.31101658940315247,0.003949850797653198,True,False,False
+coco/117425/horizontal_flip/replace_b,coco/117425/horizontal_flip,coco/117425,horizontal_flip,replace_b,hot dog,1,0.31496644020080566,0.22493411600589752,0.09003232419490814,True,False,False
+coco/575882/original/replace_a,coco/575882/original,coco/575882,original,replace_a,cell phone,1,0.2834742069244385,0.2101156860589981,0.07335852086544037,True,False,False
+coco/575882/original/replace_b,coco/575882/original,coco/575882,original,replace_b,horse,1,0.2834742069244385,0.28384989500045776,-0.0003756880760192871,False,False,False
+coco/575882/horizontal_flip/replace_a,coco/575882/horizontal_flip,coco/575882,horizontal_flip,replace_a,cell phone,1,0.30365949869155884,0.23417405784130096,0.06948544085025787,True,False,False
+coco/575882/horizontal_flip/replace_b,coco/575882/horizontal_flip,coco/575882,horizontal_flip,replace_b,horse,1,0.30365949869155884,0.29489898681640625,0.008760511875152588,True,False,False
+coco/283858/original/replace_a,coco/283858/original,coco/283858,original,replace_a,boat,1,0.3111729323863983,0.24664293229579926,0.06453000009059906,True,False,False
+coco/283858/original/replace_b,coco/283858/original,coco/283858,original,replace_b,skis,1,0.3111729323863983,0.2423928678035736,0.06878006458282471,True,False,False
+coco/283858/horizontal_flip/replace_a,coco/283858/horizontal_flip,coco/283858,horizontal_flip,replace_a,boat,1,0.31077492237091064,0.2533794641494751,0.05739545822143555,True,False,False
+coco/283858/horizontal_flip/replace_b,coco/283858/horizontal_flip,coco/283858,horizontal_flip,replace_b,skis,1,0.31077492237091064,0.24138382077217102,0.06939110159873962,True,False,False
+coco/117674/original/replace_a,coco/117674/original,coco/117674,original,replace_a,tie,1,0.33836281299591064,0.30066630244255066,0.037696510553359985,True,False,False
+coco/117674/original/replace_b,coco/117674/original,coco/117674,original,replace_b,stop sign,1,0.33836281299591064,0.2961515486240387,0.04221126437187195,True,False,False
+coco/117674/horizontal_flip/replace_a,coco/117674/horizontal_flip,coco/117674,horizontal_flip,replace_a,tie,1,0.3298402726650238,0.2915259301662445,0.0383143424987793,True,False,False
+coco/117674/horizontal_flip/replace_b,coco/117674/horizontal_flip,coco/117674,horizontal_flip,replace_b,stop sign,1,0.3298402726650238,0.2974023222923279,0.03243795037269592,True,False,False
+coco/264625/original/replace_a,coco/264625/original,coco/264625,original,replace_a,scissors,1,0.30804330110549927,0.26386675238609314,0.04417654871940613,True,False,False
+coco/264625/original/replace_b,coco/264625/original,coco/264625,original,replace_b,fork,1,0.30804330110549927,0.2870314121246338,0.02101188898086548,True,False,False
+coco/264625/horizontal_flip/replace_a,coco/264625/horizontal_flip,coco/264625,horizontal_flip,replace_a,scissors,1,0.31053996086120605,0.2702103853225708,0.040329575538635254,True,False,False
+coco/264625/horizontal_flip/replace_b,coco/264625/horizontal_flip,coco/264625,horizontal_flip,replace_b,fork,1,0.31053996086120605,0.2874632179737091,0.023076742887496948,True,False,False
+coco/211203/original/replace_a,coco/211203/original,coco/211203,original,replace_a,orange,1,0.30447614192962646,0.22762414813041687,0.0768519937992096,True,False,False
+coco/211203/original/replace_b,coco/211203/original,coco/211203,original,replace_b,fork,1,0.30447614192962646,0.26528990268707275,0.03918623924255371,True,False,False
+coco/211203/horizontal_flip/replace_a,coco/211203/horizontal_flip,coco/211203,horizontal_flip,replace_a,orange,1,0.30429887771606445,0.22122310101985931,0.08307577669620514,True,False,False
+coco/211203/horizontal_flip/replace_b,coco/211203/horizontal_flip,coco/211203,horizontal_flip,replace_b,fork,1,0.30429887771606445,0.2635566294193268,0.04074224829673767,True,False,False
+coco/300791/original/replace_a,coco/300791/original,coco/300791,original,replace_a,giraffe,1,0.2692578136920929,0.2362588793039322,0.032998934388160706,True,False,False
+coco/300791/original/replace_b,coco/300791/original,coco/300791,original,replace_b,boat,1,0.2692578136920929,0.2385673224925995,0.030690491199493408,True,False,False
+coco/300791/horizontal_flip/replace_a,coco/300791/horizontal_flip,coco/300791,horizontal_flip,replace_a,giraffe,1,0.2702562212944031,0.23585613071918488,0.0344000905752182,True,False,False
+coco/300791/horizontal_flip/replace_b,coco/300791/horizontal_flip,coco/300791,horizontal_flip,replace_b,boat,1,0.2702562212944031,0.23775631189346313,0.03249990940093994,True,False,False
+coco/520012/original/replace_a,coco/520012/original,coco/520012,original,replace_a,bowl,1,0.2169935554265976,0.23083864152431488,-0.013845086097717285,False,False,False
+coco/520012/original/replace_b,coco/520012/original,coco/520012,original,replace_b,laptop,1,0.2169935554265976,0.20239314436912537,0.014600411057472229,True,False,False
+coco/520012/horizontal_flip/replace_a,coco/520012/horizontal_flip,coco/520012,horizontal_flip,replace_a,bowl,1,0.20140032470226288,0.2165040224790573,-0.015103697776794434,False,False,False
+coco/520012/horizontal_flip/replace_b,coco/520012/horizontal_flip,coco/520012,horizontal_flip,replace_b,laptop,1,0.20140032470226288,0.18877586722373962,0.012624457478523254,True,False,False
+coco/406340/original/replace_a,coco/406340/original,coco/406340,original,replace_a,cell phone,1,0.3230855464935303,0.2926187813282013,0.03046676516532898,True,False,False
+coco/406340/original/replace_b,coco/406340/original,coco/406340,original,replace_b,umbrella,1,0.3230855464935303,0.30035078525543213,0.022734761238098145,True,False,False
+coco/406340/horizontal_flip/replace_a,coco/406340/horizontal_flip,coco/406340,horizontal_flip,replace_a,cell phone,1,0.31000053882598877,0.2731684744358063,0.036832064390182495,True,False,False
+coco/406340/horizontal_flip/replace_b,coco/406340/horizontal_flip,coco/406340,horizontal_flip,replace_b,umbrella,1,0.31000053882598877,0.2934682369232178,0.016532301902770996,True,False,False
+coco/554348/original/replace_a,coco/554348/original,coco/554348,original,replace_a,airplane,1,0.2990935444831848,0.23863956332206726,0.060453981161117554,True,False,False
+coco/554348/original/replace_b,coco/554348/original,coco/554348,original,replace_b,suitcase,1,0.2990935444831848,0.2840023338794708,0.01509121060371399,True,False,False
+coco/554348/horizontal_flip/replace_a,coco/554348/horizontal_flip,coco/554348,horizontal_flip,replace_a,airplane,1,0.30264490842819214,0.24824948608875275,0.05439542233943939,True,False,False
+coco/554348/horizontal_flip/replace_b,coco/554348/horizontal_flip,coco/554348,horizontal_flip,replace_b,suitcase,1,0.30264490842819214,0.2851330041885376,0.01751190423965454,True,False,False
+coco/394957/original/replace_a,coco/394957/original,coco/394957,original,replace_a,backpack,1,0.3053489923477173,0.31690216064453125,-0.011553168296813965,False,False,False
+coco/394957/original/replace_b,coco/394957/original,coco/394957,original,replace_b,chair,1,0.3053489923477173,0.26507270336151123,0.040276288986206055,True,False,False
+coco/394957/horizontal_flip/replace_a,coco/394957/horizontal_flip,coco/394957,horizontal_flip,replace_a,backpack,1,0.29742977023124695,0.30812329053878784,-0.010693520307540894,False,False,False
+coco/394957/horizontal_flip/replace_b,coco/394957/horizontal_flip,coco/394957,horizontal_flip,replace_b,chair,1,0.29742977023124695,0.2601497173309326,0.03728005290031433,True,False,False
+coco/280083/original/replace_a,coco/280083/original,coco/280083,original,replace_a,orange,1,0.25996023416519165,0.2562207579612732,0.003739476203918457,True,False,False
+coco/280083/original/replace_b,coco/280083/original,coco/280083,original,replace_b,bowl,1,0.25996023416519165,0.25471851229667664,0.005241721868515015,True,False,False
+coco/280083/horizontal_flip/replace_a,coco/280083/horizontal_flip,coco/280083,horizontal_flip,replace_a,orange,1,0.27924928069114685,0.25927990674972534,0.01996937394142151,True,False,False
+coco/280083/horizontal_flip/replace_b,coco/280083/horizontal_flip,coco/280083,horizontal_flip,replace_b,bowl,1,0.27924928069114685,0.27738484740257263,0.0018644332885742188,True,False,False
+coco/540642/original/replace_a,coco/540642/original,coco/540642,original,replace_a,toaster,1,0.2688319683074951,0.2514932155609131,0.01733875274658203,True,False,False
+coco/540642/original/replace_b,coco/540642/original,coco/540642,original,replace_b,toaster,1,0.2688319683074951,0.25210610032081604,0.016725867986679077,True,False,False
+coco/540642/horizontal_flip/replace_a,coco/540642/horizontal_flip,coco/540642,horizontal_flip,replace_a,toaster,1,0.2661009132862091,0.2494109869003296,0.016689926385879517,True,False,False
+coco/540642/horizontal_flip/replace_b,coco/540642/horizontal_flip,coco/540642,horizontal_flip,replace_b,toaster,1,0.2661009132862091,0.2516518235206604,0.014449089765548706,True,False,False
+coco/363119/original/replace_a,coco/363119/original,coco/363119,original,replace_a,bottle,1,0.27261054515838623,0.28428325057029724,-0.01167270541191101,False,False,False
+coco/363119/original/replace_b,coco/363119/original,coco/363119,original,replace_b,mouse,1,0.27261054515838623,0.2053118795156479,0.06729866564273834,True,False,False
+coco/363119/horizontal_flip/replace_a,coco/363119/horizontal_flip,coco/363119,horizontal_flip,replace_a,bottle,1,0.29051706194877625,0.2999720573425293,-0.009454995393753052,False,False,False
+coco/363119/horizontal_flip/replace_b,coco/363119/horizontal_flip,coco/363119,horizontal_flip,replace_b,mouse,1,0.29051706194877625,0.21501553058624268,0.07550153136253357,True,False,False
+coco/353748/original/replace_a,coco/353748/original,coco/353748,original,replace_a,stop sign,1,0.2560465931892395,0.28568175435066223,-0.02963516116142273,False,False,False
+coco/353748/original/replace_b,coco/353748/original,coco/353748,original,replace_b,bus,1,0.2560465931892395,0.22559097409248352,0.03045561909675598,True,False,False
+coco/353748/horizontal_flip/replace_a,coco/353748/horizontal_flip,coco/353748,horizontal_flip,replace_a,stop sign,1,0.26506921648979187,0.2877938449382782,-0.022724628448486328,False,False,False
+coco/353748/horizontal_flip/replace_b,coco/353748/horizontal_flip,coco/353748,horizontal_flip,replace_b,bus,1,0.26506921648979187,0.2284185290336609,0.03665068745613098,True,False,False
+coco/294475/original/replace_a,coco/294475/original,coco/294475,original,replace_a,hot dog,1,0.336087167263031,0.2258237898349762,0.11026337742805481,True,False,False
+coco/294475/original/replace_b,coco/294475/original,coco/294475,original,replace_b,wine glass,1,0.336087167263031,0.34788429737091064,-0.011797130107879639,False,False,False
+coco/294475/horizontal_flip/replace_a,coco/294475/horizontal_flip,coco/294475,horizontal_flip,replace_a,hot dog,1,0.33471524715423584,0.22929754853248596,0.10541769862174988,True,False,False
+coco/294475/horizontal_flip/replace_b,coco/294475/horizontal_flip,coco/294475,horizontal_flip,replace_b,wine glass,1,0.33471524715423584,0.3408697843551636,-0.006154537200927734,False,False,False
+coco/435389/original/replace_a,coco/435389/original,coco/435389,original,replace_a,mouse,1,0.2849685251712799,0.26301777362823486,0.021950751543045044,True,False,False
+coco/435389/original/replace_b,coco/435389/original,coco/435389,original,replace_b,scissors,1,0.2849685251712799,0.24402213096618652,0.040946394205093384,True,False,False
+coco/435389/horizontal_flip/replace_a,coco/435389/horizontal_flip,coco/435389,horizontal_flip,replace_a,mouse,1,0.2889292538166046,0.25665783882141113,0.03227141499519348,True,False,False
+coco/435389/horizontal_flip/replace_b,coco/435389/horizontal_flip,coco/435389,horizontal_flip,replace_b,scissors,1,0.2889292538166046,0.2504638135433197,0.03846544027328491,True,False,False
+coco/312020/original/replace_a,coco/312020/original,coco/312020,original,replace_a,dining table,2,0.32277676463127136,0.24419347941875458,0.07858328521251678,True,False,False
+coco/312020/original/replace_b,coco/312020/original,coco/312020,original,replace_b,oven,1,0.32277676463127136,0.26615214347839355,0.05662462115287781,True,False,False
+coco/312020/horizontal_flip/replace_a,coco/312020/horizontal_flip,coco/312020,horizontal_flip,replace_a,dining table,2,0.32287344336509705,0.24625325202941895,0.0766201913356781,True,False,False
+coco/312020/horizontal_flip/replace_b,coco/312020/horizontal_flip,coco/312020,horizontal_flip,replace_b,oven,1,0.32287344336509705,0.273045152425766,0.049828290939331055,True,False,False
+coco/209682/original/replace_a,coco/209682/original,coco/209682,original,replace_a,dining table,1,0.33954277634620667,0.28873008489608765,0.05081269145011902,True,False,False
+coco/209682/original/replace_b,coco/209682/original,coco/209682,original,replace_b,microwave,1,0.33954277634620667,0.32940226793289185,0.01014050841331482,True,False,False
+coco/209682/horizontal_flip/replace_a,coco/209682/horizontal_flip,coco/209682,horizontal_flip,replace_a,dining table,1,0.3395007848739624,0.28568175435066223,0.05381903052330017,True,False,False
+coco/209682/horizontal_flip/replace_b,coco/209682/horizontal_flip,coco/209682,horizontal_flip,replace_b,microwave,1,0.3395007848739624,0.3329392373561859,0.006561547517776489,True,False,False
+coco/107516/original/replace_a,coco/107516/original,coco/107516,original,replace_a,toaster,1,0.26939815282821655,0.2503420412540436,0.019056111574172974,True,False,False
+coco/107516/original/replace_b,coco/107516/original,coco/107516,original,replace_b,microwave,1,0.26939815282821655,0.25147607922554016,0.01792207360267639,True,False,False
+coco/107516/horizontal_flip/replace_a,coco/107516/horizontal_flip,coco/107516,horizontal_flip,replace_a,toaster,1,0.2689410448074341,0.24751025438308716,0.021430790424346924,True,False,False
+coco/107516/horizontal_flip/replace_b,coco/107516/horizontal_flip,coco/107516,horizontal_flip,replace_b,microwave,1,0.2689410448074341,0.24819543957710266,0.02074560523033142,True,False,False
+coco/355325/original/replace_a,coco/355325/original,coco/355325,original,replace_a,knife,1,0.20534272491931915,0.2109108865261078,-0.005568161606788635,False,False,False
+coco/355325/original/replace_b,coco/355325/original,coco/355325,original,replace_b,knife,1,0.20534272491931915,0.2266191840171814,-0.021276459097862244,False,False,False
+coco/355325/horizontal_flip/replace_a,coco/355325/horizontal_flip,coco/355325,horizontal_flip,replace_a,knife,1,0.20396734774112701,0.21338586509227753,-0.009418517351150513,False,False,False
+coco/355325/horizontal_flip/replace_b,coco/355325/horizontal_flip,coco/355325,horizontal_flip,replace_b,knife,1,0.20396734774112701,0.23198269307613373,-0.028015345335006714,False,False,False
+coco/436848/original/replace_a,coco/436848/original,coco/436848,original,replace_a,microwave,1,0.3140152394771576,0.27619460225105286,0.037820637226104736,True,False,False
+coco/436848/original/replace_b,coco/436848/original,coco/436848,original,replace_b,potted plant,1,0.3140152394771576,0.2921651005744934,0.021850138902664185,True,False,False
+coco/436848/horizontal_flip/replace_a,coco/436848/horizontal_flip,coco/436848,horizontal_flip,replace_a,microwave,1,0.3190448582172394,0.2858392000198364,0.033205658197402954,True,False,False
+coco/436848/horizontal_flip/replace_b,coco/436848/horizontal_flip,coco/436848,horizontal_flip,replace_b,potted plant,1,0.3190448582172394,0.2949647009372711,0.02408015727996826,True,False,False
+coco/336182/original/replace_a,coco/336182/original,coco/336182,original,replace_a,umbrella,1,0.22582896053791046,0.21612760424613953,0.009701356291770935,True,False,False
+coco/336182/original/replace_b,coco/336182/original,coco/336182,original,replace_b,cow,2,0.22582896053791046,0.1878652423620224,0.03796371817588806,True,False,False
+coco/336182/horizontal_flip/replace_a,coco/336182/horizontal_flip,coco/336182,horizontal_flip,replace_a,umbrella,1,0.2362038493156433,0.2253536880016327,0.01085016131401062,True,False,False
+coco/336182/horizontal_flip/replace_b,coco/336182/horizontal_flip,coco/336182,horizontal_flip,replace_b,cow,2,0.2362038493156433,0.1925417184829712,0.04366213083267212,True,False,False
+coco/145318/original/replace_a,coco/145318/original,coco/145318,original,replace_a,pizza,1,0.2531185448169708,0.25221529603004456,0.0009032487869262695,True,False,False
+coco/145318/original/replace_b,coco/145318/original,coco/145318,original,replace_b,scissors,1,0.2531185448169708,0.20881770551204681,0.04430083930492401,True,False,False
+coco/145318/horizontal_flip/replace_a,coco/145318/horizontal_flip,coco/145318,horizontal_flip,replace_a,pizza,1,0.2492220103740692,0.2519080936908722,-0.0026860833168029785,False,False,False
+coco/145318/horizontal_flip/replace_b,coco/145318/horizontal_flip,coco/145318,horizontal_flip,replace_b,scissors,1,0.2492220103740692,0.20439176261425018,0.04483024775981903,True,False,False
+coco/225867/original/replace_a,coco/225867/original,coco/225867,original,replace_a,bed,1,0.3271700441837311,0.2972317337989807,0.029938310384750366,True,False,False
+coco/225867/original/replace_b,coco/225867/original,coco/225867,original,replace_b,refrigerator,1,0.3271700441837311,0.3243255317211151,0.002844512462615967,True,False,False
+coco/225867/horizontal_flip/replace_a,coco/225867/horizontal_flip,coco/225867,horizontal_flip,replace_a,bed,1,0.3293845057487488,0.29878509044647217,0.03059941530227661,True,False,False
+coco/225867/horizontal_flip/replace_b,coco/225867/horizontal_flip,coco/225867,horizontal_flip,replace_b,refrigerator,1,0.3293845057487488,0.32594606280326843,0.0034384429454803467,True,False,False
+coco/569526/original/replace_a,coco/569526/original,coco/569526,original,replace_a,tennis racket,1,0.2728799879550934,0.2349211424589157,0.03795884549617767,True,False,False
+coco/569526/original/replace_b,coco/569526/original,coco/569526,original,replace_b,skateboard,1,0.2728799879550934,0.2724207043647766,0.00045928359031677246,True,False,False
+coco/569526/horizontal_flip/replace_a,coco/569526/horizontal_flip,coco/569526,horizontal_flip,replace_a,tennis racket,1,0.2850431203842163,0.24024730920791626,0.04479581117630005,True,False,False
+coco/569526/horizontal_flip/replace_b,coco/569526/horizontal_flip,coco/569526,horizontal_flip,replace_b,skateboard,1,0.2850431203842163,0.2828309237957001,0.0022121965885162354,True,False,False
+coco/135410/original/replace_a,coco/135410/original,coco/135410,original,replace_a,bus,2,0.2849700450897217,0.2904440760612488,-0.0054740309715271,False,False,False
+coco/135410/original/replace_b,coco/135410/original,coco/135410,original,replace_b,stop sign,1,0.2849700450897217,0.23932243883609772,0.04564760625362396,True,False,False
+coco/135410/horizontal_flip/replace_a,coco/135410/horizontal_flip,coco/135410,horizontal_flip,replace_a,bus,2,0.30744361877441406,0.3076966106891632,-0.0002529919147491455,False,False,False
+coco/135410/horizontal_flip/replace_b,coco/135410/horizontal_flip,coco/135410,horizontal_flip,replace_b,stop sign,1,0.30744361877441406,0.24727098643779755,0.060172632336616516,True,False,False
+coco/68814/original/replace_a,coco/68814/original,coco/68814,original,replace_a,cell phone,1,0.2807193398475647,0.2548311650753021,0.025888174772262573,True,False,False
+coco/68814/original/replace_b,coco/68814/original,coco/68814,original,replace_b,cell phone,1,0.2807193398475647,0.28834718465805054,-0.00762784481048584,False,False,False
+coco/68814/horizontal_flip/replace_a,coco/68814/horizontal_flip,coco/68814,horizontal_flip,replace_a,cell phone,1,0.2869904041290283,0.26167038083076477,0.02532002329826355,True,False,False
+coco/68814/horizontal_flip/replace_b,coco/68814/horizontal_flip,coco/68814,horizontal_flip,replace_b,cell phone,1,0.2869904041290283,0.2954182028770447,-0.008427798748016357,False,False,False
+coco/120388/original/replace_a,coco/120388/original,coco/120388,original,replace_a,laptop,1,0.2820409834384918,0.2547513544559479,0.027289628982543945,True,False,False
+coco/120388/original/replace_b,coco/120388/original,coco/120388,original,replace_b,bottle,1,0.2820409834384918,0.25786641240119934,0.02417457103729248,True,False,False
+coco/120388/horizontal_flip/replace_a,coco/120388/horizontal_flip,coco/120388,horizontal_flip,replace_a,laptop,1,0.28350281715393066,0.2541660964488983,0.02933672070503235,True,False,False
+coco/120388/horizontal_flip/replace_b,coco/120388/horizontal_flip,coco/120388,horizontal_flip,replace_b,bottle,1,0.28350281715393066,0.2610582411289215,0.022444576025009155,True,False,False
+coco/65969/original/replace_a,coco/65969/original,coco/65969,original,replace_a,fork,1,0.2500665485858917,0.25878286361694336,-0.008716315031051636,False,False,False
+coco/65969/original/replace_b,coco/65969/original,coco/65969,original,replace_b,teddy bear,1,0.2500665485858917,0.23043560981750488,0.01963093876838684,True,False,False
+coco/65969/horizontal_flip/replace_a,coco/65969/horizontal_flip,coco/65969,horizontal_flip,replace_a,fork,1,0.24549666047096252,0.24949395656585693,-0.003997296094894409,False,False,False
+coco/65969/horizontal_flip/replace_b,coco/65969/horizontal_flip,coco/65969,horizontal_flip,replace_b,teddy bear,1,0.24549666047096252,0.229685440659523,0.015811219811439514,True,False,False
+coco/489264/original/replace_a,coco/489264/original,coco/489264,original,replace_a,potted plant,1,0.28783318400382996,0.2709389328956604,0.016894251108169556,True,False,False
+coco/489264/original/replace_b,coco/489264/original,coco/489264,original,replace_b,remote,1,0.28783318400382996,0.2766966223716736,0.011136561632156372,True,False,False
+coco/489264/horizontal_flip/replace_a,coco/489264/horizontal_flip,coco/489264,horizontal_flip,replace_a,potted plant,1,0.273343563079834,0.24845969676971436,0.02488386631011963,True,False,False
+coco/489264/horizontal_flip/replace_b,coco/489264/horizontal_flip,coco/489264,horizontal_flip,replace_b,remote,1,0.273343563079834,0.26885855197906494,0.004485011100769043,True,False,False
+coco/233405/original/replace_a,coco/233405/original,coco/233405,original,replace_a,scissors,2,0.3218229115009308,0.2942453622817993,0.02757754921913147,True,False,False
+coco/233405/original/replace_b,coco/233405/original,coco/233405,original,replace_b,skateboard,1,0.3218229115009308,0.2593798339366913,0.0624430775642395,True,False,False
+coco/233405/horizontal_flip/replace_a,coco/233405/horizontal_flip,coco/233405,horizontal_flip,replace_a,scissors,2,0.32352715730667114,0.29458343982696533,0.02894371747970581,True,False,False
+coco/233405/horizontal_flip/replace_b,coco/233405/horizontal_flip,coco/233405,horizontal_flip,replace_b,skateboard,1,0.32352715730667114,0.2503126859664917,0.07321447134017944,True,False,False
+coco/276892/original/replace_a,coco/276892/original,coco/276892,original,replace_a,cow,1,0.30690693855285645,0.26636961102485657,0.04053732752799988,True,False,False
+coco/276892/original/replace_b,coco/276892/original,coco/276892,original,replace_b,horse,1,0.30690693855285645,0.29994478821754456,0.00696215033531189,True,False,False
+coco/276892/horizontal_flip/replace_a,coco/276892/horizontal_flip,coco/276892,horizontal_flip,replace_a,cow,1,0.30267804861068726,0.2618568539619446,0.040821194648742676,True,False,False
+coco/276892/horizontal_flip/replace_b,coco/276892/horizontal_flip,coco/276892,horizontal_flip,replace_b,horse,1,0.30267804861068726,0.29818016290664673,0.004497885704040527,True,False,False
+coco/370478/original/replace_a,coco/370478/original,coco/370478,original,replace_a,umbrella,1,0.36352065205574036,0.3085591495037079,0.05496150255203247,True,False,False
+coco/370478/original/replace_b,coco/370478/original,coco/370478,original,replace_b,mouse,1,0.36352065205574036,0.31389501690864563,0.04962563514709473,True,False,False
+coco/370478/horizontal_flip/replace_a,coco/370478/horizontal_flip,coco/370478,horizontal_flip,replace_a,umbrella,1,0.34342503547668457,0.2880226671695709,0.05540236830711365,True,False,False
+coco/370478/horizontal_flip/replace_b,coco/370478/horizontal_flip,coco/370478,horizontal_flip,replace_b,mouse,1,0.34342503547668457,0.30559027194976807,0.037834763526916504,True,False,False
+coco/265816/original/replace_a,coco/265816/original,coco/265816,original,replace_a,knife,2,0.24931700527668,0.23599767684936523,0.013319328427314758,True,False,False
+coco/265816/original/replace_b,coco/265816/original,coco/265816,original,replace_b,sheep,1,0.24931700527668,0.19877223670482635,0.05054476857185364,True,False,False
+coco/265816/horizontal_flip/replace_a,coco/265816/horizontal_flip,coco/265816,horizontal_flip,replace_a,knife,2,0.25072968006134033,0.2378017008304596,0.012927979230880737,True,False,False
+coco/265816/horizontal_flip/replace_b,coco/265816/horizontal_flip,coco/265816,horizontal_flip,replace_b,sheep,1,0.25072968006134033,0.20082959532737732,0.04990008473396301,True,False,False
+coco/465986/original/replace_a,coco/465986/original,coco/465986,original,replace_a,surfboard,1,0.3401249647140503,0.24482384324073792,0.09530112147331238,True,False,False
+coco/465986/original/replace_b,coco/465986/original,coco/465986,original,replace_b,toilet,2,0.3401249647140503,0.29781609773635864,0.04230886697769165,True,False,False
+coco/465986/horizontal_flip/replace_a,coco/465986/horizontal_flip,coco/465986,horizontal_flip,replace_a,surfboard,1,0.3405345678329468,0.25497201085090637,0.0855625569820404,True,False,False
+coco/465986/horizontal_flip/replace_b,coco/465986/horizontal_flip,coco/465986,horizontal_flip,replace_b,toilet,2,0.3405345678329468,0.30184319615364075,0.03869137167930603,True,False,False
+coco/261780/original/replace_a,coco/261780/original,coco/261780,original,replace_a,cell phone,1,0.27652186155319214,0.26346635818481445,0.013055503368377686,True,False,False
+coco/261780/original/replace_b,coco/261780/original,coco/261780,original,replace_b,cell phone,1,0.27652186155319214,0.27978888154029846,-0.0032670199871063232,False,False,False
+coco/261780/horizontal_flip/replace_a,coco/261780/horizontal_flip,coco/261780,horizontal_flip,replace_a,cell phone,1,0.28604602813720703,0.2683147192001343,0.017731308937072754,True,False,False
+coco/261780/horizontal_flip/replace_b,coco/261780/horizontal_flip,coco/261780,horizontal_flip,replace_b,cell phone,1,0.28604602813720703,0.2901138663291931,-0.004067838191986084,False,False,False
+coco/375232/original/replace_a,coco/375232/original,coco/375232,original,replace_a,bed,1,0.24295580387115479,0.22297033667564392,0.019985467195510864,True,False,False
+coco/375232/original/replace_b,coco/375232/original,coco/375232,original,replace_b,tie,1,0.24295580387115479,0.22224509716033936,0.02071070671081543,True,False,False
+coco/375232/horizontal_flip/replace_a,coco/375232/horizontal_flip,coco/375232,horizontal_flip,replace_a,bed,1,0.24069435894489288,0.22254210710525513,0.018152251839637756,True,False,False
+coco/375232/horizontal_flip/replace_b,coco/375232/horizontal_flip,coco/375232,horizontal_flip,replace_b,tie,1,0.24069435894489288,0.22142979502677917,0.01926456391811371,True,False,False
+coco/535770/original/replace_a,coco/535770/original,coco/535770,original,replace_a,knife,1,0.24170756340026855,0.25221186876296997,-0.010504305362701416,False,False,False
+coco/535770/original/replace_b,coco/535770/original,coco/535770,original,replace_b,tie,1,0.24170756340026855,0.19556134939193726,0.0461462140083313,True,False,False
+coco/535770/horizontal_flip/replace_a,coco/535770/horizontal_flip,coco/535770,horizontal_flip,replace_a,knife,1,0.2432616651058197,0.2571503520011902,-0.013888686895370483,False,False,False
+coco/535770/horizontal_flip/replace_b,coco/535770/horizontal_flip,coco/535770,horizontal_flip,replace_b,tie,1,0.2432616651058197,0.20255768299102783,0.04070398211479187,True,False,False
+coco/282768/original/replace_a,coco/282768/original,coco/282768,original,replace_a,banana,2,0.2975364923477173,0.25046077370643616,0.04707571864128113,True,False,False
+coco/282768/original/replace_b,coco/282768/original,coco/282768,original,replace_b,bear,1,0.2975364923477173,0.2557592988014221,0.041777193546295166,True,False,False
+coco/282768/horizontal_flip/replace_a,coco/282768/horizontal_flip,coco/282768,horizontal_flip,replace_a,banana,2,0.2992064952850342,0.24983112514019012,0.049375370144844055,True,False,False
+coco/282768/horizontal_flip/replace_b,coco/282768/horizontal_flip,coco/282768,horizontal_flip,replace_b,bear,1,0.2992064952850342,0.2599138021469116,0.03929269313812256,True,False,False
+coco/154705/original/replace_a,coco/154705/original,coco/154705,original,replace_a,remote,1,0.2809903621673584,0.23554544150829315,0.04544492065906525,True,False,False
+coco/154705/original/replace_b,coco/154705/original,coco/154705,original,replace_b,cell phone,1,0.2809903621673584,0.26936081051826477,0.011629551649093628,True,False,False
+coco/154705/horizontal_flip/replace_a,coco/154705/horizontal_flip,coco/154705,horizontal_flip,replace_a,remote,1,0.28624361753463745,0.24031789600849152,0.045925721526145935,True,False,False
+coco/154705/horizontal_flip/replace_b,coco/154705/horizontal_flip,coco/154705,horizontal_flip,replace_b,cell phone,1,0.28624361753463745,0.2706926763057709,0.015550941228866577,True,False,False
+coco/216277/original/replace_a,coco/216277/original,coco/216277,original,replace_a,cake,1,0.3328588902950287,0.24471032619476318,0.0881485641002655,True,False,False
+coco/216277/original/replace_b,coco/216277/original,coco/216277,original,replace_b,laptop,1,0.3328588902950287,0.3231426477432251,0.009716242551803589,True,False,False
+coco/216277/horizontal_flip/replace_a,coco/216277/horizontal_flip,coco/216277,horizontal_flip,replace_a,cake,1,0.341083824634552,0.25180038809776306,0.08928343653678894,True,False,False
+coco/216277/horizontal_flip/replace_b,coco/216277/horizontal_flip,coco/216277,horizontal_flip,replace_b,laptop,1,0.341083824634552,0.32629454135894775,0.014789283275604248,True,False,False
+coco/472246/original/replace_a,coco/472246/original,coco/472246,original,replace_a,hot dog,1,0.348364919424057,0.2722114622592926,0.0761534571647644,True,False,False
+coco/472246/original/replace_b,coco/472246/original,coco/472246,original,replace_b,donut,1,0.348364919424057,0.26425600051879883,0.08410891890525818,True,False,False
+coco/472246/horizontal_flip/replace_a,coco/472246/horizontal_flip,coco/472246,horizontal_flip,replace_a,hot dog,1,0.34355422854423523,0.27082008123397827,0.07273414731025696,True,False,False
+coco/472246/horizontal_flip/replace_b,coco/472246/horizontal_flip,coco/472246,horizontal_flip,replace_b,donut,1,0.34355422854423523,0.26384589076042175,0.07970833778381348,True,False,False
+coco/547212/original/replace_a,coco/547212/original,coco/547212,original,replace_a,laptop,1,0.25736844539642334,0.22360384464263916,0.03376460075378418,True,False,False
+coco/547212/original/replace_b,coco/547212/original,coco/547212,original,replace_b,bottle,1,0.25736844539642334,0.2801397442817688,-0.02277129888534546,False,False,False
+coco/547212/horizontal_flip/replace_a,coco/547212/horizontal_flip,coco/547212,horizontal_flip,replace_a,laptop,1,0.2513834834098816,0.22464437782764435,0.026739105582237244,True,False,False
+coco/547212/horizontal_flip/replace_b,coco/547212/horizontal_flip,coco/547212,horizontal_flip,replace_b,bottle,1,0.2513834834098816,0.26565322279930115,-0.014269739389419556,False,False,False
+coco/31442/original/replace_a,coco/31442/original,coco/31442,original,replace_a,tie,2,0.3063920736312866,0.2819663882255554,0.0244256854057312,True,False,False
+coco/31442/original/replace_b,coco/31442/original,coco/31442,original,replace_b,oven,1,0.3063920736312866,0.2996804118156433,0.0067116618156433105,True,False,False
+coco/31442/horizontal_flip/replace_a,coco/31442/horizontal_flip,coco/31442,horizontal_flip,replace_a,tie,2,0.29513490200042725,0.2704896628856659,0.024645239114761353,True,False,False
+coco/31442/horizontal_flip/replace_b,coco/31442/horizontal_flip,coco/31442,horizontal_flip,replace_b,oven,1,0.29513490200042725,0.2898273468017578,0.005307555198669434,True,False,False
+coco/159463/original/replace_a,coco/159463/original,coco/159463,original,replace_a,bird,1,0.3019537329673767,0.24116151034832,0.0607922226190567,True,False,False
+coco/159463/original/replace_b,coco/159463/original,coco/159463,original,replace_b,bed,1,0.3019537329673767,0.28025007247924805,0.021703660488128662,True,False,False
+coco/159463/horizontal_flip/replace_a,coco/159463/horizontal_flip,coco/159463,horizontal_flip,replace_a,bird,1,0.3051667809486389,0.23948346078395844,0.06568332016468048,True,False,False
+coco/159463/horizontal_flip/replace_b,coco/159463/horizontal_flip,coco/159463,horizontal_flip,replace_b,bed,1,0.3051667809486389,0.2726317346096039,0.032535046339035034,True,False,False
+coco/120099/original/replace_a,coco/120099/original,coco/120099,original,replace_a,remote,1,0.29960355162620544,0.3070259392261505,-0.007422387599945068,False,False,False
+coco/120099/original/replace_b,coco/120099/original,coco/120099,original,replace_b,bird,1,0.29960355162620544,0.24552936851978302,0.054074183106422424,True,False,False
+coco/120099/horizontal_flip/replace_a,coco/120099/horizontal_flip,coco/120099,horizontal_flip,replace_a,remote,1,0.28856751322746277,0.2971958518028259,-0.00862833857536316,False,False,False
+coco/120099/horizontal_flip/replace_b,coco/120099/horizontal_flip,coco/120099,horizontal_flip,replace_b,bird,1,0.28856751322746277,0.2367854118347168,0.05178210139274597,True,False,False
+coco/572042/original/replace_a,coco/572042/original,coco/572042,original,replace_a,cow,1,0.3626102805137634,0.292060911655426,0.0705493688583374,True,False,False
+coco/572042/original/replace_b,coco/572042/original,coco/572042,original,replace_b,handbag,1,0.3626102805137634,0.29761385917663574,0.06499642133712769,True,False,False
+coco/572042/horizontal_flip/replace_a,coco/572042/horizontal_flip,coco/572042,horizontal_flip,replace_a,cow,1,0.35644906759262085,0.28730130195617676,0.06914776563644409,True,False,False
+coco/572042/horizontal_flip/replace_b,coco/572042/horizontal_flip,coco/572042,horizontal_flip,replace_b,handbag,1,0.35644906759262085,0.29326972365379333,0.06317934393882751,True,False,False
+coco/459382/original/replace_a,coco/459382/original,coco/459382,original,replace_a,bowl,1,0.32125312089920044,0.3187417984008789,0.002511322498321533,True,False,False
+coco/459382/original/replace_b,coco/459382/original,coco/459382,original,replace_b,pizza,1,0.32125312089920044,0.24231091141700745,0.078942209482193,True,False,False
+coco/459382/horizontal_flip/replace_a,coco/459382/horizontal_flip,coco/459382,horizontal_flip,replace_a,bowl,1,0.3218000531196594,0.32349157333374023,-0.0016915202140808105,False,False,False
+coco/459382/horizontal_flip/replace_b,coco/459382/horizontal_flip,coco/459382,horizontal_flip,replace_b,pizza,1,0.3218000531196594,0.2305200845003128,0.09127996861934662,True,False,False
+coco/571313/original/replace_a,coco/571313/original,coco/571313,original,replace_a,cell phone,1,0.2066754698753357,0.21841374039649963,-0.01173827052116394,False,False,False
+coco/571313/original/replace_b,coco/571313/original,coco/571313,original,replace_b,couch,1,0.2066754698753357,0.20202693343162537,0.004648536443710327,True,False,False
+coco/571313/horizontal_flip/replace_a,coco/571313/horizontal_flip,coco/571313,horizontal_flip,replace_a,cell phone,1,0.20587116479873657,0.21090665459632874,-0.005035489797592163,False,False,False
+coco/571313/horizontal_flip/replace_b,coco/571313/horizontal_flip,coco/571313,horizontal_flip,replace_b,couch,1,0.20587116479873657,0.20698459446430206,-0.0011134296655654907,False,False,False
+coco/187933/original/replace_a,coco/187933/original,coco/187933,original,replace_a,dining table,1,0.271488219499588,0.2682740092277527,0.003214210271835327,True,False,False
+coco/187933/original/replace_b,coco/187933/original,coco/187933,original,replace_b,oven,1,0.271488219499588,0.2542203962802887,0.017267823219299316,True,False,False
+coco/187933/horizontal_flip/replace_a,coco/187933/horizontal_flip,coco/187933,horizontal_flip,replace_a,dining table,1,0.2653704583644867,0.2645731270313263,0.0007973313331604004,True,False,False
+coco/187933/horizontal_flip/replace_b,coco/187933/horizontal_flip,coco/187933,horizontal_flip,replace_b,oven,1,0.2653704583644867,0.24726448953151703,0.018105968832969666,True,False,False
+coco/188421/original/replace_a,coco/188421/original,coco/188421,original,replace_a,dining table,1,0.28745555877685547,0.18817585706710815,0.09927970170974731,True,False,False
+coco/188421/original/replace_b,coco/188421/original,coco/188421,original,replace_b,book,1,0.28745555877685547,0.2746376395225525,0.012817919254302979,True,False,False
+coco/188421/horizontal_flip/replace_a,coco/188421/horizontal_flip,coco/188421,horizontal_flip,replace_a,dining table,1,0.28614479303359985,0.1855171024799347,0.10062769055366516,True,False,False
+coco/188421/horizontal_flip/replace_b,coco/188421/horizontal_flip,coco/188421,horizontal_flip,replace_b,book,1,0.28614479303359985,0.2764599919319153,0.00968480110168457,True,False,False
+coco/216437/original/replace_a,coco/216437/original,coco/216437,original,replace_a,fork,1,0.2840249240398407,0.29092663526535034,-0.0069017112255096436,False,False,False
+coco/216437/original/replace_b,coco/216437/original,coco/216437,original,replace_b,remote,1,0.2840249240398407,0.25207406282424927,0.03195086121559143,True,False,False
+coco/216437/horizontal_flip/replace_a,coco/216437/horizontal_flip,coco/216437,horizontal_flip,replace_a,fork,1,0.29078352451324463,0.29011961817741394,0.0006639063358306885,True,False,False
+coco/216437/horizontal_flip/replace_b,coco/216437/horizontal_flip,coco/216437,horizontal_flip,replace_b,remote,1,0.29078352451324463,0.266372948884964,0.02441057562828064,True,False,False
+coco/141509/original/replace_a,coco/141509/original,coco/141509,original,replace_a,scissors,1,0.2760242521762848,0.2709040641784668,0.005120187997817993,True,False,False
+coco/141509/original/replace_b,coco/141509/original,coco/141509,original,replace_b,handbag,1,0.2760242521762848,0.21045109629631042,0.06557315587997437,True,False,False
+coco/141509/horizontal_flip/replace_a,coco/141509/horizontal_flip,coco/141509,horizontal_flip,replace_a,scissors,1,0.2810765504837036,0.27112069725990295,0.00995585322380066,True,False,False
+coco/141509/horizontal_flip/replace_b,coco/141509/horizontal_flip,coco/141509,horizontal_flip,replace_b,handbag,1,0.2810765504837036,0.222050279378891,0.05902627110481262,True,False,False
+coco/369259/original/replace_a,coco/369259/original,coco/369259,original,replace_a,sandwich,1,0.21030224859714508,0.2130831629037857,-0.002780914306640625,False,False,False
+coco/369259/original/replace_b,coco/369259/original,coco/369259,original,replace_b,oven,1,0.21030224859714508,0.23127487301826477,-0.02097262442111969,False,False,False
+coco/369259/horizontal_flip/replace_a,coco/369259/horizontal_flip,coco/369259,horizontal_flip,replace_a,sandwich,1,0.20760874450206757,0.2109515517950058,-0.0033428072929382324,False,False,False
+coco/369259/horizontal_flip/replace_b,coco/369259/horizontal_flip,coco/369259,horizontal_flip,replace_b,oven,1,0.20760874450206757,0.22551760077476501,-0.01790885627269745,False,False,False
+coco/456991/original/replace_a,coco/456991/original,coco/456991,original,replace_a,bowl,1,0.2899862825870514,0.2616531252861023,0.028333157300949097,True,False,False
+coco/456991/original/replace_b,coco/456991/original,coco/456991,original,replace_b,bowl,1,0.2899862825870514,0.25521400570869446,0.034772276878356934,True,False,False
+coco/456991/horizontal_flip/replace_a,coco/456991/horizontal_flip,coco/456991,horizontal_flip,replace_a,bowl,1,0.2889711558818817,0.2589038014411926,0.030067354440689087,True,False,False
+coco/456991/horizontal_flip/replace_b,coco/456991/horizontal_flip,coco/456991,horizontal_flip,replace_b,bowl,1,0.2889711558818817,0.24827426671981812,0.0406968891620636,True,False,False
+coco/85803/original/replace_a,coco/85803/original,coco/85803,original,replace_a,truck,2,0.30151546001434326,0.24565136432647705,0.05586409568786621,True,False,False
+coco/85803/original/replace_b,coco/85803/original,coco/85803,original,replace_b,hair drier,2,0.30151546001434326,0.2906801402568817,0.010835319757461548,True,False,False
+coco/85803/horizontal_flip/replace_a,coco/85803/horizontal_flip,coco/85803,horizontal_flip,replace_a,truck,2,0.3047686517238617,0.23886187374591827,0.06590677797794342,True,False,False
+coco/85803/horizontal_flip/replace_b,coco/85803/horizontal_flip,coco/85803,horizontal_flip,replace_b,hair drier,2,0.3047686517238617,0.3009658455848694,0.0038028061389923096,True,False,False
+coco/553129/original/replace_a,coco/553129/original,coco/553129,original,replace_a,toaster,1,0.3126799762248993,0.28710469603538513,0.02557528018951416,True,False,False
+coco/553129/original/replace_b,coco/553129/original,coco/553129,original,replace_b,toaster,1,0.3126799762248993,0.2858295142650604,0.026850461959838867,True,False,False
+coco/553129/horizontal_flip/replace_a,coco/553129/horizontal_flip,coco/553129,horizontal_flip,replace_a,toaster,1,0.309069961309433,0.2869320511817932,0.02213791012763977,True,False,False
+coco/553129/horizontal_flip/replace_b,coco/553129/horizontal_flip,coco/553129,horizontal_flip,replace_b,toaster,1,0.309069961309433,0.2813322842121124,0.027737677097320557,True,False,False
+coco/296802/original/replace_a,coco/296802/original,coco/296802,original,replace_a,wine glass,1,0.2289753258228302,0.206705242395401,0.0222700834274292,True,False,False
+coco/296802/original/replace_b,coco/296802/original,coco/296802,original,replace_b,spoon,1,0.2289753258228302,0.21632790565490723,0.012647420167922974,True,False,False
+coco/296802/horizontal_flip/replace_a,coco/296802/horizontal_flip,coco/296802,horizontal_flip,replace_a,wine glass,1,0.22981563210487366,0.20371267199516296,0.026102960109710693,True,False,False
+coco/296802/horizontal_flip/replace_b,coco/296802/horizontal_flip,coco/296802,horizontal_flip,replace_b,spoon,1,0.22981563210487366,0.21683041751384735,0.012985214591026306,True,False,False

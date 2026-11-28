@@ -1,0 +1,123 @@
+{
+  "primary": {
+    "n": 392,
+    "correct": 339,
+    "accuracy_percent": 86.4795918367347,
+    "ci95_percent": [
+      81.37755102040816,
+      91.07142857142857
+    ],
+    "n_sources": 98,
+    "n_images": 196,
+    "exact_ties": 0,
+    "near_ties": 0,
+    "mean_gap": 0.028124636647348503
+  },
+  "by_role": {
+    "replace_a": {
+      "n": 196,
+      "correct": 163,
+      "accuracy_percent": 83.16326530612245,
+      "ci95_percent": [
+        76.0204081632653,
+        89.79591836734694
+      ]
+    },
+    "replace_b": {
+      "n": 196,
+      "correct": 176,
+      "accuracy_percent": 89.79591836734694,
+      "ci95_percent": [
+        83.6734693877551,
+        95.40816326530613
+      ]
+    }
+  },
+  "by_variant": {
+    "horizontal_flip": {
+      "n": 196,
+      "correct": 169,
+      "accuracy_percent": 86.22448979591837,
+      "ci95_percent": [
+        80.61224489795919,
+        91.3265306122449
+      ]
+    },
+    "original": {
+      "n": 196,
+      "correct": 170,
+      "accuracy_percent": 86.73469387755102,
+      "ci95_percent": [
+        81.63265306122449,
+        91.3265306122449
+      ]
+    }
+  },
+  "by_foil_tier": {
+    "1": {
+      "n": 346,
+      "correct": 295,
+      "accuracy_percent": 85.26011560693641,
+      "ci95_percent": [
+        79.82954545454545,
+        90.29528743315508
+      ]
+    },
+    "2": {
+      "n": 46,
+      "correct": 44,
+      "accuracy_percent": 95.65217391304348,
+      "ci95_percent": [
+        86.36363636363636,
+        100.0
+      ]
+    }
+  },
+  "both_roles_correct_per_image": {
+    "n": 196,
+    "correct": 149,
+    "accuracy_percent": 76.0204081632653,
+    "ci95_percent": [
+      67.85714285714286,
+      83.6734693877551
+    ]
+  },
+  "all_four_correct_per_source": {
+    "n": 98,
+    "correct": 72,
+    "accuracy_percent": 73.46938775510205,
+    "ci95_percent": [
+      65.3061224489796,
+      81.63265306122449
+    ]
+  },
+  "relation_crosstab_descriptive": {
+    "note": "Holistic T2/o0 two-way relation vs recognition on the same images. Subgroups are selected by model behaviour: descriptive only.",
+    "relation_accuracy_same_images": {
+      "n": 196,
+      "correct": 101,
+      "accuracy_percent": 51.53061224489796,
+      "ci95_percent": [
+        49.48979591836735,
+        53.57142857142857
+      ]
+    },
+    "recognition_both_correct_and_relation_correct": 76,
+    "recognition_both_correct_and_relation_wrong": 73,
+    "recognition_not_both_and_relation_correct": 25,
+    "recognition_not_both_and_relation_wrong": 22,
+    "relation_accuracy_given_recognition_both_correct_percent": 51.006711409395976,
+    "images_with_recognition_both_correct": 149
+  },
+  "coverage": {
+    "cohort_sources": 98,
+    "analysed_sources": 98,
+    "run_sources": 98,
+    "excluded_sources": []
+  },
+  "holistic_parity": {
+    "trials": 200,
+    "max_abs_diff": 2.086162567138672e-07,
+    "tolerance": 1e-06
+  }
+}

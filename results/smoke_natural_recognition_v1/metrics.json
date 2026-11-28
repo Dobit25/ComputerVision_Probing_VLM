@@ -1,0 +1,123 @@
+{
+  "primary": {
+    "n": 32,
+    "correct": 27,
+    "accuracy_percent": 84.375,
+    "ci95_percent": [
+      62.5,
+      100.0
+    ],
+    "n_sources": 8,
+    "n_images": 16,
+    "exact_ties": 0,
+    "near_ties": 0,
+    "mean_gap": 0.02414853824302554
+  },
+  "by_role": {
+    "replace_a": {
+      "n": 16,
+      "correct": 15,
+      "accuracy_percent": 93.75,
+      "ci95_percent": [
+        81.25,
+        100.0
+      ]
+    },
+    "replace_b": {
+      "n": 16,
+      "correct": 12,
+      "accuracy_percent": 75.0,
+      "ci95_percent": [
+        49.687500000000014,
+        100.0
+      ]
+    }
+  },
+  "by_variant": {
+    "horizontal_flip": {
+      "n": 16,
+      "correct": 13,
+      "accuracy_percent": 81.25,
+      "ci95_percent": [
+        56.25,
+        100.0
+      ]
+    },
+    "original": {
+      "n": 16,
+      "correct": 14,
+      "accuracy_percent": 87.5,
+      "ci95_percent": [
+        74.84375000000001,
+        100.0
+      ]
+    }
+  },
+  "by_foil_tier": {
+    "1": {
+      "n": 28,
+      "correct": 23,
+      "accuracy_percent": 82.14285714285714,
+      "ci95_percent": [
+        59.984375,
+        100.0
+      ]
+    },
+    "2": {
+      "n": 4,
+      "correct": 4,
+      "accuracy_percent": 100.0,
+      "ci95_percent": [
+        100.0,
+        100.0
+      ]
+    }
+  },
+  "both_roles_correct_per_image": {
+    "n": 16,
+    "correct": 12,
+    "accuracy_percent": 75.0,
+    "ci95_percent": [
+      49.687500000000014,
+      100.0
+    ]
+  },
+  "all_four_correct_per_source": {
+    "n": 8,
+    "correct": 6,
+    "accuracy_percent": 75.0,
+    "ci95_percent": [
+      49.687500000000014,
+      100.0
+    ]
+  },
+  "relation_crosstab_descriptive": {
+    "note": "Holistic T2/o0 two-way relation vs recognition on the same images. Subgroups are selected by model behaviour: descriptive only.",
+    "relation_accuracy_same_images": {
+      "n": 16,
+      "correct": 8,
+      "accuracy_percent": 50.0,
+      "ci95_percent": [
+        50.0,
+        50.0
+      ]
+    },
+    "recognition_both_correct_and_relation_correct": 6,
+    "recognition_both_correct_and_relation_wrong": 6,
+    "recognition_not_both_and_relation_correct": 2,
+    "recognition_not_both_and_relation_wrong": 2,
+    "relation_accuracy_given_recognition_both_correct_percent": 50.0,
+    "images_with_recognition_both_correct": 12
+  },
+  "coverage": {
+    "cohort_sources": 98,
+    "analysed_sources": 98,
+    "run_sources": 8,
+    "excluded_sources": []
+  },
+  "holistic_parity": {
+    "trials": 200,
+    "max_abs_diff": 2.086162567138672e-07,
+    "tolerance": 1e-06
+  }
+}
