@@ -1,0 +1,283 @@
+% Final reference list for Topic 14 (WS4, 1124.md). Verified 2026-11-28.
+% Sources: arXiv API (authors, title, arXiv ID), Crossref (DOI, venue, pages),
+% ACL Anthology .bib (ACL/LREC entries), Semantic Scholar (venue cross-check),
+% and the official CIFAR page. Each entry notes how it was checked.
+% Formatting rule of the report: hyphens only; page ranges use "--" only inside BibTeX.
+
+% ---------------------------------------------------------------- zero-shot and prompts
+
+% verified: arXiv 2103.00020 (12 authors); venue/pages: Semantic Scholar (ICML 2021, pp. 8748-8763), PMLR vol. 139
+@inproceedings{radford2021clip,
+  title     = {Learning Transferable Visual Models From Natural Language Supervision},
+  author    = {Radford, Alec and Kim, Jong Wook and Hallacy, Chris and Ramesh, Aditya and Goh, Gabriel and Agarwal, Sandhini and Sastry, Girish and Askell, Amanda and Mishkin, Pamela and Clark, Jack and Krueger, Gretchen and Sutskever, Ilya},
+  booktitle = {Proceedings of the 38th International Conference on Machine Learning (ICML)},
+  series    = {Proceedings of Machine Learning Research},
+  volume    = {139},
+  pages     = {8748--8763},
+  year      = {2021},
+  eprint    = {2103.00020},
+  archivePrefix = {arXiv}
+}
+
+% verified: Crossref DOI 10.1007/s11263-022-01653-1 (IJCV 130(9):2337-2348, 2022); arXiv 2109.01134
+@article{zhou2022coop,
+  title   = {Learning to Prompt for Vision-Language Models},
+  author  = {Zhou, Kaiyang and Yang, Jingkang and Loy, Chen Change and Liu, Ziwei},
+  journal = {International Journal of Computer Vision},
+  volume  = {130},
+  number  = {9},
+  pages   = {2337--2348},
+  year    = {2022},
+  doi     = {10.1007/s11263-022-01653-1}
+}
+
+% ---------------------------------------------------------------- compositionality, counting, spatial, negation
+
+% verified: arXiv 2210.01936 (comment: ICLR 2023 Oral); Semantic Scholar venue ICLR
+@inproceedings{yuksekgonul2023aro,
+  title     = {When and Why Vision-Language Models Behave like Bags-of-Words, and What to Do About It?},
+  author    = {Yuksekgonul, Mert and Bianchi, Federico and Kalluri, Pratyusha and Jurafsky, Dan and Zou, James},
+  booktitle = {International Conference on Learning Representations (ICLR)},
+  year      = {2023},
+  eprint    = {2210.01936},
+  archivePrefix = {arXiv}
+}
+
+% verified: Crossref DOI 10.1109/CVPR52688.2022.00517 (CVPR 2022, pp. 5228-5238); arXiv 2204.03162
+@inproceedings{thrush2022winoground,
+  title     = {Winoground: Probing Vision and Language Models for Visio-Linguistic Compositionality},
+  author    = {Thrush, Tristan and Jiang, Ryan and Bartolo, Max and Singh, Amanpreet and Williams, Adina and Kiela, Douwe and Ross, Candace},
+  booktitle = {Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)},
+  pages     = {5228--5238},
+  year      = {2022},
+  doi       = {10.1109/CVPR52688.2022.00517}
+}
+
+% verified: arXiv 2306.14610; Semantic Scholar venue NeurIPS 2023 (Datasets and Benchmarks Track); no DOI
+@inproceedings{hsieh2023sugarcrepe,
+  title     = {{SugarCrepe}: Fixing Hackable Benchmarks for Vision-Language Compositionality},
+  author    = {Hsieh, Cheng-Yu and Zhang, Jieyu and Ma, Zixian and Kembhavi, Aniruddha and Krishna, Ranjay},
+  booktitle = {Advances in Neural Information Processing Systems (NeurIPS), Datasets and Benchmarks Track},
+  year      = {2023},
+  eprint    = {2306.14610},
+  archivePrefix = {arXiv}
+}
+
+% verified: Crossref DOI 10.18653/v1/2023.emnlp-main.568 (EMNLP 2023, pp. 9161-9175); arXiv 2310.19785
+@inproceedings{kamath2023whatsup,
+  title     = {What's ``Up'' with Vision-Language Models? Investigating Their Struggle with Spatial Reasoning},
+  author    = {Kamath, Amita and Hessel, Jack and Chang, Kai-Wei},
+  booktitle = {Proceedings of the 2023 Conference on Empirical Methods in Natural Language Processing (EMNLP)},
+  pages     = {9161--9175},
+  year      = {2023},
+  doi       = {10.18653/v1/2023.emnlp-main.568}
+}
+
+% verified: Crossref DOI 10.1162/tacl_a_00566 (TACL 11:635-651, 2023); ACL Anthology 2023.tacl-1.37; arXiv 2205.00363
+@article{liu2023vsr,
+  title   = {Visual Spatial Reasoning},
+  author  = {Liu, Fangyu and Emerson, Guy and Collier, Nigel},
+  journal = {Transactions of the Association for Computational Linguistics},
+  volume  = {11},
+  pages   = {635--651},
+  year    = {2023},
+  doi     = {10.1162/tacl_a_00566}
+}
+
+% verified: Crossref DOI 10.1109/ICCV51070.2023.00294 (ICCV 2023, pp. 3147-3157); arXiv 2302.12066
+@inproceedings{paiss2023countbench,
+  title     = {Teaching {CLIP} to Count to Ten},
+  author    = {Paiss, Roni and Ephrat, Ariel and Tov, Omer and Zada, Shiran and Mosseri, Inbar and Irani, Michal and Dekel, Tali},
+  booktitle = {Proceedings of the IEEE/CVF International Conference on Computer Vision (ICCV)},
+  pages     = {3147--3157},
+  year      = {2023},
+  doi       = {10.1109/ICCV51070.2023.00294}
+}
+
+% verified: Crossref DOI 10.1109/CVPR52734.2025.02757 (CVPR 2025, pp. 29612-29622); arXiv 2501.09425
+@inproceedings{alhamoud2025negbench,
+  title     = {Vision-Language Models Do Not Understand Negation},
+  author    = {Alhamoud, Kumail and Alshammari, Shaden and Tian, Yonglong and Li, Guohao and Torr, Philip and Kim, Yoon and Ghassemi, Marzyeh},
+  booktitle = {Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)},
+  pages     = {29612--29622},
+  year      = {2025},
+  doi       = {10.1109/CVPR52734.2025.02757}
+}
+
+% ---------------------------------------------------------------- region-based inference
+
+% verified: ACL Anthology 2022.acl-long.357 .bib; Crossref DOI 10.18653/v1/2022.acl-long.357 (pp. 5198-5215); arXiv 2204.05991
+@inproceedings{subramanian2022reclip,
+  title     = {{ReCLIP}: A Strong Zero-Shot Baseline for Referring Expression Comprehension},
+  author    = {Subramanian, Sanjay and Merrill, William and Darrell, Trevor and Gardner, Matt and Singh, Sameer and Rohrbach, Anna},
+  booktitle = {Proceedings of the 60th Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)},
+  pages     = {5198--5215},
+  year      = {2022},
+  doi       = {10.18653/v1/2022.acl-long.357}
+}
+
+% verified: Crossref DOI 10.1109/CVPR52688.2022.01629 (CVPR 2022, pp. 16772-16782); arXiv 2112.09106
+@inproceedings{zhong2022regionclip,
+  title     = {{RegionCLIP}: Region-based Language-Image Pretraining},
+  author    = {Zhong, Yiwu and Yang, Jianwei and Zhang, Pengchuan and Li, Chunyuan and Codella, Noel and Li, Liunian Harold and Zhou, Luowei and Dai, Xiyang and Yuan, Lu and Li, Yin and Gao, Jianfeng},
+  booktitle = {Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)},
+  pages     = {16772--16782},
+  year      = {2022},
+  doi       = {10.1109/CVPR52688.2022.01629}
+}
+
+% ---------------------------------------------------------------- multilingual and Vietnamese
+
+% verified: ACL Anthology 2022.lrec-1.739 .bib (LREC 2022, Marseille, pp. 6848-6854); no DOI
+@inproceedings{carlsson2022mclip,
+  title     = {Cross-lingual and Multilingual {CLIP}},
+  author    = {Carlsson, Fredrik and Eisen, Philipp and Rekathati, Faton and Sahlgren, Magnus},
+  booktitle = {Proceedings of the Thirteenth Language Resources and Evaluation Conference (LREC)},
+  pages     = {6848--6854},
+  address   = {Marseille, France},
+  year      = {2022},
+  url       = {https://aclanthology.org/2022.lrec-1.739/}
+}
+
+% verified: ACL Anthology 2023.findings-acl.552 .bib and Crossref DOI 10.18653/v1/2023.findings-acl.552 (pp. 8666-8682)
+% note: 1124.md listed AltCLIP as EMNLP 2023; the official record is Findings of ACL 2023 (Toronto).
+% note: the published version has 5 authors; the arXiv version (2211.06679) also lists Fulong Ye.
+@inproceedings{chen2023altclip,
+  title     = {{AltCLIP}: Altering the Language Encoder in {CLIP} for Extended Language Capabilities},
+  author    = {Chen, Zhongzhi and Liu, Guang and Zhang, Bo-Wen and Yang, Qinghong and Wu, Ledell},
+  booktitle = {Findings of the Association for Computational Linguistics: ACL 2023},
+  pages     = {8666--8682},
+  year      = {2023},
+  doi       = {10.18653/v1/2023.findings-acl.552}
+}
+
+% verified: Crossref DOI 10.1109/ICCV51070.2023.01100 (ICCV 2023, pp. 11941-11952); arXiv 2303.15343
+@inproceedings{zhai2023siglip,
+  title     = {Sigmoid Loss for Language Image Pre-Training},
+  author    = {Zhai, Xiaohua and Mustafa, Basil and Kolesnikov, Alexander and Beyer, Lucas},
+  booktitle = {Proceedings of the IEEE/CVF International Conference on Computer Vision (ICCV)},
+  pages     = {11941--11952},
+  year      = {2023},
+  doi       = {10.1109/ICCV51070.2023.01100}
+}
+
+% verified: arXiv 2602.22678 (3 authors; comment: preprint submitted to Expert Systems with Applications); not yet peer reviewed
+@misc{tran2026viclipot,
+  title         = {{ViCLIP-OT}: The First Foundation Vision-Language Model for {Vietnamese} Image-Text Retrieval with Optimal Transport},
+  author        = {Tran, Quoc-Khang and Nguyen, Minh-Thien and Pham, Nguyen-Khang},
+  year          = {2026},
+  eprint        = {2602.22678},
+  archivePrefix = {arXiv},
+  note          = {Preprint}
+}
+
+% verified: Crossref DOI 10.18653/v1/P16-1162 (ACL 2016, pp. 1715-1725); arXiv 1508.07909
+@inproceedings{sennrich2016bpe,
+  title     = {Neural Machine Translation of Rare Words with Subword Units},
+  author    = {Sennrich, Rico and Haddow, Barry and Birch, Alexandra},
+  booktitle = {Proceedings of the 54th Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)},
+  pages     = {1715--1725},
+  year      = {2016},
+  doi       = {10.18653/v1/P16-1162}
+}
+
+% ---------------------------------------------------------------- datasets
+
+% verified: official page https://www.cs.toronto.edu/~kriz/cifar.html links learning-features-2009-TR.pdf; technical report, no DOI
+@techreport{krizhevsky2009cifar,
+  title       = {Learning Multiple Layers of Features from Tiny Images},
+  author      = {Krizhevsky, Alex},
+  institution = {University of Toronto},
+  year        = {2009},
+  url         = {https://www.cs.toronto.edu/~kriz/learning-features-2009-TR.pdf}
+}
+
+% verified: Crossref DOI 10.1109/ICVGIP.2008.47 (ICVGIP 2008, pp. 722-729)
+@inproceedings{nilsback2008flowers,
+  title     = {Automated Flower Classification over a Large Number of Classes},
+  author    = {Nilsback, Maria-Elena and Zisserman, Andrew},
+  booktitle = {Sixth Indian Conference on Computer Vision, Graphics and Image Processing (ICVGIP)},
+  pages     = {722--729},
+  year      = {2008},
+  doi       = {10.1109/ICVGIP.2008.47}
+}
+
+% verified: Crossref DOI 10.1109/CVPR.2012.6248092 (CVPR 2012, pp. 3498-3505); not the ICCV 2011 paper "The truth about cats and dogs"
+@inproceedings{parkhi2012pets,
+  title     = {Cats and Dogs},
+  author    = {Parkhi, Omkar M. and Vedaldi, Andrea and Zisserman, Andrew and Jawahar, C. V.},
+  booktitle = {Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition (CVPR)},
+  pages     = {3498--3505},
+  year      = {2012},
+  doi       = {10.1109/CVPR.2012.6248092}
+}
+
+% verified: Crossref DOI 10.1109/CVPR.2014.461 (CVPR 2014, pp. 3606-3613); arXiv 1311.3618
+@inproceedings{cimpoi2014dtd,
+  title     = {Describing Textures in the Wild},
+  author    = {Cimpoi, Mircea and Maji, Subhransu and Kokkinos, Iasonas and Mohamed, Sammy and Vedaldi, Andrea},
+  booktitle = {Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition (CVPR)},
+  pages     = {3606--3613},
+  year      = {2014},
+  doi       = {10.1109/CVPR.2014.461}
+}
+
+% verified: Crossref DOI 10.1007/978-3-319-10599-4_29 (ECCV 2014, LNCS, pp. 446-461)
+@inproceedings{bossard2014food,
+  title     = {Food-101 - Mining Discriminative Components with Random Forests},
+  author    = {Bossard, Lukas and Guillaumin, Matthieu and Van Gool, Luc},
+  booktitle = {Computer Vision - ECCV 2014},
+  series    = {Lecture Notes in Computer Science},
+  pages     = {446--461},
+  year      = {2014},
+  doi       = {10.1007/978-3-319-10599-4_29}
+}
+
+% verified: Crossref DOI 10.1007/978-3-319-10602-1_48 (ECCV 2014, LNCS, pp. 740-755); arXiv 1405.0312 (10 authors)
+@inproceedings{lin2014coco,
+  title     = {Microsoft {COCO}: Common Objects in Context},
+  author    = {Lin, Tsung-Yi and Maire, Michael and Belongie, Serge and Hays, James and Perona, Pietro and Ramanan, Deva and Doll{\'a}r, Piotr and Zitnick, C. Lawrence},
+  booktitle = {Computer Vision - ECCV 2014},
+  series    = {Lecture Notes in Computer Science},
+  pages     = {740--755},
+  year      = {2014},
+  doi       = {10.1007/978-3-319-10602-1_48}
+}
+
+% ---------------------------------------------------------------- statistics
+
+% verified: Crossref DOI 10.1214/aos/1176344552 (Annals of Statistics 7(1):1-26, 1979)
+@article{efron1979bootstrap,
+  title   = {Bootstrap Methods: Another Look at the Jackknife},
+  author  = {Efron, Bradley},
+  journal = {The Annals of Statistics},
+  volume  = {7},
+  number  = {1},
+  pages   = {1--26},
+  year    = {1979},
+  doi     = {10.1214/aos/1176344552}
+}
+
+% verified: Crossref DOI 10.1080/01621459.1927.10502953 (JASA 22(158):209-212, 1927)
+@article{wilson1927interval,
+  title   = {Probable Inference, the Law of Succession, and Statistical Inference},
+  author  = {Wilson, Edwin B.},
+  journal = {Journal of the American Statistical Association},
+  volume  = {22},
+  number  = {158},
+  pages   = {209--212},
+  year    = {1927},
+  doi     = {10.1080/01621459.1927.10502953}
+}
+
+% verified: Crossref DOI 10.1177/001316446002000104 (Educational and Psychological Measurement 20(1):37-46, 1960)
+@article{cohen1960kappa,
+  title   = {A Coefficient of Agreement for Nominal Scales},
+  author  = {Cohen, Jacob},
+  journal = {Educational and Psychological Measurement},
+  volume  = {20},
+  number  = {1},
+  pages   = {37--46},
+  year    = {1960},
+  doi     = {10.1177/001316446002000104}
+}

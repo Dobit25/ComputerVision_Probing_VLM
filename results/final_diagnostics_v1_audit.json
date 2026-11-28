@@ -1,0 +1,22 @@
+{
+  "verified": true,
+  "new_inference": false,
+  "cross_checks": {
+    "counting_confusion": true,
+    "counting_correct": true,
+    "counting_mae": true,
+    "counting_signed": true,
+    "counting_conditions": true,
+    "negation_correct": true,
+    "negation_templates": true,
+    "negation_strata": true,
+    "counting_control_correct": true,
+    "negation_consistency": true,
+    "negation_affirmative_rate": true
+  },
+  "denominators": {
+    "counting": 1080,
+    "negation": 1440,
+    "vietnamese": 10000
+  }
+}

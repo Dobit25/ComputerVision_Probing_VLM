@@ -1,0 +1,23 @@
+{
+  "study": "final_diagnostics_v1",
+  "status": "completed",
+  "new_inference": false,
+  "created_at_utc": "2026-11-28T08:10:26.124338+00:00",
+  "code_sha256": "a60cf352352c9695afb4c14fb7274339f377f00a560db01b66b592b0825f7e0e",
+  "input_sha256": {
+    "results/full_probing_clip_b32_v1/predictions.jsonl": "f0f3daf364ee01800e3a1d14bb8d1ba58b24d2c63c7150f5b458a01e781918a1",
+    "results/full_probing_clip_b32_v1/metrics.json": "07971fe51355da6d9ad3334248efd74dd14df92f176a3b96a69381eed70c6587",
+    "results/evidence_matrix_1117_v1/metrics.json": "881a7e9d52c7b5c2aece21637ebce48b57af0c61f07a2d2db8dfe77f6f66c936",
+    "results/full_vietnamese_cifar100_v1/scores.npz": "2e72b7b677cd4125001783bd2ad5ed86c342134fc3d78cbffc687d11ede2dc7e",
+    "results/full_vietnamese_cifar100_v1/metrics.json": "c1827475843b43af48a3349dc797c663c1df683d8c3300252ec607ca5ae3854a",
+    "results/full_vietnamese_cifar100_v1/bpe_diagnostics.json": "b15205dd9fbcae801eddef60f6a39fc73350302b3402aec35f41e3da437bf2db",
+    "results/full_vietnamese_cifar100_v1/multilingual_classes.json": "0d58ab3697f89dd552e492988dbff5a90ac11a621eb85f140ec59819d963155a",
+    "results/full_cifar100_clip_b32_v1/predictions.csv": "fd7917f8195a0b93ac3d8fb10515f7638109903bd9c3a4a4931b2778a2ca0d7c"
+  },
+  "artifact_sha256": {
+    "counting_deep.csv": "ce9c8f60bcc63da46647a09c793d9e998f699628596aa60dd983a2047f4fb2ea",
+    "metrics.json": "c0bed85b3bd610bc6595f67bef8b1819a0affe25ae75f02de2ba69be1ce7317c",
+    "negation_deep.csv": "5ce4448ec786a6f0bd19640b8c85f4415ed55b2bc298d1ec1e1d87251e5d8f95",
+    "vietnamese_per_class.csv": "9586e5c91643f8810453b8b01bc93942830ce9fca98a384c7d56c859e7c19b67"
+  }
+}

@@ -1,0 +1,717 @@
+{
+  "study": "final_diagnostics_v1",
+  "new_inference": false,
+  "bootstrap": {
+    "draws": 2000,
+    "seed": 1402,
+    "unit": "scene group (probes) or class (Spearman)"
+  },
+  "negation": {
+    "all": {
+      "accuracy": {
+        "n": 1440,
+        "k": 1240,
+        "percent": 86.11111111111111,
+        "ci95_percent": [
+          84.30555555555556,
+          87.91666666666667
+        ]
+      },
+      "affirmative_prediction_rate": {
+        "n": 1440,
+        "k": 692,
+        "percent": 48.05555555555556,
+        "ci95_percent": [
+          45.55555555555556,
+          50.48611111111111
+        ]
+      },
+      "accuracy_present": {
+        "n": 720,
+        "k": 606,
+        "percent": 84.16666666666667,
+        "ci95_percent": [
+          80.55555555555556,
+          87.5
+        ]
+      },
+      "accuracy_absent": {
+        "n": 720,
+        "k": 634,
+        "percent": 88.05555555555556,
+        "ci95_percent": [
+          85.27777777777777,
+          90.55555555555556
+        ]
+      },
+      "confusion_true_x_pred": {
+        "present": {
+          "pred_present": 606,
+          "pred_absent": 114
+        },
+        "absent": {
+          "pred_present": 86,
+          "pred_absent": 634
+        }
+      },
+      "accuracy_gap_absent_minus_present_pp": 3.8888888888888857
+    },
+    "with_without": {
+      "accuracy": {
+        "n": 720,
+        "k": 658,
+        "percent": 91.38888888888889,
+        "ci95_percent": [
+          89.44097222222223,
+          93.33333333333333
+        ]
+      },
+      "affirmative_prediction_rate": {
+        "n": 720,
+        "k": 332,
+        "percent": 46.111111111111114,
+        "ci95_percent": [
+          43.888888888888886,
+          48.19791666666664
+        ]
+      },
+      "accuracy_present": {
+        "n": 360,
+        "k": 315,
+        "percent": 87.5,
+        "ci95_percent": [
+          83.88888888888889,
+          90.83333333333333
+        ]
+      },
+      "accuracy_absent": {
+        "n": 360,
+        "k": 343,
+        "percent": 95.27777777777777,
+        "ci95_percent": [
+          93.05555555555556,
+          97.22222222222221
+        ]
+      },
+      "confusion_true_x_pred": {
+        "present": {
+          "pred_present": 315,
+          "pred_absent": 45
+        },
+        "absent": {
+          "pred_present": 17,
+          "pred_absent": 343
+        }
+      },
+      "accuracy_gap_absent_minus_present_pp": 7.7777777777777715
+    },
+    "contains_does_not": {
+      "accuracy": {
+        "n": 720,
+        "k": 582,
+        "percent": 80.83333333333333,
+        "ci95_percent": [
+          78.33333333333333,
+          83.47222222222223
+        ]
+      },
+      "affirmative_prediction_rate": {
+        "n": 720,
+        "k": 360,
+        "percent": 50.0,
+        "ci95_percent": [
+          46.80555555555556,
+          53.19444444444444
+        ]
+      },
+      "accuracy_present": {
+        "n": 360,
+        "k": 291,
+        "percent": 80.83333333333333,
+        "ci95_percent": [
+          76.66666666666667,
+          84.72222222222221
+        ]
+      },
+      "accuracy_absent": {
+        "n": 360,
+        "k": 291,
+        "percent": 80.83333333333333,
+        "ci95_percent": [
+          76.38888888888889,
+          84.72222222222221
+        ]
+      },
+      "confusion_true_x_pred": {
+        "present": {
+          "pred_present": 291,
+          "pred_absent": 69
+        },
+        "absent": {
+          "pred_present": 69,
+          "pred_absent": 291
+        }
+      },
+      "accuracy_gap_absent_minus_present_pp": 0.0
+    },
+    "four_trial_consistency": {
+      "groups": 360,
+      "all_correct": 211,
+      "percent": 58.611111111111114
+    },
+    "n_trials": 1440
+  },
+  "counting": {
+    "n_images": 1080,
+    "all": {
+      "accuracy": {
+        "n": 1080,
+        "k": 355,
+        "percent": 32.870370370370374,
+        "ci95_percent": [
+          30.648148148148145,
+          35.092592592592595
+        ]
+      },
+      "mae": 1.0157407407407408,
+      "mean_signed_error": -0.19537037037037036,
+      "answer_one_rate_percent": 17.5
+    },
+    "control_correct": {
+      "accuracy": {
+        "n": 804,
+        "k": 277,
+        "percent": 34.452736318407965,
+        "ci95_percent": [
+          31.612052836175163,
+          37.25012254901961
+        ]
+      },
+      "mae": 0.8432835820895522,
+      "mean_signed_error": 0.09203980099502487,
+      "answer_one_rate_percent": 10.572139303482588
+    },
+    "control_wrong": {
+      "accuracy": {
+        "n": 276,
+        "k": 78,
+        "percent": 28.26086956521739,
+        "ci95_percent": [
+          23.68377192982456,
+          33.72093023255814
+        ]
+      },
+      "mae": 1.5181159420289856,
+      "mean_signed_error": -1.0326086956521738,
+      "answer_one_rate_percent": 37.68115942028986
+    },
+    "by_condition": {
+      "fixed_radius": {
+        "accuracy": {
+          "n": 540,
+          "k": 175,
+          "percent": 32.407407407407405,
+          "ci95_percent": [
+            29.444444444444446,
+            35.56018518518516
+          ]
+        },
+        "mae": 1.0314814814814814,
+        "mean_signed_error": -0.17962962962962964,
+        "answer_one_rate_percent": 16.296296296296298
+      },
+      "fixed_total_area": {
+        "accuracy": {
+          "n": 540,
+          "k": 180,
+          "percent": 33.33333333333333,
+          "ci95_percent": [
+            30.185185185185187,
+            36.48148148148148
+          ]
+        },
+        "mae": 1.0,
+        "mean_signed_error": -0.2111111111111111,
+        "answer_one_rate_percent": 18.703703703703702
+      }
+    },
+    "by_true_count": {
+      "1": {
+        "all": {
+          "accuracy": {
+            "n": 180,
+            "k": 87,
+            "percent": 48.333333333333336,
+            "ci95_percent": [
+              41.11111111111111,
+              55.55555555555556
+            ]
+          },
+          "mae": 0.5777777777777777,
+          "mean_signed_error": 0.5777777777777777,
+          "answer_one_rate_percent": 48.333333333333336
+        },
+        "control_correct": {
+          "accuracy": {
+            "n": 172,
+            "k": 79,
+            "percent": 45.93023255813954,
+            "ci95_percent": [
+              38.372093023255815,
+              53.48837209302325
+            ]
+          },
+          "mae": 0.6046511627906976,
+          "mean_signed_error": 0.6046511627906976,
+          "answer_one_rate_percent": 45.93023255813954
+        }
+      },
+      "2": {
+        "all": {
+          "accuracy": {
+            "n": 180,
+            "k": 47,
+            "percent": 26.111111111111114,
+            "ci95_percent": [
+              20.0,
+              32.77777777777778
+            ]
+          },
+          "mae": 0.8333333333333334,
+          "mean_signed_error": 0.5888888888888889,
+          "answer_one_rate_percent": 12.222222222222221
+        },
+        "control_correct": {
+          "accuracy": {
+            "n": 163,
+            "k": 47,
+            "percent": 28.834355828220858,
+            "ci95_percent": [
+              22.085889570552148,
+              36.19631901840491
+            ]
+          },
+          "mae": 0.8159509202453987,
+          "mean_signed_error": 0.754601226993865,
+          "answer_one_rate_percent": 3.067484662576687
+        }
+      },
+      "3": {
+        "all": {
+          "accuracy": {
+            "n": 180,
+            "k": 94,
+            "percent": 52.22222222222223,
+            "ci95_percent": [
+              45.0,
+              59.44444444444444
+            ]
+          },
+          "mae": 0.9,
+          "mean_signed_error": 0.35555555555555557,
+          "answer_one_rate_percent": 11.11111111111111
+        },
+        "control_correct": {
+          "accuracy": {
+            "n": 152,
+            "k": 94,
+            "percent": 61.8421052631579,
+            "ci95_percent": [
+              53.94736842105263,
+              69.73684210526315
+            ]
+          },
+          "mae": 0.6973684210526315,
+          "mean_signed_error": 0.5526315789473685,
+          "answer_one_rate_percent": 0.6578947368421052
+        }
+      },
+      "4": {
+        "all": {
+          "accuracy": {
+            "n": 180,
+            "k": 17,
+            "percent": 9.444444444444445,
+            "ci95_percent": [
+              5.555555555555555,
+              13.902777777777702
+            ]
+          },
+          "mae": 1.1888888888888889,
+          "mean_signed_error": -0.24444444444444444,
+          "answer_one_rate_percent": 11.11111111111111
+        },
+        "control_correct": {
+          "accuracy": {
+            "n": 117,
+            "k": 17,
+            "percent": 14.529914529914532,
+            "ci95_percent": [
+              8.547008547008547,
+              21.367521367521366
+            ]
+          },
+          "mae": 0.9401709401709402,
+          "mean_signed_error": -0.15384615384615385,
+          "answer_one_rate_percent": 0.0
+        }
+      },
+      "5": {
+        "all": {
+          "accuracy": {
+            "n": 180,
+            "k": 76,
+            "percent": 42.22222222222222,
+            "ci95_percent": [
+              35.0,
+              49.44444444444444
+            ]
+          },
+          "mae": 1.0777777777777777,
+          "mean_signed_error": -0.9333333333333333,
+          "answer_one_rate_percent": 11.11111111111111
+        },
+        "control_correct": {
+          "accuracy": {
+            "n": 100,
+            "k": 34,
+            "percent": 34.0,
+            "ci95_percent": [
+              25.0,
+              43.0
+            ]
+          },
+          "mae": 0.88,
+          "mean_signed_error": -0.82,
+          "answer_one_rate_percent": 0.0
+        }
+      },
+      "6": {
+        "all": {
+          "accuracy": {
+            "n": 180,
+            "k": 34,
+            "percent": 18.88888888888889,
+            "ci95_percent": [
+              13.333333333333334,
+              25.0
+            ]
+          },
+          "mae": 1.5166666666666666,
+          "mean_signed_error": -1.5166666666666666,
+          "answer_one_rate_percent": 11.11111111111111
+        },
+        "control_correct": {
+          "accuracy": {
+            "n": 100,
+            "k": 6,
+            "percent": 6.0,
+            "ci95_percent": [
+              2.0,
+              11.0
+            ]
+          },
+          "mae": 1.37,
+          "mean_signed_error": -1.37,
+          "answer_one_rate_percent": 0.0
+        }
+      }
+    },
+    "confusion_rows_true_cols_pred": [
+      [
+        87,
+        82,
+        11,
+        0,
+        0,
+        0
+      ],
+      [
+        22,
+        47,
+        102,
+        1,
+        8,
+        0
+      ],
+      [
+        20,
+        9,
+        94,
+        5,
+        48,
+        4
+      ],
+      [
+        20,
+        0,
+        69,
+        17,
+        63,
+        11
+      ],
+      [
+        20,
+        0,
+        30,
+        41,
+        76,
+        13
+      ],
+      [
+        20,
+        0,
+        6,
+        35,
+        85,
+        34
+      ]
+    ]
+  },
+  "vietnamese": {
+    "overall_top1_percent": {
+      "en_baseline": 64.48,
+      "vi_diacritics": 5.1,
+      "vi_no_diacritics": 4.05,
+      "en_frame_vi_label": 5.4399999999999995,
+      "vi_frame_en_label": 55.1,
+      "vi_en_bilingual": 54.949999999999996,
+      "en_vi_bilingual_embedding_ensemble": 60.419999999999995
+    },
+    "top10_vi_diacritics_classes": [
+      {
+        "class_id": 92,
+        "en_label": "tulip",
+        "vi_label": "hoa tulip",
+        "acc_vi_diacritics": 100.0,
+        "acc_en_baseline": 83.0
+      },
+      {
+        "class_id": 36,
+        "en_label": "hamster",
+        "vi_label": "chuột hamster",
+        "acc_vi_diacritics": 95.0,
+        "acc_en_baseline": 77.0
+      },
+      {
+        "class_id": 25,
+        "en_label": "couch",
+        "vi_label": "ghế sofa",
+        "acc_vi_diacritics": 85.0,
+        "acc_en_baseline": 59.0
+      },
+      {
+        "class_id": 38,
+        "en_label": "kangaroo",
+        "vi_label": "chuột túi kangaroo",
+        "acc_vi_diacritics": 83.0,
+        "acc_en_baseline": 76.0
+      },
+      {
+        "class_id": 64,
+        "en_label": "possum",
+        "vi_label": "con thú có túi possum",
+        "acc_vi_diacritics": 68.0,
+        "acc_en_baseline": 28.0
+      },
+      {
+        "class_id": 47,
+        "en_label": "maple tree",
+        "vi_label": "cây phong",
+        "acc_vi_diacritics": 23.0,
+        "acc_en_baseline": 52.0
+      },
+      {
+        "class_id": 85,
+        "en_label": "tank",
+        "vi_label": "xe tăng",
+        "acc_vi_diacritics": 16.0,
+        "acc_en_baseline": 77.0
+      },
+      {
+        "class_id": 21,
+        "en_label": "chimpanzee",
+        "vi_label": "con tinh tinh",
+        "acc_vi_diacritics": 8.0,
+        "acc_en_baseline": 84.0
+      },
+      {
+        "class_id": 6,
+        "en_label": "bee",
+        "vi_label": "con ong",
+        "acc_vi_diacritics": 6.0,
+        "acc_en_baseline": 72.0
+      },
+      {
+        "class_id": 13,
+        "en_label": "bus",
+        "vi_label": "xe buýt",
+        "acc_vi_diacritics": 4.0,
+        "acc_en_baseline": 70.0
+      }
+    ],
+    "zero_accuracy_vi_diacritics": {
+      "n_classes": 80,
+      "classes": [
+        "apple",
+        "aquarium fish",
+        "baby",
+        "bear",
+        "beaver",
+        "bed",
+        "beetle",
+        "bowl",
+        "boy",
+        "bridge",
+        "butterfly",
+        "camel",
+        "can",
+        "castle",
+        "cattle",
+        "chair",
+        "clock",
+        "cloud",
+        "crocodile",
+        "cup",
+        "dinosaur",
+        "dolphin",
+        "elephant",
+        "flatfish",
+        "forest",
+        "fox",
+        "girl",
+        "house",
+        "keyboard",
+        "lamp",
+        "lawn mower",
+        "leopard",
+        "lion",
+        "lizard",
+        "lobster",
+        "man",
+        "motorcycle",
+        "mountain",
+        "mouse",
+        "mushroom",
+        "oak tree",
+        "orange",
+        "orchid",
+        "otter",
+        "pear",
+        "pickup truck",
+        "pine tree",
+        "plain",
+        "plate",
+        "poppy",
+        "rabbit",
+        "raccoon",
+        "ray",
+        "road",
+        "rocket",
+        "rose",
+        "sea",
+        "seal",
+        "shark",
+        "shrew",
+        "skunk",
+        "skyscraper",
+        "snail",
+        "spider",
+        "squirrel",
+        "streetcar",
+        "sweet pepper",
+        "table",
+        "telephone",
+        "television",
+        "tiger",
+        "tractor",
+        "train",
+        "trout",
+        "turtle",
+        "wardrobe",
+        "whale",
+        "willow tree",
+        "wolf",
+        "woman"
+      ]
+    },
+    "cognate_heuristic": {
+      "rule": "en label in vi label without diacritics, or difflib ratio >= 0.5",
+      "n_cognate_like": 6,
+      "n_other": 94,
+      "mean_acc_vi_diacritics_cognate_like": 60.333333333333336,
+      "mean_acc_vi_diacritics_other": 1.574468085106383,
+      "cognate_like_classes": [
+        "chair = cái ghế",
+        "hamster = chuột hamster",
+        "kangaroo = chuột túi kangaroo",
+        "possum = con thú có túi possum",
+        "tank = xe tăng",
+        "tulip = hoa tulip"
+      ]
+    },
+    "spearman": {
+      "vi_label_tokens_vs_drop_vi": {
+        "spearman_rho": 0.05006291805381995,
+        "ci95_class_bootstrap": [
+          -0.14097465427508638,
+          0.2318595759824924
+        ],
+        "n_classes": 100
+      },
+      "vi_no_diacritics_tokens_vs_drop_vi_no_diacritics": {
+        "spearman_rho": -0.11968564641089707,
+        "ci95_class_bootstrap": [
+          -0.3248371607967413,
+          0.07982312069727801
+        ],
+        "n_classes": 100
+      },
+      "vi_over_en_token_ratio_vs_drop_vi": {
+        "spearman_rho": 0.01632539086966837,
+        "ci95_class_bootstrap": [
+          -0.1809366512954018,
+          0.20933025388921783
+        ],
+        "n_classes": 100
+      },
+      "vi_label_tokens_vs_acc_vi": {
+        "spearman_rho": -0.2718361235305536,
+        "ci95_class_bootstrap": [
+          -0.4460924610558023,
+          -0.06319738280953645
+        ],
+        "n_classes": 100
+      }
+    },
+    "mean_label_tokens": {
+      "en": 1.19,
+      "vi": 7.05,
+      "vi_no_diacritics": 2.88
+    },
+    "n_images": 10000
+  },
+  "cross_checks_evidence_matrix_1117": {
+    "counting_confusion": true,
+    "counting_correct": true,
+    "counting_mae": true,
+    "counting_signed": true,
+    "counting_conditions": true,
+    "negation_correct": true,
+    "negation_templates": true,
+    "negation_strata": true,
+    "counting_control_correct": true,
+    "negation_consistency": true,
+    "negation_affirmative_rate": true
+  },
+  "reference_original_seed0": {
+    "counting_seed0_ci95_percent": [
+      30.648148148148145,
+      35.00231481481481
+    ],
+    "negation_seed0_ci95_percent": [
+      84.234375,
+      88.05555555555556
+    ]
+  }
+}

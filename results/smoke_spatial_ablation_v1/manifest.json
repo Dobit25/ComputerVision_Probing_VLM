@@ -1,0 +1,602 @@
+{
+  "status": "completed",
+  "stage": "spatial_ablation",
+  "mode": "smoke",
+  "started_at_utc": "2026-11-28T07:54:48.620634+00:00",
+  "git_head": "3c2d4853e98a0b7a7adeacc6888782e412933d22",
+  "source_sha256": {
+    "configs/clip_b32_cifar100.json": "c67340dde83213b7138991c90d2f41f793ee06eb15a82482cfb06017e93010c4",
+    "configs/natural_regions_v2.json": "178c763313cae2a7763c31fa5fbb2a7e3880c2f7e1c372a9c312c8bfd97c2860",
+    "configs/probing_depth_v1.json": "da06fb96f9da7292d07e70713b1c6c1908f3f91fd2303d87b7ccdd76bf2fcee2",
+    "configs/spatial_ablation_v1.json": "3a639310d9807c8327784507c7e9106cf6049ab2bb18de9de802ddbb43440848",
+    "docs/integration_protocol_v2.md": "8fe45073698d4472f0168e54047775c63a39ae4a6f8a2bfd960911c8f28c827b",
+    "docs/spatial_ablation_protocol_v1.md": "b70509a646d4f0e49fc3ca719ce2a0ff80e5ba34928a8d94f10df78592dc8c84",
+    "requirements.txt": "823189c5e900e5a5fd5b612017f0a282abc249a42d432dfd6ba096db16bd0168",
+    "results/depth_natural_selection_v1/selected.json": "1f843f11a779800e12b60878ae683373e3286da41e432b5f7fa82e976001c3ff",
+    "results/full_depth_natural_v1/images.json": "9ed3730f2226b6a3c72520aa4e07a82a145114c0600459a726bbfd043e66fb87",
+    "results/full_depth_natural_v1/manifest.json": "e2f117c0a429b65483755339492b25ddabc72f7cd5ccef2645c2647fda1dbe9f",
+    "results/full_depth_natural_v1/scores.npz": "e25dfd2751b46f6ce1890b7ddbbfcde182f4b11cf6f0e1578e2772211faa9dab",
+    "results/full_depth_natural_v1/trials.json": "241b5ac583231564d9a897f715ed20173cf87ea73e9bb14b960e477cd6350398",
+    "results/full_natural_confirmation_v1/images.json": "c4c6f11f134ab5307538445a6cd5be9f8d7dad13bf2a095ff883f77d855a8844",
+    "results/full_natural_confirmation_v1/manifest.json": "d86e8036aa081ff20c89a307fdc16fb8a0d98f9a8ee0bc8ef71689d7a4498288",
+    "results/full_natural_confirmation_v1/scores.npz": "5fac9e7c7f3b4a1cdc60bd61b38f957a945ae0d005e315a378fe61d910dd2616",
+    "results/full_natural_confirmation_v1/trials.json": "72723102c9b97b0d008db0e0082947850e8ab529f6241a0ad1b2f34a2d64d5f1",
+    "results/full_natural_regions_confirmation_review_v2/manifest.json": "b673e6f4c91e995c543b271652caafc7a1d4c27c5a01eebaecfdd2834e14d394",
+    "results/full_natural_regions_confirmation_review_v2/samples.json": "c4c6f11f134ab5307538445a6cd5be9f8d7dad13bf2a095ff883f77d855a8844",
+    "results/full_natural_regions_confirmation_review_v2/scores.npz": "8bba7af4c6c40b4d4a8b3cf983ad9b628ccf18c6a87e6c2f495ade0aabd492ec",
+    "results/full_natural_regions_exploratory_review_v2/manifest.json": "d04beb78357015b82c1b0d453982430f4c1513b3cc5605255c602d1df76d97c6",
+    "results/full_natural_regions_exploratory_review_v2/samples.json": "9ed3730f2226b6a3c72520aa4e07a82a145114c0600459a726bbfd043e66fb87",
+    "results/full_natural_regions_exploratory_review_v2/scores.npz": "5b2b7c7f045ced2900cccba297ad64c86b0c840ef4c43e16319b0585c0867585",
+    "results/human_review_followup_v1/source_membership.csv": "b94d531f4f6494e1b6266e8004340b163197a9f10bb13d4b508aceb3819f3db0",
+    "results/natural_confirmation_selection_v1/selected.json": "656ed246180ae78e57535a34665771d8e786318eda07819d2048acb813534dd5",
+    "vlm_probe/__init__.py": "a67e12125e012495d84256bfcf67041abcda07dfaf49722bdfafd58566aa637d",
+    "vlm_probe/__main__.py": "db422f547f341e29abd6589f232935674ebeb83ad8793a293ad5bf6f609ef54c",
+    "vlm_probe/assets.py": "18c3f5b444f4e0325d72348689b37e0b74e6530f4e2aaa698c7dd7afef608bad",
+    "vlm_probe/category_study/__init__.py": "8740dace9dc0b1bac7e45ec138aefc4107d8bb0e6554d4e1a86ccbc838c7b182",
+    "vlm_probe/category_study/__main__.py": "b3ec98b15db318fb0169c86ec5cefe961be4386506443d2433f85ddced6c1c18",
+    "vlm_probe/category_study/audit.py": "eb31b6e31138a18f18494332f1cc121a9a6626935f3dea54e9ab217dd65b2742",
+    "vlm_probe/category_study/metrics.py": "e3c926b4699b7066579c297c329fffa40bfdc281a30b33d48f063bfdea1b834e",
+    "vlm_probe/category_study/report.py": "4ca42bd08f6ba1bafd3b2f18e95914f4fbe9282589e5549b22548c3a81eed8d3",
+    "vlm_probe/category_study/runner.py": "b8ae6d0d8c9b767f235dc08f434336a5dd82c83520f6507219d6eafcb4ed554c",
+    "vlm_probe/category_study/taxonomy.py": "b6f3408ecc3318a2ac3d6afd9948d6bc01a9615685dff875027178bf2a633acb",
+    "vlm_probe/compare.py": "b88003cdbf06947317b7738b38887e4def427981e183a99d95aec2bd3a41a90d",
+    "vlm_probe/configuration.py": "295f0ea83f45d6b79d23d60bbff8083aaabaca427026905a1ccd0ae143368cc6",
+    "vlm_probe/dataset_adapters/__init__.py": "c279148c8304811dacdac1c1fee2fba5248cb81459a784fb0e8f46d9450ae17c",
+    "vlm_probe/dataset_adapters/archive_utils.py": "2203e818f9e299a06bdb61facbbe8a727b400d16452f334b9719754545b9c2e5",
+    "vlm_probe/dataset_adapters/cifar100.py": "84dafd1265ae1f1a0d4bdaf96dcac2697aeba29fac16ca5e33951d6cbb09d096",
+    "vlm_probe/dataset_adapters/dtd.py": "8ae4883afdedecd3ab5db39de140aa1c7979011707d6daab5be62676fa2ecbae",
+    "vlm_probe/dataset_adapters/flowers102.py": "d09234bf9ce7b1451063f0196d134632ca93da83c0540c49f0213e13fb2287e4",
+    "vlm_probe/dataset_adapters/food101.py": "04188b6d48b58c0cee30ae47d2035c0ba2c410b6aac0f10c2b56f2bd9011f7fc",
+    "vlm_probe/dataset_adapters/oxford_pet.py": "c903d1bfe1778129796145076586f9731665eed67ae696b44a4c332501fc39fd",
+    "vlm_probe/depth/__init__.py": "d9aaa8af70f1828e9ab117e783ddb1ba115efc2112a622abaac96df275dbd2de",
+    "vlm_probe/depth/__main__.py": "9ca9b1ea339ec4ddc8fe792c394919d1adc8cfb222aec5ef52dc3ba3280f6ec6",
+    "vlm_probe/depth/analysis.py": "c0efed41d6e56fceb3e6c74df406b0c87462d2e3a7ddd8d1fe6516d553fac8ec",
+    "vlm_probe/depth/audit.py": "5555d4b2f6a73c79b44662aa385f18ec78c1df6774b7e74d723cddc273c7e34f",
+    "vlm_probe/depth/blinded_review.py": "08cf5aa5ef4a41d567c34877ef4585e8642a13bdab910e97c0f907a30616e28d",
+    "vlm_probe/depth/category.py": "b0821b36b3bf7de53a9d90ff164d8fd19ee3c498afdf5dfe5b21e2a9b4f917fc",
+    "vlm_probe/depth/common.py": "02c8ad13644f4bf11c6858a9e51159202ee4015ae32616def0916b2cbbe3ee1a",
+    "vlm_probe/depth/confirmation.py": "0a23de43677a8a647c43176ebe8b4ffffbfcdc161986420d81782cdd90413a71",
+    "vlm_probe/depth/confirmation_report.py": "68eb27a95b39e704c804af769b66130f54e706e03751d1e99e626366fcd51fc3",
+    "vlm_probe/depth/design.py": "acad5d4c22e742fb3942991ce7733575307578c9f31fe7bf7f89c404080a7cd1",
+    "vlm_probe/depth/natural.py": "4a7320d6268c6cb86af528d97761d7455b9105c4f34b51dd4d4b5e43137d2b29",
+    "vlm_probe/depth/pairs.py": "d24b763e3d26a67fc12f5e61c3292e9f67500dca44bf3529c8513ec3b49481ea",
+    "vlm_probe/depth/report.py": "4fd38a91ac78c52773eb98b788bb2c0b7913f0aab0a590d361c6b525ae598213",
+    "vlm_probe/depth/spatial.py": "6aa614893ccb1db39a96148156e18989a64647c69307e582b3a125ebb6ce8685",
+    "vlm_probe/evaluate.py": "1fb8cc1792cf30ada2a06146440c18e7db5c018a7845e855f9c52c0fcfd975a7",
+    "vlm_probe/evidence_1117.py": "b0e448139ad98d1632c966ca5d2c663bba96d059358bd3952d8a3fb737036c43",
+    "vlm_probe/extension_artifacts.py": "7ad63968791fb0ec8ea385a524cc24763e42f74153d8cf9f8db3b5c3df5a8aaa",
+    "vlm_probe/human_review.py": "cfa024905e8d9d7a039a4976e48a1460111e1a6b8655b58e5d47b16f46ca79da",
+    "vlm_probe/human_review_followup.py": "f312081aa12b0590d05fb966b84b2a0baea4c98b3005a18f72f49c6492d410c5",
+    "vlm_probe/human_review_followup_report.py": "a73a3b310aac3a1538ffc79ddea12b63937c889fdd562690abc676ac6dd56d15",
+    "vlm_probe/human_review_iaa.py": "27033b0730158781849f41f77350cc2490e4c742e9fc663f5815daf5f78ba533",
+    "vlm_probe/integration.py": "4b8f7cdb913eed7f70379fefd1aec9e4a7abc2d432cbca0427566a03b3b1f489",
+    "vlm_probe/io_utils.py": "17d915b400b7f58f257c9dd8a2c140616f8562b25e6025341f5547b2f376aae7",
+    "vlm_probe/metrics.py": "98abd6be72af818db8da015a5659142e75e1d2983436a782a114e3b06d1a50b3",
+    "vlm_probe/model_adapters/__init__.py": "c879117fa9f8e4f304e0ac14c215d4944edb7133d395cb70f2121e1a8c7772e3",
+    "vlm_probe/model_adapters/openai_clip.py": "613d66e151f0b831d398c7fe21144439942b3a0142e6e78c547afcf5cd84f06a",
+    "vlm_probe/probing/__init__.py": "a6f62afadd7fed643476da34bdf6d2675fc3fb2d51e0288d01c995571e2121f2",
+    "vlm_probe/probing/__main__.py": "db414e71974fc6ff6a99173d54441a7c37e24f3fb632c32bd81c48f136863249",
+    "vlm_probe/probing/audit.py": "6c58833ad144491f32ac22bddd3ea68f28c67b9d2504ed560bc05726e28bb90a",
+    "vlm_probe/probing/evaluate.py": "067b316db4d726a74db291fe93a3be2606c0d3a36b8fe9bfccccaecdf9890080",
+    "vlm_probe/probing/metrics.py": "28566bec94fe4bd0ec1ed35ed9f28e060cb105fb43807d6336f194941d725da9",
+    "vlm_probe/probing/stimuli.py": "77287a02cec6d2c2278254acff37d56c4d2640744bfc204a73c5f455660f52c2",
+    "vlm_probe/prompt_study/__init__.py": "9071bf65a4da0a506b63e87c6e1e7925d06041d9c196702521200d68972a2bec",
+    "vlm_probe/prompt_study/__main__.py": "5d26b0ef84f1fa45897dbddda4482b16955fe5e087c8c4c49c9480b22863e164",
+    "vlm_probe/prompt_study/design.py": "13ebf35933a5742b9586bf34c60da19cc3fb39bd7dd923079fccf1f7cde514e6",
+    "vlm_probe/prompt_study/metrics.py": "39a249b74944b6ea40b168c71fe27a57a7ce77fed4eaf004b700f83530ba1297",
+    "vlm_probe/prompt_study/offline_analysis.py": "132a4d7ea03a9085912196c7c59ad2add6daae11149c7ff004b83ff516385284",
+    "vlm_probe/prompt_study/runner.py": "416c772d2985ba637ac5e11ff6e851cebf068bdf5e39bfc1d8c374d1ee3c24d3",
+    "vlm_probe/report.py": "7a2637410d9b796fb60ad42610d3aef403391647f59b008f85c2672ba829030f",
+    "vlm_probe/review_report.py": "9f657a5ad5f97e62cecb04829511fa3addaf75c797058bdc72375a42ae544447",
+    "vlm_probe/spatial_diagnostics/__init__.py": "2a1d47983ee6af616b5957148710f68fea7a79d884db6d0f7523f4b8da63bc83",
+    "vlm_probe/spatial_diagnostics/__main__.py": "07fdaeed4fdfac1415b29cfe7fd10d7d8b3e031318c9f7623bb7f072b5ff44f8",
+    "vlm_probe/spatial_diagnostics/ablation_v1.py": "bcab288ef014188d0068c7f4e097518db351d672ead78e96db120cb6c3db9a35",
+    "vlm_probe/spatial_diagnostics/mechanism.py": "0c79cdeb5328bd41e0b34138181bb58ff72630d482d415cbe9d38ec35111a1d5",
+    "vlm_probe/spatial_diagnostics/natural_recognition.py": "69ec68018b8b56ef498722891fb58ad1bd5c4e14636f5db2408ad17737ab57fd",
+    "vlm_probe/spatial_diagnostics/natural_regions.py": "4c2a4d0d0472261c4a79d2b86b5bd255a857450a5aee98fbedf3da8a37291096",
+    "vlm_probe/spatial_diagnostics/quadrant_mitigation.py": "6bb76e4d837d0e888c2323b16c96ee6eeb635af54116fb86913b8a690fc423ed",
+    "vlm_probe/spatial_diagnostics/unseen_holdout.py": "e1ea083a94abb12f85301384ec05f3711259ed7cf2c95986333f7761ccd7189e",
+    "vlm_probe/synthesis.py": "4857344022b01ca6753c0fb378dbccb59b4168fc5658bb42461e7ccc3112547e",
+    "vlm_probe/verify.py": "6431327b1ec124c309c896e1dcc3ba73f3cfdef0b513e41fbd49458bf3eba081",
+    "vlm_probe/vietnamese_study/__init__.py": "6e81dbbdf670b9cd5c88a53a33551691e391e18760b9b889e1686cf369831390",
+    "vlm_probe/vietnamese_study/__main__.py": "bbccb1c6b6477c34afafc9c90701a9157d927db33c6c94aad8cbb610a77ff589",
+    "vlm_probe/vietnamese_study/bpe_diagnostics.py": "ad6ef53aa02ec9841729a6b82df41c2f5e29f8917ec75c6ff8e41c41bd850c0c",
+    "vlm_probe/vietnamese_study/lexicon.py": "dfd677704a3f875af0128c948494ed650b71d29f09991568c8dbc2fc0e6a6a27",
+    "vlm_probe/vietnamese_study/runner.py": "58d60002e0e0ddf6550473d39346bd413d9ea26ebf0be67838d7e9746d2dd1ff"
+  },
+  "source_snapshot": {
+    "path": "results/source_snapshots/source_720dd377238728e5d4e3.zip",
+    "sha256": "e8c19de7e17ae350d5ea82f404f3d58aa11986e830f32ecdbc3270700f526e87"
+  },
+  "input_sha256": {
+    "configs/spatial_ablation_v1.json": "3a639310d9807c8327784507c7e9106cf6049ab2bb18de9de802ddbb43440848",
+    "docs/integration_protocol_v2.md": "8fe45073698d4472f0168e54047775c63a39ae4a6f8a2bfd960911c8f28c827b",
+    "docs/spatial_ablation_protocol_v1.md": "b70509a646d4f0e49fc3ca719ce2a0ff80e5ba34928a8d94f10df78592dc8c84",
+    "configs/natural_regions_v2.json": "178c763313cae2a7763c31fa5fbb2a7e3880c2f7e1c372a9c312c8bfd97c2860",
+    "results/natural_confirmation_selection_v1/selected.json": "656ed246180ae78e57535a34665771d8e786318eda07819d2048acb813534dd5",
+    "results/full_natural_confirmation_v1/manifest.json": "d86e8036aa081ff20c89a307fdc16fb8a0d98f9a8ee0bc8ef71689d7a4498288",
+    "results/full_natural_confirmation_v1/scores.npz": "5fac9e7c7f3b4a1cdc60bd61b38f957a945ae0d005e315a378fe61d910dd2616",
+    "results/full_natural_confirmation_v1/trials.json": "72723102c9b97b0d008db0e0082947850e8ab529f6241a0ad1b2f34a2d64d5f1",
+    "results/full_natural_confirmation_v1/images.json": "c4c6f11f134ab5307538445a6cd5be9f8d7dad13bf2a095ff883f77d855a8844",
+    "results/full_natural_regions_confirmation_review_v2/manifest.json": "b673e6f4c91e995c543b271652caafc7a1d4c27c5a01eebaecfdd2834e14d394",
+    "results/full_natural_regions_confirmation_review_v2/scores.npz": "8bba7af4c6c40b4d4a8b3cf983ad9b628ccf18c6a87e6c2f495ade0aabd492ec",
+    "results/full_natural_regions_confirmation_review_v2/samples.json": "c4c6f11f134ab5307538445a6cd5be9f8d7dad13bf2a095ff883f77d855a8844",
+    "results/human_review_followup_v1/source_membership.csv": "b94d531f4f6494e1b6266e8004340b163197a9f10bb13d4b508aceb3819f3db0",
+    "results/depth_natural_selection_v1/selected.json": "1f843f11a779800e12b60878ae683373e3286da41e432b5f7fa82e976001c3ff",
+    "results/full_depth_natural_v1/manifest.json": "e2f117c0a429b65483755339492b25ddabc72f7cd5ccef2645c2647fda1dbe9f",
+    "results/full_depth_natural_v1/scores.npz": "e25dfd2751b46f6ce1890b7ddbbfcde182f4b11cf6f0e1578e2772211faa9dab",
+    "results/full_depth_natural_v1/trials.json": "241b5ac583231564d9a897f715ed20173cf87ea73e9bb14b960e477cd6350398",
+    "results/full_depth_natural_v1/images.json": "9ed3730f2226b6a3c72520aa4e07a82a145114c0600459a726bbfd043e66fb87",
+    "results/full_natural_regions_exploratory_review_v2/manifest.json": "d04beb78357015b82c1b0d453982430f4c1513b3cc5605255c602d1df76d97c6",
+    "results/full_natural_regions_exploratory_review_v2/scores.npz": "5b2b7c7f045ced2900cccba297ad64c86b0c840ef4c43e16319b0585c0867585",
+    "results/full_natural_regions_exploratory_review_v2/samples.json": "9ed3730f2226b6a3c72520aa4e07a82a145114c0600459a726bbfd043e66fb87"
+  },
+  "artifact_schema": "extensions_review_v2",
+  "protocol_commit": {
+    "commit": "2708e47df08f4bd90607bd96bbfbe7f0b0ee3ec2",
+    "commit_time_utc": "2026-11-28T07:51:43+00:00",
+    "files_sha256": {
+      "docs/spatial_ablation_protocol_v1.md": "b70509a646d4f0e49fc3ca719ce2a0ff80e5ba34928a8d94f10df78592dc8c84",
+      "configs/spatial_ablation_v1.json": "3a639310d9807c8327784507c7e9106cf6049ab2bb18de9de802ddbb43440848"
+    }
+  },
+  "model_adapter": "openai_clip",
+  "model_embedding_dim": 512,
+  "checkpoint": {
+    "url": "https://openaipublic.azureedge.net/clip/models/40d365715913c9da98579312b702a82c18be219cc2a73407c4526f58eba950af/ViT-B-32.pt",
+    "sha256": "40d365715913c9da98579312b702a82c18be219cc2a73407c4526f58eba950af",
+    "path": "models/ViT-B-32.pt",
+    "quick_gelu": true
+  },
+  "preprocessing": "Compose(\n    Resize(size=224, interpolation=bicubic, max_size=None, antialias=True)\n    CenterCrop(size=(224, 224))\n    MaybeConvertMode()\n    MaybeToTensor()\n    Normalize(mean=(0.48145466, 0.4578275, 0.40821073), std=(0.26862954, 0.26130258, 0.27577711))\n)",
+  "pretrained_config": {
+    "url": "https://openaipublic.azureedge.net/clip/models/40d365715913c9da98579312b702a82c18be219cc2a73407c4526f58eba950af/ViT-B-32.pt",
+    "hf_hub": "timm/vit_base_patch32_clip_224.openai/",
+    "mean": [
+      0.48145466,
+      0.4578275,
+      0.40821073
+    ],
+    "std": [
+      0.26862954,
+      0.26130258,
+      0.27577711
+    ],
+    "interpolation": "bicubic",
+    "resize_mode": "shortest",
+    "quick_gelu": true
+  },
+  "tokenizer": "SimpleTokenizer",
+  "context_length": 77,
+  "feature_caches": [
+    {
+      "path": ".cache/depth_features/815c673afb1fdc8d896b3a60327ae4ccf7b563bfd49906c3a3797f32cd46274b.npy",
+      "sha256": "de2dc0ab3cae5d8f92e2129f437c4e67815691e9f783e65f9a198e523106035b",
+      "identity": {
+        "input": {
+          "images": [
+            {
+              "image_id": "coco/410576/original",
+              "image_sha256": "336a75d69c82d406eea69ef8bba5f71d5beb7824a480fe9b639ea8869fd8be19",
+              "transform": "original"
+            },
+            {
+              "image_id": "coco/410576/horizontal_flip",
+              "image_sha256": "336a75d69c82d406eea69ef8bba5f71d5beb7824a480fe9b639ea8869fd8be19",
+              "transform": "horizontal_flip"
+            },
+            {
+              "image_id": "coco/59225/original",
+              "image_sha256": "a46df21fb12c7fb3b6e2b65ab241d776b2acb763edfe820875f36348737c4a0f",
+              "transform": "original"
+            },
+            {
+              "image_id": "coco/59225/horizontal_flip",
+              "image_sha256": "a46df21fb12c7fb3b6e2b65ab241d776b2acb763edfe820875f36348737c4a0f",
+              "transform": "horizontal_flip"
+            },
+            {
+              "image_id": "coco/469471/original",
+              "image_sha256": "6f67704b405cae9881a22d0bc9bcc8def3ef5833a5121e5b134cb7c5f1020cf1",
+              "transform": "original"
+            },
+            {
+              "image_id": "coco/469471/horizontal_flip",
+              "image_sha256": "6f67704b405cae9881a22d0bc9bcc8def3ef5833a5121e5b134cb7c5f1020cf1",
+              "transform": "horizontal_flip"
+            },
+            {
+              "image_id": "coco/318174/original",
+              "image_sha256": "17bf35dbc65207ed9ebe34112e4111653850fb6cd47160fdbace78d53f4d748d",
+              "transform": "original"
+            },
+            {
+              "image_id": "coco/318174/horizontal_flip",
+              "image_sha256": "17bf35dbc65207ed9ebe34112e4111653850fb6cd47160fdbace78d53f4d748d",
+              "transform": "horizontal_flip"
+            },
+            {
+              "image_id": "coco/19916/original",
+              "image_sha256": "57dd021a000866e9063e9c32d8b51acffbf917fdf54666966590e43ebdabddc1",
+              "transform": "original"
+            },
+            {
+              "image_id": "coco/19916/horizontal_flip",
+              "image_sha256": "57dd021a000866e9063e9c32d8b51acffbf917fdf54666966590e43ebdabddc1",
+              "transform": "horizontal_flip"
+            },
+            {
+              "image_id": "coco/364444/original",
+              "image_sha256": "924d531210452a49ea881bbfcb048723f510cf00d00354ae5a15cfba6d74a849",
+              "transform": "original"
+            },
+            {
+              "image_id": "coco/364444/horizontal_flip",
+              "image_sha256": "924d531210452a49ea881bbfcb048723f510cf00d00354ae5a15cfba6d74a849",
+              "transform": "horizontal_flip"
+            },
+            {
+              "image_id": "coco/273002/original",
+              "image_sha256": "3efdb34ed48aae48804bc7ebaa00ab8b047741c7c1af793d8172e34f29245605",
+              "transform": "original"
+            },
+            {
+              "image_id": "coco/273002/horizontal_flip",
+              "image_sha256": "3efdb34ed48aae48804bc7ebaa00ab8b047741c7c1af793d8172e34f29245605",
+              "transform": "horizontal_flip"
+            },
+            {
+              "image_id": "coco/185614/original",
+              "image_sha256": "fa4b7b3c3f543d1da736b3cad112fa1a7cfc9c6817b52124302bacecf751b84f",
+              "transform": "original"
+            },
+            {
+              "image_id": "coco/185614/horizontal_flip",
+              "image_sha256": "fa4b7b3c3f543d1da736b3cad112fa1a7cfc9c6817b52124302bacecf751b84f",
+              "transform": "horizontal_flip"
+            }
+          ]
+        },
+        "checkpoint": {
+          "url": "https://openaipublic.azureedge.net/clip/models/40d365715913c9da98579312b702a82c18be219cc2a73407c4526f58eba950af/ViT-B-32.pt",
+          "sha256": "40d365715913c9da98579312b702a82c18be219cc2a73407c4526f58eba950af",
+          "path": "models/ViT-B-32.pt",
+          "quick_gelu": true
+        },
+        "preprocessing": "Compose(\n    Resize(size=224, interpolation=bicubic, max_size=None, antialias=True)\n    CenterCrop(size=(224, 224))\n    MaybeConvertMode()\n    MaybeToTensor()\n    Normalize(mean=(0.48145466, 0.4578275, 0.40821073), std=(0.26862954, 0.26130258, 0.27577711))\n)",
+        "precision": "fp32",
+        "batch_size": 32,
+        "engine_source_sha256": "02c8ad13644f4bf11c6858a9e51159202ee4015ae32616def0916b2cbbe3ee1a"
+      }
+    },
+    {
+      "path": ".cache/depth_features/43983b0b662f1f7643991c0f4f2eb4be6a77ca7c3ebb4b10a6562a6054dde993.npy",
+      "sha256": "9cc9cf6fe5b5f213b810ca9ea4dea83deea324c01b4076dfe94557fd683909cb",
+      "identity": {
+        "input": {
+          "images": [
+            {
+              "image_id": "coco/410576/original",
+              "image_sha256": "336a75d69c82d406eea69ef8bba5f71d5beb7824a480fe9b639ea8869fd8be19",
+              "transform": "original"
+            },
+            {
+              "image_id": "coco/410576/horizontal_flip",
+              "image_sha256": "336a75d69c82d406eea69ef8bba5f71d5beb7824a480fe9b639ea8869fd8be19",
+              "transform": "horizontal_flip"
+            },
+            {
+              "image_id": "coco/59225/original",
+              "image_sha256": "a46df21fb12c7fb3b6e2b65ab241d776b2acb763edfe820875f36348737c4a0f",
+              "transform": "original"
+            },
+            {
+              "image_id": "coco/59225/horizontal_flip",
+              "image_sha256": "a46df21fb12c7fb3b6e2b65ab241d776b2acb763edfe820875f36348737c4a0f",
+              "transform": "horizontal_flip"
+            },
+            {
+              "image_id": "coco/469471/original",
+              "image_sha256": "6f67704b405cae9881a22d0bc9bcc8def3ef5833a5121e5b134cb7c5f1020cf1",
+              "transform": "original"
+            },
+            {
+              "image_id": "coco/469471/horizontal_flip",
+              "image_sha256": "6f67704b405cae9881a22d0bc9bcc8def3ef5833a5121e5b134cb7c5f1020cf1",
+              "transform": "horizontal_flip"
+            },
+            {
+              "image_id": "coco/318174/original",
+              "image_sha256": "17bf35dbc65207ed9ebe34112e4111653850fb6cd47160fdbace78d53f4d748d",
+              "transform": "original"
+            },
+            {
+              "image_id": "coco/318174/horizontal_flip",
+              "image_sha256": "17bf35dbc65207ed9ebe34112e4111653850fb6cd47160fdbace78d53f4d748d",
+              "transform": "horizontal_flip"
+            },
+            {
+              "image_id": "coco/19916/original",
+              "image_sha256": "57dd021a000866e9063e9c32d8b51acffbf917fdf54666966590e43ebdabddc1",
+              "transform": "original"
+            },
+            {
+              "image_id": "coco/19916/horizontal_flip",
+              "image_sha256": "57dd021a000866e9063e9c32d8b51acffbf917fdf54666966590e43ebdabddc1",
+              "transform": "horizontal_flip"
+            },
+            {
+              "image_id": "coco/364444/original",
+              "image_sha256": "924d531210452a49ea881bbfcb048723f510cf00d00354ae5a15cfba6d74a849",
+              "transform": "original"
+            },
+            {
+              "image_id": "coco/364444/horizontal_flip",
+              "image_sha256": "924d531210452a49ea881bbfcb048723f510cf00d00354ae5a15cfba6d74a849",
+              "transform": "horizontal_flip"
+            },
+            {
+              "image_id": "coco/273002/original",
+              "image_sha256": "3efdb34ed48aae48804bc7ebaa00ab8b047741c7c1af793d8172e34f29245605",
+              "transform": "original"
+            },
+            {
+              "image_id": "coco/273002/horizontal_flip",
+              "image_sha256": "3efdb34ed48aae48804bc7ebaa00ab8b047741c7c1af793d8172e34f29245605",
+              "transform": "horizontal_flip"
+            },
+            {
+              "image_id": "coco/185614/original",
+              "image_sha256": "fa4b7b3c3f543d1da736b3cad112fa1a7cfc9c6817b52124302bacecf751b84f",
+              "transform": "original"
+            },
+            {
+              "image_id": "coco/185614/horizontal_flip",
+              "image_sha256": "fa4b7b3c3f543d1da736b3cad112fa1a7cfc9c6817b52124302bacecf751b84f",
+              "transform": "horizontal_flip"
+            }
+          ],
+          "view": "full_image_padded_v1",
+          "pad_rgb": [
+            123,
+            117,
+            104
+          ]
+        },
+        "checkpoint": {
+          "url": "https://openaipublic.azureedge.net/clip/models/40d365715913c9da98579312b702a82c18be219cc2a73407c4526f58eba950af/ViT-B-32.pt",
+          "sha256": "40d365715913c9da98579312b702a82c18be219cc2a73407c4526f58eba950af",
+          "path": "models/ViT-B-32.pt",
+          "quick_gelu": true
+        },
+        "preprocessing": "Compose(\n    Resize(size=224, interpolation=bicubic, max_size=None, antialias=True)\n    CenterCrop(size=(224, 224))\n    MaybeConvertMode()\n    MaybeToTensor()\n    Normalize(mean=(0.48145466, 0.4578275, 0.40821073), std=(0.26862954, 0.26130258, 0.27577711))\n)",
+        "precision": "fp32",
+        "batch_size": 32,
+        "engine_source_sha256": "02c8ad13644f4bf11c6858a9e51159202ee4015ae32616def0916b2cbbe3ee1a"
+      }
+    },
+    {
+      "path": ".cache/depth_features/d2ff56e939c97365939ccf6985c1c8d9847ec683b3a9cd1d63f2238bd6a9ce2e.npy",
+      "sha256": "7105becf64dc75eff738ede361bd5a1c619fed3794456e0f0a778ef2b6e9d184",
+      "identity": {
+        "input": {
+          "images": [
+            {
+              "image_id": "coco/409247/original",
+              "image_sha256": "0f26b415d0ad6a91cf146d69d572826a271697871901fad14e57e6aaab7e68a1",
+              "transform": "original"
+            },
+            {
+              "image_id": "coco/409247/horizontal_flip",
+              "image_sha256": "0f26b415d0ad6a91cf146d69d572826a271697871901fad14e57e6aaab7e68a1",
+              "transform": "horizontal_flip"
+            },
+            {
+              "image_id": "coco/407225/original",
+              "image_sha256": "0e75c17979325f6234204e8a182e1297989716a9456716f560adaa6b461ac09e",
+              "transform": "original"
+            },
+            {
+              "image_id": "coco/407225/horizontal_flip",
+              "image_sha256": "0e75c17979325f6234204e8a182e1297989716a9456716f560adaa6b461ac09e",
+              "transform": "horizontal_flip"
+            },
+            {
+              "image_id": "coco/368242/original",
+              "image_sha256": "4f420dc2eb3d0574904e3027ad029cc9db079a03d2390003cdc69be2b49ad6b1",
+              "transform": "original"
+            },
+            {
+              "image_id": "coco/368242/horizontal_flip",
+              "image_sha256": "4f420dc2eb3d0574904e3027ad029cc9db079a03d2390003cdc69be2b49ad6b1",
+              "transform": "horizontal_flip"
+            },
+            {
+              "image_id": "coco/133515/original",
+              "image_sha256": "eb578a16c0b12f85633d7a6477b03e53f366736ca4ca385e2dca7052bacfb0b9",
+              "transform": "original"
+            },
+            {
+              "image_id": "coco/133515/horizontal_flip",
+              "image_sha256": "eb578a16c0b12f85633d7a6477b03e53f366736ca4ca385e2dca7052bacfb0b9",
+              "transform": "horizontal_flip"
+            },
+            {
+              "image_id": "coco/578324/original",
+              "image_sha256": "89305d376c56d1aeb3f337e4d15d7aaddd2d5d38f76ff2c0d1efdc7c52c3a067",
+              "transform": "original"
+            },
+            {
+              "image_id": "coco/578324/horizontal_flip",
+              "image_sha256": "89305d376c56d1aeb3f337e4d15d7aaddd2d5d38f76ff2c0d1efdc7c52c3a067",
+              "transform": "horizontal_flip"
+            },
+            {
+              "image_id": "coco/521359/original",
+              "image_sha256": "02f454a497e36185f66637f492e95e036257234d175af8cf10943991abc8cec9",
+              "transform": "original"
+            },
+            {
+              "image_id": "coco/521359/horizontal_flip",
+              "image_sha256": "02f454a497e36185f66637f492e95e036257234d175af8cf10943991abc8cec9",
+              "transform": "horizontal_flip"
+            },
+            {
+              "image_id": "coco/491851/original",
+              "image_sha256": "550bf526bc3cb74f22efb1d96e9b41486fed4c4a577c89b087cc41256a400e6a",
+              "transform": "original"
+            },
+            {
+              "image_id": "coco/491851/horizontal_flip",
+              "image_sha256": "550bf526bc3cb74f22efb1d96e9b41486fed4c4a577c89b087cc41256a400e6a",
+              "transform": "horizontal_flip"
+            },
+            {
+              "image_id": "coco/433505/original",
+              "image_sha256": "46563bcb283efa94bef8583ea5787187779e70cadb1171cb43ffdc42e9f8a66f",
+              "transform": "original"
+            },
+            {
+              "image_id": "coco/433505/horizontal_flip",
+              "image_sha256": "46563bcb283efa94bef8583ea5787187779e70cadb1171cb43ffdc42e9f8a66f",
+              "transform": "horizontal_flip"
+            }
+          ]
+        },
+        "checkpoint": {
+          "url": "https://openaipublic.azureedge.net/clip/models/40d365715913c9da98579312b702a82c18be219cc2a73407c4526f58eba950af/ViT-B-32.pt",
+          "sha256": "40d365715913c9da98579312b702a82c18be219cc2a73407c4526f58eba950af",
+          "path": "models/ViT-B-32.pt",
+          "quick_gelu": true
+        },
+        "preprocessing": "Compose(\n    Resize(size=224, interpolation=bicubic, max_size=None, antialias=True)\n    CenterCrop(size=(224, 224))\n    MaybeConvertMode()\n    MaybeToTensor()\n    Normalize(mean=(0.48145466, 0.4578275, 0.40821073), std=(0.26862954, 0.26130258, 0.27577711))\n)",
+        "precision": "fp32",
+        "batch_size": 32,
+        "engine_source_sha256": "02c8ad13644f4bf11c6858a9e51159202ee4015ae32616def0916b2cbbe3ee1a"
+      }
+    },
+    {
+      "path": ".cache/depth_features/f57f60e82525fece34c501e51589d85709c0a50e25f173b3d3829607bdfae4e6.npy",
+      "sha256": "c87c337b26f32110baaaedd3f5c8ae88202136ed8fff3b4ad36af4d6efb8df0e",
+      "identity": {
+        "input": {
+          "images": [
+            {
+              "image_id": "coco/409247/original",
+              "image_sha256": "0f26b415d0ad6a91cf146d69d572826a271697871901fad14e57e6aaab7e68a1",
+              "transform": "original"
+            },
+            {
+              "image_id": "coco/409247/horizontal_flip",
+              "image_sha256": "0f26b415d0ad6a91cf146d69d572826a271697871901fad14e57e6aaab7e68a1",
+              "transform": "horizontal_flip"
+            },
+            {
+              "image_id": "coco/407225/original",
+              "image_sha256": "0e75c17979325f6234204e8a182e1297989716a9456716f560adaa6b461ac09e",
+              "transform": "original"
+            },
+            {
+              "image_id": "coco/407225/horizontal_flip",
+              "image_sha256": "0e75c17979325f6234204e8a182e1297989716a9456716f560adaa6b461ac09e",
+              "transform": "horizontal_flip"
+            },
+            {
+              "image_id": "coco/368242/original",
+              "image_sha256": "4f420dc2eb3d0574904e3027ad029cc9db079a03d2390003cdc69be2b49ad6b1",
+              "transform": "original"
+            },
+            {
+              "image_id": "coco/368242/horizontal_flip",
+              "image_sha256": "4f420dc2eb3d0574904e3027ad029cc9db079a03d2390003cdc69be2b49ad6b1",
+              "transform": "horizontal_flip"
+            },
+            {
+              "image_id": "coco/133515/original",
+              "image_sha256": "eb578a16c0b12f85633d7a6477b03e53f366736ca4ca385e2dca7052bacfb0b9",
+              "transform": "original"
+            },
+            {
+              "image_id": "coco/133515/horizontal_flip",
+              "image_sha256": "eb578a16c0b12f85633d7a6477b03e53f366736ca4ca385e2dca7052bacfb0b9",
+              "transform": "horizontal_flip"
+            },
+            {
+              "image_id": "coco/578324/original",
+              "image_sha256": "89305d376c56d1aeb3f337e4d15d7aaddd2d5d38f76ff2c0d1efdc7c52c3a067",
+              "transform": "original"
+            },
+            {
+              "image_id": "coco/578324/horizontal_flip",
+              "image_sha256": "89305d376c56d1aeb3f337e4d15d7aaddd2d5d38f76ff2c0d1efdc7c52c3a067",
+              "transform": "horizontal_flip"
+            },
+            {
+              "image_id": "coco/521359/original",
+              "image_sha256": "02f454a497e36185f66637f492e95e036257234d175af8cf10943991abc8cec9",
+              "transform": "original"
+            },
+            {
+              "image_id": "coco/521359/horizontal_flip",
+              "image_sha256": "02f454a497e36185f66637f492e95e036257234d175af8cf10943991abc8cec9",
+              "transform": "horizontal_flip"
+            },
+            {
+              "image_id": "coco/491851/original",
+              "image_sha256": "550bf526bc3cb74f22efb1d96e9b41486fed4c4a577c89b087cc41256a400e6a",
+              "transform": "original"
+            },
+            {
+              "image_id": "coco/491851/horizontal_flip",
+              "image_sha256": "550bf526bc3cb74f22efb1d96e9b41486fed4c4a577c89b087cc41256a400e6a",
+              "transform": "horizontal_flip"
+            },
+            {
+              "image_id": "coco/433505/original",
+              "image_sha256": "46563bcb283efa94bef8583ea5787187779e70cadb1171cb43ffdc42e9f8a66f",
+              "transform": "original"
+            },
+            {
+              "image_id": "coco/433505/horizontal_flip",
+              "image_sha256": "46563bcb283efa94bef8583ea5787187779e70cadb1171cb43ffdc42e9f8a66f",
+              "transform": "horizontal_flip"
+            }
+          ],
+          "view": "full_image_padded_v1",
+          "pad_rgb": [
+            123,
+            117,
+            104
+          ]
+        },
+        "checkpoint": {
+          "url": "https://openaipublic.azureedge.net/clip/models/40d365715913c9da98579312b702a82c18be219cc2a73407c4526f58eba950af/ViT-B-32.pt",
+          "sha256": "40d365715913c9da98579312b702a82c18be219cc2a73407c4526f58eba950af",
+          "path": "models/ViT-B-32.pt",
+          "quick_gelu": true
+        },
+        "preprocessing": "Compose(\n    Resize(size=224, interpolation=bicubic, max_size=None, antialias=True)\n    CenterCrop(size=(224, 224))\n    MaybeConvertMode()\n    MaybeToTensor()\n    Normalize(mean=(0.48145466, 0.4578275, 0.40821073), std=(0.26862954, 0.26130258, 0.27577711))\n)",
+        "precision": "fp32",
+        "batch_size": 32,
+        "engine_source_sha256": "02c8ad13644f4bf11c6858a9e51159202ee4015ae32616def0916b2cbbe3ee1a"
+      }
+    }
+  ],
+  "num_images": {
+    "B": 16,
+    "A": 16
+  },
+  "finished_at_utc": "2026-11-28T07:55:16.479183+00:00",
+  "artifact_sha256": {
+    "config.json": "2975f2215b4b9f66039e0b9291edcc04a0d9c847086de81e64d38c60444859aa",
+    "environment.json": "ea1747d0f7bc8f97edfaccb58ccaa9e0a51814d0d2f0b28d7078bc051132e16c",
+    "evaluation_config.json": "2975f2215b4b9f66039e0b9291edcc04a0d9c847086de81e64d38c60444859aa",
+    "images.json": "a17ffda1c9dfd5a0de090c7fc95f18995baff1383916e9989a5991cba11f48f1",
+    "metrics.json": "99fddf7503ec949b9f4a463ed1c80db062096426b4ff2b9cd1cf68c0fe187962",
+    "parity.json": "80ba7273905b02db105fed9706d44a0b6466aba68981a1e3fa64c5902a1f61c7",
+    "predictions.csv": "da2e545f2aafb9a531640fb5162fdae1aa30a4b626e641697f6a517a0cb6e062",
+    "protocol.md": "8fe45073698d4472f0168e54047775c63a39ae4a6f8a2bfd960911c8f28c827b",
+    "scores.npz": "b162dbc3da00f39b8c6424e260e10663b6c0037cccff93564291517f74d23bdf",
+    "study_config.json": "d40092905b4439a3104e2257adc2334dc0e61b25888f9cf7aa2a9b3ee334503e"
+  }
+}

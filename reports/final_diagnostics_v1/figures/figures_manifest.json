@@ -1,0 +1,26 @@
+{
+  "code_sha256": "064bbce28da8ad81dfe3d42ca10a36c9283e54fe99c415b3dab675b9dc28b035",
+  "input_sha256": {
+    "results/final_diagnostics_v1/metrics.json": "c0bed85b3bd610bc6595f67bef8b1819a0affe25ae75f02de2ba69be1ce7317c",
+    "results/final_diagnostics_v1/vietnamese_per_class.csv": "9586e5c91643f8810453b8b01bc93942830ce9fca98a384c7d56c859e7c19b67",
+    "reports/research_review_v2/multidomain_summary.csv": "f20954f779de52222f763c5ef2eea9a31ace2dd4140bb49eafe6bc887d70f58d",
+    "results/full_spatial_ablation_v1/metrics.json": "82a9f4ae2ba370f24040bfef0694339618f98208e430f8880a96670777d3e5a2",
+    "results/full_natural_unseen_holdout_v1/metrics.json": "2080f7a535deb2566ba6d210b56b39d30b246d9b815410ebd8ef8f623b753fb0",
+    "results/full_natural_recognition_v1/metrics.json": "30a388a9d692318a08017ce4c8105059b1a49e9dc6ca50fdc966af66e595db13",
+    "results/full_cifar100_clip_b32_v1/predictions.csv": "fd7917f8195a0b93ac3d8fb10515f7638109903bd9c3a4a4931b2778a2ca0d7c",
+    "results/full_flowers102_clip_b32_v2/predictions.csv": "8dbddbfe7b4d971a3e5b45938c3e3893f9b8fa2132716981255daa7acb414f6a",
+    "results/full_oxford_pet_clip_b32_v3/predictions.csv": "0f8a933da290afcf131b7492be6e166c0febef9ec07c80f203e40123055754b7",
+    "results/full_dtd_clip_b32_v3/predictions.csv": "794dbfb8310a918d2824d3ece4ee2db4fd3a7c07f080d6a59c219affbe206344",
+    "results/full_food101_clip_b32_v3/predictions.csv": "ec6f3c8408afbb8b12bfdd274a836a5a6617eb76323e900c01fa24b16a8f5650"
+  },
+  "figures": [
+    "fig_baseline_prompts.pdf",
+    "fig_baseline_prompts.png",
+    "fig_counting_negation.pdf",
+    "fig_counting_negation.png",
+    "fig_spatial_overview.pdf",
+    "fig_spatial_overview.png",
+    "fig_vietnamese_hybrid.pdf",
+    "fig_vietnamese_hybrid.png"
+  ]
+}
