@@ -1,0 +1,52 @@
+{
+  "study": "spatial_ablation_v1",
+  "status": "frozen",
+  "status_note": "Frozen 2026-11-28 before any new T2 GPU inference. Any change needs a new config version.",
+  "protocol": "docs/spatial_ablation_protocol_v1.md",
+  "base_config": "configs/probing_depth_v1.json",
+  "model_config": "configs/clip_b32_cifar100.json",
+  "regions_config": "configs/natural_regions_v2.json",
+  "bootstrap_draws": 2000,
+  "bootstrap_seed": 1402,
+  "canvas_size": 224,
+  "pad_rgb": [123, 117, 104],
+  "holistic_template": 2,
+  "holistic_order": 0,
+  "parity_tolerance": 1e-06,
+  "same_half_threshold": 0.99,
+  "smoke_sources_per_set": 8,
+  "sets": {
+    "B": {
+      "name": "confirmation",
+      "role": "primary",
+      "selection": "results/natural_confirmation_selection_v1/selected.json",
+      "baseline": "results/full_natural_confirmation_v1",
+      "regions_run": "results/full_natural_regions_confirmation_review_v2",
+      "membership": "results/human_review_followup_v1/source_membership.csv",
+      "primary_choices": 2
+    },
+    "A": {
+      "name": "exploratory",
+      "role": "cross_check",
+      "selection": "results/depth_natural_selection_v1/selected.json",
+      "baseline": "results/full_depth_natural_v1",
+      "regions_run": "results/full_natural_regions_exploratory_review_v2",
+      "membership": null,
+      "primary_choices": 4
+    }
+  },
+  "conditions": {
+    "holistic_center_crop": "frozen T2/o0 scores (reuse)",
+    "holistic_full_padded": "new GPU inference: full image on square canvas side max(w,h), pad_rgb, then standard preprocess",
+    "native_half": "reuse relational scores of the regions run",
+    "padded_half": "reuse padded_relational scores of the regions run",
+    "bbox_centroid": "oracle COCO boxes on the 224 baseline canvas, scores [-dx, dx, -dy, dy]",
+    "bbox_ideal_half": "oracle COCO boxes, _box_half_overlap then relational_scores_from_regions",
+    "swapped_region": "native region scores with left<->right and top<->bottom swapped"
+  },
+  "primary_comparison": {"set": "B", "condition": "holistic_full_padded", "reference": "holistic_center_crop", "metric": "top1_paired_delta_pp"},
+  "interpretation": {
+    "center_crop_not_main_cause_if_ci_upper_below_pp": 10,
+    "center_crop_contributes_if_ci_lower_at_least_pp": 10
+  }
+}
