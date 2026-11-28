@@ -1,0 +1,31 @@
+{
+  "verified": true,
+  "recomputed_from_scores": true,
+  "new_inference_in_audit": false,
+  "protocol_committed_before_inference": true,
+  "parity_max_abs_diff": {
+    "B": 2.384185791015625e-07,
+    "A": 2.682209014892578e-07
+  },
+  "primary_comparison": {
+    "set": "B",
+    "condition": "holistic_full_padded",
+    "reference": "holistic_center_crop",
+    "metric": "top1_paired_delta_pp",
+    "delta_pp": 12.5,
+    "ci95_pp": [
+      0.0,
+      31.25
+    ],
+    "verdict": "unclear"
+  },
+  "set_b_top1": {
+    "holistic_center_crop": 50.0,
+    "holistic_full_padded": 62.5,
+    "native_half": 100.0,
+    "padded_half": 100.0,
+    "bbox_centroid": 100.0,
+    "bbox_ideal_half": 100.0,
+    "swapped_region": 0.0
+  }
+}

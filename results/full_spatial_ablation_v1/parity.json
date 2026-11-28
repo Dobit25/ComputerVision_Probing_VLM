@@ -1,0 +1,12 @@
+{
+  "B": {
+    "images": 200,
+    "max_abs_diff": 2.384185791015625e-07,
+    "tolerance": 1e-06
+  },
+  "A": {
+    "images": 400,
+    "max_abs_diff": 3.2782554626464844e-07,
+    "tolerance": 1e-06
+  }
+}
