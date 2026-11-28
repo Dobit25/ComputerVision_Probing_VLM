@@ -1,0 +1,13 @@
+{
+  "study": "human_review_iaa_set_b_v1",
+  "exported_at_utc": "2026-11-25T07:45:12.762158+00:00",
+  "n_items": 100,
+  "r2_review_completed": false,
+  "zero_r1_decisions_included": true,
+  "zero_scores_included": true,
+  "reviewer_zip_local_path": "data/human_review_iaa_set_b_v1/reviewer_r2_package.zip",
+  "zip_sha256": "6d6b34beb11a0c994ebd5f3fcffaafd1cf35c6c91c3fd0941939f4be49322a6d",
+  "html_sha256": "43ca084100d6452095f6e1806129a60e96d2fe04a343877840ddd615991f355f",
+  "blank_csv_sha256": "9a625451ac95d6560b0d9f14a4abaef8c1e4525348fe6d282dd7f6484ab24eb9",
+  "source_mapping_sha256": "5c0aa49650fe81d804768aa0a207342dd1c869b7cf098b6047add430a1cc17a5"
+}

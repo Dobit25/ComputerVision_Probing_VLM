@@ -1,0 +1,116 @@
+{
+  "status": "frozen",
+  "frozen_at_utc": "2026-11-26T02:51:47.910442+00:00",
+  "config_sha256": "16e9a303e016cbc623e490adf1882c7b6edd3cc1328bda9b70a490cce527f9bc",
+  "protocol_sha256": "6cd7dbf5f92eda011395407127356fe70310456d10a144625e27fe46df7fb604",
+  "annotators": {
+    "RA": "R3_C",
+    "RB": "R4_C"
+  },
+  "n_candidates": 160,
+  "n_accepted_pool": 135,
+  "n_selected": 100,
+  "selected_by_target": {
+    "1": 50,
+    "0": 50
+  },
+  "iaa_before_adjudication": {
+    "overall_accept": {
+      "n": 160,
+      "raw_agreement_count": 151,
+      "raw_agreement_percent": 94.375,
+      "expected_agreement_percent": 77.56250000000001,
+      "cohens_kappa": 0.7493036211699162,
+      "kappa_defined": true,
+      "marginal_a": {
+        "no": 17,
+        "yes": 143
+      },
+      "marginal_b": {
+        "no": 24,
+        "yes": 136
+      }
+    },
+    "both_objects_visible": {
+      "n": 160,
+      "raw_agreement_count": 153,
+      "raw_agreement_percent": 95.625,
+      "expected_agreement_percent": 89.921875,
+      "cohens_kappa": 0.5658914728682177,
+      "kappa_defined": true,
+      "marginal_a": {
+        "no": 7,
+        "yes": 153
+      },
+      "marginal_b": {
+        "no": 10,
+        "yes": 150
+      }
+    },
+    "class_names_correct": {
+      "n": 160,
+      "raw_agreement_count": 149,
+      "raw_agreement_percent": 93.125,
+      "expected_agreement_percent": 84.390625,
+      "cohens_kappa": 0.5595595595595598,
+      "kappa_defined": true,
+      "marginal_a": {
+        "no": 9,
+        "yes": 151
+      },
+      "marginal_b": {
+        "no": 18,
+        "yes": 142
+      }
+    },
+    "relation_clear": {
+      "n": 160,
+      "raw_agreement_count": 154,
+      "raw_agreement_percent": 96.25,
+      "expected_agreement_percent": 93.9140625,
+      "cohens_kappa": 0.3838254172015402,
+      "kappa_defined": true,
+      "marginal_a": {
+        "no": 7,
+        "yes": 153
+      },
+      "marginal_b": {
+        "no": 3,
+        "yes": 157
+      }
+    },
+    "perceived_relation": {
+      "n": 160,
+      "raw_agreement_count": 158,
+      "raw_agreement_percent": 98.75,
+      "expected_agreement_percent": 48.78125,
+      "cohens_kappa": 0.9755948749237341,
+      "kappa_defined": true,
+      "marginal_a": {
+        "left": 78,
+        "right": 80,
+        "unclear": 2
+      },
+      "marginal_b": {
+        "left": 78,
+        "right": 80,
+        "unclear": 2
+      }
+    }
+  },
+  "sha256": {
+    "adjudication_blank.csv": "75584032b37991e8ec85f030cedd53d1cb4697b976603b5ff2c267d08e7a49ad",
+    "adjudication_filled.csv": "39db721e044923ac869a24578bd3e411b706430be1f1f5b2a3a0937232a3bd8a",
+    "candidates.json": "98a2258a94e2361579776010193c409a519e4cb5664cbeacf99e1c65958f1b4a",
+    "duplicate_screen.json": "017fcec325de0e5e0f009bd63acb7d8e4596fab3801ae85b83b8fd47ba1134b3",
+    "final_decisions.json": "715a31fa5771b35fb319164906db5fcf5ce5ab5d185d4c1094277e40c45a855e",
+    "package_manifest.json": "ae53525bc426a5ad7e7628f7f83ae796d915498033d50a15e070502fb61b1eeb",
+    "pre_adjudication_iaa.json": "4bd63d58b053218b6c484abc43ab99b6a6c47bbdb14c4463f62549542b884588",
+    "README.md": "52663dbc314bbee19a580ca57782757fcaa121fe0277df32b5e680c7e410d0fb",
+    "selected.json": "fe03c902795dbd226c5a1f18bc778b2ea01d7bdf350d9196a17b0bdbbfd18387",
+    "unseen_c_blank_RA.csv": "2b004dc201018dbd1c53dc0f09100e04deb62b01121e18bd16f510d42502e206",
+    "unseen_c_blank_RB.csv": "2b004dc201018dbd1c53dc0f09100e04deb62b01121e18bd16f510d42502e206",
+    "unseen_c_filled_RA.csv": "85eea93381023a133ca5abfdd704809c2f9a35df9c4607e6e5852d2582f7bbed",
+    "unseen_c_filled_RB.csv": "09e0da057745ad7bbe7703cefdb52e6fb64aa3ff384f5e5e0ddcf21e4c48142b"
+  }
+}

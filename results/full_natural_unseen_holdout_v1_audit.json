@@ -1,0 +1,9 @@
+{
+  "verified": true,
+  "recomputed_from_scores": true,
+  "review_frozen_before_inference": true,
+  "zero_overlap_with_set_a_b": true,
+  "n_sources": 100,
+  "holistic_2x2": 46.0,
+  "native_2x2": 91.0
+}

@@ -1,0 +1,14 @@
+{
+  "status": "frozen",
+  "frozen_at_utc": "2026-11-25T16:30:34.098588+00:00",
+  "reviewer_id": "R2",
+  "n_items": 100,
+  "accepted_count": 100,
+  "sha256": {
+    "confirmation_100_R2.csv": "50784b3e7ac17f6b1b043ce7cdad29eb3295209d99a63a9c16ef3842c6fc7a94",
+    "confirmation_100_R2_blank.csv": "9a625451ac95d6560b0d9f14a4abaef8c1e4525348fe6d282dd7f6484ab24eb9",
+    "history/received_confirmation_100_R2.csv": "b1724464936d31f5d26fb9a1d4a033bdef66b8f8590e843c52772a6b6b8aa7d4",
+    "package_manifest.json": "6bbc4aa83994e6597dce8567c1b8981a47cd93f9bb7dce35c67667c5ee3cb7c0",
+    "README.md": "4807a428b37211e850133d28e604a0f1b50c5b4d4d4d53f49ac58b85e20722af"
+  }
+}

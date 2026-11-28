@@ -1,0 +1,110 @@
+{
+  "iaa": {
+    "overall_accept": {
+      "n": 160,
+      "raw_agreement_count": 151,
+      "raw_agreement_percent": 94.375,
+      "expected_agreement_percent": 77.56250000000001,
+      "cohens_kappa": 0.7493036211699162,
+      "kappa_defined": true,
+      "marginal_a": {
+        "no": 17,
+        "yes": 143
+      },
+      "marginal_b": {
+        "no": 24,
+        "yes": 136
+      }
+    },
+    "both_objects_visible": {
+      "n": 160,
+      "raw_agreement_count": 153,
+      "raw_agreement_percent": 95.625,
+      "expected_agreement_percent": 89.921875,
+      "cohens_kappa": 0.5658914728682177,
+      "kappa_defined": true,
+      "marginal_a": {
+        "no": 7,
+        "yes": 153
+      },
+      "marginal_b": {
+        "no": 10,
+        "yes": 150
+      }
+    },
+    "class_names_correct": {
+      "n": 160,
+      "raw_agreement_count": 149,
+      "raw_agreement_percent": 93.125,
+      "expected_agreement_percent": 84.390625,
+      "cohens_kappa": 0.5595595595595598,
+      "kappa_defined": true,
+      "marginal_a": {
+        "no": 9,
+        "yes": 151
+      },
+      "marginal_b": {
+        "no": 18,
+        "yes": 142
+      }
+    },
+    "relation_clear": {
+      "n": 160,
+      "raw_agreement_count": 154,
+      "raw_agreement_percent": 96.25,
+      "expected_agreement_percent": 93.9140625,
+      "cohens_kappa": 0.3838254172015402,
+      "kappa_defined": true,
+      "marginal_a": {
+        "no": 7,
+        "yes": 153
+      },
+      "marginal_b": {
+        "no": 3,
+        "yes": 157
+      }
+    },
+    "perceived_relation": {
+      "n": 160,
+      "raw_agreement_count": 158,
+      "raw_agreement_percent": 98.75,
+      "expected_agreement_percent": 48.78125,
+      "cohens_kappa": 0.9755948749237341,
+      "kappa_defined": true,
+      "marginal_a": {
+        "left": 78,
+        "right": 80,
+        "unclear": 2
+      },
+      "marginal_b": {
+        "left": 78,
+        "right": 80,
+        "unclear": 2
+      }
+    }
+  },
+  "summary": {
+    "n_candidates": 160,
+    "annotator_ra": "R3_C",
+    "annotator_rb": "R4_C",
+    "both_accept": 135,
+    "both_reject": 16,
+    "disagreements": 9,
+    "overall_accept_iaa": {
+      "n": 160,
+      "raw_agreement_count": 151,
+      "raw_agreement_percent": 94.375,
+      "expected_agreement_percent": 77.56250000000001,
+      "cohens_kappa": 0.7493036211699162,
+      "kappa_defined": true,
+      "marginal_a": {
+        "no": 17,
+        "yes": 143
+      },
+      "marginal_b": {
+        "no": 24,
+        "yes": 136
+      }
+    }
+  }
+}
